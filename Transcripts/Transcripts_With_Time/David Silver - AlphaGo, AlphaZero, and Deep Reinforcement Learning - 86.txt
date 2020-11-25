@@ -1,0 +1,1215 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ David silver who leads the reinforcement learning research group a deep mind andwas the lead researcher on alphago alpha
+ 0 and co led the Alpha star and Museum efforts and a lot of important work inreinforcement learning in general I
+ believe alpha zero is one of the most important accomplishments in the historyof artificial intelligence and David is
+ one of the key humans who brought alpha zero to life together with a lot ofother great researchers at deep mind
+ he's humble kind and brilliant we were both jet lagged but didn't care and madeit happen
+ it was a pleasure and truly an honor to talk with David this conversation wasrecorded before the outbreak of the
+ pandemic for everyone feeling the medical psychological and financialburden of this crisis I'm sending love
+ your way stay strong or in this together we'll beat this thing this is theartificial intelligence podcast if you
+ enjoy it subscribe on youtube review it with five stars an apple podcast supporton patreon or simply connect with me on
+ Twitter Alex Friedman spelled Fri DM aen as usual I'll do a few minutes of as nowand never any ads in the middle they can
+ break the flow of the conversation I hope that works for you and doesn't hurtthe listening experience quick summary
+ of the ads to sponsors masterclass and cash app please consider supporting thepodcast by signing up to master class
+ and master class comm slash flex and downloading cash app and using code andLex podcast this show is presented by
+ cash app the number one finance app in the App Store when you get it use codeLex podcast cash app lets you send money
+ to friends buy Bitcoin and invest in the stock market with as little as onedollar since cash app allows you to buy
+ Bitcoin let me mention that cryptocurrency in the context of thehistory of money it's fascinating
+ I recommend a cent of money as a great book on this history debits and creditsand Ledger's started around 30,000 years
+ ago the US dollar created over two hundred years ago and Bitcoin the firstdecentralized cryptocurrency at least
+ just over ten years ago so given that history cryptocurrency is still verymuch in its early days of development
+ but it's still aiming to and just might redefine the nature of money so again ifyou get cash out from the App Store or
+ Google Play and use the code let's podcast you getten dollars and cash wrap will also
+ donate ten dollars the first an organization that is helping to advancerobotics and stem education for young
+ people around the world this show is sponsored by masterclassset up a masterclass complex to get a
+ discount and to support this podcast in fact for a limited time now if you signup for an all-access pass for a year you
+ get to get another all-access pass to share with a friend buy one get one freewhen I first heard about masterclass I
+ thought it was too good to be true for one hundred eighty dollars a yearyou get an all-access pass to watch
+ courses from to list some of my favorites Chris Hadfield on spaceexploration Neil deGrasse Tyson on
+ scientific thinking communication will write the creator of SimCity and Sims ongame design jane goodall on conservation
+ Carlos Santana on guitar his song Europa could be the most beautiful guitar songever written
+ garry kasparov on chess daniel negreanu on poker and many many more ChrisHadfield explaining how Rockets work and
+ the experience of being launched into space alone is worth the money for methe keys to not be overwhelmed by the
+ abundance of choice pick three courses you want to complete watch each of themall the way through it's not that long
+ but it's an experience that will stick with you for a long time I promise it'seasily worth the money you can watch it
+ on basically any device once again sign up a master class complex to get adiscount and to support this podcast and
+ now here's my conversation with David silverwhat was the first program you've ever
+ written and what programming language
+
+0:04:14
+Speaker 0 :do you remember I remember very clearly
+ he have my my parents brought home this BBC modeled B microcomputer it was justthis fascinating thing to me I was about
+ seven years old and couldn't resist just playing around with it so I think firstprogram ever was writing my name out in
+ different colors and getting it to loop and repeat that and there was somethingmagical about that which just led to
+
+
+0:04:43
+Speaker 1 :more and more how did you think about
+ computers back then like the magical aspect of it that you can write aprogram and there's this thing that you
+ just gave birth to it's able to creative visual elements and live in its own ordid you not think of it in those
+ romantic notions was it more like oh that's coolI can I can solve some puzzles it was
+
+
+0:05:04
+Speaker 0 :always more than solving puzzles it was
+ something where you know there was this limitless possibilities once you have acomputer in front of you you can do
+ anything with it that's um I used to play with Lego with the same feeling youcan make anything you want out of Lego
+ but even more so with a computer you know you don't you're not constrained bythe amount of kit you've got and so I
+ was fascinated by it and started pulling out there you know the user guide andthe advanced user guide and then
+ learning so I started in basic and then you know later 6502 my father was alsobecame interested in there in this
+ machine and gave up his career to go back to school and study for an amaster's degree in in artificial
+ intelligence funnily enough Essex University when I was when I was sevenso I was exposed to those things at an
+ early age he showed me how to program in Prolog and do things like querying yourfamily tree and those are some of my
+ earlier earliest memories of trying to trying to figure things out on a
+
+0:06:03
+Speaker 1 :computer those are the early steps in
+ computer science programming but when did you first fall in love withartificial intelligence or were the
+ ideas the dreams of AI I think it was
+
+0:06:13
+Speaker 0 :really when I when I went to study at
+ university so I was an undergrad at Cambridge and studying computer scienceand and I really started to question you
+ know what what really are the goals what what's the goal where do we want to gowith with computer science and it seemed
+ to me that the the only step of major significance to take was to try andrecreate something akin to human
+ intelligence if we could do that that would be a major leap forward and thatidea certainly wasn't the first to have
+ it but it you know nestled within me somewhere and and became like a bug youknow I really wanted to to crack that
+
+
+0:06:58
+Speaker 1 :problem so you thought it was like you
+ had a notion that this is something that human beings can do it is possible tocreate an intelligent machine well I
+
+
+0:07:06
+Speaker 0 :mean unless you believe in something
+ metaphysical then what are our brains doing well at some level theirinformation processing systems which are
+ able to take whatever information is in there transform it through some form ofprogram
+ and produce some kind of output which enables that that human being to do allthe amazing things that they can do in
+
+
+0:07:31
+Speaker 1 :this incredible world so so then do you
+ remember the first time you've written a program that because you also had aninteresting games do you remember the
+ first time you were in the program that
+
+0:07:43
+Speaker 0 :beat you in a game said I won't beat you
+
+
+0:07:45
+Speaker 1 :at anything sort of achieved Super David
+ silver level performance so I used to
+
+0:07:52
+Speaker 0 :work in the games industry so for five
+ years I programmed games for my first job so it was a amazing opportunity toget involved in a startup company and so
+ I I was involved in in building AI at that time and so for sure there was asense of building handcrafted what
+ people used to call AI in the games industry which i think is not reallywhat we might think of as AI and its
+ fullest sense but something which is able to to take actions and in a waywhich which makes things interesting and
+ challenging for their for the for the human player and at that time I was ableto build you know these handcrafted
+ agents which in certain limited cases could do things which which were able todo better than me but mostly in these
+ kind of twitch like scenarios where where they were able to do things fasteror because they had some pattern which
+ was able to exploit repeatedly I think if we're talking about real AI the firstexperience for me came after that when I
+ I realized that this path I was on wasn't taking me towards it wasn't itwasn't dealing with that bug which I
+ still had inside me to really understand intelligence and try and and try andsolve it everything people were doing in
+ games was you know short-term fixes rather than long-term vision and so Iwent back to study for my PhD which was
+ fairly enough trying to apply reinforcement learning to the game of goand I built my first go program using
+ reinforcement learning a system which would by trial and error play againstitself and was able to learn
+ which patterns were actually helpful to predict whether it's going to win orlose the game and then choose the moves
+ that led to the combination of patterns that would mean that you're more likelyto win in that system that system beat
+
+
+0:09:50
+Speaker 1 :me how did that make you feel make me
+
+
+0:09:52
+Speaker 0 :feel good I was there as sort of the
+
+
+0:09:55
+Speaker 1 :yeah then is the it's a mix of a sort of
+ excitement and was there a tinge of sort of like almost like a fearful aw youknow it's like in space 2001 Space
+ Odyssey kind of realizing that you've created something that there's you know
+
+0:10:12
+Speaker 0 :
+
+0:10:13
+Speaker 1 :that is that's achieved human level
+ intelligence in this one particular little task and in that case I suppose aneural networks weren't involved there
+
+
+0:10:23
+Speaker 0 :were no neural networks in those days
+ this was pre deep learning revolution but it was a principled self learningsystem based on a lot of the principles
+ which which people are still using in deep reinforcement learning how did Ifeel
+ I I think I found it immensely satisfying that a system which was ableto learn from first principles for
+ itself was able to reach the point that it was understanding this domain betterthan better than I could and able to
+ outwit me I don't think it was a sense of or it was a sense that satisfactionthat this that's something I felt should
+
+
+0:11:07
+Speaker 1 :work had worked so to me alphago and I
+ don't know how else to put it but to me alphago and alpha a girl zero mastery inthe game of girl is again to me the most
+ profound and inspiring moment in the history of artificial intelligence soyou're one of the key people behind this
+ achievement and I'm Russian so I really felt the first sort of seminalachievement one deep blue beat garry
+ kasparov in 1987 so as far as I know the AI community at that point largely sawthe game of Go was unbeatable in AI
+ using the the sort of the state of the art to brute force methods searchmethods even if you consider at least
+ the way I saw it even if you consider arbitraryexponential ski scaling of compute go
+ would still not be solvable hence why it was thought to be impossible so giventhat the game of go was impossible to to
+ master one was the dream for you you just mentioned your PG thesis ofbuilding the system that plays go what
+ was the dream for you that you could actually build a computer program thatachieves world-class not necessarily
+ beat the world champion but I cheesed that kind of level of playing go first
+
+0:12:23
+Speaker 0 :of all thank you that's very kind West
+ and funnily enough I just came from a panel where I was actually in aconversation with Garry Kasparov and
+ Marie Campbell who was the author of deep blue and it was their first meetingtogether since the since the match
+ yesterday so I'm literally fresh from that experience so these are amazingmoments when they happen but where did
+ it all start well for me it started when I became fascinated in the game of go sogo for me I've grown up playing games
+ I've always had a fascination in in in board games I played chess as a kid Iplayed Scrabble as a kid when I was at
+ university I discovered the game of go and and to me it just blew all of thoseother games out of the water it was just
+ so deep and profound in its in its complexity with endless levels to itwhat I discovered was that I could
+ devote endless hours to this game and I knew in my heart of hearts that nomatter how many hours I would devote to
+ it I would never become a you know a grandmaster or there was another pathand the other path was to try and
+ understand how you could get some other intelligence to play this this gamebetter than I would be able to and so
+ even in those days I had this idea that you know what if what if it was possibleto build a program that could crack this
+ and as I started to explore the domain I discovered that you know this was reallythe domain where people felt deeply that
+ if progress could be made and go it really mean a giant leap forward for aI it was the the challenge where all
+ other approaches had failed you know this is coming out of the area youmentioned which was in some sense their
+ the golden era for further classical methods of a I like heuristic search inthe 90s you know they all they all fell
+ one after another not just chess with deep blue but checkers backgammonOthello
+ there were numerous cases where where systems built on top of heuristic searchmethods with you know his
+ high-performance systems have been able to defeat the human world champion ineach of those domains and yet in that
+ same time period there was a million dollar prize available for the game ofgo for the first system to be a human
+ professional player and at the end of that time period in year 2000 when theprize expired the strongest go program
+ in the world was defeated by a nine-year-old child when that nine yearold child was giving 9 free moves to the
+ computer at the start of the game and to try and even things up yeah and computergo X but beat that strongest same
+ strongest program with 29 handicaps tones 29 free moves so that's what thestate of affairs was when I became
+ interested in this problem in around 2000 and 2003 when I I start startedworking computer go there was nothing
+ they were there was just there was very very little in the way of progresstowards meaningful performance again
+ anything approaching human level and so people they it wasn't through lack ofeffort people have tried many many
+ things and so there was a strong sense that that something different would berequired for go than then had been
+ needed for all of these other domains where I had a I had been successful andmaybe the single clearest example is
+ that that go unlike those other domains had this kind of intuitive property thata go player would look at a position and
+ say hey you know here's this mess of black and white stones but from thismess oh I can I can predict that that's
+ this part of the board has become my territory this part of the boards becomeyour territory and I've got this overall
+ sense I'm going to win and this is about theright move to play and that intuitive
+ sense of judgment of being able to evaluate what's going on in a positionit was pivotal to humans being able to
+ play this game and something that people had no idea how to put into computers sothis question of how to evaluate in a
+ position how to come up with these intuitive judgments was the key reasonwhy go was so hard in addition to its
+ enormous search space and the reason why methods which had succeeded so wellelsewhere
+ failed and go and so people really felt deep down that that you know in order tocrack go we would need to get something
+ akin to human intuition and if we got something akin to human intuition we'dbe able to self you know much many many
+ more problems in AI so to me that was the moment where it's like okay this isnot just about playing the game of Go
+ this is about something profound and it was back to that bug which had beenitching me all those years now this is
+ the opportunity to do something meaningful and and transformative andand I guess a dream was born that's a
+
+
+0:17:23
+Speaker 1 :really interesting way to put it almost
+ this realization that you need to find formulate girls are kind of a predictionproblem versus a search problem was the
+ intuition I mean I maybe that's the wrong crude term but the to give it usthe ability to kind of Intuit things
+ about positional structure of the board well okay but what about the learningpart of it did you have a sense that you
+ have to that learning has to be part of the system again something that hasn'treally as as far as I think except with
+ TD Guerin and in the 90s was RL a little bit hasn't been part of thosestate-of-the-art game playing systems so
+
+
+0:18:08
+Speaker 0 :I strongly felt that learning would be
+ necessary and that's why my my PhD topic back then was trying to applyreinforcement learning to the game of CO
+ and not just learning of any type but I felt that the only way to really have asystem to progress beyond human levels
+ of performance wouldn't just be to mimic how humans do it but to understand forthemselves
+ and how else can a machine hope to understand what's going on exceptthrough learning if you're not learning
+ what else are you doing while you're putting all the knowledge into thesystem and that just feels like a
+ something which decades of AI have told us is is maybe not a dead end butcertainly has a ceiling to the
+ capabilities it's known as the you know knowledge acquisition bottleneck thatthere the more you try to put into
+ something the more brittle the system becomes and and so you just have to havelearning you have to have learning
+ that's the only way you're going to be able to get a system which hassufficient knowledge in it you know
+ millions and millions of pieces of knowledge billions trillions of a formthat it can actually apply for itself
+ and understand how those billions and trillions of pieces of knowledge can beleveraged in a way which will actually
+ lead it towards its goal without conflict or or other issues yeah I mean
+
+0:19:26
+Speaker 1 :if I put myself back in there in that
+ time I just wouldn't think like that without a good demonstration of RL Iwould I would think more in the symbolic
+ AI like that though it would not learning but sort of a simulation ofknowledge base like a growing knowledge
+ base but it would still be sort of pattern based lot like basically havelittle rules that you kind of assemble
+ together into a large knowledge base
+
+0:19:55
+Speaker 0 :well in a sense that was the state of
+ the art back then so if you look at the go programs which had been competing forthis prize I mentioned they were an
+ assembly of different specialized systems some of which used huge amountsof human knowledge to describe how you
+ should play the opening how you should all the different patterns that wererequired to to play well in the game of
+ Go endgame Theory combinatorial game theory and combined with more principledsearch based methods which we're trying
+ to solve for particular sub parts of the game like life and deathconnecting groups together all these
+ amazing subproblems that just emerged in the game of Go there were there weredifferent pieces all put together into
+ this like collage which together would try andplay against a human and although not
+ all of the pieces were handcrafted the overall effect was nevertheless stillbrittle and it was hard to make all
+ these pieces work well together and so really what I was pressing for and themain innovation of the approach they
+ took was to go back to first principles and say well let's let's back off thatand try and find a principled approach
+ where the system can learn for itself it just from the outcome like you knowlearn for itself if you try something
+ did that did that help or did it not help and only through that procedure canyou arrive at knowledge which is which
+ is verified the system has to verify it for itself not relying on any otherthird party to say this is right or this
+ is wrong so that principle was already you know very important in those daysbut unfortunately we were missing some
+ important pieces back then so before we
+
+0:21:42
+Speaker 1 :dive into may be discussing the beauty
+ of reinforcement learning let's think it's the back who kind of skippedskipped it a bit but the rules of the
+ game of go what's the the elements of it perhaps contrasting to chess that sortof you really enjoyed as a human being
+ and also that make it really difficult as a a I machine learning problem so the
+
+0:22:12
+Speaker 0 :game of CO was has remarkably simple
+ rules if that's so simple that people have speculated that if we were to meetalien life at some point that we
+ wouldn't be able to communicate with them but we would be able to play hellogo with that probably have discovered
+ the same rule set yeah so the game is played on a on a 19 by 19 grid and youplay on the intersections of the grid
+ and the players take turns and the aim of the game is very simple it's tosurround as much territory as you can as
+ many of these intersections with your stones and just around more than youropponent does and the only nuance to the
+ game is that if you fully surround your opponent's piece then you get to captureit and remove it from the board and it
+ counts as your own territory now from those very simple rules immensecomplexity arises it's kind of profound
+ strategies in how to surround territory how to kind oftrade-off between making solid territory
+ yourself now compared to building up influence that will help you acquireterritory later in the game how to
+ connect groups together how to keep your own groups alive which which patterns ofstones are most useful compared to
+ others there's just immense knowledge and humango players have played this game for it
+ was discovered thousands of years ago and human go players have built up itsimmense knowledge base over over the
+ years it's studied very deeply and played by something like 50 millionplayers across the world mostly in China
+ Japan and Korea where it's a important part of a culture so much so that it'sconsidered one of the four ancient arts
+ that was required by Chinese scholars so there's a deep history there but there's
+
+0:23:51
+Speaker 1 :interesting quality so if I is it a
+ comparative chess chess is in the same way as it is in Chinese culture of agoal in chess in Russia is also
+ considered one of the secret arts so if we contrast sort of go with chess asinteresting qualities about go maybe you
+ can correct me if I'm wrong but the evaluation of a particular static boardis not as reliable like you can't in
+ chess you can kind of assign points to the different units and it's kind of apretty good measure of who's one who's
+ losing it's not so clear yeah so this
+
+0:24:29
+Speaker 0 :game of the HOH you know you find
+ yourself in a situation where both players have played the same number ofstones actually captures a strong level
+ of play happen very rarely which means that any moment in the game you've gotthe same number of white stones and
+ black stones and the only thing which differentiates how well you're doing isthis intuitive sense of you know where
+ are the territories ultimately going to form on this board and when you if youlook at the complexity of a real go
+ position you know it's it's mind boggling that kind of question of whatwill happen in in 300 moves from now
+ when you when you see just a scattering of twenty white and black stonesintermingled and and so that that
+ challenge is the reason why position of valueis so hard in go compared to two other
+ games in addition to that has an enormous search space so there's aroundten to one hundred and seventy positions
+ in the game of go that's an astronomical number and that search spaces is sogreat that traditional heuristic search
+ methods that were so successful and things like deep blue and and chessprograms just kind of fall over and go
+
+
+0:25:36
+Speaker 1 :so a which pointed reinforcement
+ learning enter your life your research life your way of thinking we just talkedabout learning but reinforcement
+ learning is very particular kind of learning one that's both philosophicallysort of profound yeah but also one
+ that's pretty difficult to get to work as if we look back in the earth at leastthe early days so when did that enter
+ your life and how did that work progress
+
+0:26:00
+Speaker 0 :so I had just finished working in the
+ games industry this startup company and I took I took a year out to discover formyself exactly which path I wanted to
+ take I knew I wanted to study intelligence but I wasn't sure what thatmeant at that stage I really didn't feel
+ had the tools to decide on exactly which path I wants to follow so during thatyear I I read a lot and one of the
+ things I read was Saturn Umberto the sort of seminal tech spec are anintroduction to reinforcement learning
+ and when I read that textbook I I just had this resonating feeling that this iswhat I understood intelligence to be and
+ this was the path that I felt would be necessary to go down to make progress inin AI so I got in touch with rich Saturn
+ and asked him if he would be interested in supervising me on a PhD thesis in incomputer go and he he basically said
+ that if he's still alive he'd be happy to but unfortunately he'd been you knowstruggling with very serious cancer for
+ some years and he really wasn't confident at that stage that he'd evenbe around to see the end event but
+ fortunately that part of the story worked out veryhappily and I found myself out there in
+ Alberta they've got a great games group out there with a history of fantasticworking in board games as well as rich
+ that in the father of RL so it was the the natural place for me to go in somesense to study this question and the
+ more I looked into it the more the more strongly ieI felt that this wasn't just the path to
+ progress in computer go but really you know this this was the thing I'd beenlooking for this was really an
+ opportunity to to frame what intelligence means like what does whatare the goals of AI in a clear single
+ clear problem definition such that if we're able to solve that play a singleproblem definition in some sense we've
+ cracked the problem of AI so to you
+
+0:28:21
+Speaker 1 :reinforcement learning ideas at least
+ sort of echoes of it would be at the core of intelligence it is as a core ofintelligence and if we ever create in a
+ human level intelligence system it would be at the core of that kind of system
+
+0:28:36
+Speaker 0 :let me say it this way that I think I
+ think it's helpful to separate out the problem from the solution so I see theproblem of intelligence I would say it
+ can be formalized as the reinforcement learning problem and that thatformalization is enough to capture most
+ if not all of the things that we mean by intelligence that that they can all bebrought within this this this framework
+ and gives us a way to access them in a meaningful way that allows us as asscientists to understand intelligence
+ and us as computer scientists to to build them and so in that sense I feelthat it gives us a path maybe not the
+ only path but a path towards AI and so do I think that any system in the futurethat that's you know sold AI would would
+ have to have RL within it well I think if you ask that you're asking about thesolution methods I would say that if we
+ have such a thing it would be a solution to the RL problem now what particularmethods have been used to get there
+ well we should keep an open mind about the best approaches to actually solveany problem and you know the things we
+ have right now for reinforcement learning maybe maybe then maybe Ibelieve they've got a lot of legs but
+ maybe we're missing some things maybe there's gonna be better ideas I think weshould keep her you know let's remain
+ modest and we're at the early days of this field and and there are manyamazing discoveries ahead of us for sure
+
+
+0:30:05
+Speaker 1 :the specifics especially of the
+ different kinds of our ell approaches currently there could be other thingsthere followed is a very large umbrella
+ of our ell but if it's if it's okay can we take a step back and kind of ask thebasic question of what is to you
+
+
+0:30:22
+Speaker 0 :reinforcement learning so reinforcement
+ learning is the study and the science and the problem of intelligence in theform of an agent that interacts with an
+ environment so the problem is trying to self is represented by some environmentlike the world in which that agent is
+ situated and the goal of RL is clear that the agent gets to take actionsthose actions have some effects on the
+ environment and the environment gives back an observation to the agent sayingyou know this is what you see your sense
+ and one special thing which it gives back is it's called the raw signal howwell it's doing in the environment and
+ the reinforcement learning problem is to simply take actions over time so as to
+
+0:31:06
+Speaker 1 :maximize that reward signal so a couple
+ of basic questions what types of RL approaches are there so I don't know ifthere's a nice brief in words way to
+ paint the picture of sort of value based model based policy based reinforcement
+
+0:31:25
+Speaker 0 :learning yeah so now if we think about
+ okay so there's this ambitious problem definition of RL it's really you knowit's truly ambitious it's trying to
+ capture and encircle all of the things in which an agent interacts with anenvironment and say well how can we
+ formalize and understand what it means to to crack that now let's think aboutthe solution method well how do you
+ solve a really hard problem like that well one approach you can take is is todecompose that that very hard problem
+ into into pieces that work together to solve that hard problemand and so you can kind of look at the
+ decomposition that's inside the agents head if you like and ask well what formdoes that decomposition take and some of
+ the most common pieces that people use when they're kind of putting this systemthe solution method together some of the
+ most common pieces that people use are whether or not that solution has a valuefunction that means is it trying to
+ predict explicitly trying to predict how much reward it will get in the futuredoes it have a representation of a
+ policy that means something which is deciding how to pick actions is is thatdecision-making process explicitly
+ represented and is there a model in the system is there something which isexplicitly trying to predict what will
+ happen in the environment and so those three pieces are to me some of the mostcommon building blocks and I understand
+ the different choices in RL as choices of whether or not to use those buildingblocks when you're trying to decompose
+ the solution you know should I have a value function represented so they havea policy represented should I have a
+ model represented and there are combinations of those pieces and ofcourse other things that you could add
+ to add into the picture as well but those those three fundamental choicesgive rise to some of the branches of RL
+ with which we're very familiar and so
+
+0:33:08
+Speaker 1 :those as you mentioned there is the
+ choice of what's specified or modeled explicitly and the idea is that all ofthese are somehow implicitly learned
+ within the system so it's almost a choice of how you approach a problem doyou see those as fundamental differences
+ or these almost like small specifics like the details of how you saw theproblem but they're not fundamentally
+
+
+0:33:39
+Speaker 0 :different from each other I think the
+ the fundamental idea is is maybe at the higher level the fundamental idea is thefirst step of the decomposition is
+ really to say well how are we really going to solve any kind of problem whereyou're trying to figure out how to take
+ actions and just from a stream of observations you know you've got someagents situated it's sensory motor
+ stream and getting all these observations here and getting to takethese actions and and what should it do
+ how can even broach that problem you know methe complexity of the world is so great
+ that you can't even imagine how to build a system that would that wouldunderstand how to deal with that and so
+ the first step of this decomposition is to say well you have to learn the systemhas to learn for itself and so note that
+ the reinforcement learning problem doesn't actually stipulate that you haveto learn but you could maximize your
+ awards without learning it would just say wouldn't do a very good job eventyes so learning is required because it's
+ the only way to achieve good performance in any sufficiently large and complexenvironment so so that's the first step
+ so that step give commonality to all of the other pieces because now you mightask well what should you be learning
+ what is learning even mean you know in this sense you know learning might meanwell you're trying to update the
+ parameters of some system which is then the thing that actually picks theactions and and those parameters could
+ be representing anything they could be parameterizing a value function or amodel or a policy and so in that sense
+ there's a lot of commonality in that whatever is being represented there isthe thing which is being learned and
+ it's being learned with the ultimate goal of maximizing rewards but but theway in which you decompose the problem
+ is is is really what gives the semantics to the whole system like are you tryingto learn something to predict well like
+ a value function or a model are you learning something to perform well likea policy and and the form of that
+ objective like it's kind of giving the semantics to the system and so it reallyis at the next level down a fundamental
+ choice and we have to make those fundamental choices a system designersor enable are our algorithms to be able
+ to learn how to make those choices for
+
+0:35:49
+Speaker 1 :themselves so then the next step you
+ mentioned the very for the very first thing you have to deal with is can youeven take in this huge stream of
+ observations and do anything with it so the natural next basic question is whatis the what is deep reinforcement
+ learning and what is this idea of using neural networks to deal with this huge
+
+0:36:13
+Speaker 0 :incoming stream so amongst all the
+ approaches for reinforcement learning deep reinforcement learning is onefamily of solution
+ feds that tries to utilize powerful representations that are offered byneural networks to represent any of
+ these different components of the solution of the agent like whether it'sthe value function or the model or the
+ policy the idea of deep learning is to say well here's a powerful tool kitthat's so powerful that it's Universal
+ in the sense that it can represent any function and it can learn any functionand so if we can leverage that
+ universality that means that whatever whatever we need to represent for ourpolicy or offer a value function or for
+ a model deep learning can do it so that deep learning is is one approach thatoffers us a toolkit that is has no
+ ceiling to its performance that as we start to put more resources into thesystem or more memory and more
+ computation and more more data more experience of more interactions with theenvironment that these are systems that
+ can just get better and better and better at doing whatever the job isthey've asked them to do whatever we've
+ asked that function to represent it can learn a function that does a better andbetter job of representing that that
+ knowledge whether that knowledge be estimating how well you're going to doin the world the value function whether
+ it's going to be choosing what to do in the world a policy or it's understandingthe world itself what's going to happen
+
+
+0:37:47
+Speaker 1 :next the model nevertheless the the the
+ fact that neural networks are able to learn incredibly complex representationsthat allow you to do the policy the
+ model or the value function is at least to my mind exceptionally beautiful andsurprising like what was it is it
+ surprising was it surprising to you can you still believe it works as well as itdoes do you have good intuition about
+ why it works at all and works as well as
+
+0:38:16
+Speaker 0 :it does I think let me take two parts to
+ that question I think it's not surprising to me that the idea ofreinforcement learning works because in
+ some sense I think it's the I feel it's the onlywhich can ultimately and so I feel we
+ have to we have to address it and there must be success is possible because wehave examples of intelligence and it
+ must at some level be able to possible to acquire experience and use thatexperience to to do better in a way
+ which is meaningful to environments of the complexity that humans can deal withit must be am I surprised that our
+ current systems can do as well as they can do I think one of the big surprisesfor me and a lot of the community it's
+ really the fact that deep learning can continue to perform so well despite thanthe fact that these neural networks that
+ they're representing have these incredibly nonlinear kind of bumpysurfaces which two are kind of low
+ dimensional intuitions make it feel like surely you're just going to get stuckand learning will get stuck because you
+ won't be able to make any further progress and yet the big surprise isthat learning continues and and these
+ what appear to be local Optima turned out not to be because in high dimensionswhen we make really big neural nets
+ there's always a way out and there's a way to go even lower and then he's stillnot another local Optima because there's
+ some other pathway that will take you out and take you lower still and so nomatter where you are learning can
+ proceed and do better and better and breath better without bound and so thatis a surprising and beautiful property
+ of neural nets which I find elegant and beautiful and and somewhat shocking thatit turns out to be the case as you said
+
+
+0:40:21
+Speaker 1 :which I really like to our low
+ dimensional intuitions that's surprising
+
+0:40:28
+Speaker 0 :yeah yeah we're very we're very tuned to
+ working within a three-dimensional environment and so to start to visualizewhat a billion dimensional neural
+ network um surface that you're trying to optimize over what that even looks likeis very hard for us and so I think that
+ really if you try to account for the essentially the AI winter wherewhere people gave up on Yule networks I
+ think it's really down to that that lack of ability to generalize from from lowdimensions to high dimensions because
+ back then we were in the low dimensional case people could only build neural netswith you know 50 nodes in them or
+ something and to to imagine that it might be possible to build a billiondimension on your net and it might have
+ a completely different qualitatively different property was very hard toanticipate and I think even now we're
+ starting to build the the theory to support that and and it's incomplete atthe moment but all of the theory seems
+ to be pointing in the direction that indeed this is an approach which whichtruly is universal both in its
+ representational capacity which was known but also in its learning abilitywhich is which is surprising and it
+
+
+0:41:41
+Speaker 1 :makes one wonder what else were missing
+ yes for a low demand intuitions yet there will seem obvious once it's
+
+0:41:50
+Speaker 0 :discovered I often wonder you know when
+ we one day do have a eyes which are superhuman in their abilities to tounderstand the world what will they
+ think of the algorithms that we developed back now will it be you knowlooking back at these these days and you
+ know and and and thinking that well will we look back and feel that thesealgorithms were were naive faire steps
+ or will they still be the fundamental ideas which are used even in 100thousand 10,000 years yeah Nels and I
+
+
+0:42:26
+Speaker 1 :they'll they'll watch back to this
+ conversation and I would the smile maybe a little bit of a laugh I mean my sensesI think it just like on we used to think
+ that the Sun revolved around the earththey'll see our systems of today in
+ reinforcement learning as too complicated that the answer was simpleall along there's something I just just
+ think you said in a game of Go I mean I love those systems of like cellularautomata that there's simple rules from
+ which incredible complexity emerges so it feels like there might be some verysimple approaches just like where Sutton
+ says right these simple methods or with compute over time seem to prove to be
+
+0:43:20
+Speaker 0 :the most effective I 100% agree I think
+ that if we try to anticipate what will generalize well into the future I thinkit's likely to be the case that it's the
+ simple clear ideas which will have the longest legs and walked or carry usfarthest into the future nevertheless
+ we're in a situation where we need to make things work day and today andsometimes that requires putting together
+ more complex systems where we don't have the the full answers yet as to whatthose minimal ingredients might be so
+
+
+0:43:51
+Speaker 1 :speaking of which if we could take us
+ their bag to go what was Mogo and what was the key idea behind this system so
+
+0:43:59
+Speaker 0 :back during my PhD on computer go around
+ about that time there was a major new development in in which actuallyhappened in the context of computer go
+ and and it was really a revolution in the way that heuristic search was wasdone and and the idea was essentially
+ that a position could be evaluated or a state in general could be evaluated notby humans saying whether that position
+ is good or not or even humans providing rules as to how you might evaluate itbut instead by allowing the system to
+ randomly play out the game until the end multiple times and taking the average ofthose outcomes as the prediction of what
+ will happen so for example if you're in the game of go the intuition is that youtake a position
+ and you get the system to kind of play random moves against itself all the wayto the end of the game and you see who
+ wins and if black ends up winning more of those random games than white wellyou say hey this is a position that
+ favors white and if white ends up winning more of those random games thanblack then it favors white so that idea
+ was known as Monte Carlo search and a particular form of Monte Carlo searchthat became very effective and was
+ developed in computer go first by Remy Coulomb in 2006 and then taken furtherby others was something called Monte
+ Carlo tree search which basically takes that same idea and uses that thatinsight to evaluate every node of a
+ search tree is evaluated by the average of the random play outs from that fromthat node onwards and this idea was very
+ powerful and suddenly led to huge leaps forward in the strength of computer goplaying programs and among those the the
+ strongest of the go playing programs in those days was a program called Mogowhich was the first program to actually
+ reach human master level on small boards nine by nine boards and so this was aprogram by someone called Sylvan jelly
+ he was a good colleague of mine but I worked with him a little bit in thosedays of my PhD thesis and Mogo was a a
+ first step towards the latest successes we saw and computer go but it was stillmissing a key ingredient
+ Mogo was evaluating purely by random rollouts against itself and in a wayit's it's truly remarkable that random
+ play gives you anything at all yeah like how why why in this perfectlydeterministic game that's very precise
+ and involves these very exact sequences why is it that that random randomizationis helpful and so the intuition is that
+ randomization captures something about the the nature of the of the search treethat from a position that you're you're
+ understanding the nature of the search tree from that node onwards by by byusing randomization and this was a very
+ powerful idea
+
+0:47:08
+Speaker 1 :and I've seen this in other spaces talk
+ to the virtual carpet and so on randomized algorithms somehow magicallyare able to do exceptionally well and
+ and simplifying the problem somehow makes you wonder about the fundamentalnature of randomness in our universe it
+ seems to be a useful thing but so from that moment can you maybe tell theorigin story in the journey of alphago
+
+
+0:47:35
+Speaker 0 :yeah so programs based on Monty College
+ research were a first revolution in the sense that they led to suddenly programsthat could play the game to any
+ reasonable level but they they plateaued it seemed that no matter how much effortpeople put into these techniques they
+ couldn't exceed the level of amateur Dan level go players so strong players butnot not anywhere near the level of
+ professionals never mind the world champion and so that brings us to thebirth of alphago which happened in the
+ context of a startup company known as deep mind or where them where a projectwas born and the project was really a
+ scientific investigation where myself and a jipang and an intern Chris Madisonwere exploring a scientific question and
+ that scientific question was really is there another fundamentally differentapproach to to this key question of Goa
+ the key challenge of how can you build that intuition and how can you just havea system that could look at a position
+ and understand what moved to play or or how well you're doing in that positionwho's going to win and so the deep
+ learning Revolution had just begun their systems like imagenet had suddenly beenwon by deep learning techniques back in
+ 2012 and following that it was natural to ask well you know if if deep learningis able to scale up so effectively with
+ images to to understand them enough to to classify them well why not go why whynot take a the black and white stones of
+ the NGO board and build some a system which can understand for itself whatthat means in terms of what moved to
+ pick or who's going to win the game black or white and so that was ourscientific question which we we were
+ probing and trying to understand and as we started to look at it we discoveredthat we could build a a system so in
+ fact our very first paper on alphago was actually a pure deep learning systemwhich was trying to answer this question
+ and we showed that actually a pure deep learning system with no search at allwas actually able to reach human van
+ level master level at the full game of go 19 by 19 boards and so without anysearch at all suddenly we had systems
+ which were playing at the level of the best Monte Carlo tree search systems theones with randomized rollouts so first
+
+
+0:50:11
+Speaker 1 :I'm sorry to interrupt but there's kind
+ of a groundbreaking notion let's say that's like basically a definitive stepaway from the a couple of decades of
+ essentially search dominating AI yeah so what how do them make you feel would youthat was a surprising from a scientific
+ perspective in general how to make you
+
+0:50:33
+Speaker 0 :feel I I found this to be profoundly
+ surprising in fact it was so surprising that that we had a bet back then andlike many good projects you know bets
+ are quite motivating and Anna bet was you know whether it was possible for asystem
+ purely on on deep learning no search at all to beat a Dan level human player andso we had someone who joined our team
+ who was a damn level player he came in and and we had this first match against
+
+0:51:06
+Speaker 1 :him and we turned the bit where you want
+ by the way do you handle losing and they
+
+0:51:09
+Speaker 0 :were in except I tend to be an optimist
+ with the with the power of of deep learning and reinforcement learning sothe system won and we were able to beat
+ this human Dan level player and for me that was the moment where where it'slike okay something something special is
+ afoot here we have a system which without search is able to to alreadyjust look at this position and
+ understand things as well as a strong human player and from that point onwardsI really felt that reaching that
+ reaching the top levels of human play you know professional level worldchampion level I felt it was actually an
+ inevitability and and if it was an inevitable outcomeI was rather keen it would be us that
+ achieve it so we scaled up this was something where you know so I had lotsof conversations back then with demo so
+ service that the head of deepmind who was extremely excited and we we made thedecision to to scale up the project
+ brought more people on board and and so alphago became something where where wewe had a clear goal which was to try and
+ crack this outstanding challenge of AI to see if we could beat the world's bestplayers and this led within the space of
+ not so many months to playing against the European champion fan way in a matchwhich became you know memorable in
+ history is the first time a go program would ever beated a a professionalplayer and at that time we had to make a
+ judgment as to whether when and and whether we should go and challenge theworld champion and and this was a
+ difficult to make again we were basing ourpredictions on on our own progress and
+ had to estimate based on the rapidity of our own progress when we thought wewould exceeds the level of the human
+ world champion and and we tried to make an estimate and set up a match and thatbecame the the alphago versus Lisa dolls
+ match in 2016 and we should say spoiler
+
+0:53:26
+Speaker 1 :alert that alphago was able to defeat
+
+
+0:53:32
+Speaker 0 :Lisa doll that's right yeah so maybe a
+
+
+0:53:35
+Speaker 1 :could take even a broader view
+ alphago involves both learning from expert games and as far as I remember aself play component - where he learns by
+ playing guess himself but in your sense what was the role of learning fromexperts there and in terms of your self
+ evaluation whether you can take on the world champion what was the thing thatthey're trying to do more of sort of
+ train more on expert games or was there's now another I'm asking so manypoorly faced questions but did you have
+ a hope a dream that self play would be the key component at that moment yet so
+
+0:54:23
+Speaker 0 :in the early days of alphago we we used
+ human data to explore the science of what deep learning can achieve and sowhen we had our first paper that showed
+ that it was possible to predict the winner of the game that it was possibleto suggest moves that was done using
+ human data of solely human did yes and and and and so the reason that we did itthat way was at that time we were
+ exploring separately the deep learning aspect fromthe reinforcement learning aspect that
+ was the part which was which was new and unknown to me at that time was how farcould that be stretched once we had that
+ it then became natural to try and use that same representation and see if wecould learn for ourselves using that
+ same representation and so right from the beginning actually our goal had beento build a system using self play and to
+ us the human data right from the beginning wasan expedient step to help us for
+ pragmatic reasons to go faster towards the goals of the project then we mightbe able to starting solely from self
+ play and so in those days we were very aware that we were choosing to to usehuman data and that might not be the
+ long-term holy grail of AI but that it was something which was extremely usefulto us it helped us to understand the
+ system helped us to build deep learning representations which were clear andsimple and easy to use and so really I
+ would say it's it served a purpose not just as part of the algorithm butsomething which I continued to use in
+ our research today which is trying to break down a very hard challenge intopieces which are easier to understand
+ for us as researchers and develop so if you if you use a component based onhuman data it can help you to understand
+ the system such that then you can build the more principled version later thatdoes it for itself so as I said the
+
+
+0:56:15
+Speaker 1 :alphago victory and I don't think I'm
+ being sort of romanticizing this notion I think is one of the greatest momentsin the history of AI
+ so were you cognizant of this magnitude of the accomplishment at the time I meanwe are you cognizant of it even now
+ because to me I feel like it's something that would we mentioned what the AGIsystems of the future will look back I
+ think they'll look back at the alphago tree as like holy crap they figured itout this is where this is where the
+
+
+0:56:51
+Speaker 0 :started well thank you again I mean it's
+ funny because I guess I've been working on I've been working on computer go fora long time so I've been working at the
+ time at the alphago match on computer go for more than a decade and throughoutthat decade I'd had this dream of what
+ would it be like - what would it be like really - to actually be able to build asystem that could play against the world
+ champion and and I imagined that that would be an interesting moment thatmaybe you know some people might care
+ about that and that this might be you know a nice achievement but I think whenI arrived in in Seoul and discovered the
+ legions of that were following us around and 100million people that were watching the
+ match online life I realized that I had been off in my estimation of howsignificant this moment was by several
+ orders of magnitude and so there was definitely an adjustment process to torealize that this this was something
+ which the world really cared about and which was a watershed moment and I thinkthere was that moment of realization it
+ was also a little bit scary because you know if you go into something thinkingit's going to be may be of interest and
+ then discover that 100 million people are watching it suddenly makes you worryabout whether some of the decisions
+ you've made where really they're the best ones or the wisest or we're goingto lead to the best outcome and we knew
+ for sure that there were still imperfections in alphago which weregoing to be exposed to the whole world
+ watching and so yeah it was a it was I think a great experience and I I feelprivileged to have been part of it
+ privileged to have led that amazing team I feel privileged to have been in amoment of history like you say but also
+ lucky that you know in a sense I was insulated from from the knowledge of Ithink it would have been harder to focus
+ on the research if the full kind of reality of what was going to come topass her had been known to me and the
+ team I think it was you know we were we were in our bubble and we were workingon research and we were trying to answer
+ the scientific questions and then BAM you know the public sees it and and Ithink it was it was it was better that
+ way in retrospect were you confident did
+
+0:59:07
+Speaker 1 :I guess what were the chances that you
+ could get the win so just like you said I'm a little bit more familiar withanother accomplishment that we may not
+ even get a chance to talk to I talked to us about Alpha star which is anotherincredible accomplishment but here you
+ know with alpha star and beating the Starcraft there was like already a trackrecord with alphago there this is like
+ the really first time you get to see reinforcement learningface the best humour in the world so
+ what was your confidence like what was the odds
+
+0:59:43
+Speaker 0 :well we actually was there a bit but
+ funnily enough there was so so just before the matchwe weren't betting on anything concrete
+ but we all held out a hand everyone in the team held out her hand at beginningof the match and the number of fingers
+ that they had out on the hand was supposed to represent how many gamesthey thought we would win
+ I guess Lisa doll and there was an amazing spread in there in the team'spredictions but I have to say I
+ predicted four one and and the reason was based purely on on data so I'm ascientist first and foremost and one of
+ the things which we had established was thatalphago in around 1 in 5 games would
+ develop something which we called a delusion which was a kind of inner holein its in its knowledge where it wasn't
+ able to fully understand everything about the position and that that holeand its knowledge would persist for tens
+ of moves throughout the game and we knew two things we knew that if there were nodelusions that alphago seemed to be
+ playing at a level that was far beyond any human capabilities but we also knewthat if there were delusions the office
+ it was true and and and in fact you know that's that's what came to pass we sawwe saw all of those outcomes and Lisa
+ doll in in one of the games played a really beautiful sequence that that thatalphago just hadn't predicted and after
+ that it it led it into this situation where it was unable to really understandthe position fully and and and found
+ itself in one of these these delusions so so indeed yeah for one was the
+
+1:01:20
+Speaker 1 :outcome so yeah and can you maybe speak
+ to it a little bit more what were the five games like what what happened isthere interesting things that they come
+ to memory in terms of the play of the
+
+1:01:33
+Speaker 0 :human machine so I remember all of these
+ games vividly of course you know moments like these don't come too often in thelifetime of her of her scientist and the
+ the first game was was magical because it was the first time that a computerprogram had defeated a world champion in
+ this Grand Challenge of go and and there was a moment where where alphago invadedLisa dolls
+ territory towards the end of the game and and that's quite an audacious thingto do it's like saying hey you thought
+ this was gonna be your territory in the game but I'm going to stick a stoneright in the middle of it and and and
+ prove to you that I can break it up and Lisa dolls face just dropped he wasn'texpecting a computer to to do something
+ that audacious the second game became famous for a move known as move 37 thiswas a move that was played by alphago
+ that was broke all of the conventions of go that the go players were so shockedby this they they they thought that
+ maybe the operator had made a mistake they they thought that there's somethingcrazy going on and and it just broke
+ every rule that go players are taught from a very young age they just taughtyou know you this kind of move called
+ the shoulder hit you you you can only play it on the third line or the fourthline and alphago played out in the fifth
+ line and and it turned out to be a brilliant move and made this beautifulpattern in the middle of the board that
+ ended up winning the game and so this really was a clear instance where wecould say computers exhibited creativity
+ that this was really a move that was something humans hadn't known abouthadn't anticipated and computers
+ discovered this idea they they were the ones to say actually you know here's anew idea something new not not in the
+ domains of human knowledge of the game and and and now the humans think this isa reasonable thing to do and and it's
+ part of go knowledge now the third game something special happens when you playagainst a human world champion which
+ again I hadn't anticipated before going there which is you know these theseplayers are amazing Lisa Dahl was a true
+ champion eighteen time world champion and had this amazing ability to to probealphago fer for weaknesses of any kind
+ and in the third game he was losing and we felt we were sailing comfortablyto victory but he managed to from
+ nothing stir up this fight and build what's called a double ko these kind ofrepetitive positions and he knew that
+ historically no no computer go program had ever been able to deal correctlywith double code positions and he
+ managed to summon one out of out of nothing and so for us you know this wasthis was a real challenge like would
+ alphago be able to deal with this or would it just kind of crumble in theface of this situation and fortunately
+ it dealt with it perfectly the force game was was amazing in that Lisa dollappeared to be losing this game alphago
+ thought it was winning and then Lisa doll did something which I think only atrue world champion can do which is he
+ found a brilliant sequence in the middle of the game a brilliant sequence thatled him to really just transform the
+ position it kind of it it he found it's just a piece of genius reallyand after that alphago
+ it's it's evaluation just tumbled it thought it was winning this game and allof a sudden it tumbled and said oh now
+ I've got no chance and it starts to behave rather oddly at that point in thefinal game for some reason we as a team
+ were convinced having seen alphago in the previous game suffer from delusionswe as a team were convinced that it was
+ suffering from another delusion we were convinced that it was miss evaluatingthe position and that something was
+ going terribly wrong and it was only in the last few moves of the game that werealized that actually although it had
+ been predicting it was going to win all the way through it really was and and sosomehow you know it just taught us yet
+ again that you have to have faith in in your systems when they when they exceedyour own level of ability in your own
+ judgment you have to trust in them too to know better than the new the designeronce you've you've stowed in them the
+ ability to to judge better than you can then trust the system to do so so just
+
+1:06:12
+Speaker 1 :looking in case of deep blue beating
+ Garry Kasparov so get garrus is I think the first timehe's ever lost actually to anybody and I
+ mean there's a similar situation loose at all it's uh it's a tragic it's atragic loss for humans but a beautiful
+ one I think that's kind of from the tragedy sort of emerges over timeemerges the kind of inspiring story but
+ Lisa Dahl recently announced his retirement I don't know if we can looktoo deeply into it but he did say that
+ even if I become number one there's an entity that cannot be defeated so whatdo you think about these words what do
+ you think about his retirement from the
+
+1:07:07
+Speaker 0 :game ago well let me take you back first
+ of all to the first part of your comment about Garry Kasparov because actually atthe panel yesterday he specifically said
+ that when he first lost a deep-blue he he viewed it as a failure he viewedthat this this had been a failure of his
+ but later on in his career he said he'd come to realize that actually it was asuccess it was a success for everyone
+ because this marked a transformational moment for AI and so even for Kip GarryKasparov he came to realize at that
+ moment was was was pivotal and actually meant something much more than then youknow his personal loss in that moment
+ Lisa doll I think was a much more cognizant of that even at the time so inhis closing remarks to the match he
+ really felt very strongly that what had happened and the alphago match was notonly meaningful for AI but for humans as
+ well and he felt as a go player that it had opened his horizons and meant thathe could start exploring new things it
+ brought his joy back for the game of go because it broken all of the conventionsand barriers and meant that you know
+ suddenly suddenly anything was possible again and so you know I was sad to hearthat he'd retired but you know he's been
+ a great a great world champion over many many yearsand I think you know that he'll be he'll
+ be remembered for that evermore he'll be remembered as the last person to to beatalphago I mean after after that we
+ increased the power of the system and and the next version of alphago beatsthe the other strong human players 60
+ games to nil so you know what a great moment for him and something to beremembered for
+
+
+1:08:57
+Speaker 1 :it's interestingly you spent time at
+ triple AI on a panel with Garry Kasparov what I mean it's almost just curious tolearn the conversations you've had with
+ Garry and the because he's also now he's written a book about artificialintelligence he's thinking about AI he
+ has kind of a view of it and he talks about alphago a lot what what's yoursense be arguably I'm not just being
+ Russian but I think Gary is the greatest chess player of all time the probablyone of the greatest game players of all
+ time and you sort of at the center of creating a system that beats one of thegreatest players of all time
+ so what's that conversation like is there anything yeah any interesting digsany bets and you come and you find new
+ things and you profound things so Gary
+
+1:09:53
+Speaker 0 :Kasparov has an incredible respect for
+ what we did with alphago and you know it's it's an amazing tribute coming fromfrom him of all people that he really
+ appreciates and respects what what we've done andI think he feels that the progress which
+ was happened in in computer chess which later after alphago we we built thealpha zero system which defeated the the
+ world's strongest chess programs and to Garry Kasparov that moment in computerchess was more profound than than than
+ deep blue and the reason he believes it mattered more was because it was donewith with learning and a system which
+ was able to discover for itself new principles new ideas which were able toplay the game in a in a in a way which
+ he hadn't always known about or anyone and in fact one of the things Idiscovered at this panel was that the
+ current world champion Magnus Carlsen apparently recently commented on hisimprovement in performance and he
+ attributes it to alpha zero that he's been studying the games of alpha zeroand he's changed his style play more
+ like alpha zero and it's led to him actually increasing his his his ratingto a new peak yeah I guess to me just
+
+
+1:11:15
+Speaker 1 :like to Gary the inspiring thing is that
+ and just like you said with reinforcement learning reinforcementlearning and deep learning machine
+ learning feels like what intelligence is yeah and you know you could attribute itto sort of a bitter viewpoint from
+ Gary's perspective from us humans perspective saying that sir pure searchthat IBM do Blue was doing is not really
+ intelligence but somehow it didn't feel like it and so that's the magical I'mnot sure what it is about learning that
+ feels like intelligence but it but it
+
+1:11:53
+Speaker 0 :does so I think we should not demean the
+ achievements of what was done in previous eras of AI I think that deepblue was an amazing achievement in
+ itself and that heuristic search of the kind that was used by deep blue had somepowerful ideas that were in there but it
+ also missed some things so so the fact that the that the evaluation functionthe way that the chess position was
+ understood was created by humans and not by the machine is a limitation whichmeans that there's a ceiling on how well
+ it can do but maybe more importantly it meansthe same idea cannot be applied in other
+ domains where we don't have access to the kind of human Grand Master's andthat ability to kind of encode exactly
+ their knowledge into an evaluation function and the reality is that thestory of AI is that you know most
+ domains turn out to be of the second type where when knowledge is messy it'shard to extract from experts or it isn't
+ even available and so so we need to solve problems in a different way and Ithink alphago is a step towards solving
+ things in a way which which puts learning as first-class citizen and sayssystems need to understand for
+ themselves how to understand the world how to judge their the value of anyaction that they might take within that
+ world in any state they might find themselves in and in order to do that wewe make progress towards AI yeah so one
+
+
+1:13:29
+Speaker 1 :of the nice things about this about
+ taking a learning approach to the game of Go game playing is that the thingsyou learn the things you figure out are
+ actually going to be applicable to other problems there are real-world problemsthat's so that's ultimately I mean
+ there's two really interesting things about alphago one is the science of itjust the science of learning the science
+ of intelligence and then the other is all you're actually learning to figuringout how to build systems that would be
+ potentially applicable in in other applications medical autonomous vehiclesrobotics all I mean it's just open the
+ door to all kinds of applications so the next incredible step right really theprofound step is probably alphago zero I
+
+
+1:14:18
+Speaker 0 :
+
+1:14:19
+Speaker 1 :mean it's arguable I kind of see them
+ all as the same place but really in perhaps you were already thinking thatalphago zeros the natural it was always
+ going to be the next step but it's removing the reliance on humanexpert games for pre-training as you
+ mentioned so how big of an intellectual leap was this that that self play couldachieve superhuman level performance
+ it's on and maybe could you also say what is self play we kind of mentioned a
+
+1:14:51
+Speaker 0 :few times but so let me start with self
+ play so the idea of self play is something which is really about systemslearning for themselves but in the
+ situation where there's more than one agent and so if you're in a game and agame is a played between two players
+ then self play is really about understanding that game just by playinggames against yourself rather than
+ against any actual real opponent and so it's a way to kind of um discoverstrategies without having to actually
+ need to go out and play against any particular human player for example themain idea of alpha zero was really to
+ you know try and step back from any of the knowledge that we'd put into thesystem and ask the question is it
+ possible to come up with a single elegant principle by which a system canlearn for itself all of the knowledge
+ which it requires to play to play a game such as go importantly by takingknowledge out you not only make the
+ system less brittle in the sense that perhaps the knowledge you were puttingin was was just getting in the way and
+ maybe stopping the system learning for itself but also you make it more generalthe more knowledge you put in the harder
+ it is for a system to actually be placed taken out of the system in which it'skind of been designed and placed in some
+ other system that maybe would need a completely different knowledge base toto understand and perform well and so
+ the real goal here is to strip out all of the knowledge that we put in to thepoint that we can just plug it into
+ something totally different and that to me is really you know the the promise ofAI is that we can have systems such as
+ that which you know no matter what the goal is no matter what goal we set tothe system we can come up with we have
+ an algorithm which can be placed into that world into that andand can succeed in achieving that goal
+ and then that that's to me is almost the the essence of intelligence if we canachieve that and so alpha zero is a step
+ towards that and it's a step that was taken in the context of two-playerperfect information games like go and
+ chess we also applied it to Japanese
+
+1:17:21
+Speaker 1 :chess so just to clarify the first step
+
+
+1:17:25
+Speaker 0 :was alphago zero the first step was to
+ try and take all of the knowledge out of alphago in such a way that it could playin a in a fully self discovered way
+ purely from self play and to me the the motivation for that was always that wecould then plug it into other domains
+ but we saved that bat until later well in in fact I mean just for fun I couldtell you exactly the moment where where
+ the idea for alpha zero occurred to me because I think there's maybe a lessonthere for for researchers who kind of
+ too deeply embedded in their in their research and you know working 24/7 totry and come up with the next idea which
+ is actually occurred to me on honeymoon like it's my most fully relaxed statereally enjoying myself and and just
+ being this like the algorithm for alpha zero just appeared I come and in in itsfull form and this was actually before
+ we played against Lisa doll but we we just didn't I think we were so busytrying to make sure we could beat the
+ the world champion that it was only later that we had the the opportunity tostep back and start examining that that
+ sort of deeper scientific question of whether this could really work so
+
+1:18:52
+Speaker 1 :nevertheless so soft play is probably
+ one of the most profound ideas that represents to me at least artificialintelligence but the fact that you could
+ use that kind of mechanism to again be moreglass players that's very surprising so
+ we kind of to be it feels like you have to train in a large number of expertgamer so was it surprising to you what
+ was the intuition can you sort of think not necessarily at that time even nowwhat's your intuition why this thing
+ works so well why I was able to learn
+
+1:19:31
+Speaker 0 :from scratch well let me first say why
+ we tried it so we tried it both because I feel that it was the deeper scientificquestion to to be asking to make
+ progress towards AI and also because in general in my research I don't like todo research on questions for which we
+ already know the likely outcome I don't see much value in running an experimentwhere you're 95% confident that that you
+ will succeed and so we could have tried you know maybe to to take alphago and dosomething which we we knew for sure it
+ would succeed on but much more interesting to me was to try try it onthe things which we weren't sure about
+ and one of the big questions on our minds back then was you know could youreally do this with self play alone how
+ far could that go would it be as strong and honestly we weren't sure yeah it was50/50 I think you know we I really if
+ you'd asked me I wasn't confident that it could reach the same level as thesesystems but it felt like the right
+ question to ask and even if even if it had not achieved the same level I feltthat that was an important direction to
+ be studying and so then lo and behold it actually ended up outperforming theprevious version of of alphago and
+ indeed was able to beat it by 100 games to zero so what's the intuition as to asto why I think that the intuition to me
+ is clear that whenever you have errors in a in a system as we did in alphagoalphago suffered from these delusions
+ occasionally it would misunderstand what was going on in a position and missevaluate it how can how can you remove
+ all of these these errors errors arise from many sources for us they werearising both from you know it started
+ from the human data but also from there from the nature of the searchand the nature of the algorithm itself
+ but the only way to address them in any complex system is to give the system theability to correct its own errors it
+ must be able to correct them it must be able to learn for itself when it's doingsomething wrong and correct for it and
+ so it seemed to me that the way to correct delusions was indeed to havemore iterations of reinforcement
+ learning that you know no matter where you start you should be able to correctthose errors until it gets to play that
+ out and understand oh well I thought that I was going to win in thissituation but then I ended up losing
+ that suggests that I was miss evaluating something there's a hole in my knowledgeand now now the system can correct for
+ itself and and understand how to do better now if you take that same ideaand trace it back all the way to the
+ beginning it should be able to take you from no knowledge from completely randomstarting point all the way to the
+ highest levels of knowledge that you can achieve in in a domain and the principleis the same that if you give if you
+ bestow a system with the ability to correct its own errors then it can takeyou from random to something slightly
+ better than random because it sees the stupid things that the random is doingand it can correct them and then it can
+ take you from that slightly better system and understand what what's thatdoing wrong and it takes you on to the
+ next level and the next level and and this progress it can go on indefinitelyand indeed you know what would have
+ happened if we'd carried on training alphago zero for longer we saw no signof it slowing down it's in improvements
+ or at least it was certainly carrying on to improve and presumably if you had thecomputational resources this this could
+ lead to better and better systems that discover more and more so your intuition
+
+1:23:16
+Speaker 1 :is fundamentally there's not a ceiling
+ to this process the one of the surprising things justlike you said is the process of patching
+ errors it's intuitively makes sense they this is a reinforcement learning shouldbe part of that process but what is
+ surprising is in the process of patching your own lack of knowledge you don'topen up other patches you go you keep
+ sort of cool like there's a monotonic decrease of your weaknesses well let me
+
+1:23:47
+Speaker 0 :let me back this up you know I think
+ science always should make falsifiable hypotheses yes so let me let me back outthis claim with a falsifiable hypothesis
+ which is that if someone was to in the future take alpha zero as an algorithmand run it on with greater computational
+ resources that we had available today then I predict that they would be ableto beat the previous system 100 games to
+ zero and that if they were then to do the same thing a couple of years laterthat that would be that previous system
+ hundred games to zero and that that process would continue indefinitelythroughout at least my human lifetime
+
+
+1:24:27
+Speaker 1 :presumably the game of girl would set
+ the ceiling I mean the game of go would
+
+1:24:31
+Speaker 0 :set the ceiling but the game of go has
+ ten to the hundred and seventy states in it so so the ceiling is unreachable byany computational device that can be
+ built out of the you know 10 to the 80 atoms in the universe you asked a reallygood question which is you know do you
+ not open up other errors when you when you correct your previous ones and theanswer is is yes you do and so so it's a
+ remarkable fact about about this class of two-player game and also true ofsingle agent games that essentially
+ progress will always lead you to if you have sufficient representationalresource like imagine you had could
+ represent every state in a big table of the game then we we know for sure that aprogress of self-improvement will lead
+ all the way in the single agent case to the optimal possible behavior and in thetwo-player case to the minimax optimal
+ behavior and that is that the best way that I can play knowing that you'replaying perfectly against me and so so
+ for those cases we know that even if you do open up some new error that in somesense you've made progress you've you're
+ progressing towards the the best that can be done so alphago was initially
+
+1:25:51
+Speaker 1 :trained
+ expert games with some self play alphago zero removed the need to be trained onexpert games and then another incredible
+ step for me because I just love chess is to generalize that further to be inalpha zero to be able to play the game
+ of go beating alphago zero and alphago and then also being able to play thecheck the game of chess and others so
+ what was that step like what's the interesting aspects there that requiredto make that happen
+
+
+1:26:25
+Speaker 0 :I think the remarkable observation which
+ we saw with alpha zero was that actually without modifying the algorithm at allit was able to play and crack some of a
+ i's greatest previous challenges in particular we dropped it into the gameof chess and unlike the previous systems
+ like deep blue which had been worked on for you know years and years and we wereable to beat the world's strongest
+ computer chess program convincingly using a system that was fully discoveredby its own from from scratch with its
+ own principles and in fact one of the nice things that that we found was thatin fact we also achieved the same result
+ in in Japanese chess a variant of chess where where you get to capture piecesand then place them back down on your on
+ your own side as an extra piece so much more complicated variant of chess and wealso beat the world's strongest programs
+ and reach superhuman performance in that game tooand it was the very first time that we'd
+ ever run the system on that particular game was the version that we publishedin the paper on on alpha zero it just
+ works out of the box literally no no no touching it we didn't have to doanything and and there it was superhuman
+ performance no tweaking no no twiddling and so I think there's somethingbeautiful about that principle that you
+ can take and algorithm and without twiddling anything it just it just worksnow to go beyond alpha zero what's
+ required alpha zero is is just a step and there's a long way to go beyond thatto really crack the deep problems of AI
+ but one of the important steps is to acknowledge that the world is a reallymessy place you know it's this rich
+ complex beautiful but messy environment that we live in and no one gives us therules like no one knows the rules of the
+ world at least maybe we understand that it operates according to Newtonian orquantum mechanics at the micro level all
+ according to relativity at the macro level but that's not a model that's usedto useful for us as people to to operate
+ in it somehow the agent needs to understand the world for itself in a waywhere no one tells it the rules of the
+ game and yet it can still figure out what to do in that world deal with thisstream of observations coming in rich
+ sensory input coming in actions going out in a way that allows it to reason inthe way that alphago or alpha zero can
+ reason in the way that these go and chess-playing programs can reason but ina way that allows it to take actions in
+ that messy world to to achieve its goals and so this led us to the most recentstep in the story of alphago
+ which was a system called mu 0 and mu zero is a system which learns for itselfeven when the rules are not given to it
+ it actually can be dropped into a system with messy perceptual inputs we actuallytried it in the in some Atari games the
+ canonical domains of Atari that have been used for reinforcement learning andand this system learned to build a model
+ of these Atari games they were sufficiently rich and useful enough forit to be able to plan successfully and
+ in fact that system not only went on to to beat the state of the art in Ataribut the same system without modification
+ was able to reach the same level of superhuman performance in go chess andshogi that we'd seen in alpha zero
+ showing that even without the rules the system can learn for itself just bytrial and error just by playing this
+ game of go and no one tells you what the rules are but you just get to the endand and someone says you know win or
+ loss you play this game and someone says win or lost so you playa game of breakout in Atari and someone
+ just tells you you know your score at the end and the system for itselffigures out essentially the rules of the
+ system the dynamics of the world how the world works and that not in any explicitway but just implicitly enough
+ understanding for it to be able to plan in that in that system in order toachieve its goals and that's the you
+
+
+1:30:46
+Speaker 1 :know that's the fundamental process
+ there to go through when you're facing any uncertain kind of environment theywould in the real world it's figuring
+ out the sort of the rules the basic rules of the game that's right sothere's a lot I mean the ad that that
+ allows it to be applicable to basically any domain that could be digitized inthe way that it needs to in order to be
+ consumable sort of in order for the reinforcement learning framework to beable to sense the environment to be able
+ to act anywhere and so on the full
+
+1:31:15
+Speaker 0 :reinforcement learning problem needs to
+ deal with with worlds that are unknown and and complex and and the agent needsto learn for itself how to deal with
+ that so museu I was as a step I felt a step in that direction one of the things
+
+1:31:29
+Speaker 1 :that inspired the general public
+ interesting conversations I have like with my parents or something my mom thatjust loves what was done is kind of at
+ least the notion that there was some display of creativity some newstrategies new behaviors that were
+ created that that again has echoes of intelligence so is there something thatstands up do you see it the same way
+ that there's creativity and there's some behaviors patterns you saw that alphazero was able to display their truly
+
+
+1:32:00
+Speaker 0 :creative so let me start by I think
+ saying that I think we should ask what creativity really means so to mecreativity means discovering something
+ which wasn't known before something unexpected something out outside of ournorms and so in that sense the process
+ of reinforcement learning or the self play approach that was used byalpha zero is it's the essence of
+ creativity it's really saying at every stageyou're playing according to your current
+ norms and you try something and if it works out you say hey here's somethinggreat I'm gonna start using that and
+ then that process it's like a micro discovery that happens millions andmillions of times over the course of the
+ algorithms life where it just discovers some new idea oh this pattern thispatterns working really well for me I'm
+ gonna I'm gonna start using that oh now oh here's this other thing I can do Ican start to to connect these stones
+ together in this way or I can start to you know sacrifice stones or give up onon on pieces or play shoulder hits on
+ the fifth line or whatever it is the system is discovering things like thisfor itself continually repeatedly all
+ the time and so it should come as no surprise to us then when if you leavethese systems going that they discover
+ things that are not known to humans to the human norms are considered creativeand we've seen this several times in
+ fact in alphago zero we saw this beautiful timeline of discovery wherewhat we saw was that there are these
+ opening patterns that humans play called joseki these are like the patterns thathumans learn to play in the corners and
+ they've been developed and refined over over literally thousands of years in thegame of go and what we saw was in the
+ course of the training alphago 0 over the course of the 40 daysthat we trained this system it's just to
+ discover exactly these patterns that human players play and over time wefound that all of the joseki that humans
+ played were were discovered by the system through this process of self playand a sort of essential notion of
+ creativity well what was really interesting was that over time it thenstarted to discard some of these maybe
+ own joseki that humans didn't know about yeah and it starts to say oh well youthought that the Knights move pincer
+ joseki was a great idea but here's something you different you can do therewhich make some new variation that the
+ humans didn't know about and actually now the human go player study the josekitheir alphago played and they become the
+ new norms that are used in today um top-level guy competitions that never
+
+1:34:51
+Speaker 1 :gets old even just the first to me maybe
+ just makes me feel good as a human being that a self play mechanism knows nothingabout us humans discovers patterns that
+ we humans do it's just I get an affirmation that we're doing we're doing
+
+1:35:08
+Speaker 0 :
+
+1:35:09
+Speaker 1 :okay as humans yeah in this domain in
+
+
+1:35:10
+Speaker 0 :
+
+1:35:11
+Speaker 1 :other domains we do we figure it out
+ it's like the Churchill quote about democracy it's the you know it's the butit sucks but it's the best song we've
+ tried so in general taking a step outside of go and I take a millionaccomplishment to have no time to talk
+ about that with alpha star and so on and and and the current work but in generalthis self play mechanism that you've
+ inspired the world with by beating the
+
+1:35:40
+Speaker 0 :world champion goal player do you see
+
+
+1:35:41
+Speaker 1 :that as DC being applied in other
+ domains do you have sort of dreams and hopes that is applied in both thesimulated environments in a constrained
+ environments of games constrained I mean alpha star really demonstratesthat you can remove a lot of the
+ constraints but nevertheless it's in a digital simulated environment do youhave a hope a dream that it starts being
+ applied in the robotics environment and maybe even in domains that are a littlesafety critical and so on and have you
+ know have a real impact in the real world like autonomous vehicles forexample it seems like a very far-out
+
+
+1:36:20
+Speaker 0 :dream at this point so I absolutely do
+ hope and and imagine that we will we will get to the point where ideas justlike these are used in all kinds of
+ different domains in fact one of the most satisfying things as a researcheras when you start to see other people
+ use your your algorithms in unexpected ways so in the last couple of yearsthere have been you know a couple of
+ nature papers where different teams unbeknownst to to us took alpha zero andapplied exactly those same algorithms
+ and ideas to real-world problems of huge meaning to to society so one of them wasthe problem of chemical synthesis and
+ they were able to beat the state-of-the-art in finding pathways ofhow to actually synthesize chemicals
+ retro retro chemical synthesis and the second paper actually actually just cameout a couple of weeks ago in nature
+ showed that in quantum computation you know one of the big questions is how tohow to understand the nature of the the
+ function in quantum computation and a system based on alpha zero beat thestate of the art by quite some distance
+ there again so so these are just examples and I think you know the lessonwhich we've seen elsewhere in machine
+ learning time and time again is that if you make something general it will beused in all kinds of ways you know you
+ provide a really powerful tools to society and and those tools can be usedin in amazing ways and so I think we're
+ just at the beginning and and for sure I hope that we we see all kinds of
+
+1:37:58
+Speaker 1 :outcomes so the the in the the other
+ side of the question of a reinforcement learning framework is you know youusually want to specify a reward
+ function and an objective function what do you think about sort of ideas ofintrinsic rewards if we're not really
+ sure about you know of if we take you know human beings existence proof thatwe don't seem to be operating according
+ to a single reward do you think that there's interesting ideas for when youdon't know how to truly specify the
+ reward you know that there's some flexibility for discovering itintrinsically or so on
+ in the context of reinforcement learning
+
+1:38:42
+Speaker 0 :so I think you know when we think about
+ intelligence it's really important to be clear about the problem of intelligenceand I think it's clearest to understand
+ that problem in terms of some ultimate goal that we want the system to to tryand solve for and after all if we don't
+ understand the ultimate purpose of the system do we really even have a clearlydefined defined problem that we are
+ solving at all now within that as with your example for humans the system maychoose to create its own motivations and
+ sub goals that helped the system to achieve itsultimate goal and that may indeed be a
+ hugely important mechanism to achieve those altima goals but there is stillsome ultimate goal I think the system
+ needs to be measurable and and evaluated against and even for humans I meanhumans were incredibly flexible we feel
+ that we we can you know any goal that we're given we feel we can we can masterto some degree but if we think of those
+ goals really you know like the goal of being able to pick up an object or thegoal of being able to communicate
+ although influence people to do things in a particular way or whatever thosegoals are really they are that they're
+ sub goals really that we set ourselves you know we choose to pick up the objectwe choose to communicate we choose to to
+ influence someone else and we choose those because we think it will lead usto something in our in later art and we
+ think that that's helpful to us to achieve some ultimate goal now I don'twant to speculate whether or not humans
+ as a system necessarily have a singular overall goal of survival or whatever itis but I think the principle for
+ understanding and implementing intelligences has to be that if we'retrying to understand intelligence or
+ implement our own there has to be a well-defined problem otherwise if it'snot I think it's it's like an admission
+ of defeat that forget to be hope for understanding or implementingintelligence we have to know what we're
+ doing we have to know what we're asking the system to do otherwise if you if youdon't have a clearly defined purpose
+ you're not going to get a clearly defined answer the the ridiculous
+
+1:40:52
+Speaker 1 :big question that has to naturally
+ follow because they have to pin you down on this on this thing that neverthelessone of the big silly or big real
+ questions before humans is the meaning of life is us trying to figure out ourown reward function yeah and you just
+ kind of mentioned that if you want to build the intelligence systems and youknow what you're doing you should be at
+ least cognizant to some degree of what the reward function is so the naturalquestion is what do you think is the
+ reward function of human life the meaning of life for us humans
+
+1:41:30
+Speaker 0 :the meaning of our existence I think you
+ know I'd be speculating beyond my own expertise but but just for fun let me dothat yes please and say I think that
+ there are many levels at which you can understand a system and and you canunderstand something as as optimizing
+ for a goal at many levels and so so you can understand the the you know let'sstart with the universe like um does the
+ universe have a purpose well it feels like it's just one level just followingcertain mechanical laws of physics and
+ that that's led to the development of the universe but at another level youcan view it as actually there's the
+ second law of thermodynamics that says that this is increasing in entropy overtime forever and now there's a view
+ that's been developed by certain people at MIT that this you can think of thisas as almost like a goal of the universe
+ that the purpose of the universe is to maximize entropy so there's multiplelevels at which you can understand a
+ system the next level down you might say well if the goal is to is to maximizeentropy well how do how does how can
+ that be done by a particular system and maybe evolution is something that theuniverse discovered in order in order to
+ kind of dissipate energy as efficiently as possible and by the way I'm borrowingfrom Max tegmark for some of these
+ metaphors yes the physicist but if you can think of evolution as amechanism for dispersing energy then
+ then evolution you you might say as then becomes a goal which is if if evolutiondisperses energy by reproducing as
+ efficiently as possible what's evolution then well it's now gotits own goal within that which is to
+ actually reproduce as effectively as possible and now how does reproductionhow is that made as effective as
+ possible well you need entities within that that can survive and reproduce aseffectively as possible and so it's
+ natural in order to achieve that high level goal those individual organismsdiscover brains intelligences which
+ enable them to support the goals of evolutionand those brains what do they do well
+ perhaps the early brains maybe they were controlling things at some direct levelyou know maybe they were the equivalent
+ of pre-programmed systems which were directly controlling what was going onand setting certain you know things in
+ order to achieve these particular particular goals but that led to aanother level of discovery which was
+ learning systems you know parts of the brain which were able to learn fromthemselves and learn how to to program
+ themselves to achieve any goal and presumably there are parts of the gameof the brain where goals are set to to
+ parts of that that system and provides this very flexible notion ofintelligence that we as humans
+ presumably have which is the ability to kind of wipe the reason we feel that wecan we can we can achieve any goal so so
+ it's a very long-winded answer to say that you know I think there are manyperspectives and many levels at which
+ intelligence can be understood and and each of those levels you can takemultiple perspectives that you know you
+ can view the system as something which is optimizing for a goal which isunderstanding it at a level by which we
+ can maybe implement it and understand it as AI researchers or computer scientistsor you can understand it at the level of
+ the mechanistic thing which is going on that there are these you know atomsbouncing around in the brain and they
+ lead to the the outcome of that system is not in contradiction with the factthat it's it's also a a decision-making
+ system that's optimizing for some goal
+
+1:45:10
+Speaker 1 :and and purpose I've never heard the
+ description of the meaning of life structured so beautifully in layers butyou did miss one layer which is the next
+ step which you're responsible for which is creating the the artificialintelligence and data layer on top of
+ that and I can't wait to see well I may not be around but they can't wait to seewhat the next layer beyond that well we
+
+
+1:45:36
+Speaker 0 :well let's just take that that argument
+ you know and pursue it to a central conclusion so the next level indeed isfor for how can our how can our learning
+ brain achieve its goals most effectively well maybe it does so by by us aslearning beings building a system which
+ is able to solve for those goals more effectively than we can and so when webuild a system to play the game of go
+ you know when I said that I wanted to build a system that can play go betterthan I can I've enabled myself to
+ achieve that goal of playing go better than I could buy buy directly playing itand learning it myself and so now a new
+ layer has been created which is systems which are able to achieve goals forthemselves
+ and ultimately there may be layers beyond that where they set sub goals toparts of their own system in order to to
+ achieve those and so forth so incredible so the story of intelligence I think Ithink is is a multi-layered one and a
+ multi perspective one we live in an
+
+1:46:40
+Speaker 1 :incredible universe David thank you so
+ much first of all for dreaming of using learning to solve go and buildingintelligent systems and for actually
+ making it happen and for inspiring millions of people in the process it'struly an honor thank you so much for
+ talking today okay thank you thanks for listening to this conversation withDavid silver and thank you to our
+ sponsors masterclass and cash app please consider supporting the podcast bysigning up to master class at
+ masterclass complex and downloading cash app and using code lex podcast if youenjoy this podcast subscribe on youtube
+ review it with five stars an apple podcast supported on patreon or simplyconnect with me on Twitter at lex
+ friedman and now let me leave you with some words from david silver my personalbelief is that we've seen something of a
+ turning point where we're starting to understand that many abilities likeintuition and creativity that we've
+ previously thought or in the domain only of the human mind are actuallyaccessible to machine intelligence as
+ well and I think that's a really exciting moment in history thank you for
+

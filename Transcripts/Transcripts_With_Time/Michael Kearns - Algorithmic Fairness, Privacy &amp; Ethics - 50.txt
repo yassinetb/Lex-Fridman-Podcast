@@ -1,0 +1,1332 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ Michael Kern's he's a professor at the University of Pennsylvania and aco-author of the new book ethical
+ algorithm that is the focus of much of this conversation it includesalgorithmic fairness bias privacy and
+ ethics in general but that is just one of many fields that Michael's aworld-class researcher in some of which
+ would touch on quickly including learning theory or the theoreticalfoundation of machine learning game
+ theory quantitative finance computational social science and muchmore but on a personal note when I was
+ an undergrad early on I worked with Michael on an algorithmic tradingproject in competition that he led
+ that's when I first fell in love with algorithmic game theory while most of myresearch life has been a machine
+ learning human robot interaction the systematic way that game theory revealsthe beautiful structure and our
+ competitive and cooperating world of humans has been a continued andinspiration to me so for that and other
+ things I'm deeply thankful to Michael andreally enjoyed having this conversation
+ again in person after so many years this isthe artificial intelligence podcast if
+ you enjoy it subscribe on YouTube give it five stars on Apple podcastssupported on patreon or simply connect
+ with me on Twitter at lex Friedman's both Fri D ma n this episode issupported by an amazing podcast called
+ pessimists archive Jason the host the show reached out to me looking tosupport this podcast and so I listened
+ to it to check it out and I listened I mean I went through it Netflix bingestyle at least 5 episodes in a row it's
+ not one of my favorite podcast and I think it should be one of the toppodcasts in the world frankly it's a
+ history show about why people resist new things each episode looks at a moment inhistory when something new was
+ introduced something that today we think of as commonplace like recorded musicumbrellas bicycles cars chests coffee
+ the elevator and the show explores why freaked everyone out the latest episodeon mirrors and vanity still stays with
+ they think about vanity in the modern day of the Twitter world that's thefascinating thing about the show is that
+ stuff that happened long ago especially in terms of our fear of new thingsrepeats itself in the modern day and so
+ has many lessons for us to think about in terms of human psychology and therole of Technology in our society anyway
+ you should subscribe but listen the pessimist archive I highly recommendedand now here's my conversation with
+ Michael Kern's you mentioned reading Fear and Loathing in Las Vegas in highschool and having more or a bit more of
+ a literary mind so what books non-technical non computer science wouldyou say had the biggest impact on your
+ life either intellectually or
+
+0:03:02
+Speaker 0 :emotionally you've dug deep into my
+ history I see deep yeah I think well my favorite novel is Infinite Jest by DavidFoster Wallace which actually
+ coincidentally much of it takes place in the halls of buildings right around ushere at MIT so that certainly had a big
+ influence on me and as you noticed like when I was in high school I actuallyStephen started college as an English
+ major so was very influenced by sort of badge genre of journalism at the timeand thought I wanted to be a writer and
+ then realized that an English major teaches you to read but it doesn't teachyou how to write and then I became
+ interested in math and computer science
+
+0:03:40
+Speaker 1 :instead well in your new book ethical
+ algorithm you kind of sneak up from a algorithmic perspective on these deepprofound philosophical questions of
+ fairness of privacy in thinking about these topics how often do you return tothat literary mind that either you had
+
+
+0:04:02
+Speaker 0 :yeah I'd like to claim there was a
+ deeper connection but but there you know I think both Aaron and I kind of came atthese topics first and foremost from a
+ technical angle I mean you know I'm kind of consider myself primarily andoriginally a machine learning researcher
+ and I think as we just watched like the rest of the society the fieldtechnically advanced and then quickly on
+ the heels of that kind of the the buzzkill of allthe antisocial behavior by algorithms
+ just kind of realized there was an opportunity for us to do something aboutit from a research perspective you know
+ a more to the point in your question I mean I do have an uncle who is literallya moral philosopher and so in the early
+ days of our technical work on fairness topics I would occasionally you know runideas behind him so I mean I remembered
+ an early email I sent to him in which I said like oh you know here's a specificdefinition of algorithmic fairness that
+ we think is some sort of variants of Rawls II in fairness what do you thinkand I thought I was asking a yes-or-no
+ question and I got back there kind of classical philosophers responsive wellit depends if you look at it this way
+ then you might conclude this and that's when I realized that there was a realkind of rift between the ways
+ philosophers and others had thought about things like fairness you know fromsort of a humanitarian perspective and
+ the way that you needed to think about it as a computer scientist if you weregoing to kind of implement actual
+
+
+0:05:33
+Speaker 1 :algorithmic solutions but I would say
+ the algorithmic solutions take care of some of the low-hanging fruit sort ofthe problem is a lot of algorithms when
+ they don't consider fairness they are just terribly unfair and when they don'tconsider privacy they're terribly they
+ violate privacy sort of algorithmic approach fixes big problems but there'sthough you get when you start pushing
+ into the gray area that's when you start getting into this philosophy of what itmeans to be fair that's starting from
+ Plato what what is justice kind of
+
+0:06:11
+Speaker 0 :questions yeah I think that's right and
+ I mean I would even not go as far as you want to say that that sort of thealgorithmic work in these areas is
+ solving like the biggest problems and you know we discussed in the book thefact that really we are there's a sense
+ in which we're kind of looking where the light is in that you know for example ifpolice are racist in who they decide to
+ stop and frisk and that goes into the data there's sort of no undoing thatDowns
+ by kind of clever algorithmic methods and I think especially in fairness Imean I think less so in privacy where we
+ feel like the community kind of really has settled on the right definitionwhich is differential privacy if you
+ just look at the algorithmic fairness literature already you can see it'sgonna be much more of a mess and you
+ know you've got these theorems saying here are three entirely reasonabledesirable notions of fairness and you
+ know here's a proof that you cannot simultaneously have all three of them soI think we know that algorithmic
+ fairness compared to algorithmic privacy is gonna be kind of a harder problem andit will have to revisit I think things
+ that have been thought about by you know many generations of scholars before usso it's very early days for fairness I
+
+
+0:07:32
+Speaker 1 :think so before we get into the details
+ of differential privacy and then the fairness sideI mean linger on the philosophy but do
+ you think most people are fundamentally good or do most of us have both thecapacity for good and evil within us I
+
+
+0:07:48
+Speaker 0 :mean I'm an optimist I tend to think
+ that most people are good and want to do to do right and that deviations fromthat or you know kind of usually due to
+ circumstance to people being bad at
+
+0:08:03
+Speaker 1 :heart with people with power are people
+ at the heads of governments people at the heads of companies people at theheads of maybe so financial power
+ markets do you think the distribution there is also most people are good and
+
+0:08:21
+Speaker 0 :have good intent yeah I do I mean my
+ statement wasn't qualified to people not in positions of power I mean I thinkwhat happens in a lot of the you know
+ the the cliche about absolute power corrupts absolutely I mean you know Ithink even short of that you know having
+ spent a lot of time on Wall Street and also in arenas very very different fromWall Street like academia you know one
+ of the things I think I've benefited from by moving between two verydifferent worlds is you you become aware
+ that you know these were it's kind of developed their own socialnorms and they develop their own
+ rationales for you know behavior for instance that might look unusual tooutsiders but when you're in that world
+ it doesn't feel unusual at all and I think this is true of a lot of you knowprofessional cultures for instance and
+ and you know so then you're maybe slippery slope is too strong of a wordbut you know you're in some world where
+ you're mainly around other people with the same kind of viewpoints and trainingand worldview as you and I think that's
+ more of a source of you know kind of abuses of power then sort of you knowthere being good people and evil people
+ and and it's somehow the evil people are the ones that somehow rise to power
+
+0:09:42
+Speaker 1 :that's really interesting so it's the
+ within the social norms constructed by that particular group of people you'reall trying to do good but because it's a
+ group you might be you might drift into something that for the broaderpopulation it does not align with the
+ values of society that kind of that's
+
+0:10:01
+Speaker 0 :the word yeah I mean or nothing you
+ drift but even the things that don't make sense to the outside world don'tseem unusual to you so it's not sort of
+ like a good or a bad thing but you know like so for instance you know on on inthe world of finance right there's a lot
+ of complicated types of activity that if you are not immersed in that world youcannot see why the purpose of that you
+ know that activity exists at all it just seems like you know completely uselessand people just like you know pushing
+ money around and when you're in that world right you're you and you learnmore you your view does become more
+ nuanced right you realize okay there is actually a function to this activity andforce in some cases you would conclude
+ that actually if magically we could eradicate this activity tomorrow itwould come back because it actually is
+ like serving some useful purpose it's just a useful purpose that's verydifficult for outsiders to see and so I
+ think you know lots of professional work environments or cultures as I might putit kind of have these social norms that
+ you know domain sense to the outside world academia isthe same right I mean lots of people
+ look at academia and say you know what the hell are all of you people doingwhy are you paid so much in some cases
+ at taxpayer expenses to do you know to publish papers and military reads youknow but when you're in that world you
+ come to see the value for it and but even though you might not be able toexplain it to you know the person in the
+
+
+0:11:33
+Speaker 1 :street alright and in the case of the
+ financial sector tools like credit might not make sense to people like is it's agood example of something that does seem
+ to pop up and be useful or or just the power of markets and just in general
+
+0:11:46
+Speaker 0 :capitalism yeah and Finance I think the
+ primary example I would give is leverage right so being allowed to borrow to sortof use ten times as much money as you've
+ actually borrowed right so so that's an example of something that before I hadany experience in financial markets I
+ might have looked at and said well what is the purpose of that that just seemsvery dangerous and it is dangerous and
+ it has proven dangerous but you know if the fact of the matter is that you knowsort of on some particular time scale
+ you are holding positions that are you know very unlikely to you know loo youknow they're you know that your value at
+ risk their variance is like 1 or 5 percent then it kind of makes sense thatyou would be allowed to use a little bit
+ more than you have because you have you know some confidence that you're notgoing to lose it all in a single day
+ now of course when that happens we've seen what happens you know not not toolong ago but but you know but the idea
+ that it serves no useful economic purpose under any circumstances isdefinitely not true we'll return to the
+
+
+0:12:54
+Speaker 1 :other side of the coast Silicon Valley
+ and the problems there as we talk about privacy as we talk about fairness at thehigh level and I'll ask some sort of
+ basic questions with the hope to get at the fundamental nature of reality butfrom a very high level what is an
+ ethical algorithm so I can say that an algorithm has a running time of usingBig Oil notation
+ and login I can say that a machine learning algorithm classified cat versusdog with 97% accuracy do you think there
+ will one day be a way to measure sort of in the same compelling way as the big olnotation of this algorithm is 97%
+
+
+0:13:44
+Speaker 0 :ethical first of all many rif for a
+ second on your specific and login examples so because early in the bookwhen we're just kind of trying to
+ describe algorithms period we say like ok you know what's an example of analgorithm or an algorithmic problem
+ first of all I could sorting right yeah I'm a bunch of index cards with numberson them and you want to sort them and we
+ describe you know an algorithm that sweeps all the way through finds the thesmallest number puts it at the front
+ then sweeps through again finds the second smallest number so we make thepoint that this is an algorithm and it's
+ also a bad algorithm in the sense that you know it's quadratic rather than nlog n which we know is optimal for
+ sorting and we make the point that sort of like you know so even within theconfines of a very precisely specified
+ problem there's you know there might be many many different algorithms for thesame problem with different properties
+ like some might be faster in terms of running time some I use less memory somemight have you know better distributed
+ implementations and and so the point is is that already we're used to you knowin computer science thinking about
+ trade-offs between different types of quantities and resources and there beingyou know better and worse algorithms and
+ and our book is about that part of algorithmic ethics that we know how tokind of put on that same kind of
+ quantitative footing right now so you know just to say something that our bookis not about our book is not about kind
+ of broad fuzzy notions of fairness it's about very specific notions of fairnessthere's more than one of them there are
+ tensions between them right but if you pick one of them you can do somethingakin to saying
+ this algorithm is 97% ethical you can say for instance the you know for thislending model the false rejection rate
+ on black people and white people is within 3 percent right so we might callthat to a 97% ethical algorithm in a
+ 100% ethical algorithm would mean that that difference is 0% in that case
+
+0:16:01
+Speaker 1 :fairness is specified when two groups
+ however they're defined are given to you
+
+0:16:07
+Speaker 0 :that's right so the and and then you can
+
+
+0:16:08
+Speaker 1 :sort of mathematically start describing
+
+
+0:16:13
+Speaker 0 :the algorithm but nevertheless the the
+
+
+0:16:14
+Speaker 1 :part where the two groups are given to
+ you I mean unlike running time you know we don't in a computer science talkabout how fast an algorithm feels like
+ when it runs true we measure an ethical starts getting into feelings so forexample an algorithm runs you know if it
+ runs in the background it doesn't disturb the performance of my systemit'll feel nice I'll be okay with it but
+ if it overloads the system will feel unpleasant so in that same way ethicsthere's a feeling of how socially
+ acceptable it is how does it represent the moral standards of our society todayso in that sense and sorry to linger on
+ that for some high low philosophical question is do you have a sense we'll beable to measure how ethical and
+
+
+0:17:06
+Speaker 0 :algorithm is first of all I didn't
+ certainly didn't mean to give the impression that you can kind of measureyou know memory speed trade-offs you
+ know and and that there's a complete you know mapping from that on to kind offairness for instance or ethics and and
+ accuracy for example in the type of fairness definitions that are largelythe objects of study today and starting
+ to be deployed you as the user of the definitions you need to make some harddecisions before you even get to the
+ point of designing fair algorithms one of them for instance is deciding who itis that you're worried about protecting
+ who you're worried about being harmed by for instancesome notion of discrimination or
+ unfairness and then you need to also decide what constitutes harm so forinstance in a lending application maybe
+ you decide that you know falsely rejecting a credit worthy individual youknow sort of a false negative is the
+ real harm and that false positives ie people that are not credit worthy or arenot going to repay your loan to get a
+ loan you might think of them as lucky and so that's not a harm although it'snot clear that if you are don't have the
+ means to repay a loan that being given a loan is not also a harm so you know youknow the literature is sort of so far
+ quite limited in that you sort of need to say who do you want to protect andwhat would constitute harm to that group
+ and when you ask questions like will algorithms feel ethical one way in whichthey won't under the definitions that
+ I'm describing is if you know if you are an individual who is falsely deniedalone incorrectly denied a loan all of
+ these definitions basically say like well you know your compensation is theknowledge that we are we are also
+ falsely denying loans to other people you know other groups at the same ratethat we're doing it's to you and and you
+ know there and so there is actually this interesting even technical tension inthe field right now between these sort
+ of group notions of fairness and notions of fairness that might actually feellike real fairness to individuals right
+ they they might really feel like their particular interests are being protectedor thought about by the algorithm rather
+ than just you know the groups that they happen to be members of is there
+
+0:19:33
+Speaker 1 :parallels to the big o-notation of
+ worst-case analysis so is it important to looking at the worst violation offairness for an individual is important
+ to minimize that one individual so like worst case analysis is that something
+
+0:19:52
+Speaker 0 :you think about or I mean I think we're
+ not even at the point where we can sensibly think about that so first ofall you know we're talking here both
+ about fairness applied at the group level which isa relatively weak thing but it's better
+ than nothing and also the more ambitious thing of trying to give some individualpromises but even that doesn't
+ incorporate I think something that you're hinting at here is what a chimeI'll call subjective fairness right
+ right so a lot of the definitions I mean all of the definitions in thealgorithmic fairness literature are what
+ I would kind of call received wisdom definitions it's sort of you knowsomebody like me sits around and things
+ like okay you know I think here's a technical definition of fairness that Ithink people should want or that they
+ should you know think of as some notion of fairness maybe not the only one maybenot the best one maybe not the last one
+ but we really actually don't know from a subjective standpoint like what peoplereally think is fair there's you know
+ we've we've just started doing a little bit of work in in our group thatactually doing kind of human subject
+ experiments in which we you know ask people about you know we ask themquestions about fairness we survey them
+ we you know we show them pairs of individuals in let's say a criminalrecidivism prediction setting and we ask
+ them do you think these two individuals should be treated the same as a matterof fairness and to my knowledge there's
+ not a large literature in which ordinary people are asked about you know theythey have sort of notions of their
+ subjective fairness elicited from them it's mainly you know kind of scholarswho think about fairness no right and
+ I'm making up their own definitions and I think I think this needs to changeactually for many social norms not just
+ for fairness right so there's a lot of discussion these days in the AIcommunity about interpretable AI or
+ understandable AI and as far as I can tell everybody agrees that deep learningor at least the outputs of deep learning
+ are not very understandable and people might agree that sparse linear modelswith integer coefficients are more
+ understandable but nobody's really asked people you know there's very littleliterature on you know sort of showing
+ people models and asking them do they understand what the model is doing and Ithink that in all these topics as these
+ fields mature we need to start doing more behavioral work yeah which is so
+
+0:22:33
+Speaker 1 :one of my deep passions of psychology
+ and I always thought computer scientists will be the the best futurepsychologists in a sense that data is
+ especially in this modern world the data is a really powerful way to understandand study human behavior and you've
+ explored that with your game theory side
+
+0:22:56
+Speaker 0 :of work as well yeah I'd like to think
+ that what you say is true about computer scientists and psychology from my ownlimited wandering into human subject
+ experiments we have a great deal to learn not just computer science but AIand machine learning more specifically I
+ kind of think of as imperialist research communities in that you know kind oflike physicists in an earlier generation
+ computer scientists kind of don't think of any scientific topic as off limits tothem they will like freely wander into
+ areas that others have been thinking about for decades or longer and you knowwe usually tend to embarrass ourselves
+ yes in those efforts for for some amount of time like you know I thinkreinforcement learning is a good example
+ right so a lot of the early work in reinforcement learning I have completesympathy for the control theorist that
+ looked at this and said like okay you are reinventing stuff that we've knownsince like the 40s right but you know in
+ my view eventually this sort of you know computer scientists have madesignificant contributions to that field
+ even though we kind of embarrassed ourselves for the first decade so Ithink if computer scientists are gonna
+ start engaging in kind of psychology human subjects type of research weshould expect to be embarrassing
+ ourselves for a good ten years or so and then hope that it turns out as well asyou know some other areas that we've
+
+
+0:24:26
+Speaker 1 :waded into so you kind of mentioned this
+ just the linger on the idea of an ethical algorithm of idea of groupsort of group thinking an individual
+ thinking and we're struggling that there's one of the amazing things aboutalgorithms and your book and just this
+ field of study is it gets us to ask like forcing machines converting these ideasinto algorithms is forcing us to ask
+ questions of ourselves as a human civilization so there's a lot of peoplenow in public discourse doing sort of
+ group thinking thinking like there's particular sets of groups that we don'twant to discriminate against and so on
+ and then there is individuals sort of in the individual life stories thestruggles they went through and so on
+ now like in philosophy it's easier to do group thinking because you don't youknow it's very hard to think about
+ individuals there's so much variability but with data you can start to actuallysay you know what group thinking is too
+ crude you're actually doing more discrimination by thinking in terms ofgroups and individuals can you linger on
+ that kind of idea of group versus individual and ethics and and is it goodto continue thinking in terms of groups
+
+
+0:25:43
+Speaker 0 :in in algorithms so let me start by
+ answering a very good high level question with a slightly narrowtechnical response which is these group
+ definitions of fairness like here's a few groups like different racial groupsmay be gender groups may be age
+ what-have-you and let's make sure that you know from none of these groups do weyou know have a false negative rate
+ which is much higher than any other one of these groups okay so these are kindof classic group aggregate notions of
+ fairness and you know but at the end of the day an individual you can think ofas a combination of all of their
+ attributes right they're a member of a racial group they're they have a genderthey have an age you know and many other
+ you know demographic properties that are not biological but that you know are arestill you know very strong determinants
+ of outcome and personality in the light so one I think useful spectrum is tosort of think about that array between
+ the group and this individual and to realize that in someways asking for fairness at the
+ individual level is to sort of ask for group fairness simultaneously for allpossible combinations of groups so in
+ particular so in particular yes you know if I build a predictive modelthat meets some definition of fairness
+ by race by gender by age by what-have-you marginally to get aslightly technical sort of independently
+ I shouldn't expect that model to not to discriminate against disabled Hispanicwomen over age 55 making less than fifty
+ thousand dollars a year or annually even though I might have protected each oneof those attributes marginally so the
+
+
+0:27:31
+Speaker 1 :optimization actually that's a
+ fascinating way to put it so you're just optimizing the one way toachieve the optimizing fairness for
+ individuals just to add more and more definitions of groups at each and it's
+
+0:27:45
+Speaker 0 :right along so you know at the end of
+ the day we could think of all of ourselves as groups of size one becauseeventually there's some attribute that
+ separates you from me and everybody from everybody else in the world okay and soit is possible to put you know these
+ incredibly coarse ways of thinking about their nests and these very veryindividualistic specific ways on a
+ common scale and you know one of the things we've worked on from a researchperspective is you know so we sort of
+ know how to you know we in relative terms we know how to provide fairnessguarantees at the coarsest end of the
+ scale we don't know how to provide kind of sensible tractable realistic fairnessguarantees at the individual level but
+ maybe we could start creeping towards that by dealing with more you knowrefined subgroups I mean we we gave a
+ name to this phenomenon where you know you protect you you you enforce somedefinite definition of fairness for a
+ bunch of marginal attributes or features but then you find yourselfdiscriminating against a combination of
+ them we call that fairness gerrymandering because like politicalgerrymandering you know you're giving
+ some guarantee at the aggregate level yesbut that when you kind of look in a more
+ granular way at what's going on you realize that you're achieving thataggregate guarantee by sort of favoring
+ some groups in discriminating against other ones and and so there are you knowit's early days but there are
+ algorithmic approaches that let you start creep and creeping towards thatyou know individual end of the spectrum
+
+
+0:29:22
+Speaker 1 :does there need to be human input in the
+ form of weighing the value of the importance of each kind of group so forexample is it is it like so gender say
+ crudely speaking male and female and then different races are we as humanssupposed to put value on saying gender
+ is 0.6 and racist 0.4 in terms of in the big optimization of achieving fairnessis that kind of what humans I mean most
+
+
+0:30:00
+Speaker 0 :of you know I mean of course you know I
+ don't need to tell you that of course technically one could incorporate suchweights if you wanted to into a
+ definition of fairness you know fairness is an interesting topic in that havingworked in in the book being about both
+ fairness privacy and many other social norms fairness of course is a much muchmore loaded topic so privacy I mean
+ people want privacy people don't like violations of privacy violations ofprivacy cause damage angst and and bad
+ publicity for the companies that are victims of them but sort of everybodyagrees more data privacy would be better
+ than less data privacy and and you don't have these somehow the discussions offairness don't become politicized along
+ other dimensions like race and about gender and you know you know whether weyou and you know did you quickly find
+ yourselves kind of revisiting topics that have been kind of unresolvedforever like affirmative
+ action right sort of you know like why are you protecting and some people willsay why are you protecting this
+ particular racial group and and others will say what we need to do that as amatter of retribution other people will
+ say it's a matter of economic opportunity and I don't know which ofyou know whether any of these are the
+ right answers but you sort of fairness is sort of special in that as soon asyou start talking about it you
+ inevitably have to participate in debates about fair to whom at whatexpense to who else I mean even in
+ criminal justice right um you know where people talk about fairness in criminalsentencing or you know predicting
+ failures to appear or making parole decisions or the like they will you knowthey'll point out that well these
+ definitions of fairness are all about fairness for the criminals and whatabout fairness for the victims right so
+ when I basically say something like well the the false incarceration rate forblack people and white people needs to
+ be roughly the same you know there's no mention of potential victims ofcriminals in such a fairness definition
+
+
+0:32:32
+Speaker 1 :and that's the realm of public discourse
+ I just listened to two people listening intelligent squares debates us editionjust had a debate they have this
+ structure we have a old Oxford style or whatever they're called debates thosetwo versus two and they talked about
+ affirmative action and it was the is incredibly interesting that it's stillthere's really good points on every side
+ of this issue which is fascinating to
+
+0:33:03
+Speaker 0 :listen yeah yeah I agree and so it's
+ it's interesting to be a researcher trying to do for the most part technicalalgorithmic work but Aaron and I both
+ quickly learned you cannot do that and then go out and talk about and expectpeople to take it seriously if you're
+ unwilling to engage in these broader debates that areentirely extra algorithmic right there
+ they're not about you know algorithms and making algorithms better they'resort of you know as you said sort of
+ like what should society be protecting
+
+0:33:36
+Speaker 1 :in the first place when you discuss the
+ fairness an algorithm that uh that achieves fairness whether in theconstraints and the objective function
+ there's an immediate kind of analysis you can perform which is saying if youcare about fairness in gender this is
+
+
+0:33:54
+Speaker 0 :the amount that you have to pay for in
+
+
+0:33:55
+Speaker 1 :terms of the performance of the system
+ like do you is there a role for the statements like that in a table and apaper or do you want to really not touch
+
+
+0:34:06
+Speaker 0 :that like you know we want to touch that
+ and we do touch it so I mean just just again to make sure I'm not promisingyour your viewers more than we know how
+ to provide but if you pick a definition of fairness like I'm worried aboutgender discrimination and you pick a
+ notion of harm like false rejection for a loan for example and you give me amodel I can definitely first of all go
+ on at that model it's easy for me to go you know from data to kind of say likeokay your false rejection rate on women
+ is this much higher than it is on men okay but you know once you also put thefairness in to your objective function I
+ mean I think the table that you're talking about is you know what we wouldcall the Pareto curve right you can
+ literally trace out and we give examples of such plots on real datasets in thebook you have two axes on the x-axis is
+ your error on the y-axis is unfairness by whatever you know if it's like thedisparity between false rejection rates
+ between two groups and you know your algorithm now has a knob that basicallysays how strongly do I want to enforce
+ fairness and the less unfairly you know we you know if the two axes are err andunfairness we'd like to be at 0-0
+ we'd like to zero error and zero fair unfairness simultaneously anybody whoworks in machine learning knows that
+ you're generally not going to get to zero error period without any fairnessconstrain
+ whatsoever so that's that that's not gonna happen but in general you knowyou'll get this you'll get some kind of
+ convex curve that specifies the numerical trade-off you face you know ifI want to go from 17 percent error down
+ to 16 percent error what will be the increase in unfairness that I'veexperienced as a result of that and and
+ so this curve kind of specifies the you know kind of undaunted models modelsthat are off that curve are you know can
+ be strictly improved in one or both dimensions you can you know either makethe error better or the unfairness
+ better or both and I think our view is that not only are are these objectsthese Pareto curves
+ you know there's efficient frontiers as you might call them not only are theyvaluable scientific objects I actually
+ think that they in the near term might need to be the interface betweenresearchers working in the field and and
+ stakeholders and given problems so you know you could really imagine telling acriminal jurisdiction look if you're
+ concerned about racial fairness but you're also concerned about accuracy youwant to you know you want to release on
+ parole people that are not going to recommit a violent crime and you don'twant to release the ones who are so you
+ know that's accuracy but if you also care about those you know the mistakesyou make not being disproportionately on
+ one racial group or another you can you can show this curve I'm hoping that inthe near future it'll be possible to
+ explain these curves to non-technical people that have that are the ones thathave to make the decision where do we
+ want to be on this curve like what are the relative merits or value of havinglower error versus lower unfairness you
+ know that's not something computer scientists should be deciding forsociety right that you know the people
+ in the field so to speak the policymakers the regulator's that's whoshould be making these decisions
+ but I think and hope that they can be made to understand that these trade-offsgenerally exist and that you need to
+ pick a point and like and ignoring the trade-off you know you're implicitlypicking a point anyway right right you
+ just don't know it and you're not
+
+0:38:08
+Speaker 1 :admitting it it's just a link out on the
+ point of trade-offs I think that's a really important thing to sort of thinkabout so you think when we start to
+ optimize for fairness there's almost always in most system going to betrade-offs can you like what's the
+ trade-off between just to clarify they've been some sort of technicalterms thrown around but a sort of a
+ perfectly fair world why is that why will somebody be upset about that
+
+0:38:42
+Speaker 0 :the specific trade-off I talked about
+ just in order to make things very concrete was between numerical error andsome numerical measure of unfairness in
+
+
+0:38:52
+Speaker 1 :what is numerical error in the case of
+
+
+0:38:55
+Speaker 0 :just likes a predictive error like you
+ know the probability or frequency with which you release somebody on parole whothen goes on to recommit a violent crime
+ or keep incarcerated somebody who would not have recommitted a violent crime so
+
+0:39:11
+Speaker 1 :in case of awarding somebody parole or
+ giving somebody Perl or letting them out on parole you don't want them torecommit a crime so it's your system
+ failed in prediction if they happen to do a crime okay so that's the performerthat's one axis right and what's the
+
+
+0:39:31
+Speaker 0 :fairness axis so then the fairness axis
+ might be the difference between racial groups in the kind of false falsepositive predictions namely people that
+ I kept incarcerated predicting that they would recommit aviolent-crime when in fact they wouldn't
+
+
+0:39:51
+Speaker 1 :have right and the the unfairness of
+ that just to linger it and allow me to in eloquently to try to sort of describewhy that's unfair
+ why unfairness is there the the unfairness you want to get rid of is thein the judges mind the bias of having
+ being brought up to society the slight racial bias the racism that exists inthe society you want to remove that from
+ the system another way that's been debated is equality of opportunityversus equality of outcome and there's a
+ weird dance there that's really difficult to get rightand we don't as what the firm ative
+ action is exploring that space right and
+
+0:40:39
+Speaker 0 :then we this also quickly you know
+ bleeds into questions like well maybe if one group really does recommit crimes ata higher rate the reason for that is
+ that at some earlier point in the pipeline or earlier in their lives theydidn't receive the same resources that
+ the other group did right and that and so you know there's always in in kind offairness discussions the possibility
+ that the the real injustice came earlier right earlier in this individuals lifeearlier in this group's history etc etc
+
+
+0:41:15
+Speaker 1 :and and so a lot of the fairness
+ discussion is almost the goal is for it to be a corrective mechanism to accountfor the injustice earlier in life by
+
+
+0:41:24
+Speaker 0 :some definitions of fairness or some
+ theories of fairness yeah others would say like look it's it's you know it'snot to correct that injustice it's just
+ to kind of level the playing field right now and Nanyan coarser a falselyincarcerate more people of one group
+ than another group but I mean do you think just it might be helpful just todemystify a little bit about the diff
+ bias or unfairness can come into algorithms especially in the machinelearning era right and you know I think
+ many of your viewers have probably heard these examples beforebut you know let's say I'm building a
+ face recognition system right and so I'm you know kind of gathering lots ofimages of faces and you know trying to
+ train the system to you know recognize new faces of those individuals fromtraining on you know a training set of
+ those faces of individuals and you know it shouldn't surprise anybody orcertainly not anybody in the field of
+ machine learning if my training dataset was primarily white males and I'mtraining that mmm the model to maximize
+ the overall accuracy on my training data set that you know the model can reduceits air or most by getting things right
+ on the white males that constitute the majority of the data set even if thatmeans that on other groups they will be
+ less accurate okay now there's a bunch of ways you could think about addressingthis one is to deliberately put into the
+ objective of the algorithm not to not to optimize the air or at the expense ofthis discrimination and then you're kind
+ of back in the land of these kind of two-dimensional numerical trade-offs avalid counter-argument is to say like
+ well no you don't have to there's no you know the the notion of the tensionbetween air and Acuras here is a false
+ one you could instead just go out and get much more data on these other groupsthat are in the minority and you know
+ equalize your dataset or you could train a separate model on those subgroups andyou know have multiple models the point
+ I think we would you know we try to make in the book is that those things havecost too right going out and gathering
+ more data on groups that are relatively rare compared to your plurality or moremajority group that you know it may not
+ cost you in the accuracy of the model but it's gonna cost you know it's gonnacost the company developing this model
+ more money to develop that and it has also cost more money to build separatepredictive models and to implement and
+ deploy them so even if you can find a way to avoid the tension between errorand accuracy
+ training a model you might push the cost somewhere else like money likedevelopment time research time and alike
+
+
+0:44:22
+Speaker 1 :there are fundamentally difficult
+ philosophical questions in fairness and we live in a very divisive politicalclimate outrage culture there is uh all
+ right folks on 4chan trolls there is social justice warriors on Twitterthere is very divisive outraged folks
+ and all sides of every kind of system how do you how do we as engineers buildethical algorithms in such divisive
+ culture do you think they could be disjoint the human has to inject yourvalues and then you can optimize over
+ those values but in our times when when you start actually applying thesesystems things get a little bit
+ challenging for the public discourse how do you think we can proceed yeah I mean
+
+0:45:14
+Speaker 0 :for the most part in the book you know a
+ point that we try to take some pains to make is that we don't view ourselves orpeople like us as being in the position
+ of deciding for society what the right social norms are what the rightdefinitions of fairness are our main
+ point is to just show that if society or the relevant stakeholders in aparticular domain can come to agreement
+ on those sorts of things there's a way of encoding that into algorithms in manycases not in all cases one other
+ misconception though hopefully we definitely dispel is sometimes peopleread the title of the book and I think
+ not unnaturally fear that what we're suggesting is that the algorithmsthemselves should decide what those
+ social norms are and develop their own notions of fairness and privacy orethics and we're definitely not
+ suggesting that the title of the book is
+
+0:46:10
+Speaker 1 :ethical algorithm by the way and they
+ didn't think of that interpretation of the title that's interesting yeah yeah I
+
+0:46:15
+Speaker 0 :mean especially these days were people
+ are you know concerned about the robots becoming our overlords the idea that therobots would also like sort of develop
+ their own social norms is you know just one step away from that but I dothink you know obviously despite
+ disclaimer that people like us shouldn't be making those decisions for society weare kind of living in a world where in
+ many ways computer scientists have made some decisions that have fundamentallychanged the nature of our society and
+ democracy and in sort of civil discourse and deliberation in ways that I thinkmost people generally feel are bad these
+
+
+0:46:55
+Speaker 1 :days right so but they had to make so if
+ we look at people at the heads of companies and so on they had to makethose decisions right there has to be
+ decisions so there's there's two options either you kind of put your head in thesand and don't think about these things
+ and just let they all go and do what it does or you make decisions about whatyou value you know open injecting moral
+
+
+0:47:19
+Speaker 0 :values into that with look I don't never
+ mean to be an apologist for the tech industry but I think it's it's a littlebit too far to sort of say that explicit
+ decisions were made about these things so let's for instance take social mediaplatforms right so like many inventions
+ in technology and computer science a lot of these platforms that we now useregularly kind of started as curiosities
+ right I remember when things like Facebook came out in its predecessorslike Friendster which nobody even
+ remembers now the people people really wonder like what why would anybody wantto spend time doing that you know what I
+ mean even even the web when it first came out when it wasn't populated withmuch content and it was largely kind of
+ hobbyists building their own kind of ramshackle websites a lot of peoplelooked at this this is like what is the
+ purpose of this thing why is this interesting who would want to do thisand so even things like Facebook and
+ Twitter yes technical decisions were made byengineers by scientists by executives in
+ the design of those platforms but you know I don't I don't think 10 years agoanyone anticipated that those platforms
+ for instance might kind of acquire undo you know influence on politicaldiscourse or on the outcomes of election
+ and I think the scrutiny that these companies are getting now is entirelyappropriate but I think it's a little
+ too harsh to kind of look at history and sort of say like oh you should have beenable to anticipate that this would
+ happen with your platform and in this sort of gaming chapter of the book oneof the points we're making is that you
+ know these platforms right they don't operate in isolation so like that unlikethe other topics we're discussing like
+ fairness and privacy like those are really cases where algorithms canoperate on your data and make decisions
+ about you and you're not even aware of it okay things like Facebook and Twitterthese are you know these are these are
+ systems right these are social systems and their evolution even their technicalevolution because machine learning is
+ involved is driven in no small part by the behavior of the users themselves andhow the users decide to adopt them and
+ how to use them and so you know you know I'm kind of like who really knew thatthe you know in until until we saw it
+ happen who knew that these things might be able to influence the outcome ofelections who knew that you know they
+ might polarize political discourse because of the ability to you knowdecide who you interact with on the
+ platform and also with the platform naturally using machine learning tooptimize for your own interest that they
+ would further isolate us from each other and you know like feed us all basicallyjust the stuff that we already agreed
+ with and I think it you know we've come to that outcome I think largely but Ithink it's something that we all learned
+ together including the companies as these things happen you asked like wellare there algorithmic remedies to these
+ kinds of things and again these are big problems that are not going to be solvedwith you know somebody going in and
+ changing a few lines of code somewhere in a social media platform but I dothink in many ways there are there are
+ definitely ways of making things better I mean like an obvious recommendationthat we we make at some point in the
+ book is like look you know to the extent that we think that machine learningapplied for person
+ purposes in things like newsfeed you know or other platforms has led topolarization and intolerance of opposing
+ viewpoints as you know right these these algorithms have models right and theykind of place people in some kind of
+ metric space and and they place content in that space and they sort of know theextent to which I have an affinity for a
+ particular type of content and by the same token they also probably have thatthat same model probably gives you a
+ good idea of the stuff I'm likely to violently disagree whether it beoffended by okay so you know in this
+ case there really is some nod you could tune it says like instead of showingpeople only what they like and what they
+ want let's show them some stuff that we think that they don't like or that's alittle bit further away and you could
+ even imagine users being able to control this you know just like a everybody getsa slider and that slider says like you
+ know how much stuff do you want to see that's kind of you know you mightdisagree with or is at least further
+ from your interests I can it's almost like an exploration button so just get
+
+0:52:05
+Speaker 1 :your intuition do you think engagement
+ so like you staying on the platform you because thing engaged do you thinkfairness ideas of fairness won't emerge
+ like how bad is it to just optimize for engagement do you think we'll run intobig trouble if we're just optimizing for
+
+
+0:52:29
+Speaker 0 :how much you love the platform well I
+ mean optimizing for engagement kind of got us where we are
+
+0:52:35
+Speaker 1 :so do you one have faith that it's
+ possible to do better and two if it is
+
+0:52:42
+Speaker 0 :how do we do better I mean it's
+ definitely possible to do different right and again you know it's not as ifI think that doing something different
+ than optimizing for engagement won't cost these companies in real waysincluding revenue and profitability
+ potentially short-term at least yeah in the short term right and again you knowif I worked at these companies I'm sure
+ that it it would have seemed like the mostnatural thing in the world also to want
+ to optimize engagement right and that's good for users in some sense you wantthem to be you know vested in the
+ platform and enjoying it and finding it useful interesting and or productive butyou know my point is is that the idea
+ that there is that it's sort of out of their hands as you said or that there'snothing to do about it
+ Never Say Never but that strikes me as implausible as a machine-learning personright I mean these companies are driven
+ by machine learning and this optimization of engagement isessentially driven by machine learning
+ right it's driven by not just machine learning but you know very verylarge-scale a be experimentation where
+ you gonna have tweaked some element of the user interface or tweaked somecomponent of an algorithm or tweak some
+ component or feature of your click-through prediction model and mypoint is is that anytime you know how to
+ optimize for something you'll you you know by def almost by definition thatsolution tells you how not to optimize
+ for it or to do something different
+
+0:54:12
+Speaker 1 :engagement can be measured so sort of
+ optimizing for sort of minimizing divisiveness or maximizing intellectualgrowth over the lifetime of a human
+ being very difficult to measure that
+
+0:54:29
+Speaker 0 :that's right so I'm not I'm not claiming
+ that doing something different will immediately make it apparent that thisis a good thing for society and in
+ particular I mean ethical one way of thinking about where we are on some ofthese social media platforms is it you
+ know it kind of feels a bit like we're in a bad equilibrium right that thesesystems are helping us all kind of
+ optimize something myopically and selfishly for ourselves and of coursefrom an individual standpoint at any
+ given moment like what why would I want to see things in my newsfeed that Ifound irrelevant offensive or you know
+ or the like okay but you know maybe by all of us you know having theseplatforms myopically optimized in our
+ interests we have reached a collective outcome as a society that were unhappywith in different ways
+ let's say with respect to things like you know political discourse and
+
+0:55:27
+Speaker 1 :tolerance of opposing viewpoints and if
+ Mark Zuckerberg gave you a call and said I'm thinking of taking a sabbaticalcould you run Facebook for me for four
+ six months what would you how I think no
+
+0:55:38
+Speaker 0 :thanks would be the first response but
+ there are many aspects of being the head of the the entire company there are kindof entirely exogenous to many of the
+ things that we're discussing here yes and so I don't really think I would needto be CEO at Facebook to kind of
+ implement the you know more limited set of solutions that I might imagine but Ithink one one concrete thing they could
+ do is they could experiment with letting people who chose to to see more stuff intheir newsfeed that is not entirely kind
+ of chosen to optimize for their particular interests beliefs etc so the
+
+0:56:22
+Speaker 1 :the kind of thing is I could speak to
+ YouTube but I think Facebook probably does something similar is they're quiteeffective at automatically finding what
+ sorts of groups you belong to not based on race or gender so on but based on thekind of stuff you enjoy watching and it
+ gets a YouTube serve it's a it's a difficult thing for Facebook or YouTubeto then say well you know what we're
+ going to show you something from a very different cluster even though we believealgorithmically you're unlikely to enjoy
+ that thing so if that's a weird jump to make there has to be a human like at thevery top of that system that says well
+ that will be long-term healthy for you that's more than an algorithmic decision
+
+0:57:12
+Speaker 0 :or or that same person could say that'll
+ be long-term healthy for the platform the platform for the platform'sinfluence on society outside of the
+ platform right and they you know it's easy for me to sit here and say thesethings yes but conceptually I do not
+ think that these are kind of totally or should they shouldn't be kind ofcompletely alien ideas right there
+ you know we you could try things like this and it wouldn't be you know wewouldn't have to invent entirely new
+ science to do it because if we're all already embedded in some metric spaceand there's a notion of distance between
+ you and me and every other every piece of content then you know we know exactlyyou know the same model that tells you
+ know that dictates how to make me really happy also tells how to make me asunhappy as possible as well right the
+
+
+0:58:04
+Speaker 1 :the focus in your book and algorithmic
+ fairness research today in general is on machine learning like we said is databut and just even the entire AI feel
+ right now is captivated with machine
+
+0:58:17
+Speaker 0 :
+
+0:58:18
+Speaker 1 :learning with deep learning do you think
+ ideas in symbolic AI or totally other kinds of approaches are interestinguseful in the space have some promising
+ ideas in terms of fairness I haven't
+
+0:58:30
+Speaker 0 :thought about that question specifically
+ in the context of fairness I definitely would agree with that statement in thelarge right I mean I am you know one of
+ many machine learning researchers who do believe that the great successes thathave been shown in machine learning
+ recently are great successes but they're on a pretty narrow set of tasks I mean Idon't I don't think were kind of notably
+ closer to general artificial intelligence now than we were when Istarted my career I mean there's been
+ progress and and I do think that we are kind of as a community maybe looking abit where the light is but the light is
+ shining pretty bright there right now and we're finding a lot of stuff so Idon't want to like argue with the
+ progress that's been made in areas like deep learning for example this touches
+
+0:59:19
+Speaker 1 :another sort of related thing that you
+ mentioned and that people might misinterpret from the title of your bookethical algorithm is it possible for the
+ algorithm to automate some of those decisions sort of higher-level decisions
+
+0:59:34
+Speaker 0 :of what kind of like what what should be
+ fair what should be fair the more you know about a field the more aware youare of its limitations and so I'm pretty
+ leery of sort of trying you know there's there's so much we don't all wedon't know in fairness even when were
+ the ones picking the fairness definitions and you know comparingalternatives and thinking about the
+ tensions between different definitions that the idea of kind of letting thealgorithm start exploring as well I
+ definitely think you know this is a much narrower statement I definitely thinkthe kind of algorithmic auditing for
+ different types of unfairness right so like in this gerrymandering examplewhere I might want to prevent not just
+ discrimination against very broad categories but against combinations ofbroad categories you know you quickly
+ get to a point where there's a lot of a lot of categories there's a lot ofcombinations of n features and you know
+ you can use algorithmic techniques to sort of try to find the subgroups onwhich you're discriminating the most and
+ try to fix that that's actually kind of the form of one of the algorithms wedeveloped for this fairness
+ gerrymandering problem but I'm you know partly because of our technology oursort of our scientific ignorance on
+ these topics right now and also partly just because these topics are so loadedemotionally for people that I just don't
+ see the value I mean again Never Say Never but I just don't think we're at amoment where it's a great time for
+ computer scientists to be rolling out the idea like hey you know you know notonly have we kind of figured fairness
+ out but you know we think the algorithm should start deciding what's fair orgiving input on that decision I just
+ don't laugh it's like the the cost-benefit analysis to the field ofkind of going there right now it just
+ doesn't seem worth it to me that said I
+
+1:01:25
+Speaker 1 :should say that I think computer
+ scientists should be more philosophically like should enrich theirthinking about these kinds of things I
+ think it's been too often used as an excuse for roboticists or cantatasvehicles for example to not think about
+ the human factor or psychology or safety in the same way like computer sciencedesign algorithms that be sort of using
+ is an excuse and I think it's time for basically everybody to become computerscientists
+
+
+1:01:51
+Speaker 0 :I was about to agree with everything you
+ said except that last point I think that the other way of looking at is that Ithink computer scientists you know and
+ and and many of us are but we need to wait outinto the world more right I mean just
+ the the influence that computer science and therefore computer scientists havehad on society at large just like has
+ exponentially magnified in the last 10 or 20 years or so and you know you knowbefore when we were just thinking
+ tinkering around amongst ourselves and it didn't matter that much there was noneed for sort of computer scientists to
+ be citizens of the world more broadly and I think those days need to be oververy very fast and I'm not saying
+ everybody needs to do it but to me like the right way of doing it is to not tosort of think that everybody else is
+ going to become a computer scientist but you know I think you know people arebecoming more sophisticated about
+ computer science even laypeople yeah you know though I think one of the reasonswe decided to write this book as we
+ thought 10 years ago I wouldn't have tried thisbecause I I just didn't think that sort
+ of people's awareness of algorithms and machine learning you know the generalpopulation would have been high and I
+ mean would you would have had to first you know write one of the many bookskind of just explicate alais audience
+ first now I think we're at the point where like lots of people without anytechnical training at all know enough
+ about algorithms machine learning that you can start getting to these nuancesof things like ethical algorithms I
+ think we agree that there needs to be much more mixing but I think I think alot of the onus of that mixing needs to
+ be on the computer science community
+
+1:03:35
+Speaker 1 :yeah so just to linger on the
+ disagreement because I do disagree with you on the point that I think if you'rea biologist if you're a chemist if you
+ are an MBA business person all of those things you can like if you learn toprogram and not only program if you
+ learn to do machine learning if you know energy data science you immediatelybecome much more powerful the kinds of
+ things you can do and therefore literature like the library Scienceslike so you're speaking I think deaf I
+ think it holds true well you're saying for the next two years butlong term if you're interested to me if
+ you're interested in philosophy you should learn to program because then youcan scrape data you can and study what
+ people are thinking about on Twitter and then start making those awfulconclusions about the meaning of life
+ right I just I just feel like the access to data the digitization of whateverproblem you're trying to solve is a
+ fundamentally change what it means to be a computer scientist I mean computerscientists in 20 30 years will go back
+ to being donald knuth style theoretical computer science and everybody would bedoing basically they kind of exploring
+ the kinds of ideas the exploring in your book it won't be a computer sighs yeah
+
+1:04:59
+Speaker 0 :yeah I mean I don't think I disagree not
+ but I think that that trend of more and more people and more and moredisciplines adopting ideas from computer
+ science learning how to code I think that that trend seems firmly underway Imean you know like an interesting
+ digressive question along these lines is maybe in 50 yearsthere won't be computer science
+ departments anymore because the field will just sort of be ambient in all ofthe different disciplines and you know
+ people will look back and you know having a computer science departmentwill look like having an electricity
+ department or something that's like you know everybody uses this it's just outthere I mean I do think there will
+ always be that kind of canoe style core - yeah but it's not an implausiblehalf that we kind of get to the point
+ where the academic discipline of computer science becomes somewhatmarginalized because of its very success
+ in kind of infiltrating all of science and society and the humanities etc what
+
+1:06:00
+Speaker 1 :is differential privacy or more broadly
+ algorithmic privacy algorithmic privacy
+
+1:06:06
+Speaker 0 :more broadly is just the study or the
+ notion of privacy definitions or norms being encoded inside of algorithms andso you know I think we count among
+ this body of work just you know the literature and practice of things likedata anonymization which we kind of at
+ the beginning of our discussion of privacy say like okay this is this issort of a notion of algorithmic privacy
+ it kind of tells you you know something to go do with data but but you know ourview is that it's and I think this is
+ now you know quite widespread that it's you know despite the fact that thosenotions of anonymization kind of redact
+ the in coarsening are the most widely adopted technical solutions for dataprivacy they are like deeply
+ fundamentally flawed and so you know to your first question what is differentialprivacy differential privacy seems to be
+ a much much better notion of privacy that kind of avoids a lot of theweaknesses of anonymization notions well
+ while still letting us do useful stuff with data
+
+1:07:25
+Speaker 1 :what's anonymization of data so by
+
+
+1:07:26
+Speaker 0 :anonymous a ssin i'm you know kind of
+ referring to techniques like i have a database the rows of that database arelet's say individual people's medical
+ records okay and i want to let people use that data maybe i want to letresearchers access that data to build
+ predictive models for some disease but i'm worried that that will leak you knowsensitive information about specific
+ people's medical records so anonymization broadly refers to the setof techniques where i say like okay i'm
+ first gonna like like i'm gonna delete the column with people's names I'm goingto not put you know so that would be
+ like a redaction right I'm just redacting that information I am going totake ages and I'm not gonna like say
+ your exact age I'm gonna say whether you're you know zero to 10 10 to 20 20to 30 I might put the first three digits
+ of your zip code but not the last two etc etc and so the idea is that throughsome series of operations like this on
+ the data I anonymize it you know another term of art that's used is removingpersonally identifiable information
+ and you know this is basically the most common way of providing data privacy butthat's in a way that still lets people
+ access the some variant form of the data
+
+1:08:50
+Speaker 1 :so at a slightly broader picture as you
+ talk about what does the not immunization mean when you have multipledatabase like with a Netflix prize when
+ you can start combining stuff together
+
+1:09:01
+Speaker 0 :so this is exactly the problem with
+ these notions right is that notions of Adana anonymization removing personallyidentifying information the kind of
+ fundamental conceptual flaw is that you know these definitions kind of pretendas if the data set in question is the
+ only data set that exists in the world or that ever will exist in the futureand of course things like the Netflix
+ prize and many many other examples since the Netflix applies I think that was oneof the earliest ones though you know you
+ can redefine oh that were anonymized in the data set by taking that anonymizeddata set and combining with other
+ allegedly anonymized data sets and may be publicly available information aboutyou for people who don't know the
+
+
+1:09:45
+Speaker 1 :Netflix prize was what was being
+ publicly released this data so the names from those rows were removed but whatwas released is the preference or the
+ ratings of what movies you like and you don't like and from that combined withother things I think foreign posts and
+
+
+1:10:03
+Speaker 0 :so on you can case it was specifically
+ the Internet Movie Database where where lots of Netflix users publicly ratetheir move you know their movie
+ preferences and so the anonymized data in Netflix when kaneen and it's it'sjust this phenomenon I think that we've
+ all come to realize in the last decade or so is that just knowing a fewapparently irrelevant
+ innocuous things about you can often act as a fingerprint like if I know you knowwhat what rating you gave to these 10
+ movies and the date on which you entered these movies this is almost like afingerprint for you is the see of all
+ Netflix users there were just another paper on this in science or nature ofabout a month ago that you know kind of
+ 18 attributes I mean my favorite example of this this wasactually a paper from several years ago
+ now where it was shown that just from your likes on Facebook just from thetaunt you know the things on which you
+ clicked on the thumbs up button on the platform not using any informationdemographic information nothing about
+ who your friends are just knowing the content that you had liked was enough toyou know in the aggregate accurately
+ predict things like sexual orientation drug and alcohol use whether you werethe childhood divorced parents so we
+ live in this era where you know even the apparently irrelevant data that we offerabout ourselves on public platforms and
+ forums often unbeknownst to us more or less acts as signature or you knowfingerprint and that if you can kind of
+ you know do a join between that kind of data and allegedly anonymize data youhave real trouble so is there hope for
+
+
+1:11:51
+Speaker 1 :any kind of privacy in a world where a
+ few likes can can identify you so there
+
+1:11:56
+Speaker 0 :is differential privacy right what is
+ differential differential privacy basically is a kind of alternate muchstronger notion of privacy than these
+ anonymization ideas and it you know it's a technical definition but like thespirit of it is we we compare to to
+ alternate worlds okay so let's suppose I'm a researcher and I want to do youknow I there's a database of medical
+ records and one of them's yours and I want to use that database of medicalrecords to build a predictive model for
+ some disease so based on people's symptoms and test results and the like Iwant to you know build a Probab you know
+ model predicting the probability that people have disease so you know this isthe type of scientific research that we
+ would like to be allowed to continue and in differential privacy you act ask avery particular counterfactual question
+ we basically compare two alternatives one is when I do this I build this modelon the database of medical records
+ including your medical record and the other one iswhere I do the same exercise with the
+ same database with just your medical record removed so basically you knowit's two databases one with n records in
+ it and one with n minus one records in it the N minus one records are the sameand the only one that's missing in the
+ second case is your medical record so differential privacy basically says thatany harms that might come to you from
+ the analysis in which your data was included are essentially nearlyidentical to the harms that would have
+ come to you if the same analysis had done been done without your medicalrecord included so in other words this
+ doesn't say that bad things cannot happen to you as a result of dataanalysis it just says that these bad
+ things were going to happen to you already even if your data wasn'tincluded and to give a very concrete
+ example right you know um you know like we discussed at some length the thestudy that you know the in the 50s that
+ was done that created the that established the link between smoking andlung cancer and we make the point that
+ like well if your data was used in that analysis and you know the world kind ofknew that you were a smoker because you
+ know there was no stigma associated with smoking before that those findings realharm might have come to you as a result
+ of that study that your data was included in in particular your insurernow might have a higher posterior belief
+ that you might have lung cancer and raise your premiums so you've sufferedeconomic damage but the point is is that
+ if the same analysis been done without with all the other n minus-1 medicalrecords and just yours missing the
+ outcome would have been the same your your data was an idiosyncratic eleumcrucial to establishing the link between
+ smoking and lung cancer because the link between smoking and lung cancer is likea fact about the world that can be
+ discovered with any sufficiently large database of medical records but that's a
+
+1:15:15
+Speaker 1 :very low value of harm yeah
+ so that's showing that very little harm is done great but how what is themechanism of differential privacy so
+ that's the kind of beautiful statement of it well what's the mechanism by whichprivacy's preserve yeah so it's it's
+
+
+1:15:30
+Speaker 0 :basically by adding noise to
+ computations right so the basic idea is that every differentially privatealgorithm first of all or every good
+ differentially private album every useful one is a probabilistic algorithmso it doesn't on a given input if you
+ gave the algorithm the same input multiple times it would give differentoutputs each time from some distribution
+ and the way you achieve differential privacy algorithmically is by kind ofcarefully and tastefully adding noise to
+ a computation in the right places and you know to give a very concrete exampleif I want to compute the average of a
+ set of numbers right the non private way of doing that is to take those numbersand average them and release like a
+ numerically precise value for the average okay in differential privacy youwouldn't do that you would first compute
+ that average to numerical Precision's and then you'd add some noise to itright you'd add some kind of zero mean
+ you know gaussian or exponential noise to it so that the actual value yououtput is not the exact mean but it'll
+ be close to the mean but it'll be close the noise the you add will sort of provethat nobody can kind of reverse engineer
+ any particular value that went into the
+
+1:16:53
+Speaker 1 :average so noise noise is the Savior how
+ many algorithms can be aided by making
+
+1:17:01
+Speaker 0 :by adding noise yeah so I'm a relatively
+ recent member of the differential privacy community my co-author AaronRoth is you know really one of the
+ founders of the field and has done a great deal of work and I've learned atremendous amount working with him on it
+ growing up field already yeah but it's now it's pretty mature but I must admitthe first time I saw the definition of
+ deferential privacy my reaction was like well that is a clever definition andit's really making very strong promises
+ and my you know you know at first saw the definitionin much earlier days and my first
+ reaction was like well my worry about this definition would be that it's agreat definition of privacy but that
+ it'll be so restrictive that we won't really be able to use it like you knowwe won't be able to do compute many
+ things in a differentially private way so that that's one of the greatsuccesses of the field I think isn't
+ showing that the opposite is true and that you know most things that we knowhow to compute absent any privacy
+ considerations can be computed in a differentially private way so forexample pretty much all of statistics
+ and machine learning can be done differentially privately so pick yourfavorites machine learning algorithm
+ back propagation and neural networks you know cart for decision trees supportvector machines boosting you name it as
+ well as classic hypothesis testing and the like and statistics none of thosealgorithms are differentially private in
+ their original form all of them have modifications that addnoise to the computation in different
+ places in different ways that achieve differential privacy so this reallymeans that to the extent that you know
+ we've become a you know a scientific community very dependent on the use ofmachine learning and statistical
+ modeling and data analysis we really do have a path to kind of provide privacyguarantees to those methods and and sort
+ of we can still you know enjoy the benefits of kind of the data science erawhile providing you know rather robust
+ privacy guarantees to individuals so
+
+1:19:10
+Speaker 1 :perhaps a a slightly crazy question but
+ if we take that the ideas of differential privacy and take it to thenature of truth that's being explored
+ currently so what's your most favorite and least favorite food hmm
+
+1:19:25
+Speaker 0 :I'm not a real foodie so I'm a big fan
+ of spaghetti I forget it yeah on what
+
+1:19:30
+Speaker 1 :
+
+1:19:32
+Speaker 0 :what do you really don't like umm I
+ really don't like cauliflower well I
+
+1:19:37
+Speaker 1 :love golf okay but is one way to protect
+ your preference for spaghetti by having information campaign bloggers and so on a
+ boat's saying that you like cauliflower so like this kind of the same kind ofnoise ideas I mean if you think of in
+ our politics today there's this idea of Russia hacking our elections what'smeant there I believe is BOTS spreading
+ different kinds of information is that a kind of privacy or is that too much of a
+
+1:20:10
+Speaker 0 :stretch no it's not a stretch I have not
+ seen those idea you know that is not a technique that to my knowledge willprovide differential privacy but but to
+ give an example like one very specific example about what you're discussing isthere was a very interesting project at
+ NYU I think led by a Helen missin bomb there in which they basically built abrowser plugin that tried to essentially
+ obfuscate your Google searches so to the extent that you're worried that Googleis using your searches to build you know
+ predictive models about you to decide what ads to show you which they mightvery reasonably want to do but if you
+ object to that they built this widget you could plug in and basically wheneveryou put in a query into Google it would
+ send that query to Google but in the background all the time from yourbrowser
+ it would just be sending this torrent of irrelevant queries to the search engineso you know it's like a weed and chaff
+ thing so you know out of every thousand queries let's say that Google wasreceiving from your browser one of them
+ was one that you put in but the other 999 were not okay so it's the same kindof idea kind of you know privacy by
+ obfuscation so I think that's an interesting idea doesn't give youdifferential privacy it's also I was
+ actually talking to somebody at one of the large tech companies recently aboutthe fact that you know just this kind of
+ thing that there are some times when the response to my data needs to be veryspecific to my data right like I type
+ mountain biking into Google I want results on mountain biking and I reallywant Google to know that I typed in
+ biking I don't want noise adage to that and so I think there's sort of maybeeven interesting technical questions
+ around notions of privacy that are appropriate where you know it's not thatmy date is part of some aggregate like
+ medical records and that we're trying to discover important correlations andfacts about the world at large
+ but rather you know there's a service that I really want to you know payattention to my specific data yet I
+ still want some kind of privacy guarantee and I think these kind ofobfuscation ideas are sort of one way of
+ getting at that but maybe there are others as well so where do you think
+
+1:22:32
+Speaker 1 :will land in this algorithm driven
+ society in terms of privacy so sort of China like Chi Fuli describes you knowit's collecting a lot of data on its
+ citizens but in the best form it's actually able to provide a lot of sortof protects human rights and provide a
+ lot of amazing services and its worst forms it can violate those human rightsand and limit services so what do you
+ think will land on so algorithms are powerful when they use data so as asociety do you think we'll give over
+ more data is it possible to protect the privacy of that data so I'm optimistic
+
+1:23:16
+Speaker 0 :about the possibility of you know
+ balancing the desire for individual privacy and individual control ofprivacy with kind of societally and
+ commercially beneficial uses of data not unrelated to differential privacy orsuggestions that say like well
+ individuals should have control of their data they should be able to limit theuses of that data they should even you
+ know there's there's you know fledgling discussions going on in research circlesabout allowing people selective use of
+ their data and being compensated for it and then you get to sort of veryinteresting economic questions like
+ pricing right and one interesting idea is that maybe differential privacy wouldalso you know be Bo a conceptual
+ framework in which you could talk about the relative value of different people'sdata like you know to demystify this a
+ little bit if I front of build a predictive model forsome rare disease and I'm trying to you
+ I'm gonna use machine learning to do it it's easy to get negative examplesbecause the disease is rare right but I
+ really want to have lots of people with the disease in my data set okaybut but and so somehow those people's
+ data with respect to this application is much more valuable to me than just likethe background population and so maybe
+ they should be compensated more for it and so you know I think these are kindof very very fledgling conceptual
+ questions that maybe will have kind of technical thought on them sometime inthe coming years but but I do think well
+ you know to kind of get more directly answer your question I think I'moptimistic at this point from what I've
+ seen that we will land at some you know better compromise than we're at rightnow where again you know privacy
+ guarantees are a few far between and weak and users have very very littlecontrol and I'm optimistic that we'll
+ land in something that you know provides better privacy overall and moreindividual control of data and privacy
+ but you know I think to get there it's again just like fairness it's not goingto be enough to propose algorithmic
+ solutions there's gonna have to be a whole kind of regulatory legal processthat prods companies and other parties
+ to kind of adopt solutions and I think
+
+1:25:39
+Speaker 1 :you've mentioned the word control and I
+ think giving people control that's something that people don't quite haveand a lot of these algorithms that's a
+ really interesting idea of giving them control some of that is actuallyliterally an interface design question
+ sort of just enabling because I think it's good for everybody to give userscontrol it's not it's not a it's almost
+ not a trade off except you have to hire people that are good at interface design
+
+1:26:06
+Speaker 0 :yeah I mean the other thing that has to
+ be said right is that you know it's a cliche but you know we who is the usersof many systems platforms and apps you
+ know we are the product we are not the customer the customer our advertisersand our data is the prod
+ okay so it's one thing to kind of suggest more individual control of dataand privacy and uses but this you know
+ if this happens in sufficient degree it will upend the entire economic modelthat has supported the internet to date
+ and so some other economic model will have to be you know will have to replaceit so the idea of markets you mentioned
+
+
+1:26:50
+Speaker 1 :by exposing the economic model to the
+ people they will then become a market
+
+1:26:58
+Speaker 0 :they can be participants in participants
+ in and and you know this isn't you know this is not a weird idea right becausethere are markets for data already it's
+ just that consumers are not participants in there's like you know there's sort ofyou know publishers and content
+ providers on one side that have inventory and then they're advertised onthe others and you know you know Google
+ and Facebook are running you know they're pretty much their entire revenuestream is by running two-sided markets
+ between those parties right and so it's not a crazy idea that there would belike a three sided market or that you
+ know that on one side of the market or the other we would have proxiesrepresenting our interest it's not you
+ know it's not a crazy idea but it would it it's not a crazy technical idea butit would have pretty extreme economic
+
+
+1:27:49
+Speaker 1 :consequences speaking of markets a lot
+ of fascinating aspects of this world arise not from individual humans butfrom the interaction of human beings
+ you've done a lot of work in game theory first can you say what is game theoryand how does help us model and study
+
+
+1:28:07
+Speaker 0 :yeah game theory of course let us give
+ credit where it's due they don't comes from the economist first and foremostbut as I've mentioned before like you
+ know computer scientists never hesitate to wander into other people's turf andso there is now this 20 year old field
+ called algorithmic game theory but you know game game theory first and foremostis a mathematical framework for
+ reasoning about collective outcomes in systems of interacting individuals youknow so you need at least two people to
+ get started in game theory and many people are probably familiar withprisoner's dilemma as kind of a classic
+ example of game theory and a classic example where everybody looking out fortheir own individual interests leads to
+ a collective outcome that's kind of worse for everybody then what might bepossible if they cooperated for example
+ but cooperation is not an equilibrium in prisoner's dilemma and so my work andthe field of algorithmic game theory
+ more generally in these areas kind of looks at settings in which the number ofactors is potentially extraordinarily
+ large and their incentives might be quite complicated and kind of hard tomodel directly but you still want kind
+ of algorithmic ways of kind of predicting what will happen orinfluencing what will happen in the
+ design of platforms so what to you is
+
+1:29:40
+Speaker 1 :the most beautiful idea that you've
+ encountered in game theory there's a lot
+
+1:29:46
+Speaker 0 :of them I'm a big fan of the field I
+ mean you know I mean technical answers to that of course would include Nash'swork just establishing that you know
+ there there's a competitive equilibrium under very very general circumstanceswhich in many ways kind of put the field
+ on a firm conceptual footing because if you don't have equilibria it's kind ofhard to ever reason about what might
+ happen since you know there's just no stability so just the idea that
+
+1:30:17
+Speaker 1 :stability can emerge when there's
+
+
+1:30:19
+Speaker 0 :multiple or that it means not that it
+ will necessarily emerge just that it's possible right it's like the existenceof equilibrium doesn't mean that sort of
+ natural iterative behavior will necessarily lead to it in the real worldyeah maybe answering a slightly less
+ personally than you asked the question I think within the field of algorithmicgame theory perhaps the single most
+ important kind of technical contribution that'sbeen made is the real the the
+ realization between close connections between machine learning and game theoryand in particular between game theory
+ and the branch of machine learning that's known as no regret learning andand this sort of provides a fray a very
+ general framework in which a bunch of players interacting in a game or asystem each one kind of doing something
+ that's in their self-interest will actually kind of reach an equilibriumand actually reach an equilibrium in a
+ you know a pretty you know a rather you know short amount of steps so you kind
+
+1:31:21
+Speaker 1 :of mentioned acting greedily can somehow
+ end up pretty good for everybody or
+
+1:31:29
+Speaker 0 :pretty bad or pretty bad it will end up
+
+
+1:31:31
+Speaker 1 :
+
+1:31:34
+Speaker 0 :stable yeah right and and you know
+ stability or equilibrium by itself is neither is not necessarily either a goodthing or a bad thing so what's the
+
+
+1:31:43
+Speaker 1 :connection between machine learning and
+ the ideas well if we kind of talked
+
+1:31:46
+Speaker 0 :about these ideas already in in kind of
+ a non-technical way which is maybe the more interesting way of understandingthem first which is you know we have
+ many systems platforms and apps these days that work really hard to use ourdata and the data of everybody else on
+ the platform to selfishly optimize on behalf of each user okay so you know letme let me give what the the cleanest
+ example which is just driving apps navigation apps like you know GoogleMaps and ways where you know
+ miraculously compared to when I was growing up at least you know theobjective would be the same when you
+ wanted to drive from point A to point B spend the least time driving notnecessarily minimize the distance but
+ minimize the time right and when I was growing up like the only resources youhad to do that were like maps in the car
+ which literally just told you what roads were available and then you might havelike half hourly traffic reports just
+ about the major freeways but not about side roads so you were pretty much onyour own and now we've
+ these apps you pull it out and you say I want to go from point A to point B andin response kind of to what everybody
+ else is doing if you like what all the other players in this game are doingright now here's the the you know the
+ the route that minimizes your driving time so it is really kind of computing aselfish best response for each of us in
+ response to what all of the rest of us are doing at any given moment and so youknow I think it's quite fair to think of
+ these apps as driving or nudging us all towards the competitive or Nashequilibrium of that game now you might
+ ask like well that sounds great why is that a bad thingwell you know it's it's known both in
+ theory and with some limited studies from actual like traffic data that allof us being in this competitive
+ equilibrium might cause our collective driving time to be higher may besignificantly higher than it would be
+ under other solutions and then you have to talk about what those other solutionsmight be and what what the algorithms to
+ implement them are which we do discuss in the kind of game theory chapter ofthe book but but similarly you know on
+ social media platforms or on Amazon you know all these algorithms that areessentially trying to optimize our
+ behalf they're driving us in a colloquial sense towards some kind ofcompetitive equilibrium and you know one
+ of the most important lessons of game theory is that just because we're atequilibrium doesn't mean that there's
+ not a solution in which some or maybe even all of us might be better off andthen the connection to machine learning
+ of course is that in all these platforms I've mentioned the optimization thatthey're doing on our behalf is driven by
+ machine learning you know like predicting where the traffic will bepredicting what products I'm gonna like
+ predicting what would make me happy in my newsfeed now in terms of the
+
+1:34:51
+Speaker 1 :stability and the promise of that I have
+ to ask just out of curiosity how stable are these mechanisms that you gametheories just The Economist's came up
+ with and we all know that economists don't live in the real world justkidding
+ sort of what's do think when we look at the fact that wehaven't blown ourselves up from the from
+ a game theoretic concept of mutually assured destruction what are the oddsthat we destroy ourselves with nuclear
+ weapons as one example of a stable game theoretic system just to prime your
+
+1:35:28
+Speaker 0 :viewers a little bit I mean I think
+ you're referring to the fact that game theory was taken quite seriously back inthe 60s as a tool for reasoning about
+ kind of Soviet US nuclear armament disarmed ative date on things like thatI'll be honest as huge of a fan as I am
+ of game theory and it's kind of rich history it still surprises me that youknow you had people at the RAND
+ Corporation back in those days kind of drawing up you know two by two tablesand one the row player is weekend oh the
+ US and the column player is Russia and that they were taking seriously you knowyou know I'm sure if I was there maybe
+ it wouldn't have seemed as as naive as it does at the time you know seems to
+
+1:36:13
+Speaker 1 :have worked which is why it seems naive
+
+
+1:36:15
+Speaker 0 :well we're still here we're still here
+ in that sense yeah even though I kind of laugh at those efforts they were moresensible than than they would be now
+ right because there were sort of only two nuclear powers at the time and youdidn't have to worry about deterring new
+ entrants and who was developing the capacity and so we have many we havethis it's definitely a game with more
+ players now and more potential entrants I'm not in general somebody whoadvocates using kind of simple
+ mathematical models when the stakes are as high as things like that and thecomplexities are very political and
+ social but but we are still here so
+
+1:36:55
+Speaker 1 :you've worn many hats one of which the
+ one that first caused me to become a big fan of your work many years ago isalgorithmic trading so I have to just
+ ask a question about this because you have so much fascinating work there inthe 21st century would what role do you
+ think algorithms have in space of trading investment in the financialsector yeah
+
+
+1:37:19
+Speaker 0 :it's a good question I mean
+ in the time I've spent on Wall Street and in finance you know I've seen aclear progression and I think it's a
+ progression that kind of models the use of algorithms and automation moregenerally in society which is you know
+ the things that kind of get taken over by the algos first are sort of thethings that computers are obviously
+ better at than people right so you know so first of all there needed to be thisera of automation right we're just you
+ know financial exchanges became largely electronic which then enabled thepossibility of you know trading becoming
+ more algorithmic because once you know the exchanges are electronic analgorithm can submit an order through an
+ API just as well as a human can do at a monitor quickly it can read all the dataso yeah and so you know I think the the
+ places where algorithmic trading have had the greatest inroads and had thefirst inroads were in in kind of
+ execution problems kind of optimized execution problems so what I mean bythat is at a large brokerage firm for
+ example one of the lines of business might be on behalf of largeinstitutional clients taking you know
+ what we might consider difficult trade so it's not like a mom-and-pop investorsaying I want to buy a hundred shares of
+ Microsoft it's a large hedge fund saying you know I want to buy a very very largestake in Apple and I want to do it over
+ the span of a day and it's such a large volume that if you're not clever abouthow you break that trade up not just
+ over time but over perhaps multiple different electronic exchanges that alllet you trade Apple on their platform
+ you know you will you will move you'll push prices around in a way that hurtsyour your execution so you know this is
+ the kind of you know this is an optimization problem this is a controlproblem right and so machines are a
+ better we know how to design algorithms you know that are better at that kind ofthing then a person is going to be able
+ to do because we can take volumes of historical and real-time data to kind ofoptimize the schedule with which we
+ trade and you know similarly high frequency trading you know which isclosely related but not this
+ optimized execution where you're just trying to spot very very temporary youknow miss pricings between exchanges or
+ within an asset itself or just predict directional movement of a stock becauseof the kind of very very low-level
+ granular buying and selling data in in the exchange machines are good at thiskind of stuff it's kind of like the
+
+
+1:40:00
+Speaker 1 :mechanics of trading what about the can
+ machines do long terms of prediction
+
+1:40:07
+Speaker 0 :yeah so I think we are in an era where
+ you know clearly there have been some very successfulyou know quant hedge funds that are you
+ know in what we would traditionally call you know still in this the stat ARBregime like so you know stat are
+ referring to statistical arbitrage but but for the purposes of thisconversation what it really means is
+ making directional predictions in asset price movement or returns yourprediction about that directional
+ movement is good for you know you you have a view that it's valid for someperiod of time between a few seconds and
+ a few days and that's the amount of time that you're gonna kind of get into theposition hold it and then hopefully be
+ right about the directional movement and you know buy low and sell high as thecliche goes so that is a you know kind
+ of a sweet spot I think for quant trading and investing right now and hasbeen for some time when you really get
+ to kind of more warren buffett style timescales right like you know mycartoon of warren buffett is that you
+ know warren buffett sits and thinks what the long-term value of Apple reallyshould be and he doesn't even look at
+ what Apple's doing today he just decides you know yeah you know I think that thiswas what its long-term value is and it's
+ far from that right now and so I'm gonna buy some Apple or you know shorts andApple and I'm gonna I'm gonna sit on
+ that for 10 or 20 years okay so when you're at that kind of time scale oreven more than just a few days all kinds
+ of other sources of risk and information you know so noware talking about holding things through
+ recessions and economic cycles wars can break out so there you have to install a
+
+1:41:57
+Speaker 1 :human nature at 11:00 yeah and you need
+
+
+1:41:59
+Speaker 0 :to just be able to ingest many many more
+ sources of data that are on wildly different timescales right so if I'm anhft I'm a high-frequency trader like I
+ don't I don't I really my main source of data is just the data from the exchangesthemselves about the activity in the
+ exchanges right and maybe I need to pay you know I need to keep an eye on thenews right because you know that can
+ sudden cause sudden you know the the you know CEO gets caught in a scandal or youknow gets run over by a bus or something
+ that can cause very sudden changes in but you know I don't need to understandeconomic cycles I don't need to
+ understand recessions I don't need to worry about the political situation orwar breaking out in this part of the
+ world because you know all you need to know is as long as that's not gonnahappen in the left next 500 milliseconds
+ then you know my models good when you get to these longer timescales youreally have to worry about that kind of
+ stuff and people in the machine learning community are starting to think aboutthis we held a we did we jointly
+ sponsored a workshop at 10:00 with the Federal Reserve Bank of Philadelphia alittle more than a year ago on you know
+ I think the title is something like machine learning for macroeconomicprediction
+ you know macroeconomic referring specifically to these longer timescalesand you know it was an interesting
+ conference but it you know my it left me with greater confidence that we have along way to go to you know and so I
+ think that people that you know in the grand scheme of things you know ifsomebody asked me like well whose job on
+ Wall Street is safe from the bots I think people that are at that longer youknow the time scale and have that
+ appetite for all the risks involved in long term investing and that really needkind of not just algorithms that can
+ optimize from data but they need views on stuff they need views on thepolitical landscape economic cycles and
+ the like and I think you know they're they're they're pretty safe for a whileas far as I can tell so Warren Buffett
+
+
+1:44:03
+Speaker 1 :
+
+1:44:04
+Speaker 0 :yeah I'm not seeing you know a robo
+ Warren Buffett anytime so she'd give him
+
+1:44:08
+Speaker 1 :comfort last question if you could go
+ back to if there's a day in your life you could relive because I made youtruly happy maybe you outside family boy
+
+
+1:44:23
+Speaker 0 :otherwise do you know what what day
+
+
+1:44:26
+Speaker 1 :would it be
+ what can you look back you remember just being profoundly transformed in some way
+
+1:44:36
+Speaker 0 :or blissful I'll answer a slightly
+ different question which is like what's a day in my life or my career that waskind of a watershed moment I went
+ straight from undergrad to doctoral studies and you know that's not at all atypical and I'm also from an academic
+ family like my dad was a professor or my uncle on his side as a professor both mygrandfather's were professors all kinds
+
+
+1:45:03
+Speaker 1 :of majors to philosophy yeah all over
+
+
+1:45:06
+Speaker 0 :the map yeah and I was a grad student
+ here just up the river at Harvard and came to study with less valiant whichwas a wonderful experience but you know
+ I remember my first year of graduate school I was generally pretty unhappyand I was unhappy because you know at
+ Berkeley as an undergraduate you know yeah I studied a lot of math andcomputer science but it was a huge
+ school first of all and I took a lot of other courses as we've discussed Istarted as an English major and took
+ history courses and art history classes and had friends you know that did allkinds of different things and you know
+ Harvard's a much smaller institution than Berkeley and it's computer sciencedepartment especially at that time was
+ was a much smaller place than it is now and I suddenly just felt very you knowlike I'd gone from this very big world
+ to this highly specialized world and now all of the classes I was taking werecomputer science classes and I was only
+ in classes with math and computer science people and so I was you know Ithought often in that first year of grad
+ school about whether I really wanted to stick with it or not and you know Ithought like oh I could you know stop
+ with a masters I could go back to the Bay Area into California and youknow this was from one of the early
+ periods where there was you know like you could definitely get a relativelygood job paying job at one of the one of
+ the tech companies back you know that were the the big tech companies backthen and so I distinctly remember like
+ kind of a late spring day when I was kind of you know sitting in BostonCommon and kind of really just kind of
+ chewing over what I wanted to do with my life and I realized like okay you knowand I think this is where my academic
+ background helped me a great deal I sort of realized you know yeah you're nothaving a great time right now this feels
+ really narrowing but you know that you're here for research eventually andto do something original and to try to
+ you know carve out a career where you kind of you know choose what you want tothink about you know and have a great
+ deal of Independence and so you know at that point I really didn't have any realresearch experience yet I mean it was
+ trying to think about some problems with very little success but but I knew thatlike I I hadn't really tried to do the
+ thing that I knew I'd come to do and so I thought you know I'm gonna I'm gonnastick I'm gonna you know stick through
+ it for the summer and you know and and and that was very formative because Iwent from kind of contemplating quitting
+ to you know a year later it being very clear to me I was going to finishbecause I still had a ways to go but I
+ kind of started doing research it was going well it was really interesting andit was sort of a complete transformation
+ you know it's just that transition that I think every doctoral student makes atsome point which is to sort of go from
+ being like a student of what's been done before to doing you know your own thingand figure out what makes you interested
+ in what your strengths and weaknesses are as a researcher and once you know Ikind of made that decision on that
+ particular day at that particular moment in Boston Commonyou know the I'm glad I made that
+ decision and also just accepting the
+
+1:48:16
+Speaker 1 :painful nature of that journey yeah
+
+
+1:48:19
+Speaker 0 :exactly exactly and in that moment said
+
+
+1:48:22
+Speaker 1 :I'm gonna I'm gonna stick it out yeah
+
+
+1:48:25
+Speaker 0 :I'm gonna stick around for a while well
+
+
+1:48:26
+Speaker 1 :Michael looked up do you work for a long
+ time it's really talk to you separation get back in touch
+

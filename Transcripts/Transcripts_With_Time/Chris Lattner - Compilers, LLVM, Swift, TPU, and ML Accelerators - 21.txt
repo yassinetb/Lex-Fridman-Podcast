@@ -1,0 +1,1071 @@
+0:00:00
+Speaker 0 :the following is a conversation with
+ Chris flattener currently he's a senior director of Google working on severalprojects including CPU GPU TPU
+ accelerators for tensorflow
+
+0:00:10
+Speaker 1 :
+
+0:00:10
+Speaker 0 :swift for tensorflow and all kinds of
+ machine learning compiler magic going on behind the scenes he's one of the topexperts in the world on compiler
+ technologies which means he deeply understands the intricacies of howhardware and software come together to
+ create efficient code he created the LLVM compiler infrastructure project andthe clang compiler he led major
+ engineering efforts at Apple including the creation of the Swift programminglanguage he also briefly spent time at
+ Tesla as vice president of auto pilot software during the transition fromautopilot Hardware 1 to hardware 2 when
+ Tesla essentially started from scratch to build an in-house softwareinfrastructure for autopilot I could
+ have easily talked to Chris for many more hours compiling code down acrossthe levels abstraction is one of the
+ most fundamental and fascinating aspects of what computers do and he is one ofthe world experts in this process it's
+ rigorous science and it's messy beautiful art this conversation is partof the artificial intelligence podcast
+ if you enjoy it subscribe on youtube itunes or simply connect with me ontwitter at Lex Friedman spelled Fri D
+ and now here's my conversation with
+
+0:01:27
+Speaker 1 :
+
+0:01:28
+Speaker 0 :Chris Ladner what was the first program
+
+
+0:01:32
+Speaker 1 :you've ever written my first program
+ back and when was it I think I started as a kid and my parents got a basicprogramming book and so when I started
+ it was typing out programs from a book and seeing how they worked and thentyping them in wrong and trying to
+ figure out why they were not working right that kind of stuff so basic what
+
+0:01:52
+Speaker 0 :was the first language that you remember
+ yourself maybe falling in love with like
+
+0:01:59
+Speaker 1 :really connecting with I don't know I
+ mean I feel like I've learned a lot along the way and each of them have adifferent special thing about them so I
+ started in basic and then went like gw-basic which was the thing back in theDOS days and then
+ upgrade to QBasic and eventually quick basic which are all slightly more fancyversions of Microsoft basic made the
+ jump to Pascal and start doing machine language programming and assembly inPasco which was really cool through
+ Pascal was amazing for its day eventually going to C C++ and then kindof did lots of other weird things I feel
+
+
+0:02:33
+Speaker 0 :like you took the dark path which is the
+ you could you could have gone Lisp yeah
+
+0:02:38
+Speaker 1 :you've got a higher-level sort of
+
+
+0:02:40
+Speaker 0 :functional philosophical hippy route
+ instead you went into like the dark arts
+
+0:02:47
+Speaker 1 :of the straight straight in the machine
+ straight to toys so started with basic task element assembly and then wrote alot of assembly and why eventually I
+ eventually did small talk and other things like that but that was not the
+
+0:03:01
+Speaker 0 :starting point but so what
+ what is this journey to see is that in
+
+0:03:06
+Speaker 1 :high school is that in college that was
+ in high school yeah so and then that was it was really about trying to be able todo more powerful things than what Pascal
+ could do and also to learn a different world so he was really confusing me withpointers and the syntax and everything
+ and it took a while but Pascal is much more principled in various ways seesmore I mean it has its historical roots
+ but it's it's not as easy to learn with
+
+0:03:35
+Speaker 0 :pointers there's this memory management
+ thing that you have to become conscious of is that the first time you start tounderstand that there's resources that
+
+
+0:03:45
+Speaker 1 :you're supposed to manage well so you
+ have that in Pascal as well but in Pascal these like the carrot instead ofthe star and there's some small
+ differences like that but it's not about pointer arithmetic and and and see ityou end up thinking about how things get
+ laid out in memory a lot more and so in Pascal you have allocating anddeallocating and owning the the memory
+ but just the programs are simpler and you don't have to well for examplePascal has a string type and so you can
+ think about a string instead of an array of characters which are consecutive inmemory so it's a little bit of a higher
+
+
+0:04:20
+Speaker 0 :level abstraction so let's get into it
+ let's talk about LLVM si Lang and compilerssure so can you tell me first what I
+ love the a messy laying our and how is it that you find yourself the creatorand lead developer one of the most
+ powerful compiler optimization systems
+
+0:04:40
+Speaker 1 :than used today sure so I guess they're
+ different things so let's start with what is a compilerit's a is that a good place to start
+
+
+0:04:48
+Speaker 0 :what are the phases of a compiler where
+
+
+0:04:51
+Speaker 1 :the parts yeah what is it so what does
+ even a compiler are used for so the way the way I look at this is you have a twosided problem of you have humans that
+ need to write code and then you have machines that need to run the programthat the human wrote and for lots of
+ reasons the humans don't want to be writing in binary and want to thinkabout every piece of hardware and so at
+ the same time that you have lots of humans you also have lots of kinds ofhardware and so compilers are the art of
+ allowing humans to think of the level of abstraction that they want to thinkabout and then get that program get the
+ thing that they wrote to run on a specific piece of hardware and theinteresting and exciting part of all
+ this is that there's now lots of different kinds of hardware chips likex86 and PowerPC and arm and things like
+ that but also high-performance accelerators for machine learning andother things like that or also just
+ different kinds of hardware GPUs these are new kinds of hardware and at thesame time on the programming side of it
+ you have your basic UFC you have JavaScript you have Python you so if youhave like lots of other languages that
+ are all trying to talk to the human in a different way to make them moreexpressive and capable and powerful and
+ so compilers are the thing that goes from one to the other no and then from
+
+0:06:03
+Speaker 0 :
+
+0:06:04
+Speaker 1 :the very beginning end to end and so you
+ go from what the human wrote and programming languages end up being aboutexpressing intent not just for the
+ compiler and the hardware but the programming languages job is really toto capture an expression of what the
+ programmer wanted that then can be maintained and adapted and evolved byother humans as well as by the
+ interpreter by the compiler so so when you look at this problem you have on onehand humans which are complicated and
+ you have hardware which is complicated until compilers typically work inmultiple phases and so the software
+ engineering challenge that you have here is try to get maximum reuse out of thethe amount of code that you write
+ because this these compilers are very complicated and so the way it typicallyworks out is that you have something
+ called a front-end or a parser that is language specific and so you'll have a Cparser and that's what clang is or C++
+ or JavaScript or Python or whatever that's the front-end then you'll have amiddle part which is often the optimizer
+ and then you'll have a late part which is hardware specific and so compilersend up there's many different layers
+ often but these three big groups are very common in compilers and what LLVMis trying to do is trying to standardize
+ that middle and last part and so one of the cool things about LLVM is that thereare a lot of different languages that
+ compile through to it and so things like swift but also julia rust clang for CC++ objective-c like these are all very
+ different languages and they can all use the same optimization infrastructurewhich gets better performance and the
+ same code generation for structure for hardware support and so LVM is reallythat that layer that is common that all
+ these different specific compilers can
+
+0:07:55
+Speaker 0 :use and is that is it a standard like a
+ specification or is it literally an
+
+0:07:59
+Speaker 1 :implementation it's an implementation
+ and so it's I think there's a couple different ways of looking at writebecause it depends on what which angle
+ you're looking at it from LVM ends up being a bunch of code okayso it's a bunch of code that people
+ reuse and they build compilers with we call it a compiler infrastructurebecause it's kind of the underlying
+ platform that you build a concrete compiler on top of but it's also acommunity and the LVM community is
+ hundreds of people that all collaborate and one of the most fascinating thingsabout LVM over the course of time is
+ that we've managed somehow to successfully get harsh competitors inthe commercial space to collaborate on
+ shared infrastructure and so you have Google and Apple you have AMD and Intelyou've Nvidia and
+ d on the graphics side you have prey and everybody else doing these things andlike all these companies are
+ collaborating together to make that shared infrastructure really reallygreat and they do this not other
+ businesses or heart but they do it because it's in their commercialinterests of having really great
+ infrastructure that they can build on top of and facing the reality that it'sso expensive that no one company even
+ the big companies no one company really wants to implement it all themselvesexpensive or difficult both that's a
+ great point because it's also about the skill sets right and these the skillsets are very hard hard to find how big
+
+
+0:09:26
+Speaker 0 :is the LLVM it always seems like with
+ open-source projects the kind you know
+
+0:09:32
+Speaker 1 :LLVM open source yes it's open source
+ it's about it's 19 years old now so it's
+
+0:09:38
+Speaker 0 :fairly old it seems like the magic often
+ happens within a very small circle of people yes I'd like at least the early
+
+0:09:45
+Speaker 1 :birth and whatever yes so the LVM came
+ from a university project and so I was at the University of Illinois and thereit was myself my advisor and then a team
+ of two or three research students in the research group and we built many of thecore pieces initially I then graduated
+ went to Apple and Apple brought it to the products first in the OpenGLgraphics stack but eventually to the C
+ compiler realm and eventually built clang and eventually built Swift inthese things along the way building a
+ team of people that are really amazing compiler engineers that helped build alot of that and so as it was gaining
+ momentum and as Apple was using it being open source in public and encouragingcontribution many others for example at
+ Google came in and started contributing and some cases Google effectively ownsclang now because it cares so much about
+ C++ and the evolution of that that ecosystem and so it's a vesting a lot inthe C++ world and the tooling and things
+ like that and so likewise Nvidia cares a lot aboutCUDA and so CUDA uses clang and uses LVM
+ for for graphics and GPGPU and so when
+
+0:10:53
+Speaker 0 :you first started as a master's project
+ I guess did you think is gonna go as far as itwent
+ were you uh crazy ambitious about it no seems like a really difficult
+
+0:11:09
+Speaker 1 :undertaking a brave one yeah no it was
+ nothing like that so I mean my goal when I went to University of Illinois was toget in and out with the non thesis
+ masters in a year and get back to work so I was not I was not planning to stayfor five years and and build this
+ massive infrastructure I got nerd sniped into staying and a lot of it was becauseElvin was fun I was building cool stuff
+ than learning really interesting things and facing will suffer engineeringchallenges but also learning how to work
+ in a team and things like that I had worked at many companies as internsbefore that but it was really a
+ different a different thing to have a team of people that were workingtogether and try and collaborate in
+ version control and it was it was just a little bit different like I said I just
+
+0:11:52
+Speaker 0 :talked to Don Knuth and he believes that
+ 2% of the world population have something weird with their brain thatthey're geeks they understand computers
+ to connect with computer he put it exactly 2 percent okay so this specific
+
+0:12:04
+Speaker 1 :
+
+0:12:07
+Speaker 0 :guy is very specific he says I can't
+ prove it but it's very empirical II there is there something that attractsyou to the idea of optimizing code and
+ he seems like that's one of the biggest coolest things about oh yeah that's one
+
+0:12:20
+Speaker 1 :of the major things it does so I got
+ into that because of a person actually so when I was in my undergraduate I hadan advisor or a professor named Steve
+ Bechtel and he I went to this little tiny private school we there were likeseven or nine people in my computer
+ science department students in my in my class so it was a very tiny very verysmall school it was a kind of a wart on
+ the side of the math department kind of a thing at the time I think it's evolveda lot in the many years since then but
+ but Steve egg Dahl was a compiler guy and he was super passionate and he hispassion rubbed off on me and one of the
+ things I like about compilers is that they're large complicated softwarepieces and so one of the culminating
+ classes is that many computer sciencedepartments at least at the time did was
+ to say that you take algorithms and data structures in all these core classes butthen the compilers class was one of the
+ last classes you take because it pulls everything together and then you work onone piece of code over the entire
+ semester and and so you keep building on your own work which is reallyinteresting it's also very challenging
+ because in many classes if you don't get a project done you just forget about itand move on to the next one and get your
+ you know your B or whatever it is but here you have to live with the decisionsyou make and continue to reinvest in it
+ and I really like that and and so I did a extra study project within thefollowing semester and he was just
+ really great and he was also a great mentor in a lot of ways and so from fromhim and from his advice he encouraged me
+ to go to graduate school I wasn't super excited about going grad school I wantedthe master's degree but I didn't want to
+ be in academic and but like I said I kind of got tricked into saying and washaving a lot of fun and I definitely do
+
+
+0:14:14
+Speaker 0 :not regret it what aspects of compilers
+ were the things you connected with so LVM there's also the other part this isreally interesting if you're interested
+ in languages is parsing and you know just analyzing like yeah analyzinglanguage breaking it out parsing so on
+ was that interesting to you were you more engine optimization for me it was
+
+0:14:34
+Speaker 1 :more so I'm I'm not really a math person
+ I can do math I understand some bits of it when I get into it but math is neverthe thing that that attracted me and so
+ a lot of the parser part of the compiler has a lot of good formal theories thatdawn for example knows quite well still
+ waiting for his book on that but but the but I just like building a thing and andseeing what it could do and exploring
+ and getting it to do more things and then setting new goals and reaching forthem and and with in the case of
+ component in the case of LVM when I start work on that my research advisorthat I was working for was a compiler
+ guy and so he and I specifically found each other because we're both interestedin compilers and so I started working
+ with them and taking his class and a lot of LLVM initially was it's funimplementing all the standard algorithms
+ and all the all the things that pea have been talking about and werewell-known and they were in the the
+ curricula for Advanced Studies and compilers and so just being able tobuild that was really fun and I was
+ learning a lot by instead of reading about it just building and so I enjoyedthat
+
+
+0:15:40
+Speaker 0 :so he said compositor these complicated
+ systems can you even just with language tried to describe you know how you turna C++ program yes into code like what
+
+
+0:15:53
+Speaker 1 :are the hard parts why is this hard so
+ I'll give you examples of the hard parts Illinois so C++ is a very complicatedprogramming way which is something like
+ 1400 pages in the spec so people as possible as crazy complicated paas what
+
+0:16:06
+Speaker 0 :makes a language complicated in terms of
+
+
+0:16:11
+Speaker 1 :what's syntactically like us so it's
+ what they call syntax so the actual how the character is arranged yes it's alsosemantics how it behaves it's also in
+ the case of C++ there's a huge amount of history C was supposed to build on topof C you play that forward and then a
+ bunch of suboptimal in some cases decisions were made and they compoundand then more and more and more things
+ keep getting added to C++ and it will probably never stop but the language isvery complicated from that perspective
+ and so the interactions between subsystems is very complicated there'sjust a lot there and when you talk about
+ the front end one of the major challenges which clang as a project thethe C C++ compiler that I built I and
+ many people built one of the challenges we took on was we looked at GCC ok GCCat the time was like a really good
+ industry standardized compiler that had really consolidated a lot of the othercompilers in the world and was was a
+ standard but it wasn't really great for research the design was very difficultto work with and it was full of global
+ variables and other other things that made it very difficult to reuse in waysthat it wasn't originally designed for
+ and so with claying one of the things what we wanted to do is push forward onbetter user interface so make error
+ messages that are just better than GCC's and that that's actually hard becauseyou have to do a lot of bookkeeping in
+ an efficient way today I'll do that we want to makecompile-time better and so compile-time
+ is about making it efficient which is also really hard when you're keepingtrack of extra information we wanted to
+ make new tools available so refactoring tools and other analysis tools the theGCC never supported also leveraging the
+ extra information we kept but enabling those new classes the tools that thenget built into IDs and so that's been
+ one of the one of the areas that clang has really helped push the world forwardin the tooling for C and C++ and things
+ like that but C++ and the front-end piece is complicated and you have tobuild syntax trees and you have to check
+ every rule in the spec and you have to turn that back into an error message tothe humor humor that the human can
+ understand when they do something wrong but then you start doing the what'scalled lowering so going from C++ in the
+ way that it represents code down to the machine and when you do that there'smany different phases you go through
+ often there are I think LLVM something like 150 different what are calledpasses in the compiler that the code
+ passed passes through and these get organized in very complicated ways whichaffect the generated code in performance
+ and compile time and many of the things
+
+0:18:45
+Speaker 0 :what are they passing through so after
+ you do the clang parsing what's what's the graph what does it look like what's
+
+0:18:54
+Speaker 1 :the data structure here yeah so in in
+ the parser it's usually a tree and it's called an abstract syntax tree and sothe idea is you you have a node for the
+ plus that the human wrote in their code or the function call you'll have a nodefor call with the function that they
+ call and the arguments they pass things like that this then gets lowered intowhat's called an intermediate
+ representation and intermediate representations are like LVM has one andthere it's a it's what's called a
+ control flow graph and so you represent each operation in the program as a verysimple like this is gonna add two
+ numbers this is gonna multiply two things maybe we'll do a call but thenthey get put in what are called blocks
+ and so you get blocks of these straight line operations or instead of beingnested like in a tree it's straight line
+ operation and so there's a sequence and orderingto these operations and then in the
+ block we're outside the block that's within the block and so it's a straightline sequence of operations within the
+ block and then you have branches like conditional branches between blocks andso when you write a loop for example in
+ a syntax tree you would have a four node like for a for statement and I see likelanguage you'd out a four node and you
+ have a pointer to the expression for the initializer a pointer to the expressionfor the increment a pointer to the
+ expression for the comparison a pointer to the body okay and these are allnested underneath it in a control flow
+ graph you get a block for the code that runs before the loop so the initializercode then you have a block for the body
+ of the loop and so the the body of the loop code goes in there but also theyincrement and other things like that and
+ then you have a branch that goes back to the top and a comparison and branch thatgoes out and so it's more of a assembly
+ level kind of representation but the nice thing about this level ofrepresentation is it's much more
+ language independent and so there's lots of different kinds of languages withdifferent kinds of you know JavaScript
+ has a lot of different ideas of what is false for example and all that can stayin the front end but then that middle
+ part can be shared across all those how
+
+0:21:03
+Speaker 0 :close is that intermediate
+ representation to ten yuan that works for example is they are they becauseeverything described as a kind of neural
+ network graph right yeah that's all we
+
+0:21:17
+Speaker 1 :need a neighbor's or what they're
+ they're quite different in details but they're very similar and idea so one ofthe things that normal networks do is
+ they learn representations for data at different levels of abstraction rightand then they transform those through
+ layers right so the compiler does very similar things but one of the things thecompiler does is it has relatively few
+ different representations or a neural network often as you get deeper forexample you get many different
+ representations in each you know layer or set of ops is transforming betweenthese different representations and
+ compiler often you get one representation and they do manytransformations to it and these
+ transformations are often applied iterativelyand for programmers there's familiar
+ types of things for example trying to find expressions inside of a loop andpulling them out of a loop so if they
+ execute four times or a fine redundant computation or find constantfolding or other simplifications turning
+ you know 2 times X into X shift left by one and and things like this or all allall the examples of the things that
+ happen but compilers end up getting a lot of theorem proving and other kindsof algorithms that try to find
+ higher-level properties of the program that then can be used by the optimizer
+
+0:22:32
+Speaker 0 :cool so what's like the biggest bang for
+ the buck with optimization what's there yeahwell no not even today at the very
+ beginning the 80s I don't know but yeah
+
+0:22:42
+Speaker 1 :so for the 80s a lot of it was things
+ like register allocation so the idea of in in a modern like a microprocessorwhat you'll end up having is you're
+ having memory which is relatively slow and then you have registers relativelyfast but registers you don't have very
+ many of them ok and so when you're writing a bunch of code you're justsaying like compute this put it in
+ temporary variable compute those compute this compute this put in temporary wellI have a loop I have some other stuff
+ going on well now you're running on an x86 like adesktop PC or something well it only has
+ in some cases some modes eight registers right and so now the compiler has tochoose what values get put in what
+ registers at what points in the program and this is actually a really big dealso if you think about you have a loop
+ and then an inner loop to execute millions of times maybe if you're doingloads and stores inside that loop then
+ it's gonna be really slow but if you can somehow fit all the values inside thatloop and registers now it's really fast
+ and so getting that right requires a lot of work because there's many differentways to do that and often what the
+ compiler ends up doing is it ends up thinking about things in a differentrepresentation than what the human wrote
+ all right you wrote into X well the compiler thinks about that as fourdifferent values each which have
+ different lifetimes across the function that it's in and each of those could beput in a register or memory or different
+ memory or maybe in some parts of the code recomputed instead of stored andreloaded and there are many of these
+ different kinds of techniques that can
+
+0:24:11
+Speaker 0 :be used so it's adding almost like a
+ time-dimension - it's trying to trying to optimize across time so consideringwhen when you're programming you're not
+ thinking and yeah absolutely
+
+0:24:21
+Speaker 1 :and so the the RISC era made thing this
+ so so RISC chips Ras see the the risks risk chips as opposed to sisk chips therisk chips made things more complicated
+ for the compiler because what they ended up doing is ending up adding pipelinesto the processor where the processor can
+ do more than one thing at a time but this means that the order of operationsmatters a lot and so one of the
+ classical compiler techniques that you use is called scheduling and so movingthe instructions around so that the
+ processor can act like keep its pipelines full instead of stalling andgetting blocked and so there's a lot of
+ things like that that are kind of bread and butter a compiler techniques havebeen studied a lot over the course of
+ decades now but the engineering side of making them real is also still quitehard and you talk about machine learning
+ this is this is a huge opportunity for machine learning because many of thesealgorithms are full of these like hokey
+ hand-rolled heuristics which work well on specific benchmarks we don'tgeneralize and full of magic numbers and
+ you know I hear there's some techniques that are good at handling that so what
+
+0:25:27
+Speaker 0 :would be the if you were to apply
+ machine learning to this what's the thing you try to optimize is itultimately the running time you can pick
+
+
+0:25:37
+Speaker 1 :your metric and there's there's running
+ time there's memory use there's there's lots of different things that you canoptimize for code code size is another
+ one that some people care about in the
+
+0:25:48
+Speaker 0 :embedded space is this like the thinking
+ into the future or somebody actually been crazy enough to try to have machinelearning based parameter tuning for
+
+
+0:26:00
+Speaker 1 :optimization of compilers so this is
+ something that is I would say research right now there are a lot of researchsystems that have been applying search
+ in various forums and using reinforcement learning is one form butalso brute force search has been tried
+ for a quite a while and usually these are in small small problem spaces sofind the optimal way to code generate a
+ matrix multiply for a GPU write something like that where we say therethere's a lot of
+ design space of do you unroll uppsala do you execute multiple things in paralleland there's many different confounding
+ factors here because graphics cards have different numbers of threads andregisters and execution ports and memory
+ bandwidth and many different constraints to interact in nonlinear ways and sosearch is very powerful for that and it
+ gets used in in certain ways but it's not very structured this is somethingthat we need we as an industry need to
+
+
+0:26:55
+Speaker 0 :fix these set ATS but like so have there
+ been like big jumps and improvement and optimization yeah yeah yes since then
+
+0:27:03
+Speaker 1 :what's yeah so so it's largely been
+ driven by hardware so hartwell hardware and software so in the mid-90s Javatotally changed the world right and and
+ I'm still amazed by how much change was introduced by the way or in a good wayso like reflecting back Java introduced
+ things like it all at once introduced things like JIT compilationnone of these were novel but it pulled
+ it together and made it mainstream and and made people invest in it JITcompilation garbage collection portable
+ code safe code say like memory safe code like a very dynamic dispatch executionmodel like many of these things which
+ had been done in research systems and had been done in small ways and variousplaces really came to the forefront
+ really changed how things worked and therefore changed the way people thoughtabout the problem javascript was another
+ major world change based on the way it works but also on the hardware side ofthings multi-core and vector
+ instructions really change the problem space and are very they don't remove anyof the problems that composers faced in
+ the past but they they add new kinds of problems of how do you find enough workto keep a four-wide vector busy right or
+ if you're doing a matrix multiplication how do you do different columns out ofthat matrix in at the same time and how
+ do you maximally utilize the the arithmetic compute that one core has andthen how do you take it to multiple
+ cores and how did the whole virtual
+
+0:28:33
+Speaker 0 :machine thing change the compilation
+
+
+0:28:37
+Speaker 1 :pipeline yeah so so what what the java
+ virtual machine does is it splits just like I've talked aboutbefore where you have a front-end that
+ parses the code and then you have an intermediate representation that getstransformed what Java did was they said
+ we will parse the code and then compile to what's known as Java bytecode andthat bytecode is now a portable code
+ representation that is industry-standard and locked down and can't change andthen the the back part of the compiler
+ the the does optimization and code generation can now be built by differentvendors okay and Java bytecode can be
+ shipped around across the wire its memory safe and relatively trusted and
+
+0:29:16
+Speaker 0 :because of that it can run in the
+
+
+0:29:18
+Speaker 1 :browser and that's why it runs in the
+ browser yeah right and so that way you can be in you know again back in the dayyou would write a Java applet and you
+ use as a little as a web developer you'd build this mini app that run a web pagewell a user of that is running a web
+ browser on their computer you download that that Java bytecode which can betrusted and then you do all the compiler
+ stuff on your machine so that you know that you trust that that was that a good
+
+0:29:42
+Speaker 0 :
+
+0:29:43
+Speaker 1 :idea a bad idea it's great idea I mean
+ it's great idea for certain problems and I'm very much believe for thetechnologies itself neither good nor bad
+ it's how you apply it you know this would be a very very bad thing for verylow levels of the software stack but but
+ in terms of solving some of these software portability and transparencyyour portability problems I think it's
+ been really good now Java ultimately didn't win out on the desktop and likethere are good reasons for that but it's
+ been very successful on servers and in many places it's been a very successful
+
+0:30:16
+Speaker 0 :thing over over decades so what has been
+ ll VMs and ceilings improvements in optimization that throughout its historywhat are some moments we get set back
+ I'm really proud of what's been
+
+0:30:32
+Speaker 1 :accomplished yeah I think that the
+ interesting thing about LLVM is not the innovations in compiler research it hasvery good implementations of various
+ important algorithms no doubt and and a lot of really smart people have workedon it but I think that the thing was
+ most profound about LLVM is that through standardization it made things possibletoo
+ otherwise wouldn't have happened okay and so interesting things that havehappened with LVM for example sony has
+ picked up lv m and used it to do all the graphics compilation in their movieproduction pipeline and so now they're
+ able to have better special effects because of LVN that's kind of coolthat's not what it was designed for
+ right but that's that's the sign of good infrastructure when it can be used inways it was never designed for because
+ it has good layering and software engineering and it's composable andthings like that just where as you said
+
+
+0:31:23
+Speaker 0 :
+
+0:31:25
+Speaker 1 :it differs from GCC yes GCC is also
+ great in various ways but it's not as good as a infrastructure technology it'sit's you know it's really a C compiler
+ or it's or it's a fortunate compiler it's not it's not infrastructure in the
+
+0:31:39
+Speaker 0 :same way is it now you can tell I don't
+ know what I'm talking about because I'm sick eep saying si Lang you can you
+
+0:31:43
+Speaker 1 :
+
+0:31:45
+Speaker 0 :could always tell when a person is close
+ by the way pronounce something I'm I don't think have I ever used Clank
+
+0:31:51
+Speaker 1 :entirely possible have you well so
+ you've used code it's generated probably so clang is an Alabama used to compileall the apps on the iPhone effectively
+ and the OS is it compiles Google's production server applications let's useto build my GameCube games and
+ PlayStation 4 and things like that I was
+
+0:32:17
+Speaker 0 :a user I have but just everything I've
+ done that I experienced for Linux has been I believe always GCC yeah I think
+
+0:32:23
+Speaker 1 :Linux still defaults to GCC and is there
+
+
+0:32:26
+Speaker 0 :a reason for that there's a big it's a
+
+
+0:32:28
+Speaker 1 :combination of technical and social
+ reasons many GC likes developers do you do use clang but the distributions forlots of reasons
+ use GCC historically and they've not
+
+0:32:43
+Speaker 0 :switched yeah that and it's just
+ anecdotally online it seems that LLVM has either reached the level GCC orsuperseded on different features or
+
+
+0:32:53
+Speaker 1 :whatever the way I would say it is that
+ there was there so close it doesn't matter yeah exactly like there's aslightly better in some way slightly
+ worse than otherwise but it doesn't actually really matter anymore
+
+0:33:03
+Speaker 0 :that level so in terms of optimization
+ breakthroughs it's just been solid incremental work yeah yeah
+
+0:33:09
+Speaker 1 :which which is which describes a lot of
+ compilers there are the hard thing about compilers in my experience is theengineering the software engineering
+ making it so that you can have hundreds of people collaborating on reallydetailed low-level work and scaling that
+ and that's that's really hard and that's one of the things I think Alabama's donewell and that kind of goes back to the
+ original design goals with it to be modular and things like that andincidentally I don't want to take all
+ the credit for this right I mean some of the the best parts about LLVM is that itwas designed to be modular and when I
+ started I would write for example a register allocator and then some a muchsmarter than me would come in and pull
+ it out and replace it with something else that they would come up with andbecause it's modular they were able to
+ do that and that's one of the challenges with what GCC for example is replacingsubsystems is incredibly difficult it
+ can be done but it wasn't designed for that and that's one of the reasons theLVM has been very successful in the
+ research world as well but in the in the
+
+0:34:08
+Speaker 0 :community sense Widow van rossum right
+ from Python just retired from what is it benevolent dictator for life right so inmanaging this community of brilliant
+ compiler folks is there that did it at for a time at least following you to
+
+0:34:30
+Speaker 1 :approve things oh yeah so I mean I still
+ have something like an order of magnitude more patches in LVM thananybody else and many of those I wrote
+ myself but he's still right I mean you
+
+0:34:43
+Speaker 0 :still he's still close to the two though
+
+
+0:34:46
+Speaker 1 :
+
+0:34:47
+Speaker 0 :I don't know what the expression is to
+ the metal you still write code yes
+
+0:34:50
+Speaker 1 :alright good not as much as I was able
+ to in grad school but that's important part of my identity but the way the LLVMhas worked over time is that when I was
+ a grad student I could do all the work and steer everything and review everypatch and make sure everything was done
+ exactly the way my opinionated sense felt like it should be done and that wasfine but I think scale you can't do that
+ right and so what ends happening as LVM has a hierarchicalsystem of what's called code owners
+ these code owners are given the responsibility not to do all the worknot necessarily to review all the
+ patches but to make sure that the patches do get reviewed and make surethat the right things happening
+ architectural e in their area and so what you'll see is you'll see that forexample hardware manufacturers end up
+ owning the the the hardware specific parts of their their their hardwarethat's very common leaders in the
+ community that have done really good work naturally become the de facto ownerof something and then usually somebody
+ else's like how about we make them the official code owner and then and thenwe'll have somebody to make sure the
+ whole patch does get reviewed in a timely manner and then everybody's likeyes that's obvious and then it happens
+ right and usually this is a very organic thing which is great and so I'mnominally the top of that stack still
+ but I don't spend a lot of time reviewing patches what I do is I helpnegotiate a lot of the the technical
+ disagreements that end up happening and making sure that the community as awhole makes progress and is moving in
+ the right direction and and doing that so we also started a non-profit and sixyears ago seven years ago it's times
+ gone away and the nonprofit the the LVM foundation nonprofit helps oversee allthe business sides of things and make
+ sure that the events that the Elven community has are funded and set up andrun correctly and stuff like that
+ but the foundation is very much stays out of the technical side of where wherethe project was going right sounds like
+
+
+0:36:49
+Speaker 0 :a lot of it is just organic just yeah
+
+
+0:36:52
+Speaker 1 :well and this is Alabama is almost
+ twenty years old which is hard to believe somebody point out to merecently that LVM is now older than GCC
+ was when Olivia started right so time has a way of getting away from you butthe good thing about that is it has a
+ really robust really amazing community of people thatare in their professional lives spread
+ across lots of different companies but it's a it's a community of people thatare interested in similar kinds of
+ problems and have been working together effectively for years and have a lot oftrust and respect for each other and
+ even if they don't always agree that you know we'rewe'll find a path forward so then in a
+
+
+0:37:31
+Speaker 0 :slightly different flavor of effort you
+ started at Apple in 2005 with the task of making I guess LLVM production readyand then eventually 2013 through 2017
+ leading the entire developer tools department we were talking about LLVMXcode Objective C to Swift so in a quick
+
+
+0:37:55
+Speaker 1 :
+
+0:37:55
+Speaker 0 :overview of your time there what were
+ the challenges first of all leading such a huge group of developers what was thebig motivator dream mission behind
+ creating Swift the early birth of it's from objective-c and so on and Xcode
+
+0:38:13
+Speaker 1 :well yeah so these are different
+ questions yeah I know what about the other stuff I'll stay I'll stay on thetechnical side then we could talk about
+ the big team pieces yeah that's okay sure so he has to really oversimplifymany years of hard work via most started
+ joined Apple became a thing we became successful and became deployed but thenthere was a question about how how do we
+ actually purse the source code so LVM is that back part the optimizer and thecode generator and Alvin was really good
+ for Apple as it went through a couple of hundred transitions I joined right atthe time of the Intel transition for
+ example and 64-bit transitions and then the transition to almost the iPhone andso LVM was very useful for some of these
+ kinds of things but at the same time there's a lot of questions arounddeveloper experience and so if you're a
+ programmer pounding out at the time of objective-c code the error message youget the compile time the turnaround
+ cycle the the tooling and the IDE were not great we're not as good as it couldbe and so you know as as I occasionally
+ do I'm like well okay how hard is it to write a C compiler and so I I'm notgonna commit to anybody I'm not gonna
+ tell anybody I'm just gonna just do it on nice and weekends and start workingon it and then you know I built up in C
+ there's a thing called the preprocessor which people don't like but it'sactually really hard and complicated and
+ includes a bunch of really weird things like try graphs and other stuff likethat that are they're really nasty and
+ it's the crux of a bunch of the perform issues in the compiler and I'm startedworking on the parser and kind of got to
+ the point where I'm like ah you know what we could actually do this thiseverybody saying that this is impossible
+ to do but it's actually just hard it's not impossible and eventually told mymanager about it and he's like oh wow
+ this is great we do need to solve this problem oh this is great we can like getyou one other person to work with you on
+ this you know and slowly a team is formed and it starts taking off and c++for example huge complicated language
+ people always assume that it's impossible to implement and it's verynearly impossible but it's just really
+ really hard and the way to get there is to build it one piece at a timeincrementally and and there that was
+ only possible because we were lucky to hire some really exceptional engineersthat that knew various parts of it very
+ well and and could do great things Swift was kind of a similar thing soSwift came from we were just finishing
+ off the first version of C++ support in M clang and C++ is a very formidable andvery important language but it's also
+ ugly in lots of ways and you can't influence C++ without thinking there hasto be a better thing right and so I
+ started working on Swift again with no hope or ambition that would go anywherejust uh let's see what could be done
+ let's play around with this thing it was you know me in my spare time not tellinganybody about it kind of a thing and it
+ made some good progress I'm like actually it would make sense to do thisat the same time I started talking with
+ the senior VP of software at the time a guy named Burt Ron stole a and Burt Ronwas very encouraging he was like well
+ you know let's let's have fun let's talk about this and he was a little bit of alanguage guy and so he helped guide some
+ of the the early work and encouraged me and like got things off the ground andeventually I've told other to like my
+ manager and told other people and and it started making progress the thecomplicating thing was Swift was that
+ the idea of doing a new language is not obvious to anybody including myselfand the tone at the time was that the
+ iPhone was successful because of objective-c right Oh interesting in a
+
+0:41:54
+Speaker 0 :practice site of or just great because
+
+
+0:41:56
+Speaker 1 :it and and you have to understand that
+ at the time Apple was hiring software people thatloved Objective C right and it wasn't
+ that they came despite Objective C they loved Objective C and that's why theygot hired and so you had a software team
+ that the leadership and in many cases went all the way back to next whereObjective C really became real and so
+ they quote-unquote grew up writing Objective C and many of the individualengineers all were hired because they
+ loved Objective C and so this notion of okay let's do new language was kind ofheretical in many ways right meanwhile
+ my sense was that the outside community wasn't really in love with Objective Csome people were and some of the most
+ outspoken people were but other people were hitting challenges because it hasvery sharp corners and it's difficult to
+ learn and so one of the challenges of making Swift happen that was totallynon-technical is the the social part of
+ what do we do like if we do a new language which at Apple many thingshappen that don't ship right so if we if
+ we ship it what what what is the metrics of success why would we do this whywouldn't we make Objective C better if
+ object C has problems let's file off those rough corners and edges and one ofthe major things that became the reason
+ to do this was this notion of safety memory safety and the way Objective Cworks is that a lot of the object system
+ and everything else is built on top of pointers and C Objective C is anextension on top of C and so pointers
+ are unsafe and if you get rid of the pointers it's not Objective C anymoreand so fundamentally that was an issue
+ that you could not fix safety or memory safety without fundamentally changingthe language and so once we got through
+ that part of the mental process and the thought process it became a designprocess of saying okay well if we're
+ gonna do something new what what is good like how do we think about this and whatdo we like and what are we looking for
+ and that that was a very different phase
+
+0:44:02
+Speaker 0 :of it so well what are some design
+ choices early on and Swift like we're talking about braces are you making atype language or not all those kinds of
+
+
+0:44:12
+Speaker 1 :things yeah so some of those were
+ obvious given the context so a types language for example objective sees atyped language and going with an untyped
+ language wasn't really seriously considered we wanted we want theperformance and we wanted refactoring
+ tools and other things like that to go with type languages quick dumb question
+
+0:44:30
+Speaker 0 :yeah was it obvious
+ I think it would be a dumb question but was it obvious that the language has tobe a compiled language not and yes
+
+
+0:44:39
+Speaker 1 :that's not a dumb question earlier I
+ think late 90s Apple is seriously considered moving its developmentexperience to Java but this was started
+ in 2010 which was several years after the iPhone it was when the iPhone wasdefinitely on an upward trajectory and
+ the iPhone was still extremely and is still a bit memory constrained right andso being able to compile the code and
+ then ship it and then have having standalone code that is not JIT compiledwas is a very big deal and it's very
+ much part of the apple value system now javascript is also a thing right I meanit's not it's not that this is exclusive
+ and technologies are good depending on how they're applied right but in thedesign of Swift saying like how can we
+ make Objective C better right Objective C is statically compiled and that wasthe contiguous natural thing to do just
+
+
+0:45:33
+Speaker 0 :skip ahead a little bit now go right
+ back just just as a question as you think about today in 2019 yeah in yourwork at Google if tons of phone so on is
+ again compilations static compilation
+
+0:45:47
+Speaker 1 :the right there's still the right thing
+ yes so the the funny thing after working on compilers for a really long time isthat and one of this is one of the
+ things that LVM has helped with is that I don't look as comp compilations beingstatic or dynamic or interpreted or not
+ this is a spectrum okay and one of the cool things about Swift is that Swift isnot just statically compiled
+ it's actually dynamically compiled as well and it can also be interpreted thatnobody's actually done that and so what
+ what ends up happening when you use Swift in a workbook for example inCalabria and Jupiter is it's actually
+ dynamically compiling the statements as you execute them and so let's gets backto the software engineering problems
+ right where if you layer the stack properly you can actually completelychange how and when things get compiled
+ because you have the right abstractions there and so the way that a collabworkbook
+ works with Swift is that we start typing into it it creates a process a UNIXprocess and then each line of code you
+ type in it compiles it through the Swift compiler there's the front end part andthen sends it through the optimizer JIT
+ compiles machine code and then injects it into that process and so as you'retyping new stuff it's putting it's like
+ squirting a new code and overriding and replacing an updating code in place andthe fact that it can do this is not an
+ accident like Swift was designed for this but it's an important part of howthe language was set up and how it's
+ layered and and this is a non-obvious piece and one of the things with Swiftthat was for me a very strong design
+ point is to make it so that you can learn it very quickly and so from alanguage design perspective the thing
+ that I always come back to is this UI principle of progressive disclosure ofcomplexity and so in Swift you can start
+ by saying print quote hello world quote right and there's no /n just like Pythonone line of code no main no no header
+ files no header files no public static class void blah blah blah string likeJava has right so one line of code right
+ and you can teach that and it works great they can say well let's introducevariables and so you can declare a
+ variable with far so VAR x equals four what is a variable you can use xx plusone this is what it means then you can
+ say we'll have a control flow well this is what an if statement is this is whata for statement is this is what a while
+ statement is then you can say let's introduce functions right and and manylanguages like Python have had this this
+ kind of notion of let's introduce small things and they can add complexthen you can introduce classes and then
+ you can add generics I'm against the Swift and then you can in modules andbuild out in terms of the things that
+ you're expressing but this is not very typical for compiled languages and sothis was a very strong design point and
+ one of the reasons that Swift in general is designed with this factoring ofcomplexity in mind so that the language
+ can express powerful things you can write firmware in Swift if you want tobut it has a very high-level feel which
+ is really this perfect blend because often you have very advanced librarywriters that want to be able to use the
+ the nitty-gritty details but then other people just want to use the librariesand work at a higher abstraction level
+
+
+0:49:05
+Speaker 0 :it's kind of cool that I saw that you
+ can just enter a probability I don't think I pronounced that word enough butyou can just drag in Python it's just a
+ string you can import like I saw this in the demo yeah I'm pointing out but likehow do you make that happen
+ yeah what's what's up yeah say is that
+
+0:49:22
+Speaker 1 :
+
+0:49:24
+Speaker 0 :as easy as it looks
+
+
+0:49:25
+Speaker 1 :or is it yes that's not that's not a
+ stage magic hack or anything like that
+
+0:49:29
+Speaker 0 :then I I don't mean from the user
+ perspective I mean from the implementation perspective to make ithappen
+
+
+0:49:34
+Speaker 1 :so it's it's easy once all the pieces
+ are in place the way it works so if you think about a dynamically typed languagelike Python right you can think about it
+ as in two different ways you can say it has no types right which is what mostpeople would say or you can say it has
+ one type right and you could say has one type and it's like the Python objectmm-hmm and the Python object gets passed
+ around and because there's only one type its implicit okay and so what happenswith Swift and Python talking to each
+ other Swift has lots of types right has a raise and it has strings and all likeclasses and that kind of stuff but it
+ now has a Python object type right so there is one Python object type and sowhen you say import numpy what you get
+ is a Python object which is the numpy module then you say NPRA it says okayhey hey Python object I have no idea
+ what you are give me your array member right okay cool it just it just usesdynamic stuff talks to the Python
+ interpreter and says hey Python what's the daughter a member in thethat Python object it gives you back
+ another Python object and now you say parentheses for the call and thearguments are gonna pass and so then it
+ says hey a Python object that is the result of NPR a call with thesearguments right again calling into the
+ Python interpreter to do that work and so right now this is all really simpleand if you if you dive into the code
+ what you'll see is that the the Python module and Swift is something liketwelve hundred lines of code or
+ something is written in pure Swift it's super simple and it's and it's built ontop of the c interoperability because
+ just talks to the Python interpreter but making that possible required us to addtwo major language features to Swift to
+ be able to express these dynamic calls and the dynamic member lookups and sowhat we've done over the last year is
+ we've proposed implement standardized and contributed new language features tothe Swift language in order to make it
+ so it is really trivial right and this is one of the things about Swift that iscritical to this but for tens flow work
+ which is that we can actually add new language features and the bar for addingthose is high but it's it's what makes
+ it possible so you know Google doing
+
+0:51:42
+Speaker 0 :incredible work on several things
+ including tensorflow the test flow 2.0 or whatever leading upto 2.0 has by default in 2.0 has eager
+ execution in yet in order to make code optimized for GPU or TP or some of thesesystems computation needs to be
+ converted to a graph so what's that process like what are the challenges
+
+0:52:08
+Speaker 1 :there yeah so I I'm tangentially
+ involved in this but the the way that it works with autograph is thatyou mark your your function with the
+ decorator and when Python calls that that decorator is invoked and then itsays before I call this function you can
+ transform it and so the way autograph works is as far as I understand as itactually uses the Python parser to go
+ parse that turn into a syntax tree and now apply compiler techniques to againtransform this down into tensor
+ photographs and so it you can think of it as saying hey I have an if statementI'm going to create an if node in the
+ graph like you say TF conned you have amultiply well I'll turn that into
+ multiply node in the graph and that becomes the street transformation so
+
+0:52:58
+Speaker 0 :word is the Swift for tensor for come in
+ which is you know parallels you know for one swift is a interface like Python isan interface test flow but it seems like
+ there's a lot more going on in just a different language interface there's
+
+0:53:14
+Speaker 1 :optimization methodology yeah so so the
+ tensor float world has a couple of different what I'd call front-endtechnologies and so Swift and Python and
+ go and rust and Julia and all these things share the tensor flow graphs andall the runtime and everything that's
+ later again and so vertex flow is merely another front end for tensor flow I'mjust like any of these other systems are
+ there's a major difference between I would say three camps of technologieshere there's Python which is a special
+ case because the vast majority of the community efforts go into the Pythoninterface and python has its own
+ approaches for automatic differentiation it has its own api's and all this kindof stuff
+ there's Swift which I'll talk about in a second and then there's kind ofeverything else and so the everything
+ else are effectively language bindings so they they call into the tense flowruntime but they're not they usually
+ don't have automatic differentiation or they usually don't provide anythingother than API is that call the C API is
+ intensive flow and so they're kind of wrappers for that Swift is really kindof special and it's a very different
+ approach Swift 4/10 below that is is a very different approach because therewe're saying let's look at all the
+ problems that need to be solved in the fullestof the tensorflow compilation process if
+ you think about it that way because tensorflow is fundamentally a compilerit takes models and then it makes them
+ go faster on hardware that's what a compiler does and it has a front end ithas an optimizer and it has many
+ backends and so if you think about it the right wayor in in if you look at it in a
+ particular way like it is a compiler okay and and so Swift is merely anotherfront-end but it's saying in the the
+ design principle is saying let's look at all the problems that we face as machinelearning practitioners and what is the
+ best possible way we can do that given the fact that we can change literallyanything in this entire stack and python
+ for example where the vast majority of the engineering and an effort has goneinto its constrained by being the best
+ possible thing you can do with the Python library like there are no Pythonlanguage features that are added because
+ of machine learning that I'm aware of they added a matrix multiplicationoperator with that but that's as close
+ as you get and so with Swift you can you it's hard but you can add languagefeatures to the language and there's a
+ community process for that and so we look at these things and say well whatis the right division of labor between
+ the human programmer and the compiler and Swift has a number of things thatshift that balance so because it's a
+ because it has a type system for example it makes certain things possible foranalysis of the code and the compiler
+ can automatically build graphs for you without you thinking about them likethat's that's a big deal for a
+ programmer you just get free performance you get clustering infusion andoptimization and things like that
+ without you as a programmer having to manually do it because the compiler cando it for you automatic to frenchie
+ ation there's another big deal and it's I think one of the key contributions ofthe Swift for tensorflow project is that
+ there's this entire body of work on automatic differentiation that datesback to the Fortran days people doing a
+ tremendous amount of numerical computing and Fortran used to write these whatthey call source-to-source translators
+ where you where you take a bunch of code shove it into a mini compiler and pushout more Fortran code but it would
+ generate the backwards passes for your functions for you the derivatives and soin that work in the 70s a true master of
+ optimizations a tremendous number of techniques for fixing numericalinstability and other other kinds of
+ problems were developed but they're very difficult to port into a world where ineager execution you get an opt by op at
+ a time like you need to be able to look at an entire function and be able toreason about what's going on and so when
+ you have a language integrated automatic differentiation which is one of thethings that the Swift project is
+ focusing on you can open open all these techniques and reuse them and infamiliar ways but the language
+ integration piece has a bunch of design room in it and it's also complicated the
+
+0:57:33
+Speaker 0 :other piece of the puzzle here that's
+ kind of interesting is TP use at Google yes so you know we're in a new worldwith deep learning it's constantly
+ changing and I imagine without disclosing anything I imagine you knowyou're still innovating on the TP you
+
+
+0:57:47
+Speaker 1 :
+
+0:57:49
+Speaker 0 :front - indeed so how much sort of
+ interplay xur between software and hardware in trying to figure out how togather move towards at an optimal
+
+
+0:57:56
+Speaker 1 :solution there's an incredible amount so
+ our third generation of TP use which are now 100 petaflop syn a very large liquidcooled box in a virtual box with no
+ cover and as you might imagine we're not outof ideas yet the the great thing about
+ TP use is that they're a perfect example of hardware/software co.design and soit's a bet it's about saying what
+ hardware do we build to solve certain classes of machine learning problemswell the algorithms are changing like
+ the hardware it takes you know some cases years to produce right and so youhave to make bets and decide what is
+ going to happen and so and what is the best way to spend the transistors to getthe maximum you know performance per
+ watt or area per cost or like whatever it is that you're optimizing for and soone of the amazing things about TP use
+ is this numeric format called b-flat 16b float16 is a compressed 16-bitfloating-point format but it puts the
+ bits in different places in numeric terms it has a smaller mantissa and alarger exponent that means that it's
+ less precise but it can represent larger ranges of values which in the machinelearning context is really important and
+ useful because sometimes you have very small gradients you want to accumulateand very very small numbers that are
+ important to to move things as you're learning but sometimes you have verylarge magnitude numbers as well and be
+ float16 is not as precise the mantissa is small but it turns out the machinelearning algorithms actually want to
+ generalize and so there's you know theories that this actually increasesgenerate the ability for the network to
+ generalize across data sets and regardless of whether it's good or badis much cheaper at the hardware level to
+ implement because the area and time of a multiplier is N squared in the number ofbits in the mantissa but it's linear
+ with size of the exponent connected to
+
+0:59:54
+Speaker 0 :solar big deal efforts here both on the
+
+
+0:59:56
+Speaker 1 :hardware and the software side yeah and
+ so that was a breakthrough coming from the research side and people working onoptimizing network transport of weights
+ across a network originally and trying to find ways to compress that but thenit got burned into silicon and it's a
+ key part of what makes CPU performance so amazing and and and great TPS havemany different aspects of the
+ important but the the co.design between the low-level compiler bits and thesoftware bits and the algorithms is all
+ super important and it's a this amazing try factor that only Google do yeah
+
+1:00:33
+Speaker 0 :that's super exciting so can you tell me
+ about MLI our project previously this the secretive one yeah so EMA lair is a
+
+1:00:41
+Speaker 1 :project that we announced at a compiler
+ conference three weeks ago or something at the compilers for machine learningconference basically if again if you
+ look at tensorflow as a compiler stack it has a number of compiler algorithmswithin it it also has a number of
+ compilers that get embedded into it and they're made by different vendors forexample Google has xla which is a great
+ compiler system NVIDIA has tensor RT Intel has n graph there's a number ofthese different compiler systems and
+ they're very hardware specific and they're trying to solve different partsof the problems but they're all kind of
+ similar in a sense of they want to integrate with tensorflow no test flowhas an optimizer and it has these
+ different code generation technologies built in the idea of NLR is to build acommon infrastructure to support all
+ these different subsystems and initially it's to be able to make it so that theyall plug in together and they can share
+ a lot more code and can be reusable but over time we hope that the industry willstart collaborating and sharing code and
+ instead of reinventing the same things over and over again that we can actuallyfoster some of that that you know
+ working together to solve common problem energy that has been useful in thecompiler field before beyond that mor is
+ some people have joked that it's kind of LVM to it learns a lot about what LVMhas been good and what LVM has done
+ wrong and it's a chance to fix that and also there are challenges in the LLVMecosystem as well where LVM is very good
+ at the thing was designed to do but you know 20 years later the world haschanged and people are trying to solve
+ higher-level problems and we need we need some new technology and what's the
+
+1:02:20
+Speaker 0 :future of open source in this context
+
+
+1:02:24
+Speaker 1 :very soon so it is not yet open source
+ but it will be hopefully you still
+
+1:02:29
+Speaker 0 :believe in the value of open source in
+
+
+1:02:31
+Speaker 1 :kazakh oh yeah absolutely and I
+ that the tensorflow community at large fully believes an open-source so I mean
+
+1:02:37
+Speaker 0 :that's there is a difference between
+ Apple where you were previously in Google now in spirit and culture and Iwould say the open sourcing intensive
+ floor was a seminal moment in the history of software because here's thislarge company releasing a very large
+ code base as the open sourcing what are your thoughts on thatI'll happy or not were you to see that
+ kind of degree of open sourcing so
+
+1:03:02
+Speaker 1 :between the two I prefer the Google
+ approach if that's what you're saying the Apple approach makes sense given thehistorical context that Apple came from
+ but that's been 35 years ago and I think the Apple is definitely adapting and theway I look at it is that there's
+ different kinds of concerns in the space right it is very rational for a businessto to care about making money that
+ fundamentally is what a business is about right but I think it's alsoincredibly realistic to say it's not
+ your string library that's the thing that's going to make you money it'sgoing to be the amazing UI product
+ differentiating features and other things like that that you built on topof your string library and so keeping
+ your string library proprietary and secret and things like that isn't maybenot the the important thing anymore
+ right or before platforms were different right and even 15 years ago things werea little bit different but the world is
+ changing so Google strikes very good balance I think and I think thetensorflow being open source really
+ changed the entire machine learning field and it caused a revolution in itsown right and so I think it's amazing
+ for amazingly forward-looking because I could have imagined and I was an atGoogle time but I could imagine the
+ different contacts and different world where a company says machine learning iscritical to what we're doing we're not
+ going to give it to other people right and so that decision is a profounda profoundly brilliant insight that I
+ think has really led to the world being better and better for Google as well and
+
+1:04:40
+Speaker 0 :has all kinds of ripple effects I think
+ it is really I mean you can't understate Google doesadding that how profound that is for
+ software is awesome well and it's been
+
+1:04:50
+Speaker 1 :in again I can understand the concern
+ about if we release our machine learning software are our competitors could gofaster from the other hand I think that
+ open sourcing test flow has been fantastic for Google and I'm sure thatobvious was that that that decision was
+ very non obvious at the time but I think it's worked out very well so
+
+1:05:10
+Speaker 0 :let's try this real quick yeah you were
+ at Tesla for five months as the VP of auto pilot software you led the teamduring the transition from each hardware
+ one hardware to I have a couple questions so one first of all to methat's one of the bravest engineering
+ decisions undertaking so like undertaking really ever in theautomotive industry to me software wise
+ starting from scratch it's a really brave a decision so my one question isthere's always that like what was the
+ challenge of that do you mean the career
+
+1:05:43
+Speaker 1 :decision of jumping from a comfortable
+ good job into the unknown or that
+
+1:05:49
+Speaker 0 :combined so the at the individual level
+ you making that decision and then when you show up you know it's a really hardengineering process so you could just
+ stay maybe slow down say hardware one or that those kinds of decisionsjust taking it full-on let's let's do
+ this from scratch what was that like
+
+1:06:10
+Speaker 1 :well so I mean I don't think Tesla has a
+ culture of taking things slow insights how it goesand one of the things that attracted me
+ about Tesla is it's very much a gung-ho let's change the world let's figure itout kind of a place and so I have a huge
+ amount of respect for that Tesla has done very smart things withhardware one in particular and the
+ harder one design was originally designed to be very simple automationfeatures in the car for like traffic
+ aware cruise control and things like that and the fact that they were able toeffectively feature creep it into lane
+ holding and and a very useful driver assistance features is pretty astoundingparticularly given the details of the
+ hardware hardware to built on that a lot of ways and the challenge there was thatthey were transitioning from a third
+ party provided vision stack to an in-house built vision stack and so forthe first step which I mostly helped
+ with was getting onto that new vision stack and that was very challenging andthere were it was time critical for
+ various reasons and it was a big leap but it was fortunate that built on a lotof the knowledge and expertise and the
+ team that had built harder ones driver assistance features so you spoke in a
+
+1:07:23
+Speaker 0 :collected and kind way about your time
+ at Tesla but it was ultimately not a good fit Elon Musk we've talked on hispodcast several guests the course he
+ almost continues to do some of the most bold and innovative engineering work inthe world
+ at times at the cost some of the members of the test the team what did you learnabout this working in this chaotic world
+
+
+1:07:46
+Speaker 1 :Leon yeah so I guess I would say that
+ when I was at Tesla I experienced and saw vert the highest degree of turnoverI'd ever seen in a company my which was
+ a bit of a shock but one of the things I learned and I came to respect is thatElon is able to attract amazing talent
+ because he has a very clear vision of the future and he can get people to buyinto it because they want that future to
+ happen right and the power of vision is something that I have a tremendousamount of respect for and I think that
+ Elon is fairly singular in the world in terms of the things he's able to getpeople to believe in and it's it's a
+ very it's very there many people who stay on the street corner and say ahwe're gonna go to Mars right but then
+ but then there are a few people that can get other others to buy into it andbelieve in build the path and make it
+ happen and so I respect that I don't respect all of his methods butbut I have a huge amount of respect for
+ that you've mentioned in a few places
+
+1:08:44
+Speaker 0 :including in this context working hard
+ what does it mean to work hard and when you look back at your life what are whatwere some of the most brutal periods of
+ having to really sort of put everything you have into something yeah good
+
+1:09:03
+Speaker 1 :question
+ so working hard can be defined a lot of different ways so a lot of hours and sothat's that is true the thing to me
+ that's the hardest is both being short-term focused on delivering andexecuting and making a thing happen
+ while also thinking about the longer-term and trying to balance thatright because if you are myopically
+ focused on solving a task and getting that done and only think about thatincremental next step you will miss the
+ next big hill you should jump over - right and so I've been really fortunatethat I've been able to kind of oscillate
+ between the two and historically at Apple for example that was made possiblebecause I was able to work some really
+ amazing people and build up teams and leadership structures and and allow themto grow in their careers and take on
+ responsibilities thereby freeing up me to be a little bit crazy and thinkingabout the next thing and so it's it's a
+ lot of that but it's also about you know with the experience you make connectionsthat other people don't necessarily make
+ and so I think that is that's a big part as well but the bedrock is just a lot ofhours and you know that's that's okay
+ with me there's different theories on work-lifebalance and my theory for myself which I
+ do not project on to the team but my theory for myself is that you know I Iwanted love what I'm doing and work
+ really hard and my purpose I feel like and my goal is to change the world andmake it a better place and that's that's
+ what I'm really motivated to do so last
+
+1:10:40
+Speaker 0 :question LLVM logo is a dragon
+ you know you explain that this is because dragons have connotations ofpower speed intelligence it can also be
+ sleek elegant and modular till you remove them the modularpart what is your favorite
+ dragon-related character from fiction video or movies so those are all very
+
+1:11:01
+Speaker 1 :kind ways of explaining it that you
+ wanna know the real reason it's a dragon well yeah so there is a seminal book oncompiler design called the dragon book
+ and so this is a really old now book on compilers and so the the dragon logo forLVM came about because at Apple we kept
+ talking about LLVM related technologies and there's no logo to put on a slideit's sort of like what do we do and
+ somebody's like well what kind of logo should a compiler technology have andI'm like I don't know I mean the Dragons
+ or the dragon is the best thing that that we've got and you know Applesomehow magically came up with the logo
+ and and it was a great thing and the whole community rallied around it andand then it got better as other graphic
+ designers got involved but that's that's originally where it came fromstory is they're dragons from fiction
+
+
+1:11:50
+Speaker 0 :that you connect with for that Game of
+ Thrones Lord of the Rings that kind of thing
+

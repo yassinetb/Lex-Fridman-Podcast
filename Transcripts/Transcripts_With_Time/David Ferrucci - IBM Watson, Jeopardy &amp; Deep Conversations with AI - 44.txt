@@ -1,0 +1,2101 @@
+0:00:00
+Speaker 1 :following is a conversation with David
+ Ferrucci he led the team that built Watson the IBM question-answering systemthat beat the top humans in the world at
+ the game of Jeopardy for spending a couple hours of David I saw a genuinepassion not only for abstract
+ understanding of intelligence but for engineering it to solve real-worldproblems under real-world deadlines and
+ resource constraints where science meets engineering is where brilliant simpleingenuity emerges people who work
+ adjoining it to have a lot of wisdom earned two failures and eventual successDavid is also the founder CEO and chief
+ scientist of elemental cognition a company working to engineer AI systemsthat understand the world the way people
+ do this is the artificial intelligence podcast if you enjoy it subscribe onYouTube give it five stars and iTunes
+ support it on patreon or simply connect with me on Twitter Alex Friedman spelledFri D M a.m. and now here's my
+ conversation with David Ferrucci your undergrad was in biology with awith an eye toward medical school before
+ you went on for the PhD in computer science so let me ask you an easyquestion what is the difference between
+ biological systems and computer systems in your when you sit back look at theStars and think philosophically I often
+
+
+0:01:27
+Speaker 0 :wonder I often wonder whether or not
+ there is a substantive difference and I think the thing that got me intocomputer science and artificial
+ intelligence was exactly this presupposition that if we can getmachines to think or I should say this
+ question this philosophical question if we can get machines to think tounderstand to process information the
+ way do we do so if we can describe a procedure or describe a process even ifthat process where the intelligence
+ process itself then what would be the differenceso from philosophical standpoint I'm not
+ trying to convince that there are there is I mean you can go in the direction ofspirituality you can go in the direction
+ of a soul but in terms of you know what we can what we can experience from anintellectual and physical perspective
+ I'm not sure there is clearly there implement there are differentimplementations but if you were to say
+ as a biological information processing system fundamentally more capable thanone we might be able to build out of
+ silicon or or some other substrate I don't I don't know that there is how
+
+0:02:45
+Speaker 1 :distant do you think is the biological
+ implementation so fundamentally they may have the same capabilities but is itreally a far mystery where a huge number
+ of breakthroughs are needed to be able to understand it or is that somethingthat for the most part in the important
+ aspects echoes are the same kind of
+
+0:03:10
+Speaker 0 :characteristics yeah that's interesting
+ I mean I so you know your question presupposes that there's this goal torecreate you know what we perceive is
+ biological intelligence I'm not I'm not sure that's the I'm not sure that that'show I would state the goal I mean I
+ think that studying the goal good so I think there are a few goals I think thatunderstanding the human brain and how it
+ works is important for us to be able to diagnose and treat issues for us tounderstand our own strengths and
+ weaknesses both intellectual psychological and physical soneuroscience and on sending the brain
+ from that perspective has a there's a clear clear goal there from theperspective of saying I want to I want
+ to I want to mimic human intelligence that one's a little bit more interestinghuman intelligence certainly has a lot
+ of things we Envy it's also got a lot of problems too so I think we're capable ofsort of stepping back and saying what do
+ we want out of it what do we want out of an intelligence how do we want tocommunicate with that intelligence how
+ do we want to behave how do we want it to perform now of course it's it'ssomewhat of an interesting argument
+ because I'm sitting here as a human with a biological brain and I'm critiquingthis trends and weaknesses of human
+ intelligence and saying that we have the capacity just the capacity to step backand say gee what what is intelligence is
+ what do we really want out of it and that even in and of itself suggests thathuman intelligence is something quite
+ amiable that it could you know it can it can it can introspect that it could
+
+0:04:58
+Speaker 1 :introspect that way and the flaws you
+ mentioned the flaws the human self yeah
+
+0:05:01
+Speaker 0 :but I think I think that flaws that
+ humans wholeness house is extremely prejudicial and bias and the way it
+
+0:05:09
+Speaker 1 :draws many inferences do you think those
+ are sorry to interrupt you think those are features or are those bugs do youthink the the prejudice the
+ forgetfulness the fear what other flaws list them all what love maybe that's aflaw you think those are all things that
+ can be get gotten getting in the way of intelligence or the essential componentsof and
+
+
+0:05:32
+Speaker 0 :well again if you go back and you define
+ intelligence as being able to sort of accuracy accurately precisely rigorouslyreason develop answers and justify those
+ answers in an objective way yeah then human intelligence has theseflaws and that it tends to be more
+ influenced by some of the things you said and it's and it's largely aninductive process meaning it takes past
+ data uses that to predict the future very advantageous in some cases butfundamentally biased and prejudicial in
+ other cases because it's gonna be strongly influenced by its priorswhether they're whether they're right or
+ wrong from some you know objective reasoning perspective you're gonna favorthem because that's those are the
+ decisions or those are the paths that succeeded in the past and I think thatmode of intelligence makes a lot of
+ sense for when your primary goal is to act quickly and and and survive and makefast decisions and I think those create
+ problems when you want to think more deeply and make more objective andreasons that decisions of course humans
+ capable of doing both they do sort of one more naturally than they do theother but they're capable of doing both
+
+
+0:06:52
+Speaker 1 :you're saying they do the one that
+ responds quickly in it more naturally right because that's the thing you kindof need to not be eaten by the Predators
+
+
+0:07:02
+Speaker 0 :in the world for example but I mean
+ better than we've we've learned to reason through logic we've developedscience we train people to do that
+ I think that's harder for the individual to do I think it requires training andyou know and and and teaching I think we
+ are human - certainly is capable of it but we find more difficult and thenthere are other weaknesses if you will
+ as you mentioned earlier it's just memory capacity and how many chains ofinference can you actually go through
+ without like losing your way so just focus and so the way you think about
+
+0:07:39
+Speaker 1 :intelligence and we're really sort of
+ floating this philosophical slightly but I think you're like the perfectperson to talk about this because we'll
+ get to jeopardy and beyond that's like an incredible one of the most incredibleaccomplishments in AI in the history of
+ AI but hence the philosophical discussion so let me ask you've kind ofalluded to it but let me ask again
+ what is intelligence underlying the discussions we'll have with withjeopardy and beyond how do you think
+ about intelligence is it a sufficiently complicated problem being able to reasonyour way through solving that problem is
+ that kind of how you think about what it
+
+0:08:25
+Speaker 0 :means to be intelligent so I think of
+ intelligence to primarily two ways one is the ability to predict so in otherwords if I have a problem what's gonna
+ can I predict what's going to happen next whether it's to you know predictthe answer of a question or to say look
+ I'm looking at all the market dynamics and I'm going to tell you what's goingto happen next or you're in a in a room
+ and somebody walks in and you're going to predict what they're going to do nextor what they're going to say next doing
+
+
+0:08:52
+Speaker 1 :that in a highly dynamic environment
+ full of uncertainty be able to lots of
+
+0:08:56
+Speaker 0 :lockdown the more the more variables the
+ more complex the more possibilities the more complex but can I take a smallamount of prior data and learn the
+ pattern and then predict what's going to happen next accurately and consistentlythat's a that's certainly a form of
+
+
+0:09:16
+Speaker 1 :intelligence what do you need for that
+ by the way you need to have an understanding of the way the world worksin order to be able to unroll it into
+ the future all right thank you one thing is needed to predict depends what you
+
+0:09:28
+Speaker 0 :mean by understanding IIIi need to be
+ able to find that function and this is very much like what function deeplearning does machine learning does is
+ if you give me enough prior data and you tell me what the output variable is thatmatters I'm going to sit there and be
+ able to predict it and if I can predict you predict it accurately so that I canget it right more often than not I'm
+ smart if I do that with less data and less training time I'm even smarterif I can figure out what's even worth
+ predicting I'm smarter meaning I'm figuring out what path is gonna get me
+
+0:10:05
+Speaker 1 :toward a goal
+ what about picking a goal so again well
+
+0:10:07
+Speaker 0 :that's interesting about picking our
+ goal sort of an interesting thing I think that's where you bring in what doyou pre-programmed to do we talked about
+ humans and humans a pre-programmed to survive so sort of their primary youknow driving goal what do they have to
+ do to do that and that that could be very complex right so it's not just it'snot just figuring out that you need to
+ run away from their ferocious tiger but we survive in social context as anexample so understanding the subtleties
+ of social dynamics becomes something that's important for surviving finding amate reproducing right so we're
+ continually challenged with complex sets of variables complex constraints rulesif you will that we we or patterns and
+ we learn how to find the functions and predict the things in other wordsrepresent those patterns efficiently and
+ be able to predict what's going to happen that's a form of intelligencethat doesn't really record that doesn't
+ really require anything specific other than ability to find that function andand predict that right answer it's
+ certainly a form of intelligence but then when we when we say well do weunderstand each other in other words do
+ would you perceive me as as intelligent beyond that ability to predict so now Ican predict but I can't really
+ articulate how I'm going to that process what my underlying theory is forpredicting and I can't get you to
+ understand what I'm doing so that you can follow you can figure out how to dothis yourself if you hadn't if you did
+ not have for example the right pattern matching machinery that I did and now wehave potentially have this breakdown
+ where in effect I'm intelligent but I'm sort of an alien intelligence relative
+
+0:12:01
+Speaker 1 :to you you're intelligent but nobody
+
+
+0:12:04
+Speaker 0 :knows about it or I can see the I can
+
+
+0:12:07
+Speaker 1 :see the output knowing so so you're
+ saying let's to separate the two things one is youexplaining why you were able to predict
+ the future and and the second is me being able to like impressing me thatyou're intelligent me being able to know
+ that you successfully predicted the future do you think that's well it's not
+
+0:12:29
+Speaker 0 :a pressing you item intelligent in other
+ words you may be convinced that I'm intelligent in some form so high well
+
+0:12:35
+Speaker 1 :because of my ability to predict so I
+
+
+0:12:39
+Speaker 0 :would imagine that wow wow you're right
+ all here you're you're right more times than I am you're doing somethinginteresting that's a form that's a form
+ of intelligence but then what happens is if I say how are you doing that and youcan't communicate with me and you can't
+ describe that to me now I'm a label you a savant I mean I may say well you'redoing something weird and it's and it's
+ just not very interesting to me because you and I can't really communicate andand so now this is interesting right
+ because now this is you're in this weird place where for you to be recognized asintelligent the way I'm intelligent then
+ you and I sort of have to be able to communicate and then my we start tounderstand each other and then my
+ respect and my my appreciation my ability to relate to you starts tochange so now you're not an alien
+ intelligence anymore yours you're our human intelligence now because you and Ican communicate and so I think when we
+ look at when we look at when we look at animals for example animals can dothings we can't quite comprehend we
+ don't quite know how they do them but they can't really communicate with usthey can't put what they're going
+ through in our terms and so we think of them in sort of low there are thesealien intelligences and they're not
+ really worthless so what we're worth we don't treat them the same way as aresult of that but it's it's hard
+ because who knows what you know what's
+
+0:14:11
+Speaker 1 :going on so just a quick elaboration on
+ that the explaining that you're intelligent the explaining the thereasoning the one end to the prediction
+ is not some kind of mathematical proof if we look at humans look at politicaldebates and discourse on Twitter it's
+ mostly just telling stories so you usually your task is sorry that yourtask is not to tell an accurate
+ depiction of how you reason but to tell a story real or not that convinces methat there was a mechanism by which you
+
+
+0:14:51
+Speaker 0 :ultimately that's what a proof is I mean
+ even a mathematical proof is is that because ultimately the othermathematicians have to be convinced by
+ your proof otherwise in fact they're been that the measurement success yeahyeah there have been several proofs out
+ there where mathematicians would study for a long time before they wereconvinced that it actually proved
+ anything right you never know if it proved anything until the community ofmathematicians decided that it did so I
+ mean so it's but it's it's a real thing yeah and and that's sort of the pointright is that ultimately on you know
+ this notion of understanding us understanding something there'sultimately a social concept in other
+ words you I have to convince enough people that I I did this in a reasonableway I did this in a way that other
+ people can understand and and replicate and that make sense to them so we'revery human Houghton's is bound together
+ in that way we're bound up in that sense we sort of never really get away with ituntil we can consider convince others
+ that our thinking process you know make
+
+0:15:55
+Speaker 1 :sense did you think the general question
+ of intelligence is then also social constructs so if we task asked questionsof an artificial intelligence system is
+ this system intelligent the answer will ultimately be a socially constructed I
+
+0:16:11
+Speaker 0 :think I think so I so I think you're
+ making to be a mess I'm saying we can try to define intelligence in this superobjective way that says here here's this
+ data I want to predict this type of thing learn this function and then ifyou get it right often enough we
+
+
+0:16:31
+Speaker 1 :consider you intelligent but that's more
+
+
+0:16:33
+Speaker 0 :like a stepfather that I think it I
+ think it is it doesn't mean it's useful if it could be incredible usefulit could be solving a problem we can't
+ otherwise solve and can solve it more reliably than we can but then there'sthis notion of can humans take
+ responsibility for the decision that you're that you're making can we makethose decisions ourselves can we relate
+ to the process that you're going through and now you as an agent whether you're amachine or another human frankly are now
+ obliged to make me understand how it is that you're arriving at that answer andallow me I mean me or the obviously a
+ community or a judge of people to decide whether or not whether or not that makessense and by the way that happens with
+ the humans as well you're sitting down with your staff for example and you askfor suggestions about what to do next
+ and someone says well I think you should buy and I think you should buy this muchor would have or sell or whatever it is
+ or I think you should launch the product today or tomorrow or launch this productversus that product whatever decision
+ may be and you ask why and the person so I just have a good feeling about it andit's not you're not very satisfied now
+ that person could be you know you might say well you've been right you knowbefore but I'm gonna put the company on
+ the line can you explain to me why I
+
+0:17:56
+Speaker 1 :should believe this and that explanation
+ may have nothing to do with the truth
+
+0:18:01
+Speaker 0 :just them and all them convinced the
+ wrong yes they'll be wrong she's got to be convincing but it's ultimately got tobe convinced and that's why I'm saying
+ it's we're bound together right our intelligences are bound together in thatsense we have to understand each other
+ and and if for example you're giving me an explanation I mean this is a veryimportant point right you're giving me
+ an explanation and I'm and I and I and I have iton I'm not good and then I'm notgood at reasoning well and being
+ objective and following logical paths and consistent paths and I'm not good atmeasuring and sort of computing
+ probabilities across those paths what happens is collectively we're not goingto do we're not going to do well
+
+
+0:18:49
+Speaker 1 :how hard is that problem the second one
+ so we I think will talk quite a bit about the the first on a specificobjective metric benchmark performing
+ well but being able to explain the steps the reasoning how hard is that probably
+
+0:19:09
+Speaker 0 :that's I think that's very hard I mean I
+ think that that's um well it's hard for
+
+0:19:17
+Speaker 1 :humans the thing that's hard for humans
+ as you know may not necessarily be hard for computers and vice-versa so sorry sohow hard is that problem for computers I
+
+
+0:19:29
+Speaker 0 :think it's hard for computers and the
+ reason why are related to or saying that it's also hard for humans is because Ithink when we step back and we say we
+ want to design computers to do that one of the things we have to recognize iswe're not sure how to do it well I'm not
+ sure we have a recipe for that and even if you wanted to learn it it's not clearexactly what data we use and what
+ judgments we use to learn that well and so what I mean by that is if you look atthe entire enterprise of science science
+ is supposed to be at a bad objective reason and reason right so we thinkabout who's the most intelligent person
+ or group of people in the world do we think about the savants who can closetheir eyes and give you a number we'd
+ think about the think tanks or the scientists of the philosophers who kindof work through the details and write
+ the papers and come up with the thoughtful logical proves and use thescientific method and I think it's the
+ latter and my point is that how do you train someone to do that and that's whatI mean by it's hard how do you what's
+ the process of training people to do that well that's a hard process we workas a society we work pretty hard to get
+ other people to understand our thinking and to convince them of things now wecould for so
+ weighed them obviously talked about this like human flaws or weaknesses we canpersuade through persuade then through
+ emotional means but to but to get them to understand and connect to and followa logical argument is difficult we try
+ it we do it we do it as scientists we try to do it as journalists we know wetry to do it as you know even artists in
+ many forms as writers as teachers we go to a fairly significant training processto do that and then we could ask what
+ why is that so hard but it's hard and for humans it takes alot of work and when we step back and
+ say well step back and say well how do we get a machine - how do we get amachine to do that it's a vexing
+
+
+0:21:51
+Speaker 1 :question how would you begin to try to
+ solve that and maybe just a quick pause because there's an optimistic notion inthe things you're describing which is
+ being able to explain something through reason but if you look at algorithmsthat recommend things that we look at
+ next well there's Facebook Google advertising
+
+0:22:14
+Speaker 0 :based companies you know their goal is
+
+
+0:22:15
+Speaker 1 :to convince you to buy things based on
+ anything so that could be reason because the best of advertisement is showing youthings that you really do need and
+ explain why you need it but it could also be through emotional manipulationthe algorithm that describes why a
+ certain reason a certain decision was was made how hard is it to do it throughemotional manipulation and why is that a
+ good or a bad thing so you've kind of focused on reason logic really showingin a clear way why something is good one
+ is that even a thing that us humans do and and and - how do you think of thedifferences in the reasoning aspect and
+ the emotional manipulation
+
+0:23:13
+Speaker 0 :well they you know so you call it
+ emotional manipulation but more objectively is essentially saying youknow thing you know there are certain
+ features of things that seem to attract your attention I'm gonna kind of giveyou more of that stuff
+
+
+0:23:26
+Speaker 1 :manipulation is a bad word yeah I mean
+
+
+0:23:27
+Speaker 0 :I'm not saying it's good right or wrong
+ is it it works to get your attention and it works to get you to buy stuff andwhen you think about algorithms that
+ look at the patterns of the you know patterns of features that you seem to bespending your money on and is there
+ going to give you something with a similar pattern so I'm going to learnthat function because the objective is
+ to get you to click on and/or get you to buy and or whatever it is I don't know Imean that it is like it is what it is I
+ mean that's what the algorithm does you can argue whether it's good or badit depends what your you know what your
+ what your goal is
+
+0:24:00
+Speaker 1 :I guess this seems to very useful for
+ convincing telling us the thing for
+
+0:24:04
+Speaker 0 :convincing humans yeah it's good because
+ you gives again this goes back to how does a human you know what is the humanbehavior like how does a human you know
+ brain respond to things I think there's a more optimistic view of that too whichis that if you're searching for certain
+ kinds of things you've already reasoned that you need them and these thesealgorithms are saying look that's up to
+ you the reason whether you need something ornot that's your job you know you you met
+ you may have an unhealthy addiction to this stuff or you may have a reasonedand thoughtful
+ explanation for why it's important to you and the algorithms are saying heythat's like whatever like that's your
+ problem all I know is you're buying stuff like that you're interested instuff like that could be a bad reason
+ could be a good reason that's up to you I'm gonna show you more of that stuffand so and I and I and I think that
+ that's it's not good or bad it it's not reason or not reason the algorithm isdoing what it does which is saying you
+ seems to be interested in this I'm going to show you more that stuff and I thinkwe're seeing it's not just in buying
+ stuff but even in social media you're reading this kind of stuff I'm notjudging on whether it's good or bad I'm
+ not reasoning at all I'm just saying I'm gonna show you other stuff with similarfeatures and you know and like and
+ that's it and I wash my hands from it and I say that's all you know that's all
+
+0:25:26
+Speaker 1 :what's going on you know there is you
+ know people are so harsh on AI systems so one the bar of performance isextremely high and yet we also asked
+ them to in the case of social media to help find the better angels of ournature and help make a better society so
+ what do you think about the role of it
+
+0:25:48
+Speaker 0 :that so that agrees you that's that's
+ the interesting dichotomy right because on one hand we're sitting there andwe're sort of doing the easy part which
+ is finding the patterns we're not building the systems not building atheory that it's consumable and
+ understandable other humans that could being explained and justified and and soon one hand to say oh you know AI is
+ doing this why isn't doing this other thing well those other things a lotharder and it's interesting to think
+ about why why why it's harder and because you're interpreting you'reinterpreting the data in the context of
+ prior models in other words understandings of what's important inthe world what's not important what are
+ all the other abstract features that drive our decision-makingwhat's sensible what's not sensible
+ what's good what's bad what's moral what's valuable what is it where is thatstuff no one's applying the
+ interpretation so when I when I see you clicking on a bunch of stuff and I lookat these simple features the raw
+ features the features that are there in a data like what words are being usedor how long the material is more other
+ very superficial features what colors are being used in the material like Idon't know why you're clicking on the
+ stuff you're looking or if it's products what the price of what the price is orwhat the categories or stuff like that
+ and I just feed you more of the same stuff that's very different than kind ofgetting in there and saying what does
+ this mean what the stuff you're reading like why are you reading it whatassumptions are you bringing to the
+ table are those assumptions sensible is the miss the material make any sensedoes it does it lead you to thoughtful
+ good conclusions again there's judgment this interpretation judgment involved inthat process that isn't really happening
+ in in in the AI today that's harder right because you have to start gettingat the meaning of this of the of the
+ stop of the content you have to get at how humans interpret the contentrelative to their value system and
+ deeper thought processes so that's what
+
+0:28:00
+Speaker 1 :meaning means is not just some kind of
+ deep timeless semantic thing that the statement represents but also how alarge number of people are likely to
+ interpret so that's again even meaning is a social construct it's so you haveto try to predict how most people would
+ understand this kind of statement yeah
+
+0:28:24
+Speaker 0 :meaning is often relative but meaning
+ implies that the connections go beneath the surface of the artifact so if I showyou a painting it's a bunch of colors in
+ a canvas what does it mean to you and it may mean different things at differentpeople because of their different
+ experiences it may mean something even different to the artist to who paintedit as we try to get more rigorous with
+ our communication we try to really nail down that meaning so we go from abstractart to precise mathematics precise
+ engineering drawings and things like that we're really trying to say I wantto narrow that that space of possible
+ interpretations because the precision of thecommunication ends up becoming more and
+ more important and so that means that I have to specify and I think that's whythis becomes really hard because if I'm
+ just showing you an artifact and you're looking at it superficially whether it'sa bunch of words on a page or whether
+ it's you know brushstrokes on a canvas or pixels on a photograph you can sitthere and you can interpret lots of
+ different ways at many many different levels but when I want to when I want toalign our understanding of that I have
+ to specify a lot more stuff that's actually not in it not directly in theartifact now I have to say well how you
+ were how are you interpreting this image and that image and what about the colorsand what do they mean to you what's what
+ perspective are you bringing to the tablewhat are your prior experiences with
+ those artifacts what are your fundamental assumptionsand values what what is your ability to
+ kind of reason to chain together logical implication as you're sitting there andsaying well if this is the case then I
+ would conclude this and if that's the case then I would conclude that and itso your reasoning processes and how they
+ work your prior models and what they are your values and your assumptions allthose things now come together into the
+ interpretation getting in sick of that is hard and yet humans able to intuit
+
+0:30:34
+Speaker 1 :some of that without any pre because
+
+
+0:30:39
+Speaker 0 :they have the shared experience me and
+
+
+0:30:41
+Speaker 1 :we're not talking about shared two
+ people have any shares know me as a society that's correct we have this
+
+0:30:46
+Speaker 0 :shared experience and we have similar
+ brains so we tend to Institute in other words part of our shared experiences areshared local experience like we may live
+ in the same culture we may live in the same society and therefore we havesimilar education we have similar what
+ we like to call prior models about the world prior experiences and we use thatas a think of it as a wide collection of
+ interrelated variables and they're all bound to similar things and so we takethat as our background and we start
+ interpreting things similarly but as humans we have it we havea lot of shared experience we do have
+ similar brains similar goals similar emotions under similar circumstancesbecause we're both humans so now one of
+ the early questions you ask well how is biological and you know computerinformation systems fundamentally
+ different well one is you know one is come you means come with a lot ofpre-programmed stuff yeah a ton of
+ program stuff and they were able to communicate because they have a lot ofit because they share that stuff do you
+
+
+0:31:50
+Speaker 1 :think that shared knowledge if it can
+ maybe escape the hardware question how much is encoded in the hardware just theshared knowledge in the software the the
+ history the many centuries of wars and so on that came to today that sharedknowledge how hard is it to encode and
+ did you have a hope can you speak to how hard is it to encode that knowledgesystematically in a way that could be
+ used by a computer so I think it is
+
+0:32:22
+Speaker 0 :possible to learn to form machine to
+ program machine to acquire that knowledge with a similar foundation inother words in a similar interpretive
+ interpretive foundation for processing that knowledge but what do you mean bythat so in other in other words
+ foundation we view the world in a particular way and so in other words wewe have i if you will as humans we have
+ a frame reference for bringing the world around us so we have multiple frameworksfor interpreting the world around us but
+ if you're interpreting for example social political interactions you'rethinking about what there's people
+ there's collections and groups of people they have goals the goals largely builtaround survival and quality of life that
+ are their fundamental economics around scarcity of resources and when whenhumans come and start interpreting a
+ situation like that because you've brought you've grown up like historicalevents they start interpreting
+ situations like that they apply a lot of this a lot of this this fundamentalframework for interpreting that well who
+ are the people what were their goals whatusers did they have how much power
+ influence that they have over the other like this fundamental substrate if youwill for interpreting and reasoning
+ about that so I think it is possible to in view a computer with that that stuffthat humans like take for granted when
+ they go and sit down and try to interpret things and then and then withthat with that foundation they acquire
+ they start acquiring the details the specifics in any given situation arethen able to interpret it with regard to
+ that framework and then given that interpretation they can do what they canpredict but not only can they predict
+ they can predict now with an explanation that can be given in those terms in theterms of that underlying framework that
+ most humans share now you could find humans that come in interpret eventsvery differently than other humans
+ because they're like using a different different framework you know moviematrix comes to mind where you know they
+ decided the humans were really just batteries and that's how theyinterpreted the value of humans as a
+ source of electrical energy so but um but I think that you know for the mostpart we we have a way of interpreting
+ the events or do social events around us because we have to share at framework itcomes from again the fact that we're
+ we're similar beings that have similar goals similar emotions and we is we canmake sense out of these these frameworks
+
+
+0:35:04
+Speaker 1 :make sense to us so how much knowledge
+ is there do you think so it's you said it's possible well there's all its
+
+0:35:09
+Speaker 0 :tremendous amount of detailed knowledge
+ in the world there you know you can imagine you know effectively infinitenumber of unique situations and unique
+ configurations of these things but the the knowledge that you need what I referto as like the frameworks for you for
+ interpreting them I don't think I think that's those are finite you think the
+
+0:35:31
+Speaker 1 :frameworks I'm more important than the
+ bulk of them now so it's like framing
+
+0:35:37
+Speaker 0 :yeah because the frameworks do is they
+ give you now the ability to interpret and reason and to interpret andreasoning to interpret and reason over
+ the specific in ways that other humans would
+
+0:35:48
+Speaker 1 :understand what about the specifics you
+
+
+0:35:51
+Speaker 0 :know who acquired the specifics by
+ reading and by talking to other people
+
+0:35:55
+Speaker 1 :and so mostly actually just even if we
+ can focus on even the beginning the common-sense stuff the stuff thatdoesn't even require reading or
+ animalistic requires playing around with the world or something just being ableto sort of manipulate objects drink
+ water and so on all does that every time we try to do that kind of thing inrobotics or AI it seems to be like an
+ onion you seem to realize how much knowledge is really required to performyou in some of these basic tasks do you
+ have that sense as well and if so how do we get all those details are theywritten down somewhere idea they have to
+ be learned through experience so I think
+
+0:36:38
+Speaker 0 :when like if you're talking about sort
+ of the physics the basic physics around us for example acquiring informationabout for acquiring how that works yeah
+ I think that I think there's a combination of things going I thinkthere's a combination of things going on
+ I think there is like fundamental pattern matching like what were youtalking about before where you see
+ enough examples enough data about something you start assuming that andwith similar input I'm going to predict
+ similar outputs you don't can't necessarily explain it at all you maylearn very quickly that when you let
+ something go it falls to the ground
+
+0:37:15
+Speaker 1 :that's a that's a sickness is horribly
+ explained that but that's such a deep idea if you let something go like they
+
+0:37:25
+Speaker 0 :do gravity I mean people were letting
+ things go and counting on them falling well before they understood gravity but
+
+0:37:31
+Speaker 1 :that seems to be a that's exactly what I
+ mean is before you take a physics class or the or study anything about Newtonjust the idea that stuff falls to the
+ ground and they be able to generalize that other all kinds of stuff falls tothe ground it just seems like a non if
+ without encoding it like hard coding it in it seems like a difficult thing topick up it seemed like gift of Allah
+ of different knowledge to be able to integrate that into the framework sortof into everything else so both know
+ that stuff falls to the ground and start to reason about social politicaldiscourse so both like the very basic
+ and the high-level reasoning decision-making I guess my question ishow hard is this problem and sorry to
+ linger on it because again and we'll get to it for sure as well Watson withjeopardy did its take on a problem
+ that's much more constrained but has the same hugeness of scale at least from theoutsider's perspective so I'm asking the
+ general life question of to be able to be an intelligent being and reason inthe in the world about both gravity and
+ politics how hard is that problem
+
+0:38:52
+Speaker 0 :so I think it's solvable okay now
+
+
+0:38:59
+Speaker 1 :beautiful so what about what about time
+
+
+0:39:05
+Speaker 0 :travel okay convinced not as convinced
+
+
+0:39:09
+Speaker 1 :
+
+0:39:10
+Speaker 0 :yet okay no I said I I think it is I
+ mean I I took it as solvable I mean I think that it's alert it's versatileit's about getting machines to learn
+ learning is fundamental and I think we're already in a place that weunderstand for example how machines can
+ learn in various ways right now our learning our learning stuff is sort ofprimitive in that we haven't sort of
+ taught machines to learn the frameworks we don't communicate our frameworksbecause of our shared in some cases we
+ do but we don't annotate if you will all the data in the world with theframeworks that are inherent or
+ underlying our understanding instead we just operate with the data so if we wantto be able to reason over the data in
+ similar terms in the common frameworks we need to be able to teach the computeror at least we need to program the
+ computer to require to have access to and acquirelearn the frameworks as well and connect
+ the frameworks to the data I think this I think this can be done I think we canstart
+ I think machine learnings for example with enough examples can start to learnthese basic dynamics will they relate
+ the necessary to gravity not unless they can also acquire those theories as welland put the experiential knowledge and
+ connected back to the theoretical knowledge I think if we think in termsof these class of architectures that are
+ are designed to both learn the specifics find the patterns but also acquire theframeworks and connect the data to the
+ frameworks if we think in terms of robust architectures like this I thinkthere is a path toward getting there
+
+
+0:41:02
+Speaker 1 :jeez in terms of encoding architectures
+ like that do you think systems they were able to do this will look like and youknow that works or representing if you
+ look back to the eighties and nineties of the expert systems so more likegraphs the systems that are based in
+ logic able to contain a large amount of knowledge where the challenge was theautomated acquisition of that knowledge
+ the I guess the question is when you collect both the frameworks and theknowledge from the data what do you
+ think that thing will look like yeah so
+
+0:41:36
+Speaker 0 :I mean I think think is asking a
+ question they look like neural networks is a bit of a red herring I mean I thinkthat they they will they will certainly
+ do inductive or pattern match based reasoning and I've already experimentedwith architectures that combine both
+ that use machine learning and neural networks to learn certain classes ofknowledge in other words to find
+ repeated patterns in order or in order for it to make good inductive guessesbut then ultimately to try to take those
+ learnings and and marry them in other words connect them to frameworks so thatit can then reason over that in terms of
+ their humans understand so for example at elemental cognition we do both wehave architectures that that do both but
+ both those things but also have a learning method for acquiring theframeworks themselves and saying look
+ ultimately I need to take this data I need to interpret it in the form ofthese frameworks so they can reason over
+ it so there is a fundamental knowledge representation like what you saying likethese graphs of logic if you will there
+ are also neural networks that acquire certain class of information they thenthey they and align them with these
+ frameworks but there's also a mechanism to acquire the frameworks themselves yes
+
+0:42:49
+Speaker 1 :so it seems like the idea of framework
+ requires some kind of collaboration with humans absolutely so do you think ofthat collaboration as well and unless to
+
+
+0:42:59
+Speaker 0 :be clear let's be clear only for the for
+ the express purpose that you're designing you you're designing machinedesigning and intelligence that can
+ ultimately communicate with humans in terms of frameworks that help themunderstand things right so so now to be
+ really clear you can create you can independently create an a machinelearning system and an intelligent
+ intelligence that I might call an alien's elegans that does a better jobthan you with some things but can't
+ explain the framework to you that doesn't mean is it might be better thanyou at the thing it might be that you
+ cannot comprehend the framework that it may have created for itself that isinexplicable to you that's a reality but
+
+
+0:43:45
+Speaker 1 :you're more interested in a case where
+
+
+0:43:49
+Speaker 0 :you can I I am yeah I per might sort of
+ approach to AI is because I've set the goal for myself I want machines to beable to ultimately communicate
+ understanding with human I want to meet would acquire and communicate acquireknowledge from humans and communicate
+ knowledge to humans they should be using what you know inductive machine learningtechniques are good at which is to
+ observe patterns of data whether it be in language or whether it be in imagesor videos or whatever to acquire these
+ patterns to induce the generalizations from those patterns but then ultimatelywork with humans to connect them to
+ frameworks interpretations if you will that ultimately make sense to humans ofcourse the machine is gonna have the
+ strength egg it has the richer or longer memory but that you know it has the morerigorous reasoning abilities the deeper
+ reasoning abilities so be it interesting you know complementary relationshipbetween the human and the machine do you
+
+
+0:44:53
+Speaker 1 :think that ultimately needs explained
+ ability like a machine so if we look we study for example Tesla autopilot a lotor humans I don't know if you've driven
+ the vehicle or are aware of what is it so you basicallythe human and machine are working
+ together there and the human is responsible for their own life tomonitor the system and you know the
+ system fails every few miles and so there's there's hundreds of there'smillions of those failures a day and so
+ that's like a moment of interaction DC
+
+0:45:26
+Speaker 0 :yeah that's exactly right that's a
+ moment of interaction where you know the the the machine has learned some stuffit has a failure
+ somehow the failures communicated the human is now filling in the mistake ifyou will or maybe correcting or doing
+ something that is more successful in that case the computer takes thatlearning so I believe that the
+ collaboration between human and machine I mean that's sort of a permanentexample of sort of a more another
+ example is where the machine is literally talking to you and saying lookI'm I'm reading this thing I know I know
+ that like the next word might be this or that but I don't really understand why Ihave my gas can you help me understand
+ the framework that supports this and then can kind of take acquire that takethat and reason about it and reuse it
+ the next time it's reading to try to understand something not on not unlike ahuman student might do I mean I remember
+ like when my daughter was the first great in she was had a readingassignment about electricity and you
+ know somewhere in in the text it says and electricity is produced by waterflowing over turbines or something like
+ that and then there's a question that says well how was electricity createdand so my daughter comes to me and says
+ I mean I could you know created and produced or kind of synonyms in thiscase so I can go back to the text and I
+ can copy by water flowing over turbines but I have no idea what that means likeI don't know how to interpret water
+ flowing over turbines and what electricity even is I mean I can get theanswer right by matching the text but I
+ don't have any framework for understanding what this means at all and
+
+0:47:08
+Speaker 1 :framework really I mean it's a set of
+ not to be mathematical but axioms of ideas that you bring to the table andinterpreting stuff and then you build
+
+
+0:47:18
+Speaker 0 :those up somehow you build them up with
+ the expert that there's a shared understanding of
+
+0:47:23
+Speaker 1 :what they are Sheriff it's the social
+ network that us humans do you have a sense that humans on earth in generalshare a set of like how many frameworks
+ are there I mean it depends on how you
+
+0:47:36
+Speaker 0 :bound them right so in other words how
+ big or small like their their individual scope but there's lots and there are newones I think they're I think the way I
+ think about is kind of an a layer I think that the architectures are beinglayered in that there's there's a small
+ set of primitives that allow you the foundation to build frameworks and thenthere may be you know many frameworks
+ but you have the ability to acquire them and then you have the ability to reusethem I mean one of the most compelling
+ ways of thinking about this is or reasoning by analogy where I could sayoh wow I've learned something very
+ similar you know I never heard of this I never heard of this game soccer but ifit's like basketball in the sense that
+ the goals like the hoop and I have to get the ball in the hoop and I haveguards and I have this and I have that
+ like we're weird is the where where are the similarities and where thedifference is and I have a foundation
+ now for interpreting this new information and then the different
+
+0:48:31
+Speaker 1 :groups like the Millennials will have a
+ framework and then and then well that you never you know yeah well Kratz andRepublicans
+ well I Neal's nobody wants that
+
+0:48:43
+Speaker 0 :framework well I mean I think
+ understands it right I mean you're talking about political and social waysof interpreting the world around them
+ and I think these frameworks are still largely largely similar I think theydiffer in maybe what some fundamental
+ assumptions and values are now from a reasoning perspective like the abilityto process the framework of Magna might
+ not be that different the implications of different fundamental values orfundamental assumptions in those
+ framework frameworks may reach very different conclusions so from so from asocial perspective that conclusions may
+ be very different from an intelligence perspective I you know I just followedwhere my assumptions took me yeah the
+
+
+0:49:22
+Speaker 1 :product the process itself would look
+ similar but that's a fascinating idea that frameworks really helped carve howa statement will be interpreted
+ I mean having a Democrat and the Republican framework and read the exactsame statement and the conclusions that
+ you derive would be totally different from an ad respective is fascinating
+
+0:49:47
+Speaker 0 :what we would want out of the AI is to
+ be able to tell you that this perspective one perspective one set ofassumptions is going to lead you here in
+ other setups as luncheons is gonna leave you there and to and in fact you know tohelp people reason and say oh I see
+ where I see where our differences lie yeah you know I have this fundamentalbelief about that I have this
+ fundamental belief about that yeah
+
+0:50:09
+Speaker 1 :that's quite brilliant from my
+ perspective and NLP there's this idea that there's one way to reallyunderstand a statement but there
+ probably isn't there's probably an infinite number of ways then just aswell well there's a lot finding on
+
+
+0:50:21
+Speaker 0 :there's lots of different
+ interpretations and the you know the the broader you know the broader to the thecontents the richer it is and so you
+ know you you and I can have very different experiences with the same textobviously and if we're committed to
+ understanding each other we start and that's the other important point like ifwe're committed to understanding each
+ other we start decomposing and breaking down our interpretation towards more andmore primitive components until we get
+ to that point where we say oh I see why we disagree and we try to understand howfundamental that disagreement really is
+ but that requires a commitment to breaking down that interpretation interms of that framework in a logical way
+ otherwise you know and this is why I like I think of a eyes is reallycomplementing and helping human
+ intelligence to overcome some of its biases and its predisposition to bepersuaded by you know buys but more
+ shallow reasoning in the sense that like we get over this idea well I you knowyou know I'm right because I'm a
+ Republican or I'm right because I'm democratic and someone labeled this isdemocratic point of view or it has the
+ following keywords in it and and if the machine can help us break that argumentdown and say wait a second you know what
+ do you really think about this right so essentially holding us accountable todoing more critical thinking
+
+
+0:51:47
+Speaker 1 :to sit and think about that as fast
+ that's I love that I think that's really empowering use of AI for the publicdiscourse it's completely disintegrating
+ currently I don't know as we learn how
+
+0:52:01
+Speaker 0 :to do it on social medias right so one
+
+
+0:52:02
+Speaker 1 :of the greatest accomplishments in the
+ history of AI is Watson competing against in a game of Jeopardy againsthumans and you were a lead in that
+ accrue at a critical part of that let's start the very basics what is the gameof Jeopardy the game for us humans human
+
+
+0:52:26
+Speaker 0 :versus human right so it's to take a
+ question and answer it actually no but it's not right it's really not it'sreally it's really to get a question and
+ answer but it's what we call a factoid questions so this notion of like it's itreally relates to some fact that
+ everything few people would argue whether the facts are true or not infact most people what and jeopardy kind
+ of counts on the idea that these these statements have factual answers and andthe idea is to first of all determine
+ whether or not you know the answer which is sort of an interesting twist so first
+
+0:53:06
+Speaker 1 :of all understand the question you have
+
+
+0:53:07
+Speaker 0 :to understand the question what is it
+ asking and that's a good point because the questions are not asked directlyright they're all like the way the
+
+
+0:53:15
+Speaker 1 :questions are asked is nonlinear it's
+ like it's a little bit witty it's a little bit playful sometimes it's a it'sa little bit tricky yeah they're asked
+
+
+0:53:25
+Speaker 0 :and exactly in numerous witty tricky
+ ways exactly what they're asking is not obvious it takes it takes an experiencedhumans a while to go what is it even
+ asking right and it's sort of an interesting realization that you havewas a missus Oh what's the Jeopardy is a
+ question answering Shou and there's a go like I know a lot and then you read itand you're you're still trying to
+ process the question and the champions have answered and moved on there's likethere's three questions ahead at the
+ time you figured out what the question even met so there's there's definitelyan ability there to just parse out what
+ the question even is so that was certainly challenging it'sinteresting historically though if you
+ look back at the jeopardy games much earlieryou know 63 yeah and I think the
+ questions were much more direct it weren't quite like that they got sort ofmore and more interesting the way they
+ asked them that sort of got more and more interesting and subtle and nuancedand humorous and witty over time which
+ really required the human to kind of make the right connections and figuringout what the question was even asking so
+ yeah you have to figure out the questions even asking then you have todetermine whether or not you think you
+ know the answer and because you have to buzz in really quickly you sort of haveto make that determination as quickly as
+ you possibly can otherwise you lose the opportunity buzz in you've been going
+
+0:54:43
+Speaker 1 :before you really know if you know the
+
+
+0:54:46
+Speaker 0 :answer I think well I think a lot of
+ humans will will assume they'll they'll look at the look at their process ofvery superficially in other words what's
+ the topic what are some key words and just say do I know this area or notbefore they actually know the answer
+ then they'll buzz in and then I'll buzz in and think about it it's interestingwhat humans do now some people who know
+ all things like Ken Jennings or something or the more recent bigjeopardy player that knows about that
+ though just assume they know although jeopardy and I'll just pose it you knowWatson interestingly didn't even come
+ close to knowing all of Jeopardy right
+
+0:55:20
+Speaker 1 :Watson even at the peak even at that's
+
+
+0:55:22
+Speaker 0 :been yeah so for example I mean we had
+ this thing called recall which is like how many of all the Jeopardy questionsyou know how many did could we even find
+ like find the right answer for like anywhere like could we come up with ifwe look you know we had up a big body of
+ knowledge some of the order of several terabytes I mean from from a web scalewas actually very small but from like a
+ book scales talking about millions in bucks right so the equivalent millionsof books and cyclopædia is dictionaries
+ books it's a ton of information and you know for I think was 80 only 85% was theanswer anywhere to be found hmm so
+ you're ready down you're ready down at that level just to get just to getstarted right so and so was important to
+ get a very quick sense of do you think you know the right answer to thisquestion so we have to compute that
+ confidence as quickly as we possibly could so it's in effectto answer it and at least you know spend
+ some time essentially answering it and then judging the confidence that we youknow that that our answer was right and
+ in deciding whether or not we were confident enough to buzz in and thatwould depend on what else was going on
+ in the game it could because it was a risk so like if you're really in asituation where I have to take a gas I
+ have very little to lose then you'll buzz in with less confidence
+
+0:56:40
+Speaker 1 :so that was the counter for the the
+ financial standings of the different
+
+0:56:44
+Speaker 0 :competitors cracks yeah how much of the
+ game was laughs how much time was left and where were you were in the standingsthings like that what how many hundreds
+
+
+0:56:51
+Speaker 1 :of milliseconds that we're talking about
+ here do you have a sense of what is we
+
+0:56:57
+Speaker 0 :targets because we yeah was the targeted
+ so I mean we targeted answering and under three seconds and buzzing it so
+
+0:57:04
+Speaker 1 :the decision to buzz in and then the
+ actual answering are those two yes there
+
+0:57:11
+Speaker 0 :were two there were two different things
+ in fact we had multiple stages whereas like we would say let's estimate ourconfidence which which is sort of a
+ shallow answering process and then ultimate and then ultimately decide tobuzz in and then we may take another
+ second or something it's kind of go in there and and do that but by and largewe're saying like we can't play the game
+ we can't even compete if we can't on average answer these questions andaround three seconds or less
+
+
+0:57:41
+Speaker 1 :so you stepped in so there's this
+ there's these three humans playing a game and you stepped in with the ideathat IBM Watson would be one of replaced
+ one of the humans and compete against two can you tell the story of Watsontaking on this game sure seems
+ exceptionally difficult yeah so the
+
+0:57:59
+Speaker 0 :story was that um it was or it was
+ coming up I think the 10-year anniversary of a big blue an opticaldeep blues IBM wanted to do sort of
+ another kind of really you know fun challenge public challenge that canbring attention to IBM research and the
+ kind of cool stuff that we were doing I had been working in an AI at IBM forsome time I had a team doing what's
+ called open domain factoids question-answering which is you knowwe're not gonna tell you what the
+ questions are we're not even gonna tell you what they're aboutcan you go off and get accurate answers
+ to these questions and it was an area of AI research that I was involved in andso it was a big Pat it was a very
+ specific passion of mine language understanding and always always been apassion of mine one sort of narrow slice
+ on whether or not you could do anything was language was this notion of opendomain and meaning I could ask anything
+ about anything factoids meaning it essentially had ananswer and and you know being able to do
+ that accurately and quickly so that was a research area that might even alreadybeen in and so completely independently
+ several you know IBM exactly there's like what are we gonna do what's thenext cool thing to do and Ken Jennings
+ was on his winning streak this was like whatever was 2004 I think was on his winwinning streak when someone thought hey
+ that'd be really cool um if the computer can play jeopardy and so this was likein 2004 they were shopping this thing
+ around and everyone who's telling the the research execs no way like this iscrazy
+ and we had some pretty you know senior people know if you'll understand theothers crazy and he'll come across my
+ desk and I was like but that's kind of what what I'm really interested in doingand but there was such this prevailing
+ sense of this is nots we're not going to risk IBM's reputation on this we're justnot doing it and this happened in 2004
+ it happened in 2005 at the end of 2006 it was coming around again and I wascoming off of a I was doing that the
+ open domain question-answering stuff but I was coming off a couple other projectsI had a lot more time to put into this
+ and I argued that it could be done and I argue it would be crazy not to do this
+
+1:00:12
+Speaker 1 :can I
+ you could be honest at this point so even though you argued for it what's theconfidence that you had yourself
+ privately that this could be done it was we just totally told the story of howyou tell stories to convince others how
+ confident were you what was your estimation of the problemat that time so I thought it was
+
+
+1:00:32
+Speaker 0 :possible and a lot of people thought it
+ was impossible I thought it was possible a reason why I thought it was possibleis because I did some brief
+ experimentation I knew a lot about how we were approaching on open domainfactoids question asked me we have been
+ doing it for some years I looked at the Japanese stuff I said this is going tobe hard for a lot of the points that you
+ mentioned earlier hard to interpret the question hard to do it quickly enoughhard to compute an accurate confidence
+ none of this stuff had been done well enough before but a lot of thetechnologies were building with the
+ kinds of technologies that should work but more to the point what was drivingme was I was an IBM research I was a
+ senior leader in IBM Research and this is the kind of stuff we were supposed todo we were basically supposed to the
+
+
+1:01:19
+Speaker 1 :
+
+1:01:19
+Speaker 0 :moonshot this is I mean we were supposed
+ to take things and say this is an active research area it's our obligation tokind of if we have the opportunity to
+ push it to the limits and if it doesn't work to understand more deeply why wecan't do it and so I was very committed
+ to that notion saying folks this is what we do it's crazy not not to do this isan active research area we've been in
+ this for years why wouldn't we take this Grand Challenge and and push it as hardas we can at the very least we'd be able
+ to come out and say here's why this problem is is way hard here's what we'vetried and here's how we failed so I was
+ very driven as a scientist from that perspective and then I also argued basedon what we did a feasibility study oh
+ why I thought it was hard but possible and I showed examples of you know whereit succeeded where it failed why it
+ failed and sort of a high level architecture approach for why we shoulddo it but for the most part that at that
+ point the execs really were just looking for someone crazy enough to say yesbecause for several years at that point
+ everyone has said no I'm not willing to risk my reputation and my career youknow on this thing clearly you did not
+
+
+1:02:35
+Speaker 1 :have such fears okay I did not say you
+ died right in and yet for what I understand it wasperforming very poorly in the beginning
+ so what were the initial approaches and
+
+1:02:50
+Speaker 0 :why did they fail well there were lots
+ of hard aspects to it I mean one of the reasons why prior approaches that we hadworked on in the past
+ um failed was because of because the questions were difficult difficult tointerpret like what are you even asking
+ for right very often like if if the question was very direct like what cityyou know or what you know even then it
+ could be tricky but but you know what city or what person was often when itwould name it very clearly you would
+ know that and and if there was just a small set of them in other words we'regonna ask about these five types like
+ it's gonna be an answer and the answer will be a city in this state or a cityin this country the answer will be a
+ person of this type right like an actor or whatever it is but turns out that injeopardy there were like tens of
+ thousands of these things and it was a very very long tale meaning you knowthat it just went on and on and and so
+ even if you focused on trying to encode the types at the very top like there'sfive that were the most let's say five
+ of the most frequent you still cover a very small percentage of the data so youcouldn't take that approach of saying
+ I'm just going to try to collect facts about these five or ten types or twentytypes or fifty types or whatever so that
+ was like one of the first things like what do you do about that and so we cameup with a an approach toward that and
+ the approach to look promising and we we continue to improve our abilities tohandle that problem throughout the
+ project the other issue was that right from the outside I said we're not goingto I committed to doing this in three
+ five years so we did in four so I got luckyum but one of the things that that
+ putting that like stake in the ground was I and I knew how hard the languageof the standard problem was I said we're
+ not going to actually understand language to solve this problem we arenot going to
+ interpret the question and the domain of knowledge the question refers to inreason over that to answer these
+ questions were obviously we're not going to be doing that at the same time simplesearch wasn't good enough to confidently
+ answer with this you know a single correct answer first others like
+
+1:05:13
+Speaker 1 :brilliant that's such a great mix of
+ innovation in practical engineering three three four eight so you're notyou're not trying to solve the general
+ NLU problem you're saying let's solve this in any way possible oh yeah no I
+
+1:05:25
+Speaker 0 :was committed to saying look we're gonna
+ solving the open the main question answering problem we're using jeopardyas a driver for that management hard
+ enough big benchmark exactly and now we're how do we do it we're just likewhatever like just figure out what works
+ because I want to be able to go back to the académica scientific community andsay here's what we tried here's what
+ work here's what didn't work I don't want to go in and say oh I only have onetechnology hammer and only gonna use
+ this I'm gonna do whatever it takes I'm like I'm gonna think out of the box dowhatever it takes one um and I also
+ Baloo's another thing I believed I believe that the fundamental NLPtechnologies and machine learning
+ technologies would be would be adequate and this was an issue of how do weenhance them how do we integrate them
+ how do we advance them so I had one researcher and came to me who had beenworking on question answering with me
+ for a very long time who had said we're gonna need Maxwell'sequations for question-answering and I
+ said if we if we need some fundamental formula that breaks new ground and howwe understand language we're screwed
+ yeah we're not gonna get there from here like we I am not counting I am that myassumption is I'm not counting on some
+ brand new invention what I'm counting on is the ability to take everything thathas done before to figure out a an
+ architecture on how to integrate it well and then see where it breaks and makethe necessary advances we need to make
+ and sold this thing works yeah push it hard to see where it breaks
+
+1:06:59
+Speaker 1 :and then patch it up I mean that's how
+ people change the world and that's the you know mosque approaches RocketsSpaceX that's the Henry Ford and so on a
+
+
+1:07:09
+Speaker 0 :lot and and I happen to be and in this
+ case I happen to be right but but like we didn't know right but you kind ofhave to put a second or so how you gonna
+ run the project so yep and backtracking
+
+1:07:17
+Speaker 1 :to search so if you were to do what's
+ the brute force solution what what would you search over so you have a questionhow would you search the possible space
+
+
+1:07:31
+Speaker 0 :of answers look web search has come a
+ long way even since then but at the time like you know you first of all I meanthere are a couple of other constraints
+ around the problems interesting so you couldn't go out to the web you couldn'tsearch the Internet in other words the
+ AI experiment was we want a self-contained device device if devicesas big as a room fine it's as big as a
+ room but we want a self-contained advice contained device you're not going outthe internet you don't have a life
+ lifeline to anything so it had to kind of fit in a shoebox if you will or atleast the size of a few refrigerators
+ whatever it might be see but also you couldn't just get outthere you couldn't go off Network right
+ to kind of go so there was that limitation but then we did it but thebasic thing was go go do what go do a
+ web search the problem was even when we went and did a web search I don'tremember exactly the numbers but someone
+ the order of 65% at a time the answer would be somewhere you know in the top10 or 20 documents so first of all
+ that's not even good enough to play Jack pretty you know the words even if youcould pull the avian if you could
+ perfectly pull the answer out of the top 20 documents top 10 documents whateverwas which we didn't know how to do but
+ even if you could that do that your you'd be at and you knew it was RyanLizza we've had enough confidence in it
+ right so you have to pull out the right answer you have you depth of confidenceit was the right answer and and then
+ you'd have to do that fast enough to now go buzz in and you'd still only get 65%of them right with nine doesn't even put
+ you in the winner's circle winner's circle you have to be up over 70 and youhave to do it really quick and you do
+ really quickly but now the problem is well even if I had somewhere in the top10 documents how do I figure out where
+ in the top 10 documents that answer is and how do i compute a confidence of allthe possible candidates so it's not like
+ I go in knowing the right answer and I have to pick it I don't know the rightanswer I have a bunch of documents
+ somewhere in there's the right answer how do i as a machine go out and figureout which ones right and then how do I
+ score it so and now how do I deal with the fact that I can't actually go out to
+
+1:09:37
+Speaker 1 :the web first of all if you pause and
+ then just think about it if you could go to the web do you think that problem issolvable if you just pause on it just
+ thinking even beyond jeopardy do you think the problem of reading textdefined where the answer is but we saw
+
+
+1:09:53
+Speaker 0 :we solved that and some definition of
+ solves given the Jeopardy challenge how did you do it forever so how did you
+
+1:09:59
+Speaker 1 :take a body of work and a particular
+ topic and extract the key pieces of information so what so now forgetting
+
+1:10:06
+Speaker 0 :about the the huge volumes that are on
+ the web right so now we have to figure out we did a lot of source research inother words what body of knowledge is
+ gonna be small enough but broad enough to answer Jeffrey and we ultimately didfind the body of knowledge that did that
+ I mean it included Wikipedia and a bunch
+
+1:10:25
+Speaker 1 :of other stuff so like encyclopedia type
+ of stuff I don't know if you use Mary's
+
+1:10:27
+Speaker 0 :different types of semantic resources
+ unlike wordnet and other types of Mantic resources like that as well as like someweb crawls in other words where we went
+ out and took that content and then expanded it based on producingstatistical see you know statistically
+ producing sees using those sees for other searchers searches and thenexpanding that so using these like
+ expansion techniques we went out and had found enough content and we're like okaythis is good and we even up and totally
+ and you know we had a threat of resources always trying to figure outwhat content could we efficiently
+ include I mean there's a lot of popular
+
+1:11:02
+Speaker 1 :cut like what is the church lady well I
+ think was one of the end hey yeah what
+
+1:11:08
+Speaker 0 :
+
+1:11:09
+Speaker 1 :we ready I guess that's probably an
+ encyclopedia so it's a pepino is that
+
+1:11:12
+Speaker 0 :but then we would but then we would take
+ that stuff when we would go out and we would expand in other words we go findother content that wasn't in the core
+ resources and expanded you know the amount of content will grew it by anorder of magnitude but still so again
+ from a web scale perspective this is very small amount of content it's veryselect we then we then took all that
+ content so we we pre analyzed the crap out of it meaning we we we parsed it youknow broke it down into all this
+ individual words and then we did semantic static and semantic parses onit you know had computer algorithms that
+ annotated it and we in that we indexed that in a very rich and very fast indexso we have a relatively huge amount of
+ you know let's say the equivalent of for the sake of argument two to five millionbucks
+ we've now analyzed all that blowing up at size even more because now with allthis metadata and we then we richly
+ indexed all of that and in by way in a giant in-memory cache so Watson did notgo to disk so the infrastructure
+
+
+1:12:12
+Speaker 1 :component there if you just speak to it
+ how tough it I mean I know mm maybe this is 2089you know that that's kind of a long time
+ ago right how hard is it to use multiple machinesOlivia how hard is the infrastructure
+ part of the hardware component we used
+
+1:12:31
+Speaker 0 :IBM we so we used IBM hardware we had
+ something like I figured exactly but 2,000 to 3,000 cores completelyconnected so had a switch were you know
+ every CPU was connected to every other scene they were sharing memory in some
+
+1:12:44
+Speaker 1 :kind of way Lauren up close shared
+
+
+1:12:46
+Speaker 0 :memory right and all this data was pre
+ analyzed and put into a very fast indexing structure that was all all allin all in memory and then
+ we took that question we would analyze the question so all the content was nowpre analyzed so if I so if I went and
+ tried to find a piece of content it would come back with all the metadatathat we had pre computed how do you
+
+
+1:13:15
+Speaker 1 :shove that question how do you connect
+ the the big stuff with the meta the the big knowledgebase of the metadata andthat's indexed to the simple little
+ witty confusing question right so
+
+1:13:26
+Speaker 0 :therein lies
+ you know the Watson architects right so we would take the question we wouldanalyze the question so which means that
+ we would parse it and interpret it a bunch of different ways we try to figureout what is it asking about so we would
+ come we had multiple strategies to kind of determine what was it asking for thatmight be represented as a simple string
+ and character string or was something we would connect back to different semantictypes that were from existing resources
+ so anyway the bottom line is we would do a bunch of analysis and the question andquestion analysis had to finish and had
+ to finish fast so we do the question analysis because then from the questionanalysis we would now produce searches
+ so we would and we had built using open source search engines we modified themwe had a number of different search
+ engines we would use that had different characteristics we went in there andengineered and modified those search
+ engines ultimately to now take our question analysis produce multiplequeries based on different
+ interpretations of the question and fire out a whole bunch of searches inparallel and they would produce combate
+ with passages so this is these are passive search algorithms they wouldcome back with passages and so now you
+ let's say you had a thousand passages now for each passage you you paralleleyes again so you went out and you
+ paralyze those paralyze the search each search would now come back with a wholebunch of passages maybe you had a total
+ of a thousand or five thousand different passages for each passage now you don'tfigure out whether or not there was a
+ candidate it would call it candidate answer in there so you had a whole bunchof other a whole bunch of other
+ algorithms that would find candidate answerspossible answers to the question and so
+ you had candidate answers jet cold candidate answers generators a wholebunch of those so for every one of these
+ components the team was constantly doing research coming up better ways togenerate search queries from the
+ questions better ways to analyze the question better ways to generatecandidates and speed so better is
+
+
+1:15:33
+Speaker 1 :accuracy and speed cracked so right and
+
+
+1:15:36
+Speaker 0 :speed and accuracy for the most part
+ we're separated we handle that sort of in separate ways like I focus purely onaccuracy and to an accuracy are we
+ ultimately getting more questions and producing more accurate confidences andthey had a whole nother team that was
+ constantly analyzing the workflow to find the bottlenecks and then if you'regetting out of both parallel eyes and
+ drive the algorithm speed but anyway so so now think of it like you have thisbig fan out now right because you have
+ you had multiple queries now you have now you have thousands of candidateanswers for each candidate answer you're
+ gonna score it so you're gonna use all the data that built up you're gonna usethe question analysis you can use how
+ the query was generated you're going to use the passage itself and you're goingto use the candidate answer that was
+ generated and you're gonna score that so now we have a group of researcherscoming up with scores there are hundreds
+ of different scores so now you're getting a fan at it again from howevermany candidate answers you have to all
+ the different scorers so if you have a 200 different scores and you never athousand candidates now you have two
+ thousand scores and and so now you got to figure out you know how do I now rankthese rank these answers based on the
+ scores that came back and I want to rank them based on the likelihood that thereare correct answer to the question so
+ every score was its own research project
+
+1:17:01
+Speaker 1 :what do you mean by score so is that the
+ annotation process of basically human being saying that this this answer do
+
+1:17:07
+Speaker 0 :you think you think of if you want to
+ think of it what you're doing you know if you want to think about what a humanwould be doing human would be looking at
+ a possible answer they'd be reading the you know Emily Dixon Dickinson they'vebeen reading the passage in which that
+ occurred they'd be looking at the questionthey'd be making a decision of how
+ likely it is that Emily Dixon Dickinson given this evidence in this passage isthe right answer to that quad got it
+
+
+1:17:34
+Speaker 1 :so that that's the annotation task that
+
+
+1:17:37
+Speaker 0 :Stan Johnson scoring task so but scoring
+
+
+1:17:38
+Speaker 1 :implies zero to one kind of trite
+
+
+1:17:41
+Speaker 0 :
+
+1:17:43
+Speaker 1 :continuance is not a binary no give it a
+
+
+1:17:44
+Speaker 0 :score give it a zero yeah exactly so
+ it's what humans did give different
+
+1:17:49
+Speaker 1 :scores so that you have to somehow
+ normalize and all that kind of stuff that deal with all that depends on what
+
+1:17:54
+Speaker 0 :your strategy is we both we could be
+
+
+1:17:57
+Speaker 1 :relative to it could be we actually
+
+
+1:17:58
+Speaker 0 :looked at the raw scores as well
+ standardized scores because humans are not involved in thishumans are not involved sorry so I mean
+
+
+1:18:06
+Speaker 1 :I'm misunderstanding the the the process
+ here this is passages where is the ground truth coming from grass root
+
+1:18:13
+Speaker 0 :there's only there were answers to the
+ questions so it's end to end
+
+1:18:16
+Speaker 1 :
+
+1:18:17
+Speaker 0 :it's end to end so we also I was always
+ driving and and performance a very interesting a very interesting you knowengineering approach and ultimately
+ scientific and researcher personal always driving in 10 now that's not tosay we wouldn't make hypotheses that
+ individual component performance was related in some way to n10 performanceof course we would because people would
+ have to build individual components but ultimately to get your componentintegrates with the system you had to
+ show impact on end-to-end performance question-answering performance as
+
+1:18:56
+Speaker 1 :there's many very smart people work on
+ this and they're basically trying to sell their ideas as a component thatshould be part of the system that's
+
+
+1:19:04
+Speaker 0 :right and and they would do research on
+ their component and they would say things like you know I'm going toimprove this as a candidate generator
+ I'm going to improve this as a question score or as a passive scorer I'm goingto proved as or as a parser and I can
+ improve it by two percent on its component metric like a better parse orbetter candidate or a better type
+ estimation or whatever it is and then I would say I need to understand how theimprovement on that computer metric is
+ going to affect the end-to-end performance if you can't estimatethat and can't do experiments to
+ demonstrate that it doesn't get in
+
+1:19:44
+Speaker 1 :that's like the best run AI project I've
+ ever heard that's awesome okay what breakthrough would you say like I'm surethere's a lot of day to day break this
+ but it was there like a breakthrough that really helped improve performancelike wait what people began to believe
+ or is it just a gradual process well I
+
+1:20:02
+Speaker 0 :think it was a gradual process but one
+ of the things that I think gave people confidence that we can get there wasthat as we fouled as as we follow this
+ procedure of different ideas build different components plug them into thearchitecture run the system see how we
+ do do the error analysis start off new research projects to improve things andthe and and and the very important idea
+ that the individual component work did not have to deeply understand everythingthat was going on with every other
+ component and this is where we we leverage machine learning in a veryimportant way so while individual
+ components could be statistically driven machine learning components some of themwere your wrist ik some of them were
+ machine learning components the system has a whole combined all the scoresusing machine learning this was critical
+ because that way you can divide and conquer so you can say okay you work onyour candidate generator or you work on
+ this approach to answer scoring you work on this approach to type scoring youwork on this approach to passage search
+ or the passive selection and so forth but when we you just plug it in and wehad enough training data to say now we
+ can we can train and figure out how do we weigh all the scores relative to eachother based on the predicting the
+ outcome which is right right or wrong on jeopardy and we had enough training datato do that so this enabled people to
+ work independently and to let the machine learning do the integration
+
+1:21:43
+Speaker 1 :beautiful so that yeah the machine
+ learning is doing the fusion and then it's a human orchestrated ensemblethat's right friend approaches as a
+ great still impressive they were able to get it done a few years that not obviousto me that it's doable if I just put
+ myself in that mindset but when you look back at the Jeopardy challenge again
+
+1:22:06
+Speaker 0 :
+
+1:22:07
+Speaker 1 :when you're looking up at the stars what
+ are you most proud of looking back at
+
+1:22:12
+Speaker 0 :
+
+1:22:13
+Speaker 1 :
+
+1:22:15
+Speaker 0 :those days I'm most proud of my um my
+ commitment and my team's commitment to be true to the science to not be afraid
+
+1:22:38
+Speaker 1 :to fail that's beautiful because there's
+ so much pressure because it is a public event this is a public show that youwere dedicated to the idea that's right
+
+
+1:22:48
+Speaker 0 :
+
+1:22:50
+Speaker 1 :do you think it was a success in the
+ eyes of the world it was a success by your I'm sure exceptionally highstandards is there something you regret
+ you would do differently
+
+1:23:04
+Speaker 0 :it was a success it was a success for
+ our goal our goal was to build the most advanced open domain question-answeringsystem we went back to the old problems
+ that we used to try to solve and we did dramatically better on all of them aswell as we beat jeopardy so we wanted
+ jeopardy so it was it was a success it was I worried that the world would notunderstand that has success because it
+ came down to only one game and I knew statistically speaking this can be ahuge technical success and we could
+ still lose that one game and that's a whole nother theme of this of thejourney but it was a success it was not
+ a success in natural language understanding but that was not the goal
+
+1:23:56
+Speaker 1 :yeah that was but I would argue I
+ understand what you're saying in terms of the science but I would argue thatthe inspiration of it right the they not
+ a success in terms of solving natural language understanding there was asuccess of being an inspiration to
+ future challenges absolutely drive future efforts what's the differencebetween how human being compete in
+ jeopardy and how Watson does it that's important in terms of intelligence yeah
+
+1:24:29
+Speaker 0 :so thats that actually came out very
+ early on in the project also in fact I had people who wanted to be on theproject who were
+ early on who has sort of approached me once I committed to do it had wanted tothink about how humans do it and they
+ were you know from a cognition perspective like human cognition and howthat should play and I would not take
+ them on the project because another assumption or another stake I put in theground was I don't really care are you
+ into this at least in the context of
+
+1:25:00
+Speaker 1 :this prior need to build in the context
+
+
+1:25:02
+Speaker 0 :to this project in NLU and in building
+ an AI that understands how it needs to alter that communicate with humans Ivery much care yeah so wasn't that I
+ didn't care in general in fact as an AI scientist I care a lot about that butI'm also a practical engineer and I
+ committed to getting this thing done and I wasn't gonna get distracted I had tokind of say look if I'm gonna get this
+ done and when it charts this path and this path says we're gonna engineer amachine that's gonna get this thing done
+ and we know what search and NLP can do we have to build on that foundation if Icome in and take a different approach
+ and start wondering about how the human mind might or might not do this I'm notgoing to get there from here in the time
+ and you know in the timeframe I think
+
+1:25:55
+Speaker 1 :that's a great way to lead the team but
+ now there's done and then one when you look back right so analyse what's thedifference sexy right so so I was a
+
+
+1:26:03
+Speaker 0 :little bit surprised actually to
+ discover over time as this would come up from time to time and would reflect onit that and and talking to Ken Jennings
+ a little bit and hearing Ken Jennings talk about it about how he answeredquestions that it might have been closer
+ to the way humans answer questions than I might have imagined previously because
+
+1:26:25
+Speaker 1 :humans are probably in the game of
+ Jeopardy at the level of Ken Jennings probably also cheating their weight intowinning right now one else is shallow
+
+
+1:26:36
+Speaker 0 :they're doing that fast as possible
+
+
+1:26:38
+Speaker 1 :
+
+1:26:39
+Speaker 0 :they're doing shallow analysis so they
+ are very quickly analyzing the question and coming up with some you know key youknow key vectors or cues if you will and
+ they're taking those cue they're very quickly going through liketheir library of stuff not deeply
+ reasoning about what's going on and then sort of like a lots of different likewhat we call these these scores which
+ kind of score that in a very shallow way and then say oh boom you know that'swhat it is and and so it's interesting
+ as we reflected on that so we may be doing something that's not too far offfrom the way humans do it but we certain
+ certainly didn't approach it by saying you know how would you even do this nowin an elemental cognition like the
+ project I'm leading now we asked those questions all the time becauseultimately we're trying to do something
+ that is to make the the the intelligence in the machine and the intelligence ofthe human very compatible
+ well compatible in the sense they can communicate with one another and theycan reason with this shared
+ understanding so how they think about things and how they build answers howthey build explanations becomes a very
+ important question to consider so what's
+
+1:27:52
+Speaker 1 :the difference between this open domain
+ but cold constructed question answering or jeopardy and more something thatrequires understanding for shared
+ communication with humans and machines
+
+1:28:10
+Speaker 0 :yeah well this goes back to the
+ interpretation of what we were talking about before anyway jeopardy the systemson trying to interpret the question and
+ that's not interpreting the content that's reasoning and with regard to anyparticular framework I mean it's it is
+ parsing it and like parsing the contents and using grammatical cues and stufflike that so if you think of grammar as
+ a human framework in some sense and as that but when you get into the richersemantic frameworks what are people how
+ do they think what motivates them what are the events that are occurring andwhy are they occurring and what causes
+ what else to happen and and and when it where are things in time and space andit's like when you started thinking
+ about how humans formulate and structure the knowledge that they acquire in theirhead and wasn't doing any of that what
+
+
+1:28:57
+Speaker 1 :do you think are the essential
+ challenges of like free flowing communication free flowinglog versus question-answering even with
+ the framework of the interpretation dialogue yepdo you see free-flowing dialogue as a
+ fundamentally more difficult than question answering even with shared so
+
+1:29:23
+Speaker 0 :dialogue is as important in number of
+ different ways I mean it's a challenge so first of all when I think about themachine that when I think about a
+ machine that understands language and ultimately can reason in an objectiveway that can take the information that
+ it perceives through language or other means and connects it back to theseframeworks reason and explain itself
+ that system ultimately needs to be able to talk to humans or I needs to be ableto interact with humans so in some
+ sentence to dialogue that doesn't mean that it it that like sometimes peopletalk about dialogue and they think you
+ know how do humans talk how do you montork talk to each other in a casualconversation then you could mimic casual
+ conversations we're not trying to mimic casual conversations we're really tryingto produce the machine as goal is it is
+ to help you think and help you reason about your answers and explain why soinstead of like talking to your friend
+ down the street about having a smoke having a small talk conversation withyour friend down the street this is more
+ about like you would be communicating to the commuter computer on Star Trek we'relike what do you want to think about
+ like what do you want to reason about I'm going to tell you the information Ihave I'm gonna have to summarize it I'm
+ gonna ask you questions you're gonna answer those questions I'm gonna go backand forth with you I'm gonna figure out
+ what your mental model is I'm gonna I'm gonna now relate that to the informationI have and present it to you in a way
+ that you can understand it and we could ask follow-up questions so it's thattype of dialogue that you want to
+ construct it's more structured it's more goal oriented but it needs to be fluidin other words it can't it can't it has
+ to be engaging and fluid it has to be productive and not distracting so therehas to be a model of the words the
+ machine has to have a model of how humans think through things and discuss
+
+1:31:22
+Speaker 1 :them so basically a productive rich
+ conversation unlike this part yes but
+
+1:31:31
+Speaker 0 :what I'd like to think it's more similar
+ to this pocket as in joking I'll ask you
+
+1:31:35
+Speaker 1 :about humor as well actually but what's
+ the hardest part of that because it seems we were quite far away as acommunity from thats though to be able
+ to so one is having a shared understanding as i think a lot of thestuff you said with frameworks is quite
+ brilliant but just creating a smooth discourseyeah it feels clunky right now well
+ which aspects of this whole problem you just specified all having a productiveconversation is the hardest and that
+ were or maybe maybe any aspect of it you can comment on because it's so shroudedin mystery so I think do this you kind
+
+
+1:32:21
+Speaker 0 :of have to be creative in the following
+ sense if I were to do this is purely a machine learning approach and someonesaid learn how to have a good flue in
+ structured knowledge acquisition conversation I'd go out and say okay Ihave to collect a bunch of data of
+ people doing that people reasoning well having a good structured conversationthat both acquires knowledge efficiently
+ as well as produces answers and explanations as part of the process andyou struggle I don't know
+ elect a day to collect the data because I don't know how much data is like thatI think okay okay so this one there's a
+
+
+1:33:04
+Speaker 1 :
+
+1:33:06
+Speaker 0 :human but also even if it's out there
+
+
+1:33:09
+Speaker 1 :say was out there how do you like
+
+
+1:33:15
+Speaker 0 :alright so I think I think like an
+ accessible right so I think any like any problem like this where you don't haveenough data to represent the phenomenon
+ you want to learn in other words you want you if you have enough data youcould potentially learn the pattern in
+ an example like this it's hard to do it this is the you know Susie sort of ahuman sort of thing to do what you
+ recently came out IBM was the debate or projects and surest thing right becausenow you had you do have these structured
+ dialogues these debate things where they did use machine learning techniques togenerate the you know generate these
+ debates dialogues are a little bit tougher in my opinion than generating aa structured argument where you have
+ lots of other structural arguments like this you could potentially annotate thatdata and you could say this is a good
+ response a bad response in a particular domain hereI have to be responsive and I have to be
+ opportunistic with regard to what is the human saying what so I'm goal-orientedand saying I want to solve the problem I
+ want to acquire the knowledge necessary but I also have to be opportunistic andresponsive to what the human is saying
+ so I think that it's not clear that we could just train on a body of data to dothis but we could bootstrap it in other
+ words we can be creative and we could say what do we think what do we thinkthe structure of a good dialogue is that
+ does this well and we can start to create that if we can if we can createthat more programmatic programmatically
+ at least to get this process started and I can create a tool that now engageshumans effectively I could start both I
+ could start generating data I could start with the human learning processand I can update my machine but I can
+ also start the automatic learning process as well but I have to understandwhat features to even learn over so I
+ have to bootstrap the process a little bit first and that's a creative designtask that I could then use as input into
+ a more automatic learning task this is
+
+1:35:13
+Speaker 1 :some creativity and bootstrapping all
+ right what elements of conversation do you think you would like to see so oneof the benchmarks for me is humor right
+ that seems to be one of the hardest if you end to me the biggest contrast isfrom Watson so one of the greatest
+ sketches of comedy sketches of all time right is the SNL celebrity jeopardy withuh with with Alex Trebek and Sean
+ Connery and Burt Reynolds and so on with uh with the Sean Connery commentating onAlex Trebek smile there a lot so and I
+ think all of them are in the negative point what's why so they're clearly alllosing in terms of the game of Jeopardy
+ but they're winning in terms of comedy so what do you think about humor in thiswhole interaction in the dialogue that's
+ productive or even just whatever what human represents to me is it the sameidea that you're saying about a
+ framework because humor only exists within a particular human frameworkso what do you think about humor what do
+ you think about things like humor that connect to the kind of creativity youmentioned that's needed I think there's
+
+
+1:36:25
+Speaker 0 :a couple things going on there so I I I
+ sort of feel like and I might be too optimistic this way but I think thatthere are we did a little bit about with
+ with this and with puns and in jeopardy we literally sat down and said well youknow how do puns work and you know it's
+ like wordplay and you could formalize these things so I think there's a lotaspects of humor that you could
+ formalize you could also learn new Murr you could just say what do people laughat and if you have enough again if you
+ have enough data to represent the phenomenon you know might be able to youknow weigh the features and figure out
+ you know what humans find funny and what they don't find funnyyou might the Machine might not be able
+ to explain why the my buddy unless we unless we sit back and think about thatmore formally I think again I think you
+ do a combination of both and I'm always a big proponent that I think you knowrobust architectures and approaches are
+ always a little bit combination of us reflecting and being creative about howthings are structured and how to
+ formalize them and then taking advantage of large data and doing learning andfiguring how to combine these two
+ approaches I think there's another aspect of human to human though whichgoes to the idea that I feel like I can
+ relate to the person telling the story telling the person telling the story andI think that's that's a interesting
+ theme in the whole AI theme which is do I feel differently when I know it's arobot and when I know when I imagine
+ there's a row but is not conscious the way I'm conscious when they imagine therobot does not actually have the
+ experiences that I experience do I find it you know funny or do because it's notas related I don't imagine that the
+ person is relating it to it the way I relate to it I think this also you seethis in in the arts and in entertainment
+ where like you know sometimes you have savants who are remarkable at a thingwhether it's sculpture it's music or
+ whatever but the people who get the most attention are the people who can't whocan evoke a similar emotional response
+ who can get you to emote right about the way theyin other words who can basically make
+ the connection from the artifact from the music of the painting of thesculpture to the to the emotion and get
+ you to share that emotion with them and then and that's when it becomescompelling so they're communicating at a
+ whole different level they're just not communicating the artifact they'recommunicating their emotional response
+ to the artifact and then you feel like oh wow I can relate to that person I canconnect to that I can connect to that
+ person so I think humor has that has that aspect as well so the idea that you
+
+1:39:01
+Speaker 1 :can connect to that person person being
+ the critical thing but we're also able to anthropomorphize objects prettyrobots and AI systems pretty well
+ so we're almost looking to make them human there may be from your experiencewith Watson maybe you can comment on did
+ you consider that as part well obviously the problem of Jeopardy doesn't requireint the promotoras ation but
+ nevertheless well there was some
+
+1:39:31
+Speaker 0 :interest in doing that and I've that's
+ an that's another thing I didn't want to do so I didn't want to distract from thefrom the actual scientific test nights
+ so you're absolutely right I mean humans do anthropomorphize and and withoutnecessarily a lot of work I mean just
+ put some eyes in a couple of eyebrow movements and you're getting humans toreact emotionally and I and I think you
+ can do that so I didn't mean to suggest that that that connection can't cannotbe mimicked I think that connection can
+ be mimicked and can get you to can produce that emotional response I justwonder though if you're told what's
+ really going on if you know that the machine is not conscious not having thesame richness of emotional reactions and
+ understanding that doesn't really share the understanding but is essentiallyjust moving inside brow or drooping its
+ eyes or making them big or whatever it's doing that's getting the emotionalresponse will you still feel it
+ interesting I think you probably would for a while and then when it becomesmore important that there's a deeper
+ under depreciate understanding it may run flat but I don't know I'm pretty I'm
+
+1:40:41
+Speaker 1 :pretty confident that it will
+ the majority of the world even if you tell them how no matter well it will notmatter especially if the Machine herself
+ says that she is cautious that's very possible so you the scientists that madethe machine is saying that this is how
+ the algorithm works everybody will just assume you're lying and that there's aconscious being there so you're deep
+
+
+1:41:07
+Speaker 0 :into the science fiction shop you're on
+ right now but yeah I think it's actually
+
+1:41:11
+Speaker 1 :psychology I think it's not science
+ fiction I think it's reality I think it's areally powerful one that will have to be
+ exploring in the next few decades it's a very interesting element of intelligenceso what do you think we've talked about
+ social constructs of intelligences and and frameworks and the way humans kindof interpret information what do you
+ think is a good test of intelligence in your view so there's the Alan Turingwith the Turing test
+ Watson accomplished something very impressive with Jeopardy what do youthink is a test that would impress the
+ heck out of you that you saw that a computer could do they say this iscrossing a kind of threshold that's that
+ gives me pause in a good way
+
+1:42:01
+Speaker 0 :expectations for a are generally high
+
+
+1:42:05
+Speaker 1 :what does high look like by the way so
+ not the threshold test as a threshold what do you think is the destinationwhat do you think is the ceiling
+
+
+1:42:15
+Speaker 0 :I think machines will in many measures
+ will be better than us will become more effective in other words betterpredictors about a lot of things and
+ then then then ultimately we can do I think where they're gonna struggle iswhat we talked about before which is
+ relating to communicating with and understanding humans in deeper ways andand so I think that's a key point like
+ we can create the super parrot what I mean by the super parrot is given enoughdata a machine can mimic your emotional
+ response can even generate language that will sound smart and what someone elsemight say under similar circumstances
+ look how its paws on that like that's a super parrot right so given similarcircumstances moves its face its faces
+ in similar ways changes its tone of voice in similar ways produce thestrings of language that you know would
+ similar that a human might say not necessarily being able to produce alogical interpretation or understanding
+ that would ultimately satisfy a critical interrogation or a criticalunderstanding I think you guys describe
+
+
+1:43:28
+Speaker 1 :me in a nutshell
+ I think I think philosophically speaking you could argue that that's all we'redoing as human beings to war so I was
+
+
+1:43:39
+Speaker 0 :gonna say it's very possible you know
+ humans do behave that way too and so upon deeper probing and deeperinterrogation you may find out that
+ there isn't a shared understanding because I think humans do both likehumans are statistical language model
+ machines and and and they are capable reasoner's you know they're they're bothand you don't know which is going on
+ right so and I think it's I think it's an interesting problem we talked earlierabout like where we are in our social
+ and political landscape can you distinguish somewho can string words together and sound
+ like they know what they're talking about from someone who actually does canyou do that without dialogue without
+ integrity of a programming dialogue so it's interesting because humans arereally good at in their own mind
+ justifying or explaining what they hear because they project their understandingon onto yours so you could say you could
+ put together a string of words and and someone will sit there and interpret ina way that's extremely biased this is
+ the way they want to interpret it they want to assuming you're an idiot andthey'll true put it one way they've all
+ seen you're a genius and interpreted another way that suits their needs sothis is tricky business so I think the
+ answer your question as AI gets better and better at better and better mimicyou we create the super parrots we're
+ challenged just as we are with we're challenged with humans do you reallyknow what you're talking about do you
+ have a meaningful interpretation a powerful framework that you could reasonover and justify your answers justify
+ your predictions and your beliefs why you think they make sense can youconvince me what the implications are
+ you know can you so can you reason intelligently and makeme believe that those um the
+ implications of your prediction and so forth so what happens is it becomesreflective my standard for judging your
+ intelligence depends a lot on mine but
+
+1:45:51
+Speaker 1 :you're saying that there should be a
+ large group of people with a certain standard of intelligence that would beconvinced by this particular AI system
+ then there should be by I think one of
+
+1:46:04
+Speaker 0 :the depending on the content one of the
+ problems we have there is that if that large community of people are notjudgment judging it with regard to a
+ rigorous standard of objective logic and reason you still have a problem likemasses of people can be persuaded the
+
+
+1:46:24
+Speaker 1 :Millennials yeah to turn them turn their
+
+
+1:46:26
+Speaker 0 :brains off
+ right okay sorry I have nothing against
+
+1:46:31
+Speaker 1 :
+
+1:46:32
+Speaker 0 :
+
+1:46:35
+Speaker 1 :the warning I just so you you're a part
+ of one of the great benchmarks challenges of AI history what do youthink about alpha zero open AI five
+ alpha star accomplishments on video games recently which are also I think atleast in the case of go without fagala
+ now for zero playing go was a monumental accomplishment as well what are yourthoughts about that challenge I think it
+
+
+1:47:02
+Speaker 0 :was a giant lamare I I think it was
+ phenomenal I mean as one of those other things nobody thought like solving gowas gonna be easy particularly because
+ it's again it's hard for particularly hard for humans our team is to learn howfor humans to excel at and so it was up
+ another measure a measure of intelligence it's very cool I mean it'svery interesting you know what they did
+ I mean and I loved how they solved like the data problem which again theybootstrapped it and got the machine to
+ play itself to generate enough data to learn from I think that was brilliant Ithink that was great and and and of
+ course the result speaks for itself I think it makes us think about again itis okay what's intelligence what aspects
+ of intelligence are important can the can the go machine help me make me abetter go player is it an alien
+ intelligence it was is am I even capable of like again if we if we put in verysimple terms it found the function we
+ found the go function can I even comprehend the go function can I talkabout the go function can i
+ conceptualize the go function like whatever it might be so one of the
+
+1:48:06
+Speaker 1 :interesting ideas of that system is it
+ plays against itself right yeah but there's no human in the loop there solike you're saying it could have by
+ itself created an alien intelligence how
+
+1:48:20
+Speaker 0 :torta torta gorrik imagine you're
+ sentencing you're judging you're sentencing people or you're settingpolicy or you're you know you're making
+ medical decisions and you can't explain you can't get anybody to understand whatyou're doing or why so it's it's it's an
+ interesting dilemma for the applications of AI do we hold AIto this accountability that says you
+ know humans have to be humans have to be able to take responsibility you know forfor the decision in other words can you
+ explain why you would do the thing well you will use get up and speak to otherhumans and convince them that this was a
+ smart decision is the AI enabling you to do that can you get behind the logicthat was made there do you think sorry
+
+
+1:49:10
+Speaker 1 :to link on this point because it's a
+ there's a fascinating one that's a great goal for AI do you think it's achievablein many cases or do you okay there's two
+ possible worlds that we have in the future one is where AI systems do likemedical diagnosis or things like that
+ would drive a car without ever explaining to you why it fails when itdoes that's one possible world then
+ we're okay with it or the other where we are not okay with it and we really holdback the technology from getting to good
+ before it gets able to explain which of those worlds are more likely do youthink and which are concerning to you or
+ not I think the reality is it's gonna be
+
+1:49:54
+Speaker 0 :a mix you know I'm not trying a problem
+ with that I mean I think there are tasks that perfectly fine with machines show acertain level of performance and that
+ level of performance is already better it is already better than humans so forexample I don't know that I get tape
+ driverless cars if driverless cars learn how to be more effective drivers thanhumans but can't explain what they're
+ doing but bottom line statistically speaking there you know ten times saferthan humans I I don't know that I care I
+ think when we we have these edge cases when something bad happens and we wantto decide who's liable for that thing
+ and who made that mistake in what we do about that and I think in those thoseeducators are interesting cases and now
+ do we go to designers of the AI and the I says I don't know if that's what itlearned to do and it says well you
+ didn't train it properly you know you you were you were negligent in thetraining data that you gave that machine
+ like how do we drive down and realize oh so I think those are I think those areinteresting questions so the
+
+
+1:50:53
+Speaker 1 :optimization problem there sorry
+ is to create a system that's able to explain the lawyers away there you go um
+
+1:51:00
+Speaker 0 :I think that uh uh I think it's gonna be
+ interesting I mean I think this is where technology and social discourse aregonna get like deeply intertwined and
+ how we start thinking about problems decisions and problems like that I thinkin other cases it becomes more obvious
+ where you know it's I got like why did you decide to give that person you knowa longer sentence or or to deny them
+ parole again policy decisions or why did you pick that treatment like thattreatment up killing that guy like why
+ was that a reasonable choice to make so so and people are gonna demandexplanations now there's a reality
+ though here and the reality is that it's not I'm not sure humans are makingreasonable choices when they do these
+ things they are using statistical hunches biases or even systematicallyusing statistical averages to make
+ Osmonds is what happened my dad if you saw that target gave about that but youknow I mean they decided that my father
+ was brain dead he had went into cardiac arrest and it took a long time for theambulance to get there and wasn't not
+ resuscitated right away and so forth and they came they told me he was brain deadand why was he brain dead because
+ essentially they gave me a purely statistical argument under theseconditions with these four features 98%
+ chance he's brain dead innocent but can you just tell me not inductively butdeductively go there and tell me his
+ brain stopped functioning is the way for you to do that and they and and theirthe the protocol in response was no this
+ is how we make this decision I said this is adequate for me I understand thestatistics and I don't have you know
+ there's a two percent chance he's so like I just don't know the specifics Ineed the specifics of this case and I
+ want the deductive logical argument about why you actually know he's brainedit so I wouldn't sign that do not
+ resuscitate and I don't know it was like they went through lots of procedures asa big long story but the bottom was a
+ fascinating story by the way but how I reasoned and how the doctors reasonedthrough this whole process but I don't
+ know somewhere around 24 hours later or something he was sitting upthat would zero bushido brain damage any
+
+
+1:53:14
+Speaker 1 :what lessons do you draw from that story
+ that experience that the data that
+
+1:53:19
+Speaker 0 :they're you that the data that's being
+ used to make sophistical inferences doesn't adequately reflect thephenomenon so in other words you're
+ getting [ __ ] Ramsar you're getting stuff wrong because you're your model is notrobust enough and you might be better
+ off not using statistical inference and statistical averages in certain caseswhen you know the models insufficient
+ and that you should be reasoning at about the specific case more logicallyand more deductively and hold yourself
+ responsible to hold yourself accountable to doing that and perhaps AI has a role
+
+1:53:55
+Speaker 1 :to say the exact thing we just said
+ which is perhaps this is a case you should think for yourself you shouldreason deductively so it's hard it's
+
+
+1:54:09
+Speaker 0 :it's so it's hard because it's hard to
+ know that you know you'd have to go back and you'd have to have enough data toessentially say and this goes back to
+ how do we this goes back to the case of how do we decide whether the AI is goodenough to do a particular task and
+ regardless of whether or not it produces an explanationso um and and what standards do we hold
+ right for that so um you know if you look at you you look more broadly forexample as my father as a metal kick
+ medical case the medical system ultimately helped him a lot throughouthis life without it he probably would
+ have died much sooner so overall sort of you know work for himand sort of a net in that kind of way
+ actually I don't know that's fair um but it maybe not in that particular case but
+
+1:55:06
+Speaker 1 :overall like oh the medical system
+ overall that's more given a system
+
+1:55:11
+Speaker 0 :overall you know was doing more more
+ good than bad now is another argument that suggests that wasn't the case butfor the for the sake of argument let's
+ say like that's let's say a net positive and I think you have to sit there andthere and take
+ take that into consideration now you look at a particular use case like forexample making this this decision have
+ you done enough studies to know how good that prediction really is right and howyou have you done enough studies to
+ compare it to say well what if we what if we dug in and in a more direct youknow let's get the evidence let's let's
+ do the deductive thing and not use the statistics here how often would thathave done better right you just so you
+ have to do this studies to know how good the AI actually is and it's complicatedbecause depends how fast you have to
+ make decision so if you have to make the decision superfast do you have no choiceright if you have more time right but if
+ you're ready to pull the plug and this is a lot of the argument that I had wasa doctor I said what's he gonna do if
+ you do it what's gonna happen to him in that room if you do it my way you knowif you do well he's gonna die anyway so
+ let's do it my way though I mean it
+
+1:56:21
+Speaker 1 :raises questions for our society to
+ struggle with as was the case with your father but also when things like raceand gender start coming into play when
+ when certain when when judgments are made made based on things that arecomplicated in our society at least in
+ this course and it starts you know I think I think I'm safe to say that mostof the violent crimes committed by males
+ so if you discriminate based you know as a male versus female saying that if it'sa male more likely to commit the crime
+ so this is one of my my very positive
+
+1:56:57
+Speaker 0 :and optimistic view views of why the
+ study of artificial intelligence the process of thinking and reasoninglogically and statistically and how to
+ combine them is so important for the discourse today because it's causing aregardless of what what state AI device
+ devices are or not it's causing this dialogue to happenthis is one of the most important
+ dialogues that in my view the human species can have right now which is howto think well yeah how to reason well
+
+
+1:57:32
+Speaker 1 :
+
+1:57:33
+Speaker 0 :how to understand our own cognitive
+ biases and what to do about them that has got to be one of the most importantthings we as as as a species can be
+ doing honestly we are reached we've created an incredibly complex societywe've created amazing abilities to
+ amplify noise faster than we can play amplifies signal we are challengedwe are deeply deeply challenged we have
+ you know big segments of the population getting hit with enormous amounts ofinformation do they know how to do
+ critical thinking do they know how to objectively objectively reason do theyunderstand what they are doing nevermind
+ with their AI is doing this is such an important dialogue you know to be havingand and and you know we are
+ fundamentally are thinking can be and easily becomes fundamentally bias andthere are statistics and we shouldn't
+ blind our so we shouldn't discard statistical inference but we shouldunderstand the nature of such this
+ conference as us as a society as you know we decided to reject statisticalinference to favor individual
+ understanding and and deciding on the individual yes we we consciously makethat choice so even if the statistics
+ said even if the Cystic said males are more likely to have you know to beviolent criminals we still take each
+ person as an individual and we treat them based on the logic and theknowledge of that situation we
+ purposefully and intentionally reject the statisticalonce we do that at a respect for the
+ individual for the individual yeah and
+
+1:59:32
+Speaker 1 :then that requires reasoning and
+ cracking looking forward what Grand Challenges would you like to see in thefuture because the the Jeopardy
+ challenge you know captivated the world alpha go alpha zero cap day of the worlddeep blue certainly beating Kasparov
+ Gary's bitterness aside and captivated the world what do you think do you haveideas for next grand challenges for
+ future challenges of that oh you know I
+
+2:00:01
+Speaker 0 :look I mean I think there are lots of
+ really great ideas for Grand Challenges I'm particularly focused on one rightnow which is Kent you know can you
+ demonstrate that they understand that they could read and understand that theycan they can acquire these frameworks
+ and communicate you know reason and communicate with humans so it is kind oflike the Turing test but it's a little
+ bit more demanding than the Turing test it's not enough it's not enough toconvince me that you might be human
+ because you could you know you can parrot a conversation I think you knowthe the this standard is a little bit
+ higher is for example can you you know the santa is higher and I think one ofthe challenges of devising this grand
+ challenge is that we're not sure what intelligence is we're not sure how todetermine whether or not two people
+ actually understand each other and then what depth they understand it they youknow and what to what depth they
+ understand each other so the challenge becomes something along the lines of canyou satisfy me that we have a shared
+ understanding so if I were to probe and probe and you probe me can can can canmachines really act like thought
+ partners where they could satisfy me that they that we have a share ourunderstanding is shared enough that we
+ can collaborate and produce the answers together and that you know they they canhelp me explain and justify those
+ answers so maybe here's an idea so we'll
+
+2:01:38
+Speaker 1 :have a Isis
+ run for president and convinced that's too easy
+
+2:01:45
+Speaker 0 :from sorry oh no you have to convince
+
+
+2:01:48
+Speaker 1 :the voters that they should vote for it
+ so they s what I would again again I
+
+2:01:53
+Speaker 0 :that's why I think this is such a
+ challenge because we go back to the emotional persuasion we go back to youknow now we're checking off an aspect of
+ human cognition that is in many ways weak or flawed right we're so easilymanipulated our minds are drawn for
+ often the wrong reasons right not the reasons that ultimately matter to us butthe reasons that can easily persuade us
+ I think we can be persuaded to believe one thing or anotherfor reasons that ultimately don't serve
+ us well in the long term and a good
+
+2:02:34
+Speaker 1 :benchmark should not play with those
+ elements of emotional manipulation I
+
+2:02:41
+Speaker 0 :don't think so I think that's where we
+ have to set the set the higher standard for ourselves of what you know what doesit mean this goes back to rationality
+ and it goes back to objective thinking and can you produce can you acquireinformation and produce reasoned
+ arguments and to those reasons arguments pass a certain amount of muster and isit and can you acquire new knowledge you
+ know can you can you under can you reason oh I have acquired new knowledgecan you identify where it's consistent
+ or contradictory with other things you've learned and can you explain thatto me and get me to understand that so I
+ think another way to think about it perhaps is kind of machine teach you canthe hell
+
+
+2:03:28
+Speaker 1 :really nice less than that's where to
+ put it can you understand something that
+
+2:03:31
+Speaker 0 :you didn't really understand before
+ where's where is you know it's taking it so you're not you know again it's almostlike can it can it teach you can it help
+ you learn and and in an arbitrary space so it can open those domain space so canyou tell the Machine and again this
+ borrows from some science fiction's abut can you go off and learn about thistopic that I'd like to understand better
+ and then work with me to help me understand it that's quite brilliant
+
+2:04:02
+Speaker 1 :what the machine that passes that kind
+ of test do you think it would need to have self-awareness or evenconsciousness what do you think about
+ consciousness and the importance of it maybe in relation to having a bodyhaving a presence an entity do you think
+ that's important you know people used to
+
+2:04:27
+Speaker 0 :ask if Watson was conscious and I used
+ to think and he said he's the conscious of what exactly I mean I think you knowmain cell it depends what it is that
+ you're conscious I mean like so you know did it if you you know it's certainlyeasy for it to answer questions about it
+ would be trivial to program it so the answer questions about whether or not itwas playing jeopardy I mean it could
+ certainly answer questions that will imply that it was aware of thingsexactly what does it mean to be aware
+ and what does it mean to conscious and it's sort of interesting I mean I thinkthat we differ from one another based on
+ what we're conscious of but wait wait
+
+2:05:02
+Speaker 1 :for sure there's degrees of
+ consciousness in there so it well in
+
+2:05:06
+Speaker 0 :those areas like it's not just agrees
+ what do you what do you what are you aware of like what are you not aware butnevertheless there's a very subjective
+
+
+2:05:12
+Speaker 1 :element to our experience let me even
+ not talk about consciousness let me talk about another to me really interestingtopic immortality fear or mortality
+ Watson as far as I could tell did not have a fear of death certainly not mostmost humans do wasn't conscious of death
+
+
+2:05:37
+Speaker 0 :
+
+2:05:39
+Speaker 1 :it wasn't that so there's an element of
+ finiteness to our existence that I think like we like I mentioned survival thatadds to the whole thing that I mean
+ consciousness is tied up with that that we are us thing it's a subjective thingthat ends and that seems to add a color
+ and flavor to our motivations in a way that seems to be fundamentally importantfor intelligence or at least the kind of
+ human intelligence well I take for
+
+2:06:09
+Speaker 0 :generating goals again I think you could
+ have you could have an intelligence capability and a capability to learn Icapability to predict but I think
+ without I mean again you get a fear but essentially without the goal to surviveso you think you can just encode that
+
+
+2:06:27
+Speaker 1 :without having to million code I mean
+
+
+2:06:31
+Speaker 0 :can you create a robot now and you could
+ say you know and plug it in and say protect your power source you know andgive it some capabilities and we'll sit
+ there and operate to try to protect this power source and survive I mean I so Idon't know that that's false awfully a
+ hard thing to demonstrate it sounds like a fairly easy thing to demonstrate thatyou can give it that goal we'll come up
+ with that goal by itself as you have to program that goal in but there's
+
+2:06:55
+Speaker 1 :something because I think as we touched
+ on intelligence is kind of like a social construct the the fact that a robot willbe protecting its power source
+ would would add depth and grounding to its intelligence in terms of us beingable to respect I mean ultimately it
+ boils down to us acknowledging that it's intelligent and the fact that it can dieI think is an important part of that the
+
+
+2:07:26
+Speaker 0 :interesting thing to reflect on is how
+ trivial that would be and and I don't think if you knew how trivial that wasyou would associate that with being
+ intelligence I mean I literally put in a statement of code that says you know youhave the following actions you can take
+ you give it a bunch of actions like you mount a laser gun on her or you may doyou the ability to scream a screech or
+ whatever and you know and you you say you know if you see your power sourcethen you could program that in and you
+ know you're gonna print it you're gonna take these actions to protect it youknow you teach it checking it on a bunch
+ of things so and and now you're gonna look at that and you say well you knowthat's intelligence because it's
+ protecting power source maybe but that's again at this human bias that says thething I had then I identify my
+ intelligence and my conscious so fundamentally with the desire or atleast the behaviors associated with the
+ desire to survive that if I see another thing doing that I'm going to assumeit's intelligent
+
+
+2:08:28
+Speaker 1 :what timeline year will society have a
+ something that would that you would be comfortable calling an artificialgeneral intelligence system well what's
+ your intuition nobody can predict the futurecertainly not next few months or twenty
+ years away but what's your intuition how far away are weI the ideas hearts make these
+
+
+2:08:50
+Speaker 0 :predictions and I would be you know I
+ would be guessing and there's so many different variables including just howmuch we want to invest in it and how
+ important it you know and how important we think it iswhat kind of investment are willing to
+ make in it what kind of talent we end up bringing to the table all you know theincentive structure all these things so
+ I think it is possible to do this sort of thing I think it's I think trying tosort of ignore many of the variables and
+ things like that is it a ten-year thing as a 23 it'sprobably closer to a 20-year thing I
+ guess but not as little no I don't think it's several hundred years I don't thinkit's several hundred years but again so
+ much depends on how committed we are to investing and incentivizing this type ofwork this type of work and it's sort of
+ interesting like I don't think it's obvioushow incentivize we are I think from a
+ task perspective you know if we see business opportunities to take thistechnique is a technique to solve that
+ problem I think that's the main driver for many from any of these things from afrom a general Tosta seems kind of an
+ interesting question are we really motivated to do that and and like wejust struggled ourselves right now to
+ even define what it is so it's hard to incentivize when we don't even know whatit is we're incentivized to create and
+ if you said mimic a human intelligence I just think there are so manychallenges with the the significance and
+ meaning of that there's not a clear directive there's no clear directive todo precisely that thing so assistance in
+
+
+2:10:33
+Speaker 1 :a larger and larger number of tasks so
+ being able to a system that's particularly able to operate mymicrowave and making a grilled cheese
+ sandwich I don't even know how to make one of those and then the same systemwould be doing the vacuum cleaning and
+ then the same system would be teaching
+
+2:10:52
+Speaker 0 :
+
+2:10:53
+Speaker 1 :my kids that I don't have math I think
+
+
+2:10:57
+Speaker 0 :that when when when you get into a
+ general intelligence for learning physical tasks and again yeah I want togo back to your body questions it's on
+ your body question was interesting but you want to go back to you know learningabilities do physical tasks you might
+ have we might get Majan in that timeframe we will get better and betterat learning these kinds of tasks whether
+ it's mowing your lawn or driving a car or whatever it is I think we will getbetter and better at that where it's
+ learning how to make predictions over large bodies of data as if we're goingto continue to get better and better at
+ that and machines will out you know outpace humans and and a variety ofthose things the underlying mechanisms
+ for doing that may be the same meaning that you know maybe these are deep Natsthere's infrastructure to train them
+ reusable components to get them to different classes of tasks and we getbetter and better at building these
+ kinds of machines you could see argue that the general learning infrastructurein there is a form of a general type of
+ intelligence I think what starts getting harder is this notion of you know can wecan we effectively communicate and
+ understand and build that shared understanding because of the layers ofinterpretation that are required to do
+ that and the need for the machine to be engaged with humans at that level at acontinuous basis so how do you get in
+ how do you get the machine in the game how do you get the machine in the
+
+2:12:26
+Speaker 1 :intellectual game yeah and to solve AGI
+ you probably have to solve that problem you have to get the machine so it's a
+
+2:12:32
+Speaker 0 :little bit of a bootstrapping can we get
+ the machine engaged and you know in the intellectual calling agame but in the intellectual dialogue
+ with the humans are the humans sufficiently an intellectual dialoguewith each other to generate enough to
+ generate enough data in this context and how do you bootstrap that because everyone of those conversations every one of
+ those conversations those intelligent interactions require so much priorknowledge that is a challenge to
+ bootstrap it so that's so as so the question is and how committed so I thinkthat's possible but when I go back to
+ are we incentivized to do that I know we're incentivized to do the former arewe incentivize to do the latter
+ significantly enough to people understand what the latter really iswell enough part of the elemental
+ cognition mission is to try to articulate that better and better youknow through demonstrations and to
+ trying to craft these grand challenges and get people to say look this is aclass of intelligence this is a class of
+ AI do we do we want this what what is the potential of this what are thebusiness what's the business potential
+ what's the societal potential to that and so you know and to build up thatincentive system around that yeah I
+
+
+2:13:45
+Speaker 1 :think if people don't understand yet I
+ think they will and is a huge business potential here so it's exciting thatyou're working on it you've kind of
+ skipped over but I'm a huge fan of physical presence of things do you thinkyou know Watson head of body do you
+ think having a body as to the interactive element between the AIsystem and a human or just in general to
+ intelligence so I think I think going
+
+2:14:15
+Speaker 0 :back to that shared understanding bit
+ humans are very connected to their bodies I mean is one of the reasons oneof the challenges in getting an AI to
+ kind of be a compatible human intelligence is that our physical bodiesare generating a lot of features that
+ make up the input so in other words where our bodies are are the the tool weuse to affect output but they're also
+ but they also generate a lot of input for our brains so we generate emotion wegenerate all these feelings we
+ generate all these signals that machines don't have so missions that have this asthe input data and they don't have the
+ the feedback that says okay I've gotten this I've gotten this emotion or I'vegotten this idea I now want to process
+ that and then I can it then affects me as a physical being and then I and I andI can play that out in other words I
+ could realize the implications of tax implications again on my bond mind bodycomplex I then process that and the
+ implications again are internal features are generated I learned from them theyhave an effect on my mind body complex
+ so it's interesting when we think do we want a human intelligence well if wewant a human compatible intelligence
+ probably the best thing to do is to embed it embedded in a human bodyjust to clarify and both concepts
+
+
+2:15:38
+Speaker 1 :beautiful is humanoid robots so robots
+ that look like humans is one or did you mean actually sort of what Hamas wasworking with neural link really
+ embedding intelligence systems that the ride-alongs human bodies know I was
+
+2:16:00
+Speaker 0 :riding along is different I meant like
+ if you want to create an intelligence that is human compatible meaning that itcan learn and develop a shared
+ understanding of the world around it you have to give it a lot of the samesubstrate part of that substrate you
+ know is the idea that it generates these kinds of internal features like sort ofemotional stuff it has similar senses it
+ has to do a lot of the same things with those same sentences um right so I thinkif you want that again I don't know that
+ you want that like man like that's not my specific goal I think that's afascinating scientific goal I think it
+ has all kinds of other implications that's sort of not to go like I want itI want to create I think of it as I
+ create intellectual thought martyrs for humans so that kind of that kind ofintelligence
+ I know other companies that are creating physical thought partners the fiscalpartners to figure out for you but
+ that's kind of not where we're you know I'm at but but but the the importantpoint is that a big part of how of what
+ we process is that physical experience of the world around us on the point of
+
+2:17:09
+Speaker 1 :thought partners
+ what role does an emotional connection or forgive me love have to play in thatthought partnership is that something
+ you're interested in put another way sort of having a deep connection beyondintellectual with the AI yeah with the a
+
+
+2:17:29
+Speaker 0 :between human and ass
+
+
+2:17:31
+Speaker 1 :is that something that gets in the way
+ of the the rational discourse is there something that's useful I worry about
+
+2:17:39
+Speaker 0 :biases you know obviously so in other
+ words if you develop an emotional relationship with the machines do all ofa sudden you start are more likely to
+ believe what it's saying even if it doesn't make any senseso I you know I worry about that but at
+ the same time I think the opportunity to use machines to provide humancompanionship is actually not crazy and
+ it's again the intellectual and social companionship is not crazy the idea do
+
+2:18:06
+Speaker 1 :you have concerns as a few people do you
+ know Musk Sam Harris about long-term existential threats of AI and perhapsshort-term threats of AI we talked about
+ bias we talked about different misuses but do you have concerns about thoughtpartners systems that are able to help
+ us make decisions together humans somehow having a significant negativeimpact on society in the long term I
+ think there aren't things to worry about
+
+2:18:34
+Speaker 0 :I think the giving machines too much
+ leverage is a problem and what I mean by leverage is is too much control forthings that can hurt us whether it's
+ socially psychological intellectually or physically and if you give them machinestoo much control I think that's a
+ concern you forget about the AI just when you give them too much controlhuman bad actors can hack them and
+ produce havoc so um you know that's a problem and you imagine hackers takingover the driverless car Network and you
+ know creating all kinds of havoc but you could also imagine given given the easeat which humans could be persuaded one
+ way or the other and now we have algorithms that can easily take controlover over that over that and amplify
+ noise and move people one direction or another I mean humans do that to otherhumans all the time and we have
+ marketing campaigns we have political campaigns that take it to image of ourour emotions or our fears and this is
+ done all the time when but with machines machines are like giant mecha phonesright we can amplify this and orders of
+ magnitude and can fine-tune its control so we can tailor the message we can nowvery rapidly and efficiently tailor the
+ message to the audience taking taking advantage of you know of their biasesand amplifying them and using them to
+ pursue a them in one direction or another in ways that are not fair notlogical not objective not meaningful and
+ humans the machines and power that so so that's what I mean by leverage like it'snot new but wow it's powerful because
+ machines can do it more effectively more more you know more quickly and we seethat already going on and and and social
+ media not the plays and other places that's scary and and that's why like I'mI'm that's why I go back to saying one
+ of the most important public dialogues we could be having is about the natureof intelligence and the nature of
+ inference and logic and reason and rationality and us understanding our ownbiases us understanding our own
+ cognitive biases and how they work and then how machines work and how do we usethem to complement and sit basically so
+ that in the end we have a stronger overall system that's just incrediblyimportant I don't
+ most people understand that so so like telling telling your kids or tellingyour students this goes back to the
+ cognition here's how your brain works here's how easy it is to trick yourbrain right there are fundamental
+ cognitive but you should appreciate the different the different types ofthinking and how they work and what
+ you're prone to and you know and what and what do you preferand under what conditions does this make
+ sense versus that makes sense and then say here's what AI can do here's how itcan make this worse and here's how it
+ can make this better and then that's
+
+2:21:51
+Speaker 1 :where the as a role is to reveal that
+ then the that trade-off so if you imagine a system that is able to beyondany definition of the Turing test of the
+ benchmark really an AGI system as a thought partner that you one day will
+
+2:22:14
+Speaker 0 :create what question what topic of
+
+
+2:22:17
+Speaker 1 :discussion if you get to pick one would
+ you have with that system what would you ask and you get to find out the truth
+
+2:22:31
+Speaker 0 :together so you threw me a little bit
+ with finding the truth at the end but this is a whole nother topic but the Ithink the beauty of it I think what
+ excites me is the beauty of it is if I really have that system I don't have topick so in other words I can you know I
+ can go to and say this is where I care about today and and and that's what wemean by like this general capability go
+ out read this stuff in the next three milliseconds and I want to talk to youabout it I want to draw analogies I want
+ to understand how this affects this decision or that decision what if thiswere true what if that were true what
+ what knowledge should I be aware of that could impact my decisionhere's what I'm thinking is the main
+ implication can you find can you prove that out can you give me the evidencethat supports that can you give me
+ evidence supports this oh there's a boy that would that be incredible youwould that be just incredible just a
+ long discourse just to be part of
+
+2:23:30
+Speaker 1 :
+
+2:23:31
+Speaker 0 :whether it's a medical diagnosis or
+ whether it's you know the various treatment options or whether it's alegal case or whether it's a social
+ problem that people are discussing like be part of the dialogue one that holdsitself and us accountable to reasons an
+ objective dialogue you know I just I get goosebumps talking about it right so
+
+2:23:58
+Speaker 1 :when when you create it please come back
+ on the podcast well the discussion together and make it even longer this isa record for the longest conversation
+ now there's an honor it was a pleasure David thank you so much for thanks so
+

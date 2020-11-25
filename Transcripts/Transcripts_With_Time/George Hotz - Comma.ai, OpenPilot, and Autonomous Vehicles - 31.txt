@@ -1,0 +1,2662 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ George Hotz he's the founder of comma AI a machine learning based vehicleautomation company he is most certainly
+ an outspoken personality in the field of AI and technology in general he firstgained recognition for being the first
+ person to carry or unlock an iPhone and since then he's done quite a fewinteresting things at the intersection
+ of hardware and software this is the artificial intelligence podcast if youenjoy it subscribe on YouTube give it
+ five stars on iTunes supported on patreon or simply connect with me onTwitter at lex friedman spelled fri d-m
+ a.m. and i'd like to give a special thank you to Jennifer from Canada forher support of the podcast on patreon
+ merci beaucoup Jennifer she's been a friend and an engineering colleague formany years since I was in grad school
+ your support means a lot and inspires me to keep this series going and now here'smy conversation with George Hotz do you
+
+
+0:01:04
+Speaker 0 :think we're living in a simulation
+ yes but it may be unfalsifiable what do
+
+0:01:09
+Speaker 1 :you mean by unfalsifiable so if the
+
+
+0:01:11
+Speaker 0 :simulation is designed in such a way
+ that they did like a formal proof to show that no information can get in andout and if their hardware is designed to
+ for the anything in the simulation to always keep the hardware in spec it maybe impossible to prove whether we're in
+ a simulation or not
+
+0:01:31
+Speaker 1 :so they've designed it such there's the
+ closed system you can't get outside of the system
+
+0:01:37
+Speaker 0 :well maybe it's one of three worlds
+ we're either in a simulation which can be exploited we're in a simulation whichnot only can't be exploited but like the
+ same things too about VMs I'm a really well-designed VM you can't even detectif you're in a VM or not that's
+
+
+0:01:50
+Speaker 1 :brilliant
+ so where it's yeah so the simulation is running in a virtual machine but now in
+
+0:01:56
+Speaker 0 :reality all VMs have wasted the fact
+
+
+0:01:58
+Speaker 1 :that's the point I mean is it
+ yeah you've done quite a bit of hacking yourself and so you should know thatreally any complicated system will have
+
+
+0:02:10
+Speaker 0 :ways in and out so this isn't
+ necessarily true going forward I spent my time away from comma I learned [ __ ]and said dependently typed like it's a
+ language for writing math proofs and if you write code that compiles in alanguage like that
+ it is correct by definition the types check it's correct and so it's possiblethat the simulation is written in a
+ language like this in which case yeah
+
+0:02:39
+Speaker 1 :yeah but that can't be sufficiently
+ expressive a language like that all weekend it can be yeah okay well so all
+
+0:02:48
+Speaker 0 :right so the simulation doesn't have to
+ be tiring complete if it has a scheduled end date looks like it does actually
+
+0:02:54
+Speaker 1 :with entropy and you know I don't think
+ that a simulation that results in something as complicated in universewould have a formal proof of correctness
+ right as as possible of course we have
+
+0:03:09
+Speaker 0 :no idea how good their tooling is and we
+ have no idea how complicated the universe computer really is it may be
+
+0:03:17
+Speaker 1 :quite simple it's just very large right
+
+
+0:03:18
+Speaker 0 :it's very it's definitely very large but
+
+
+0:03:21
+Speaker 1 :the fundamental rules might be super
+
+
+0:03:24
+Speaker 0 :simple yeah Conway's gonna live kind of
+
+
+0:03:27
+Speaker 1 :stuff right so if you could hack it so
+ imagine the simulation that is hackable if you could hack it what would youchange about the you know like how would
+ you approach hacking a simulation the
+
+0:03:41
+Speaker 0 :
+
+0:03:43
+Speaker 1 :reason I gave that talk I by the way I'm
+ not familiar with the talk he gave I just read that you talked about escapingthe simulation yeah like that so maybe
+ you can tell me a little bit about the theme and the message there - it wasn't
+
+0:03:54
+Speaker 0 :a very practical talk about how to
+ actually escape a simulation it was more about a way of restructuring anus-versus-them narrative if we continue
+ on the path we're going with technology I think we're in big troublelike as a species and not just as a
+ species but even as me as an individual member of the species so if we couldchange rhetoric to be more like to think
+ upwards like to think about that we're in a simulation and how we could get outalready we'd be on the right path what
+ you actually do once you do that while I assume I would have acquired way moreintelligence in the process of doing
+ that so I'll just ask that so the the
+
+0:04:39
+Speaker 1 :thinking upwards what kind of ideas what
+ kind of breakthrough ideas do you think thinking in that way could inspire andwhat did you say upwards upwards into
+ space are you thinking sort of exploration in all forms the space
+
+0:04:54
+Speaker 0 :narrative that held for the modernist
+ generation doesn't hold as well for the postmodern generation
+
+0:05:03
+Speaker 1 :what's the space narrator we're talking
+ about the same space the dimensional
+
+0:05:07
+Speaker 0 :space like going a little ace is like
+ building like yuan mosque like we're gonna build rockets we're gonna go toMars we're gonna colonize the universe
+
+
+0:05:12
+Speaker 1 :and the narrative your friend was born
+ in the Soviet Union you're referring to the race to space the race to space
+
+0:05:18
+Speaker 0 :explore okay that was a great modernist
+ narrative it doesn't seem to hold the same weightin today's culture I'm hoping for good
+ postmodern narratives that replace it so
+
+0:05:31
+Speaker 1 :think let's think so you work a lot with
+ AI so the eyes one formulation of that narrative there could be also I don'tknow how much you do in VR and they are
+ yeah that's another eye I know less about it but every time I play with itand our research is fascinating that
+ virtual world are you are you interested in the virtual world I would like to
+
+0:05:51
+Speaker 0 :move to a virtual reality in terms of
+
+
+0:05:54
+Speaker 1 :
+
+0:05:55
+Speaker 0 :your work
+ no I would like to physically move there the apartment I can rent in the cloud isway better in the apartment I can rent
+
+
+0:06:01
+Speaker 1 :in the real world well it's all relative
+ isn't it because others will have very nice departments too so you'll beinferior in the virtual world that's not
+
+
+0:06:08
+Speaker 0 :how I view the world right I don't view
+ the world I mean it's very like like almost zero-sum issue a to view theworld say like my great apartment isn't
+ great because my neighbor has one - no my great apartment is great because likelook at this dishwasher man yeah you
+ just touch the dish and it's washed right and that is great in and of itselfif I have the only apartment or if
+ everybody had the apartment I don't care
+
+0:06:32
+Speaker 1 :so you have fundamental gratitude the
+ the world first learned of Geo ha George Hotz in August 2007 maybe before thenbut certainly in August 2007 when you
+ were the first person to unlock carry unlock an iPhone how did you get intohacking what was the first system you
+ discovered vulnerabilities for and broke
+
+0:06:55
+Speaker 0 :into so that was really kind of the
+ first thing I had I had a book in in 2006 called grey hat hacking and I guessI realized that if you acquired these
+ sort of powers you could control the world but I didn't really know that muchabout computers back then I started with
+ electronics the first iPhone hack was physical card work um you had to open itup and pull an address line high and it
+ was because I didn't really know about software exploitation I learned that allin the next few years and I got very
+ good at it but back then I knew about like how menchips are connected to processors and he
+
+
+0:07:38
+Speaker 1 :knew about software and programming
+ he didn't didn't know I'll really see you the view of the world and computerswas physical was the most hard work
+
+
+0:07:49
+Speaker 0 :actually if you read the code that I
+ released with that in August 2007 it's atrocious
+
+0:07:55
+Speaker 1 :
+
+0:07:56
+Speaker 0 :the language was it a C say yes and in a
+ broken sort of state machine SC I didn't
+
+0:08:02
+Speaker 1 :know how to program man so how did you
+ learn to program what was your journey cuz I mean we'lltalk about it you've live streams from
+ your programming man this is a chaotic beautiful mess how did you arrive at
+
+0:08:15
+Speaker 0 :that years and years of practice I
+ interned at Google after the summer after the iPhone unlock and I did acontract for them where I built hardware
+ for for Street View and I wrote a software library to interact with it andit was terrible code and for the first
+ time I got feedback from people who I respected saying you know like don'twrite code like this now of course just
+ getting that feedback is not enough the way that I really got good was I wantedto write this thing like that could
+ emulate and then visualize like armed binaries because I wanted to hack theiPhone better and I didn't like that I
+ couldn't like see what that I couldn't single step through the processorbecause I had no debugger on there
+ especially for the low level things like the boot ROM in the bootloader so Itried to build this tool to do it
+ and I built the tool once and it was terrible I built the tool second timesit was terrible
+ I built the tool third time this by the time I was at Facebook it was kind ofokay
+ and then I built the tool fourth time when I was a Google intern again in 2014and that was the first time I was like
+ this is finally usable how do you
+
+0:09:25
+Speaker 1 :pronounce this kira-kira yeah
+ so it's essentially the most efficient way to visualize the change of state ofthe computer as the program is running
+ that's what I mean by debugger yeah it's
+
+0:09:39
+Speaker 0 :a timeless debugger so you can rewind
+ just as easily as going forward think about if you're using gdb you have toput a watch on a variable if you want to
+ see if that variable changes and Kure you can just click on that variable andthen it shows every single time when
+ that variable was changed or accessed think about it like get for yourcomputers uh the run lock so there's
+
+
+0:09:59
+Speaker 1 :like a deep log of of the state of the
+ computer as the program runs and you can rewind why isn't that maybe it is maybeyou can educate me what isn't that kind
+ of debugging used more often ah because
+
+0:10:13
+Speaker 0 :the tooling is bad
+ well two things one if you're trying to debug chrome chrome is a 200 megabytebinary that runs slowly on desktops so
+ that's going to be really hard to use for that but it's really good to use forlike CTFs and for boot roms and for
+ small parts of code so it's it's hard if you're trying to debug like massive
+
+0:10:36
+Speaker 1 :systems what's the CTF and what's the
+
+
+0:10:38
+Speaker 0 :boot ROM the boot ROM is the first code
+ that executes it's the minute you give power to your iPhone okay and CTF werethese competitions that I played capture
+
+
+0:10:46
+Speaker 1 :the flag to capture the flag I was going
+ to ask you about that what are those LaVette I watched a couple videos onYouTube those look fascinating what have
+ you learned about maybe at the high level of vulnerability of systems from
+
+0:10:58
+Speaker 0 :these competitions the like I feel like
+ like in the heyday of CTFs you had all of the best security people in the worldchallenging each other and coming up
+ with new toy exploitable things over here and then everybody okay who canbreak it and when you break it you get
+ like there's like a file on the server called flag and then there's a programrunning listening on a socket that's
+ vulnerable so you write an exploit you she'll and then you cat flag and thenyou type the flag into like a web-based
+ scoreboard and you get points so the
+
+0:11:29
+Speaker 1 :goal is essentially to find an exploit
+ in the system that allows you to run shell to run arbitrary code on that
+
+0:11:37
+Speaker 0 :system that's one of the categories
+ that's like the PO noble category
+
+0:11:41
+Speaker 1 :vulnerable
+
+
+0:11:43
+Speaker 0 :yeah horrible it's like you know you
+ pwned the program you are it's a program
+
+0:11:49
+Speaker 1 :yeah yeah you know for personally I
+ apologize I'm gonna I'm gonna say it's because I'm Russian but maybe you can
+
+0:11:59
+Speaker 0 :help educate me some video game like
+ misspell to own way back in the Mia and
+
+0:12:02
+Speaker 1 :there's just I wonder if there's a
+ definition I'll have to go to urban dictionary for it okay so what was theheyday seat yeah by the way but was it
+ what decade are we talking about I think
+
+0:12:15
+Speaker 0 :like I mean maybe I'm biased because
+ it's the era that that that I played but like 2011 to 2015 because the modern CTFscene is similar to the modern
+ competitive programming scene you have people who like do drills you havepeople who practice and then once you've
+ done that you've turned it lesson to a game of generic computer skill and moreinto a game of okay you memorize you you
+ drill on these five categories and then before that it wasn't it didn't havelike as much attention as it had I don't
+ know they were like I won $30,000 ones in Korea for one of these competitions
+
+0:12:56
+Speaker 1 :oh crap they were they were that so that
+ means I mean money's money but that means there was probably good peoplethere exactly yeah are the challenges
+ human constructive or are they grounded in some real flaws and real systems
+
+0:13:10
+Speaker 0 :usually they're human constructed but
+ they're usually inspired by real flaws
+
+0:13:14
+Speaker 1 :what kind of systems are imagined is
+ really focused on mobile like what has vulnerabilities these days is it doesprimarily mobile systems like Android
+
+
+0:13:24
+Speaker 0 :everything does No yeah of course the
+ price has kind of gone up because less and less people can find them and what'shappened in security is now if you want
+ to like jailbreak an iPhone you don't need one exploit anymore you need nine
+
+0:13:37
+Speaker 1 :nine chained together what women yeah
+ Wow okay so it's really so what's the but what's the benefit speaking higherlevel philosophically about hacking I
+ mean it sounds from everything I've seen about you you just love the challengeand you don't want to do anything you
+ don't want to bring that exploit out into the world and doing the actual letit run wild you just want to solve it
+ and then you go on to the next thing oh
+
+0:14:04
+Speaker 0 :yeah I mean doing criminal stuffs not
+ really worth it and I'll actually use the same argument for why I don't dodefense for why I don't do crime
+ if you want to defend a system say the system has ten holes right if you findnine of those holes as a defender you
+ still lose because the attacker gets in through the last one if you're anattacker you only have to find one out
+ of the ten but if you're a criminal if you log on with a VPN nine out of theten times but one time you forget you're
+
+
+0:14:37
+Speaker 1 :done because you're caught okay because
+
+
+0:14:39
+Speaker 0 :you only have to mess up once to be
+ caught as a criminal yeah that's why I'm not a criminal
+
+0:14:44
+Speaker 1 :but okay let me uh that's having a
+ discussion with somebody just at a high level about nuclear weapons actually whywe're having blowing ourselves up yet
+ and my feeling is all the smart people in the world look at the distribution ofsmart people smart people are generally
+ good and then this other person I was talking to Sean Carroll the physicistand you were saying no good and bad
+ people are evenly distributed amongst everybody my sense was good hackers arein general good people and they don't
+ want to mess with the world what's your
+
+0:15:21
+Speaker 0 :sense I'm not even sure about that like
+ I have a nice life crime wouldn't get me anythingbut if you're good and you have these
+ skills you probably have a nice life too
+
+0:15:38
+Speaker 1 :right like you can use the father things
+ but is there an ethical is there some is there a little voice in your head thatsays well yeah if you could hack
+ something to where you could hurt people
+
+0:15:50
+Speaker 0 :
+
+0:15:51
+Speaker 1 :and you could earn a lot of money doing
+ it though not hurt physically perhaps but disrupt her life in some kind of wayit is there a little voice that says um
+
+
+0:16:02
+Speaker 0 :what two things one I don't really care
+ about money so like the money wouldn't be anincentive the thrill might be an
+ incentive but when I was 19 I read crime and punishment right that was anotherthat was another great one that talked
+ me out of ever really doing crime Oh cuz it's like that's gonna be me I'd getaway with it whatever just went in my
+ head even if I got away with it you know and then you do crime for long enoughyou'll never get away with it that's
+
+
+0:16:28
+Speaker 1 :right in the end that's a good reason to
+
+
+0:16:31
+Speaker 0 :be good I wouldn't say good I just say
+
+
+0:16:34
+Speaker 1 :I'm not bad you're a talented programmer
+ and a hacker in a good positive sense of the word award you've played aroundfound vulnerabilities in various systems
+ what have you learned broadly about the design of systems and so on from that
+
+0:16:51
+Speaker 0 :from that whole process you learn to not
+ take things for what people say they are but you look at things for what theyactually are
+
+
+0:17:05
+Speaker 1 :
+
+0:17:07
+Speaker 0 :yeah I understand that's what you tell
+
+
+0:17:11
+Speaker 1 :me it is but what does it do man and you
+ have nice visualization tools to really know what it's really doing oh I wish
+
+0:17:16
+Speaker 0 :I'm a better programmer now than I was
+ in 2014 I said Kira that was the first tool that I wrote that was usable Iwouldn't say the code was great I still
+ wouldn't say my code is great so how was
+
+0:17:28
+Speaker 1 :your evolution as a programmer except
+ practice he went he started with C at which point did you pick up Pythonbecause you're pretty big and Python
+
+
+0:17:37
+Speaker 0 :though now yeah in uh in college I went
+ to Carnegie Mellon when I was 22 um I went back I'm like I'm gonna take allyour hardest CS courses we'll see how I
+ do right like did I miss anything by not having a real undergraduate educationtook operating systems compilers AI and
+ they're like a freshman reader math course and operating says some of these
+
+0:17:59
+Speaker 1 :some of those classes you mentioned
+
+
+0:18:04
+Speaker 0 :actually they're great at least one the
+ 2012 circuit 2012 operating systems and compilers we're two of the best classesI've ever taken my life because you
+ write an operating system and you write a compiler I wrote my operating systemin C and I wrote my compiler in Haskell
+ but classical well somehow I picked up Python that semester as well I startedusing it for the CTS actually that's
+ when I really started to get into CTF and CTF you're all to race against theclock so I can't write things and say oh
+
+
+0:18:35
+Speaker 1 :there's a clock component so you really
+ want to use the programming language you
+
+0:18:39
+Speaker 0 :can be fastest than 48 hours pone as
+ many of these challenges you can pone yeah you got like a hundred points achallenge whatever team gets the most
+
+
+0:18:45
+Speaker 1 :you were both the Facebook and Google
+ for a brief stint yeah well the project zero actually at Google for five monthswhere you develop kara what was project
+ zero about in general speak what what just curious about the security effortsin these companies
+
+
+0:19:05
+Speaker 0 :well product zero started the same time
+ I I went there what what years are there
+
+0:19:10
+Speaker 1 :
+
+0:19:12
+Speaker 0 :2015 2015 so that was right at the
+ beginning of project it's small it's Google's offensive security team I'lltry to give I'll try to give the best
+ public facing explanation that I can so the idea is basically thesevulnerabilities exist in the world
+ nation states have them some high powered bad actors have themsometime people will find these
+ vulnerabilities and submit them in bug bounties to the companies but a lot ofthe companies don't really care it only
+ fix the bug there's no it doesn't hurt for there to be a vulnerability soproject zero is like we're gonna do it
+ different we're going to announce a vulnerability and we're going to givethem 90 days to fix it and then whether
+ they fix it or not we're gonna drop the drop the zero day oh wow we're gonna
+
+0:20:05
+Speaker 1 :drop the weapon that's so cool that is
+ so cool I love that deadlines though that's so cool give him real deadlines
+
+0:20:11
+Speaker 0 :yeah and I think it's done a lot for
+ moving the industry forward I watched
+
+0:20:15
+Speaker 1 :your coding sessions on the stream
+ downline you code things up basic projects usually from scratch I wouldsay sort of as a programmer myself just
+ watching you that you type really fast and your brain works in both brilliantand chaotic ways I don't know if that's
+ always true but certainly for the live streams so it's it's interesting to mebecause I'm more I'm much slower and
+ systematic and careful and you just move I mean probably an order of magnitudefaster some curious is there a method to
+ your madness is this just who you are there's pros
+
+0:20:53
+Speaker 0 :and cons there's pros and cons to my
+ programming style and I'm aware of them like if you ask me to like like getsomething up and working quickly with
+ like an API that's kind of undocumented I will do this super fast because I willthrow things at it until it works if you
+ ask me to take a vector and rotate it 90 degrees and then flip it over the XYplane I'll spam program for two hours
+
+
+0:21:21
+Speaker 1 :and won't get it all because it's
+ something that you could do with a sheet of paper think through design and thenjust you really just throw stuff at the
+ wall and you get so good at it that it
+
+0:21:33
+Speaker 0 :usually works I should become better at
+ the other kind as well sometimes I'll do things pathetically it's nowhere near asentertaining on the twitch streams I do
+ exaggerate it a bit on the edge games as well the twitch streams I mean what doyou want to see a game or you want to
+ see actions permit me right I'll show you a PM for programming yes I recommend
+
+0:21:48
+Speaker 1 :people go to I think I watched
+ I was probably several hours you put like I've actually left you programmingin the background while I was
+ programming because you made me you it was it was like watching a really goodgamer
+ it's like energizes you because you're like moving so fast it so it's it'sawesome it's inspiring and so it made me
+ jealous that like because my own program is inadequate in terms of speed Oh as I
+
+0:22:16
+Speaker 0 :was like so I'm twice as frantic on the
+ live streams as I am when I code without
+
+0:22:22
+Speaker 1 :oh it's super entertaining so I I wasn't
+ even paying attention to where you were coding which is great it's just watchingyou switch windows and VAM I guess is
+
+
+0:22:31
+Speaker 0 :driven screen I've developed a workflow
+ Facebook and talk about how do you learn
+
+0:22:35
+Speaker 1 :new programming tools ideas techniques
+ these days what's your like methodology for learning new things so I wrote for
+
+0:22:43
+Speaker 0 :comma the distributed file systems out
+ in the world are extremely complex like if you want to install something likelike like Saif Saif is I think the like
+ open infrastructure to should be a file system or there's like newer ones likeseaweed FS but these are all like 10,000
+ plus line projects I think some of them are even 100,000 line and justconfiguring them as a nightmare so I
+ wrote I wrote one um it's 200 lines and it's it uses likenginx to the live servers and has low
+ master server that I wrote and go and the way I go this if I would say thatI'm proud per line of any code I wrote
+ maybe there's some exploits that I think are beautiful and then this this is 200lines and just the way that I thought
+ about it I think was very good and the reason it's very good is because thatwas the fourth version of it that I
+ wrote and I had three versions that I
+
+0:23:38
+Speaker 1 :threw away you mentioned you see go I
+ ready go yeah and go so is that a functional language I forget what goes
+
+0:23:45
+Speaker 0 :they go is Google's language right I'm a
+ functional it's some it's like in a way it's C++ but easier it's it's stronglytyped it has a nice ecosystem erotic
+ when I first looked at it I was like this is like Python but it takes twiceas long to do anything yeah
+ now that I've open pilot is migrating to sea but it still has large Pythoncomponents I now understand why Python
+ doesn't work for large code bases and why you want something like Oh
+
+0:24:15
+Speaker 1 :interesting so why why doesn't Python
+ work for so even most speaking for myself at least like we do a lot ofstuff basically demo level work with
+ autonomous vehicles and most of the work is Python yeah why doesn't Python work
+
+0:24:31
+Speaker 0 :for large code bases because well lack
+ of type checking is a big errors
+
+0:24:37
+Speaker 1 :
+
+0:24:38
+Speaker 0 :creeping yeah and like you don't know
+ the compiler can tell you like nothing right so everything is either you knowlike like syntax errors fine but if you
+ misspell a variable and Python the compiler won't catch that there's likelinters that can catch it some other
+ time there's no types this is really thebiggest downside and then will Python
+ slow but that's not related to it well maybe the kind of related to its that's
+
+0:25:04
+Speaker 1 :lacking so what's what's in your toolbox
+ these days is a Python what else go I
+
+0:25:07
+Speaker 0 :need to move on something else but my
+ adventure interdependently type languages I love these languages theyjust have like syntax from the 80s what
+
+
+0:25:17
+Speaker 1 :do you think about JavaScript
+ yes thanks Nick tomorrow typescript
+
+0:25:23
+Speaker 0 :javascript is the whole ecosystem is
+ unbelievably confusing NPM updates a package from zero to twoto zero to five and that breaks your
+ babble linter which translates your es5 into es6 which doesn't run on so why doI have to compile my JavaScript again
+
+
+0:25:41
+Speaker 1 :huh it may be the future though if you
+ think about I mean I've embraced JavaScript recently because just likeI've continually embraced PHP it seems
+ that these worst possible languages live on for long is that cockroaches never
+
+0:25:58
+Speaker 0 :die yeah well it's in the browser and
+
+
+0:26:00
+Speaker 1 :it's fast it's fast yeah it's in the
+ browser and compute mites they become you know the browser it's unclear whatthe role the browser's in terms of
+ distributed computation in the future so
+
+0:26:12
+Speaker 0 :javascript is definitely here to stay
+
+
+0:26:14
+Speaker 1 :yeah interesting if
+ Tom's vehicles will run on JavaScript one day I mean you have to considerthese possibilities well all our debug
+
+
+0:26:21
+Speaker 0 :tools are JavaScript
+ we actually just open-source them we have a tool Explorer which you canannotate your dis engagements and we
+ have tool cabana which lets you analyze the canned traffic from the car so
+
+0:26:32
+Speaker 1 :basically any time you're visualizing
+ something about the log you using
+
+0:26:37
+Speaker 0 :javascript yeah well the web is the best
+ UI toolkit by far yeah um so and then you know what you're voting inJavaScript we have a react guy he's good
+
+
+0:26:44
+Speaker 1 :he acts nice let's get into it so let's
+ talk to Thomas vehicles you found it comma a let's at a high level how didyou get into the world the vehicle
+ automation can you also just for people who don't know tell the story of comma
+
+0:27:01
+Speaker 0 :yeah sure so I was working at this AI
+ startup and a friend approached me and he's like dude I don't know where thisis going but the coolest applied AI
+ problem today is self-driving cars I'm like well absolutely do you want to meetwith UI mosque and he's looking for
+ somebody to build a vision system for auto pilot this is when they were stillon ap one they were still using mobile I
+ kneel on back then was looking for a replacement and he brought me in and wetalked about a contract where I would
+ deliver something that meets mobile eye level performance I would get paidtwelve million dollars if I could
+ deliver it tomorrow and I would lose 1 million dollars for every month I didn'tdeliver yeah so I was like ok this is a
+ great deal this is a super exciting challenge you know what even if it takesme 10 months I get two million dollars
+ it's good maybe I can finish up in five maybe I don't finish it at all and I getpaid nothing and I'll work for twelve
+
+
+0:28:00
+Speaker 1 :months for free so maybe I just take a
+ pause on that I'm also curious about this because I've been working onrobotics for a long time and I'm curious
+ to see a person like you just step in and sort of somewhat naive but brilliantright so that's though that's the best
+ place to be because you basically full-steam take on a problem howconfident how from that time because you
+ know a lot more now at that time how hard do you think it is to solve all ofautonomous driving I remember I
+
+
+0:28:25
+Speaker 0 :suggested to Elon in the meeting I'm
+ putting GPU behind each camera to keep thecompute local this is an incredibly
+ stupid idea I leave the meeting 10 minutes later and I'm like I could havespent a little bit of time thinking
+ about this problem was I would just send all your cameras to one big GPU you'remuch better off doing that oh sorry you
+
+
+0:28:48
+Speaker 1 :said behind every camera you have a
+
+
+0:28:50
+Speaker 0 :small GPU I was like oh I'll put the
+ first few layers of my comm there Oh like why did I say that that's possibleit's possible but it's a bad idea it's
+
+
+0:28:58
+Speaker 1 :not obviously a bad idea pretty obvious
+
+
+0:29:00
+Speaker 0 :but whether it's actually a bad idea or
+ not I left that meeting with Elon like beating myself up I'm like why did I say
+
+0:29:06
+Speaker 1 :something stupid yeah you haven't given
+ I'm at least like thought through every
+
+0:29:12
+Speaker 0 :aspect yes he's very sharp too like
+ usually in life I get away with saying stupid things and then kind of coursealright right away he called me out
+ about it and like usually in life I get away with saying stupid things and thenlike people will you know people a lot
+ of times people don't even notice and I'll like correct it and bring theconversation back but with Elon it was
+ like nope like okay well that's not at all why the contract fell through I wasmuch more prepared the second time I met
+
+
+0:29:35
+Speaker 1 :him yeah but in general huh how hard did
+ you think it is like 12 months is uh-oh is it tough timeline oh I just thought
+
+0:29:43
+Speaker 0 :I'd clone mob like you three I didn't
+ think I'd solve level five self-driving
+
+0:29:48
+Speaker 1 :or anything so the goal there was to do
+ lane-keeping good good link keeping I
+
+0:29:52
+Speaker 0 :saw my friend showed me the outputs from
+ a mobile I in the office from a mobile I was just basically two lanes at aposition of a lead car mm-hm
+ like I can I can gather a dataset and train this net in in weeks and I did
+
+0:30:04
+Speaker 1 :well first time I tried the
+ implementation of mobile I and the test I was really surprised how good it isit's quite incredibly good because I
+ thought it's just because I've done a lot of computation I thought it'd be alot harder to create a system that
+ that's stable so I was personally surprised you know have to admit itbecause I was kind of skeptical before
+ trying it because I thought it would go in and out a lot more it would getdisengaged a lot more and it's pretty
+ robust so what how how hard is the problem we need to when you tackled it
+
+0:30:42
+Speaker 0 :I think a p1 was great like Elon talked
+ about dis engagements on the 405 down in LA we'd like the lane marks were kind offaded and the mobile eye system would
+ drop out uh like I had something up and working that I would say was like thesame quality in three months same
+
+
+0:31:02
+Speaker 1 :quality but how do you know you you say
+ stuff like that yeah confidently but you can't and I love it but well thequestion is you can't you're kind of
+
+
+0:31:13
+Speaker 0 :going by feel because he not solely
+ absolutely like like I would take I hadn't I borrowed my friends Tesla yeahI would take ap one out for a drive yeah
+ and then I would take my system out for
+
+0:31:22
+Speaker 1 :a dry and seems reasonably like the same
+ so the four or five how hard is it to create something that could actually bea product that's deployed I mean I've
+ read an article or you on this respondent said something by you sayingthat to build autopilot is is more
+ complicated than a single George Hotz a level job how hard is that job to createsomething that would work across the
+
+
+0:31:57
+Speaker 0 :globe Lee what are the global ease the
+ challenge but Elon followed that up by saying it's gonna take two years in acompany of ten people yeah and Here I am
+ four years later with a company of twelve people and I think we still have
+
+0:32:09
+Speaker 1 :another two to go two years so yeah so
+ what do you think what do you think about the hottest is progressing withautopilot v2 v3
+
+
+0:32:18
+Speaker 0 :I think we've kept pace with them pretty
+ well I think navigator autopilot is terriblewe had some demo features internally of
+ the same stuff and we would test it and I'm like I'm not shipping this even aslike open-source software to people what
+
+
+0:32:35
+Speaker 1 :do you think is do
+
+
+0:32:36
+Speaker 0 :Consumer Reports does a great job of
+ describing it like when it makes a lane change it does it worse than a humanyou shouldn't ship things like autopilot
+ open pilot they Lane keep better than a human if you turn it on for a stretch ofhighway like an hour long it's never
+ gonna touch a lane line human will touch probably a lane line twice you just
+
+0:32:58
+Speaker 1 :inspired me I don't know if you're
+ grounded and data on that I read labor okay but no but that's interesting uh Iwonder actually how often we touch Lane
+ lines in general like a little bit cuz
+
+0:33:12
+Speaker 0 :it is okay I could answer that question
+ pretty easily with the common data side yeah I'm curious I've never answered itI don't know yeah I just - is like my
+
+
+0:33:20
+Speaker 1 :person it feels right that's interesting
+ because every time you touch the lane that's the source of a little bit ofstress and kind of lane-keeping is
+ removing that stress that's all to me the big the biggest value-add honestlyis just removing the stress of having to
+ stay in lane and I think honestly I don't think people fully realize firstof all that that's a big value add but
+ also that that's all it is
+
+0:33:43
+Speaker 0 :and that not only I find it a huge value
+ add I drove down when we moved to San Diego I drove down our Enterpriserent-a-car and I missed it so I missed
+ having the system so much it's so much more tiring to drive without it it's itis that Lane centering that's the key
+ feature yeah and in a way it's the only feature thatactually adds value to people's lives
+ and autonomous vehicles today way mode does not add value to people's livesit's a more expensive lower slower uber
+ maybe someday it'll be this big cliff where it adds value but I don't usually
+
+0:34:19
+Speaker 1 :do this vessei I haven't talked to is
+ that this is good because I haven't I have intuitively but I think we'remaking it explicit now I I actually
+ believe that really good lane-keeping is a reason to buy a car will be a reasonto buy a car is a huge value add I've
+ never until we just started talking about it haven't really quite realizedthat that I've felt with elan chase of
+ level four is not the correct chase it was on because you should just say Teslahas the best as if from a testing
+ perspective say Tesla has the best lane-keeping coming I should say comingI is the best link keeping and that is
+ it yeah yeah does do you think well you
+
+0:35:07
+Speaker 0 :have to do the longitudinal as well
+ you can't just Lane keep you have to do a cc but a cc is much more forgivingthan lanky especially on the highway oh
+
+
+0:35:17
+Speaker 1 :by the way are you uh calming eyes
+ camera only correct oh no we use the
+
+0:35:21
+Speaker 0 :
+
+0:35:23
+Speaker 1 :radar we from the car you were able to
+
+
+0:35:25
+Speaker 0 :get to open it um we can't do a camera
+ only now it's gotten to the point but we leave the radar there is like a it's
+
+0:35:33
+Speaker 1 :it's fusion now okay so let's maybe talk
+ through some of the system specs on the hardware or what it what's what's thehardware side of what you're providing
+ what's the capabilities in the software side would open pilot and so on so open
+
+0:35:47
+Speaker 0 :pilot as the the box that we sell that
+ it runs on it's a phone in a plastic case it's nothing special we sell itwithout the software so you're like you
+ know you buy the phone it's just easy it'll be easy setup but it's sold withno software
+ open pilot right now is about to be 0.6 when it gets to 1.0 I think we'll beready for a consumer product we're not
+ gonna add any new features we're just gonna make the lane-keeping reallyreally good
+ so what do we have right now it's a snapdragon 820say so many IMX 298 forward-facing
+ camera driver monitoring camera and she's a selfie cam on the phone and acan transceiver biffle's little thing
+ calls pandas and they talk over USB to the phone and then they have threecanvases that they talk to the car one
+ of those campuses is the radar CANbus one of them is the main car CANbus andthe other one is the proxy camera CANbus
+ we leave the existing camera in place so we don't turn a DB off right now westill turn a TV off if you're using our
+ longitudinal but we're gonna fix that
+
+0:36:55
+Speaker 1 :before 1.0 you got it wow that's cool so
+ in its can both way so how are you able to control vehicles so we proxy the
+
+0:37:03
+Speaker 0 :vehicles that we work with already have
+ Lane Keeping Assist system so Lane Keeping Assist can mean a huge varietyof things it can mean it will apply a
+ small torque to the wheel after you've already crossed a lane line by a footwhich is the system in the older Toyotas
+ versus like I think Tesla still calls it Lane Keeping Assist where it'll keep youperfectly in the center of the lane on
+
+
+0:37:31
+Speaker 1 :the highway you can control like you
+ would in joystick the cars these so these cars already have the capabilityof drive-by-wire so is it is it trivial
+ to convert a car that it operates with it open pile is able to control the
+
+0:37:48
+Speaker 0 :steering Oh a new car or a car that we
+ so we have support now for 45 different makes of cars what are one of the cars
+
+0:37:52
+Speaker 1 :
+
+0:37:55
+Speaker 0 :general mostly Hondas and Toyotas we
+ support almost every Honda and Toyota made this year and then a bunch of GM'sbunch of Subarus which it doesn't have
+
+
+0:38:04
+Speaker 1 :to be like a Prius it could be Coral as
+
+
+0:38:08
+Speaker 0 :well okay the 2020 Corolla is the best
+ car with open pilot it just came out there the actuator has less lag than theolder Corolla
+
+
+0:38:15
+Speaker 1 :I think I started watching video with
+ your eye the way you make videos is awesome literally the dealerships
+
+0:38:25
+Speaker 0 :streaming stream for an hour
+
+
+0:38:27
+Speaker 1 :yeah and basically like if stuff goes a
+ little wrong you're just like you just go with it yeah I love it what's realyeah that's real that's that's it's
+ that's so beautiful and it's so in contrast to the way other companieswould put together a video like that how
+ do I like to do it like good I mean if you become super rich one day issuccessful I hope you keep it that way
+ because I think that's actually what people love that kind of genuine oh it's
+
+0:38:54
+Speaker 0 :all that has value to me yeah my money
+ has no if I sell out to like make money and I sold out it doesn't matter what doI get yacht I don't I got and I think
+
+
+0:39:04
+Speaker 1 :Tesla's actually has a small inkling of
+ that as well with autonomy day they did reveal more than I mean of coursethere's marketing communications you can
+ tell but it's more than most companies will reveal which is I hope they gotowards a direction more other companies
+ GM Ford oh Jessa Tesla's gonna win level
+
+0:39:23
+Speaker 0 :5 they really are so let's talk about it
+
+
+0:39:26
+Speaker 1 :you think you're focused on level 2
+
+
+0:39:32
+Speaker 0 :currently currently we're gonna be one
+ to two years behind Tesla getting to level five okay we're interested rightwe're into it you're in I'm just saying
+ once Tesla gets it we're one to two years behindI'm not making any timeline on when
+ Tesla's that's right you did that's brilliantI'm sorry Tesla investors if you think
+ you're gonna have an autonomous robot taxi fleet by the end of the year yesthat's all bet against that so that what
+
+
+0:39:55
+Speaker 1 :do you think about this the most level
+
+
+0:40:00
+Speaker 0 :four companies are kind of just doing
+
+
+0:40:01
+Speaker 1 :their usual safety driver during full
+ autonomy kind of testing and then Tesla does basically trying to go fromlane-keeping to full autonomy what do
+ you think about that approach how successful would it be a ton better
+
+0:40:18
+Speaker 0 :approach because Tesla is gathering data
+ on a scale that none of them are they're putting real users behind the behind thewheel of the car
+ it's I think the only strategy that works the incremental well so there's a
+
+0:40:34
+Speaker 1 :few components to test approach that's
+ that's more than just incrementally you spoke with is the one is the software soover-the-air software updates necessity
+
+
+0:40:44
+Speaker 0 :I mean way more ease have those - those
+ aren't but there was differentiating from the automaker's right no link
+
+0:40:49
+Speaker 1 :keeping assist systems have no cars with
+ lane keeping system have that except Tesla yeah and the other one is the datathe other direction which is the ability
+ to query the data I don't think they're actually collecting as much days peoplethink but the ability to turn on
+ collection and turn it off so I'm both in the robotics world in the thepsychology human factors world many
+ people believe that level to autonomy is problematic because of the human factorlike the more the task is automated the
+ more there's a vigilance decrement you start to fall asleep you start to becomecomplacent start texting more and so on
+ do you worry about that because if we're talking abouttransition from lane-keeping to full
+ autonomy if you're spending eighty percent of the time not supervisingmachine do you worry about what that
+ means to the safety of the drivers one
+
+0:41:46
+Speaker 0 :we don't consider open pilot to be 1.0
+ until we have 100% driver monitoring you you can cheat right now our drivermonitoring system there's a few ways to
+ cheat it there pretty obvious we're working on making that better before weship a consumer product that can drive
+ cars I want to make sure that I have driver monitoring that you can't cheat
+
+0:42:05
+Speaker 1 :what's like a successful driver
+ monitoring system look like it's keep its is it all buzz just keeping your
+
+0:42:11
+Speaker 0 :eyes on the road um well a few things so
+ that's what we went with it first for driver monitoring I'm checking I'mactually looking at where your head is
+ looking but cameras know about my resolution eyes are a little bit hard to
+
+0:42:21
+Speaker 1 :get well head is this big I mean that is
+
+
+0:42:23
+Speaker 0 :good and actually a lot of it just as
+ psychology wise to have that monitor constantly there it reminds you that youhave to be paying attention but we want
+ to go further we just hired someone full-time to come onto the drivermonitoring I want to detect phone in
+ frame and I want to make sure you're not sleeping
+
+0:42:42
+Speaker 1 :how much does the camera see of the body
+
+
+0:42:45
+Speaker 0 :this one not enough not enough the next
+ one everything
+
+0:42:49
+Speaker 1 :what's interesting fish Atkins we have
+ we're doing just data collection that real-time but fish eye is a beautifulmouth being able to capture the body and
+ the smartphone is really like the biggest problem I'll show you I can show
+
+0:43:03
+Speaker 0 :you one of the pictures from from our
+ finder system
+
+0:43:06
+Speaker 1 :awesome so you're basically saying the
+ driver monitoring will be the answer to
+
+0:43:13
+Speaker 0 :that um I think the other point that the
+ original paper is is good as well you're not asking a human to supervise amachine without giving them meat they
+ can take over at a time right our safety model you can take over we disengage onboth the gas or the brake we don't
+ disengage on steering I don't feel you have to but we disengage on gas or brakeso it's very easy for you to take over
+ and it's very easy for you to re-engage that switching should be super cheapyeah the cars that require even
+ autopilot requires a double press that's almost I said I like that yeah and thenthen the cancel um to cancel in
+ autopilot you either have to press cancel which no one knows where that isso they press the brake but a lot of
+ things you don't you want to press the brake you want present assso you should cancel on gas or wiggle
+ the steering wheel which is bad as well
+
+0:43:57
+Speaker 1 :wow that's brilliant I haven't heard
+ anyone articulate at that point I like
+
+0:44:01
+Speaker 0 :what this is all I think about
+
+
+0:44:03
+Speaker 1 :it's because I think I think actually
+ Tesla has done a better job than most automakers at making that frictionlessbut you just described that it could be
+
+
+0:44:16
+Speaker 0 :even better I love super cruise as an
+ experience once it's engaged yeah I don't know if you've used it but gettingthe thing to try to engage him yeah I've
+
+
+0:44:23
+Speaker 1 :used this of Germany's super cruise a
+ lot so what's their thoughts on the super Cruiser system in June disengage
+
+0:44:30
+Speaker 0 :super cruise and it falls back to ACC so
+ my car's like still accelerating it feels weird otherwise when you actuallyhave super cruise engaged on the highway
+ it is phenomenal we bought that Cadillac we just sold it but we bought it just tolike experience this and I wanted
+ everyone in the office to be like this is what we're striving to build GMpioneering with the driver monitoring
+
+
+0:44:52
+Speaker 1 :you know you like their driver
+
+
+0:44:54
+Speaker 0 :monitoring system it has some bugs
+ if there's a sun shining back year it'll be blind to you by overall mostly yeah
+
+0:45:03
+Speaker 1 :that's so cool you know the stuff that's
+ uh I don't often talk to people that because it's such a rare carunfortunately they bought one yes
+
+
+0:45:10
+Speaker 0 :possibly for us we lost like by 25k the
+ deprecation but a Philips worth it
+
+0:45:16
+Speaker 1 :I was very pleasantly surprised that GM
+ system was so innovative and really that wasn't advertised much wasn't talkedabout much yeah and I was nervous that
+ it would die that they would disappear
+
+0:45:31
+Speaker 0 :my eyes did they put it on the wrong car
+ they should've put it on the bolt and not some weird Cadillac that nobody
+
+0:45:36
+Speaker 1 :bought I think that's gonna be into
+ they're saying at least is going to be into their entire fleet so what do youthink about it if as long as we're on
+ the driver monitoring what do you think about you know I must claim that drivermonitoring is not needed normally I love
+
+
+0:45:51
+Speaker 0 :his claims that one is stupid
+ that one is stupid and you know he's not gonna have his level five fleet by theend of the year hopefully he's like okay
+ I was wrong I'm gonna add driver monitoring because when these systemsget to the point that they're only
+ messing up once every thousand miles you absolutely need driver monitor so
+
+0:46:13
+Speaker 1 :let me play Delta because I agree with
+ you but let me play devil's advocate so one possibility is that without drivermonitoring people are able to monitor
+ the self-regulate monitor themselves you know that so your idea is seeing all the
+
+0:46:30
+Speaker 0 :people sleeping in decimals uh yeah well
+
+
+0:46:33
+Speaker 1 :I'm a little skeptical of all the people
+ sleeping in Tesla's because I have I've stopped paying attention to that kind ofstuff because I want to see real data
+ there's too much glorified it doesn't feel scientific to me so I want to knowyou know what how many people are really
+ sleeping in Tesla's vs. sleeping I've I was driving here sleep-deprived in a carwith no automation I was falling asleep
+
+
+0:47:01
+Speaker 0 :I agree that it's high P it's just like
+ you know what if you under I've am wondering I think I rented a my lastautopilot experience was I rented a
+ model three in march and drove it around thewheel thing is annoying and the reason
+ the wheel thing is annoying we use the wheel thing as well but we don'tdisengage on wheel for Tesla you have to
+ touch the wheel just enough you should trigger the torque sensor to tell itthat you're there but not enough as to
+ disengage it which don't use it for two thingsyou disengage one wheel you don't have
+
+
+0:47:32
+Speaker 1 :to that whole experience Wow beautiful
+ put that all those elements even if you don't have driver monitoring that wholeexperience needs to be better driver
+
+
+0:47:41
+Speaker 0 :monitoring I think would make I mean I
+ think super cruise is a better experience once it's engaged overautopilot
+ I think super cruise is our transition to engagement and disengagement aresignificantly worse yeah so there's a
+
+
+0:47:54
+Speaker 1 :tricky thing because if I were to
+ criticize super cruise is uh it's a little too crude and uh I think it'slike six seconds or something if you
+ look off-road you'll start warning you it's some ridiculously long period oftime and just the way it I think it's
+ basically it's a binary chili adapter it
+
+0:48:15
+Speaker 0 :
+
+0:48:17
+Speaker 1 :yeah it's it just needs to learn more
+ about you and used to communicate what it sees about you more like I'm not youknow Tesla shows what it sees about the
+ external world it would be nice the supercruise would tell us what it seesabout the internal world it's even worse
+
+
+0:48:31
+Speaker 0 :than that you press the button to engage
+ and it just says super cruise
+
+0:48:35
+Speaker 1 :unavailable yeah why why yeah that
+ transparency is good we've renamed the
+
+0:48:41
+Speaker 0 :driver monitoring packet to driver state
+ service state we have car state packet which has the state of the car driverstate packet which I stay the driver so
+ what does itah make their BAC
+
+0:48:54
+Speaker 1 :must be do you think that's possible
+
+
+0:48:55
+Speaker 0 :
+
+0:48:56
+Speaker 1 :
+
+0:48:59
+Speaker 0 :with computer vision absolutely so to me
+
+
+0:49:01
+Speaker 1 :it's an open question I don't haven't
+ looked into too much they actually had quite seriously looked at the literatureit's not obvious to me that from the
+ eyes and so on you can tell you might
+
+0:49:11
+Speaker 0 :need to stuff from the car as well yeah
+ you might need how they're controlling the car right and that's fundamentallyat the end of the day what you care
+ about you but I think especially when people are really drunk they're notcontrolling the car nearly
+ smoothly as they would look at them walking right there the car is like anextension of the body so I think you
+ could totally detect and if you could fix people who drunk distracted asleepif you fix those three yeah this is
+
+
+0:49:32
+Speaker 1 :that's huge so what are the current
+ limitations of open pilot what are the main problems that still need to be
+
+0:49:41
+Speaker 0 :solved um we're hopefully fixing a few
+ of them in 0-6 we're not as good as auto pilot at stop cars so if you're comingup to a red light at like 55 so it's the
+ radar stopped car problem which is responsible to auto pilot accidents it'shard to differentiate a stopped car from
+ a like signpost yes that ecology um so you have to fuse you have to do thisvisually there's no way from the radar
+ data to tell the difference maybe you could make a map but I really believe inmapping at all anymore um really what
+
+
+0:50:14
+Speaker 1 :you don't believe in mapping no so you
+ basically the open pilot solution is saying react to the environment is justlike human doing beings and then
+
+
+0:50:24
+Speaker 0 :eventually when you want to do navigate
+ on open pilot I'll train the net to look at ways all runways in the backgroundI'll train a car using GPS at all we use
+ it to crown trees we use it to very carefully ground treat the paths we havea stack which can recover a relative to
+ 10 centimeters over one minute and then we use that to ground truth exactlywhere the car went in that local part of
+ the environment but it's all local how
+
+0:50:48
+Speaker 1 :are you testing in general just for
+ yourself like experiments stuff all right were you were you located SanDiego San Diego yeah okay Oh what you
+ basically drive around there then collect some data and watch on Florence
+
+0:51:02
+Speaker 0 :we have a simulator now and we have our
+ simulators really cool our simulator is not it's not like a unity basedsimulator our simulator lets us load in
+
+
+0:51:12
+Speaker 1 :real estate what I mean we can load in a
+
+
+0:51:13
+Speaker 0 :drive and simulate what the system would
+ have done on the historical data ooh
+
+0:51:20
+Speaker 1 :nice interesting so what yeah right now
+
+
+0:51:23
+Speaker 0 :we're only using it for testing but as
+ soon as we start using it for training
+
+0:51:29
+Speaker 1 :what's your feeling about the real world
+ versus simulation do you like simulation for training if this moves to training
+
+0:51:35
+Speaker 0 :Chuck
+ we have to distinguish two types of simulators right there's a simulatorthat light is completely fake I could
+ get my car to drive around in GTA mm-hmm um I feel that this kind of simulator isuseless you're never there's so many my
+ analogy here is like okay fine you're not solving the computer vision problembut you're solving the computer graphics
+ problem right and you don't think you
+
+0:52:02
+Speaker 1 :can get very far about creating ultra
+ realistic graphics no because you can
+
+0:52:07
+Speaker 0 :create ultra realistic graphics of the
+ road now create alter a realistic behavioral models of the other cars ohwell I'll just use my self-driving no
+ you won't you need real you need actual human behavior because that's whatyou're trying to learn the dead driving
+ does not have a spec the definition of driving is what humans do when theydrive whatever way mode does I don't
+ think it's driving right well I think if
+
+0:52:33
+Speaker 1 :you win more than others its if there's
+ any useful reinforcement learning I've seen it used quite well I studypedestrians a lot too is try to train
+ models from real data of how pedestrians move and try to use reinforcementlearning models to make pedestrians move
+ in human-like ways by that point you've
+
+0:52:50
+Speaker 0 :already gone so many layers you detected
+ a pedestrian did you did you hand code the feature vector of their state didyou guys learn anything from computer
+ vision before deep learning well okay you know I feel like this is a
+
+0:53:06
+Speaker 1 :perception to you is the sticking point
+ does that mean what what's what's the hardest part of the stack here there is
+
+0:53:13
+Speaker 0 :no human understandable feature vector
+ separating perception and planning that's the best way I can I can put that
+
+0:53:25
+Speaker 1 :there is no so it's all together and
+ it's it's a that's a joint problem so
+
+0:53:29
+Speaker 0 :you can take localization localization
+ and planning there is a human understandable feature vector betweenthese two things I mean okay so I have
+ like three degrees position three degrees orientation and thosederivatives maybe those second
+ derivatives right that's human understandable that's physical thebetween perception and planning
+ um so like way Moe has a perception stack and then a planner um and one ofthe things way matters right is they
+ have a simulator that can separate those two they can like replay theirperception data and test their system
+ which is what I'm talking about about like the two different kinds ofsimulators there's the kind that can
+ work on real data and is the kind of can't work on real data now the problemis that I don't think you can hand code
+ a feature vector right like like you have some lists of like well here's mylist of cars on the scenes here's my
+ list of pedestrians in the scene this isn't what humans are doing what are
+
+0:54:23
+Speaker 1 :
+
+0:54:25
+Speaker 0 :humans doing global some something
+
+
+0:54:27
+Speaker 1 :you're saying that's too difficult to
+ handle I'm saying that there is no state
+
+0:54:31
+Speaker 0 :vector given a perfect I could give you
+ the best team of engineers in the world to build a perception system and thebest team to build a planner all you
+ have to do is define the state vector that separates those two I'm missing the
+
+0:54:43
+Speaker 1 :state vector that separates those two
+
+
+0:54:49
+Speaker 0 :what do you mean so what is the output
+ of your perception system
+
+0:54:53
+Speaker 1 :I'll put it the perception system it's
+ theirs okay well there's several ways to do it one is this lamp componentslocalization the other is drivable area
+ drivable space drivable space and then there's the different objects in thescene and different objects in the scene
+ over time maybe to give you input to then try to start modeling thetrajectories of those objects sure
+
+
+0:55:22
+Speaker 0 :that's it I can give you a concrete
+ example of something you missed what's thatso say there's a bush in the scene
+ humans understand that when they see this bush that there may or may not be acar behind that bush drivable area and a
+ list of objects does not include that humans are doing this constantly at thesimplest intersections so now you have
+ to talk about occluded area right right but even that what do you mean byoccluded okay so I can't see it well if
+ it's the other side of a house I don't care what's the likelihood that there'sa car in that occluded area right and if
+ you say okay we'll add that I can come up with 10 more examples that you can'tadd
+
+
+0:56:01
+Speaker 1 :certainly occluded area would be
+ something that simulator would have because it's simulating the entire youknow occlusion is part of it a part of a
+
+
+0:56:10
+Speaker 0 :vision stack pleasures that what I'm
+ saying is if you have a hand engineered if your perception system output can bewritten in a spec document it is
+
+
+0:56:22
+Speaker 1 :incomplete yeah idem you know certainly
+ it's it's hard to argue with that because in the end that's going to be
+
+0:56:30
+Speaker 0 :true yes I'll tell you what the output
+ of our perception system is was that it's a thousand it's a thousand twentyfour dimensional vector training
+ underling oh no not it's a thousand twenty fourdimensions of who knows what because its
+
+
+0:56:42
+Speaker 1 :operating on real data yeah yeah
+
+
+0:56:46
+Speaker 0 :and that's the perception that's the
+ perception stake right think about a think about an autoencoder four phasesalright if you have an autoencoder four
+ phases and you say it has 256 dimensions in middle and I'm taking a face overhere and projecting it to a face over
+ here yeah can you hand label all 256 of those dimensions
+
+0:57:06
+Speaker 1 :well no but those are generated
+ automatically but they but even if you
+
+0:57:09
+Speaker 0 :tried to do it by hand could you come up
+ with a spec for your and between your encoder and your decoder
+
+0:57:17
+Speaker 1 :no no because that's not it is it wasn't
+ designed but there no no but if you
+
+0:57:21
+Speaker 0 :could design it if you could design a
+ face Reconstructor system could you come
+
+0:57:28
+Speaker 1 :up with a spec no but I think we're
+ missing here a little bit I think the the you're just being very poetic aboutexpressing a fundamental problem of
+ simulators that they're going to be missing so much that the feature vectorwould just look fundamentally different
+ from in the simulated world in the real
+
+0:57:51
+Speaker 0 :world I'm not making a claim about
+ simulators I'm making a claim about the spec division between perception andplanning and planning even in your
+
+
+0:58:00
+Speaker 1 :system just in general right just in
+
+
+0:58:01
+Speaker 0 :general if you're trying to build a car
+ that drives if you're trying to hand code the output of your perceptionsystem like saying like here's a list of
+ all the cars in the scene here's a list of all the people here's a list of theincluded areas here's a vector of
+ drivable areas insufficient and if you start to believethat you realize that what Wayman crews
+ are doing is impossible currently what
+
+0:58:21
+Speaker 1 :we're doing is the perception problem
+ it's converting the scene into a chessboard you yeah and then you reasonsome basic reasoning around that
+ chessboard yeah and you're saying that really there's a lot missing there firstof all why are we talking about this cuz
+ isn't this a full autonomy is this something you think about oh I want to
+
+0:58:44
+Speaker 0 :win self-driving cars so you're really
+
+
+0:58:47
+Speaker 1 :your definition of win includes level of
+
+
+0:58:52
+Speaker 0 :fool five level five I don't think level
+ four is a real thing I want to build I want to build the alphago of driving so
+
+0:59:00
+Speaker 1 :so alphago is really end to end yeah is
+ uh yeah it's end to end and do you think this whole problem is those that alsokind of what you're getting at with the
+ perception and the planning is that this whole problem the right way to do it isreally to learn the entire thing I'll
+
+
+0:59:21
+Speaker 0 :argue that not only is it the right way
+ it's the only way that's going to exceed human performance well certainly truefor go everyone who tried to hand code
+ go things built human inferior things and then someone came along and wrotesome 10,000 line thing that doesn't know
+ anything about go that beat everybody it's 10,000 lines true in that sense the
+
+0:59:41
+Speaker 1 :the open question then that maybe I can
+ ask you is uh driving is much harder than go the open question is how muchharder so how because I think the AH
+ mosque approach here with planning and perception it's similar to what you'redescribing which is really turning into
+ not some kind of modular thing but really do formulate is a learningproblem and it solves a learning problem
+ of scale so how many years put one is how many years would it take to solvethis problem or just how hard is this
+
+
+1:00:22
+Speaker 0 :freaking problem well the cool thing is
+ I think there's a lot of value that we can deliver along the way I think thatyou can build lane-keeping assist
+ actually plus adaptive cruise control plus okay looking at ways extends tolike all of driving yeah most of driving
+
+
+1:00:45
+Speaker 1 :varies
+
+
+1:00:47
+Speaker 0 :oh your adaptive cruise control treats
+ red lights like cars okay
+
+1:00:51
+Speaker 1 :so let's jump around with you you
+ mentioned that you didn't like navigate an autopilot yeahwhat advice how would you make it better
+ do you think as a feature that if it's done really well it's a good feature I
+
+1:01:02
+Speaker 0 :think that it's too reliant on like hand
+ coded hacks for like how does navigate an autopilot do a lane change itactually does the same lane change every
+ time and it feels mechanical humans do different lane changes human sometimewill do a slow one sometimes do a fast
+ one navigate an autopilot at least every time I used it it did the identicallanguage how do you learn I mean this is
+
+
+1:01:23
+Speaker 1 :a fundamental thing actually yeah is uh
+ the braking and an accelerating something that's still test the probablydoes it better than most cars but it
+ still doesn't do a great job of creating a comfortable natural experience andnavigate on autopilot just lane changes
+ an extension of that so how do you learn to do natural lane change so we have it
+
+1:01:49
+Speaker 0 :and I can talk about how it works so I
+ feel that we have the solution for lateral but we don't yet have thesolution for longitudinal there's a few
+ reasons longitudinal is harder than lateral the lane change component theway that we train on it very simply is
+ like our model has an input for whether it's doing a lane change or not and thenwhen we train the end-to-end model we
+ hand label all the lane changes because you have to I struggled a long timeabout not wanting to do that but I think
+ you have to because you order the training data for the train data rightwell we actually we have an automatic
+ ground truth or which automatically labels all the lane changes was thatpossible to automatically label interest
+ yeah and detect the lane I see when it crosses it right I don't have to getthat that high percent accuracy but it's
+ like 95 good enough now I set the bit when it's doing thelane change in the end-to-end learning
+ and then I set it to zero when it's not doing a lane change so now if I wantedto do a lane change a test time I just
+ put the bit to a 1 and I'll do later
+
+1:02:52
+Speaker 1 :yeah but so if you look at the space of
+ lane change you know some percentage not a hundred percent that we make as humansis not a pleasant experience because we
+ messed some part of it up yeah it's nerve-racking to change even look at theseizure des accelerate how do we label
+ the ones that are natural and feel good you know that's the because that's yourultimate criticism the current Oh
+ navigate not apologies doesn't feel good
+
+1:03:16
+Speaker 0 :well the current navigator on autopilot
+ is a hand coded policy written by an engineer in a room who probably went outand tested it a few times on the 280
+
+
+1:03:25
+Speaker 1 :probably a more a better version of that
+ but yes that's how we would have written
+
+1:03:29
+Speaker 0 :it a comment yeah Tesla they tested it
+ and it might have been two engineers yeah no but so if you learn the lanechange if you learn how to do a lane
+ change from data just like just like you have a label that says lane change andthen you put it in when you want to do
+ the lane change it'll automatically do the lane change that's appropriate forthe situation now to get it the problem
+ of some humans do bad lane changes we haven't worked too much on this problemyet it's not that much of a problem in
+ practice my theory is that all good drivers are good in the same way and allbad drivers are bad in different ways
+ and we've we've seen some data to back
+
+1:04:11
+Speaker 1 :this up well beautifully put so you just
+ basically if that's true yeah hypothesis then you know task is to discover thegood drivers um the good drivers stand
+
+
+1:04:19
+Speaker 0 :out because they're in one cluster and
+ the bad drivers are scattered all over the place and your net learns the
+
+1:04:26
+Speaker 1 :cluster yeah that's uh
+ so you just learned from the good drivers and they're easy to cluster we
+
+1:04:32
+Speaker 0 :learned from all of them and that
+ automatically learns the policy that's like the majority but we'll eventuallyprobably afterthought so if that theory
+
+
+1:04:39
+Speaker 1 :is true I hope it's true because the the
+ counter theory is there is many clusters maybebut rarely many clusters of good drivers
+ because if there's one cluster of good drivers you can at least discover a setof policies you can learn a set of
+ policies which would be good universally yeah that would be a nice that would benice if it's true and you're saying that
+ there are some evidence that let's say
+
+1:05:06
+Speaker 0 :lane changes can be clustered into four
+ clusters right right there's this finite
+
+1:05:10
+Speaker 1 :
+
+1:05:12
+Speaker 0 :level of I would argue that all four of
+ those are good clusters all the things that are random are noise and probablybad and which one of the four you pick
+ or maybe it's Tanner maybe it's twenty you can learn them it's contextdependent it depends on the scene and
+
+
+1:05:26
+Speaker 1 :the hope is it's not too dependent on
+ the driver
+
+1:05:30
+Speaker 0 :yeah the hope is that it all washes out
+ the hope is that there's that the distribution is not bimodal the hope isthat it's a nice gas man so what advice
+
+
+1:05:39
+Speaker 1 :would you give to Tessa how to fix how
+ to improve navigate an autopilot the lessons you've learned from Kamiya
+
+1:05:47
+Speaker 0 :the only real advice I would give to
+ Tesla is please put driver monitoring in your cars with respect to improvement
+
+1:05:54
+Speaker 1 :you can't do that anymore I said to
+ interrupt but you know there's a practical nature of many of hundreds ofthousands of cars being produced that
+ don't have a good driver facing camera
+
+1:06:06
+Speaker 0 :the model 3 has a selfie cam is it not
+ good enough did they not have put IR LEDs for night that's a good question
+
+1:06:10
+Speaker 1 :but I do know that the is fisheye in its
+ relatively low resolution so it's really not this I he wasn'tit wasn't designed for Arman you can
+ hope that you can kind of scrape up and and and have something from it yeah but
+
+1:06:26
+Speaker 0 :put it in today put it in today today
+ every time I've heard Carpathia talk about the problem and talking about lifesoftware 2.0 and how the machine
+ learning is gobbling up everything I think this is absolutely the rightstrategy I think that he didn't write
+ navigate on autopilot I think somebody else did and kind of hacked it on top ofthat stuff I think what Carpathia says
+ wait a second why did we hand code this lane change policy with all these magicnumbers we're gonna learn it from data
+ they'll fix it they already know what to do there well that that's that's Andres
+
+1:06:51
+Speaker 1 :job is to turn everything into a
+ learning problem and collect a huge amount of data the the reality is thoughnot every problem could be turned into a
+ learning problem in the short term in the endeverything would be a learning problem
+ the reality is like if you want to build alpha vehicles today it will likelyinvolve no learning and that's that's
+ the the reality is so at which point does learning start it's the crutchstatement that lidar is a crutch
+ on which point will learning get up to part of human performance it's all overhuman performance and imagenet
+ classification under ivan is the
+
+1:07:34
+Speaker 0 :question still it is a question I'll say
+ this I'm I'm here to play for 10 years I'm not here to try to I'm here to playfor 10 years and make money along the
+ way I'm not here to try to promise people that I'm gonna have my l5 taxiNetwork up and working in two years do
+
+
+1:07:48
+Speaker 1 :you think those mistake yes what do you
+ think there was the motivation behind saying that other companies are alsopromising alpha vehicles with their
+ different approaches in 2020 2021 2022
+
+1:08:01
+Speaker 0 :if anybody would like to bet me that
+ those things do not pan out I will I will bet you even money even money I'llbet you as much as you want so are you
+
+
+1:08:11
+Speaker 1 :worried about what's going to happen
+ because you're not in full agreement on that I was going to happen when 2022 21come around and nobody has fleets of
+
+
+1:08:22
+Speaker 0 :autonomous vehicles no you can look at
+ the history if you go back five years ago they were all promised by 2018 and2017 but they weren't that strong of
+
+
+1:08:30
+Speaker 1 :promises I mean Ford really declared
+ pretty that I think not many have declared as as like definitively as theyhave now these dates well okay so let's
+
+
+1:08:42
+Speaker 0 :separate l4 and l5 do I think that it's
+ possible for way mo to continue to kind of like like hack on their system untilit gets to level 4 in Chandler Arizona
+
+
+1:08:54
+Speaker 1 :yes knows no safety driver Chandler
+
+
+1:08:57
+Speaker 0 :
+
+1:08:58
+Speaker 1 :Arizona yeah but by OSI which year are
+ we talking about
+
+1:09:02
+Speaker 0 :oh I even think that's possible by like
+ 2020 2021 but level 4 Chandler Arizona not level 5 New York City level 4
+
+1:09:11
+Speaker 1 :meaning some very defined streets it
+ works out really well very defined
+
+1:09:17
+Speaker 0 :streets and then
+ these streets are pretty empty if most of the streets are covered in way MOS wemo can kind of change the definition of
+ what driving is hmm right if your self-driving network is the majority ofcars in an area they only need to be
+ safe with respect to each other and all the humans will need to learn to adaptto them now go drive in downtown New
+ York oh yeah that's already you can talkabout autonomy in like like fun farms it
+ already works great because you can really just follow the GPS line so what
+
+1:09:51
+Speaker 1 :does success look like for comm AI what
+ what are the milestones like where you can sit back with some champagne and saywe did it boys and girls
+
+
+1:10:03
+Speaker 0 :well it's never over yeah but don't be
+
+
+1:10:08
+Speaker 1 :let's drink champagne everything
+ straight so what is a good what are some wins um a big milestone that we're
+
+1:10:13
+Speaker 0 :hoping for by mid next year is
+ profitability of the company and we're gonna have to revisit the idea ofselling a consumer product but it's not
+ gonna be like the comma one when we do it it's gonna be perfectopen pilot has gotten so much better in
+ the last two years we're gonna have a few a few features we're gonna have ahundred percent driver monitoring we're
+ gonna disable no safety features in the car um actually I think it'd be reallycool we're doing right now our project
+ this week is we're analyzing the data set and looking for all the AEP triggersfrom the manufacturer systems we have a
+ better data set on that than the manufacturers how much does how manydoes Toyota have ten million miles of
+ real-world driving to know how many times they're AUB triggered so let me
+
+1:11:05
+Speaker 1 :give you cuz yes right
+ financial advice yeah cuz I work with a lot of automakers and one possiblesource of money for you which I'll be
+ excited to see you take on is basically selling the data so which is somethingthat most people are not selling in a
+ way we're here here at automaker but creating we've done this actually at MITnot for money purposes but you could do
+ it for significant money purposes and make the world a better place bycreating a consortium where automakers
+ would pay in and then they get to have free access to the data and I I think alot of people are really hungry for that
+ and would pay significant amount of money for it here's the problem with
+
+1:11:54
+Speaker 0 :that I like this idea all in theory he'd
+ be very easy for me to give them access to my servers and we already have allopen source tools to access this data
+ it's in a great format we have a great pipeline but they're gonna put me in theroom with some business development guy
+ mm-hmm and I'm gonna have to talk to this guy and he's not gonna know most ofthe words I'm saying I'm not willing to
+
+
+1:12:17
+Speaker 1 :tolerate that okay but I think I agree
+ with you I'm the same way but you just tell them the terms and there's nodiscussion needed if if I could just
+
+
+1:12:25
+Speaker 0 :tell them the terms yeah and then like
+ all right who wants access to my data I will sell it to you for let's say youwant to go on a subscription I'll sell
+ you 400 a month any 100k mo 100k month I'll give you access to the datasubscription yeah yeah I think that's
+ kind of fair came up with that number off the top of my head if somebody sendsme like a three line email where it's
+ like we would like to pay a hundred K month to get access to your data wewould agree to like reasonable privacy
+ terms of the people who are in the data set I would be happy to do it but that'snot gonna be the email the email is
+ gonna be hey do you have some time in the next month where we can sit down andwe can I don't have time for that we're
+ moving too fast yeah you could politely
+
+1:13:08
+Speaker 1 :respond to that email but not saying I
+ don't have any time for your [ __ ] yeah you say oh well unfortunately theseare the terms and so this is we try to
+ we brought the cost down for you in order to minimize the friction ofeducation after here's the whatever it
+ is 1 2 million years dollars a year and you have access and it's not like I get
+
+1:13:28
+Speaker 0 :that email from like but okay am I gonna
+ reach out am I gonna hire a business development person who's gonna reach outto the automaker's no way yeah okay
+
+
+1:13:36
+Speaker 1 :
+
+1:13:38
+Speaker 0 :if they reached into me I'm not gonna
+ ignore the email I'll come back with something straight yeah if you'rewilling just pay honeycomb all the facts
+ they don't man I'm happy to to set that up that's whatmy engineering time but actually quite
+
+
+1:13:48
+Speaker 1 :insightful view you're right yeah
+ probably because many of the automakers are quite a bit of old-school yeah therewill be need to reach out and they want
+ it but they they'll need to be some some communication you right mobile eye
+
+1:14:00
+Speaker 0 :circuit 2015 had the lowest R&D spend of
+ any chip maker like purpur and you look at all the people who work for them andit's all business development people
+ because the car companies are impossible to work with yeah so you're you have no
+
+1:14:15
+Speaker 1 :patience for that and you're you're
+ legit Android huh I have something to do
+
+1:14:20
+Speaker 0 :right like like it's not like it's not
+ like I don't like I don't mean to like be a dick and say like I don't havepatience for that but it's like that
+ stuff doesn't help us with our goal of winning self-driving cars if I wantmoney in the short term if I showed off
+ like the actual like the learning tech that we have it's it's somewhat sad likeit's years and years ahead of everybody
+ else's not so maybe not Tesla's I think Tesla has similar stuff to us actuallyyeah I think Tesla's similar stuff but
+ when you compare it to like what the Toyota Research Institute has you're noteven close to what we have no comment
+
+
+1:14:53
+Speaker 1 :but I also can't I have to take your
+ comments I ain't into ative Lee believe you but I have to take it with a grainof salt because I mean you you are an
+ inspiration because you basically don't care about a lot of things that othercompanies care about you don't try to
+ [ __ ] in a sense like make up stuff so to drive a valuation you're reallyvery real and you're trying to solve the
+ problem and admire that a lot what I don't necessarily fully can't trust youon I do respect it's like how good it is
+ right I can only but I also know how badothers are and so I'll say I'll say two
+
+
+1:15:33
+Speaker 0 :things about don't trust but verify
+ right I'll say two things about that one is try get in a twenty twenty Corollaand try open pal 0.6 when it comes out
+ next month I think already you'll look at this and you'll be like them this isalready really good and then I could be
+ doing that all with hand labelers and all with with like like the sameapproach that like Mobileye uses when we
+ release a model that no law has the lanes in it that only outputs apath mm-hmm
+ then think about how we did that machine learning and then right away when yousee and that's gonna be an open pilot
+ that's gonna be an open pilot before 1.0 when you see that model you'll know thateverything I'm saying is true because
+ how else did I get that model good one of the things too about the simulator ohyeah yeah this is super exciting that's
+
+
+1:16:20
+Speaker 1 :super exciting and uh but like you know
+
+
+1:16:23
+Speaker 0 :I listened to your talk with Kyle and
+ Kyle was originally building the the after market system and he gave up on itbecause of technical challenges yeah
+ because of the fact that he's gonna have to support twenty to fifty cars wesupport forty five because what is he
+ gonna do when the manufacturer ABS system triggers we have alerts andwarnings to deal with all of that in all
+ the cars and how is he going to formally verify it well I got ten million milesof data it's probably better it's
+ probably better verified than the spec
+
+1:16:53
+Speaker 1 :yeah I'm glad you're here talking to me
+ this is I'll remember this day is this interesting if you look at Kyle's fromfrom Cruz I'm sure they have a large
+ number of business development folks and you work with he's working with GM youcould work with agro a I working with
+ Ford it's interesting because chances that you fail business-wise likebankrupt are pretty high yeah and and
+ yet it's the Android model is you're actually taking on the problem so that'sreally inspiring I mean well I have a
+
+
+1:17:28
+Speaker 0 :long-term way for kamma to make money
+ too and one of the nice things when you
+
+1:17:31
+Speaker 1 :really take on the problem which is my
+ hope for autopilot for example is things you don't expect ways to make money orcreate value that you don't expect will
+
+
+1:17:44
+Speaker 0 :pop up oh I've known how to do it
+ since kind of 2017 is the first time I said it well which part to know it to
+
+1:17:48
+Speaker 1 :know how to do which part our long-term
+
+
+1:17:50
+Speaker 0 :plan is to be a car insurance company
+
+
+1:17:53
+Speaker 1 :insurance yeah I love it yeah yeah what
+
+
+1:17:54
+Speaker 0 :I make driving twice is safe not only
+ that I have the best date is that you know who statistically is the safestdrivers and oh oh we see you we see you
+ driving unsafely we're not going to insure you and that that causes a likebifurcation in the market because the
+ only people who can't get common insurance or the bad drivers Geico caninsure them their premiums
+ crazy higher premiums are crazy low would win contracts take over that whole
+
+1:18:18
+Speaker 1 :market okay so if we win if we went but
+
+
+1:18:20
+Speaker 0 :that's I'm saying like how do you turn
+ comma into a ten billion dollar company is that that's right
+
+1:18:25
+Speaker 1 :so you you know a musk who else who else
+ is thinking like this and working like this in your view who are thecompetitors are there people seriously I
+ don't think anyone that I'm aware of as seriously taking on lane-keeping youknow like to worse a huge business that
+ turns eventually into full autonomy that then creates yeah like that createsother businesses on top of it and so on
+ thinks insurance thinks all kinds of ideas like that do you know who anyoneelse thinking like this not really
+
+
+1:18:59
+Speaker 0 :
+
+1:19:02
+Speaker 1 :that's interesting I mean it my sense is
+ everybody turns to that in like four or five years like Ford once the autonomydoesn't feel fall through but at this
+
+
+1:19:13
+Speaker 0 :time Elon to the iOS by the way he paved
+ the way for all I was not i OS true I would not be doing comma AI today if itwas not for those conversations with
+ Elon and if it were not for him saying like yeah I think he said like wellobviously we're not gonna use Leiter we
+ use cameras humans use cameras so what
+
+1:19:31
+Speaker 1 :do you think about that how important is
+ lidar everybody else is on l5 is using lidar what are your thoughts on hisprovocative statement that lidar is a
+
+
+1:19:41
+Speaker 0 :crutch see sometimes we'll say dumb
+ things like the driver monitoring thing but sometimes we'll say absolutelycompletely 100% obviously true things
+ yeah of course lidar is a crutch it's not even a good crutch you're not evenusing it they're using it for
+ localization yeah which isn't good in the first place if you have to localizeyour car to centimetres in order to
+ drive like yeah they're not drive it
+
+1:20:03
+Speaker 1 :currently not doing much machine
+ learning I thought polite our data meaning like to help you in the tasks ofgeneral tasks of perception the main
+
+
+1:20:13
+Speaker 0 :goal of those light hours on those cars
+ I think is actually localization more than perception or at least that's whatthey use them for yeah that's true if
+ you want to localize two centimeters you can't use GPS the fanciest GPS in theworld can't do it especially if you're
+ under tree cover and stuff flatter I can do it pretty easily see
+
+1:20:28
+Speaker 1 :really they're not taking on I mean in
+ some research they're doing they're using it for perception but and they'recertainly not which sad they're not
+ fusing it well lay vision they do use it
+
+1:20:38
+Speaker 0 :for perception I'm not saying they don't
+ use it for perception but the thing that they have vision based and radar basedperception systems as well you could
+ remove the lidar and and and keep around a lot of the dynamic object perceptionyou want to get centimeter accurate
+ localization good luck doing that with anything else so what should Cruz lame-o
+
+1:20:59
+Speaker 1 :do like what would you be your advice to
+ them now anyway Mo's actually there's I mean they're doing they're serious waymo out of all of them equate so serious
+ about the long game if everybody fell five is a lot is requires fifty years Ithink when will be the only one left
+ standing at the end with the forgiving the financial backing if they have
+
+1:21:27
+Speaker 0 :Google box um I'll say nice things about
+ both lame-o and Cruz let's do it nice is
+
+1:21:33
+Speaker 1 :
+
+1:21:35
+Speaker 0 :good way mo is by far the furthest along
+ with technology way mo has a three to five year lead on all the competitors umif that if the way mo looking stack
+ works mm-hmm maybe three year lead if the way mo looking stack works they havea three year lead now I argue that way
+ mo has spent too much money to recapitalize to gain back theirlosses in those three years also
+ self-driving cars have no network effect like that yeah goober has a networkeffect you have a market you have
+ drivers and you have riders self-driving cars you have capital and you haveriders there's no network effect if I
+ want to blanket a new city in self-driving cars i buy theoff-the-shelf Chinese knockoff
+ self-driving cars and I buy enough up from the city I can't do that withdrivers and that's why Ober has a first
+ mover advantage that no self-driving car company will can you uh disentangle that
+
+1:22:24
+Speaker 1 :a little bit uber you're not talking
+ about uber the autonomous vehicle number you talked about the uber cars okay yeah
+
+1:22:32
+Speaker 0 :I'm over I open for business in Austin
+ Texas listen I need to attract both sides of the market I need to both getdrivers
+ my platform and riders on my platinum and I need to keep them bothsufficiently happy right riders aren't
+ going to use it if it takes more than five minutes for an uber to show updrivers aren't gonna use it if they have
+ to sit around all day and there's no riders so you have to carefully balancea market and whenever you have to
+ carefully balance a market there's a great first mover advantage becausethere's a switching cost for everybody
+ right the drivers and the riders would have to switch at the same time let'seven say that you know um let's say
+ Luber shows up in Luber somehow you know agrees to do things that add a biggeryou know you know we're just gonna we've
+ done it more efficiently right Luber is only takes five percent of a cot insteadof the ten percent that Hooper takes no
+ one is gonna switch because the switching cost is higher than that fivepercent so you actually can in markets
+ like that you have a first mover advantage yeah autonomous vehicles ofthe level five variety have no first
+ mover advantage if the technology becomes commoditized say I want to go toa new city look at the scooters it's
+ gonna look a lot more like scooters every person with a checkbook canblanket a city in scooters and that's
+ why you have 10 different scooter companies yeah which one's gonna winit's a race to the bottom it's terrible
+ market to begin because there's no market for scooters and scooters don'tget a say and whether they want to be
+ bought and deployed to a city or not right so the yeah we're gonna entice thescooters with subsidies and deals so
+
+
+1:24:04
+Speaker 1 :whenever you have to invest that capital
+ that's it doesn't it doesn't come back yeah that they can't be your maincriticism over the way mo approach oh
+ I'm saying even if it does technically
+
+1:24:12
+Speaker 0 :work even if it does technically work
+
+
+1:24:15
+Speaker 1 :that's a problem yeah I don't know I if
+ I were to say I I would I would say you're already there I haven't eventhought about that but I would say the
+ bigger challenge is the technical approach so way most cruises and not
+
+1:24:30
+Speaker 0 :
+
+1:24:31
+Speaker 1 :just the technical approach but of
+ creating value I still don't understand how you beat uber the the human drivencars in terms of financially it doesn't
+ it doesn't make sense to me that people want to want to get an autonomousvehicle I don't understand how you make
+ money in the long term like real long-term but it just feelslike there's too much capital investment
+ needed oh and they're gonna be worse
+
+1:25:00
+Speaker 0 :than ubers because they're gonna they're
+ gonna stop for every little you know thing everywhere um actually a nicething about Cruz that was my nice thing
+ about wait another three years that it wasn't nice oh that's three yearstechnically ahead of everybody their
+ tech stack is is great my nice thing about Cruz is GM buying them was a greatmove for GM for 1 billion dollars GM
+ bought an insurance policy against way mo they put Cruz is three years behindway mo hmm that means Google will get a
+ monopoly on the technology for at most three years and technology works
+
+1:25:36
+Speaker 1 :you might not even be right about the
+ three years it might be less might be
+
+1:25:42
+Speaker 0 :less crews actually might not be that
+ far behind I don't know how much way mo has waffled around or how much of itactually is just that long tail yeah
+
+
+1:25:49
+Speaker 1 :okay if that's the best you could say
+ there's some nice things it that's more of a nice thing for GM that that's asmart insurance policy it's just more
+
+
+1:25:58
+Speaker 0 :insurance policy I mean I think that's
+ how I I can't see crews working out any other for crews to leapfrog way mo wouldreally surprise me yeah so let's talk
+
+
+1:26:10
+Speaker 1 :about like the underlying assumptions of
+ everything is we're not going to
+
+1:26:13
+Speaker 0 :leapfrog Tesla Tesla would have to
+ seriously mess up for us because you're
+
+1:26:20
+Speaker 1 :okay so the way you leapfrog right is
+ you come up with an idea or you take a direction perhaps secretly that theother people aren't taking and so cruise
+ way mo even Aurora no Aurora tzuke's is
+
+1:26:38
+Speaker 0 :the same stack as well they're all the
+ same codebase even and they're all the same DARPA urban challenge codebase
+
+1:26:44
+Speaker 1 :so the question is do you think there's
+ a room for brilliance and innovation there that will change everything likesay okay so I'll give you examples it
+ could be if revolution and mapping for example that allow you to map things doHD maps of the whole world all weather
+ conditions
+
+1:27:10
+Speaker 0 :really well or revolutionist simulation
+
+
+1:27:11
+Speaker 1 :to where the the what you said before
+ becomes incorrect that kind of thing I knew room for breakthrough innovation um
+
+1:27:23
+Speaker 0 :what I said before about oh they
+ actually get the whole thing well I'll say this about we divide driving intothree problems and I actually haven't
+ solved the third yet but I have an idea how to do it so there's the static thestatic driving problem is assuming you
+ are the only car on the road right right and this problem can be solved 100% withmapping and localization this is why
+ farms work the way they do if all you have to deal with is the static problemand you can statically schedule your
+ machines right it's the same as like statically scheduling processes you canstatically schedule your tractors to
+ never hit each other on their paths all right because then you know the speedthey go at so so that's the static
+ driving problem Maps only helps you with the static driving problem yeah the
+
+1:28:03
+Speaker 1 :question about static driving yeah you
+ just made it sound like it's really easy
+
+1:28:09
+Speaker 0 :that was really easy how easy how well
+
+
+1:28:11
+Speaker 1 :because the whole drifting out of lane
+ when when Tesla drifts out of lane is failing on the fundamental staticdriving problem Tesla is drifting out of
+
+
+1:28:22
+Speaker 0 :lane the static driving problem is not
+ easy for the world the static driving problem is easy for one route and one
+
+1:28:31
+Speaker 1 :route in one weather condition with one
+ state of lane markings and like no deterioration no cracks in the road I'm
+
+1:28:41
+Speaker 0 :assuming you have a perfect localizer so
+ that's all for the weather condition and me the lane marking condition that's the
+
+1:28:46
+Speaker 1 :problem is how could you how do you have
+ a perfect you can build perfect
+
+1:28:48
+Speaker 0 :localizers are not that hard to build
+
+
+1:28:50
+Speaker 1 :okay come on now with with wood lighter
+
+
+1:28:54
+Speaker 0 :why don't ya wood lighter okay yeah but
+ you use lighter right like use lidar build a perfect localizer building aperfect localizer without lidar it's
+ gonna be it's gonna be hard you can get ten centimeters without liner you canget one centimeter with lidar maybe
+
+
+1:29:07
+Speaker 1 :concern about the one or ten centimeter
+ I'm concerned if every once in a while you're just way off yeah so this is why
+
+1:29:13
+Speaker 0 :you have to carefully make sure you're
+ always tracking your position you want to use lightcamera fusion but you can get the
+ reliability of that system up to a hundred thousand miles and then youwrite some fallback condition where it's
+ not that bad if you're way off right I think that you can get it to the pointit's like özil D that you're you're
+ never in a case where you're way off and you don't know it yeah okay so this is
+
+1:29:39
+Speaker 1 :brilliant so that's the static static we
+ can especially with lidar and good HD maps you can solve that problem easy
+
+1:29:49
+Speaker 0 :no you just the static static very
+
+
+1:29:52
+Speaker 1 :typical for you to say something's easy
+ I got it it's not as challenging as the other ones okay well it's okay maybe
+
+1:29:57
+Speaker 0 :it's obvious how to solve it the third
+ one's the hardest well where do we get and a lot of people don't even thinkabout the third one and even I see it as
+ different from the second one so the second one is dynamic the second one islike say there's an obvious examples
+ like a car stopped at a red light right you can't have that car in yourmap yeah because you don't know whether
+ that car is gonna be there or not so you have to detect that car in real time andthen you have to you know do the
+ appropriate action right also that car is not a fixed object that car may moveand you have to predict with that car
+ will dim alright so this is the dynamic problem yeah do you have to deal withthis um this involves again like you're
+ gonna need models of other people's behavior do you are you including in
+
+1:30:38
+Speaker 1 :that and I don't want to step on on the
+ third one oh but if I are you including in that you're influenced and people I
+
+1:30:48
+Speaker 0 :guess the third okay that's the moon we
+ call it the counterfactual yeah I
+
+1:30:52
+Speaker 1 :believe that I just talked to Judea
+ pearl who's obsessed with
+
+1:30:56
+Speaker 0 :counterfactuals oh yeah yeah so the
+ static and the dynamic yeah our approach right now for lateral willscale completely to the static a dynamic
+ the counterfactual the only way I have to do it yet they don't give you thingthat I want to do once we have all these
+ cars is I want to do reinforcement learning on the world I'm always gonnaturn the exploiter up to max I'm not
+ gonna have them explore but the only real way to get at the counterfactual isto do reinforcement learning because the
+ other agents are humans so that's
+
+1:31:28
+Speaker 1 :fascinating that you break you down like
+ that I agree completely I've set my life
+
+1:31:31
+Speaker 0 :thinking about this beautiful
+
+
+1:31:34
+Speaker 1 :they're so and part of it because you're
+ slightly insane because not my life just
+
+1:31:41
+Speaker 0 :the last four years no no you have like
+
+
+1:31:43
+Speaker 1 :some some nonzero percent of your brain
+ has a madman in it which that's a really good feature but there's a safetycomponent to it that I think when this
+ sort of counterfactuals and so on that would just freak people out how do youeven start to think about just in
+ general I mean you've you've had some friction with Nitza and so on I amfrankly exhausted by safety engineers
+ the the prioritization on safety over innovation to a degree where it kills inmy view kills safety in the long term so
+ the counterfactual thing they just just actually exploring this world of how doyou interact with dynamic objects and so
+ on how do you how do you think about safety you can do reinforcement learning
+
+1:32:35
+Speaker 0 :without ever exploring and I said that
+ like so you can think about you're in like a reinforcement learning it'susually called like a temperature
+ parameter and your temperature parameter is how often you deviate from the Argmax I could always set that to zero and
+ still learn and I feel that you'd always want that set to zero on your actual
+
+1:32:54
+Speaker 1 :system got you but the problem is you
+ first don't know very much and so you're going to make mistakes so the learningthe exploration happens to ready yeah
+
+
+1:33:02
+Speaker 0 :but okay so the consequences of a
+ mistake yeah open pilot and autopilot are making mistakes left and right yeahwe have we have we have 700 daily active
+ users a thousand weekly active users open pilot makes tens of thousands ofmistakes a week these mistakes have zero
+ consequences these mistakes are oh it I wanted to take this exit and it wentstraight so I'm just gonna carefully
+ touch the wheel humans the humans catch themand the human disengagement is labeling
+ that reinforcement learning in a completely consequence-free way so
+
+1:33:37
+Speaker 1 :driver monitoring is the way you ensure
+ they keep yes they keep paying attention how is your messaging say I gave you abillion dollars you would be scaling and
+ now
+
+1:33:48
+Speaker 0 :oh my fact it's guy couldn't scale with
+ any amount of money I'd raise money if I could if I had way to scale yeah you're
+
+1:33:52
+Speaker 1 :not focusing I don't know I don't know
+
+
+1:33:53
+Speaker 0 :how to do Oh like I guess I could sell
+ it to more people but I want to make the system better better I don't know I mean
+
+1:33:59
+Speaker 1 :but what's the messaging here I got a
+ chance to talk to you on and and he he basically said that the human factordoesn't matter you know the human
+ doesn't matter because the system will perform there would be sort of a sorryto use the term but like a singular like
+ a point where it gets just much better and so the human it won't won't reallymatter but it seems like that human
+ caching the system when it gets into trouble is like the thing which willmake something like reinforcement
+ learning work so how do you how do you think messaging for Tesla for you shouldchant for the industry in general should
+ change I think my messaging is pretty
+
+1:34:39
+Speaker 0 :clear at least like our messaging wasn't
+ that clear in the beginning and I do kind of fault myself for that we areproud right now to be a level 2 system
+ we are proud to be level 2 if we talk about level 4 it's not what the currenthardware it's not gonna be just a
+ magical OTA upgrade it's gonna be new hardware it's gonna be very carefullythought-out right now we are proud to be
+ level 2 and we have a rigorous safety model I mean not like like okay rigorouswho knows what that means but we at
+ least have a safety model and we make it explicit is in safety MD and open pilotand it says seriously though safety dot
+
+
+1:35:17
+Speaker 1 :MD Android so well this is this is the
+
+
+1:35:19
+Speaker 0 :safety model and I like to have
+ conversations like if like you know sometimes people will come to you andthey're like your systems not safe okay
+ have you read my safety Doc's would you like to have an intelligent conversationabout this and the answer is always no
+ they just like scream about it runs Python okay what so you're saying thatthat because pythons not real-time
+ Python not being real-time never causes disengagement disengagement SAR causedby you know the model is QM but safety
+ dad MD says the following first and foremost the driver must be payingattention at all times
+ I don't can I do I still consider the software to be alpha software until wecan actually enforce that statement but
+ I feel it's very well communicated to our users two morethings one is the user must be able to
+ easily take control of the vehicle at all timesmm-hmm so if you step on the gas or
+ brake with open pilot it gives full manual control back to theuser or press the cancel button step 2
+ the car will never react so quickly we define so quickly to be about one secondthat you can't react in time and we do
+ this by enforcing torque limits braking limits and acceleration limits so wehave um like our torque limits way lower
+ than Tesla's this is another potential if I could tweak autopilotI would lower their torque limit or
+ would a driver monitoring um because autopilot can jerk the wheel hard yeahopen pilot can it's we we limit um and
+ all this code is open source readable and I believe now it's all misery C
+
+1:36:55
+Speaker 1 :compliant misra is like the automotive
+
+
+1:36:56
+Speaker 0 :coding standard um at first I you know
+ I've come to respect I've been reading like the standards lately and I've cometo respect them they're actually written
+ by very smart people yeah they're
+
+1:37:08
+Speaker 1 :brilliant people actually they have a
+ lot of experience there's sometimes a little too cautious but in this case itpays off miss was written by like
+
+
+1:37:17
+Speaker 0 :computer scientists and you tell them as
+ a language they use you can tell by the language they use they talk about likewhether certain conditions in misra are
+ decidable or undecidable you mean like the halting problem and yes well allright you've earned my respect I will
+ tell you carefully what you have to say and we want to make our code compliantwith that all right so you're proud
+
+
+1:37:36
+Speaker 1 :level two and reform so you were the
+ founder and I think CEO of comm AI then you were the head of research what theheck are you know what's your connection
+ to come AI the president but I'm one of
+
+1:37:48
+Speaker 0 :those like unelect unelected presidents
+ of like like a small dictatorship country not one of those like electedpresidents oh so you're like Putin when
+
+
+1:37:55
+Speaker 1 :he was like yeah I got sure so there's
+
+
+1:37:59
+Speaker 0 :
+
+1:38:00
+Speaker 1 :uh what's the governance structure
+ what's the what's the future of commie I finance I mean as a business do you wantyou just focused on getting things right
+ now making some small amount of money and mean toand then one that works it works in each
+ scale our burn rate is about 200k a
+
+1:38:18
+Speaker 0 :month and our revenue is about 100k a
+ month so we need to 4x our revenue but uh we haven't like tried very hard atthat yet
+
+
+1:38:28
+Speaker 1 :and the revenue is basically selling
+ stuff online yeah we sell stuff shopped
+
+1:38:31
+Speaker 0 :a comment at AI is there other well okay
+
+
+1:38:33
+Speaker 1 :so you you'll have to figure out that's
+
+
+1:38:36
+Speaker 0 :our that's our only see but to me that's
+ like respectable revenues yeah we make it by selling products to consumerswe're honest and transparent about what
+ they are most actually level for
+
+1:38:46
+Speaker 1 :companies right because you could easily
+ start blowing up like smoke like over selling the hype and feeding intogetting some fundraisers oh you're the
+ guy you're genius because you hacked the iPhone oh I hate that I hate that yeah I
+
+1:39:02
+Speaker 0 :can trade my social capital for more
+ money yeah I did it once I almost regret itdoing the first of it well on a small
+
+
+1:39:10
+Speaker 1 :tangent what's your you seem to not like
+ Fame and yet you're also drawn to fame what were you on we're on you where areyou on that currently have you had some
+ introspection some soul-searching yeah I actually I've come to a pretty
+
+1:39:28
+Speaker 0 :stable position on that like after the
+ first time I realized that I don't want attention from the massesI want attention from people who I
+ respect who you respect I can give a
+
+1:39:40
+Speaker 1 :
+
+1:39:42
+Speaker 0 :
+
+1:39:44
+Speaker 1 :list of people so are these like Elon
+ must have characters yeah
+
+1:39:47
+Speaker 0 :well actually you know what I'll make it
+ more broad than that I won't make it about a person I respect skill I respectpeople who have skills right and I would
+ like to like be I'm not gonna say famous but be like known among more people who
+
+1:40:07
+Speaker 1 :have like real skills who in cars doers
+ do you think have skill not do you
+
+1:40:14
+Speaker 0 :respect Oh Kyle vote has skill a lot of
+ people away mo have skill and I respect them I I respect them as engineers likeI can think I mean I think about all the
+ times in my life where I've been like dead set on approaches and they turn outto be wrong
+ so I mean this might I might be wrong I accept that I accept that there's adecent chance that I'm I'm wrong and
+ actually I mean having talked to Chris
+
+1:40:37
+Speaker 1 :Urmson sterling anderson i those those
+ guys I mean I deeply respect Chris I just admire the guy he's legit can youdrive a car through the desert when
+ everybody thinks it's impossible that is that's legit and then I also really
+
+1:40:53
+Speaker 0 :respect the people who are like writing
+ the infrastructure of the world like the linus torvalds and the chris lab they'redoing the real work I know they're doing
+
+
+1:40:58
+Speaker 1 :
+
+1:41:00
+Speaker 0 :the real work this every dog that Chris
+
+
+1:41:01
+Speaker 1 :Ladin you realize especially when
+ they're humble it's like you realize oh you guys were just using your oh yeahall the hard work they did him that's
+ incredible what do you think mr. Anthony lowendahl skiwhat do you he's a he's another mad
+ genius sharp guy oh yeah what do you think he might long-term become acompetitor Oh
+
+
+1:41:28
+Speaker 0 :tu cama well so I think that he has the
+ other right approach I think that right now there's two right approaches one iswhat we're doing and one is what he's
+ doing can you describe I think it's
+
+1:41:38
+Speaker 1 :called pronto a certain you thing did do
+ you know what what the approaches actually don't know embark is also doing
+
+1:41:43
+Speaker 0 :the same sort of thing the idea is
+ almost that you want to so if you're I can't partner with Honda and ToyotaHonda and Toyota are uh like four
+ hundred thousand person companies it's not even a company at that point like Idon't think of it like I don't personify
+ it I think of it like an object but a truckerdrives for a fleet maybe that has like
+ some truckers are independent some truckers Drive for fleets with a hundredtrucks there are tons of independent
+ trucking companies out there start a trucking company and drive your costsdown or figure out how to drive down the
+ cost of trucking another company that I really respect is uh not oh I should Irespect their business model no auto
+ sells a driver monitoring camera and they sell it to fleet owners if I that'sright if I owned a fleet of cars and I
+ could pay you know 40 bucks a month to monitor my employeesthis is gonna like reduces accidents 18%
+ yeah it's it's so like that in the space that is like the business model that Ilike most respect is there creating
+ value today yeah which is uh that's a
+
+1:42:55
+Speaker 1 :huge one is how do we create value today
+ with some of this then the link keeping things huge and it sounds like you'recreeping in or full steam ahead on the
+ driver monitoring - yeah which I think actually were the short-term value ifyou can get right I still I'm not a huge
+ fan of the statement that everything is to have driver monitoring but will Iagree with that completely but I'm that
+ statement usually misses the point that to get the experience of it right is nottrivial oh no not at all in fact like so
+
+
+1:43:22
+Speaker 0 :right now we have I think the time out
+ depends on speed of the car but we want to depend on like the scenes day ifyou're on like an empty Highway it's
+ very different if you don't pay attention then if light you're likecoming up to a traffic light and
+
+
+1:43:42
+Speaker 1 :long-term it should probably learn from
+ from the driver because that's to do I watched a lot of video we've built asmartphone detector just to analyze how
+ people are using smartphones and people are using it very differently andthere's a it's a texting styles there's
+
+
+1:43:58
+Speaker 0 :videos yeah like I got billions of miles
+ of people driving cars in this moment I
+
+1:44:02
+Speaker 1 :spent a large fraction of my time just
+ watching videos because it's never fails to to learn like it never I've neverfailed from a video watching session to
+ learn something I didn't know before fact I usually like when I eat lunchI'll sit especially when the weather is
+ good and just watch pedestrians with an eye to understand like from a computervision I just to see can this model can
+ you predict what are the decisions made and there's so many things that we don'tunderstand this is what I mean about the
+
+
+1:44:33
+Speaker 0 :state vector
+
+
+1:44:35
+Speaker 1 :yeah it's I'm trying to always think
+ like Gamma understanding in my human brain how do we convert that into howhard is the learning problem here I
+ guess is the fundamental question so something that from a hackingperspective this is always comes up
+ especially with folks well first the most popular question isthe trolley problem right so that's not
+ a sort of a serious problem there are some ethical questions I think thatarise maybe will you want to met you or
+ do you think there's any ethical serious ethical questions that we have a
+
+1:45:11
+Speaker 0 :solution to the trolley problem Akane
+ aye well so there is actually an alert in our code ethical dilemma detectedit's not triggered yeah we don't we
+ don't how you have to detect the ethical dilemmas but we're a level two system sowe're going to disengage and leave that
+ decision to the human you're such a troll hey no but the trolley problemdeserves to be trolled yeah that's a
+
+
+1:45:29
+Speaker 1 :beautiful answer actually I know I gave
+
+
+1:45:32
+Speaker 0 :it to someone who was like sometimes
+ people ask like you asked about the trolley problems like you can have akind of discussion about it like boo you
+ get someone who's like really like earnest about it because it's the kindof thing where if you ask a bunch of
+ people in an office whether we should use a sequal stack or no sequel stack ifthey're not that technical they have no
+ opinion but if you ask them what color they want to paint the office everyonehas an opinion on that and that's why
+ the trolley problem is that's it I mean
+
+1:45:56
+Speaker 1 :it's a beautiful answer
+ yeah we're able to detect the problem and were able to pass it on to the humanyeah I've never never heard anyone say
+ it nice escape route okay but proud level - I'm proud level - I love it sothe other thing that people cope you
+ know have some concern about with AI in general is hacking so how hard is it doyou think to hack a nataas vehicle
+ either through physical access or through the more sort of popular nowthese adversarial examples on the
+ sensors be adversarial examples one you
+
+1:46:29
+Speaker 0 :want to see some adversarial examples
+ that affect humans hmm right oh well there used to be a stop sign here but Iput a black bag over the stop sign and
+ then people ran it all right adversarial yeah right like like like there's tonsof human adversarial examples - um the
+ question in general about like security if you saw something something just cameout today I'm like there are always such
+ high P headlines about like how navigate on autopilot was fooled by a GPS spoofto take an exit right at least that's
+ all they could do was take an exit if your car is relying on GPS in order tohave a safe driving policy they're doing
+ something if you're relying and this is why v2v issuch a terrible idea
+ v2v now relies on both parties getting communication right this is not even soI think of safety security is like a
+ special case of safety right safety is like we put a little you know piece ofcaution tape around the hole so that
+ people won't walk into it by accident security is I put a 10 foot fence aroundthe hole so you actually physically
+ cannot climb into it with barbed wire on the top and stuff right so like ifyou're designing systems that are like
+ unreliable they're definitely not secure your car should always do something safeusing its local sensors and then the
+ local sensor should be hardwired and then could somebody hack into your canboss and turn your steering wheel on
+ your brakes yes but they could do it before commonAI too so let's think out of the box and
+
+
+1:48:02
+Speaker 1 :some things so do you think
+ teleoperation has a role in any of this so remotely stepping in and controlling
+
+1:48:14
+Speaker 0 :the cars no I think that if safety if
+ the safety operation by design requires a constant link to the cars I think itdoesn't work so that's the same argument
+
+
+1:48:27
+Speaker 1 :using for v2i VTV well there's a lot of
+
+
+1:48:31
+Speaker 0 :non safety critical stuff you can do
+ with v2 I like v2 I liked v2 I weigh more than V B because Vita I is isalready like I already have internet in
+ the car right there's a lot of great stuff you can do with v2 I um like forexample you can well where I already
+ have v2 Waze is V die right ways can route me around traffic jams that's agreat example of v2 I mm-hmm and then
+ okay the car automatically talks to that same service like improving the
+
+1:48:56
+Speaker 1 :experience but it's not a fundamental
+ fallback for safety know if any of your
+
+1:49:00
+Speaker 0 :if any of your if any of your things
+ that require wireless communication are more than qm like have a nozzle ratingyou should you previously said that life
+
+
+1:49:10
+Speaker 1 :is work and then you don't do anything
+ to relax so how do you think about hard work well what is it what do you thinkit takes to
+ as great things you know there's a lot of people saying that there needs to besome balance you know you need to in
+ order to accomplish great things you need to take some time off each ofreflects and so on now and then some
+ people are just insanely working burning the candle at both ends how do you thinkabout that I think I was trolling in the
+
+
+1:49:41
+Speaker 0 :Siraj interview when I said that
+ off camera right before I spoke a little bit we'd like get out spot this is ajoke right like I do nothing it relaxed
+ look where I am I'm at a party right yeah
+
+1:49:53
+Speaker 1 :that's true so no of course I I don't um
+
+
+1:49:55
+Speaker 0 :what I say that life is work though I
+ mean that like I think that what gives my life meaning is work I don't meanthat every minute of the day you should
+ be working I actually think this is not the best way to maximize results I thinkthat if you're working 12 hours a day
+ you should be working smarter and not harder
+
+1:50:15
+Speaker 1 :well so it gives work gives you meaning
+ for some people other source of meaning is personal relationships yeah likefamily and so on
+ you've also in that interview of Sirach or does the the trolling mentioned thatone of the things you look forward to in
+ the future is AI girlfriends yes so at the topic that I'm all very muchfascinated by not necessarily
+ girlfriends but just forming a deep connection with AI what kind of systemdo you imagine when you say AI
+ girlfriend whether you were trolling or not know that one I'm very serious about
+
+1:50:48
+Speaker 0 :and I'm serious about that on both a
+ shallow level and a deep level I think that VR brothels are coming soon and aregonna be really cool it's not cheating
+ if it's a robot I see the slogan already but there's I don't know if you've
+
+1:51:04
+Speaker 1 :watched it just watched the black mirror
+ episode i watch the one year yeah yeah
+
+1:51:11
+Speaker 0 :oh the the Ashley - one way da no where
+
+
+1:51:14
+Speaker 1 :there's two friends were having sex with
+ each other and mo in the VR game your game it's just two guys but yeah one ofthem was was a female and yeah there's
+ another mind-blowing concept that in VR you don't have to be the form you can beto animals having sex
+ weird I mean I'll see you I said the
+
+1:51:37
+Speaker 0 :software Maps the nerve endings right
+ yeah yeah they they sweep a lot of the
+
+1:51:41
+Speaker 1 :fascinating really difficult technical
+ challenges under the rock like assuming it's possible to do the mapping of thenerve endings then I wish yeah I saw
+
+
+1:51:51
+Speaker 0 :that the way they did it with a little
+ like stim unit on the head that'd be amazing so wanna know on a shallow levellike you could set up like almost a
+ brothel with like real dolls and oculus quests right some good software I thinkit vehicle novelty experience you know
+ on a deeper like emotional level I mean yeah I would really like to fall in lovewith with with the machine do you see
+
+
+1:52:19
+Speaker 1 :yourself having a long-term relationship
+ of the kind monogamous relationship that we have now with a robot with a a AIsystem even not even just the robot so I
+
+
+1:52:34
+Speaker 0 :think about maybe my ideal future when I
+ was fifteen I read eliezer yudkowsky early writings mmm-hmmon the singularity and like that AI is
+ going to surpass human intelligence massively he made some Moore's law basedpredictions that I mostly agree with and
+ then I really struggled for the next couple years of my life like why shouldI even bother to learn anything it's all
+ gonna be meaningless when the machines show up right maybe maybe when I wasthat young I was still a little bit more
+ pure and really like clung to that and I'm like wow the machines ain't here yetyou know and I seem to be pretty good at
+ this stuff let's uh let's try my best you know likewhat's the worst that happens but the
+ best possible future I see is me sort of merging with the Machine and the waythat I personify this is in a long-term
+ monogamous relationship with a machine oh you don't think there's room for
+
+1:53:33
+Speaker 1 :another human in your life if you really
+ truly merge with another machine I mean
+
+1:53:39
+Speaker 0 :I see merging I see like the best
+ interface to my brain is like the same relationship and to merge with an AIright
+ does that merging feel like I see yeah I've seen couples who've been togetherfor a long time and like I almost think
+ of them as one person like couples who spend all their time together and that's
+
+1:54:01
+Speaker 1 :that's how you're actually putting what
+ does that merging actually looks like it's not just a nice channel like a lotof people imagine it's just an efficient
+ link search link to Wikipedia or something I don't believe in that butit's more you're saying that there's the
+ same kind of the same kind of relationship you have one other humanthat's a deep relationship is that's
+ what merging looks like that's that's pretty uh I don't believe that link is
+
+1:54:25
+Speaker 0 :possible um I think that that link so
+ you're like oh me to download Wikipedia right to my brain yeah my reading speedis not limited by my eyes my reading
+ speed is limited by my inner processing locally and to like bootstrap thatsounds kind of unclear how to do it and
+ horrify but if I am with somebody and I'll use a somebody who is making asuper sophisticated model of me and then
+ running simulations on that model I'm not gonna get into the question whetherthe simulations are conscious or not I
+ don't really want to know what it's doingum but using those simulations to play
+ out hypothetical futures for me deciding what things to say to me to guide mealong a path and that's how I envision
+ it
+
+1:55:09
+Speaker 1 :so on that path to AI of superhuman
+ level intelligence you've mentioned that you believe in the singularity thatsingularity is coming yeah again could
+ be trolling could be not could be part I'm all trolling his truth in it I don't
+
+1:55:23
+Speaker 0 :know what that means anymore what is the
+ singularity yeah so that's that's really
+
+1:55:25
+Speaker 1 :the question how many years do you think
+ before the singularity what form do you think it will take does that meanfundamental shifts and capabilities of
+ AI does it mean some other kind of ideas
+
+1:55:39
+Speaker 0 :um maybe this is just my roots but so I
+ can buy a human beings worth of compute for like a million bucks that I it'sabout one TPU pod v3 I want like I think
+ they claim a hundred peda flops that's being generous I think humans areactually more like twenty so that's like
+ five humans that's pretty good Google needs to sell their teepees umbut I could buy I could buy I could buy
+ GPUs I could buy a stack of like by 1080 tea eyes build data center full of themfour million box I can get a human worth
+ of compute but when you look at the total number of flops in the world whenyou look at human flops which goes up
+ very very slowly with the population and machine flops which goes upexponentially but it's still nowhere
+ near I think that's the key thing to talk about when the singularity happenedwhen most flops in the world are silicon
+ and not biological that's kind of the crossing point like they are now thedominant species on the planet and just
+
+
+1:56:36
+Speaker 1 :looking at how technology is progressing
+ when do you think that could possibly happenyou think go to happen in your lifetime
+ oh yeah definitely my lifetime I've done
+
+1:56:42
+Speaker 0 :the math I like 2038 because it's the
+ UNIX timestamp rollover yeah beautifully
+
+1:56:49
+Speaker 1 :put
+ so you've you said that the meaning of life has to win if you look five yearsinto the future what does winning look
+ like so
+
+1:57:02
+Speaker 0 :[Music]
+ hi there's a lot of I can go into like technical depth to what I mean by thatto win um it may not mean I was
+ criticized for that in the comments like doesn't this guy want to like save thepenguins in Antarctica or like you know
+ listen to what I'm saying I'm not talking about like I have a yacht orsomething I am an agent I am put into
+ this world and I don't really know what my purpose is but if you're areinforcement if you're if you're an
+ intelligent agent and you're put into a world what is the ideal thing to do wellthe ideal thing mathematically you go
+ back to like Schmitt Hoover theories about this is to build a compressivemodel of the world to build a maximally
+ compressive to explore the world such that your exploration function maximizesthe derivative of compression of the
+ past mid Hoover has a paper about this and like I took that kind of as like apersonal goal function so what I mean to
+ win I mean like maybe maybe this is religious but like I think that in thefuture I might be given a real purpose
+ or I may decide this purpose myself and then at that point now I know what thegame is and I know how to win I think
+ right now I'm still just trying to figure out what the game is but once Iknow so you have you have imperfect
+
+
+1:58:23
+Speaker 1 :information you have a lot of
+ uncertainty about the reward function and you're discovering it exactly thepurpose is that's that's the better way
+
+
+1:58:31
+Speaker 0 :
+
+1:58:32
+Speaker 1 :to put it the purpose is to maximize it
+ while you have it a lot of uncertainty around it and you're both reducing theuncertainty and maximizing at the same
+ time yeah and so that's at the technical level what is the if you believe in the
+
+1:58:45
+Speaker 0 :universal prior yeah
+ what is the universal reward function that's the better way to put it so that
+
+1:58:51
+Speaker 1 :when it's interesting I think I speak
+ for everyone in saying that I wonder what that reward function is for you andI look forward to seeing that in five
+ years in ten years I think a lot of people who do myself right and cheeringyou on man so I'm I'm a happy you exist
+ and I wish you the best of luck thanks for talking today man
+

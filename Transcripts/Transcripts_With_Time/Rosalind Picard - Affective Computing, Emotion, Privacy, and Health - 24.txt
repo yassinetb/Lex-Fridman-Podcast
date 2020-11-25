@@ -1,0 +1,385 @@
+0:00:00
+Speaker 1 :
+
+0:00:00
+Speaker 0 :
+
+0:00:00
+Speaker 1 :
+
+0:00:00
+Speaker 0 :
+
+0:00:00
+Speaker 1 :
+
+0:00:00
+Speaker 0 :
+
+0:00:00
+Speaker 1 :
+
+0:00:00
+Speaker 0 :
+
+0:00:00
+Speaker 1 :
+
+0:00:00
+Speaker 0 :the following is a conversation with
+
+
+0:00:00
+Speaker 1 :
+
+0:00:01
+Speaker 0 :
+
+0:00:01
+Speaker 1 :
+
+0:00:01
+Speaker 0 :
+
+0:00:01
+Speaker 1 :
+
+0:00:01
+Speaker 0 :Rosalind Picard she's a professor at MIT
+
+
+0:00:03
+Speaker 1 :
+
+0:00:03
+Speaker 0 :
+
+0:00:03
+Speaker 1 :
+
+0:00:04
+Speaker 0 :
+
+0:00:04
+Speaker 1 :
+
+0:00:04
+Speaker 0 :director of the effective computing
+
+
+0:00:06
+Speaker 1 :
+
+0:00:06
+Speaker 0 :
+
+0:00:07
+Speaker 1 :Research Group at the MIT Media Lab and
+
+
+0:00:07
+Speaker 0 :co-founder of two companies Affectiva
+
+
+0:00:10
+Speaker 1 :
+
+0:00:10
+Speaker 0 :and in Pataca over two decades ago she
+
+
+0:00:13
+Speaker 1 :
+
+0:00:14
+Speaker 0 :launched the field of affective
+ computing with her book of the same name
+
+0:00:16
+Speaker 1 :
+
+0:00:16
+Speaker 0 :this book described the importance of
+
+
+0:00:19
+Speaker 1 :
+
+0:00:19
+Speaker 0 :
+
+0:00:19
+Speaker 1 :
+
+0:00:19
+Speaker 0 :emotion in artificial and natural
+
+
+0:00:21
+Speaker 1 :
+
+0:00:21
+Speaker 0 :
+
+0:00:21
+Speaker 1 :
+
+0:00:22
+Speaker 0 :intelligence the vital role of emotional
+
+
+0:00:23
+Speaker 1 :
+
+0:00:23
+Speaker 0 :
+
+0:00:23
+Speaker 1 :
+
+0:00:23
+Speaker 0 :
+
+0:00:23
+Speaker 1 :
+
+0:00:23
+Speaker 0 :
+
+0:00:23
+Speaker 1 :
+
+0:00:23
+Speaker 0 :
+
+0:00:23
+Speaker 1 :
+
+0:00:24
+Speaker 0 :communication has to the relationship
+
+
+0:00:25
+Speaker 1 :
+
+0:00:25
+Speaker 0 :
+
+0:00:26
+Speaker 1 :
+
+0:00:27
+Speaker 0 :between people in general and human
+
+
+0:00:30
+Speaker 1 :
+
+0:00:30
+Speaker 0 :robot interaction I really enjoy talking
+
+
+0:00:30
+Speaker 1 :
+
+0:00:31
+Speaker 0 :
+
+0:00:32
+Speaker 1 :with Roz over so many topics including
+
+
+0:00:33
+Speaker 0 :
+
+0:00:33
+Speaker 1 :
+
+0:00:33
+Speaker 0 :emotion ethics privacy wearable
+
+
+0:00:36
+Speaker 1 :
+
+0:00:37
+Speaker 0 :
+
+0:00:37
+Speaker 1 :
+
+0:00:37
+Speaker 0 :computing and her recent research in
+
+
+0:00:38
+Speaker 1 :
+
+0:00:38
+Speaker 0 :
+
+0:00:38
+Speaker 1 :
+
+0:00:38
+Speaker 0 :
+
+0:00:38
+Speaker 1 :
+
+0:00:39
+Speaker 0 :
+
+0:00:40
+Speaker 1 :
+
+0:00:40
+Speaker 0 :epilepsy and even love and meaning this
+
+
+0:00:41
+Speaker 1 :
+
+0:00:42
+Speaker 0 :
+
+0:00:42
+Speaker 1 :
+
+0:00:42
+Speaker 0 :conversation is part of the artificial
+
+
+0:00:44
+Speaker 1 :
+
+0:00:44
+Speaker 0 :intelligence podcast if you enjoy
+
+
+0:00:46
+Speaker 1 :
+
+0:00:46
+Speaker 0 :
+
+0:00:46
+Speaker 1 :
+
+0:00:47
+Speaker 0 :
+
+0:00:47
+Speaker 1 :
+
+0:00:47
+Speaker 0 :subscribe on youtube itunes or simply
+ connect with me on twitter at Lex
+
+0:00:51
+Speaker 1 :
+
+0:00:51
+Speaker 0 :Friedman spelled Fri D and now here's my
+
+
+0:00:53
+Speaker 1 :
+
+0:00:53
+Speaker 0 :
+
+0:00:53
+Speaker 1 :
+
+0:00:53
+Speaker 0 :
+
+0:00:54
+Speaker 1 :
+
+0:00:54
+Speaker 0 :
+
+0:00:54
+Speaker 1 :
+
+0:00:54
+Speaker 0 :
+
+0:00:55
+Speaker 1 :
+
+0:00:55
+Speaker 0 :conversation with Rosalind Picard
+
+
+0:00:58
+Speaker 1 :
+
+0:00:58
+Speaker 0 :
+
+0:01:00
+Speaker 1 :more than 20 years ago you've coined the
+
+
+0:01:01
+Speaker 0 :term effective computing and let a lot
+
+
+0:01:03
+Speaker 1 :
+
+0:01:03
+Speaker 0 :
+
+0:01:04
+Speaker 1 :
+
+0:01:04
+Speaker 0 :
+
+0:01:04
+Speaker 1 :
+
+0:01:04
+Speaker 0 :
+
+0:01:04
+Speaker 1 :
+
+0:01:05
+Speaker 0 :of research in this area since then as I
+
+
+0:01:07
+Speaker 1 :
+
+0:01:07
+Speaker 0 :
+
+0:01:07
+Speaker 1 :understand the goal is to make the
+
+
+0:01:07
+Speaker 0 :
+
+0:01:08
+Speaker 1 :
+
+0:01:08
+Speaker 0 :machine detect and interpret the
+
+
+0:01:11
+Speaker 1 :
+
+0:01:11
+Speaker 0 :
+
+0:01:11
+Speaker 1 :emotional state of a human being and
+
+

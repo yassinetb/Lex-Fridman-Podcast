@@ -1,0 +1,1439 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ Sean Carroll part 2 the second time we've spoken on the podcast you can getthe link to the first time in the
+ description this time we focus on quantum mechanics and the many-worldsinterpretation that he details elegantly
+ in his new book titled something deeply hidden I own and enjoy both the ebookand audiobook versions of it listening
+ to Sean read about entanglement complementarity and the emergence ofspace-time reminds me of bob ross
+ teaching the world how to paint and his own television showif you don't know who Bob Ross is you're
+ truly missing out look him up he'll make you fall in love with painting SeanCarroll is the Bob Ross of theoretical
+
+
+0:00:46
+Speaker 0 :
+
+0:00:46
+Speaker 1 :physics he's the author of several
+ popular books a host of a great podcast called mindscape and is a theoreticalphysicist at Caltech and the Santa Fe
+ Institute specializing in quantum mechanics arrow of time cosmology andgravitation this is the artificial
+ intelligence podcast if you enjoy it subscribe on YouTube give it five starsof iTunes
+ supported on patreon or simply connect with me on Twitter Alex Friedman spelled
+
+0:01:17
+Speaker 0 :Fri D ma N and now here's my
+
+
+0:01:18
+Speaker 1 :
+
+0:01:20
+Speaker 0 :conversation with Sean Carroll
+
+
+0:01:22
+Speaker 1 :Isaac Newton developed what we now call
+ classical mechanics that you describe very nicely in your new book because youdo with a lot of basic concepts in
+ physics so was classical mechanics I can throw a rock and can predict thetrajectory of that rocks flight but if
+ we could put ourselves back into Newton's time his theories work topredict things but as I understand he
+ himself thought that they were their interpretations of those predictionswere absurd perhaps he just said it for
+ religious reasons and so on but in particular sort of a world ofinteraction without contact so action at
+ a distance it didn't make sense to them in a sortof a human interpretation level does it
+ make sense to you that things can affect other things at a distance it does but
+
+0:02:15
+Speaker 0 :you know that so that was one of
+ Newton's worries you're actually right in a slightly different way about thereligious worries he he was smart enough
+ this is off the topic with still fascinating Newton almost invented chaostheory as soon as he invented classical
+ mechanics he realized that in the solar system so he was able to explain howplanets move around the Sun but
+ typically you would describe the orbit of the earthignoring the effects of Jupiter and
+ Saturn and so forth just doing the earth and the Sun he he kind of knew eventhough he couldn't do the math that if
+ you included the effects of Jupiter and Saturn the other planets the solarsystem would be unstable like the orbits
+ of the planets would get out of whack so he thought that God would interveneoccasionally to sort of move the planets
+ back into orbit which is how you could only way you could explain how they werethere presumably forever but the worries
+ about classical mechanics were a little bit different they worried about gravityin particularly wasn't it worried about
+ classical mechanics worried about gravity how in the world does the earthknow that there's something called the
+ Sun 93 million miles away that is exerting gravitational force onit and he said he literally said you
+ know I leave that for future generations to think about because I don't know whatthe answer is and in fact the people
+ under emphasize this but future generations figured it out Pierre SimoneLaplace in circa 1800 showed that you
+ could rewrite Newtonian gravity as a field theory so instead ofjust talking about the force due to
+ gravity you can talk about the gravitational field or the gravitationalpotential field and then there's no
+ action at a distance it's exactly the same theory empirically it makes exactlythe same predictions but what's
+ happening is instead of the Sun just reaching out across the void there is agravitational field in between the Sun
+ and the earth that obeys an equation Laplace's equation cleverly enough andthat tells us exactly what the field
+ does so even in Newtonian gravity you don't need action at a distance now whatmany people say is that Einstein solved
+ this problem because he invented general relativity and general relativitythere's certainly a field in between the
+ Earth and the Sun but also there's the speed of light as a limit in Laplace'stheory which was exactly Newton's theory
+ just in a different mathematical language there could still beinstantaneous action across the universe
+ whereas in general relativity if you shake something here its gravitationalimpulse radiates out at the speed of
+ light and we call that a gravitational wave and we can detect those so but I Ireally it rubs me the wrong way to think
+ that we should presume the answer should look one way or the other like if itturned out that there was action at a
+ distance in physics and that was the best way to describe things that I woulddo it that way it's actually a very deep
+ question because when we don't know what the right laws of physics are when we'reguessing at them when we're
+ hypothesizing at what they might be we are often guided by our intuitionsabout what they should be I mean
+ Einstein famously was very guided by his intuitions and he did not like the ideaof action at a distance we don't know
+ whether he was right or not it depends on your interpretation of quantummechanics and it depends on even how you
+ talk about quantum mechanics within any one interpretation if you see every
+
+0:05:24
+Speaker 1 :forces of field or any other
+ interpretation of action at a distance he's just stepping back to sort ofcaveman thinking like do you really can
+ you really sort of understand what it means for a force to be a field aseverywhere so if you look at gravity
+ like what do you think about I think so it's just something that you've been canand by society to think that to map the
+ fact that science is extremely well predictive of something to believingthat you actually understand it like you
+ can intuitively under the how as the degree that human beings can understandanything that you actually understand it
+ are you just trusting the beauty and the power of the predictive power science
+
+0:06:18
+Speaker 0 :that depends on what you mean by this
+ idea of truly understandings right right you know I mean can I Lily understandfour months Last Theorem you know it's
+ easy to state it but do I really appreciate what it means for incrediblylarge numbers right yeah I think yes I
+ think I do understand it but like if you want to just push people on well you putyour intuition doesn't go to the places
+ where Andrew Wiles needed to go to prove Fermat's Last Theorem and I can say fineby something I understand the theorem
+ and likewise I think that I do have a pretty good intuitive understanding offields pervading space time whether it's
+ the gravitational field or the electromagnetic field or whatever theHiggs field of course one's intuition
+ gets worse and worse as you get trickier in the quantum field theory and allsorts of new phenomena that come up in
+ quantum field theory so our intuitions aren't perfect but I think it's alsookay to say that our intuitions get
+ trained right like you know I have different intuitions now that I had whenI was a baby that's okay that's not an
+ intuition is not necessarily intrinsic to who we are we can we can train it a
+
+0:07:27
+Speaker 1 :little bit so that's where I'm gonna
+ bring in norm Chomsky for a second who thinks that our cognitive abilities aresort of evolved through time and so
+ they're they're biologically constrained and so there's a clear limit as he putsit to our cognitive abilities and it's a
+ very harsh limit but you actually kind of said something interesting and natureversus nurture thing here is we can
+ train our intuitions to sort of build up the cognitive muscles to be able tounderstand some of these tricky casas so
+ do you think there's limits to our understanding that's deeply rootedhard-coded into our biology that we
+ can't overcome
+
+0:08:09
+Speaker 0 :there could be limits to things like our
+ ability to visualize okay but when someone like Ed Witten proves a theoremabout you know hundred dimensional
+ mathematical spaces he's not visualizing it he's doing the math that doesn't stophim from understanding the result I
+ think and I would love to understand this better but my rough feeling whichis not very educated is that you know
+ there's some threshold that one crosses in abstraction when one becomes kind oflike a Turing machine right one has the
+ ability to contain in one's brain logical formal symbolic structures andmanipulate them and that's a leap that
+ we can make as human beings that that dogs and cats haven't made and once youget there I'm not sure there are any
+ limits to our ability to understand the scientific world at all maybe there arethere's certainly a ability limits on
+ our ability to calculate things right you know people are not very good attaking cube roots of million digit
+ numbers in their head but that's not an element of understanding it's certainlynot a little bit in principle so of
+
+
+0:09:16
+Speaker 1 :course there's a human you would say
+ that doesn't feel to be limits to our understanding but sort of hey have youthought that the universe is actually a
+ lot simpler than it appears to us and we just will never be able to like it'soutside of our okay so us our cognitive
+ abilities combined with our mathematical prowess and whatever kind ofexperimental simulation devices we can
+ put together is there limits to that is is it possible there's limits to that
+
+0:09:52
+Speaker 0 :well of course it's possible there is or
+ is there any good reason to think that we're anywhere close to the limits is aharder question look imagine asking this
+ question 500 years ago to the world's greatest thinkers right like are weapproaching the limits of our ability to
+ understand the natural world and by definition there are questions about thenatural world that are most interesting
+ to us that are the ones we but yet understand right so there'salways we're always faced with these
+ puzzles we don't yet know and I don't know what they would have said fivehundred years ago but they didn't even
+ know about classical mechanics much less quantum mechanics so we know that theywere nowhere close to how well they
+ could do right they could do normally better than they were doing at the timeI see no reason why the same thing isn't
+ true for us today so of all the worries that keep me awake at night the humanminds inability to rationally comprehend
+ the world is low on the list well put so
+
+0:10:48
+Speaker 1 :one interesting philosophical point and
+ quantum mechanics bring up is the that you talk about the distinction betweenthe world as it is and the world as we
+ observe it so staying at the human level for a second how big is the gap betweenwhat our perception system allows us to
+ see and the world as it is outside our minds I sort of so if not at the quantummechanical level yeah as just are these
+ particular tools we have which is a few senses and cognitive abilities to
+
+0:11:25
+Speaker 0 :process those senses well that last
+ phrase having the cognitive abilities to process them carries a lot right I meanthere is our sort of intuitive
+ understanding of the world you don't need to teach people about gravity forthem to know that apples fall from trees
+ right that's something that we figure out pretty quickly object permanencethings like that the three
+ dimensionality of space even if we don't have the mathematical language to saythat we kind of know that it's true on
+ the other hand no one opens their eyes and sees atoms all right or moleculesfor ourselves for that matter forget
+ about quantum mechanics so but we got there we got to understanding that thereare atoms and cells using the
+ combination of our senses and our cognitive capacities so adding theability of our cognitive capacities to
+ our senses is adding an enormous amount and I don't think there's a hard andfast boundary you know if you believe in
+ cells if you believe that we understand those then there's no reason you believewe can't believe in quantum mechanics
+ just as well what to you is the most
+
+0:12:29
+Speaker 1 :
+
+0:12:32
+Speaker 0 :beautiful idea in physics
+ conservation of momentum can you elaborate yeah if you were Aristotlewhen Aristotle wrote his book on physics
+ he made the following very obvious point we're on video here right so people cansee this so if I push the bottle let me
+ cover this bottle so we do not have a mess but okay so I push the bottle itmoves and if I stop pushing itself
+ moving yes and this is this kind of thing is repeated a large number oftimes all over the place if you don't
+ keep pushing things they stop moving this is a indisputably true fact aboutour everyday environment okay and for
+ Aristotle this blew up into a whole picture of the world in which things hadnatures and teleology x' and they had
+ places they wanted to be and when you were pushing them you were moving themaway from where they wanted to be and
+ they would return and stuff like that and it took a thousand years or fifteenhundred years for people to say actually
+ if it weren't for things like dissipation and air resistance andfriction and so forth the natural thing
+ is for things to move forever in a straight line there's a constantvelocity right conservation of momentum
+ and that is the reason why I think that's the most beautiful idea inphysics is because it shifts us from a
+ view of nature's and teleology to a view of patterns in the world so when youwere Aristotle you needed to talk a
+ vocabulary of why is this happening what's the purpose of it what's thecause etc because you know it's nature
+ does or does not want to do that whereas once you believe in conservation ofmomentum things just happen they they
+ just follow the pattern you give me you have Laplace's deamon ultimately rightyou give me the state of the world today
+ I can predict what's gonna do in the future I can predict where it was in thepast it's impersonal
+ and it's also instantaneous it's not directed toward any future goals it'sjust doing what it does given the
+ current state of the universe that I think even more than either classicalmechanics or quantum mechanics and that
+ is the profound deep insight that gets modern science off the groundyou don't need nature's and purposes and
+ goals you just need some patterns
+
+0:14:45
+Speaker 1 :so it's the first moment in our
+ understanding of the way the universe works where you branch from theintuitive physical space to kind of the
+ space of ideas and also the other point you said which is conveniently most ofthe interesting ideas are acting in the
+ moment you don't need to know the history of time or the future then of
+
+0:15:09
+Speaker 0 :course this took a long time to get
+ there right I mean the conservation momentum itself took hundreds of yearsit's weird just like someone would say
+ something interesting and then the next interesting thing would be said like 150or 200 years later right they weren't
+ even talking to each other there was reading each other's books and probablythe first person to directly say that in
+ outer space in the vacuum projectile would move at a constant velocity wasAvicenna even Sina and the Persian
+ Golden Age circa 1000 and he didn't like the idea he used that just likefurniture used Schrodinger's cat to
+ studies freely you don't believe that right even Sina was saying surely youdon't believe there really is a vacuum
+ because if there was a really vacuum things could keep moving forever rightbut still he got right the idea that
+ there was this conservation of something impetus or mile he would call it andthat's 500 years 600 600 years before
+ classical mechanics and Isaac Newton so you know Galileo played a big role inthis but he didn't exactly get it right
+ and so it just takes a long time for this to sink in because it is so againstour everyday experience do you think it
+
+
+0:16:12
+Speaker 1 :was a big leap a brave or a difficult
+ leap of sort of math and science to be able to say that momentum was conserved
+
+0:16:25
+Speaker 0 :I do you know I think it's a example of
+ human reason in action you know even Aristotle knew that his theory hadissues because you could fire an arrow
+ and it would go a long way before it stopped so if his theory was things justautomatically stopped what's going on
+ and he had this elaborate story I don't know if you've heard the story but thearrow would push the air in front of it
+ away and the molecules of air would run around to the back of the arrow and pushit again and anyone reading this is
+ going like really that's that's what you thought but it was that kind of thoughtexperiment that
+ we got people to say like actually know if it weren't for the air molecules atall there I would just go on by itself
+ and it's always this give-and-take between thought and experience back andforth right theory and experiment we
+ would say today another big question
+
+0:17:12
+Speaker 1 :that I think comes up certainly with
+ quantum mechanics is what's the difference between math and physics to
+
+0:17:23
+Speaker 0 :you to me you know very very roughly
+ math is about the logical structure of all possible worlds and physics is aboutour actual world and it just feels like
+
+
+0:17:34
+Speaker 1 :our actual world is a gray area when you
+ start talking about interpretations of quantum mechanics or no I'm certainly
+
+0:17:42
+Speaker 0 :using the word world in the broadest
+ sense all of reality so I think the reality is specific I don't think thatthere's every possible thing going on in
+ reality I think there are rules whether it's the Schrodinger equation orwhatever so i think i think that there's
+ a sensible notion of the set of all possible worlds and we live in one ofthem the world that we're talking about
+ might be a multiverse might be many worlds of quantum mechanics might bemuch bigger than the world of our
+ everyday experience but it's still one physically contiguous world in some
+
+0:18:15
+Speaker 1 :sense but so if you look at the overlap
+
+
+0:18:19
+Speaker 0 :
+
+0:18:20
+Speaker 1 :of math and physics it feels like when
+ physics tries to reach for understanding of our world it uses the tools of mathto sort of reach beyond the limit of our
+ current understanding what do you make of that process of sort of using math toso you start maybe with intuition or you
+ might start with the math and then build up an intuition or but this kind ofreaching into the darkness into the
+ mystery of the world would math well I
+
+0:18:49
+Speaker 0 :think I would put it a little bit
+ differently I think we have theories theories of the physical world which wethen extrapolate and ask you know what
+ do we conclude if we take these seriously well beyond where we'veactually tested them it is separately
+ true that math is really really useful when we construct physical theories andyou know famously Eugene Wigner asked
+ about the unreasonable success of method Mattox and physics I think that's alittle bit wrong because anything that
+ could happen any other theory of physics that wasn't the real world with someother world you could always describe it
+ mathematically it's just it might be a mess the surprising thing is not thatmath works but that the math is so
+ simple and easy that you can write it down on a t-shirt right I mean that'swhat is amazing that's an enormous
+ compression of information that seems to be valid in the real world so that's aninteresting fact about our world which
+ maybe we could hope to explain or just take as a brute fact I don't know butonce you have that you know it there's
+ this the indelible relationship between math and physics but but philosophicallyI do want to separate them well we what
+ we extrapolate we don't extrapolate math because there's a whole bunch of wrongmath you know that doesn't apply to our
+ world right we extrapolate the physical theory that we best think explains our
+
+0:20:09
+Speaker 1 :world again an unanswerable question why
+ do you think our world is so easily compressible into beautiful equations
+
+0:20:19
+Speaker 0 :yeah I mean like I just hinted at I
+ don't know if there's an answer to that question there could be what would an
+
+0:20:24
+Speaker 1 :
+
+0:20:26
+Speaker 0 :answer look like well an answer could
+ look like if you showed that there was something about our world that maximizedsomething you know the the mean of the
+ simplicity and the powerfulness of the laws of physics or you know with maybewe're just generic maybe in the set of
+ all possible worlds this is what the world would look like right like I wereI don't really know I tend to think not
+ I tend to think that there is something specific and rock-bottom about the factsof our world that don't have further
+ explanation like the fact of the world exists at all and furthermore thespecific laws of physics that we have I
+ think in some sense we're just gonna at some level we're gonna say and that'show it is and you know we can't explain
+ anything more we I don't know how if we're anywhere close to that right nowbut that seems plausible to me and
+
+
+0:21:11
+Speaker 1 :speaking of rock bottom one of the
+ things so your book kind of reminded me a reveal to me is that what'sfundamental and what's emergent it just
+ feels like I don't even know anymore what's fundamental inin physics if there's anything it feels
+ like everything especially with quantum mechanics is revealing to us is thatmost interesting things that I would as
+ a he as a limited human would think are fundamental or it can actually beexplained as emergent from the the more
+
+
+0:21:44
+Speaker 0 :
+
+0:21:45
+Speaker 1 :
+
+0:21:47
+Speaker 0 :deeper laws I mean we don't know of
+ course is you had to get that on the table like we don't know what isfundamental we do know we do have reason
+ to say that certain things are more fundamental than others right atoms andmolecules are more fundamental than
+ cells and organs quantum fields are more fundamental than atoms and molecules wedon't know if that ever bottoms out I I
+ do think that there's sensible ways to think about this the if you if youdescribe something like this table as a
+ table it has a height and a width and it's made of a certain material and hasa certain solidity and weight and so
+ forth that's the very useful description as far as it goes there's a whole notherdescription at this table in terms of a
+ whole collection of atoms strung together in certain ways the language ofthe atoms is more comprehensive than the
+ language of the table you could break apart to the table smash it to piecesstill talk about it as atoms but you
+ could no longer talk about it as a table right so I think of thiscomprehensiveness the domain of validity
+ of a theory gets broader and broader as the theory gets more and more
+
+0:22:51
+Speaker 1 :fundamental so what do you think Newton
+ would say maybe write in a book review if you read your latest book on quantummechanics something deeply hidden would
+
+
+0:23:03
+Speaker 0 :take a long time for him to think that
+ any of this was making any sense you
+
+0:23:08
+Speaker 1 :catch him up pretty quick in the
+ beginning yeah give him a shout out
+
+0:23:10
+Speaker 0 :that's right I mean he used the man I'm
+ happy to say that Newton was the greatest scientists who ever lived Imean he met in calculus in his spare
+ time which would have made it the greatest mathematician just all byhimself right I'll buy that one thing
+ but of course you know it's funny because Newton was in some sense still apre-modern thinker rocky Kolb who is a
+ cosmologists at at the University of Chicago said that you know Galileo eventhough he can be
+ for Newton was a more modern thinker than than Newton was like if he gotGalileo and brought him to the present
+ day you take him six months to catch up andthen he be in your office telling you
+ while your most recent paper was wrong whereas Newton just thought in this kindof more mystical way you know he wrote a
+ lot more about the Bible and alchemy didn't he ever did about physics and buthe was also more brilliant than anybody
+ else and and way more mathematically astute than Galileo so I really don'tknow you know he might have he might
+ just yeah say like give me the textbooks leave me alone for a few months and thenbe caught up but he but he or he might
+ have had mental blocks against against seeing the world in this way I really
+
+0:24:20
+Speaker 1 :don't know or perhaps find an
+ interesting mystical interpretation of
+
+0:24:24
+Speaker 0 :quantum mechanics very possible yeah is
+
+
+0:24:25
+Speaker 1 :there any other scientists or
+ philosophers through history that you would like to know their opinion of your
+
+0:24:34
+Speaker 0 :book that's against a good question um I
+ mean Einstein is the obvious one right y'all and he was not that long ago butspeculate at the end of my book about
+ what his opinion would be I am curious as to you know what about olderphilosophers like Hume or Conte right
+ like what would they have thought or Aristotle you know what would theythought about modern physics because
+ they do in philosophy your predilections end up paint playing a much bigger rolein your ultimate conclusions cuz you're
+ not as tied down by what the data is in physics you know physics is luckybecause we can't stray too far off the
+ reservation as long as we're trying to explain the world that we actually seein our telescopes and microscopes but
+ it's it's just not fair to play that game because the people were thinkingabout didn't know a whole bunch of
+ things that we know right like we lived through a lot that they didn't livethrough so by the time we got them
+ caught up they'd be different people so
+
+0:25:31
+Speaker 1 :let me ask a bunch of basic questions I
+ think it would be interesting useful for people are not familiar but even forpeople who are extremely well familiar
+ let's start with what is quantum
+
+0:25:45
+Speaker 0 :mechanics quantum mechanics is the
+ paradigm of physics that came into being in the early part of the 20th centurythat replaced
+ classical mechanics and it replaced classical mechanics in a weird way thatwe're still coming to terms with so in
+ classical mechanics you have an object it as a location has a velocity and ifyou know the location and velocity of
+ everything in the world you can say what everything's gonna do quantum mechanicshas an aspect of it that is kind of on
+ the same lines there's something called a quantum state or the wave function andthere's an equation governing what the
+ quantum state does so it's very much like classical mechanics the wavefunction is different it's sort of a
+ wave it's a vector in a huge dimensional vector space rather than a position in avelocity but okay that's a detail and
+ the equation is the Schrodinger equation not Newton's laws but okay again adetail where quantum mechanics really
+ becomes weird and different is that there's a whole nother set of rules inour textbook formulation of quantum
+ mechanics in addition to saying that there's a quantum state and it evolvesin time and all these new rules have to
+ do with what happens when you look at the system when you observe it when youmeasure it in classical mechanics there
+ were no rules about observing you just look at it and you see what's going onthat that was that right in quantum
+ mechanics the way we teach it there's something profoundly fundamental aboutthe act of measurement or observation
+ and the system dramatically changes its state even though it has a wave functionlike the electron in an atom is not
+ orbiting in a circle as sort of spread out in a cloud when you look at it youdon't see that cloud when you look at it
+ it looks like a particle with a location so it dramatically changes its stateright away and the effects of that
+ change can be instantly seen and what the electron does next so that's theagain we need to be careful because we
+ don't agree on what quantum mechanics says that's what I need to say like inthe textbook view etc right but in the
+ textbook view quantum mechanics unlike any other theory of physics places uhgives a fundamental role to the act of
+
+
+0:27:50
+Speaker 1 :measurement so maybe even more basic
+ what is an atom and what is an electron
+
+0:27:56
+Speaker 0 :sure this all came together you know in
+ a few years around the turn of the last century right around the year 1900Adams predated then of course the word
+ Adam goes back to the ancient Greeks but it was the chemists in the 1800's thatreally first got experimental evidence
+ for atoms they realized you know that there were two different types of tinoxide and in these two different types
+ of tin oxide there was exactly twice as much oxygen in one type as the other andlike why is that why is it all why is it
+ never 1.5 times as much right and so Dalton said well it's because there are10 atoms and oxygen atoms and one form
+ of tin oxide is one atom of tin and one atom of oxygen and the other is one atomobtained and two atoms of oxygen and on
+ the basis of this is you know speculation a theory right a hypothesisbut then on the basis of that you make
+ other predictions and the chemists became quickly convinced that atoms werereal the physicists took a lot longer to
+ catch on but eventually they did and I mean Boltzmann who believed in atoms wasGod he had a really tough time his whole
+ life because he worked in Germany where atoms were not popular they were popularin England but not in Germany and there
+
+
+0:29:09
+Speaker 1 :in general the idea of atoms is it's the
+ most the smallest building block of the universe for for them that's the kind of
+
+0:29:18
+Speaker 0 :how the Greek idea but the chemists in
+ the 1800's jumped the gun a little bit so these days in atom is the smallestbuilding block of a chemical element
+ right hydrogen tin oxygen carbon whatever but we know that atoms can bebroken up further than that and that's
+ what physicists discovered in the early 1900's Rutherford especially and and hiscolleagues so the atom that we think
+ about now the cartoon is that picture you you always seen of a little nucleusand then electrons orbiting it like a
+ little solar system and we now know the nucleus is made of protons and neutronsso the weight of the atom the mass is
+ almost all in its nucleus protons and neutrons or something like 1,800 timesas heavy as electrons are electrons are
+ much lighter but they're because they're lighter they give all the life to theatoms so when atoms get together combine
+ chemically when electricity flows through a system it's all the electronsthat are doing all the work
+
+
+0:30:16
+Speaker 1 :and we're quantum mechanic steps in as
+ you mentioned with position or velocity with classical mechanics and quantummechanics is modeling the behavior of
+ the electron I mean you can model the behavior of anything but the electronbecause that's where the fun is
+
+
+0:30:31
+Speaker 0 :the electron was it was the biggest
+ challenge right from the start yeah so
+
+0:30:34
+Speaker 1 :what's a wavefunction you said it's an
+ interesting detail yeah but in any interpretation what is the wave function
+
+0:30:44
+Speaker 0 :in quantum mechanics well you know we
+ had this idea from Rutherford that atoms look like little solar systems butpeople very quickly realize that can't
+ possibly be right because if an electron is orbiting in a circle it will give offlight all the light that we have in this
+ room comes from electrons zooming up and down and wiggling and that's whatelectromagnetic waves are and you can
+ calculate how long would it take for the electron just to spiral into the nucleusand the answer is 10 to the minus 11
+ seconds okay a hundred billions of a second so that's not rightmeanwhile people had realized that light
+ which we understood from the 1800s was a wave had properties that were similar tothat of particles right this is Einstein
+ and plunk and stuff like that so if something that we agree was a wave hadparticle-like properties then maybe
+ something we think is a particle the electron has wave-like properties rightand so a bunch of people eventually came
+ to the conclusion don't think about the electron as a little point particleorbiting in like a solar system think of
+ it as a wave that is spread out they cleverly gave this the name the wavefunction which is the dopiest name in
+ the world for one of the most profound things in the universe the there'sliterally you know a number at every
+ point in space which is the value of the electrons wave function at that point
+
+0:32:04
+Speaker 1 :and there's only there's only one wave
+
+
+0:32:06
+Speaker 0 :function that yeah they eventually
+ figured that out that took longer but when you have two electrons you do nothave a wave function for electron one in
+ a wave function for electron two you have one combined wave function for bothof them and indeed as you say there's
+ only one wave function for the entire universe at once and that's where this
+
+0:32:26
+Speaker 1 :beautiful dance
+ can you say what is entanglement it seems one of the most fundamental ideas
+
+0:32:34
+Speaker 0 :of quantum again well let's temporarily
+ buy into the textbook interpretation of quantum mechanics and what that says isthat this wave function so it's very
+ small outside the atom very big in the atombasically the wave function you take it
+ and you square it you squared the number that gives you the probability ofobserving the system at that location so
+ if you say that for two electrons there's only one wave function and thatwave function gives you the probability
+ of observing both electrons at once doing something okay so maybe theelectron can be here or here here here
+ and the other electron can also be there but we have a wave function setup wherewe don't know where either electron is
+ going to be seen but we know they'll both be seen in the same place okay sowe don't know exactly what we're gonna
+ see for either electron but there's entanglement between the two of themthere's a sort of conditional statement
+ if we see one in one location then we know the other one's going to be doing acertain thing so that's a feature of
+ quantum mechanics that is nowhere to be found in classical mechanics inclassical mechanics there's no way I can
+ say well I don't know where either one of these particles is but if I know if Ifind out where this one is then I know
+ where the other one is that just never happens they're truly separate and in
+
+0:33:43
+Speaker 1 :general it feels like if you think of a
+ wave function like as a dance floor it seems like entanglement is strongestbetween things that are dancing together
+ closest so there's a there's a closeness
+
+0:33:56
+Speaker 0 :that's important well that's not that
+ that's another step we have to be careful here should cause in principleif you if you're talking my the
+ entanglement of two electrons for examplethey can be totally entangled or totally
+ unentangled no matter where they are in the universe there's no relationshipbetween the amount of entanglement and
+ the distance between two electrons but we now know that you know the reality ofour best way of understanding the world
+ is through quantum fields not through particles so even the electron not justgravity and electromagnetism but even
+ the electron and the quarks and so forth are really vibrations in quantum fieldsso even empty space is full of vibrating
+ quantum fields and those quantum fields in empty space are entangled with eachother in exactly the way you just said
+ if they're nearby if you have like two vibrating quantum fields that are nearbythem it'll be highly entangled if
+ they're far away they will not be
+
+0:34:50
+Speaker 1 :entangled so what do quantum fields in a
+ vacuum look like empty space just so
+
+0:34:54
+Speaker 0 :like empty space it's as empty as it can
+
+
+0:34:56
+Speaker 1 :be but there's still a field it's just
+ yeah it uh what is nothing just like
+
+0:35:02
+Speaker 0 :right here or this location in space
+ there's a gravitational field which I can detach by dropping something yeah Idon't see it but there it is so we got a
+
+
+0:35:12
+Speaker 1 :little bit of idea of entanglement now
+
+
+0:35:17
+Speaker 0 :
+
+0:35:19
+Speaker 1 :what is Hilbert space and Euclidean
+
+
+0:35:24
+Speaker 0 :space yeah you know I think that people
+ are very welcoming over their lives not knowing what Hilbert space is but if youif you what I dig in a little bit more
+ into quantum mechanics it becomes necessary you know the English languagewas invented long before quantum
+ mechanics or various forms of higher mathematics were invented so we use theword space to mean different things of
+ course most of us think of space as this three dimensional world in which we liveright I mean some of us just think of it
+ as outer space okay but space around us it gives us the three-dimensionallocation of things and objects but
+ mathematicians use any generic abstract collection ofelements as a space okay a space of
+ possibilities you know momentum space etc so Hilbert space is the space of allpossible quantum wave functions either
+ for the universe or for some specific systemand it could be an infinite dimensional
+ space or it could be just really really large dimensional but finite we don'tknow because we don't know the final
+ theory of everything but this abstract hilbert space is really really reallybig and has no immediate connection to
+ the three-dimensional space in which we
+
+0:36:31
+Speaker 1 :live what what do dimensions in hilbert
+
+
+0:36:34
+Speaker 0 :space mean you know it's just a way of
+ mathematically representing how much information is contained in the state ofthe system how many numbers do you have
+ to give me to specify what the thing is doing so in classical mechanics I giveyou the location of something by giving
+ you three numbers right up down left likes XYZ coordinates but then I mightwant to give you its entire state
+ physical state which means both its position and also its velocity thevelocity also has three components so
+ it's state lives in something called phase space which is six dimensionalthree dimensions of position three
+ dimensions of velocity and then if it also has an orientation in space that'sanother three dimensions and so forth so
+ as you describe more and more information about the system you have anabstract mathematical space that has
+ more and more numbers that you need to give and each one of those numberscorresponds to a dimension in that space
+
+
+0:37:29
+Speaker 1 :so in terms of that amount of
+ information what is entropy this mystical wordthat's overused in math and physics but
+ has a very specific meaning in this
+
+0:37:41
+Speaker 0 :context sadly it has more than one very
+ specific meeting this is this is reason why it is hard and roomy means differentthings even to different physicists but
+ one way of thinking about it is a measure of how much we don't know aboutthe state of a system right so if I have
+ a bottle of water molecules and I know that okay there's a certain number ofwater molecules I could weigh it right
+ and figure out I know the volume of it and I know the temperature and pressureand things like that
+ I certainly don't know the exact position and velocity of every watermolecule right so there's a certain
+ amount of information I know certain amount that I don't know that is that ispart of the complete state of the system
+ and that's what the entropy characterizes how much unknowninformation there is the difference
+ between what I do know about the system and its full exact microscopic state so
+
+0:38:28
+Speaker 1 :when we try to describe
+ a quantum mechanical system is infinite or finite but very large yeah we don't
+
+0:38:36
+Speaker 0 :know that depends on the system you know
+ it's easy to mathematically write down a system that would have a potentiallyinfinite entropy an infinite dimensional
+ hilbert space so let's let's go back a little bit we said that the hilbertspace was the space in which quantum
+ wave functions lived for different systems that will be different sizesthey could be infinite or finite so
+ that's the number of numbers the number of pieces information you couldpotentially give me about the system so
+ the bigger hilbert spaces the bigger the entropy of that system could bedepending on what I know about it if I
+ don't know anything about it then you know as a huge entropy right but only upto the size of its hilbert space so we
+ don't know in in the real physical world whether or not you know this region ofspace that contains that water bottle
+ has potentially an infinite entropy or just a finite entropy we have we havedifferent arguments on different sides
+
+
+0:39:31
+Speaker 1 :so if it's infinite how do you think
+ about infinity is this something you can your cognitive abilities are able toprocess or is it just a mathematical
+
+
+0:39:43
+Speaker 0 :tool it's somewhere in between right I
+ mean we can say things about it we can use mathematical tools to manipulateinfinity very very accurately we can
+ define what we mean you know for any number n there's a number bigger than itso there's no biggest number right so
+ there's something called the total number of all numbers that's infinitebut it is hard to wrap your brain around
+ that and I think that gives people pause because we talk about infinity as ifit's a number but it has plenty of
+ properties that real numbers don't have you know if you multiply infinity by 2you get infinity again right that's a
+ little bit different than what we're
+
+0:40:19
+Speaker 1 :used to okay but are you comfortable
+ with the idea that in thinking of what the real world actually is that infinitycould be part of that world
+ are you comfortable that a world in some dimension and somehow comfortable with
+
+0:40:31
+Speaker 0 :lots of things I mean you know I don't
+ want my level of comfort to affect what I think about the world you know I'mpretty open-minded about what the world
+ could be at the fundamental level
+
+0:40:44
+Speaker 1 :yeah but infinity is a is a tricky one
+ it's not almost a question of comfort it's a question of is it an overreach ofour intuition sort of it could be a
+ convenient almost like when you add a constant to an equation just becauseit'll help it just feels like it's
+ useful to at least be able to imagine a concept not directly but in some kind ofway that this feels like it's a
+ description of the real world think of
+
+0:41:14
+Speaker 0 :it this way there's only three numbers
+ that are simple there's zero there's one and there's infinity a number like 318it's just bizarre like that that you
+ need a lot of bits to give me what that number is yeah but zero and one infinitylike once you have 300 things you might
+ as well have infinity things right otherwise yet to say how when to stopmaking the thing that's right so there's
+ a sense in which infinity is a very natural number of things to exist that I
+
+0:41:45
+Speaker 1 :was never comfortable with it because
+ it's just such a kick but it was a too good to be true mmmbecause in math it just helps make
+ things work out when things get very it's when things get very large close toinfinity things seem to work out nicely
+ it's kind of like because of my deepest passion it's probably psychology and I'muncomfortable how in the average the the
+ beauty of the very very the how much we vary is lost in that same kind of senseinfinity seems like convenient way to
+ erase the details but the thing about
+
+0:42:23
+Speaker 0 :infinity is you it seems to pop up
+ whether we like it or not right right like you're trying to be a computerscientist you ask yourself well how long
+ will it take this program to run and you realize well for some of them the answeris infinitely long it's not because you
+ tried to get there you wrote a five line computer programit doesn't halt so coming back to the
+
+
+0:42:43
+Speaker 1 :textbook definition of quantum mechanics
+ this idea that we I don't think we talked about can you this one of themost interesting philosophical points we
+ talked at the human level but at the at the physics level that it that atleast the textbook definition of quantum
+ mechanics separates what is observed and what is real one how does that make youfeel and and two what does it then mean
+ to observe something and why is it different that what is real yeah you
+
+0:43:20
+Speaker 0 :know I my personal feelings such as it
+ is is that things like measurement and observers and stuff like that are notgoing to play a fundamental role in the
+ ultimate laws of physics but my feeling that way is because so far that's whereall the evidence has been pointing I
+ could be wrong and there's certainly a sense in which it would be infinitelycool if somehow observation or mental
+ cogitation did play a fundamental role in the in the nature of reality but Idon't think so I can I don't see any
+ evidence for it so I'm not spending a lot of time worrying about thatpossibility so what do you do about the
+ fact that in the textbook interpretation of quantum mechanics this idea ofmeasurement or looking at things seems
+ to play an important role well you you come up with better interpretations ofquantum mechanics and there are several
+ alternatives my favorite is the many-worlds interpretation which saystwo things number one you the observer
+ are just a quantum system like anything else there's nothing special about youdon't get so proud of yourself you know
+ you're just a bunch of atoms you have a wavefunction you obey the Schrodingerequation like everything else and number
+ two when you think you're measuring something or observing something what'sreally happening is you're becoming
+ entangled with that thing so when you think there's a wavefunction for theelectron it's all spread out but you
+ look at it and you only see it in one location what's really happening is thatthere's still the wave functions the
+ electron in all those locations but now it's entangled with the wave function ofyou in the following way there's part of
+ the wave function that says the electron was here and you think you saw it therethe electron was there and you think you
+ saw it there the electron was over there and you think you saw it there etc soand all of those different parts of the
+ wave function once they come into being nolonger talk to each other they no longer
+ interact or influence each other it says if they are separate worlds so this wasthe invention of Hugh Everett the third
+ who was a graduate student at Princeton in the 1950s and he said basically lookyou don't need all these extra rules
+ about looking at things just listen to what the Schrodinger equation is tellingyou it's telling you that you have a
+ wavefunction that you become entangled and that the different versions of youno longer talk to each other so just
+ accept it it's just he did therapy more than anything else you know he said likeit's okay you know you don't need all
+ these extra rules all you need to do is believe the Schrodinger equation thecost is there's a whole bunch of extra
+ worlds out there so how the worlds being
+
+0:45:50
+Speaker 1 :created whether there's an observer or
+ not the worlds are created anytime a
+
+0:45:57
+Speaker 0 :quantum system that's in a superposition
+ becomes entangled with the outside world
+
+0:46:03
+Speaker 1 :what's the outside world it depends
+
+
+0:46:05
+Speaker 0 :let's back out yeah
+ whatever it really says what his theory is is there's a wave function of theuniverse
+ and a base the Schrodinger equation all the time that's it that's the fulltheory right there okay the question all
+ of the work is how in the world do you map that theory on to reality on to whatwe observe right so part of it is
+ carving up the wavefunction into these separate worlds saying look look itdescribes a whole bunch of things that
+ don't interact with each other let's call them separate worlds another partis distinguishing between systems and
+ their environments and the environment is basically all the degrees of freedomall the things going on in the world
+ that you don't keep track of so again in the bottle of water I might keep trackof the total amount of water and the
+ volume I don't keep track of the individual positions and velocities Idon't keep track of all the photons or
+ the air molecules in this room so that's the outside world the outside world isall the parts of the universe that
+ you're not keeping track of when you're asking about the behavior of somesubsystem of it so how many worlds are
+
+
+0:47:11
+Speaker 1 :
+
+0:47:14
+Speaker 0 :there you want to know that one either
+ there could be an infinite number there could be only a finite number but it's abig number one way or the other it's a
+
+
+0:47:22
+Speaker 1 :very very big number
+ one of you talked somebody asked well if it's a if it's finiteso actually I'm not sure exactly the
+ logic you used to derive this but is there you know going to be the you know
+
+0:47:40
+Speaker 0 :
+
+0:47:41
+Speaker 1 :overlap a duplicate world that you
+ return to so you've mentioned and I'd love if you can elaborate on sort ofidea that it's possible that there's
+ some kind of equilibrium that these splitting worlds arrive at and thenmaybe over time maybe somehow connected
+ to entropy you get a large number of worlds they're very similar to each
+
+0:48:04
+Speaker 0 :other yeah so this question of whether
+ or not Hilbert space is finite or infinite dimensional is actuallysecretly connected to gravity and
+ cosmology this is a the part that we're still struggling to understand right nowbut we discovered back in 1998 that our
+ universe is accelerating and what that means if it continues which we think itprobably will but we're not sure but if
+ it does that means there's a horizon around us there there's because theuniverse not only expanding but
+ expanding faster and faster things can get so far away from us that from ourperspective it looks like they're moving
+ away faster than the speed of light you'll never see them againso there's literally a horizon around us
+ and that horizon approaches some fixed distance away from us and you can thenargue that within that horizon there's
+ only a finite number of things that can possibly happen the finite dimensionalhilbert space in fact we even have a
+ guess for what the dimensionality is it's 10 to the power of 10 to the powerof 122 that's a very large number yes
+ just to compare the age of the universe is something like 10 to the 14 seconds10 to the 17 or 18 seconds maybe the
+ number of particles in the universe is 10 to the 88th but the number ofdimensions of Hilbert space is 10 to the
+ 10 to the 120 - so that's just crazy thing if that story is right that in ourobservable horizon there's only a finite
+ dimensional hilbert space then this idea of branching of the wavefunction theuniverse into multiple distinct separate
+ branches has to reach a limit at once you read branched that many timesyou've run out of room in hilbert space
+ and roughly speaking that corresponds to the universe just expanding and emptyingout and cooling off and and entering a
+ phase where it's just empty space literally forever what's the difference
+
+0:49:52
+Speaker 1 :between splitting and copying do you
+ think like in terms of a lot of this is an interpretation that's that helps ussort of model the world so perhaps
+ shouldn't be thought of as like you know philosophically or metaphysically but ineven at the physics level do you see a
+ difference between two generating new copies of the world or splitting I think
+
+0:50:26
+Speaker 0 :it's better to think of in quantum
+ mechanics in many worlds the universe splits rather than new copies becausepeople otherwise worry about things like
+ energy conservation and no one who understands quantum mechanics worriesabout energy conservation because the
+ equation is perfectly clear but if all you know is that someone told you theuniverse duplicates then you have a
+ reasonable worry about where all the energy for that came from so apre-existing universe splitting into two
+ skinnier universes is a better way of thinking about it and mathematicallyit's just like you know if you draw an x
+ and y axis and you draw a vector of length 1 45-degree angleyou you know that you can write that
+ vector of length 1 as the sum of two vectors pointing along x and y of length1 over the square root of 2 ok
+ so I write one arrow as the sum of two arrows but there's a conservation of airOnis right like if now two arrows but
+ the length is the same I just I'm describing it in a different way andthat's exactly what happens when the
+ universe branches the the wave function of the universe is a big old vector so
+
+0:51:27
+Speaker 1 :to somebody who brings up a question of
+ saying doesn't this violate the conservation of energy can you givefurther elaboration right so let's just
+
+
+0:51:38
+Speaker 0 :be SuperDuper perfectly clear yeah
+ there's zero question about whether or not many-worlds violates conservation ofenergy yes it does not great and I say
+ this definitively because there are other questionsI think there's answers too but they're
+ legitimate questions right about you know where does probability come fromand things like that this conservation
+ of energy question we know the answer to it and the answer to it is that energyis conserved all of the effort goes into
+ how best to translate what the equation unambiguously says into think plainEnglish right
+ so this idea that there's a universe that has that that the universe comesequipped with a thickness and it sort of
+ divides up into thinner pieces but the total amount of universe is is conservedover time is a reasonably good way of
+ putting English words to the underlying mathematics so one of my favorite things
+
+0:52:27
+Speaker 1 :about many worlds is I mean I love that
+ there's something controversial in science and for some reason it makespeople actually not like upset but just
+ get excited why do you think it is a controversial idea so there's there's alot of it's actually one of the cleanest
+ ways to think about quantum mechanics yeah so why do you think there's adiscomfort a little bit among certain
+ people
+
+0:52:57
+Speaker 0 :well I draw the distinction of my book
+ between two different kinds of simplicity in a physical theory there'ssimplicity in the theory itself right
+ how we describe what's going on according to the theory by its ownrights but then you know a theory is
+ just some sort of abstract mathematical formalism you have to map it onto theworld somehow right and sometimes like
+ for Newtonian physics it's pretty obvious like okay here is a bottle andas a center of mass and things like that
+ sometimes it's a little bit harder with general relativity curvature ofspace-time is a little bit harder to
+ grasp quantum mechanics is very hard to map what you're the language you'retalking into wave functions and things
+ like that on to reality and many worlds is the version of quantum mechanicswhere it is hardest to map on the
+ underlying formalism to reality so that's where the lack of simplicitycomes in not in the theory but in how we
+ use the theory to map on to reality and in fact all of the work in sort ofelaborating many-worlds quantum
+ mechanics is in the this effort to map it on to the world that we see soit's perfectly legitimate to be bugged
+ by that right to say like well no that's just too far away from my experience I Iam therefore intrinsically skeptical of
+ it of course you should give up on that skepticism if there are no alternativesand this theory always keeps working
+ then eventually you should overcome your skepticism but right now there arealternatives and that are that you know
+ people work to make alternatives that are by their nature closer to what weobserve directly can you describe the
+
+
+0:54:31
+Speaker 1 :alternatives I don't think we touched on
+ it so the the Copenhagen interpretation and the many-worldsmaybe there's a difference between the
+ effort I've already in many worlds and many worlds it is now like has the ideasort of developed and so on and just in
+ general what is the space of promising contenderswe have democratic debates now there's a
+
+
+0:54:57
+Speaker 0 :bunch of candidate well family of
+ candidates on stage what are the
+
+0:54:59
+Speaker 1 :quantum-mechanical candidates on stage
+
+
+0:55:02
+Speaker 0 :for the debate so if you had a debate
+ between quantum-mechanical contenders there would be no problem getting 12people up there on stage but there would
+ still be only three frontrunners and right now the frontrunners would beEvert hidden variable theories are
+ another one so the hidden variable theories say that the wavefunction isreal but there's something in addition
+ to the wave function the wave function is not everything is part of reality butit's not everything what else is there
+ we're not for but in the simplest version of the theory there areliterally particles so many world says
+ that quantum systems are sometimes are wave-like in some ways and particle-likein another because they really really
+ are waves but under certain observational circumstances they looklike particles whereas invariable says
+ there they look like waves and particles because there are both waves andparticles involved in the dynamics and
+ that's easy to do if your particles are just nonrelativistic Newtonian particlesmoving around they get pushed around by
+ the wave function roughly it becomes much harder when you take quantum fieldtheory or quantum gravity into account
+ the other big contender are spontaneous collapse theoriesso in the conventional textbook
+ interpretation we say when you look at a quantum system its wavefunctioncollapses and you see it in one location
+ a spontaneous collapse theory says that every particle has a chance per secondof having its wavefunction spontaneously
+ collapse the chance is very small for a typical particle it will take hundredsof millions of years before it happens
+ even once but in a table or some macroscopic object there are way morethan a hundred million particles and
+ they're all entangled with each other so when one of them clacks it collapses itbrings everything else along with it
+ there's a slight variation of this that's a spontaneous collapse theorythere are also induced collapse theories
+ like Roger Penrose thinks that when the gravitational difference between twoparts of the wave function becomes too
+ large the wavefunction collapses automatically so those are basically inmy mind the three big alternatives many
+ worlds which is just there's a wave function and always a basis reading yourequation hidden variables there's a wave
+ function that always the basis Schrodinger equation but there are alsonew variables or collapse theories which
+ the wave function sometimes obeys the Schrodinger equation and sometimes itcollapses so you can see that the
+ alternatives are more complicated in their formalism than many-worlds is butthey are closer to our experience so
+
+
+0:57:34
+Speaker 1 :just this moment of collapse do you
+ think of it as so is a wave function fundamentally sort of a probabilisticdescription of the world and its
+ collapse sort of reducing that part of the world into something deterministicor again you can now describe the
+ position in the velocity in this simple classical model well there is a hardthing about collapse there is a fourth
+
+
+0:57:58
+Speaker 0 :category is a 4th contender there's a
+ mayor Pete of quantum mechanical interpretations which are calledepistemic interpretations and what they
+ say is all the wavefunction is is a way of making predictions for experimentaloutcomes it's not mapping on to an
+ element of reality in any real sense and in fact two different people might havetwo different wave functions for the
+ same physical system because they know different things about it right the wavefunction is really just a prediction
+ mechanism and then the problem with those epistemic interpretations is ifyou say okay
+ but it's predicting about what like what is the thing that is being predicted andI say no no that's not what we're here
+ for we're just here to tell you what theobservational outcomes are gonna be but
+
+
+0:58:44
+Speaker 1 :the other the other interpretation is
+ kind of think that the wavefunction is
+
+0:58:48
+Speaker 0 :real yes that's right so that's an antic
+ interpretation of the wavefunction ontology being the study of what is realwhat exists as opposed to an epistemic
+ interpretation of the wavefunction epistemology being the study what we
+
+0:59:02
+Speaker 1 :know now actually just love to see that
+ debate on stage there was a version of
+
+0:59:06
+Speaker 0 :it on stage at the world science
+ festival a few years ago that you can look up online I need youyep that's all you do okay awesome I'll
+
+
+0:59:14
+Speaker 1 :
+
+0:59:16
+Speaker 0 :link it and watch it anyone I won there
+ was no vote those there's Brian Greene was the moderator and David Albert stoodup for spontaneous collapse and Shelley
+ Goldstein was there for hidden variables and Ruettiger shock was there forepistemic approaches why do you I think
+
+
+0:59:34
+Speaker 1 :you mentioned it but just why do you
+ find many worlds so compelling well
+
+0:59:41
+Speaker 0 :there's two reasons actually one is like
+ I said it is the simplest right it's like the most bare-bones austere pureversion of quantum mechanics and I am
+ someone who is very willing to put a lot of work into mapping the formalism ontoreality I'm less willing to complicate
+ the formalism itself but the other big reason is that there's something calledmodern physics with quantum fields and
+ quantum gravity and holography and space-time doing things like that andwhen you take any of the other versions
+ of quantum theory they bring along classical baggage all of the otherversions of quantum mechanics prejudice
+ or privilege some version of classical reality like locations in space okay andI think that that's a barrier to doing
+ better at understanding the theory of everything and understanding quantumgravity and the emergence of space-time
+ whenever if you change your theory from you know here's a harmonic oscillator ohthere's a spin here's an electromagnetic
+ field in hidden variable theories or dynamical collapse theories you have tostart from scratch
+ what are the hidden variables for this theory or how does he collapse orwhatever
+ whereas many-worlds is plug-and-play you tell me the theory and I can give you asmany worlds version so when we have a
+ situation like we have with gravity and space-time where the classicaldescription seems to break down in a
+ dramatic way then I think you should start from the most quantum theory thatyou have which is really many worlds so
+
+
+1:01:07
+Speaker 1 :start with the quantum theory and try to
+ build up a model of space-time the emergence of space-time that's okay so Ithought space-time was fundamental yeah
+
+
+1:01:21
+Speaker 0 :I know so this sort of dream that
+
+
+1:01:22
+Speaker 1 :Einstein had that everybody had and
+ everybody has of you know the theory of everything so how do we build up frommany worlds from quantum mechanics a
+ model of space-time model of gravity
+
+1:01:39
+Speaker 0 :well yeah I mean let me first mention
+ very quickly why we think it's necessary you know we've had gravity in the formthat Einstein bequeathed it to us for
+ over a hundred years now like 1915 or 1916 he put generalrelativity in the final form so gravity
+ is the curvature of space-time and there's a field that pervades all theuniverse that tells us how curved
+
+
+1:01:59
+Speaker 1 :space-time is and that's a fundamentally
+ classical that's totally classical right
+
+1:02:02
+Speaker 0 :exactly but we also have a formalism an
+ algorithm for taking a classical theory and quantizing it this is how we getquantum electrodynamics for example and
+ it could be tricky I mean you think your quantizing something so that meanstaking a classical theory and promoting
+ it to a quantum mechanical theory but you can run into problems so they raninto problems and you did that with
+ electromagnetism namely that certain quantities were infinity and you don'tlike infinity right so Fineman and
+ tominaga and Schwinger won the nobel prize for teaching us how to deal withthe infinities and then Ken Wilson won
+ another Nobel Prize for saying you shouldn't have been worried about thoseinfinities after all but still that was
+ the it's always the thought that that's how you will make a good quantum theoryyou'll start with the classical theory
+ and quantize it so if we have a classical theory general relativity wecan quantize it or we can try to but we
+ run into even bigger problems with gravity than we ran into withelectromagnetism and so far those
+ problems are we've not been able to get a successfultheory of gravity quantum gravity by
+ starting with classical general relativity and quantum it and there'sevidence that there's a good reason why
+ this is true that the whatever the quantum theory of gravity is it's not afield theory it's something that has
+ weird non-local features built into it somehow that we don't understand and weget this idea from black holes and
+ Hawking radiation and information conservation and a whole bunch of otherideas I talked about in the book so if
+ that's true if the fundamental theory isn't even local in the sense that anordinary quantum field theory would be
+ then we just don't know where to start in terms of getting a classicalprecursor and quantizing so the only
+ sensible thing is at least the next obvious sensible thing to me would be tosay okay let's just start intrinsically
+ quantum and work backwards see if we can find a classical limit so the idea of
+
+1:03:51
+Speaker 1 :locality the the fact that locality is
+
+
+1:03:56
+Speaker 0 :not fundamental to the nature of our
+
+
+1:03:59
+Speaker 1 :existence sort of you know I guess in
+ that sense modeling everything's the field makes sense to me stuff that'sclose by interact stuff that's far away
+ doesn't so what's what's locality and why is it not fundamental and how isthat even possible
+
+
+1:04:16
+Speaker 0 :yeah I mean locality is the answer to
+ the question that Isaac Newton was worried about back in the beginning ofour conversation right I mean how can
+ the earth know what the gravitational field of the Sun is when the answer hasspelled out by Laplace and Einstein and
+ others is that there's a field in between and the way a field works isthat what's happening to the field at
+ this point in space only depends directly on what's happening at pointsright next to it but what's happening at
+ those points depends on what's happening right next to those right is you canbuild up an influence across space
+ through only local interactions that's what locality means what happens here isonly affected by what's happening right
+ next to it that's locality the idea of locality is built into every fieldtheory including general relativity as a
+ classical theory it seems to break down when we talk about black holes and youknow Hawking taught us in the 1970s the
+ black holes radiate they give off they'll eventually evaporate awaythey're not
+ completely black once we take quantum mechanics into account and we think wedon't know for sure but most of us think
+ that if you make a black hole out of certain stuff then like Laplace's Demontaught us you should be able to predict
+ what that black hole will turn into if it's just obeying the Schrodingerequation and if that's true there are
+ good arguments that can't happen while preserving locality at the same timeit's just that their information seems
+ to be spread out non locally in
+
+1:05:43
+Speaker 1 :interesting ways and people should you
+ talk about holography with the Leonard Susskind on your - a podcast
+
+1:05:50
+Speaker 0 :yes I have a podcast I didn't even
+ mention that I'm terrible no I'm gonna
+
+1:05:53
+Speaker 1 :I'm gonna ask you questions about that
+ too and I've been not shutting up about it's my favorite science podcast so ornot it's a famous science podcast it's
+ like it's a scientist doing absolutely
+
+1:06:06
+Speaker 0 :yes yeah anyway yeah so holography is
+ this idea when you have a black hole and black hole is a region of space insideof which gravity is so strong that you
+ can't escape and there's this weird feature of black holes that again is atotally a thought experiment feature cuz
+ we haven't gone and probed any yet but there seems to be one way of thinkingabout what happens inside a black hole
+ as seen by an observer who's falling in which is actually pretty normal likeeverything looks pretty normal until you
+ get the singularity and you die but from the point of the view of the outsideobserver it seems like all the
+ information that that fell in is actually smeared over the horizon in anon-local way and that's puzzling and
+ that's a lot so holography because that's a two-dimensional surface that isencapsulating the whole
+ three-dimensional thing inside right still trying to deal with that stilltrying to figure out how to get there
+ but it's an indication that we need to think a little more subtly when wequantize gravity so because you can
+
+
+1:07:02
+Speaker 1 :describe everything that's going on in
+ the in three-dimensional space by looking at the two-dimensionalprojection of it that means that
+ locality doesn't it's not necessary well
+
+1:07:14
+Speaker 0 :it means it's somehow it's only a good
+ approximation it's not really what's going on how we're supposed to feel
+
+1:07:20
+Speaker 1 :
+
+1:07:22
+Speaker 0 :about that supposed to be liberated
+ you know space is just a good approximation and this was always gonnabe true once you started quantizing
+ gravity so we're just beginning now to face up to the dramatic implications ofquantizing gravity is there other weird
+
+
+1:07:39
+Speaker 1 :stuff that happens to quantum mechanics
+ in black hole I don't think that
+
+1:07:43
+Speaker 0 :anything weird happen with quantum
+ mechanics thinking weird things happen with space-time I mean that's what it islike quantum mechanics is still just
+ quantum mechanics but our ordinary notions of space-time don't really quitework and there's a principle that goes
+ hand in hand with holography called complementarity which says that there'sno one unique way to describe what's
+ going on inside a black hole different observers will have differentdescriptions both of which are accurate
+ but sound completely incompatible with each other so depends on how you look atit you know the word complementarity in
+ this context is borrowed from Niels Bohr who points out you can measure theposition or you can measure the momentum
+ you can't measure both at the same time in quantum mechanics so a couple
+
+1:08:31
+Speaker 1 :questions on many worlds how does many
+ worlds help us understand our particular branch of reality so ok that's fine andgood that is everything is splitting
+ we're just traveling down a single branch of it so how does it help usunderstand our little unique branch yeah
+
+
+1:08:51
+Speaker 0 :I mean that's a great question but
+ that's the point is that we didn't invent many worlds cuz you thought itwas cool to have a whole bunch of worlds
+ right we invented it because we were trying to account for what we observehere in our world and what we observe
+ here in our world are wave functions collapsing ok we do have a position as asituation where the electron seems to be
+ spread out but then when we look at it we don't see it spread out we see itlocated somewhere so what's going on
+ that's the measurement problem of quantum mechanics that's what we have toface up to so many worlds is just a
+ proposed solution to that problem and the answer is nothing special ishappening it's still just the
+ Schrodinger equation but you have a wave function - and that's a different answerthan would be given in hidden variables
+ or dynamical collapse theories or whatever so the entire point of manyworld's is to explain what we observe
+ but it tries to explain what we already have observed right it's not trying tobe different from what we've observed
+ because that would be something other than quantum mechanics but you know the
+
+1:09:50
+Speaker 1 :idea that there's worlds that we didn't
+ observe they keep branching off it's kind of it is uh you know it'sstimulating to the imagination so is it
+ possible to hop from you mentioned the branches are independent yes is itpossible to hop from one to the other
+ no it's so physical limit then the theory says it's impossible there's
+
+1:10:15
+Speaker 0 :already a copy of you in the other world
+ don't worry yes leave them alone
+
+1:10:20
+Speaker 1 :
+
+1:10:21
+Speaker 0 :no but there's a there's a fear of
+
+
+1:10:21
+Speaker 1 :missing out form oh yes that I feel like
+ immediately start to wander if that other copy is having more or less fun
+
+1:10:33
+Speaker 0 :well the downside in many worlds is that
+ you're missing out on an enormous and that's always what it's gonna be like
+
+1:10:40
+Speaker 1 :and I mean there's a certain stage of
+ acceptance and that yes in terms of rewinding you think we can rewind thesystem back sort of the the nice thing
+ about many worlds I guess is it really emphasizes the maybe you can correct mebut to determine it the deterministic
+ nature of a branch and it feels like it could be a while back is it is do yousee is this something that could be
+ perfectly won back rewinded back yeah
+
+1:11:12
+Speaker 0 :you know if you're at a fancy French
+ restaurant yeah there's a nice linen white tablecloth and you have your glassof Bordeaux and you knock it over and
+ the wine spills across the tablecloth if the world were classical okay it wouldbe possible that if you just lifted the
+ wine glass up you'd be lucky enough that every molecule of wine would hop backinto the glass right but guess what it's
+ not going to happen in the real world and the quantum wave function is exactlythe same way it is possible in principle
+ to rewind everything if you start from perfect knowledge of the entire wavefunction of the universe in practice
+ that's never gonna happen
+
+1:11:49
+Speaker 1 :so time travel not possible
+
+
+1:11:52
+Speaker 0 :nope at least one mechanic says no help
+
+
+1:11:57
+Speaker 1 :what about memory does the universe have
+ a memory of itself where we could in in it's a not time travel but peek back intime and do a little like replay well
+
+
+1:12:12
+Speaker 0 :it's exactly the same in quantum
+ mechanics as classical mechanics so whatever you want to say about that youknow the fundamental laws of physics in
+ either many worlds quantum mechanics or Newtonian physics conserve informationso if you have all the information about
+ the quantum state of the world right now your Laplace's demon-like in yourknowledge and calculational capacity you
+ can wind the clock backward but none of us is right and you know so in practiceyou could never do that you can do
+ experiments over and over again starting from the same initial conditions forsmall systems but once things get to be
+ large Avogadro's number of particles write bigger than a cell no chance we
+
+1:12:56
+Speaker 1 :we've talked a little bit about arrow of
+ time last time but in many worlds that there is a kind of implied arrow of timeright so you've talked about the arrow
+ of time that has to do with the second law of thermodynamicsthat's the arrow of time that's emergent
+ or fundamental we don't know I guess
+
+1:13:20
+Speaker 0 :no it's emergent it's a is that there's
+
+
+1:13:21
+Speaker 1 :everyone agree on that well nobody's
+
+
+1:13:26
+Speaker 0 :everything so that area of time is that
+
+
+1:13:28
+Speaker 1 :different in the arrow of time that's
+ implied by many worlds it's not
+
+1:13:33
+Speaker 0 :different actually no in both cases you
+ have fundamental laws of physics that are completely reversible if you give methe state of the universe at one moment
+ in time I can run the clock forward or backward equally well there's no arrowof time built into the laws of physics
+ at the most fundamental level but what we do have are special initialconditions 14 billion years ago near the
+ Big Bang in thermodynamics those special initial conditions take the form ofthings were low entropy and entropy has
+ been increasing ever since making the universe more disorganized and chaoticand that's the arrow of time in quantum
+ mechanics these special initial conditions take the form of there wasonly one branch of the wavefunction and
+ the universe has been branching more and
+
+1:14:20
+Speaker 1 :more ever since ok so if time is
+ emergent so it seems like our human cognitive capacity likes to take thingsthat are emergent and assume in feel
+ like they're fundamental so what it sequence of times emergent and localitylike space emergent yes ok but I didn't
+
+
+1:14:43
+Speaker 0 :say time was merge and I said the arrow
+ of time was emergent those are different
+
+1:14:48
+Speaker 1 :what's the difference between the arrow
+ of time and time are using arrow of time to simply mean this the synonymous withthe second law thermodynamics no but the
+
+
+1:14:58
+Speaker 0 :arrow of time is the difference between
+ the past and future so all right there's space but there's no arrow of space youdon't feel that space has to have an
+ arrow right you could live in thermodynamic equilibrium there be noarrow of time but there'd still be time
+ it'd still be a difference between now and the future also ok so if nothing
+
+1:15:14
+Speaker 1 :changes there's still time well things
+
+
+1:15:18
+Speaker 0 :could even change like if the whole
+ universe consisted of the earth going around the Sun yeah ok it would just goin circles or ellipses right that's not
+ every things would change but it's not increasing entropy there's no arrow ifyou took a movie of that and I played
+ you the movie backward you would never know so the arrow of time can
+
+1:15:38
+Speaker 1 :theoretically point in the other
+ direction for brief briefly so intent
+
+1:15:45
+Speaker 0 :that it points in different directions
+ it's not a very good arrow I mean the arrow of time in the macroscopic worldis so powerful that there's just no
+ chance of going back when you get down to tiny systems with only three or fourmoving parts then entropy can fluctuate
+ up and down what does it mean for space
+
+1:16:00
+Speaker 1 :to be an emergent phenomena it means
+
+
+1:16:03
+Speaker 0 :that the fundamental description of the
+ world does not include the word space it'll be something like a vector inHilbert space right and you have to say
+ well why is there a good approximation scription which involves three dementiaspace and stuff inside it okay so time
+
+
+1:16:17
+Speaker 1 :and space or immersion we kind of
+ mentioned it in the beginning but can you elaborate what do you feel hope isfundamental in our universe a
+
+
+1:16:30
+Speaker 0 :wavefunction living in hilbert space
+
+
+1:16:32
+Speaker 1 :wave function and hilbert space that we
+ can't intellectualize or visualize really
+
+1:16:37
+Speaker 0 :we can't visualize it we can
+ intellectualize it very easily like well
+
+1:16:40
+Speaker 1 :how do you think about it's a vector in
+
+
+1:16:42
+Speaker 0 :a 10 to the 10 to the 120 2-dimensional
+ vector space it's a complex vector unit norm it evolves according theSchrodinger equation got it when you put
+
+
+1:16:52
+Speaker 1 :
+
+1:16:54
+Speaker 0 :it that way what's so hard really yep
+
+
+1:16:57
+Speaker 1 :quantum computers there's some
+ excitement actually a lot of excitement with people that it will allow us tosimulate quantum mechanical systems what
+ kind of questions do about quantum mechanics about the things we've beentalking about do you think do you hope
+ we can answer through quantum simulation
+
+1:17:20
+Speaker 0 :well I think that there are there's a
+ whole fascinating frontier of things you can do with quantum computers both sortof practical things with cryptography or
+ money privacy eavesdropping sorting things simulating quantum systems right
+
+1:17:40
+Speaker 1 :so it's a it's a broader question maybe
+ even outside of quantum computers some of the theories that we've been talkingabout what's your hope what's most
+ promising to test these theories what are what are kind of experiments we canconduct whether in simulation or in the
+ physical world that would validate or disprove or expand these theories well I
+
+1:18:03
+Speaker 0 :think for the there's two parts of that
+ question one is many worlds and the other one is sort of emergent space-timefor many worlds you know there are
+ experiments on going to test whether or not wavefunction spontaneously collapseand if they do then that rules out many
+ worlds and that will be falsified what if there are hidden variables there's atheorem that seems to indicate that the
+ predictions will always be the same as many worlds I'm a little skeptical thistheorem I'm not completely I haven't
+ internalized it haven't made it in part of my intuitive view of the world yet sothere might be loopholes to that theorem
+ I'm not sure about that I part of me thinks that there should be differentexperimental predictions if there are
+ hidden variables but I'm not sure but otherwise it's just quantum mechanicsall the way down and so there's there's
+ this cottage industry in science journalism of writing breathlessarticles that say you know quantum
+ mechanics shown to be more astonishing than ever before thought and really it'sthe same quantum mechanics we've been
+ doing since 1926 whereas with the emergent space-time stuff we know a lotless about what the theory is it's in a
+ very primitive state we don't even really have a safely written downrespectable honest theory yet so there
+ could very well be experimental predictions we just don't know about yetthat is one of the things that we're
+ trying to figure out me before emergence
+
+1:19:20
+Speaker 1 :space-time you need a really big stuff
+ all right
+
+1:19:24
+Speaker 0 :well or really fast stuff or really
+ energetic stuff we don't know that that's the thing you know so there couldbe violations of the speed of light if
+ you have a version space-time not going faster than the speed of light but thespeed of light could be different for
+ light of different wavelengths right that would be a dramatic violation ofphysics as we know it but it could be
+ possible or not I mean it's not an absolutely prediction as that's that'sthe problem the theories are just not
+ well developed enough yet to say is
+
+1:19:54
+Speaker 1 :there anything that quantum mechanics
+ can teach us about human nature or the human mind do you think about sort ofconsciousness and these kinds of topics
+ is there it's certainly excessively used as you point out the word quantum isused for everything besides quantum
+ mechanics but in more seriousness is there something that goes to the humanlevel and can help us understand our
+
+
+1:20:26
+Speaker 0 :mind not really is the short answer
+ you know minds are pretty classical I don't think we don't know this for surebut I don't think that phenomena like
+ entanglement are crucial to how the human mind works or about consciousness
+
+1:20:39
+Speaker 1 :so you mentioned I think early on in the
+ Commerce you said it would be I'm a it would beunlikely but incredible if sort of the
+ observer somehow a fundamental part yeah so observer not to romanticize thenotion but seems interlink to the idea
+ of consciousness so if consciousness as the pant site because believe isfundamental to the universe is that
+ possible is that wait I mean every possible just say Joe Rogan likes to sayit's entirely possible but ok but is it
+ on a spectrum of crazy out there how how
+
+1:21:23
+Speaker 0 :
+
+1:21:24
+Speaker 1 :the statistic is speaking how often do
+ you ponder the possibility that consciousness is fundamental or theobserver is fundamental to personally
+
+
+1:21:32
+Speaker 0 :don't at all there are people who do I'm
+ a thorough physical estate company side I do not think that there are anyseparate mental states or mental
+ properties I think they're all emergent just like space-time is and you knowspace-time is hard enough to understand
+ so the fact that we don't yet understand consciousness is not at all surprisingto you as we mentioned have an amazing
+
+
+1:21:52
+Speaker 1 :podcast called mindscape it's as I said
+ on my favorite podcast sort of both for your explanation of physics which a lotof people of and when you venture out
+ into things that are beyond your expertise but it's just a really smartperson exploring even questions like you
+ know morality for example it's very interesting I think you did a soloepisode and so on I mean there's a lot
+ of really interesting conversations that you have what are what are some frommemory amazing conversations that pop to
+ mind you've had what did you learn from them something that maybe changed yourmind and just inspired you or just what
+ do this whole experience of having conversations what stands out to you
+
+1:22:44
+Speaker 0 :it's an unfair question totally unfair
+ that's okay that's alright you know it's often the ones I feel like the the onesI do on physics and closely related
+ science or even philosophy ones are like I know this stuff and I'mhelping people learn about it but I
+ learned more from the ones that nothing to do with physics or philosophy rightso talking to Wynton Marsalis about jazz
+ or talking to a Master Sommelier about wine talking to will Wilkinson aboutpartisan polarization and the
+ urban-rural divide talking to psychologists like Carol Tavarez aboutcognitive dissonance and and how those
+ things work scott derrickson who is the director of the movie dr. strange I hada wonderful conversation with him where
+ we went through the mechanics of making a blockbuster superhero movie right andhe's also not a naturalist he's a he's a
+ evangelical Christian so we talked about the nature of reality there I want tohave a couple more you know
+ discussions with highly educated theists who know thetheology really well but I haven't quite
+ arranged those yet I would love to hear
+
+1:23:57
+Speaker 1 :that I mean that's how comfortable are
+ you venturing into questions of religion
+
+1:24:02
+Speaker 0 :well I'm totally comfortable doing it
+ you know I did talk with Alan Lightman who is also an atheist but he he istrying to rescue the sort of spiritual
+ side of things for atheism and I did talk to very vocal atheists like AlexRosenberg so I need to talk to some I
+ talked to some religious believers and he talked more how have you changed
+
+1:24:26
+Speaker 1 :through having all these conversations
+
+
+1:24:29
+Speaker 0 :you know part of the motivation was I
+ had a long stack of books that I hadn't read and I couldn't find time to readthem and I figured if I interviewed
+ their authors forcing me to read them right and that's that is totally workedby the way now I'm annoyed that people
+ write such long books I think I'm still very much learning how to be a goodinterviewer I think that's a skill that
+ uh you know I I think I have good questions but you know there's thegive-and-take that is still I think I
+ could be better at like I want to offer something to the conversation but nottoo much right I've had conversations
+ where I barely talked at all and I have conversations where I talked half thetime I think there's a happy medium in
+ between there so I think I remember
+
+1:25:09
+Speaker 1 :listening to without mentioning names
+ some of your conversations where I wish you would have disagreed more yeah as alistener
+ it's more fun sometimes it well this is
+
+1:25:21
+Speaker 0 :that's a very good question because you
+ know my everyone has an attitude toward that like some people are really thereto basically give their point of view
+ and the they're their guest is supposed to you know respond accordingly I I wantto sort of get my view on the record but
+ I don't want to dwell on it when I'm talking to someone like David Chalmerswho I disagree with a lot you know I
+ want to say like here's why I disagree with you but you know I want we're hereto listen to you like I have a Pepa
+ sowed every week and you only own once a week right and so I have enough comingpodcast episode with Philip golf who is
+ much more dedicated pants I kissed and sothere we really get into it I think that
+ I probably have disagreed with him more on that episode than I ever have withanother podcast guest but that's what he
+ wanted so it worked very well yes yeah
+
+1:26:10
+Speaker 1 :that kind of debate structure is
+ beautiful when it's done right like when you're when you can detect that theintent is that you have fundamental
+ respect for the person yeah that and that's for some reason it's super fun tolisten to when two really smart people
+ are just arguing and sometimes lose their a little bit if I may say
+
+1:26:33
+Speaker 0 :well there's a fine line because I have
+ zero interest in bringing I mean like I mean it may be maybe you implied this Ihave zero interest in bringing on people
+ for whom I don't have any intellectual respect like I constantly get requestslike you know bring on a flat earth or
+ whatever and really slap them down or a creationist like I'm at zero interestI'm happy to bring on you know a
+ religious person a believer but I want someone who's smart and can act in goodfaith and can talk not a charlatan or a
+ lunatic right so I will only I will happily bring on people with whom Idisagree but only people from who I
+ think the audience can learn something
+
+1:27:10
+Speaker 1 :interesting so let me ask the idea of
+ Charlton is an interesting idea you might be more educated on this topicthan me but there's um there's folks for
+ example who argue of various aspects of evolution sort of try to approach andsay that evolution sort of our current
+ theory of evolution has many holes in it as many flaws and they argue that Ithink like Cambridge
+ Cambrian explosion that which is like a huge added variability of speciesdoesn't make sense under our current
+ description of evolution to a theory of evolution sort of if you had were tohave the conversation with people like
+ that how do you know that they're thedifference being outside the box
+ thinkers and people who are fundamentally unscientific andeven bordering on charlatans it's a
+
+
+1:28:14
+Speaker 0 :great question and you know the further
+ you get away from my expertise the harder it is for me to really judgeexactly those things and you know yeah I
+ don't have a satisfying answer for that one because I think the example you useof someone who you know believes in the
+ basic structure of natural selection but thinks that you know this particularthing cannot be understood in the terms
+ of our current understanding of Darwinismthat's a perfect edge case where it's
+ hard to tell right and I would have to I would try to talk to people who I dorespect and who do know things and I
+ would have to you know given that I'm a physicist I know that physicists willsometimes be too dismissive of
+ alternative points of view I have to take into account that biologists canalso be too dismissive of alternative
+ points of view so yeah that's a tricky one have you gotten heat yet yeah allthe time like there's always something I
+ mean it's it's hilarious cuz I do have I try very hard not to like have the sametopic several times in a row I did have
+ like to climate change episodes but they were from very different perspectivesbut I like to mix it up that's the whole
+ puzzle I'm having fun and every time I do an episode someone says oh the personyou should really get on to talk about
+ exactly that is this other person like well I don't but I did that now I wantto do that well I hope you keep doing it
+
+
+1:29:28
+Speaker 1 :you're inspiring millions of people your
+ books your podcasts Sean it's an honor to talk to you thank you so much thanks
+

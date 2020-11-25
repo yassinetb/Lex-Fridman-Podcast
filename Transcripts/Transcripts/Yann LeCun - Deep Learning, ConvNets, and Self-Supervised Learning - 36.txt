@@ -1,0 +1,994 @@
+Speaker 1 :the following is a conversation with
+ Jana kun he's considered to be one of the fathers of deep learning which ifyou've been hiding under a rock is the
+ recent revolution in AI that's captivated the world with thepossibility of what machines can learn
+ from data he's a professor in New York University a vice president and chief AIscientist a Facebook & Co recipient of
+ the Turing Award for his work on deep learning he's probably best known as thefounding father of convolutional neural
+ networks in particular their application to optical character recognition and thefamed M NIST data set he is also an
+ outspoken personality unafraid to speak his mind in a distinctive French accentand explore provocative ideas both in
+ the rigorous medium of academic research and the somewhat less rigorous medium ofTwitter and Facebook this is the
+ artificial intelligence podcast if you enjoy it subscribe on YouTube give itfive stars on iTunes support and on
+ patreon we're simply gonna equip me on Twitter Alex Friedman spelled the Fri Dma N and now here's my conversation with
+
+
+Speaker 0 :
+
+Speaker 1 :Yann Laocoon you said that 2001 Space
+ Odyssey is one of your favorite movies Hal 9000 decides to get rid of theastronauts for people haven't seen the
+ movie spoiler alert because he it she believes that the astronauts they willinterfere with the mission do you see
+ how is flawed in some fundamental way or even evil or did he do the right thing
+
+Speaker 0 :neither there's no notion of evil in
+ that in that context other than the fact that people die but it was an example ofwhat people call value misalignment
+ right you give an objective to a machine and the Machine strives to achieve thisobjective and if you don't put any
+ constraints on this objective like don't kill people and don't do things likethis
+ the Machine given the power will do stupid things just to achieve this disobjective or damaging things to achieve
+ its objective it's a little bit like we are used to this in the context of humansociety we we put in place laws to
+ prevent people from doing bad things because fantasy did we do those badthings right so we have to shave their
+ cost function the objective function if you want through laws to kind of correctan education obviously to sort of
+ correct for for those so maybe just
+
+Speaker 1 :pushing a little further on on that
+ point how you know there's a mission there's a this fuzziness around theambiguity around what the actual mission
+ is but you know do you think that there will be a time from a utilitarianperspective or an AI system where it is
+ not misalignment where it is alignment for the greater good of society thatkneei system will make decisions that
+
+
+Speaker 0 :are difficult well that's the trick I
+ mean eventually we'll have to figure out how to do this and again we're notstarting from scratch because we've been
+ doing this with humans for four millenniaso designing objective functions for
+ people is something that we know how to do and we don't do it by you knowprogramming things although the legal
+ code is called code so that tells you something and it's actually the designof an object you function that's really
+ what legal code is right it tells you you can do it what you can't do if youdo it you pay that much that's that's an
+ objective function so there is this idea somehow that it's a new thing for peopleto try to design objective functions are
+ aligned with the common good but no we've been writing laws for millenniaand that's exactly what it is
+ so this that's where you know the science of lawmaking and and computerscience will come together will come
+
+
+Speaker 1 :together so it's nothing there's nothing
+ special about how or a I systems is just the continuation of tools used to makesome of these difficult ethical
+
+
+Speaker 0 :judgments that laws make yeah and we and
+ we have systems like this already that you know make many decisions forourselves in society that you know need
+ to be designed in a way that they like you know rules about things thatsometimes sometimes have bad side
+ effects and we have to be flexible enough about those rules so that theycan be broken when it's obvious that
+ they shouldn't be applied so you don't see this on the camera here but all thedecorations in this room is all pictures
+ from 2001 a Space Odyssey Wow
+
+Speaker 1 :and by accident or is there a lot about
+
+
+Speaker 0 :accident it's by design Wow so if you
+
+
+Speaker 1 :were if you were to build hell 10,000 so
+ an improvement of Hal 9000 what would
+
+Speaker 0 :you improve well first of all I wouldn't
+ ask you to hold secrets and tell lies because that's really what breaks it inthe end that's the the fact that it's
+ asking itself questions about the purpose of the mission and it's you knowpieces things together that it's heard
+ you know all the secrecy of the preparation of the mission and the factthat it was discovery and on the lunar
+ surface that really was kept secret and and one part of Hal's memory knows thisand the other part is does not know it
+ and it's supposed to not tell anyone and that creates a internal conflict do you
+
+Speaker 1 :think there's never should be a set of
+ things that night AI system should not be allowed like a set of facts thatshould not be shared with the human
+
+
+Speaker 0 :operators well I think no I think the I
+ think it should be a bit like in the design of autonomous AI systems thereshould be the equivalent of you know the
+ the the oath that hypocrite Oh calm yourself yeah that doctors sign up toright so the certain thing certain rule
+ said that that you have to abide by and we can sort of hardwire this into intoour into our machines to kind of make
+ sure they don't go so I'm not you know advocate of the the 303 dollars ofRobotics you know the as you move kind
+ of thing because I don't think it's practical but but you know some somelevel of of limits but but to be clear
+ this is not these are not questions that are kind of really worth asking todaybecause we just don't have the
+ technology to do this we don't we don't have a ton of missing teller machines wehave intelligent machines so my
+ intelligent machines that are very specialized but they don't they don'treally sort of satisfy an objective
+ they're just you know kind of trained to do one thing so until we have some ideafor design of a full-fledged autonomous
+ intelligent system asking the question of how we design use objective I thinkis a little a little too abstract it's a
+
+
+Speaker 1 :little tough rat there's useful elements
+ to it in that it helps us understand our own ethical codes humans so even just asa thought experiment if you imagine that
+ in a GI system is here today how would we program it is a kind of nice thoughtexperiment of constructing how should we
+ have a law have a system of laws far as humansit's just a nice practical tool and I
+ think there's echoes of that idea too in the AI systems left today it don't haveto be that intelligent
+ yeah like autonomous vehicles there's these things start creeping in that werethinking about but certainly they
+ shouldn't be framed as as hell yeah
+
+Speaker 0 :
+
+Speaker 1 :looking back what is the most I'm sorry
+ if it's a silly question but what is the most beautiful or surprising idea anddeep learning or AI in general that
+ you've ever come across sort of personally well you said back and andjust had this kind of wow that's pretty
+ cool moment that's nice well surprising I
+
+Speaker 0 :don't know if it's an idea rather than a
+ sort of empirical fact the fact that you gigantic neural nets trying to trainthem on you know relatively small
+ amounts of data relatively with the caste grid in the center that itactually works breaks everything you
+ read in every textbook right every pre deep learning textbook that told you youneed to have fewer parameters and you
+ have data samples you know if you have non-convex objective function you haveno guarantee of convergence you know all
+ the things that you read in textbook and they tell you stay away from this and
+
+Speaker 1 :they were all wrong huge number of
+ parameters non-convex and somehow which is very relative to the number ofparameters data it's able to learn
+ anything right does that surprise you
+
+Speaker 0 :today well it it was kind of obvious to
+ me before I knew anything that that's that this is a good idea and then itbecame surprising that it worked
+ because I started reading those text books okay so okay you talk to the
+
+Speaker 1 :intuition of why was obviously if you
+
+
+Speaker 0 :remember well okay so the intuition was
+ it's it's sort of like you know those people in the late 19th century whoproved that heavier than than air flight
+ was impossible right and of course you have birds right they do fly and so onthe face of it it it's obviously wrong
+ as an empirical question right and so we have the same kind of thing that youknow the we know that the brain works we
+ don't know how but we know it works and we know it's a large network of neuronsand interaction and the learning takes
+ place by changing the connection so kind of getting this level of inspirationwithout copying the details but sort of
+ trying to derive basic principles you know that kind of gives you a clueas to which direction to go there's also
+ the idea somehow that I've been convinced of since I was an undergradthat even before that intelligence is
+ inseparable from running so you the idea somehow that you can create anintelligent machine by basically
+ programming for me was a non-starter you know from the start every intelligententity that we know about arrives at
+ this intelligence to learning so learning you know machine learning wascompletely obvious path also because I'm
+ lazy so you know it's automate basically
+
+Speaker 1 :everything and learning is the
+ automation of intelligence right so do you think so what is learning then whatwhat falls under learning because do you
+ think of reasoning is learning where
+
+Speaker 0 :reasoning is certainly a consequence of
+ learning as well just like other functions of of the brainthe big question about reasoning is how
+ do you make reasoning compatible with gradient based learning do you think
+
+Speaker 1 :neural networks can be made to reason
+
+
+Speaker 0 :yes that there's no question about that
+ again we have a good example right the question is is how so the question ishow much prior structure you have to put
+ in the neural net so that something like human reasoning will emerge from it youknow from running another question is
+ all of our kind of model of what reasoning is that are based on logic arediscrete and and and are therefore
+ incompatible with gradient based learning and I was very strong believerin this idea Grandin baserunning I don't
+ believe that other types of learning that don't use kind of gradientinformation if you want so you don't
+
+
+Speaker 1 :like discrete mathematics you don't like
+ anything discrete
+
+Speaker 0 :well that's it's not that I don't like
+ it it's just that it's it's incompatible with learning and I'm a big fan ofrunning right so in fact that's perhaps
+ one reason why deep learning has been kind of looked at with suspicion by alot of computer scientists because the
+ math is very different the method you use for deep running you know we kind ofas more to do with you know cybernetics
+ the kind of math you do in electrical engineering then the kind of math youdoing computer science and and you know
+ nothing in in machine learning is exact right computer science is all about sortof you know obviously compulsive
+ attention to details of like you know every index has to be right and you canprove that an algorithm is correct right
+ machine learning is the science of
+
+Speaker 1 :sloppiness really that's beautiful so
+ okay maybe let's feel around in the dark of what is a neural network that reasonsor a system that is works with
+ continuous functions that's able to do build knowledge however we think aboutreasoning builds on previous knowledge
+ build on extra knowledge create new knowledge generalized outside of anytraining set ever built what does that
+ look like if yeah maybe do you have Inklings of thoughts of what
+
+Speaker 0 :that might look like well yeah I mean
+ yes or no if I had precise ideas about this I think you know we'd be buildingit right now but and there are people
+ working on this or whose main research interest is actually exactly that rightso what you need to have is a working
+ memory so you need to have some device if you want some subsystem they canstore a relatively large number of
+ factual episodic information for you know a reasonable amount of time so youyou know in the in the brain for example
+ it kind of three main types of memory one is the sort of memory of the thestate of your cortex and that sort of
+ disappears within 20 seconds you can't remember things for more than about 20seconds or a minute if if you don't have
+ any other form of memory the second type of memory which is longer term is shortterm is the hippocampus so you can you
+ know you came into this building you remember whether where the the exit iswhere the elevators are you have some
+ map of that building that's stored in your hippocampus you might remembersomething about what I said you know if
+ you
+
+Speaker 1 :minutes ago and forgot all our stars
+
+
+Speaker 0 :being raised but you know but that does
+ not work in your hippocampus and then the the longer term memory is in thesynapse the synapses right so what you
+ need if you want for a system that's capable reasoning is that you want thehippocampus like thing right and that's
+ what people have tried to do with memory networks and you know no Turing machinesand stuff like that right and and now
+ with transformers which have sort of a memory in their kind of self attentionsystem you can you can think of it this
+ way so so that's one element you need another thing you need is some sort ofnetwork that can access this memory get
+ an information back and then kind of crunch on it and then do thisiteratively multiple times because a
+ chain of reasoning is a process by which you you you can you update yourknowledge about the state of the world
+ about you know what's gonna happen etc and that there has to be this sort ofrecurrent operation basically and you
+
+
+Speaker 1 :think that kind of if we think about a
+ transformer so that seems to be too small to contain the knowledge that'sthat's to represent the knowledge as
+ containing Wikipedia for example but
+
+Speaker 0 :transformer doesn't have this idea of
+ recurrence it's got a fixed number of layers and that's number of steps thatyou know limits basically it's a
+ representation but recurrence would
+
+Speaker 1 :build on the knowledge somehow I mean
+ yeah it would evolve the knowledge and expand the amount of information perhapsor useful information within that
+ knowledge yeah but is this something that just can emerge with size becauseit seems like everything we have now is
+
+
+Speaker 0 :just no it's not it's not it's not clear
+ how you access and right into an associative memory in efficient way Imean sort of the original memory network
+ maybe had something like the right architecture but if you try to scale upa memory network so that the memory
+ contains all we keep here it doesn't quite work right so so this is a needfor new ideas there okay but it's not
+ the only form of reasoning so there's another form of reasoning which is truewhich is very classical so in
+ some types of AI and it's based on let's call it energy minimization okay so youhave some sort of objective some energy
+ function that represents the the the quality or the negative quality okayenergy goes up when things get bad and
+ they get low when things get good so let's say you you want to figure out youknow what gestures do I need to to do to
+ grab an object or walk out the door if you have a good model of your own body agood model of the environment using this
+ kind of energy minimization you can make a you can make you can do planning andit's in optimal control it's called it's
+ called Marie put model predictive control you have a model of what's gonnahappen in the world as consequence for
+ your actions and that allows you to buy energy minimization figure out thesequence of action that optimizes a
+ particular objective function which measures you know minimize the number oftimes you're gonna hit something and the
+ energy gonna spend doing the gesture and etc so so that's performer reasoningplanning is a form of reasoning and
+ perhaps what led to the ability of humans to reason is the fact that or youknow species you know that appear before
+ us had to do some sort of planning to be able to hunt and survive and survive thewinter in particular and so you know
+ it's the same capacity that you need to
+
+Speaker 1 :have so in your intuition is if you look
+ at expert systems in encoding knowledge as logic systems as graphs in this kindof way is not a useful way to think
+
+
+Speaker 0 :about knowledge graphs are your brittle
+ or logic representation so basically you know variables that that have values andconstraint between them that are
+ represented by rules as well too rigid and too brittle right so one of the youknow some of the early efforts in that
+ respect were were to put probabilities on them so a rule you know you know ifyou have this in that symptom you know
+ you have this disease with that probability and you shoulddescribe that antibiotic with that
+ probability right this my sin system from the for the 70s and that that'swhat that branch of AI led to you know
+ busy networks in graphical models and causal inference and vibrational youknow method so so there there is I mean
+ certainly a lot of interesting work going on in this area the main issuewith this is is knowledge acquisition
+ how do you reduce a bunch of data to
+
+Speaker 1 :graph of this type near relies on the
+ expert and a human being to encode at
+
+Speaker 0 :add knowledge and that's essentially
+ impractical yeah the question the second question is do you want to representknowledge symbols and you want to
+ manipulate them with logic and again that's incomparable we're learning soone suggestion with geoff hinton has
+ been advocating for many decades is replace symbols by vectors think of itas pattern of activities in a bunch of
+ neurons or units or whatever you wanna call them and replace logic bycontinuous functions okay
+ and that becomes now compatible there's a very good set of ideas by region in apaper about 10 years ago by leon go to
+ on who is here at face book the title of the paper is for machine learning tomachine reasoning and his idea is that
+ learning learning system should be able to manipulate objects that are in thesame space in a space and then put the
+ result back in the same space so is this idea of working memory basically andit's a very enlightening and in the
+
+
+Speaker 1 :sense that might learn something like
+ the simple expert systems I mean it's with you can learn basiclogic operations there yeah quite
+
+
+Speaker 0 :possibly yeah this is a big debate on
+ sort of how much prior structure you have to put in for this kind of stuff toemerge that's the debate I have with
+ Gary Marcus and people like that yeah
+
+Speaker 1 :yeah so and the other person so I just
+ talked to judea pearl mm-hmm well you mentioned causal inference worldhis worry is that the current knew all
+ networks are not able to learn what causes what causal inference between
+
+Speaker 0 :things so I think I think he's right and
+ wrong about this if he's talking about the sort of classic type of neural netspeople also didn't worry too much about
+ this but there's a lot of people now working on causal inference and there'sa paper that just came out last week by
+ Leon Mbutu among others develop his path and push for other people exactly onthat problem of how do you kind of you
+ know get a neural net to sort of pay attention to real causal relationshipswhich may also solve issues of bias in
+ data and things like this so I'd like to
+
+Speaker 1 :read that paper because that ultimately
+ the challenges also seems to fall back on the human expert to ultimately decidecausality between things people are not
+
+
+Speaker 0 :very good at its direction causality
+ first of all so first of all you talk to a physicist and physicists actuallydon't believe in causality because look
+ at the all the busy clause or microphysics are time reversible so
+
+Speaker 1 :there is no causality the arrow of time
+ is not right yeah it's it's as soon as
+
+Speaker 0 :you start looking at macroscopic systems
+ where there is unpredictable randomness where there is clearly an arrow of timebut it's a big mystery in physics
+ actually well how that emerges is that
+
+Speaker 1 :emergent or is it part of the
+ fundamental fabric of reality yeah or is
+
+Speaker 0 :it bias of intelligent systems that you
+ know because of the second law of thermodynamics we perceive a particulararrow of time but in fact it's kind of
+
+
+Speaker 1 :arbitrary right so yeah physicists
+ mathematicians they don't care about I mean the math doesn't care about the
+
+Speaker 0 :flow of time well certainly certainly
+ macro physics doesn't people themselves are not very good at establishing causalcausal relationships if you ask is I
+ think it was in one of Seymour Papert spoken on like children learning youknow he studied with Jean Piaget you
+ know he's the guy who co-authored the book perceptron with Marvin Minsky thatkind of killed the first wave
+ but but he was actually a learning person he in the sense of studyinglearning in humans and machines that's
+ what he got interested in for scepter on and he wrote that if you ask a littlekid about what is the cause of the wind
+ a lot of kids will say they will think for a while and they'll say oh it's thethe branches in the trees they move and
+ that creates wind right so they get the causal relationship backwards and it'sbecause their understanding of the world
+ and intuitive physics is not that great right I mean these are like you knowfour or five year old kids you know it
+ gets better and then you understand that this it can't be right but there are
+
+Speaker 1 :many things which we can because of our
+ common sense understanding of things what people call common sense yeah andwe understanding of physics we can
+ there's a lot of stuff that we can figure out causality even with diseaseswe can figure out what's not causing
+ what often there's a lot of mystery of course but the idea is that you shouldbe able to encode that into systems it
+ seems unlikely to be able to figure that
+
+Speaker 0 :out themselves well whenever we can do
+ intervention but you know all of humanity has been completely deluded formillennia probably since existence about
+ a very very wrong causal relationship where whatever you can explain youattributed to you know some deity some
+ divinity right and that's a cop-out that's the way of saying like I don'tknow the cause so you know God did it
+
+
+Speaker 1 :right so you mentioned Marvin Minsky and
+ the irony of you know maybe causing the first day I winter you were there in the90s you're there in the 80s of course in
+ the 90s what do you think people lost faith and deep learning in the 90s andfound it again a decade later over a
+
+
+Speaker 0 :decade later yeah it wasn't called
+ dethroning yeah it was just called neural nets you knowyeah they lost interests I mean I think
+ I would put that around 1995 at least the machine learning community there wasalways a neural net community but it
+ became disconnected from sort of ministrymachine owning if you want
+ there were it was basically electrical engineering that kept at it and computerscience just gave up give up on neural
+ nets I don't I don't know you know I was too close to it to really sort ofanalyze it with sort of a unbiased eye
+ if you want but I would I would I would would make a few guesses so the firstone is at the time neural nets were it
+ was very hard to make them work in the sense that you would you know implementback prop in your favorite language and
+ that favorite language was not Python it was not MATLAB it was not any of thosethings cuz they didn't exist right you
+ had to write it in Fortran or C or something like this right so you wouldexperiment with it you would probably
+ make some very basic mistakes like you know badly initialize your weights makethe network too small because you read
+ in the textbook you know you don't want too many parameters right and of courseyou know and you would train on x4
+ because you didn't have any other data set to try it on and of course you knowit works half the time so we'd say you
+ give up also 22 the batch gradient which you know isn't it sufficient so there'sa lot of bag of tricks that you had to
+ know to make those things work or you had to reinvent and a lot of people justdidn't and they just couldn't make it
+ work so that's one thing the investment in software platform to be able to kindof you know display things figure out
+ why things don't work and I get a good intuition for how to get them to workhave enough flexibility so you can
+ create you know network architectures well completion ads and stuff like thatit was hard yeah when you had to write
+ everything from scratch and again you didn't have any Python or MATLAB or
+
+Speaker 1 :anything right so what I read that sorry
+ to interrupt but I read he wrote in in Lisp the first versions of Lynetteaccomplished in your networks which by
+ the way one of my favorite languages that's how I knew you were legit theTuring Award whatever this would be
+ programmed and list that's still my
+
+Speaker 0 :favorite language but it's not that we
+ programmed in Lisp it's that we had to write or this printer printer okay cuzit's not that's right that's one that
+ existed so we wrote a lisp interpreter that wehooked up to you know back in library
+ that we wrote also for neural net competition and then after a few yearsaround 1991 we invented this idea of
+ basically having modules that know how to forward propagate and back propagategradients and then interconnecting those
+ modules in a graph loom but who had made proposals on this about this in the late80s and were able to implement this
+ using all this system eventually we wanted to use that system to make buildproduction code for character
+ recognition at Bell Labs so we actually wrote a compiler for that dispinterpreter so that Christy Martin who
+ is now Microsoft kind of did the bulk of it with Leone and me and and so we couldwrite our system in lisp and then
+ compiled to seee and then we'll have a self-contained complete system thatcould kind of do the entire thing
+ neither Python or turn pro can do this today yeah okay it's coming yeah I meanthere's something like that in
+ Whitehorse called you know tor script and so you know we had to write or Lispinterpreter which retinol is compiler
+ way to invest a huge amount of effort to do this and not everybody if you don'tcompletely believe in the concept
+ you're not going to invest the time to do this right now at the time also youknow it were today this would turn into
+ torture by torture and so for whatever we put it in open-source everybody woulduse it and you know realize it's good
+ back before 1995 working at AT&T there's no way the lawyers would let you releaseanything in open source of this nature
+ and so we could not distribute our code
+
+Speaker 1 :really and at that point and sorry to go
+ on a million tangents but on that point I also read that there was some almostpad like a patent on convolution your
+ network yes it was labs so that first of all I mean just to actually that ran out
+
+Speaker 0 :
+
+Speaker 1 :the thankfully 8007 in 2007 that what
+ look can we can we just talk about that first I know you're a facebook butyou're also done why you and and what
+ does it mean patent ideas like these software ideasessentially or what are mathematical
+ ideas or what are they okay so they're
+
+Speaker 0 :not mathematical idea so there are you
+ know algorithms and there was a period where the US Patent Office would allowthe patent of software as long as it was
+ embodied the Europeans are very different they don't they don't quiteaccept that they have a different
+ concept but you know I don't I know no I mean I never actually strongly believedin this but I don't believe in this kind
+ of patent Facebook basically doesn't believe in this kind of patternGoogle Files patterns because they've
+ been burned with Apple and so now they do this for defensive purpose butusually they say we're not going to see
+ you if you infringe Facebook has a similar policy they say you know we filepattern on certain things for defensive
+ purpose we're not going to see you if you infringe unless you sue usso the the industry does not believe in
+ in patterns they are there because of you know the legal landscape and and andvarious things but but I don't really
+ believe in patterns for this kind of
+
+Speaker 1 :stuff yes so that's that's a great thing
+
+
+Speaker 0 :so I tell you a war story yeah you so
+ what happens was the the first the first pattern of a condition that was aboutkind of the early version Congress on
+ that that didn't have separate pudding layers it had the conditional layerswhich tried more than one if you want
+ right and then there was a second one on commercial nets with separate puddinglayers
+ train with back probably in 89 and 1992 something like this at the time the lifelife of a pattern was 17 years so here's
+ what happened over the next few years is that we started developing characterrecognition technology around commercial
+ Nets and in 1994 a check reading system wasdeployed in ATM machines in 1995 it was
+ for a large check reading machines in back offices etc and those systems weredeveloped by an engineering group that
+ we were collaborating with AT&T and they were commercialized by NCR which at thetime was a subsidiary of AT&T now it
+ ain't he split up in 1996 99 in 1996 and the lawyers just lookedat all the patterns and they distributed
+ the patterns among the various companies they gave the the commercial net patternto NCR because they were actually
+ selling products that used it but nobody I didn't see are at any idea where theycome from that was yeah okay so between
+ 1996 and 2007 there's a whole period until 2002 Ididn't actually work on machine on your
+ couch on that I resumed working on this around 2002 and between 2002 and 2007 Iwas working on them crossing my finger
+ that nobody and NCR would notice nobody
+
+Speaker 1 :noticed yeah and I and I hope that this
+ kind of somewhat as you said lawyers decide relative openness of thecommunity now will continue
+
+
+Speaker 0 :it accelerates the entire progress of
+ the industry and you know the problems that Facebook and Google and others arefacing today is not whether Facebook or
+ Google or Microsoft or IBM or whoever is ahead of the other it's that we don'thave the technology to build the things
+ we want to build we only build intelligent virtual systems that havecommon sense we don't have a monopoly on
+ good ideas for this we don't believe with you maybe others do believe they dobut we don't okay if a start-up tells
+ you they have the secret to you know human level intelligence and commonsense don't believe them they don't and
+ it's going to take the entire work of the world research community for a whileto get to the point where you can go off
+ and in each of the company is going to start to build things on this we're notthere yet
+
+
+Speaker 1 :it's absolutely in this this calls to
+ the the gap between the space of ideas and the rigorous testing of those ideasof practical application that you often
+ speak to you've written advice saying don't get fooled by people who claim tohave a solution to artificial general
+ intelligence who claim to have an AI system that work just like the humanbrain or who claim to have figured out
+ how the brain works ask them what the error rate they get on em 'no storeimagenet this is a little dated by the
+
+
+Speaker 0 :
+
+Speaker 1 :way that mean five years who's counting
+ okay but i think your opinion it's the Amna stand imagenet yes may be datathere may be new benchmarks right but i
+ think that philosophy is one you still and and somewhat hold that benchmarksand the practical testing the practical
+ application is where you really get to test the ideas well it may not be
+
+Speaker 0 :completely practical like for example
+ you know it could be a toy data set but it has to be some sort of task thatthe community as a whole has accepted as
+ some sort of standard you know kind of benchmark if you want it doesn't need tobe real so for example many years ago
+ here at fair people you know chosen Western art one born and a few othersproposed the the babbitt asks which were
+ kind of a toy problem to test the ability of machines to reason actuallyto access working memory and things like
+ this and it was very useful even though it wasn't a real task amnesties kind ofhalfway a real task so you know toy
+ problems can be very useful it's just that i was really struck by the factthat a lot of people particularly our
+ people with money to invest would be fooled by people telling them oh we haveyou know the algorithm of the cortex and
+ you should give us 50 million yes
+
+Speaker 1 :absolutely so there's a lot of people
+ who who tried to take advantage of the hype for business reasons and so on butlet me sort of talk to this idea that
+ new ideas the ideas that push the field forwardmay not yet have a benchmark or it may
+ be very difficult to establish a benchmark I agree that's part of the
+
+Speaker 0 :process establishing benchmarks is part
+ of the process so what are your thoughts
+
+Speaker 1 :about so we have these benchmarks on
+ around stuff we can do with images from classification to captioning to justevery kind of information can pull off
+ from images and the surface level there's audio datasets there's somevideo what can we start natural language
+ what kind of stuff what kind of benchmarks do you see they startcreeping on to more something like
+ intelligence like reasoning like maybe you don't like the term but AGI echoesof that kind of yeah sort of elation a
+
+
+Speaker 0 :lot of people are working on interactive
+ environments in which you can you can train and test intelligent systems so sothere for example you know it's the
+ classical paradigm of supervised running is that you you have a data set youpartition it into a training site
+ validation set test set and there's a clear protocol right but what if thethat assumes that this
+ apples are statistically independent you can exchange them the order in which yousee them doesn't shouldn't matter you
+ know things like that but what if the answer you give determines the nextsample you see which is the case for
+ example in robotics right you robot does something and then it gets exposed to anew room and depending on where it goes
+ the room would be different so that's the decrease the exploration problemthe what if the samples so that creates
+ also a dependency between samples right you you if you move if you can only moveit in in space the next sample you're
+ gonna see is going to be probably in the same building most likely so so so theall the assumptions about the validity
+ of this training set test set a potus's break whatever a machine can take anaction that has an influence in the in
+ the world and it's what is going to see so people are setting up artificialenvironments where what that takes place
+ right the robot runs around a 3d model of a house and can interact with objectsand things like this how you do robotics
+ by simulation you have those you know opening a gym type thing or mu Joko kindof simulated robots and you have games
+ you know things like that so that that's where the field is going really thiskind of environment now back to the
+ question of a GI like I don't like the term a GI because it implies that humanintelligence is general and human
+ intelligence is nothing like general it's very very specialized we think it'sgeneral we'd like to think of ourselves
+ as having your own science we don't we're very specialized we're onlyslightly more general than why does it
+
+
+Speaker 1 :feel general so you kind of the term
+ general I think what's impressive about humans is ability to learn as we weretalking about learning to learn in just
+ so many different domains is perhaps not arbitrarily general but just you canlearn in many domains and integrate that
+ knowledge somehow okay that knowledge
+
+Speaker 0 :persists so let me take a very specific
+ example yes it's not an example it's more like a a quasi mathematicaldemonstration so you have about 1
+ million fibers coming out of one of your eyes okay two million totalbut let's let's talk about just one of
+ them it's 1 million nerve fibers your optical nerve let's imagine that theyare binary so they can be active or
+ inactive right so the input to your visual cortex is 1 million bitsnow they connected to your brain in a
+ particular way on your brain has connections that are kind of a littlebit like accomplish on that they're kind
+ of local you know in space and things like this I imagine I play a trick onyou it's a pretty nasty trick I admit I
+ I cut your optical nerve and I put a device that makes a random perturbationof a permutation of all the nerve fibers
+ so now what comes to your to your brain is a fixed but random permutation of allthe pixels there's no way in hell that
+ your visual cortex even if I do this to you in infancy will actually learnvision to the same level of quality that
+
+
+Speaker 1 :you can got it and you're saying there's
+ no way you ever learn that no because
+
+Speaker 0 :now two pixels that on your body in the
+ world will end up in very different places in your visual cortex and yourneurons there have no connections with
+ each other because they only connect it
+
+Speaker 1 :locally so this whole our entire the
+ hardware is built in many ways to
+
+Speaker 0 :support the locality of the real world
+ yeah yes that's specialization yep okay
+
+Speaker 1 :it's still now really damn impressive so
+ it's not perfect generalization I even
+
+Speaker 0 :closed no no it's it's it's it's not
+ that it's not even close it's not at all yes it's socialize so how many booleanfunctions so let's imagine you want to
+ train your visual system to you know recognize particular patterns of those 1million bits ok so that's a boolean
+ function right either the pattern is here or not here this is a to to aclassification with 1 million binary
+ inputs how many such boolean functions arethere okay if you have 2 to the 1
+ million combinations of inputs for each of those you have an output bit and soyou have 2 to the 2 to the 1 million
+ boolean functions of this type okay which is an unimaginably large numberhow many of those functions can actually
+ be computed by your visual cortex and the answer is a tiny tiny tiny tiny tinytiny sliver like an enormous little tiny
+ sliver yeah yeah so we are ridiculously specialized you know okay but okay
+
+Speaker 1 :that's an argument against the word
+ general I think there's there's a I there's I agree with your intuition butI'm not sure it's it seems the breath
+ the the brain is impressively capable of adjusting to things so it's because we
+
+Speaker 0 :can't imagine tasks that are outside of
+ our comprehension right we think we think we are general because we'regeneral of all the things that we can
+ apprehend so yeah but there is a huge world out there of things that we haveno idea
+ we call that heat by the way heat heat so at least physicists call that heat orthey call it entropy which is kokkonen
+ you have a thing full of gas right call
+
+Speaker 1 :
+
+Speaker 0 :system for gas right goes on a coast it
+ has you know pressure it has temperature has you know and you can write theequations PV equal NRT you know things
+ like that right when you reduce a volume the temperature goes up the pressuregoes up you know things like that right
+ for perfect gas at least those are the things you can know about that systemand it's a tiny tiny number of bits
+ compared to the complete information of the state of the entire system becausethe state when HR system will give you
+ the position and momentum of every every molecule of the gas and what you don'tknow about it is the entropy and you
+ interpret it as heat the energy containing that thing is is what we callheat now it's very possible that in fact
+ there is some very strong structure in how those molecules are moving is justthat they are in a way that we are just
+ not wired to perceive they are ignorant
+
+Speaker 1 :to it and there's in your infinite
+ amount of things we're not wired to perceive any right that's a nice way toput it
+ well general to all the things we can imagine which is a very tiny a subset ofall things that are possible it was like
+
+
+Speaker 0 :coma growth complexity or the coma was
+ charged in some one of complexity you know every bit string or every integeris random except for all the ones that
+ you can actually write down yeah okay so
+
+Speaker 1 :beautifully put but you know so we can
+ just call it artificial intelligence we don't need to have a general whatever
+
+Speaker 0 :novel
+ human of all Nutella transmissible oh
+
+Speaker 1 :you know you'll start anytime you touch
+ human it gets it gets interesting because you know it's just because weattach ourselves to human and it's
+ difficult to define with human intelligences yeahnevertheless my definition is maybe damn
+ impressive intelligence ok damn impressive demonstration of intelligencewhatever and so on that topic most
+ successes in deep learning have been in supervised learning what is your view onunsupervised learning is there a hope to
+ reduce involvement of human input and still have successful systems that arehave practically used yeah I mean
+
+
+Speaker 0 :there's definitely a hope is it's more
+ than a hope actually it's it's you know mounting evidence for it and that'sbasically or I do like the only thing
+ I'm interested in at the moment is I call it self supervised running notunsupervised cuz unsupervised running is
+ a loaded term people who know something about machine learning you know tell ushow you doing clustering or PCA yeah
+ she's nice and the way public we know when you say enterprise only oh my godyou know machines are gonna learn by
+ themselves and without supervision you
+
+Speaker 1 :know there's the parents yeah so so I
+
+
+Speaker 0 :could sell supervised learning because
+ in fact the underlying algorithms that I use are the same algorithms as thesupervised learning algorithms except
+ that what we trained them to do is not predict a particular set of variableslike the category of an image and and
+ not to predict a set of variables that have been provided by human labelers butwhat you're trying to machine to do is
+ basically reconstruct a piece of its input that it's being this being maskedmasked out essentially you can think of
+ it this way right so show a piece of a video to a machine and ask it to predictwhat's gonna happen next and of course
+ after a while you can show what what happens and the machine will kind oftrain itself to do better at that task
+ you can do like all the latest most successful models the natural languageprocessing use cell supervised running
+ you know sort of bird style systems for example right you show it a window of athousand words on a test corpus you take
+ out 15% of the words and then you train a machine to predict the words that aremissing that's out supervised running
+ it's not predicting the future it's just you know predicting things in middle butyou could have you predict the future
+ that's what language models do so you
+
+Speaker 1 :construct it so in an unsupervised way
+ you construct a model of language do you
+
+Speaker 0 :think or video or the physical world or
+
+
+Speaker 1 :whatever right how far do you think that
+ can take us do you think very far it understands anything to some level it
+
+Speaker 0 :has you know a shallow understanding of
+ of text but it needs to I mean to have kind of true human level intelligence Ithink you need to ground language in
+ reality so some people are attempting to do this right having systems that can Ihave some visual representation of what
+ what is being talked about which is one reason you need interactive environmentsactually this is like a huge technical
+ problem that is not solved and that explains why such super versioning worksin the context of natural language that
+ does not work in the context on at least not well in the context of imagerecognition and video although it's
+ making progress quickly and the reason that reason is the fact that it's mucheasier to represent uncertainty in the
+ prediction you know context of natural language than it is in the context ofthings like video and images so for
+ example if I ask you to predict what words are missing you know 15 percent ofthe words that I've taken out the
+
+
+Speaker 1 :possibility is small that means small
+
+
+Speaker 0 :right there is 100,000 words in the in
+ the lexicon and what the Machine spits out is a big probability vector rightit's a bunch of numbers between 0 & 1
+ that's 1 to 1 and we know how to do how to do this with computers so they arerepresenting uncertainty in the
+ prediction is relatively easy and that's in my opinion why those techniques workfor NLP for images if you ask if you
+ block a piece of an image and you as a system reconstruct that piece of theimage
+ there are many possible answers there are all perfectly legit right and how doyou represent that the set of possible
+ answers you can't train a system to make oneprediction you can train a neural net to
+ say here it is that's the image because it's there's a whole set of things thatare compatible with it so how do you get
+ the machine to represent not a single output but all set of outputs and youknow similarly with video prediction
+ there's a lot of things that can happen in the future video you're looking at meright now I'm not moving my head very
+ much but you know I might you know what turn my my head to the left or to theright right if you don't have a system
+ that can predict this and you train it with least Square to kind of minimizethe error with the prediction and what
+ I'm doing what you get is a blurry image of myselfin all possible future positions that I
+ might be in which is not a good prediction but so there might be other
+
+Speaker 1 :ways to do the self supervision right
+ for visual scenes like what if i I mean
+
+Speaker 0 :
+
+Speaker 1 :if I knew I wouldn't tell you
+ publish it first I don't know I know
+
+Speaker 0 :there might be so I mean these are kind
+
+
+Speaker 1 :of there might be artificial ways of
+ like self play in games the way you can simulate part of the environment you can
+
+Speaker 0 :oh that doesn't solve the problem it's
+ just a way of generating data but
+
+Speaker 1 :because you have more of a country might
+ mean you can control yeah it's a way to generate data and that's right andbecause you can do huge amounts of data
+ generation that doesn't you write this well it's it's a creeps up on theproblem from the side of data and you
+ don't think that's the right way to it
+
+Speaker 0 :doesn't solve this problem of handling
+ uncertainty in the world right so if you if you have a machine learn a predictivemodel of the world in a game that is
+ deterministic or quasi deterministic it's easy right just you know give a fewframes of the game to a combat put a
+ bunch of layers and then half the game generates the next few frames and and ifthe game is deterministic it works fine
+ and that includes you know feeding the system with the action that your littlecharacter is going to take
+ the problem comes from the fact that the real world and certain most games arenot entirely predictable that's what
+ they're you get those blurry predictions and you can't do planning with verypredictions all right so if you have a
+ perfect model of the world you can in your head run this model with ahypothesis for a sequence of actions and
+ you're going to predict the outcome of that sequence of actions but if yourmodel is imperfect how can you plan yeah
+
+
+Speaker 1 :it quickly explodes what are your
+ thoughts on the extension of this which topic I'm super excited about it'sconnected to something you're talking
+ about in terms of robotics is active learning so as opposed to sort ofunemployed and supervisors self
+ supervised learning you ask the system for human help right for selecting partsyou want annotated next so if you talk
+ about a robot exploring a space or a baby exploring a space or a systemexploring a data set every once in a
+ while asking for human input you see value in that kind of work I don't see
+
+Speaker 0 :transformative value it's going to make
+ things that we can already do more efficient or they will learn slightlymore efficiently but it's not going to
+ make machines sort of significantly more intelligent I think and I and by the waythere is no opposition there is no
+ conflict between self supervisor on reinforcement learning and supervisor onyour imitation learning or active
+ learning I see sub super wrestling as a as apreliminary to all of the above yes so
+ the example I use very often is how is it that so if you useenforcement running deep enforcement
+ running if you want the best methods today was so-called model freeenforcement training to learn to play
+ Atari games take about 80 hours of training to reach the level that anyhuman can reach in about 15 minutes they
+ get better than humans but it takes a long time alpha star okay the you knoware your videos and his team's the
+ system to play to to play Starcraft plays you know a single map a singletype of player and
+ which better than human level is about theequivalent of 200 years of training
+ playing against itself it's 200 years right it's not something that no nohuman can could every I'm not sure what
+
+
+Speaker 1 :it doesn't take away from that okay now
+
+
+Speaker 0 :take those algorithms the best our
+ algorithms we have today to train a car to drive itself it would probably haveto drive millions of hours you will have
+ to kill thousands of pedestrians it will have to run into thousands of trees itwill have to run off cliffs and you had
+ to run the cliff multiple times before it figures out it's a bad idea first ofall
+ yeah and second of all the figures that had not to do it and so I mean this typeof running obviously does not reflect
+ the kind of running that animals and humans do there is something missingthat's really really important there and
+ my apart is is which have been advocating for like five years now isthat we have predictive models of the
+ world that include the ability to predict under uncertainty and whatallows us to not run off a cliff when we
+ learn to drive most of us can learn to drive in about 20 or 30 hours oftraining without ever crashing causing
+ any accident if we drive next to a cliff we know that if we turn the wheel to theright the car is going to run off the
+ cliff and nothing good is gonna come out of this because we have a pretty goodmodel of intuitive physics that tells us
+ you know the car is gonna fall we know we know about gravity babies run thisaround the age of eight or nine months
+ that objects don't float they fall and you know we have a pretty good idea ofthe effect of turning the wheel of the
+ car and you know we know we need to stay on the road so there is a lot of thingsthat we bring to the table which is
+ basically or predictive model of the world and that model allows us to not dostupid things and to basically stay
+ within the context of things we need to do we still face you know unpredictablesituations and that's how we learn but
+ that allows us to learn really really really quickly so that's calledmodel-based reinforcement running
+ there's some imitation and supervised running because we have a drivinginstructor that tells us occasionally
+ what to do but most of the learning is Mauro bass is learning the model yeahrunning physics that we've done since we
+ were babies that's where all almost all are learning and the physics is somewhat
+
+Speaker 1 :transferable from is transferable from
+ scene to scene stupid things are the same everywhere yeah I mean if you you
+
+Speaker 0 :know you have experience of the world
+ you don't need to be particularly from a particularly intelligent species to knowthat if you spill water from a container
+ you know the rest is gonna get wet and you might get wet so you know cats knowthis right yeah so the main problem we
+ need to solve is how do we learn models of the world that's and that's what I'minteresting that's what's a supervised
+ learning is all about if you were to try
+
+Speaker 1 :to construct a benchmark for let's let's
+ look at happiness I'd love that dataset but if you do you think it's usefulinteresting / possible to perform well
+ on eminence with just one example of each digit and how would we solve that
+
+Speaker 0 :problem
+ yeah so it's probably yes the question is what other type of running are youallowed to do so if what you like to do
+ is train on some gigantic data set of labelled digit that's called transferrunning and we know that works okay
+ we do this at Facebook like in production right we we train largecommercial nets to predict hashtags that
+ people type on Instagram and we train on billions of images literally billionsand and then we chop off the last layer
+ and fine-tune on whatever task we want that works really well you can be youknow the image net record with we
+ actually open source the whole thing like a few weeks ago yeah that's still
+
+Speaker 1 :pretty cool but yeah so what in yet
+ won't be impressive and what's useful an impressive what kind of transferlearning would be useful impressive is
+ it Wikipedia that kind of thing no no I
+
+Speaker 0 :don't think transfer learning is really
+ where we should focus we should try to doyou know have a kind of scenario for
+ benchmark where you have only ball data and you can and it's very large numberof enabled data it could be video clips
+ it could be what you do you know frame prediction it could be images you couldchoose to you know mask a piece of it it
+ could be whatever but they're only bold and you're not allowed to label them soyou do some training on this and then
+ you train on a particular supervised task imagenet or nist and you measurehow your test our decrease or variation
+ error decreases as you increase the number of label training samples okayand and what what you would like to see
+ is is that you know your your error decreases much faster than if youtrained from scratch from random weights
+ so that to reach the same level of performance and a completely supervisedpurely supervised system would reach you
+ would need way fewer samples so that's the crucial question because it willanswer the question to like you know
+ people are interested in medical image analysis okay you know if I want to getto a particular level of error rate for
+ this task I know I need a million samples can I do you know softsupervised pre-training to reduce this
+ to about 100 or something anything the
+
+Speaker 1 :answer there is soft supervised
+
+
+Speaker 0 :retraining yep some form some form of it
+
+
+Speaker 1 :telling you active learning but you
+ disagree you know it's not useless it's
+
+Speaker 0 :just not gonna lead to a quantum leap
+ it's just gonna make things that we already do so you're way smarter than me
+
+Speaker 1 :I just disagree with you but I don't
+ have anything to back that it's just intuition so I've worked a lot oflarge-scale data sets and there's
+ something there might be magic and active learning but okay at least I saidit publicly at least some being an idea
+
+
+Speaker 0 :publicly okay it's not bigoted yet it's
+ you know working with the data you have I mean I mean certainly people are doingthings like okay I have three thousand
+ hours of you know imitation running for in car but most of those are incrediblyboring what I like is select you know
+ 10% of them that are kind of the most informative and with just that I wouldprobably reach the same so it's a weak
+ form of of active running if you want
+
+Speaker 1 :yes but there might be a much stronger
+ version yeah that's right that's what another notion question is the questionis how much talking yet Elon Musk is
+ confident talk to him recently he's confident that large-scale data anddeep learning can solve the autonomous
+ driving problem what are your thoughts on the limitless possibilities of deeplearning in this space I was it's
+
+
+Speaker 0 :obviously part of the solution I mean I
+ don't think we'll ever have a set driving system or it is not in theforeseeable future that does not use
+ deep running you put it this way now how much of it so in the history of sort ofengineering particularly is sort of sort
+ of a I like systems is generally your first phase where everything is built byhand and it was the second phase and
+ that was the case for autonomous driving you know 23 years ago there's a phasewhere this a little bit of running is
+ used but there's a lot of engineering that's involved in kind of you knowtaking care of corner cases and and
+ putting limits etc because the learning system is not perfect and then I astechnology progresses we end up relying
+ more and more on learning that's the history of character recognition is ahistory of speech recognition now
+ computer vision that ronnie was processing and I think the same is goingto happen with with the term is driving
+ that currently the the the methods that are closest to providing some level ofautonomy some you know a decent level of
+ autonomy where you don't expect a driver to kind of do anything is where youconstrain the world so you only run
+ within you know 100 square kilometers or square miles in Phoenix but the weatheris nice and the roads are wide it wishes
+ what Weimer is doing you completely over engineer the car with tons of lighthours and sophisticated sensors that are
+ too expensive for consumer cars but they're fine if you just run a fleetand you engineer the thing the hell out
+ of the everything else you you map the entire world so you have complete 3dmodel of everything so the only thing
+ that the perception system has to take care of is moving objects and and andconstruction and sort of you know things
+ that that weren't in your map and you can engineer a good you know slam systemor eye stuff right so so that's kind of
+ the current approach that's closest to some level of autonomy but I thinkeventually the long term solution is
+ going to rely more and more on learning and possibly using a combination ofsupervised learning and model-based
+ reinforcement or something like that but
+
+Speaker 1 :ultimately learning will be at not just
+ at the core but really the fundamental part of the system yeah it already is
+
+Speaker 0 :but it'll become more and more what do
+
+
+Speaker 1 :you think it takes to build a system
+ with human level intelligence you talked about the AI system and then we herbeing way out of reach our current reach
+ this might be outdated as well but this is still way out of reach what would ittake to build her do you think so I can
+
+
+Speaker 0 :tell you the first two obstacles that we
+ have to clear but I don't know how many obstacles they are after this so theimage I usually use is that there is a
+ bunch of mountains that we have to climb and we can see the first one but wedon't know if there are 50 mountains
+ behind it or not and this might be a good sort of metaphor for why AIresearchers in the past I've been overly
+ optimistic about the result of AI you know for example New Orleans SimonWright wrote the general problem solver
+ and they call it the general problems you have problems okay and of course ifit's you realize is that all the
+ problems you want to solve is financial and so you can't actually use it foranything useful but you know yes oh yeah
+
+
+Speaker 1 :all you see is the first peak so in
+ general what are the first couple of peaks for her so the first peak which is
+
+Speaker 0 :precisely what I'm working on is self
+ supervisor running high how do we get machines to learn models of the world byobservation kind of like babies and like
+ young animals so I we've been working with you knowcognitive scientists so this Amanda
+ depuis who is at fair and in Paris is half-time is also a researcher andFrench University and he he has his
+ chart that shows that which how many months of life baby humans kind oflearned different concepts and you can
+ met you can measure this various ways so things like distinguishing animateobjects from animate inanimate object
+ you can you can tell the difference at age to three months whether an object isgoing to stay stable is gonna fall you
+ know about four months you can tell you know things like this and then thingslike gravity the fact that objects are
+ not supposed to float in the air but as opposed to fall you run this around theage of eight or nine months if you look
+ at a lot of you know eight month old babies you give them a bunch of toys onthe highchair first thing they do is
+ it's why I'm on the ground that you look at them it's because you know they'relearning about actively learning about
+ gravity gravity yeah okay so they're not trying to know you but they you knowthey need to do the experiment right
+ yeah so you know how do we get machines to learn like babies mostly byobservation with a little bit of
+ interaction and learning those those those models of the world because Ithink that's really a crucial piece of
+ an intelligent autonomous system so if you think about the architecture of anintelligent autonomous system it needs
+ to have a predictive model of the world so something that says here is a wallthat time T here is a stable world at
+ time T plus one if I take this action and it's not a single answer it can beeducation yeah yeah well but we don't
+ know how to represent distributions in high dimension continuous basis so it'sgot to be something we care that data
+ Hey but with some summer presentation with certainty if you have that then youcan do what optimal control theory is
+ called model predictive control which means that you can run your model withthe hypothesis for a sequence of action
+ and then see the result now what you need the other thing you need is somesort of objective that you want to
+ optimize am i reaching the goal of grabbing the subject about minimizingenergy am I
+ whatever right so there is some sort of objectives that you have to minimize andso in your head if you had this model
+ you can figure out the sequence of action that will optimize your objectivethat objective is something that
+ ultimately is rooted in your basal ganglia at least in the human brainthat's that's what is available Gambia
+ computes your level of contentment or miss contentment oh no noise that's aword unhappiness okay yeah this
+
+
+Speaker 1 :
+
+Speaker 0 :contentment this contentment and so your
+ entire behavior is driven towards kind of minimizing that objective which ismaximizing your contentment computed by
+ your your basal ganglia and what you have is an objective function which isbasically a predictor of what your basal
+ ganglia is going to tell you so you're not going to put your hand on firebecause you know it's gonna you know
+ it's gonna burn and you're gonna get hurt and you're predicting this becauseof your model of the world and your your
+ predictor of this objective right so you if you have those you have those threecomponents you have four components you
+ have the the hard-wired contentment objective good computer if you wantcalculator and then you have the three
+ components one is the objective predictor which basically predicts yourlevel of contact and one is the model of
+ the world and there's a third module I didn't mention which is a module thatwill figure out the best course of
+ action to optimize an objective given your model okay yeah cool it's a policypolicy network or something like that
+ right now you need those three components to act autonomouslyintelligently and you can be stupid in
+ three different ways you can be stupid because your model of the world is wrongyou can be stupid because your objective
+ is not aligned with what you actually want to achieve okay and in humans thatwould be a psychopath right and then the
+ the third thing you the third way you can be stupid is that you have the rightmodel you have the right objective but
+ you're unable to figure out a course of action to optimize your objective givenyour model
+ some people who are in charge of big countries actually have all three that
+
+Speaker 1 :are wrong all right which countries I
+ don't know okay so if we think about this this agent if you think about themovie her you've criticized the art
+ project that is Sophia the robot and what that project essentially does isuses our natural inclination to
+ anthropomorphize things that look like human and given more do you think thatcould be used by AI systems like in the
+ movie her
+
+Speaker 0 :
+
+Speaker 1 :so do you think that body is needed to
+ create a feeling of intelligence
+
+Speaker 0 :well if Sophia was just an art piece I
+ would have no problem with it but it's presented as something else let me add
+
+Speaker 1 :that comics real quick if creators of
+ Sofia could change something about their marketing or behavior in general whatwould it be what what's just about
+
+
+Speaker 0 :
+
+Speaker 1 :everything I mean don't you think here's
+ a tough question I mean so I agree with you so Sofia is not in the generalpublic feels that Sofia can do way more
+ than she actually can that's right and the people will create a Sofia are nothonestly publicly communicating trying
+ to teach the public right but here's a tough question don't you think this thesame thing is scientists in industry and
+ research are taking advantage of the sameness misunderstanding in the publicwhen they create AI companies or
+ published stuff some companies yes I
+
+Speaker 0 :mean there is no sense of there's no
+ desire to delude there's no desire to kind of over claim what something isdone right you know you should paper on
+ AI that you know has this result on image net you know it's pretty clear Imean it's not even not even interesting
+ anymore but you know I I don't think there is that I mean the reviewers aregenerally not very forgiving of of you
+ know unsupported claims of this type and but there are certainly quite a fewstartups that have had a huge amount of
+ hype around this that I find extremely damaging and I've been calling it outwhen I've seen it so yeah but to go back
+ to your original question like the necessity of embodiment I think I don'tthink embodiment is necessary I think
+ grounding is necessary so I don't think we're gonna get machines that I reallyunderstand language without some level
+ of grounding in the world world and it's not clear to me that language is a kindof bandwidth medium to communicate how
+ the real world works I think what this
+
+Speaker 1 :doctor ground our grounding means so
+
+
+Speaker 0 :running me he's that
+ so there is this classic problem of common sense reasoning you know the theWinograd Winograd schema right and so I
+ tell you the the trophy doesn't fit in the suitcase because this tool is toobig what the trophy doesn't fit in the
+ suitcase because it's too small and the it in the first case refers to thetrophy in the second case to the
+ suitcase and the reason you can figure this out is because you know what thetrophy in the suitcase are you know one
+ is supposed to fit in the other one and you know the notion of size and the bigobject doesn't fit in a small object and
+ this is a TARDIS you know it things like that right so you have this got thisknowledge of how the world works of
+ geometry and things like that I don't believe you can learn everything aboutthe world by just being told in language
+ how the world works I think you need some low-level perception of the worldyou know be a visual touch you know
+ whatever but some higher bandwidth perceptions of the world but by reading
+
+Speaker 1 :all the world's text you still may not
+ have enough information that's right
+
+Speaker 0 :there's a lot of things that just will
+ never appear in text and that you can't really infer so I think common sensewill emerge from you know certainly a
+ lot of language interaction but also with watching videos or perhaps eveninteracting in the in virtual
+ environments and possibly you know robot interacting in the real world but Idon't actually believe necessarily that
+ this last one is absolutely necessary but I think there's a need for somegrounding but the final product doesn't
+
+
+Speaker 1 :necessarily need to be embodied you know
+ who say no it just needs to have an awareness a grounding right but it needs
+
+Speaker 0 :to know how the world works to have you
+ know to not be frustrated frustrating to talk to and you talked about emotions
+
+Speaker 1 :being important that's that's a whole
+ nother topic well so you know I talked
+
+Speaker 0 :about this the the basal ganglia ganglia
+ as the you know this thing that could you know calculates your level of misscontentment contentment and then there
+ is this other module that sort of tries to do a prediction of whether you'regoing to be content or not that's the
+ source of some emotion so here for example is an anticipation of bad thingsthat can happen to you right
+ you have this inkling that there is some chance that something really bad isgonna happen to you and that creates
+ here when you know for sure that something bad is gonna happen to you youcannot give up right it's not bad
+ anymore it's uncertainty it creates fear so so the punchline is yes we're notgonna have a ton of intelligence without
+ emotions whatever the heck emotions are
+
+Speaker 1 :so you mentioned very practical things
+ of fear but there's a lot of other mess around but there are kind of the results
+
+Speaker 0 :of you know drives
+
+
+Speaker 1 :yeah there's deeper biological stuff
+ going on and I've talked a few folks on this there's a fascinating stuff thatultimately connects to our joy to our
+ brain if we create an AGI system sorry interminable human level intelligencesystem and you get to ask her one
+ question what would that question be you
+
+Speaker 0 :know I think the the first one we'll
+ create would probably not be that smart did you like a four-year-old okay so you
+
+Speaker 1 :would have to ask her a question - no
+ she's not that smart
+
+Speaker 0 :yeah well what's a good question to ask
+
+
+Speaker 1 :
+
+Speaker 0 :you know to be responsive wind and if
+ she answers oh it's because the leaves of the tree are moving in that createswind she's on to something and if she
+
+
+Speaker 1 :says yeah that's a stupid question
+ she's really obtuse no and then you tell
+
+Speaker 0 :her actually you know here is the the
+ real thing and she says oh yeah that makes sense
+
+Speaker 1 :so questions that that reveal the
+ ability to do common-sense reasoning about the physical world yeah and you
+
+Speaker 0 :know someone will call 20 ferns causal
+
+
+Speaker 1 :evidence well it was a huge honor
+ congratulations returning award you know and thank you so much for talking today
+

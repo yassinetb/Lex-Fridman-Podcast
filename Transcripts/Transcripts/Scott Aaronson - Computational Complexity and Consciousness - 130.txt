@@ -1,0 +1,1605 @@
+Speaker 0 :the following is the conversation with
+ scott anderson his second time on the podcasthe is a professor at ut austin director
+ of the quantum information center and previously a professor at mitlast time we talked about quantum
+ computing this time we talk about computation complexityconsciousness
+ and theories of everything i'm recording this introas you may be able to tell in a
+ very strange room in the middle of the nighti'm not really sure how i got here or
+ how i'm going to get out but hunters thompson saying i think appliesto today and the last few days and
+ actually the last couple of weeks lifeshould not be a journey to the grave
+ with the intention of arriving safely in a pretty and well-preserved bodybut rather to skid and broadside in a
+ cloud of smoke thoroughly used up totally worn out
+
+Speaker 1 :and loudly proclaiming wow
+
+
+Speaker 0 :what a ride so i figured whatever i'm up
+ to here and yes lots of wine is involved i'mgonna have to improvise
+ hence this recording okay quick mention of each sponsorfollowed by some thoughts related to the
+ episode first sponsor is simply safe a home security company i use to monitorand protect my apartment
+ though of course i'm always prepared with afallback plan as a man in this world
+ must always be second sponsor is
+
+Speaker 1 :
+
+Speaker 0 :eight sleep a mattress
+ that cools itself measures heart rate variability has a napand has given me yet another reason to
+ look forward to sleep including the all-important power napthird sponsor is expressvpn the vpn i've
+ used for many years to protect my privacy
+
+Speaker 1 :
+
+Speaker 0 :on the internet finally the fourth
+ sponsor is betterhelp online therapy when you want to faceyour demons with a licensed professional
+
+
+Speaker 1 :
+
+Speaker 0 :not just by doing david goggins like
+ physical challenges like i seem to do on occasion pleasecheck out these sponsors in the
+ description to get a discount and
+
+Speaker 1 :to support the podcast as a side note
+ let me say that this is the second time
+
+Speaker 0 :i recorded a conversation
+ outdoors the first one was with stephen wolframwhen it was actually sunny out in this
+ case it was raining which is why i found a covered outdoorpatio
+ but i learned a valuable lesson which is thatraindrops can be quite loud on the hard
+ metal surface of a patio cover i did my best with the audioi hope it still sounds okay to you i'm
+ learning always improving in fact as scott says if you always winthen you're probably doing something
+ wrong to be honest i get pretty upset with myself when i failsmall or big but i've learned that this
+ feeling is priceless it can be fuel when channeled intoconcrete plans
+
+
+Speaker 1 :of how to improve so if you enjoy this
+
+
+Speaker 0 :thing
+
+
+Speaker 1 :subscribe on youtube review five stars
+
+
+Speaker 0 :and apple podcast
+ follow on spotify support on patreon or connect with me on twitter at lexfriedman
+ and now here's my conversation with scotterinson let's start with the most absurd
+ question but i've read you write some fascinating stuff about it so uh let'sgo there
+ are we living in a simulation what
+
+Speaker 1 :difference does it make lex
+ i mean i'm serious what difference
+
+Speaker 0 :because if we are
+ living in a simulation it raises the questionhow real does something have to be in
+ stimulation for in it to be sufficiently immersive for us humans but
+
+Speaker 1 :i mean even in principle how could we
+ ever know if we were in one right a perfect simulation by definitionis something that's indistinguishable
+ from the real thing well we didn't say
+
+Speaker 0 :anything about perfect it could be
+
+
+Speaker 1 :no no that's that's right well if it was
+ an imperfect simulation if we could hack ityou know find a bug in it then that
+ would be one thing right if if this was like the matrix and therewas a way for me to
+ you know do flying kung fu moves or something by hacking the simulationwell then you know we would have to
+ cross that bridge when we came to it wouldn't weright i mean at that point you know i
+ it's it's uh hard to see the differencebetween that and just uh
+ uh what people would ordinarily refer to as a world with miracles
+
+Speaker 0 :you know uh what about from a different
+ perspective thinking about the universe as a computation like a program runningon a computer
+ that's kind of a neighboring concept it
+
+Speaker 1 :is it is an interesting and reasonably
+ well-defined question to ask is the world computable you know youknow does the world satisfy
+ what we would call in cs the the church touring thesisyeah that is you know uh could we take
+ any physical system and simulate it to uh you know anydesired precision by a touring machine
+ you know given the appropriate input data right andso far i think the indications are
+ pretty strong that our world does seem to satisfy thechurch-touring thesis
+ uh at least if it doesn't then we haven't yet discovered why notuh but now does that mean that our
+ universe is a simulation well you know that word seems to suggestthat there is some other
+ larger universe in which it is running right rightand the problem there is that if the
+ simulation is perfect then we're never going to be able to getany direct evidence
+ about that other universe you know we will only be able to seeuh the effects of the computation that
+ is running in this universe
+
+Speaker 0 :well let's imagine an analogy let's
+ imagine a pc a personal computer a computeris it possible with the advent of
+ artificial intelligence for the computer to look outside ofitself to see
+ to understand its creator i mean that's a simple is that is that a ridiculous
+
+Speaker 1 :connection well i mean with the
+ computers that we actually have i mean first of all uh we we all knowthat uh humans have done an imperfect
+ job of you know enforcing the abstraction boundaries ofcomputers
+ right like you may try to confine some program to a playpenbut you know as soon as there's one uh
+ uh memory allocation error in in the cprogram
+ then the program has gotten out of that play pen and it can do whatever it wantsright this is how most hacks work you
+ know viruses and worms and exploits and youknow you would have to imagine that
+ an ai would be able to discover something like thatnow you know of course if we could
+ actually discover some exploit of reality itself then you knowthen this whole
+ i mean we we then in some sense we we wouldn't have to philosophize about thisright this would no longer be a
+ metaphysical conversation right this would just but that's
+
+Speaker 0 :the question is what is what would that
+
+
+Speaker 1 :hack look like yeah well i have no idea
+ i mean uh uh peter shore uh you know theyou know very famous person in quantum
+ computing of course has a joked that uh maybe the reason why we haven'tyet
+ you know integrated general relativity in quantum mechanicsis that you know the part of the
+ universe that depends on both of them was thatwas actually left unspecified and if we
+ ever tried to do an experiment uh involving the singularity of a blackhole or something like that
+ then you know the universe would just uh generate an overflow erroror something right yeah we would just
+ crash the universe now um you know the the the universe youknow has seemed to hold up pretty well
+ for you know 14 billion years right so you know my uh you know uhoccam's razor kind of guess has to be
+ that you know it will continue to hold up you know that the fact that we don'tknow the laws of physics
+ governing some phenomenon is not a strong signthat probing that phenomenon is going to
+ crash the universe right but you know of course i could be
+
+Speaker 0 :wrong but do you think
+ on the physics side of things you know there's been uhrecently a few folks eric weinstein
+ and stephen wolfram that came out with a theory of everything i think there's ahistory of physicists dreaming and
+ working on the unification of all the laws ofphysics do you think it's possible that
+ once we understand uh more physics not necessarily theunification of the laws but just
+ understand physics more deeply at the fundamental levelwe'll be able to start you know uh
+ i mean part of this is humorous but uh lookingto see if there's any bugs in the
+ universe that can be exploited for uh you know traveling at uhnot just speed of light but just
+ traveling faster than our current uh spaceships can travel all that kindof stuff
+
+
+Speaker 1 :well i mean to travel faster than our
+ current spaceships could travel you wouldn't need to findany bug in the universe right the known
+ laws of physics you know let us go much faster up to thespeed of light
+ right and you know when people want to go faster than the speed of lightwell we actually know something about
+ what that would entail namely that you know according torelativity
+ that seems to entail communication backwards in timeokay so then you have to worry about uh
+ close time like curves and all of that stuff so you know in some sense wewe sort of know the price that you have
+ to pay for these things right understanding of physics that'sright that's right we can't
+ you know say that they're impossible but we you know we know thatsort of a lot else in physics breaks
+ right so uh now regarding uh eric weinstein and stephen wolfram like iwouldn't say that either of them has a
+ theory of everything i would say that they haveideas that they hope
+ you know could someday lead to a theory
+
+Speaker 0 :of everything is that a worthy pursuit
+
+
+Speaker 1 :well i mean certainly let's say by
+ theory of everything you know we don't literally mean atheory of cats and
+ of baseball and you know but we just mean it in thein the more limited sense of everything
+ a fun a fundamental theory of physics right ofall of the
+ fundamental interactions of physics of course such a theoryeven after we had it uh you know would
+ would leave the entire question of all the emergentbehavior right
+ you know to uh to be explored uh so it's so it's only everything for a specificdefinition of everything
+ okay but in that sense i would say of course that's worth pursuingi mean that is the entire program of
+ fundamental physics right all of my friends who do quantumgravity who do string theory who do
+ anything like that that is what's motivating them yeah it's
+
+Speaker 0 :it's funny though but
+ i mean eric weinstein talks about this it is i don't know much about thephysics world but i know about the
+ ai world it is a little it is a little bit taboouh to talk about agi for example on the
+ ai side so really to talk aboutuh the big dream of the community i
+ would say because it seems so far away it's almosttaboo to bring it up because
+ uh you know it's seen as the kind of people that dream about creating a trulysuperhuman level intelligence that's
+ really far out there people because we're not even close tothat and it feels like the same thing is
+ true for the physics
+
+Speaker 1 :community i mean stephen hawking
+ certainly talked uh constantly about theory of everythingright uh uh uh you know i mean i mean
+ people you know used those terms who were you know some of the most respectedpeople in the
+ in the in the whole world of physics right but i mean i think thatthe distinction that i would make is
+ that people might react badly if you use the term ina way that suggests
+ that that you you know thinking about it for five minutes have come up with thismajor new insight about it yeah
+
+
+Speaker 0 :right it's it's difficult stephen hawk
+ is is a not a great example because i thinkyou can do whatever the heck you want
+ when you get to that level and i certainly see like seeing yourfaculty you know
+ that you know at that point that's the one of the nice things about gettingolder is you
+ stop giving a damn but community as a wholethey tend to roll their eyes very
+ quickly at stuff that's outside the quote-unquote mainstream well well let
+
+Speaker 1 :me let me put it this way i mean if you
+ asked you know ed whitton let's say who is you know you might consider theleader of the string community
+ and thus you know very very mainstream in a certain sense buthe would have no hesitation in saying
+ you know of course you know they're looking for a you knowuh uh you know a
+ a a unified description of nature of you know of general relativity ofquantum mechanics of all the fundamental
+ interactions of nature right now you know whether people wouldcall that a theory of everything whether
+ they would use that that term that might vary you know lennysuskin would definitely have no problem
+ telling you that you know if that's what we want right
+
+Speaker 0 :for me who loves human beings in
+ psychology it's kind of ridiculous to saya theory that unifies the laws of
+ physics gets you to understand everything i would say you're not evenclose to understanding everything
+
+
+Speaker 1 :yeah right well yeah i mean the word
+ everything is a little ambiguous here right because you know and then peoplewill get into debates about
+ you know reductionism versus emergentism and blah blah blahand so in in not wanting to say theory
+ of everything people might just be trying to short-circuit that debateand say you know look you know yes we
+ want a fundamental theory of you know the particles and interactions
+
+Speaker 0 :of nature let me bring up the next topic
+ that people don't want to mention although they're getting morecomfortable with it it's consciousness
+ you mentioned that you have a talk on consciousnessthat i watched five minutes of but the
+ internet connection was really bad
+
+Speaker 1 :was this my talk about you know uh
+ refuting the integrated information theoryyes which is a particular account of
+ consciousness that yeah i think one can just show it doesn't work rightso let me much harder to say what does
+ work what doesn't work yeah yeah
+
+Speaker 0 :let me ask maybe it'd be nice to uh
+ comment on you talk about also like the semi hardproblem of consciousness or like almost
+
+
+Speaker 1 :hard pro or kind of hard pretty pretty
+
+
+Speaker 0 :hard pretty hard one i think i call it
+ so maybe can you uh talk about that uh their idea of umof the approach to modeling
+ consciousness and why you don't find it convincingwhat is it first of all okay well so so
+
+
+Speaker 1 :what what what i called the pretty hard
+ problem of consciousness this is my term although many other people havesaid something equivalent to this okay
+ uh but uh it's just you know the the problem of you know giving an account ofjust which physical systems are
+ conscious and which are not or you know if there are degrees ofconsciousness then quantifying how
+ conscious a given system is oh awesome so that's
+
+Speaker 0 :the pretty hard
+
+
+Speaker 1 :yeah that's what i mean that's it i'm
+
+
+Speaker 0 :adopting it i love it that's a good
+
+
+Speaker 1 :a good ring to it and so you know the
+ infamous hard problem of consciousness is to explain howsomething like consciousness could arise
+ at all you know in a material universe right or you know why does it ever feellike anything
+ to to experience anything right and you know so i'm trying to distinguishfrom that problem right
+ and say you know no okay i am i would merely settle for an accountthat could say you know is a fetus
+ conscious you know if so at which trimester you know is a uhis a dog conscious you know what about a
+ frog
+
+Speaker 0 :right or or even as a precondition you
+ take that both these things are conscioustell me which is more conscious yeah for
+
+
+Speaker 1 :example yes
+ yeah yeah i mean if consciousness is some multi-dimensional vector well justtell me in which respects these things
+ are conscious and in which respect they aren'tright and you know and have some
+ principled way to do it where you're not you know carving out exceptions forthings that you like or don't
+ like but could somehow take a description of an arbitrary physicalsystem
+ and then just based on the physical properties of that systemor the informational properties or how
+ it's connected or something like that just in principle calculateyou know its degree of consciousness
+ right i mean this this this would be the kind of thing that we would needyou know if we wanted to address
+ questions like you know what does it take for a machine to beconscious right or when or
+ you know when when when should we regard ais as being consciousum so now this iit
+ this integrated information theory uh which has been put forward by uhgiulio tanoni and a bunch of his uh
+ uh collaborators over the last decade or two uh this is noteworthy iguess
+ as a direct attempt to answer that questionto you know answer the to address the
+ pretty hard problem right and they give a uh a criterionthat's just based on how a system is
+ connected so you so it's up to you to sort of abstract the system like abrain
+ or a microchip as a collection of components that are connected to eachother by some
+ pattern of connections you know and and to specify how the components caninfluence each other
+ you know like where the inputs go you know where they affect the outputs butthen once you've specified that
+ then they give this quantity that they call fee you know the greek letterphi and the definition of phi is
+ actually changed over time it changes from one paper toanother
+ but in all of the variations it involves something aboutwhat we in computer science would call
+ graph expansion so basically what this means is thatthey want it uh
+ in order to get a large value of fee uh it should not be possible totake your system and partition it into
+ two components that are only weakly connected to eachother
+ okay so whenever we take our system and sort oftry to split it up into two then there
+ should be lots and lots of connections going between the two components
+
+Speaker 0 :okay well i understand what that means
+ on a graph do they formalize what uh how to construct such a graph ordata structure whatever
+ uh or is this well one of the criticism uhi i've heard you kind of say is that a
+ lot of the very interesting specifics are usually communicated throughlike natural language like like through
+ words so it's like the details aren't always
+
+Speaker 1 :well they well it's true i mean they
+ they they they have nothing even resembling a derivationof this fee okay so what they do is they
+ state a whole bunch of postulates you know axioms that they think thatconsciousness should satisfy
+ and then there's some verbal discussion and then at some pointfee appears right right and this this
+ was one the first thing that really made the hair stand on my neck to be honestbecause
+ they are acting as if there is a derivation they're acting as if you knowyou're supposed to think that this is a
+ derivation and there's nothing even remotely resemblinga derby they just pull the fee out of a
+
+
+Speaker 0 :hat completely is one of
+ the key criticisms to you is that details are missing or is that exactly
+
+Speaker 1 :more fun
+ that's not even the key criticism that's just that's just a side pointokay the the core of it is that i think
+ that the you know that they want to say that a system is more conscious thelarger its value of fee
+ and i think that that is obvious nonsense okay as soon as you think aboutit for like a minute
+ as soon as you think about it in terms of could i construct a systemthat had an enormous value of fee like
+ you know even larger than the brain has but that is just implementing an errorcorrecting code you know doing nothing
+ that we would associate with you know intelligence orconsciousness or any of it
+ the answer is yes it is easy to do that rightand so i wrote blog posts just making
+ this point that yeah it's easy to do thatnow you know tanoni's response to that
+ was actually kind of incredible right i mean i i admired it in a waybecause
+ instead of disputing any of it he just bit the bulletin the sense you know he was one of the
+ the uh the most uh audacious bullet bitings i've everseen in my career
+ okay he said okay then fine you know this system that just appliesthis error correcting code it's
+ conscious you know and if it has a much largervalue of fee then
+ you or me it's much more conscious than you want meyou know you we just have to accept what
+ the theory says because you know science is not about confirmingour intuitions it's about challenging
+ them and you know this is what my theorypredicts that this thing is conscious
+ and you know or super duper conscious andhow are you going to prove me wrong see
+ i would
+
+Speaker 0 :so the way i would argue against your
+ blog post is i would say yes sure you're right ingeneral but
+ for naturally arising systems developed through the process of evolution onearth
+ the this rule of the larger fee being associated being associated with moreconsciousness is correct
+
+
+Speaker 1 :yeah so that's not what he said at all
+ right right because he wants this to be completely general
+
+Speaker 0 :right so we can apply to even computers
+
+
+Speaker 1 :yeah i mean i mean the whole interest of
+ the theory is the you know the hope that it couldbe completely general apply to aliens to
+ computers to uh uh animals coma patients to any of itright yeah and uh uh so so so he just
+ said well you know uh scott is relying on hisintuition but you know i'm relying on
+ this theory and you know to me it was almost likeyou know are we being serious here
+ like like like you know like like okay yes in science we try to learn highlynon-intuitive things but what we do is
+ we first test the theory on cases where wealready know the answer
+ right like if if someone had a new theory of temperature rightthen you know maybe we could check that
+ it says that boiling water is hotter than iceand then if it says that the sun is
+ hotter than anything you know you've everexperienced then maybe we we trust that
+ extrapolation right but like this this theory like if if youknow
+ it it's now saying that you know a a gigantic grit like regular grid ofexclusive or gates
+ can be way more conscious than a you know a personor than any animal can be you know even
+ if it you know is you know is is is is souniform that it might as just well just
+ be a blank wall right and and so now the point is ifthis theory is sort of getting wrong
+ the question is a blank wall you know more conscious than a personthen i would say what is what is there
+ for it to get right
+
+Speaker 0 :so your sense is a blank wall uh
+ is not more conscious than a human being
+
+Speaker 1 :yeah i mean i mean i mean
+ you could say that i am taking that as one of my axiomsi'm saying i'm saying that if if a
+ theory of consciousness is is get getting that wrong thenwhatever it is talking about at that
+ point i i i'm not going to call it consciousnessi'm going to use a different word you
+
+
+Speaker 0 :have to use a different word i mean yeah
+ it's all it's possible just like withintelligence that us humans conveniently
+ define these very difficult to understand conceptsin a very human-centric way just like
+ the touring test really seems to define intelligence as athing that's human-like
+
+
+Speaker 1 :right but i would say that with any uh
+ concept you know there's uh uh uhyou know like we we we first need to
+ define it right and a definition is only a good definition if it matcheswhat we thought we were talking about
+ you know prior to having a definition right yeahand i would say that you know
+ uh fee as a definition of consciousness fails that test that is my argument
+
+Speaker 0 :so okay let's so let's take a further
+ step so you mentioned that the universe might beuh the touring machine so like it might
+
+
+Speaker 1 :be computational or simulatable by one
+
+
+Speaker 0 :anyway
+ simulated by one so yeah do you what's your senseabout consciousness do you think
+ consciousness is computation that we don't need to go to any placeoutside of the computable universe
+ to uh you know to to understand consciousness to build consciousness tomeasure consciousness all those kinds of
+
+
+Speaker 1 :things i don't know
+ these are what uh you know have been called the the vertigonousquestions right there's the questions
+ like like uh you know you get a feeling of vertigo andthinking about them right
+ i mean i certainly feel like uh i am conscious in a way that is notreducible to computation
+ but why should you believe me right i meanand and if you said the same to me then
+ why should i believe you
+
+Speaker 0 :but as computer scientists yeah i feel
+ like a computer could be intel could achievehuman level intelligence
+ but and that's actually a feeling and a hopethat's not a scientific belief it's just
+ we've built up enough intuition the same kind of intuition you use in your blogit's you know that's what scientists do
+ they i mean some of it is a scientific method but some of it is just damn goodintuition
+ i don't have a good intuition about
+
+Speaker 1 :consciousness yeah i'm not sure that
+ anyone does or or has in the you know 2500 years that thesethings have been discussed lex
+
+
+Speaker 0 :uh but do you think we will like one of
+ the i got a chance to attend i can't wait to hear your opinionon this but attend the neuralink event
+ and uh one of the dreams there is to uh you know basically push neuroscienceforward and the hope with neuroscience
+ is that we can inspect the machinery from whichall this fun stuff emerges and see we're
+ going to notice something special some special sauce from whichsomething like consciousness or
+ cognition emerges
+
+Speaker 1 :yeah well it's clear that we've learned
+ an enormous amount about neuroscience we've learned an enormous amount aboutcomputation you know about machine
+ learning about you'll know ai how to get it to work we've learneduh an enormous amount about the
+ underpinnings of the physical world you know andyou know it from one point of view
+ that's like an enormous distance that we've traveled along the road tounderstanding consciousness
+ from another point of view you know the distance still to be traveled on theroad
+ you know maybe seems no shorter than it was at the beginning yeahright so it's very hard to say i mean
+ you know these are questions like like in in in sort oftrying to have a theory of consciousness
+ there's sort of a problem where it feels likeit's not just that we don't know how to
+ make progress it's that it's hard to specifywhat could even count as progress right
+ because no matter what scientific theory someone proposedsomeone else could come along and say
+ well you've just talked about the mechanism you haven't said anythingabout
+ what breathes fire into the mechanism right really makes there's somethingthat it's like to be
+ it right and that seems like an objection that you could always raiseyes no matter you know how much someone
+ elucidated the details of how the brain works okay
+
+Speaker 0 :let's go touring tests and love the
+ prize i have this intuition call me crazy but wethat a machine to pass the touring test
+ and is full whatever the spirit of it is we can talkabout how to formulate
+ the perfect touring test that that machine has tobe conscious or we at least have to uh
+ i have a very low bar of what consciousness is a dentisti tend to think that the emulation of
+ consciousness is as good as consciousnessso like consciousness is just a dance a
+ social a social uh shortcut like a nice usefultool
+ but i tend to connect intelligence consciousness together so byby that do you uh maybe just
+ to ask what uh what role does consciousness play do you think inpassing the touring test well look i
+
+
+Speaker 1 :mean it's almost tautologically true
+ that if we had a machine that passed the turing test then it would be emulatingconsciousness
+ right so if your position is that you know emulation of consciousness isconsciousness
+ then so you know by by definition any machine that passed the touring testwould be conscious
+ but it's uh uh but i mean we know that you could say that you know that that isjust a way to rephrase the original
+ question you know is an emulation of consciousnessyou know necessarily conscious right and
+ you can you know i hear i'm not saying anything new thathasn't been
+ debated ad nauseum in the literature okay butyou know you could uh imagine some very
+ hard cases like imagine a machine that passed the touring test but it didso just
+ by an enormous cosmological sized look-up tablethat just cached every possible
+ conversation that could be had the old chinese roomwell well yeah yeah but but this is uh
+ uh i mean i mean the chinese room actually would be doing some computationat least in searle's version right
+ here i'm just talking about a table lookup okay nowit's true that for conversations of a
+ reasonable length this you know lookup table would be soenormous that wouldn't even fit in the
+ observable universe okay but supposing that youcould build a big enough look-up table
+ and then just you know pass the touring test just by looking up what the personsaid
+ right are you going to regard that as conscious okay
+
+Speaker 0 :let me try to make this yeah yeah formal
+ and then you can shut it down i think that the emulation of somethingis that something if there exists in
+ that system a black box that's full of mystery so like
+
+Speaker 1 :uh full of mystery to whom to uh human
+
+
+Speaker 0 :in inspectors
+
+
+Speaker 1 :so does that mean that consciousness is
+ relative to the observer like could something be conscious for usbut not conscious for an alien that
+ understood better what was happening inside the black box
+
+Speaker 0 :yes so that if inside the black box is
+ just a look-up table the alien that saw that would say thisis not conscious to us
+ another way to phrase the black box is layers of abstractionwhich make it very difficult to see to
+ the actual underlying functionality of the system and then weobserve just the abstraction
+ and so it looks like magic to us but once we understand theinner machinery it stops being magic and
+ so like that's a prerequisite is that you can'tknow
+ how it works some part of it because then there has to be in our human minduh entry point for the magic
+ so that that's that's a formal
+
+Speaker 1 :definition of the system
+ yeah well look i mean i i explored a view and this essay i wrotecalled the ghost and the quantum touring
+ machine uh seven years ago that is uh related to that except that idid not want to
+ have consciousness be relative to the observer right because i think thatyou know if consciousness means anything
+ it is something that is experienced by the entity that is consciousright you know like i don't need you to
+ tell me that i'm conscious right nor do you need me to to toto tell you that you are right so uh
+ so but but basically what i explored there is you know are there uhaspects of a of a system like uh like a
+ brain that uh that just could not be predictedeven with arbitrarily advanced future
+ technologies yes because of chaos combined withquantum mechanical uncertainty
+ you know and things like that i mean that that actually could be aa property of the brain you know if true
+ that would distinguish it in a principled wayat least from any currently existing
+ computer not from any possible computer
+
+Speaker 0 :but from yeah yeah
+ let's do a thought experiment so yeah if i gave youinformation that you're in the entire
+ history of your life basically explain away free will with alook-up table say that
+ this was all predetermined that everything you experienced has alreadybeen predetermined
+ wouldn't that take away your consciousness wouldn't you yourself thatwouldn't
+ experience of the world change for you in a way that's
+
+Speaker 1 :you you can't well let me put it this
+ way if you could do like in a greek tragedy where you know you would justwrite down a prediction for what i'm
+ going to do and then maybe you put the prediction ina sealed box
+ and maybe you know you you uh open it later and youshow that you knew everything i was
+ going to do or you know of course the even creepier versionwould be you tell me the prediction
+ and then i try to falsify it and my very effort to falsify it makes it come trueright but let's let's you know let's
+ even forget that you know that version is as convenient as it is for fictionwriters right let's just
+ let's just do the version where you put the prediction into a sealed envelopeokay but uh if you could reliably
+ predict everything that i was going to doi'm not sure that that would destroy my
+ sense of being conscious but i think it really would destroy mysense of having free will
+ you know and much much more than any philosophical conversation couldpossibly do that
+ right and so i think it becomes extremely interesting to askyou know could such predictions be done
+ you know even in principle is it consistent with the laws ofphysics to make such predictions
+ to get enough data about someone that you could actually generate suchpredictions without having to kill them
+ in the process to you know slice their brain up into little sliversor something i mean
+ theoretically possible right well um i don't know i mean i mean it might bepossible but only at the cost of
+ destroying the person right i mean it depends on how low youhave to go
+ in sort of the substrate like if there was a nicedigital abstraction layer if you could
+ think of each neuron as a kind of transistorcomputing a digital function then you
+ could imagine some nanorobots that would go in and wejust scan the state of each transistor
+ you know of each neuron and then you know make a a good enoughcopy
+ right but if it was actually important to get down to the molecularor the atomic level then you know
+ eventually you would be up against quantum effects you would be up againstthe unclonability of quantum states
+ so i think it's a question of uh how good of a replicahow good does the replica have to be
+ before you're going to count it as actually a copy of youor as being able to predict your actions
+ uh that's a totally open question then
+
+Speaker 0 :
+
+Speaker 1 :yeah yeah yeah and
+ and especially once we say that well look maybe there's no way to preyou know to make a deterministic
+ prediction because you know there's all there you know we know that there'snoise buffeting the brain around
+ presumably even quantum mechanical uncertaintyyou know affecting the sodium ion
+ channels for example whether they open or they closeum you know there's no reason why
+ over a certain time scale that shouldn't be amplified just like we imaginehappens with the weather
+ or with any other you know chaotic system uhso um so if if that stuff
+ is is important right then uh then then you know we would say uh wellyou know you
+ you you can't uh uh you know you're you're never going to be able to make anaccurate enough copy
+ but now the hard part is well what if someone can make a copythat sort of no one else can tell apart
+ from you right it says the same kinds of things thatyou would have said
+ maybe not exactly the same things because we agree that there's noisebut it says the same kinds of things and
+ maybe you alone would say no i know that that's not me you know it'sit doesn't share my
+ i haven't felt my consciousness leap over to that other thingi still feel it localized in this
+ version right then why should anyone else believe youwhat are your thoughts
+
+
+Speaker 0 :i'd be curious you're a good person to
+ ask which is uh penn rose's roger penrose's work onconsciousness
+ saying that there you know there is some with axons and so on there might be somebiological places where quantum
+ mechanics can come into play and through that create consciousnesssomehow yeah
+
+
+Speaker 1 :okay well um uh familiar with his work
+ of course you know i read penrose's books as a teenager they had ahuge impact on me
+ uh uh five or six years ago i had the privilege to actually talk these thingsover with penrose you know at some
+ length at a conference in minnesota and uh you know he is uh uh you know anamazing uh
+ personality i admire the fact that he was even raising such uh audaciousquestions at all
+ uh but you know to to to answer your question i think the first thing we needto
+ get clear on is that he is not merely saying that quantum mechanics isrelevant to consciousness
+ right that would be like um you know that would be tamecompared to what he is saying right he
+ is saying that you know even quantum mechanics is notgood enough right if because if
+ supposing for example that the brain were a quantum computermaybe that's still a computer you know
+ in fact a quantum computer can be simulated by an ordinary computer itmight merely need
+ exponentially more time in order to do so right so that's simply not goodenough for him
+ okay so what he wants is for the brain to be a quantum gravitational computeror or uh he wants the brain to be
+ exploiting as yet unknown laws of quantum gravityokay which would which would be
+ uncomputable that's the key point okay yes yes thatwould be literally uncomputable
+ and i've asked him you know to clarify this but uncomputableeven if you had an oracle for the
+ halting problem or you know and and or you know as highup as you want to go and the sort of
+ high the usual hierarchy of uncomputabilityhe wants to go beyond all of that okay
+ so so you know just to be clear like youknow if we're keeping count of how many
+ speculations you know there's probably like at leastfive or six of them right
+ there's first of all that there is some quantum gravity theory that wouldinvolve this kind of
+ uncomputability right most people who study quantum gravity would not agreewith that
+ they would say that what we've learned you know what little we know aboutquantum gravity from the
+ this ads cft correspondence for example has been very much consistent with thebroad idea of nature being computable
+ right um but uh but all right but but supposing that he's right about thatthen you know
+ what most physicists would say is that whatevernew phenomena there are in quantum
+ gravity you know they might be relevant at the singularities of black holes theymight be relevant at the big bang
+ uh they are plainly not relevant to something like the brain you knowthat is operating at ordinary
+ temperatures you know with ordinary chemistry andyou know the the the physics underlying
+ the brain they would say that we have you know thefundamental physics of the brain they
+ would say that we've pretty much completely known for forgenerations now
+ right uh because you know quantum field theory lets us sort ofparametrize our ignorance right i mean
+ sean carroll has made this case and you know in great detail rightthat sort of whatever new effects are
+ coming from quantum gravity you know they are sort of screened offby quantum field theory
+ right and this is this bring you know brings us to the whole idea of effectivetheories
+ right but that like we have you know that in like in the standard model ofelementary particles
+ right we have a quantum field theory that seems totally adequate for all ofthe terrestrial phenomena
+ right the only things that it doesn't you know explainare well first of all you know the
+ details of gravity if you were to probe it like at a uh youknow extremes of you know
+ curvature or like incredibly small distancesit doesn't explain dark matter it
+ doesn't explain black hole singularities right but these are all very exoticthings very you know far removed from
+ our life on earth right so for penrose to be right heneeds
+ you know these phenomena to somehow affect the brain he needs the brain tocontain
+ antenna that are sensitive to the black holeto this as yet unknown physics right and
+ then he needs a modification of quantum mechanics okayso he needs
+ quantum mechanics to actually be wrong okay he needsuh uh what what he wants is what he
+ calls an objective reduction mechanism oran objective collapse so this is the
+ idea that once quantum states get large enoughthen they somehow spontaneously collapse
+ right that uh uh um you know and and this is an idea that lots of people haveexplored
+ uh you know there's uh something called the grwproposal that tries to uh you know
+ say something along those lines you know and these are theories that actuallymake testable predictions
+ right which is a nice feature that they have but you know the very fact thatthey're testable may mean that in the
+ uh you know in the in the coming decades we may well be able to test thesetheories and show that they're they're
+ they're wrong right uh you know we may be able to testsome of penrose's ideas
+ if not not his ideas about consciousness but at least his ideas that about anobjective collapse of quantum states
+ right and people have actually like dick balmester have actually beenworking to try to do these experiments
+ they haven't been able to do it yet to attest penrose's proposalokay but penrose would need more than
+ just an objective collapse of quantum stateswhich would already be the biggest
+ development in physics for a century since quantum mechanics itself okay hewould need
+ for consciousness to somehow be able to influencethe direction of the collapse so that it
+ wouldn't be completely random but that you know your dispositionswould somehow influence the quantum
+ state to collapse more likely this way or thatway
+ okay finally penrose you know says that all of thishas to be true because of an argument
+ that he makes based on girdle's incompleteness theoremokay right now like i would say the
+ overwhelming majority of computer scientists and mathematicianswho have thought about this i don't
+ think that girdles and completeness theorem can do what he needs it to dohere right i don't think that that
+ argument is sound okay but that is you know that is sort of thetower that you have to ascend to if
+ you're going to go where penrose goes and the
+
+Speaker 0 :intuition uses with uh yeah the
+ completeness theorem is that basically that there's important stuff that's notcomputable
+
+
+Speaker 1 :it's not just that because i mean
+ everyone agrees that there are problems that are uncomputable right that's amathematical theorem
+ right that but what penrose wants to say is that uhuh you know the um you know for example
+ there are statements uh you know for you know given any uhformal system
+ you know for doing math right there will be true statements of arithmeticthat that formal system you know if it's
+ adequate for math at all if it's consistent and so on will not beable to prove
+ uh a famous example being the statement that that system itself is consistentright no you know good formal system can
+ actually prove its own consistency that can only be done from a strongerformal system which then can't prove its
+ own consistency and so on forever okay that's gurdle'stheorem
+ but now why is that relevant to uh consciousness right uh uh well you knowi mean i mean the the idea that it might
+ have something to do with consciousness as an old onegirdle himself apparently thought that
+ it didn't really um you know uh lucas uh uh um umthought so i think in the 60s and
+ penrose is really just you know sort of updating what what uh uh what what theyand others had said
+ i mean you know the idea that girdle's theorem could have something to do withconsciousness was
+ you know um in in 1950 when alan turing wrote his articleuh about the touring test he already you
+ know was writing about that as like an oldand well-known idea and as one that he
+ was as a wrong one that he wanted to dispense with okay butthe basic problem with this idea is you
+ know penrose wants to say that uh and and all of his predecessorsyour you know want to say
+ that you know even though you know this given formal system cannotprove uh its own consistency we
+ as humans sort of looking at it from the outsidecan just somehow see its consistency
+ right and the you know the rejoinder to thatyou know from the very beginning has
+ been well can we really yeah i mean maybe or maybe maybe youknow maybe maybe he
+ penrose can but you know can the rest of usright uh and you know i i noticed that
+ that um you know i mean it is perfectlyplausible to imagine
+ a computer that could say you know it would not be limited to working within asingle formal system
+ right they could say i am now going to adopt the hypothesisthat this that my formal system is
+ consistent right and i'm now going to see what can be done from that strongervantage point
+ and and so on and you know when i'm going to add new axioms to my systemtotally plausible there's absolutely
+ gerdle's theorem has nothing to say aboutagainst an ai that could repeatedly add
+ new axioms all it says is that there is no absoluteguarantee
+ that when the ai adds new axioms that it will always be rightright okay and you know and that's of
+ course the point that penrose pounces on but the reply is obvious and you knowit's one that that alan turing made 70
+ years ago name we we don't have an absoluteguarantee that we're right when we add a
+ new axiom right we never have and plausibly wenever will
+
+
+Speaker 0 :so on alan turing you took part in the
+ lobner prize
+
+Speaker 1 :uh uh not really no i didn't i mean
+ there was this uh uh kind of ridiculous claim that wasmade uh
+ some almost a decade ago about an a chat bot called eugene goose
+
+Speaker 0 :i guess you didn't participate as a
+ judge in the lobner prize i didn't but you participated as a judge in thati guess it was an
+ exhibition event or something like that or was eugene uh
+
+Speaker 1 :eugene gusman that was just me writing a
+ blog post because some journalists called me to ask about it did you everchat with him i thought
+ i did chat with eugene gooseman i mean it was available on the web the chatoh interesting i didn't so yeah so all
+ that happened was that uh so you know a bunch of journalistsstarted writing breathless articles
+ about you know an a you know first uh chatbot that passes the touring testright and it was this thing called
+ eugene guzman that was supposed to simulate a 13 yearold boy
+ and um you know and apparently someone had donesome tests where you know people
+ couldn't you know you know were less than perfect let'ssay distinguishing it from a human
+ and they said well if you look at touring's paperand you look at you know the percentages
+ that he that he talked about then you know it seemed like we're past thatthreshold
+ right and you know i had a sort of you know different way to look at itinstead of the legalistic way
+ like let's just try the actual thing out and let's see what it can do withquestions like you know is mount everest
+ bigger than a shoebox okay or just you know like the mostobvious questions right and then and you
+ know and the answer is well it just kind of parries you becauseit doesn't know what you're talking
+ about right
+
+Speaker 0 :so just clarify exactly in which way
+ they're obvious they're obvious in the sense that you convert thesentences
+ into the meaning of the objects they represent and then do some basicobvious we mean your common sense
+ reasoning with the objects that the sentences
+
+Speaker 1 :represent uh right right it was not able
+ to answer you know or even intelligently respondto basic common sense questions but let
+ me say something stronger than that there was a famous chatbot in the 60scalled eliza
+ right that you know that managed to actually foolyou know a lot of people right or people
+ would pour their hearts out into this elisa because it simulated atherapist
+ right and most of what it would do is it would just throw back at you whateveryou said
+ right and this turned out to be incredibly effectiveright maybe you know therapists know
+ this this is you know one of their tricksbut uh it um um you know it it really
+ had some people convinced uh but you know this this thing was justlike i think it was literally just a few
+ hundred lines of lisp code right it was not only wasit not intelligent it wasn't
+ especially sophisticated it was like a it was a simple little hobbyist programand eugene gusman from what i could see
+ was not a significant advance compared touh eliza right so so this is and and
+ that was that was really the point i was makingand this was
+ you know you didn't in some sense you didn't need a likea computer science professor to sort of
+ say this like anyone who was looking at it and whojust had
+ you know an ounce of sense could have said the same thingright well but because you know these
+ journalists were call you know calling me you know like the first thingi said was
+ uh well you know no you know i i'm a quantum computing person i'm not an aiperson you know you shouldn't ask me
+ then they said look you can go here and you can try it out i said all rightall right so i'll try it out um but now
+ you know this whole discussion i mean it got awhole lot more interesting in just the
+ last few months
+
+Speaker 0 :yeah i'd love to hear your thoughts
+ about gpt yeah yeah yeah
+
+Speaker 1 :in the last few months we've had you
+ know we've we've the world has now seen a chat engine ora text engine
+ i should say called gpt-3 um that you know i think it it's still youknow it does not pass
+ a touring test you know there are no real claims that it passes the touringtest
+ right you know this is comes out of the group at open aiand you know they're you know they've
+ been relatively careful and what they've claimed about the systembut i think this this this
+ uh as clearly as eugene gusman was not in advance over elizait is equally clear that this is a major
+ advance over over over eliza or really over anything thatthe world has seen before
+ uh this is a text engine that can come up with kind of on topic you knowreasonable sounding completions to just
+ about anything that you ask you can ask it to write a poem abouttopic
+ x in the style of poet y and it will have a go at that yeah andit will do you know
+ not a perf not a great job not an amazing jobbut you know a passable job you know
+ definitely you know as as good as you knowyou know in in many cases i would say
+ better than i would have done right uh you know you can ask it towrite you know an
+ essay like a student essay about pretty much any topic and it will get somethingthat i am pretty sure
+ would get at least a b minus you know in my most you knowhigh school or even college classes
+ right and you know in some sense you know the way that it did this theway that it achieves this
+ um you know scott alexander of the you know the muchmourned blog slate star codex had a
+ wonderful way of putting it he said that they basically just ground up the entireinternet into a slurry
+ okay yeah and you know and i i to tell you the truth i had wondered for a whilewhy nobody had tried that
+ right like why not write a chat bot by just doing deep learning over a corpusconsisting of the entire web
+ right and and so so so uh now they finally have done thatright and you know the results are are
+ very impressive you know it's not clear that you knowpeople can argue about whether this is
+ truly a step toward general ai or not but this is anamazing capability
+ uh that you know uh we didn't have a few years agothat you know if a few years ago if you
+ had told me that we would have it now that would have surprised meyeah and i think that anyone who denies
+ that is just not engaging with what's there
+
+Speaker 0 :so their model it takes a large part of
+ the internet and compresses it in a small number ofparameters
+ relative to the size of the internet and is able towithout fine-tuning uh
+ do a basic kind of a quarrying mechanism just like you described where youspecify a kind of poet and then
+ you want to write a poem and somehow i was able to do basically a lookup on theinternet
+ well of relevant things i mean that's what i mean i mean i mean
+
+Speaker 1 :how else do you explain it well okay i
+ mean i mean the the training involved you know massive amounts ofdata from the internet and actually took
+ lots and lots of computer power lots of electricityright you know there are some some very
+ prosaic reasons why this wasn't done earlierright right but um you know it costs
+ some tens of millions of dollars i think you know that's just for
+
+Speaker 0 :approximately like a few million dollars
+
+
+Speaker 1 :oh okay okay oh really okay
+ you know oh all right all right thank you i mean as they as they scale it upyou know it will
+
+
+Speaker 0 :cost but then the hope is cost comes
+ down and all that kind of stuff
+
+Speaker 1 :but um basically you know it is a
+ neural net you know so i mean i mean or what's now called a deep net but youknow they're basically the same thing
+ right so it's a it's a form of you know uh algorithmthat people
+ have known about for decades right uh butit is constantly trying to solve the
+ problem predict the next word right so it's justtrying to
+ predict what comes next it's not trying to decidewhat what it should say what ought to be
+ true it's trying to predict what someone whohad said all of the words
+ up to the preceding one would say next although to push back on that that's how
+
+Speaker 0 :it's trained
+
+
+Speaker 1 :but that's right no but it's arguable
+
+
+Speaker 0 :arguable yeah
+ that our very cognition could be a mechanism as that simple
+
+Speaker 1 :of course of course i never said that it
+ wasn't right but right but yeah i mean i mean and sometimesthat that is
+ you know if there is a deep philosophical question that's raised bygpt3 then that is it
+ right are we doing anything other than you know this predictive processing justtrying to
+ constantly trying to fill in a blank of what would come nextafter what we just said up to this point
+ is that what i'm doing right now
+
+Speaker 0 :it's impossible so the intuition that a
+ lot of people have will look this thing is not going to be ableto reason the mountain everest
+ question do you think it's possible that gbt56 and 7 would be able to with this exact
+ same process begin to do something that looks like isindistinguishable to us humans from
+ reasoning
+
+Speaker 1 :i mean the truth is that we don't really
+ know what the limits are right because exactly because you knowwhat we've seen so far
+ is that you know gbt3 was basically the same thing as gpt-2but just with you know a much larger uh
+ uh network you know more training time bigger training corpus right and it wasyou know very noticeably better right
+ than its immediate predecessor so uh we you know we don't know whereyou hit the ceiling here right i mean
+ that's the that's the amazing part and maybe alsothe scary part
+ right that uh you know now my guess would be that that you know at somepoint
+ like there has to be diminishing returns like it can't be that simplecan it right right but i i i i wish that
+ i had more to base that guess on right yeah i mean some people say that
+
+Speaker 0 :there will be a limitation on the
+ we're going to hit a limit on the amount of data that's on the internet
+
+Speaker 1 :yes yeah yeah so sure so so there's
+ certainly that limit i mean there's also um you know like ifyou are looking for questions that will
+ stump gpt3 right you can come up with some without you knowlike you know even getting it to learn
+ how to balance parentheses right like it can you know it doesn't dosuch a great job
+ right uh you know like like you know and you know andits failures are are are ironic right
+ like like basic arithmetic right and you think you know isn't thatwhat computers are supposed to be best
+ at yeah isn't that where computers alreadyhad us beat a century ago yeah right
+ and yeah and yet that's where gpt-3 struggles right but it'sit's amazing you know that it's almost
+ like a young child in that way right that uh uh um butbut uh somehow you know because it is
+ just trying to predict what what uh comes next it doesn't knowwhen it should stop
+ doing that and start doing something very different like somemore exact logical reasoning right and
+ so so you know the uh uh you know you oneone is naturally led to guess
+ that our brain sort of has some element of predictive processingbut that it's coupled to other
+ mechanisms right that it's coupled to you know first of all visual reasoningwhich gpt3 also doesn't have
+
+
+Speaker 0 :any of right although there's some
+ demonstration that there's a lot of promise there
+
+Speaker 1 :oh yeah it can complete images that's
+
+
+Speaker 0 :right and using the exact same kind of
+ transformer mechanisms to like watch videos on youtubeand uh so the same uh the same
+ self-supervised mechanism to be able to look it'd be fascinating to think whatkind of completions you could do oh yeah
+
+
+Speaker 1 :no absolutely although like
+ if we ask it to like you know a word problem that involvereasoning about the locations of things
+ in space i don't think it does such a great job on thoseright to take an example and so so the
+ guess would be well you know humans have a lot ofpredictive processing a lot of just
+ filling in the blanks but we also have these other mechanisms that we cancouple to or that we can sort of call
+ the subroutines when we need to and that maybe maybe you know uh to gofurther that one would one would want to
+ integrate other forms of reasoning
+
+Speaker 0 :let me go on another topic that is
+ amazing uh which is complexity uhwhat uh and then start with the most
+ absurdly romantic question of what's the most beautiful idea incomputer science or theoretical computer
+ science to you like what just early on in your life or in general i'vecaptivated you and just grabbed you
+
+
+Speaker 1 :i think i'm gonna have to go with the
+ idea of universality uh you know if you're really asking forthe most beautiful
+ i mean uh so universality uh is the idea that you know you puttogether a few
+ simple operations like in the case of boolean logic that might be the and gatethe or gate the not gate right and then
+ your first guess is okay this is a good start butobviously
+ as i want to do more complicated things i'm going to need more complicatedbuilding blocks to express that
+ right and and that was actually my guess when i first learned what programmingwas
+ i mean when i was you know an adolescent and i someone showed meuh uh apple basic and then you know
+ uh gw basic if any any anyone listening remembers thatokay but uh you know i thought okay well
+ now you know i mean i i thought i felt like um this is arevelation you know it's like
+ finding out where babies come from it's like that level of you know why didn'tanyone tell me this before
+ right but i thought okay this is just the beginning now i know how to write abasic program
+ but to you know really write a an interesting program like a you know avideo game which had always been my my
+ dream as a kid to you know create my own nintendo games right thatyou know but
+ you know obviously i'm going to need to learn some way more complicated form ofprogramming than that
+ okay but you know eventually i learned this incredible idea of universalityand that says that no you throw in a few
+ rules and then you can you already have enoughto express
+ everything okay so for example the and the or and the notgate uh can all or in fact even just the
+ and in the not gate or even just even just the nandgate for example
+ uh is already enough to express any boolean functionon any number of bits you just have to
+ string together enough of them because
+
+Speaker 0 :you can build a universe with nand gates
+
+
+Speaker 1 :you can build the universe out of nand
+ gates yeah uh you know the the simple instructionsof basic
+ are already enough at least in principle you know if we ignore details like howmuch memory can be accessed and stuff
+ like that that is enough to express what could beexpressed by any programming language
+ whatsoever and the way to prove that is very simplewe simply need to show
+ that in basic or whatever we could write aan interpreter or a compiler for
+ whatever is other programming language we care aboutlike c or
+ or java or whatever and as soon as we had done that then ipso factoanything that's expressible in c or java
+ is also expressible and basic okay and so this idea of universalityyou know goes back at least to alan
+ turing in the 1930s when you know he uh uh um wrote downthis incredibly
+ simple pared down model of a computer the touring machineright which uh you know he pared down
+ the instruction set to just read a symbol you know go towrite a symbol move to the left move to
+ the right uh halt change your internal state rightthat's it
+ okay and anybody proved that um you know this could simulate all kindsof other things
+ uh you know and so so in fact today we would saywell we would call it a touring
+ universal model of computation that is you know just as it has just thesame expressive power
+ that basic or uh java or c plus plus or any of those otherlanguages have
+ uh because anything in those other languages could be compiled downto touring machine now touring also
+ proved a different related thing which is that there is a single touringmachine
+ uh that can simulate any other touring machineif you uh uh just describe that other
+ machine on its tape right and likewise there is a singletouring machine
+ that will run any c program you know if you just put it on its tapethat's that that's a second meaning of
+ universality first of all that he couldn't visualize
+
+Speaker 0 :it and that was in the 30s
+ 30s that's right before computers really i mean um i don't know how i wonderwhat that felt like uh you know learning
+ that there's no santa claus or something uhuh because i i don't know if that's
+ empowering or paralyzing because it it doesn't uh give you anyins it's uh
+ like you can't write a software engineering book and make thatthe first chapter and say we're done
+
+
+Speaker 1 :well i mean i mean right i mean i mean
+ in one sense it was this enormous flattening of the universeyes right i had imagined that there was
+ going to be some infinite hierarchy of more and more powerful programminglanguages
+ you know and then i kicked myself for you know for having such a stupid ideabut apparently girdle had had the same
+ conjecture in the 30s and then you know you're in good companywell yeah and then and then and then
+ tori and then girdle read toring's paper andhe kicked himself and he said yeah i was
+ completely wrong about that okay but um but you know i had thoughtthat you know
+ maybe maybe where i can contribute will be to invent a new more powerfulprogramming language
+ that lets you express things that could never be expressed in basicyeah right and you know and then you
+ know how would you do that obviously you couldn't do it itself in basicright but uh uh but you know there is
+ this incredible flattening that happens once you learnwhat is universality
+ but then it's also um uh like um an opportunity because it means onceyou know these rules
+ then you know the sky is the limit right then you have kind of the sameweapons at your disposal that the
+ world's greatest programmer has it's now all just a question of how youwield them right
+
+
+Speaker 0 :exactly but so every problem is
+ solvable but some problems are harder than othersand well yeah there's the question of
+
+
+Speaker 1 :how much time you know
+ well of how hard is it to write a program and then there's also thequestions of
+ what resources does the program need you know how much time how much memorythose are much more complicated
+ questions of course ones that we're still struggling with today
+
+Speaker 0 :exactly so you've uh i don't know if you
+ created complexity zoo or
+
+Speaker 1 :i did create the complexity zoo what is
+
+
+Speaker 0 :it what's complexity
+
+
+Speaker 1 :oh all right all right complexity theory
+ is the study of sort of the inherent resources needed tosolve
+ uh computational problems okay so uh uh it's easiest to give an example uh likeuh let's say we want to um um add two
+ two numbers right if i want to add them uhum you know if the numbers are twice as
+ long then it only it will take me twice as long to addthem but only twice as long
+ right it's no worse than that for a computer oror for a person we're using pencil and
+ paper for that matter if you have a good algorithmyeah that's right i mean even if you
+ just if you just use the elementary schoolalgorithm of just carrying you know then
+ it it takes time that is linear in the length of the numbersright now multiplication if you use the
+ elementary school algorithm is harder because you have to multiplyeach digit of the first number by each
+ digit of the second one yeah and then deal with all the carriesso that's what we call a quadratic time
+ algorithm right if um the numbers become twice as long now you need four times asmuch time
+ okay so now as it turns out we uh people discovered much faster ways tomultiply numbers using computers
+ and today we know how to multiply two numbers that are n digits longusing a number of steps that's nearly
+ linear in n these are questions you can ask but nowlet's think about a different thing that
+ people uh you know they've encountered inelementary school uh factoring a number
+ okay take a number and find its prime factorsright and here you know if i give you a
+ number with 10 digits i ask you for its prime factors wellmaybe it's even so you know that two is
+ a factor you know maybe it ends in zero so youknow that ten is a factor right but
+ you know other than a few obvious things like that you know ifthe prime factors are all very large
+ then it's not clear how you even get startedright you know you it seems like you
+ have to do an exhaustive search among an enormous number of factors nowum and and as many people might know uh
+ the uh for for for better or worse the uhsecurity you know of most of the
+ encryption that we currently use to protect the internetis based on the belief and this is not a
+ theorem it's a belief that uh that factoring isan inherently hard problem
+ uh for our computers we do know algorithms that are better than justtrial division and just trying all the
+ possible divisors uh but they are still basically exponential exponential is
+
+Speaker 0 :hard
+
+
+Speaker 1 :yeah exactly so this so the the fastest
+ algorithms that anyone has discovered at least publicly discovered you knowi'm assuming that the nsa doesn't know
+ something better yeah okay but they they take time thatbasically grows
+ exponentially with the cube root of the size of the number that you're factoringright so that cube root that's the part
+ that takes all the cleverness okay but there's still an exponentialthere's still an exponentiality there
+ but what that means is that like when people use a thousand bit keys fortheir cryptography
+ that can probably be broken using the resources of the nsaor the world's other intelligence
+ agencies you know people have done analyses that sayyou know with a few hundred million
+ dollars of computer power they could totally do thisand if you look at the documents that
+ snowden released you know it it it look it looks a lotlike they are doing that or something
+ like that it would kind of be surprising if theyweren't okay but
+ you know if that's true then in in some ways that's reassuringbecause if that's the best that they can
+ do then that would say that they can't break two thousand bit numbersright exactly exactly right then two
+
+
+Speaker 0 :
+
+Speaker 1 :thousand bit numbers would be
+ would be beyond what even they could do they haven't found an efficient
+
+Speaker 0 :algorithm that's where
+ all the worries and the concerns of quantum computing came in that there'ssome kind of shortcut around that right
+
+
+Speaker 1 :so complexity theory
+ is a you know is is a huge part of let's say the theoretical core of computerscience
+ you know it it started in the 60s and 70sas you know sort of a you know
+ autonomous field so it was you know already you know i mean youknow it was
+ well developed even by the time that i was bornokay but uh um uh i in 2002 i made a
+ website called the complexities zoo uh to answer your question uh where ijust tried to catalog
+ the different complexity classes which are classes of problems that aresolvable with different kinds of
+ resources right okay so these are kind of um youknow you could think of complexity
+ classes as like being almost to to totheoretical computer science like what
+ the elements are to chemistry right they're sort of you know there areour most basic
+ objects in in a certain way i feel like
+
+Speaker 0 :the elements
+ have uh have a characteristic to them where you can't just addan infinite number well you could but
+
+
+Speaker 1 :beyond a certain point they become
+ unstable right right so it's like you know intheory you can have atoms with
+ yeah and look look i mean i mean i mean a neutron star you know is a nucleuswith you know
+ uncalled billions of of of of nuke of of uh of of of of neutrons in it of ofhadrons in it okay but
+ uh um you know for for sort of normal atoms right probably you can't getmuch above 100 you know atomic weight
+ 150 or so or sorry sorry i mean i mean beyond 150or so protons without it
+ you know very quickly fissioning uh with complexity classes well yeah youyou can have an infinity of complexity
+ classes uh but you know maybe there's only a finite number of themthat are particularly interesting
+ right just like with anything else you know you uhuh you care about some more than about
+ others so what kind of interesting
+
+Speaker 0 :classes are there
+ yeah i mean you could have just maybe say what are theif you you take any kind of computer
+ science class what are the classes you learngood let me let me tell you sort of the
+
+
+Speaker 1 :the the biggest ones the ones that you
+ would learn first so you know first of all there isp
+ that's what it's called okay it stands for polynomial timeand this is just the class of all of the
+ problems that you could solve with a conventionalcomputer
+ like your iphone or your laptop uh you know by a completely deterministicalgorithm right using a number of steps
+ that grows only like the size of the inputraised to some fixed power okay so
+ uh if your algorithm is linear time like you know for adding numbersokay that that problem is in p if you
+ have an algorithm that's quadratic time like the uh elementary school algorithmfor multiplying two numbers that's also
+ in p even if it was the size of the input tothe 10th power
+ or to the 50th power well that wouldn't be very uhgood in practice but you know formally
+ we would still count that that would still be in pokay but if your algorithm takes
+ exponential time meaning like if every time i add onemore
+ uh data point to your input if the time that needed by the algorithmdoubles if you need time like
+ 2 to the power of the amount of input datathen uh that is that we call an
+ exponential time algorithm okay and that is not polynomial okay sop
+ is all of the problems that have some polynomial time algorithmokay so that includes most of what we do
+ with our computers on a day-to-day basis you knowall the you know sorting basic
+ arithmetic you know whatever is going on in youremail reader or in angry birds
+ okay it's all in p then the next uh super important classis called np uh that stands for
+ non-deterministic polynomial okay does not stand for not polynomialwhich is a
+ common confusion um but np was basically all of the problemswhere if there is a solution then it is
+ easy to check the solution if someone shows it to you okay soactually a perfect
+ example of a problem in np is uh factoring the one i told you aboutbefore like if i
+ gave you a number with thousands of digits and i told youthat you know i i asked you does this
+ uh does this have at least um three non-trivial divisorsright that might be a super hard problem
+ to solve right might take you millions of yearsusing any algorithm that's known at
+ least running on our existing computers okay but if i simply showed you thedivisors
+ i said here are three divisors of this numberthen it would be very easy for you to
+ ask your computer to just check each one and see if itworks just divide it in
+ see if there's any remainder right and if they all go inthen you've checked well i guess there
+ were right so um so any problemwhere you know wherever there's a
+ solution there is a short witness that can be easily like a polynomialsize
+ witness that can be checked in polynomial timethat we call an np problem okay
+ beautiful and uh yeah so so every problem that'sin p
+ is also in np right because you know you could always justignore the witness and just you know if
+ a problem is in p you can just solve it yourselfright okay but now the influence is the
+ central you know mystery of theoretical computerscience
+ is is every np problem in p so if you can easily check the answer to aa computational problem does that mean
+ that you can also easily find the answer even though there's all these problems
+
+Speaker 0 :that appear to
+ be very difficult to find the answer it's still an open question whethera good answer exists so what's yours no
+
+
+Speaker 1 :one has proven that there's no way to do
+ it it's
+
+Speaker 0 :arguably the most uh
+ i don't know the most famous the most maybe interesting maybe disagree withthat
+ problem in theoretical computer science so what's your most famous for sure
+
+Speaker 1 :p equals np yeah if you were to bet all
+
+
+Speaker 0 :your money
+ where do you put your money that's an
+
+Speaker 1 :easy one p is not equal to np okay so i
+ like to say that if we were physicists we would have just declared that to be alaw of nature
+ you know just like just like thermodynamics it's hilariousgiving ourselves nobel prizes for its
+ discovery yeah you know and look if later if later it turned out that wewere wrong we just give ourselves
+ more more nobel prizes yeah i mean no i mean i mean i mean it's it'sreally just because we are
+ mathematicians or descended from mathematicians you knowwe have to call things conjectures that
+ other people would just call empirical facts or discoveriesright but one shouldn't read more into
+ the difference in in language you know about the underlying truth so
+
+Speaker 0 :okay so you're a good investor and good
+ spender money so then let me i don't know that let me ask another wayis it possible at
+ all and what would that look like if p indeed equals np well i do think that
+
+Speaker 1 :it's possible i mean in fact you know
+ when people really pressed me on my blog for what odds would i putlike well you know two or three percent
+ odds wow that's pretty good that p equals np yeah just speak well umbecause you know when p
+ i mean i mean you you really have to think about like if there were50 you know mysteries like p versus np
+ and if i made a guess about every single one of themwould i expect to be right 50 times
+ right and the truthful answer is no okay yeah so you know and and and andand that's what you really mean in
+ saying that you know you have you know better than 98 odds forsomething
+ okay but um so so yeah you know i mean there could certainly be surprises andlook if p
+ equals np well then there would be the further questionof you know is the algorithm actually
+ efficient in practice right i mean don knuth who i know thatyou you've interviewed as well
+ right he uh likes to conjecture that p equals np but that the algorithm is soinefficient that it doesn't matter
+ anyway right now i i don't know i've listened to him say that i don't knowwhether he says that just because he has
+ an actual reason for thinking it's true or just because it sounds coolyeah okay but um but you know that
+ that's a logical possibility right that the algorithm could ben to the 10 000 time or it could even
+ just be n squared time but with a leading constantof a it could be a google times n
+ squared or something like that and in that case the fact that p equals npwell it would it would uh you know
+ ravage the whole theory of uh complexity we would have to youknow rebuild from the ground up
+ but in practical terms it might mean very little rightif the algorithm was too inefficient to
+ run if the algorithm could actually be run in practice likeif if it had small enough constants
+ you know to or if you could improve it to where it hadsmall enough constants that it was uh
+ efficient in practice then that would change the world okayyou think it would have like what kind
+
+
+Speaker 0 :of impact
+ well okay i mean i mean here's an
+
+Speaker 1 :example i mean you could well okay
+ just for starters you could break basically all of the encryption thatpeople use to protect the internet first
+ you could you could break bitcoin and every other cryptocurrency or you knowuh mine as much bitcoin as you wanted
+ right uh you know become a you know become a asuper duper billionaire right and then
+ and then plot your next move right okay that's just for startersright right now your next move might be
+ something like you know you now have like atheoretically optimal way
+ to train any neural network to find parameters for any neural network rightso you could now say like is there any
+ small neural network that generates the entire content of wikipediaright if you know and now the question
+ is not can you find it the question has been reduced to doesthat exist or not yes
+ if it does exist then the answer would be yes you can find itokay if if if you had this algorithm in
+ your hands okay you could ask your computer youknow i mean i mean
+ p versus np is one of these seven problems that carries this milliondollar prize from the clay foundation
+ you know if you solve it uh you know and others are the riemann hypothesisuh the punk array conjecture which was
+ solved although the solver turned down the priceright and uh and and four others but
+ what i like to say the way that we can see that p versus npis the biggest of all of these questions
+ is that if you had this fast algorithm then you could solve all seven of themokay you just ask your computer you know
+ is there a short proof of the riemann hypothesisright you know that a machine could in a
+ language where a machine could verify it and provided that such a proof existsthen your computer finds it
+ in a short amount of time without having to do a brute force searchokay so i mean i mean those are the
+ stakes of what we're talking about but i hope that also helps to give yourlisteners some intuition
+ of why i and most of my colleagues would put our money on p not equaling np
+
+Speaker 0 :is it possible i apologize this is a
+ really dumb question but is it possible tothat proof will come out that p equals
+ np but an algorithm that makes pequals np is impossible to find
+ um is that like crazy okay well well if
+
+Speaker 1 :p equals np
+ it would mean that there is such an algorithm that it exists yeahbut um um you know it would it would
+ mean that it exists now you know in practice normally theway that we
+ would prove anything like that would be by finding the algorithm by finding thatone algorithm
+ but there is such a thing as a non-constructive proofthat an algorithm exists you know this
+ is really only reared its head i think a few timesin the history of our field right but
+ you know it is it is theoretically possible that thatthat
+ that such a thing could happen but you know there are so even here there aresome amusing observations that one could
+ make so there is this famous observation ofleonid levin
+ who is you know one of the original discoverers of np completeness right andhe said
+ well consider the following algorithm that like i i guaranteewe'll solve the np problems efficiently
+ just as provided that p equals np okay here is what it does itjust
+ runs you know it enumerates every possible algorithmin a gigantic infinite list yeah right
+ from like in like alphabetical order rightyou know and many of them maybe won't
+ even compile so we just ignore those okay but nowwe just you know run the first algorithm
+ then we run the second algorithm we run the first one a little bitmore then we run the first three
+ algorithms for a while we won the first four for a whilethis is called dovetailing by the way
+ this is a known trick in um uh um theoretical computer scienceokay but
+ we do it in such a way that you know whatever is the algorithmout there in in in our list that solves
+ np-complete you know the np problems efficiently will eventually hit that oneright and now the key is that whenever
+ we hit that one you know it you know by assumption ithas to solve the problem that's to find
+ the solution and once it claims to find a solutionthen we can check that ourself
+ right because these are increasing problems then we can check itnow this is utterly impractical all
+ right you know you'd have to do this enormous exhaustive search among all thealgorithms
+ but from a certain theoretical standpoint that is merely a constantprefactor
+ that's merely a multiplier of your running time so there are tricks likethat one can do to say that
+ in some sense the algorithm would have to be uh constructivebut you know in in in the human sense
+ you know it is possible that you know it's conceivable that one couldprove such a thing uh via a
+ non-constructive method is is that likely i don't think so first no nono not personally so that's p and and p
+
+
+Speaker 0 :but the complexities it was full of
+ wonderful creatures well it's got about 500 of them 500.so how do you get uh yeah
+ yeah how do you get more how do you yeah
+
+Speaker 1 :well yeah well okay i mean i mean
+ i mean just for starters there is everything that we could dowith a conventional computer with a
+ polynomial amount of memory okay but possibly an exponential amountof time because we get to reuse the same
+ memory over and over again okay that is called p space okay andthat's actually a
+ uh we think an even larger class than np okay well p is contained in np which iscontained in p space
+ and we think that those containments are strict and
+
+Speaker 0 :the constraint there is on the memory
+ the memory has to grow polynomially with the size of theproduct that's right that's right but in
+
+
+Speaker 1 :p space
+ we now have interesting things that were not in in nplike uh as a famous example you know
+ from a given position in chess you know does white or blackhave the win
+ let's say assuming provided that the game lasts only for aa reasonable number of moves okay or or
+ or likewise for go okay and you know even for the generalizations ofthese games to arbitrary
+ size boards because with an eight by eight board you could say that's just aconstant size problem you just
+ you know in principle you just solve it in o of one time right butso we really mean the uh the
+ generalizations of you know games to uh arbitrary sizeboards here
+ or um another thing in p space would be uhlike i give you some really hard um
+ constraint satisfaction problem like you know a you know travelingperson
+ or you know packing boxes into the trunk of your car or something like thatand i asked not just is there a solution
+ which would be an np problem but i ask how many solutions are thereokay
+ that you know count the number of of solu of valid solutionsthat that that actually gives those
+ problems lie in a complexity class calledsharp p or like it looks like hashtag
+ like hashtag p you got it okay which sits betweennp and p space um there's all the
+ problems that you can do in exponential timeokay that's called x so um
+ and by the way uh it it was proven in the 60sthat x is larger than p okay so we know
+ that much we know that there are problems that aresolvable in exponential time
+ that are not solvable in polynomial time okayin fact we even know more we know that
+ there are problems that are solvable in n cube time that are not solvable in nsquared time
+ and that those don't help us with a
+
+Speaker 0 :controversy between p and m
+
+
+Speaker 1 :unfortunately it seems not or certainly
+ not yet right the the the techniques that we useto establish those things
+ they're very very related to how touring proved the unsolvability of the haltingproblem
+ but they seem to break down when we're comparing two differentresources like time versus space
+ or like you know p versus np okay but you know i mean there's there's what youcan do with a randomized algorithm
+ right that can sometimes you know with some has some probability of making amistake
+ that's called bpp bounded our probabilistic polynomial timeand then of course there's one that's
+ very close to my own heart what you can efficiently do duringpolynomial time
+ using a quantum computer okay and that's called bqpright and so you know what's understood
+ about that class
+
+Speaker 0 :okay so p is contained in bpp
+
+
+Speaker 1 :which is contained in bqp which is
+ contained in p space okay so anything you can in factin in like
+ in something very similar to sharp p bqp is basicallyyou know well it's contained in like p
+ with the magic power to solve sharp p problems okay why why is bqp
+
+Speaker 0 :contained in uh p space oh that's an
+
+
+Speaker 1 :excellent question
+ uh so uh there there is um well i mean one one has to prove thatokay but uh
+ the proof um uh you could you could think of itas uh using uh richard feynman's picture
+ of quantum mechanics which is that you can always you know wehaven't really talked about uh
+ quantum mechanics in this in this conversation we we did in our previousyeah
+ yeah we did last time but yeah we did last time okay but uhuh but basically you could always think
+ of a quantum computation as uh like a branching tree ofpossibilities
+ where each pos each possible path that you could takethrough you know your the space has a
+ complex number attached to it called an amplitude okay and nowthe rule is you know when you make a
+ measurement at the end well you see a random answer okay butquantum mechanics is all about
+ calculating the probability that you're going to see one potential answer versusanother one
+ right and the rule for calculating the probability that you'll see some answeris that you have to add up the
+ amplitudes for all of the paths that could have led to that answerand then you know that's a complex
+ number so that you know how could that be a probability then youtake the squared absolute value of the
+ result that gives you a number between zero andone okay
+ so um yeah i just i just summarized quantum mechanics in like 30 secondsokay but uh but now you know what what
+ this already tells us is that anything i cando with a quantum computer
+ i could simulate with a classical computer if ionly have exponentially more time okay
+ and why is that because if i have exponentialtime
+ i could just write down this entire branching treeand just explicitly calculate each of
+ these amplitudes right you know that will be veryinefficient but it will work
+ right it's enough to show that quantum computers could notsolve the halting problem or you know
+ they could never do anything that is literallyuncomputable in touring sense okay but
+ now as i said there is even a strongerresult which says that bqp
+ is contained in p space the way that we prove thatis that we say if if all i want is to
+ calculate the probability of some particularoutput happening
+ we know which is all i need to simulate a quantum computer reallythen i don't need to write down the
+ entire quantum state which is an exponentially large objectall i need to do
+ is just calculate what is the amplitude for that final stateand to do that i just have to sum up
+ all the amplitudes that lead to that state okay so that's an exponentiallylarge sum
+ but i can calculate it just reusing the same memory over and overfor each term in the song hence the p in
+
+
+Speaker 0 :the pieces
+ yeah yeah so what uh out of that whole complexity zoo and itcould be bqp what do you find is the
+ most uh
+
+Speaker 1 :uh the class that captured your heart
+
+
+Speaker 0 :the most
+ is the most beautiful class there's just yeah
+
+Speaker 1 :i i used uh as my email address uh
+ bqpqpali gmail.com yes because uh bqp slash q polywell you know amazingly no one had taken
+ it amazing but you know but th this is a class thati was involved in sort of uh
+ defining proving the first theorems about uh in 2003 or soso it was kind of close to my heart but
+ this is like if we extended um bqp which is the class of everythingwe can do efficiently with a quantum
+ computer uh to allow quantum advice which meansimagine that you had some special
+ initial state okay that could somehow help you docomputation and maybe
+ um such a state would be exponentially hard to prepareokay but you know maybe somehow these
+ states were formed in the big bang or something and they've just been sittingaround ever since right if you found one
+ and if this state could be like ultra powerthere are no limits on how powerful it
+ could be except that this state doesn't know inadvance which
+ input you've got right it only knows the size of your inputyou know and then that that's bqp slash
+ q probably so that's that's one that i justpersonally happen to love
+ okay but um you know if you're asking like what's theyou know there's there's there's a class
+ that i think is is is way more beautiful than you know orfundamental
+ that a lot of people even within uh this this field realize that it isthat class is called sck or statistical
+ zero knowledge um and you know there's a very very easyway to define this class which is to say
+ suppose that i have two algorithms that each sample from probabilitydistributions
+ right so each one just outputs random samplesaccording to you know possibly different
+ distributions and now the question i ask is you knowyou know let's say distributions over
+ strings of n bits yeah so over an exponentially largespace now i ask
+ are these two distributions close or far as probability distributions okay anyproblem that can be reduced to that
+ you know that can be put into that form is an sdkproblem and the way that this class was
+ originally discovered was completely different from thatand was kind of more complicated it was
+ discovered as the class of all of the problemsthat have a certain kind of what's
+ called zero knowledge proof zero knowledge proofs are one of thecentral ideas in cryptography
+ um you know shafi goldwasser and silvio mccauley won the touring awardfor you know inventing them and they're
+ at the core of even some some cryptocurrencies that you knowpeople people use nowadays but
+ um there are zero knowledge proofs or ways of proving to someone thatsomething is true
+ like you know that there is a a solution to thisyou know uh optimization problem or that
+ these two graphs are isomorphic to each other or somethingbut without revealing why it's true
+ without revealing anything about why it's trueokay sdk is all of the problems
+ for which there is such a proof uh that doesn't rely on any cryptographyokay and if if you wonder like how could
+ such a thing possibly exist right well like imagine that i had twographs and i wanted to convince you that
+ these two graphs are not isomorphic meaning you know i cannotpermute one of them so that it's the
+ same as the other one right you know that might be a very hardstatement to prove like i might
+ you know you might have to do a very exhaustive enumeration of you know allthe different
+ permutations before you were convinced that it was true but what if there weresome
+ all-knowing wizard that said to you look i'll tell you whatjust pick one of the graphs randomly
+ then randomly permute it then send it to me and i will tell youwhich graph you started with
+ okay and i will do that every single timeright and load that in
+
+
+Speaker 0 :
+
+Speaker 1 :and let's say that that wizard did that
+ a hundred times and it was right every time yeah rightnow if the graphs were isomorphic then
+ you know it would have been flipping a coin each timeright it would have had only a one in
+ two to the 100 power chance of you know of guessingright each time
+ but you know so so if it's right every time then now you're statisticallyconvinced that these graphs are not
+ isomorphic even though you've learned nothing newabout why they aren't so fascinating so
+ yeah so so sdk is all of the problems that haveprotocols like that one
+ but it has this beautiful other characterization it's shown up again andagain
+ in my in my own work in you know a lot of people's workand i think that it really is one of the
+ most fundamental classes it's just that people didn't realizethat when it was first discovered
+
+
+Speaker 0 :so we're living in the middle of a
+ pandemic currently yeah how has your life been changed or no better toask like how is your perspective of the
+ world change with this uh world-changing event of apandemic overtaking the entire world
+
+
+Speaker 1 :yeah well i mean i mean all of our lives
+ have changed you know like i guess as with no other event since iwas born you know you would have to go
+ back to world war ii for something i think of thismagnitude you know uh
+ on you know the way that we live our lives as for how it has changed my worldview i think that the the failure of
+ institutions you know like uh like like the cdclike you know other institutions that we
+ sort of thought were were trustworthy like a lot of the media uhwas
+ uh staggering was was absolutely breathtakinguh it is something that i would not have
+ predicted right i think i i uh wrote on my blog uh uh that youknow
+ you know it it's it's abs it's fascinating to like re-watch the movieuh contagion
+ from a decade ago right that correctly foresawso many aspects of you know what was
+ going on you know a uh an airborne you know virusoriginates in china
+ spreads to you know much of the world you know shuts everything downuntil a vaccine can be developed uh you
+ know everyone has to stay at home you knowyou know it gets uh um you know an
+ enormous number of things right okay but the one thing that they couldnot imagine you know is that like
+ in this movie everyone from the government is likehyper comp competent hyper you know
+ dedicated to the public good right best of the best you know yeah thethey're the best of the best
+ you know they could you know and there are these conspiracy theoristsright who uh think you know you know
+ this is all fake news there's no there's not really a pandemicand those are some random people on the
+ internet who the hyper competent government people have to you knowoppose right
+ they you know in in trying to envision the worst thing that could happenlike you know the the there was a
+ failure of imagination the movie makers did not imaginethat the conspiracy theorists and the
+ you know and the incompetence and the nut caseswould have captured
+ our institutions and be the ones actually running thingsso you had a certain yeah i i love
+
+
+Speaker 0 :competence
+ in all walks of life i love i get so much energy i'm so excited but people doamazing job and i like you
+ uh well maybe you can clarify but i had maybe not an intuition but i hope thatgovernment at his best could be ultra
+ com competent what uh first of alltwo questions like how do you explain
+ the lack of confidence and the other maybe on the positive sidehow can we build a more competent
+ government
+
+Speaker 1 :well there's an election in two months i
+ mean you know you have a faith that the election i uhyou know it's not gonna fix
+ everything but you know it's like i feel like there is a ship that is sinking andyou could at least stop the sinking
+ but uh uh you know i think that there are there are much much deeper problemsi mean i think that
+ uh um you know it is it is plausible to methat you know a lot of the the failures
+ you know with the cdc with uh some of the other healthagencies even you know
+ you know pre-date trump you know pre-date the you know right-wingpopulism that has sort of
+ taken over much of the world now and um you know i think that uh uhyou know it was is you know it is very
+ i'm actually you know i've actually been strongly infavor of
+ you know rushing vaccines of uh uh you know i thought that we could havedone you know human
+ human challenge trials you know which were not doneright we could have you know like i had
+ you know volunteers you know to uh uh actually you know beyou know uh get vaccines get you know
+ exposed to covid so you know
+
+Speaker 0 :innovative ways of accelerating what
+ you've done previously over a long
+
+Speaker 1 :time i thought that you know each each
+ month that you that that a vaccine is is closer is like trillions of dollarsare used for civilization
+ and of course lives you know at least you know hundreds of thousands of livesare you surprised that it's taking this
+
+
+Speaker 0 :long we still don't have a plan there's
+ still not a feeling like anyone is actuallydoing anything in terms of uh
+ elite alleviating like any kind of plan so there's a bunch of stuff this vaccinebut you could also do
+ a testing infrastructure where yeah everybody's tested non-stop with contacttracing all that kind of well i mean i
+
+
+Speaker 1 :i'm as surprised as almost everyone else
+ i mean this is a historic failure it is one of thebiggest failures in the 240 year history
+ of the united states right and we should be you know crystalclear about that
+ and you know one thing that i think has been missing you know eveneven from the more competent side is
+ like you know is sort of the the world war ii mentality right theyou know the mentality of you know let's
+ just you know you know if if if we can bybreaking a whole bunch of rules
+ you know get a vaccine and you know and evenhalf the amount of time as we thought
+ then let's just do that because uh you know you know like likewe have to we have to weigh
+ all of the moral qualms that we have about doing thatagainst the moral qualms of not doing
+ and one key
+
+Speaker 0 :little aspect yeah that's deeply
+ important to me and going that topic next is uh the world war ii mentalitywasn't just about
+ you know breaking all the rules to get the job done there was a togetherness toit
+ there's yes so i would if i were president right now it seems quiteelementary
+ to unite the country because we're facing a crisisit's easy to make the virus the enemy
+ and it's very surprising to me that um the div the division hasincreased as opposed to decreasing yeah
+ so that that's that's heartbreaking yeahwell look i mean it's been said by
+
+
+Speaker 1 :others that this is the first time
+ in the country's history that we have a president who does not even pretendto you know what want to unite the
+ country right yeah and you know i mean i mean i meanlincoln who fought a civil war
+ you know you know said he wanted to unite the countryright uh you know and and and i i do
+ i do worry enormously about what happens if the results of this election arecontested you know
+ and you know will there be violence as a result of thatand will we have a clear path of
+ succession and you know look i mean you know thisis all we're going to find out the
+ answers to this in two months and if none of that happensmaybe i'll look foolish but i am willing
+ to go on the record and say i am terrified about that yeah i've been
+
+Speaker 0 :reading the the rise and fall of the
+ third reich this is it so if i can this this is like onelittle voice
+ to put out there that i think november will be a really critical monthfor people to breathe and put
+ love out there do not you know anger in those in that context no matterwho wins no matter what is said
+ will destroy our country may destroy our country it may destroy the world becauseof the power of the country
+ so it's really important to be patient loving empatheticlike one of the things that troubles me
+ is that even people on the left are unable to have a love and respectfor people who voted for trump they
+ can't imagine that there's good people that could votefor the opposite side and that's
+
+
+Speaker 1 :oh i know there are because i know some
+ of them yeah right i mean you know it's stillyou know maybe it baffles me but you
+ know i i know such people let me ask you this it's also
+
+Speaker 0 :heartbreaking to me
+ on the topic of cancer culture yeah so in the machine learning community i'veseen it a little bit
+ that there's um aggressive attacking of people who are trying tohave a nuanced conversation about things
+ and it's troubling because it feels like nuanced conversation is the only way totalk about difficult topics
+ and when there's a thought police and speech policeon any nuanced conversation that
+ everybody has to like in animal farm chant that racism is bad andsexism is bad which is
+ things that everybody believes and they're they can't possibly say anythingnuance
+ it feels like it goes against any kind of progressfrom my kind of shallow perspective but
+ you've written a little bit about cancer culture did you have thoughtsthat are well
+ i mean i mean i mean to say that i am
+
+Speaker 1 :opposed to
+ you know the this trend of of cancellations or of you know shoutingpeople down rather
+ than engaging them that would be a massive understatementright and i feel like you know i have
+ put my money where my mouth is you know not as much as some people havebut you know i i've tried to do
+ something i mean i have defended you know uh some unpopularpeople
+ and unpopular you know ideas on my blog i've you know tried to defend you knownorms of uh
+ of uh of of open discourse of you know reasoning with our opponents even wheni've been shouted down for that
+ on social media uh you know called a racist called a sexistall of those things and which by the way
+ i should say you know i would be perfectly happy to you know say you knowif we had time to say you know
+ you know ten thousand times you know my uh hatred ofracism of sexism of homophobia
+ right but what i don't want to do is to cede to uh some particular politicalfaction the right to define
+ exactly what is meant by those terms to say well thenyou have to agree with all of these
+ other extremely contentious positions or else you are a misogynistor else you are a racist
+ right i say that well no you know you know don'tlike don't i or you know
+ don't people like me also get a say in the discussionabout you know what is racism about what
+ is going to be the most effective to combat racismright and you know this this this um
+ cancellation mentality i think is spectacularly ineffectiveat its own professed goal of you know
+ combating racism and sexism
+
+Speaker 0 :what's a positive way out so i i try to
+ i don't know if you see what i do on twitter but i on twitter i mostly and inmy whole in my life
+ i've actually it's who i am to the core is like i really focus on the positiveand i try to put love out there in the
+ world yeah and still i get attacked and i look at that and iwonder like are you two
+ i didn't know like i haven't actually said anything difficultand nuanced you talk about somebody like
+ steven pinker yeah who i actually don't know the fullrange of
+ things that um that he's attacked for buthe tries to say difficult he tries to be
+ thoughtful about difficult topics he does and obviouslyhe just gets
+ slaughtered by well i mean i mean i mean
+
+Speaker 1 :i mean yes but it's also amazing how
+ well steve has withstood it i mean he just survived that attempt to cancel himjust a couple of months ago right
+ psychologically he survives it too which
+
+Speaker 0 :yeah worries me he says i don't think i
+ can yeah i i've gotten to know steve a
+
+Speaker 1 :bit
+ he is incredibly unperturbed by this stuff uh i i admire that and i envy iti wish that i could be like that i mean
+ my impulse when i'm getting attacked is i just want to engageevery single like anonymous person on
+ twitter and reddit who is saying mean stuffabout me and i wanted to say well look
+ can we just talk this over for an hour and then you knowyou'll see that i'm not that bad and you
+ know sometimes that even works the problem is then there's the you know the20 000 other ones
+ right that's not but psychologically
+
+Speaker 0 :does that wear on you
+
+
+Speaker 1 :it does it does but yeah i mean in terms
+ of what is the solution i mean i wish i knewright and so you know in a certain way
+ these problems are maybe harder than p versus np right imean
+ uh you know but but i think that part of it has to be for you know thati think that there's a lot of sort of
+ silent support for what i'll call the the the opendiscourse side the you know reasonable
+ enlightenment side and i think that that that support hasto become less silent
+ right i think that a lot of people uh this sort of you knowlike agree that oh you know a lot of
+ these cancellations and attacks are ridiculousbut are just afraid to say so right or
+ else they'll get they'll get shouted down as wellright that's just the standard witch
+ hunt dynamic which you know of course thisuh you know this faction understands and
+ exploits to its great advantage but um you know if more people justyou know said you know like we're not
+ going to stand for this right uh uh you know you know this isthis is you know
+ where guess what we're against racism too but you knowthis you know what you're doing is
+ ridiculous right um you know and the hard part is like ittakes a lot of mental energy it takes a
+ lot of time you know even if you feel like you'renot going to be cancelled or you know
+ you're staying on the safe side like it takes a lot of time to uh to tophrase
+ things in exactly the right way and to uh you know respond to everything peoplesay so
+ but i think that um you know the more people speak up than uhuh you know from from from all political
+ persuasions you know from like all you know walks of life then you knowthe the easier it is to move forward
+
+
+Speaker 0 :since we've been talking about love can
+ you um last time i talked to you about meaningof life a little bit but
+ here has it's a weird question to ask a computer scientist buthas love for other human beings for
+ for things for the world around you played an important role in your lifehave you um
+ you know it's easy for a world-class computer scientist uhuh yeah you could even call yourself
+ like a physicist everything to be lost in the books isthe connection to other humans
+ love for other humans played an important role i love my kids
+
+Speaker 1 :uh i love my wife i love my parents
+ um uh you know i um i'm probably not not different frommost people and loving their families
+ uh and and in that being very important uhin my life uh now i should remind you
+ that you know i am a theoretical computer scientistif you're looking for deep insight about
+ the nature of love you're probably looking in the wrong placeto ask me but uh but sure it's been
+ important but is it uh is there something from a
+
+Speaker 0 :computer science perspective to be said
+ about love is there uh or is that is that even beyond into therealm of beyond
+ the realm of consciousness there was
+
+Speaker 1 :there was this great uh
+ cartoon i think it was one of the classic xkcds where it shows like aheart
+ and it's like you know squaring the heart taking the four-year transform ofthe heart
+ you know integrating the heart you know uh uhyou know each each thing and then it
+ says you know my normal approach is useless herei'm so glad i asked this question i
+ think there's no better way to uh
+
+Speaker 0 :to end this guy i hope we get a chance
+ to talk again this has been an amazing cool experiment to do it outside yeahreally glad you made it out yeah well i
+ appreciate it a lot it's been a pleasure
+
+Speaker 1 :and i'm glad you were able to come out
+ to austin uh thanks
+
+Speaker 0 :thanks for listening to this
+ conversation with scott erinson and thank you to our sponsors eight sleepsimply safe expressvpn and better help
+ please check out these sponsors in the description to get a discountand to support this podcast if you enjoy
+
+
+Speaker 1 :this thing
+
+
+Speaker 0 :subscribe on youtube review it with five
+ stars and apple podcast follow on spotify support on patreon orconnect with me on twitter
+ at lex friedman and now let me leave you with some words from scott ericsonthat i also gave to you in the
+ introduction which is if you always win then you're probably
+
+Speaker 1 :doing something
+
+
+Speaker 0 :wrong thank you for listening and for
+ putting up with the intro and outro in this strange room inthe middle of nowhere
+ and i very much hope to see you next time
+
+Speaker 1 :
+
+Speaker 0 :
+

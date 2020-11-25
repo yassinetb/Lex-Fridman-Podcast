@@ -1,0 +1,1185 @@
+0:00:00
+Speaker 0 :the following is a conversation with
+ Greg Brockman he's the co-founder and CTO of open AI a world-class researchorganization developing ideas and AI
+ with the goal of eventually creating a safe and friendly artificial generalintelligence one that benefits and
+ empowers humanity open AI is not only a source of publications algorithms toolsand datasets their mission is a catalyst
+ for an important public discourse about our future with both narrow and generalintelligence systems this conversation
+ is part of the artificial intelligence podcast at MIT and beyond if you enjoyit subscribe on youtube itunes or simply
+ connect with me on twitter at Lex Friedman spelled Fri D and now here's my
+
+0:00:50
+Speaker 1 :conversation with Greg Brockman so in
+
+
+0:00:51
+Speaker 0 :high school and right after you wrote a
+ draft of a chemistry textbook I saw that that covers everything from basicstructure of the atom to quantum
+ mechanics so it's clear you have an intuition and a passion for both thephysical world with chemistry and now
+ robotics to the digital world with AI deep learning reinforcement learning soon do you see the physical world in the
+ digital world is different and what do
+
+0:01:19
+Speaker 1 :you think is the gap a lot of it
+ actually boils down to iteration speed right that I think that a lot of whatreally motivates me is is building
+ things right is the I you know think about mathematics for example where youthink you're really hard about a problem
+ you understand it you're right down in this very obscure form that we callproof but then this is in humanities
+ library right it's there forever this is some truth that we've discovered youknow maybe only five people in your
+ field will ever read it now but somehow you've kind of moved humanity forwardand so I actually used to really think
+ that I was going to be a mathematician and then I actually started writing thischemistry textbook one of my friends
+ told me you'll never publish it because you don't have a PhD so instead Idecided to build a website and try to
+ promote my ideas that way and then I discovered programming and I you knowthat in programming you think hard about
+ a problem you understand it you write down in a very obscure form that we calla program but then once again it's in
+ humanities library right and anyone could get the benefit fromand the scalability is massive and so I
+ think that the thing that really appeals to me about the digital world is thatyou can have this this this insane
+ leverage right a single individual with an idea is able to affect the entireplanet and that's something I think is
+ really hard to do if you're moving around physical atoms but you said
+
+0:02:30
+Speaker 0 :mathematics so if you look at the the
+ what thing you know over here our mind do you ultimately see it as just math isjust information processing or is there
+ some other magic as you've seen if you've seen through biology and
+
+0:02:46
+Speaker 1 :chemistry and so on I think it's really
+ interesting to think about humans is just information processing systems andthat it seems like it's actually a
+ pretty good way of describing a lot of kind of how the world works or a lot ofwhat we're capable of to think that that
+ you know again if you just look at technological innovations over time thatin some ways the most transformative
+ innovation that we've had it has been the computer right in some ways theinternet you know that what is the right
+ the Internet is not about these physical cables it's about the fact that I amsuddenly able to instantly communicate
+ with any other human on the planet I'm able to retrieve any piece of knowledgethat in some ways the human race has
+ ever had and that those are these insane transformations do you see the our
+
+0:03:26
+Speaker 0 :society as a whole the collective as
+ another extension of the intelligence of the human being so if you look at thehuman being is an information processing
+ system you mentioned the internet thennetworking do you see us all together as
+ a civilization as a kind of intelligence
+
+0:03:41
+Speaker 1 :system yeah I think this is actually a
+ really interesting perspective to take and to think about to you sort of havethis collective intelligence of all of
+ society the economy itself is this superhuman machine that is optimizingsomething right and it's all in some
+ ways a company has a will of its own right that you have all theseindividuals we're all pursuing their own
+ individual goals and thinking really hard and thinking about the right thingsto do but somehow the company does
+ something that is this emergent thing and that is it so there's a reallyuseful abstraction and so I think that
+ in some ways you know we think of ourselves as the most intelligent thingson the planet and the most powerful
+ things on the planet but there are things that are bigger than us thatthese systems that we all contribute to
+ and so I think actually you know it's a it's interesting to think about ifyou've read as a guys a models
+ foundation right that that there's this concept ofpsychohistory in there which is
+ effectively this that if you have trillions or quadrillions of beings thenmaybe you could actually predict what
+ that being that that huge macro being will do I and almost independent of whatthe individuals want I actually have a
+ second angle on this I think is interesting which is thinking about atechnological determinism one thing that
+ I actually think a lot about with with open a tie right is that we're kind ofcoming on onto this insanely
+ transformational technology of general intelligence right that will happen atsome point and there's a question of how
+ can you take actions that will actually steer it to go better rather than worseand that I think one question you need
+ to ask is as a scientist as an inventor as a creator what impact can you have ingeneral right you look at things like
+ the telephone invented by two people in the same day like what does that meanwhat does that mean about the shape of
+ innovation and I think that what's going on is everyone's building on theshoulders of the same giants and so you
+ can kind of you can't really hope to create something no one else ever wouldyou know if Einstein wasn't born someone
+ else would have come up with relativity you know he changed the timeline a bitright that maybe it would have taken
+ another 20 years but it wouldn't be that fundamentally humanity would neverdiscover these these fundamental truths
+
+
+0:05:37
+Speaker 0 :so there's some kind of invisible
+ momentum that some people like Einstein or open the eyes plugging into that'sanybody else can also plug into and
+ ultimately that wave takes us into a
+
+0:05:50
+Speaker 1 :certain direction that's me that's right
+ that's right and you know this kind of seems to play out in a bunch ofdifferent ways that there's some
+ exponential that is being ridden and that the exponential itself which one itis changes think about Moore's law an
+ entire industry set its clock to it for 50 years like how can that be right howis that possible and yet somehow it
+ happened and so I think you can't hope to ever invent something that no oneelse will maybe you can change the
+ timeline a little bit but if you really want to make a difference I think thatthe thing that you really have to do the
+ only real degree of freedom you have is to set the initial conditions underwhich a technology is born and so you
+ think about the internet right that there are lots of other competitorstrying to build similar things and the
+ internet one and that the initial conditions where that was created bythis group that really valued people
+ being able to be you know anyone being able to plug in this very academicmindset of
+ being open and connected and I think that the Internet for the next 40 yearsreally played out that way
+ you know maybe today things are starting to shift in a different direction but Ithink if those initial conditions were
+ really important to determine the next 40 years worth of progress that's really
+
+0:06:54
+Speaker 0 :beautifully put so another example of
+ that I think about you know I recently looked at it I looked at Wikipedia theformation of Wikipedia and I wonder what
+ the internet would be like if Wikipedia had ads you know there's a interestingargument that why they chose not to make
+ it put advertisement wikipedia i think it's i think wikipedia is one of thegreatest resources we have on the
+ internet it's extremely surprising how well it works and how well it was ableto aggregate all this kind of good
+ information and they essentially the creator of wikipedia I don't knowthere's probably some debates there but
+ set the initial conditions and now it carried it itself forward that's reallyinteresting so you're the way you're
+ thinking about AGI or artificial intelligences you're focused on settingthe initial conditions for the for the
+ progress that's right that's powerful okay so look into the future if youcreate an AGI system like one that can
+ ace the Turing test natural language what do you think would be theinteractions you would have with it what
+ do you think are the questions you would ask like what would be the firstquestion you would ask it her/him that's
+
+
+0:08:00
+Speaker 1 :right I think it at that point if you've
+ really built a powerful system that is capable of shaping the future ofhumanity the first question that you
+ really should ask is how do we make sure that this plays out well and so that'sactually the first question that I would
+ ask a powerful AGI system is so you
+
+0:08:17
+Speaker 0 :wouldn't ask your colleague you wouldn't
+ ask like Ilya you would ask the AGI
+
+0:08:22
+Speaker 1 :system oh we've already had the
+ conversation with Ilya right and everyone here and so you want as manyperspectives and a piece of wisdom as
+ you can for it for answering this question so I don't think younecessarily defer to whatever your
+ powerful system tells you but you use as one input I like to try to figure outwhat to do but and I guess fundamentally
+ what it really comes down to is if you built something really powerful and youthink about think about for example the
+ creation of of shortly after the creation of nuclear weapons right themost important question the world was
+ what's the world order going to be like how do we set ourselves up inwhere we're going to be able to survive
+ this species with a GI I think the question is slightly different rightthat there is a question of how do we
+ make sure that we don't get the negative effects but there's also the positiveside right you imagine that you know
+ like like what won't AGI be like like what will be capable of and I think thatone of the core reasons that an AGI can
+ be powerful and transformative is actually due to technologicaldevelopment yeah right if you have
+ something that's capable as capable as a human and that it's much more scalablethat you absolutely want that thing to
+ go read the whole scientific literature and think about how to create cures forall the diseases right you want it to
+ think about how to go and build technologies to help us create materialabundance and to figure out societal
+ problems that we have trouble with like how we're supposed to clean up theenvironment and you know maybe you want
+ this to go and invent a bunch of little robots that will go out and bebiodegradable and turn ocean debris into
+ harmless molecules and I think that that that positive side is something that Ithink people miss sometimes when
+ thinking about what an AGI will be like and so I think that if you have a systemthat's capable of all of that you
+ absolutely want its advice about how do I make sure that we're using your yourcapabilities in a positive way for
+ Humanity so what do you think about that
+
+0:10:09
+Speaker 0 :psychology that looks at all the
+ different possible trajectories of an AGI system many of which perhaps themajority of which are positive and
+ nevertheless focuses on the negative trajectories I mean you get to interactwith folks you get to think about this
+ maybe within yourself as well you look at sam harris and so on it seems to besorry to put it this way but almost more
+ fun to think about the negative possibilities whatever that's deep inour psychology what do you think about
+ that and how do we deal with it because we want AI to help us so I think there's
+
+0:10:43
+Speaker 1 :kind of two problems so I entailed in
+ that question the first is more of the question of how can you even picturewhat a world with a new technology will
+ any like now imagine were in 1950 and I'm trying to describe Buber to someone
+
+0:11:00
+Speaker 0 :apps and the internet yeah I mean your
+ yeah that's that's going to be extremely complicated but it's imaginable
+
+0:11:09
+Speaker 1 :it's imaginable right but and now
+ imagine being a 1950 and predicting goober right and you need to describethe internet you need to describe GPS
+ you need to describe the fact that everyone's going to have this phone intheir pocket and so I think that that
+ just the first truth is that it is hard to picture how a transformativetechnology will play out in the world
+ we've seen that before with technologies that are far less transformative than AGI will be and so I think that that one
+ piece is that it's just even hard to imagine and to really put yourself in aworld where you can predict what that
+ that positive vision would be like and you know I think the second thing isthat it is I think it is always easier
+ to support the negative side than the positive side it's always easier todestroy than create and you know less
+ than in a physical sense and more just in an intellectual sense right becauseyou know I think that with creating
+ something you need to just get a bunch of things right and to destroy you justneed to get one thing wrong yeah and so
+ I think that that what that means is that I think a lot of people's thinkingdead ends as soon as they see the
+ negative story but that being said I actually actually have some hope right Ithink that the the positive vision is
+ something that I think can be something that we can we can talk about I thinkthat just simply saying this fact of
+ yeah like there's positive there's negatives everyone likes to draw themthe negative people have to respond well
+ to that message and say huh you're right there's a part of this that we're nottalking about not thinking about and
+ that's actually something that's that's that's I think really been a key part ofhow we think about AGI at open AI right
+ you can kind of look at it as like okay like opening eye talks about the factthat there are risks and yet they're
+ trying to build this system like how do you square this those two facts so do
+
+0:12:55
+Speaker 0 :you share the intuition that some people
+ have I mean from Sam Harris even Elon Musk himself that it's tricky as youdevelop AGI to keep it from slipping
+ into the existential threats into the negative what's your intuition about howhard is it to keep a
+ a development on the positive track and you what's your intuition there to
+
+0:13:20
+Speaker 1 :answer the question you can really look
+ at how we structure open AI so we really have three main armswe have capabilities which is actually
+ doing the technical work and pushing forward what these systems can dothere's safety which is working on
+ technical mechanisms to ensure that the systems we build are lined with humanvalues and then there's policy which is
+ making sure that we have governance mechanisms answering that question ofwell whose values and so I think that
+ the technical safety one is the one that people kind of talk about the most rightyou talk about like think about you know
+ all of the dystopic AI movies a lot of that is about not having good technicalsafety in place and what we've been
+ finding is that you know I think that actually a lot of people look at thetechnical safety problem and think it's
+ just intractable right this question of what do humans want how am I supposed towrite that down can I even write down
+ what I want no way and then they stop there but the thing is we've alreadybuilt systems that are able to learn
+ things that humans can't specify you know even the rules for how to recognizeif there's a cat or a dog in an image
+ turns out its intractable to write that down and yet we're able to learn it andthat what we're seeing with systems we
+ build it open it yeah and there's still an early proof of concept stage is thatyou are able to learn human preferences
+ you're able to learn what humans want from data and so that's kind of the corefocus for our technical safety team and
+ I think that they're actually we've had some pretty encouraging updates in termsof what we've been able to make work so
+
+
+0:14:48
+Speaker 0 :you have an intuition and a hope that
+ from data you know looking at the value alignment problem from data we can buildsystems that align with the collective
+ better angels of our nature so aligned with the ethics and the morals of human
+
+0:15:04
+Speaker 1 :beings to even say this in a different
+ way I mean think about how do we align in humans right think about like a humanbaby can grow up to be an evil person or
+ a great person and a lot of that is from learning from data right that you havesome feedback as a child is growing up
+ they get to see positive examples and so I think that that just like them thatthe the only example we have of a
+ general intelligence that is able to learn from data I tooaligned with human values and to learn
+ values I think we shouldn't be surprised that we can do the same sorts oftechniques or whether the same sort of
+ techniques end up being how we we saw value alignment for AG eyes so let's go
+
+0:15:41
+Speaker 0 :even higher as I don't know if you've
+ read the book sapiens mm-hmm but there's an idea that you know that as acollective is us human beings who kind
+ of develop together and ideas that we hold there's no in that contextobjective truth we just kind of all
+ agree to certain ideas and hold them as a collective if you have a sense thatthere is in the world of good and evil
+ do you have a sense that to the first approximation there are some things thatare good and that you could teach
+
+
+0:16:12
+Speaker 1 :systems to behave to be good so I think
+ that this actually blends into our third team right which is the policy team andthis is the one the the aspect I think
+ people really talk about way less than they should all right because imaginethat we built super-powerful systems
+ that we've managed to figure out all the mechanisms for these things to dowhatever the operator wants the most
+ important question becomes who's the operator what do they want and how isthat going to affect everyone else right
+ and and I think that this question of what is good what are those values Imean I think you don't even have to go
+ to those those very grand existential places to start to realize how hard thisproblem is you just look at different
+ countries and cultures across the world and that there's there's a verydifferent conception of how the world
+ works and you know what what what kinds of of ways that society wants to operateand so I think that the really core
+ question is is is actually very concrete um and I think it's not a question thatwe have ready answers to right is how do
+ you have a world where all the different countries that we have United StatesChina Russia and you know the hundreds
+ of other countries out there are able to continue to not just operate in the waythat they see fit but in that the world
+ that emerges in these where you have these very powerful systems I operatingalongside humans ends up being something
+ that empowers humans more that makes like exhuming existencebe a more meaningful thing and the
+ people are happier in wealthier and able to live more fulfilling lives it's notnob vyas thing for how to design that
+ world once you have that very powerful
+
+0:17:53
+Speaker 0 :system so if we take a little step back
+ and we're having it like a fascinating conversation and open eyes in many waysa tech leader in the world and yet we're
+ thinking about these big existential questions which is fascinating reallyimportant I think you're a leader in
+ that space and it's a really important space of just thinking how AI affectsociety in a big-picture view so Oscar
+ Wilde said we're all in the gutter but some of us are looking at the Stars andI think open air has a charter that
+ looks to the Stars I would say to create intelligence to create generalintelligence make it beneficial safe and
+ collaborative so can you tell me how that came about how a mission like thatand the path to creating a mission like
+ that open yeah I was founded yeah so I
+
+0:18:39
+Speaker 1 :think that in some ways it really boils
+ down to taking a look at the landscape alright so if you think about thehistory of AI that basically for the
+ past 60 or 70 years people have thought about this goal of what could happen ifyou could automate human intellectual
+ labor right imagine you can build a computer system that could do thatwhat becomes possible well out of sci-fi
+ that tells stories of various dystopian and you know increasingly you havemovies like heard that tell you a little
+ bit about maybe more of a little bit utopic vision I you think about theimpacts that we've seen from being able
+ to have bicycles for our minds and computers and that I think that the theimpact of computers and the Internet has
+ just far outstripped what anyone really could have predicted and so I think thatit's very clear that if you can build an
+ AI it will be the most transformative technology that humans will ever createand so what it boils down to then is a
+ question of well is there a path is there hope is there a way to build sucha system and I think that for 60 or 70
+ years that people got excited and I they you know ended up not being able todeliver on the hopes that the people I
+ pinned on them and I think that then you know that after you know two to wintersof AI development
+ that people I you know I think kind of almost stopped daring to dream right thereally talking about a GI or thinking
+ about a GI became almost this taboo in the community but I actually think thatpeople took the wrong lesson from AI
+ history and if you look back starting in nineteen fifty nine is when theperceptron was released and this is
+ basically you know one of the earliest neural networks it was released to whatwas perceived as this massive overhype
+ so in the New York Times in nineteen fifty-nine you have this article sayingthat you know the the perceptron will
+ one day recognize people call out their names instantly translate speech betweenlanguages and people at the time looked
+ at this and said this is Jack your system can't do any of that andbasically spent ten years trying to
+ discredit the whole perceptron direction and succeeded and all the funding driedup and you know people kind of went in
+ other directions and you know the 80s there was a resurgence and I'd alwaysheard that the resurgence in the 80s was
+ due to the invention of back propagation and these these algorithms that gotpeople excited but actually the
+ causality was due to people building larger computers that you can find thesethese articles from the 80s saying that
+ the democratization of computing power suddenly meant that you could run theselarger neural networks and then people
+ start to do all these amazing things the backpropagation algorithm was inventedand you know that the the neural nets
+ people running were these tiny little like 20 neuron neural nets right whatare you supposed to learn with 20
+ neurons and so of course they weren't able to get great results and it reallywasn't until 2012 that this approach
+ that's almost the most simple natural approach that people have come up within the 50s right in some ways even in
+ the 40s before there were computers with a Pitts McCullen air and neuron suddenlythis became the best way of solving
+ problems right and I think there are three core properties that deep learninghas that I think are very worth paying
+ attention to the first is generality we have a verysmall number of deep learning tools SGD
+ deep neural net maybe some some you know RL and it solves this huge variety ofproblems speech recognition machine
+ translation game playing all these problems small set of tools so there'sthe generality there's a second piece
+ which is the competence you want to solve any of those problems throw itforty years worth of
+ computer vision research replacing the deep neural net it's kind of work betterand there's a third piece which is the
+ scalability right the one thing that has been shown time and time again is thatyou if you have a larger neural network
+ for a more compute more data at it it will work better those threeproperties together feel like essential
+ parts of building a general intelligence now it doesn't just mean that if wescale up what we have that we will have
+ an AGI right there are clearly missing pieces they're missing ideas we need tohave answers for reasoning but I think
+ that the core here is that for the first time it feels that we have a paradigmthat gives us hope the general
+ intelligence can be achievable and so as soon as you believe that everything elsebecomes comes into focus right if you
+ imagine that you may be able to and you know that the timeline I think remainsuncertain on the but I think that that
+ you know certainly within our lifetimes and possibly within a much shorterperiod of time than then people would
+ expect if you can really build the most transformative technology that will everexist you stop thinking about yourself
+ so much right and you start thinking about just like how do you have a worldwhere this goes well and that you need
+ to think about the practicalities of how do you build an organization and gettogether a bunch of people and resources
+ and to make sure that people feel motivated and ready to do it but I thinkthat then you start thinking about well
+ what if we succeed and how do we make sure that when we succeed that the worldis actually the place that we want
+ ourselves to exist then and almost in the Rawls the unveils sense of the wordand so that's kind of the broader
+ landscape and opening I was really formed in 2015 with that high levelpicture of AGI might be possible sooner
+ than people think and that we need to try to do our best to make sure it'sgoing to go well and then we spent the
+ next couple years really trying to figure out what does that mean how do wedo it
+ and you know I think that typically with a company you start out very small soyou in a co-founder and you build a
+ product you got some users you get a product market fityou know then at some point you raise
+ some money you hire people you scale and then you know down the road then the bigcompanies realize you exist and try to
+ kill you and for opening I it was basicallyeverything in exactly the
+ order let me just pause for a second he
+
+0:24:24
+Speaker 0 :said a lot of things and let me just
+ admire the jarring aspect of what open AI stands for which is daring to dream Imean you said it's pretty powerful you
+ caught me off guard because I think that's very truethe-the-the step of just daring to dream
+ about the possibilities of creating intelligence in a positive in a safe waybut just even creating intelligence is a
+ much needed refreshing catalyst for the AI community so that's that's thestarting point
+ okay so then formation of open AI was
+
+0:25:01
+Speaker 1 :just I just say that you know when we
+ were starting opening AI that kind of the first question that we had is is ittoo late to start a lab with a bunch of
+ the best people possible that was an actual question so those were those thatwas the core question of you know hey
+ there's dinner in July of 20 2015 and there's that was that was reallywhat we spent the whole time talking
+ about and you know cuz it's the you think about kind of where AI was is thatit transitioned from being an academic
+ pursuit to an industrial pursuit and so a lot of the best people were in thesebig research labs and that we wanted to
+ start our own one that you know no matter how much resources we couldaccumulate it would be you know pale in
+ comparison to the big tech companies and we knew that and there's a question ofare we going to be actually able to get
+ this thing off the ground you need critical mass you can't just do you anda co-founder build a product right you
+ really need to have a group of you know five to ten people and we kind ofconcluded it wasn't obviously impossible
+ so it seemed worth trying well you're
+
+0:26:01
+Speaker 0 :also dreamers so who knows right that's
+ right okay so speaking of that competing with with the the big players let's talkabout some of the some of the tricky
+ things as you think through this process of growing of seeing how you can developthese systems a task at scale that
+ competes so you recently recently formed open ILP a new cap profit company thatnow carries the name open it so open has
+ now this official company the original non profit companystill exists and carries the opening I
+ nonprofit name so can you explain what this company is what the purpose of uscreation is and how did you arrive at
+ the decision yep to create it openly I
+
+0:26:48
+Speaker 1 :the whole entity and opening I LP as a
+ vehicle is trying to accomplish the mission of ensuring that artificialgeneral intelligence benefits everyone
+ and the main way that we're trying to do that is by actually trying to buildgeneral intelligence ourselves and make
+ sure the benefits are distributed to the world that's the primary way we're alsofine if someone else does this all right
+ it doesn't have to be us if someone else is going to build an AGI and make surethat the benefits don't get locked up in
+ one company or you know one one want with one set of people like we'reactually fine with that and so those
+ ideas are baked into our Charter which is kind of the the foundational documentthat are describes kind of our values
+ and how we operate but it's also really baked into thestructure of open at LP and so the way
+ that we've set up opening ILP is that in the case where we succeed right if weactually build what we're trying to
+ build then investors are able to get a return and but that return is somethingthat is capped and so if you think of
+ AGI in terms of data the value that you could really create you're talking aboutthe most transformative technology ever
+ created it's going to create orders of magnitude more value than any existingcompany and that all of that value will
+ be owned by the world like legally title to the nonprofit to fulfill that missionand so that's that's the structure so
+
+
+0:28:12
+Speaker 0 :the mission is a powerful one and it's a
+ it's one that I think most people would agree with it's how we would hope a Iprogresses and so how do you tie
+ yourself to that mission how do you make sure you do not deviate from thatmission that you know other incentives
+ that are profit driven wouldn't don't interfere with the mission so this was
+
+0:28:36
+Speaker 1 :actually a really core question for us
+ for the past couple years because you know I'd say that like the way that ourhistory went was that for the first year
+ we were getting off the ground right we had this high level picture but wedidn't know
+ exactly how we wanted to accomplish it and really two years ago it's when wefirst started realizing in order to
+ build a GI we're just going to need to raise way more money than we can as anonprofit I mean you're talking many
+ billions of dollars and so the first question is how are you supposed to dothat and stay true to this mission and
+ we looked at every legal structure out there and concluded none of them werequite right for what we wanted to do and
+ I guess it shouldn't be too surprising if you're going to do something likecrazy unprecedented technology that
+ you're gonna have to come up with some crazy unprecedent structure to do it inand a lot of a lot of our conversation
+ was with people at opening I write the people who really join because theybelieve so much in this mission and
+ thinking about how do we actually raise the resources to do it and also staytrue to to what we stand for and the
+ place you got to start is to really align on what is it that we stand forright what are those values what's
+ really important to us and so I'd say that we spent about a year reallycompiling the opening I'd charter and
+ that determines and if you even look at the first the first line item in thereit says that look we expect we're gonna
+ have to marshal huge amounts of resources but we're going to make surethat we minimize conflicts of interest
+ with the mission and that kind of aligning on all of those pieces was themost important step towards figuring out
+ how do we structure a company that can actually raise the resources to do what
+
+0:30:10
+Speaker 0 :we need to do I imagined open AI the
+ decision to create open ILP was a really difficult one and there was a lot ofdiscussions as you mentioned for a year
+ and there was different ideas perhaps detractors with an open AI sort ofdifferent paths that you could have
+ taken what were those concerns what were the different paths considered what wasthat process of making that decision
+
+
+0:30:33
+Speaker 1 :like yep um but so if you look actually
+ at the opening I charter that there's almost two paths embedded within itthere is we are primarily trying to
+ build AGI ourselves but we're also ok if someone else does it and this is a weirdthing for a company it's really
+
+
+0:30:49
+Speaker 0 :interesting actually yeah there there is
+ an element of competition that you do want to be the one that does it but atthe same time you're ok somebody else's
+ and you know we'll talk about that a little bit that trade-off that's the day
+
+0:31:02
+Speaker 1 :that's really interesting and I think
+ this was the core tension as we were designing open an ILP and really theopening eye strategy is how do you make
+ sure that both you have a shot at being a primary actor which really requiresbuilding an organization raising massive
+ resources and really having the will to go and execute on some really reallyhard vision all right you need to really
+ sign up for a long period to go and take on a lot of pain and a lot of risk andto do that normally you just import the
+ startup mindset right and that you think about okay like how do we how to executeeveryone you give this very competitive
+ angle but you also have the second angle of saying that well the true missionisn't for opening high to build a GI the
+ true mission is for AGI to go well for Humanity and so how do you take all ofthose first actions and make sure you
+ don't close the door on outcomes that would actually be positive in fulfillthe mission and so I think it's a very
+ delicate balance right I think that going 100% one direction or the other isclearly not the correct answer and so I
+ think that even in terms of just how we talk about opening I and think about itthere's just like like one thing that's
+ always in the back of my mind is to make sure that we're not just saying openingeyes goal is to build AGI right that
+ it's actually much broader than that right that first of all I you know it'snot just AGI it's safe AGI that's very
+ important but secondly our goal isn't to be the ones to build it our goal is tomake sure it goes well for the world and
+ so I think that figuring out how do you balance all of those and to get peopleto really come to the table and compile
+ the the like a single document that that encompasses all of that wasn't trivial
+
+0:32:37
+Speaker 0 :so part of the challenge here is your
+ mission is I would say beautiful empowering and a beacon of hope forpeople in the research community and
+ just people thinking about AI so your decisions are scrutinized more than Ithink a regular profit driven company do
+ you feel the burden of this in the creation of the Charter and just in the
+
+0:33:00
+Speaker 1 :way you operate yes so why do you lean
+
+
+0:33:02
+Speaker 0 :into the burden by creating such a
+ charter why not to keep it quiet I mean
+
+0:33:10
+Speaker 1 :it just boils down to the to the mission
+ right I'm here and everyone else is herebecause we think this is the most
+ important mission right dare to dream
+
+0:33:17
+Speaker 0 :all right so what do you think you can
+ be good for the world or create an a GI system that's good when you're afor-profit company from my perspective I
+ don't understand why profit interferes with positive impact on society I don'tunderstand by Google that makes most of
+ its money from ads you can't also do good for the world or other companiesFacebook anything I don't I don't
+ understand why those have to interfere you know you can profit isn't the thingin my view that affects the impact of a
+ company what affects the impact of the company is the Charter is the culture isthe you know the people inside and
+ profit is the thing that just fuels those people so what are your views
+
+0:34:08
+Speaker 1 :there yeah so I think that's a really
+ good question and there's there's there's some some you know real likelong-standing debates in human society
+ that are wrapped up in it the way that I think about it is just think about whatwhat are the most impactful nonprofits
+ in the world what are the most impactful for profits in the world right is much
+
+0:34:26
+Speaker 0 :easier to lists the for profits that's
+
+
+0:34:28
+Speaker 1 :right and I think that there's there's
+ some real truth here that the system that we set up the system for kind ofhow you know today's world is organized
+ is one that that really allows for huge impact and that that you know kind ofpart of that is that you need to be you
+ know for profits are our self-sustaining and able to to kind of you know build ontheir own momentum and I think that's a
+ really powerful thing it's something that when it turns out that we haven'tset the guardrails correctly causes
+ problems right think about logging companies that go and DeForest you knowyou know the rain forest that's really
+ bad we don't want that and it's actually really interesting to me the kind ofthis this question of how do you get
+ positive benefits out of a for-profit company it's actually very similar tohow do you get positive benefits out of
+ an AGI right that you have this like very powerful system it's more powerfulthan any human and it's kind of
+ autonomous in some ways you know super human and a lot of axes and somehow youhave to set the guardrails to get good
+ to happen but when you do the benefits are massive and so I think that the whenwhen I think about nonprofit vs.
+ for-profit I think it's just not enough happens in nonprofits they're very purebut it's just kind of you know it's just
+ hard to do things they're in for profits in some ways like too much happens butif if kind of shaped in the right way it
+ can actually be very positive and so with open NLP we're picking a road inbetween now the thing I think is really
+ important to recognize is that the way that we think about opening ILP is thatin the world where AGI actually happens
+ right in a world where we are successful we build the most transformativetechnology ever the amount of value
+ we're going to create will be astronomical and so then in that casethat the if it the the cap that we have
+ will be a small fraction of the value we create and the amount of value that goesback to investors and employees looks
+ pretty similar to what would happen in a pretty successful startup and that'sreally the case that we're optimizing
+ for right that we're thinking about in the success case making sure that thevalue we create doesn't get locked up
+ and I expect that in another you know for-profit companies that it's possibleto do something like that I think it's
+ not obvious how to do it right and I think that as a for-profit company youhave a lot of fiduciary duty to your
+ shareholders and that there are certain decisions you just cannot make in ourstructure we've set it up so that we
+ have a fiduciary duty to the Charter that we always get to make the decisionthat is right for the Charter rather
+ than even if it comes at the expense of our own stakeholders and and so I thinkthat when I think about what's really
+ important it's not really about nonprofit vs. for-profit it's really aquestion of if you build a GI and you
+ kind of you know humanities now in this new age who benefits whose lives arebetter and I think that what's really
+ important is to have an answer that is everyone yeah which is one of the core
+
+0:37:20
+Speaker 0 :aspects of the Charter so one concern
+ people have not just with open the eye but with Google Facebook Amazon anybodyreally that's that's creating impact
+ that scale is how do we avoid as your Charter says avoid enabling the use ofor AGI to unduly concentrate power why
+ would not a company like open a I keep all the power of an AGI system to itselfthe Charter the Charter so you know how
+
+
+0:37:52
+Speaker 1 :
+
+0:37:52
+Speaker 0 :does the Charter actualize itself in day
+
+
+0:37:56
+Speaker 1 :to day so I think that first to zoom out
+ right there the way that we structure the company is so that the the powerfirst sort of you know dictating the
+ actions that opening eye takes ultimately rests with the board rightthe board of the nonprofit I'm and the
+ board is set up in certain ways certain certain restrictions that you can readabout in the opening hi LP blog post but
+ effectively the board is the is the governing body for opening ILP and theboard has a duty to fulfill the mission
+ of the nonprofit and so that's kind of how we tie how we thread all thesethings together now there's a question
+ of so day to day how do people the individuals who in some ways are themost empowered ones ain't no the board
+ sort of gets to call the shots at the high level but the people who areactually executing are the employees the
+ way that people here on a day-to-day basis who have the you know the the keysto the technical Kingdom and their I
+ think that the answer looks a lot like well how does any company's values getactualized right I think that a lot of
+ that comes down to that you need people who are here because they really believein that mission and they believe in the
+ Charter and that they are willing to take actions that maybe are worse forthem but are better for the Charter and
+ that's something that's really baked into the culture and honestly I thinkit's I you know I think that that's one
+ of the things that we really have to work to preserve as time goes on andthat's a really important part of how we
+ think about hiring people and bringing people into opening I so there's people
+
+0:39:23
+Speaker 0 :here there's people here who could speak
+ up and say like hold on a second this is totally against what we stand for
+
+0:39:33
+Speaker 1 :cultural eyes yeah yeah for sure I mean
+ I think that that we actually have I think that's like a pretty importantpart of how we operate and how we have
+ even again with designing the Charter and designing open alp in the firstplace that there has been a lot of
+ conversation with employees here and a lot of times where employees said wait asecond this
+ seems like it's coming in the wrong direction and let's talk about it and soI think one thing that's that's I think
+ I really and you know here's here's actually one thing I think is veryunique about us as a small company is
+ that if you're at a massive tech giant that's a little bit hard for someonewho's aligned employee to go and talk to
+ the CEO and say I think that we're doing this wrong and you know you look atcompanies like Google that have had some
+ collective action from employees to you know make ethical change around thingslike maven and so maybe there are
+ mechanisms that other companies that work but here super easy for anyone topull me aside to pull Sam aside to
+ Balilla aside and people do it all the time one of the interesting things in
+
+0:40:28
+Speaker 0 :the Charter is this idea that it'd be
+ great if you could try to describe or untangle switching from competition tocollaboration and late-stage AGI
+ development it was really interesting this dance between competition andcollaboration how do you think about
+
+
+0:40:43
+Speaker 1 :that yeah assuming you can actually do
+ the technical side of AGI development I think there's going to be two keyproblems with figuring out how do you
+ actually deploy it make it go well the first one of these is the run-up tobuilding the first AGI you look at how
+ self-driving cars are being developed and it's a competitive race I'm thething that always happens in a
+ competitive race is that you have huge amounts of pressure to get rid of safetyand so that's one thing we're very
+ concerned about right is that people multiple teams figuring out we canactually get there but you know if we
+ took the slower path that is more guaranteed to be safe we will lose andso we're going to take the fast path and
+ so the more that we can both ourselves be in a position where we don't generatethat competitive race where we say if
+ the race is being run and that you know someone else's is further ahead than weare we're not gonna try to to leapfrog
+ we're gonna actually work with them right we will help them succeed as longas what they're trying to do is to
+ fulfill our mission then we're good we don't have to build AGI ourselves and Ithink that's a really important
+ commitment from us but it can't just be unilateral right I think that's reallyimportant that other players who are
+ serious about building AGI make similar commitments right I think that that youknow again to the extent that everyone
+ believes that AGI should be something to benefit everyone then it actually reallyshouldn't matter which company builds it
+ and we should all be concerned about the case where we just race so hard to getthere
+ that something goes wrong so what role
+
+0:42:07
+Speaker 0 :do you think government our favorite
+ entity has in setting policy and rules about this domain from research to thedevelopment to early stage to late stage
+
+
+0:42:22
+Speaker 1 :a a inhi development so I think that
+ first of all is really important the government's in their right in some wayshape or form you know at the end of the
+ day we're talking about building technology that will shape how the worldoperates and that there needs to be
+ government as part of that answer and so that's why we've we've we've done anumber of different congressional
+ testimonies we interact with a number of different lawmakers and the you knowright now a lot of our message to them
+ is that it's not the time for regulation it is the time for measurement rightthat our main policy recommendation is
+ that people and you know the government does this all the time with bodies likeNIST um spend time trying to figure out
+ just where the technology is how fast it's moving and can really becomeliterate and up to speed with respect to
+ what to expect so I think that today the answer reallyis about about about measurement and I
+ think if there will be a time in place where that will change and I think it'sa little bit hard to predict exactly I
+ what what exactly that trajectory should look like so there will be a point
+
+0:43:27
+Speaker 0 :oh it's regulation federal in the United
+ States the government steps in and and helps be the I don't want to say theadult in the room to make sure that
+ there is strict rules may be conservative rules that nobody can cross
+
+0:43:44
+Speaker 1 :well I think there's this kind of maybe
+ to two angles to it so today with narrow AI applications that I think there arealready existing bodies that are
+ responsible and should be responsible for regulation you think about forexample with self-driving cars that you
+ want the you know the National Highway it's exactly to be very good mat thatmakes sense right that basically what
+ we're saying is that we're going to have these technological systems that aregoing to be do performing applications
+ that humans already do great we already have ways of thinking about standardsand safety for those so I think actually
+ empowering those regulators today is also pretty importantand then I think for for a GI you know
+ that there's going to be a point where we'll have better answers and I thinkthat maybe a similar approach of first
+ measurement and you know start thinking about what the rules should be I thinkit's really important that we don't
+ prematurely squash you know progress I think it's very easy to kind of smotherthe budding field and I think that's
+ something to really avoid but I don't think it's the right way of doing it isto say let's just try to blaze ahead and
+ not involve all these other stakeholders so you've recently released a paper on
+
+0:44:53
+Speaker 0 :GPT two language modeling but did not
+ release the full model because you have concerns about the possible negativeeffects of the availability of such
+ model it's uh outside of just that decision is super interesting because ofthe discussion as at a societal level
+ the discourse it creates so it's fascinating in that aspect but if youthink that's the specifics here at first
+ what are some negative effects that you envisioned and of course what are some
+
+0:45:27
+Speaker 1 :of the positive effects yeah so again I
+ think to zoom out like the way that we thought about GPT 2 is that withlanguage modeling we are clearly on a
+ trajectory right now where we scale up our models and we get qualitativelybetter performance right GPT 2 itself
+ was actually just a scale-up of a model that we've released in the previous Juneright and we just ran it at you know
+ much larger scale and we got these results we're suddenly starting to writecoherent prose which was not something
+ we'd seen previously and what are we doing now well we're gonna scale up GPT2 by 10x by hundred X by thousand X and
+ we don't know what we're going to get and so it's very clear that the modelthat we were that we released last June
+ you know I think it's kind of like it's it's it's it's a good academic toy it'snot something that we think is something
+ that can really have negative applications or you know to the sensethat it can the positive of people being
+ able to play with it is you know far far outweighs the possible harms you fastforward to not GPT to buy GPU 20
+ and you think about what that's gonna be like and I think that the capabilitiesare going to be substantive and so if
+ there needs to be a point in between the two where you say this is somethingwhere we are drawing the line and that
+ we need to start thinking about the safety aspects and I think for GPT toowe could have gone either way and in
+ fact when we had conversations internally that we had a bunch of prosand cons and it wasn't clear which one
+ which one outweighed the other and I think that when we announced that hey wedecide not to release this model then
+ there was a bunch of conversation where various people said it's so obvious thatyou should have just released it there
+ other people said it's so obvious you should not have released it and I thinkthat that almost definitionally means
+ that holding it back was the correct decision right if it's contra if there'sif it's not obvious whether something is
+ beneficial or not you should probably default to caution and so I think thatthe overall landscape for how we think
+ about it is that this decision could have gone either way there are greatarguments in both directions but for
+ future models down the road and possibly sooner than you'd expect because youknow scaling these things up doesn't
+ have to take that long those ones but you're definitely not going to want torelease into the wild and so I think
+ that we almost view this as a test case and to see can we even design you knowhow do you have a society or how do you
+ have a system that goes from having no concept of responsible disclosure wherethe mere idea of not releasing something
+ for safety reasons is unfamiliar to a world where you say okay we have apowerful model let's at least think
+ about it let's go through some process and you think about the securitycommunity it took them a long time to
+ design responsible disclosure right you know you think about this question ofwell I have a security exploit I send it
+ to the company the companies like tries to prosecute me or just sit just ignoresit what do I do right and so you know
+ the alternatives of oh I just just always publish your exploits thatdoesn't seem good either right and so it
+ really took a long time and took this this it was bigger than any individualright is really about building the whole
+ community that believed that okay we'll have this process where you send it tothe company you know if they don't act
+ in a certain time then you can go public and you're not a bad person you've donethe right thing and I think that in AI
+ part of the response of gbt to just proves that we don't have any concept ofthis
+ so that's the high level picture um and so I think that I think this was thiswas a really important move to make and
+ we could have maybe delayed it for D BT 3 but I'm really glad we did it for GPTtoo and so now you look at GPT 2 itself
+ and you think about the substance of okay what are potential negativeapplications so you have this model
+ that's been trained on the Internet which you know it's also going to be abunch of very biased data a bunch of you
+ know very offensive content and there and you can ask it to generate contentfor you on basically any topic right you
+ just give it a prompt and we'll just start start writing and all writescontent like you see on the internet you
+ know even down to like saying advertisement in the middle of some ofits generations and you think about the
+ possibilities for generating fake news or abusive content and you know it'sinteresting seeing what people have done
+ with you know we released a smaller version of GPT too and the people havedone things like try to generate now I
+ you know take my own Facebook message history and generate more Facebookmessages like me and people generating
+ fake politician content or you know there's a bunch of things there whereyou at least have to think is this going
+ to be good for the world there's the flip side which is I think that there'sa lot of awesome applications that we
+ really want to see like creative applications in terms of if you havesci-fi authors that can work with this
+ tool and come up with cool ideas like that seems that seems awesome if we canwrite better sci-fi through the use of
+ these tools and we've actually had a bunch of people write in to us askinghey can we use it for you know for a
+ variety of different creative
+
+0:50:18
+Speaker 0 :applications so the positive I actually
+ pretty easy to imagine there if you know
+
+0:50:23
+Speaker 1 :
+
+0:50:24
+Speaker 0 :the usual
+ NLP applications are really interesting but let's go there it's kind ofinteresting to think about a world where
+ look at Twitter where that just fake news but smarter and smarter BOTS beingable to spread in an interesting complex
+ in that working way in information that just floods out us regular human beingswith our original thoughts so what are
+ your views of this world with deep t20 right what are you how do we thinkabout again it's like one of those
+ things about in the 50s trying to describe the the internet or thesmartphone what do you think about that
+ world the nature of information do we and one possibility is that we'll alwaystry to design systems that identify it
+ robot versus human and we'll do so successfully and so we will authenticatethat we're still human and the other
+ world is that we just accept the part the fact that we're swimming in a sea offake news and just learn to swim there
+
+
+0:51:32
+Speaker 1 :well have you ever seen the there so you
+ know popular meme of of robot eye with a physical physical arm and pen clickingthe I'm not a robot button yeah I think
+ I think the truth is that that really trying to distinguish between robot andhuman is a losing battle ultimately you
+
+
+0:51:53
+Speaker 0 :think it's a losing battle I think it's
+
+
+0:51:53
+Speaker 1 :a losing battle ultimately right I think
+ that that is that in terms of the content in terms of the actions that youcan take I mean think about how captures
+ have gone alright the captures used to be a verynice simple you have this image all of
+ our OCR is terrible you put a couple of of artifacts in it you know humans aregonna be able to tell what what it is an
+ AI system wouldn't be able to today like I can barely do CAPTCHAs yeah and Ithink that that this is just kind of
+ where we're going I think CAPTCHAs where we're a moment in time thing and as AIyou systems become more powerful that
+ they're being human capabilities that can be measured in a very easy automatedway that the a eyes will not be capable
+ of I think that's just like it's just an increasingly hard technical battle butit's not that all hope is lost right and
+ you think about how do we already authenticate ourselves right the youknow we have systems we have social
+ security numbers if you're in the u.s. or you know you have you have uh youknow ways of identifying individual
+ people and having real world identity tied to to digital identity seems like astep towards you know authenticating the
+ source of content rather than the content itself now there are problemswith that how can you have privacy and
+ unanimity in a world where the only content you can really trust is or theonly way you can trust content is by
+ looking at where it comes from and so I think that building out good reputationnetworks maybe maybe one possible
+ solution but yeah I think that this this question is it's not an obvious one andI think that we you know maybe sooner
+ than we think we'll be in a world where you know today I often will read a tweetand be like I feel like a real human
+ wrote this or you know don't feel like this is like genuine I feel like I kindof judge the content a little bit and I
+ think in the future it just won't be the case you will get for example the FCCcomments on net neutrality it came out
+ later that millions of those were auto-generated and that the researcherswere able to do various statistical tik
+ techniques to do that what do you do in a world where those statisticaltechniques don't exist it's just
+ impossible to tell the difference between humans at any highs and in factthe the the the most persuasive
+ arguments are written by by AI all that stuff it's not sci-fi anymore you okayGPT to making a great argument for why
+ recycling is bad for the world you got to read that be like huh you're right
+
+0:54:06
+Speaker 0 :yeah that's that's quite interesting I
+ mean ultimately it boils down to the physical world being the last frontierof proving so you said like basically
+ networks of people humans vouching for humans in the physical world and somehowthe authentication and ends there I mean
+
+
+0:54:24
+Speaker 1 :if I had to ask you I mean you're way
+
+
+0:54:26
+Speaker 0 :too eloquent for a human so if I had to
+ ask you to authenticate like prove how do I know you're not a robot and how doyou know I'm not a robot you know I
+ think that's so far were this in the space this conversation we just had thephysical movements we did is the biggest
+ gap between us and AI systems is the physical relation so maybe that's thelast frontier well here's another
+
+
+0:54:50
+Speaker 1 :question is is you know why why is why
+ is solving this problem important right like what aspects are really importantto us I think that probably where we'll
+ end up is will hone in on what do we really want out of knowing if we'retalking to a human and and I think that
+ again this comes down to identity and so I think that the Internet of the futureI expect to be one that will have lots
+ of agents out there that will interact with with you but I think that thequestion of is this you know a real
+ flesh-and-blood human or is this an automated systembe less important let's actually go
+
+
+0:55:27
+Speaker 0 :there it's GPT two is impressive and
+ let's look at GPT 20 why is it so bad that all my friends are GPT 20 well whyis it so why is it so important on the
+ internet do you think to interact with only human beings why can't we live in aworld where ideas can come from models
+ trained on human data yeah I think this
+
+0:55:53
+Speaker 1 :is I think is actually a really
+ interesting question this comes back to the how do you even picture a world withsome new technology right and I think
+ that that one thing I think is important is is you know Gosei honesty um and Ithink that if you have you know almost
+ in the Turing test style sense sense of technology you have a eyes that arepretending to be humans and deceiving
+ you I think that is you know that that feels like a bad thing right I thinkthat it's really important that we feel
+ like we're in control of our environment right that we understand who we'reinteracting with and if it's an AI or a
+ human um that that's not something we're being deceived about but I think thatthe flipside of can I have as a
+ meaningful of an interaction with an AI as I can with a human well I actuallythink here you can turn to sci-fi and
+ her I think is a great example of asking this very question right and one thing Ireally love about her is it really
+ starts out almost by asking how meaningful are human virtualrelationships right and and then you
+ have a human who has a relationship with an AI and that you really start to bedrawn into that right and that all of
+ your emotional buttons get triggered in the same way as if there was a realhuman that was on the other side of that
+ phone and so I think that that this is one way of thinking about it is that Ithink that we can have meaningful
+ interactions and that if there's a funny joke some sense it doesn't really matterif it was written by a human or an AI
+ but what you don't want anyway I think we should really draw hard lines isdeception
+ and I think that as long as we're in a world where you know why do why do webuild AI systems at all alright the
+ reason we want to build them is to enhance human lives to make humans beable to do more things to have human
+ humans feel more fulfilled and if we can build AI systems that do that I you knowsign me up so the process of language
+
+
+0:57:33
+Speaker 0 :modeling
+ how far do you think it take us let's look at movie her do you think a dialognatural language conversation is
+ formulated by the Turing test for example do you think that process couldbe achieved through this kind of
+ unsupervised language modeling so I
+
+0:57:53
+Speaker 1 :think the Turing test in it seems real
+ form isn't just about language right it's really about reasoning to writethat to really pass the Turing test I
+ should be able to teach calculus to whoever's on the other side and have itreally understand calculus and be able
+ to you know go and solve new calculus problems and so I think that to reallysolve the Turing test we need more than
+ what we're seeing with language models we need some way of plugging andreasoning now how different will that be
+ from what we already do that's an open question right might be that we needsome sequence of totally radical new
+ ideas or it might be that we just need to kind of shape our existing systems ina slightly different way but I think
+ that in terms of how far language modeling will go it's already gone wayfurther than many people would have
+ expected right I think that things like and I think there's a lot of reallyinteresting angles to poke in terms of
+ how much does GBT to understand physical world like you know you you read alittle bit about fire under water in ng
+ bt - so it's like okay maybe it doesn't quite understand what these things arebut at the same time I think that you
+ also see various things like smoke coming from flame and you know a bunchof these things that gbg - it has no
+ body it is no physical experience it's just statically read data and I thinkthat I think that if the answer is like
+ we don't know yet then these questions though we'restarting to be able to actually ask them
+ to physical systems the real systems that exist and that's very exciting do
+
+0:59:20
+Speaker 0 :you think what's your intuition do you
+ think if you just scale language modeling maintain like significantlyscale that reasoning can emerge from the
+ same exact mechanisms I think it's
+
+0:59:31
+Speaker 1 :unlikely that if we just scale
+ gbt - that will have reasoning in the full-fledged way and I think that thereis like you know the type signature is a
+ little bit wrong right that like there's something we do with that we callthinking right where we spend a lot of
+ compute like a variable amount of computeget to better answers right I think a
+ little bit harder I get a better answer and that that kind of type signatureisn't quite encoded in a gbt all right G
+ BT well kind of like it's been a long time and it's like evolutionary historybaking and all this information getting
+ very very good at this predictive process and then at runtime I just kindof do one forward pass and and am able
+ to generate stuff and so you know there might be small tweaks to what we do inorder to get the type signature right
+ for example well you know it's not really one forward pass right you knowyou generate symbol by symbol and so
+ maybe you generate like a whole sequence of thoughts and you only keep like thelast bit or something right um but I
+ think that at the very least I would expect you have to make changes like
+
+1:00:32
+Speaker 0 :that yeah yeah just exactly how we you
+ said think is the process of generating thought by thought in the same kind ofway you like you said keep the last bit
+ the thing that we converge towards you
+
+1:00:43
+Speaker 1 :know and I think there's there's another
+ piece which is which is interesting which is this out of distributiongeneralization right that like thinking
+ somehow lets us do that right that we have an experience a thing and yetsomehow we just kind of keep refine our
+ mental model of it this is again something that feels tied to whateverreasoning is and maybe it's a small
+ tweak to what we do maybe it's many ideas and we'll take as many decades
+
+1:01:08
+Speaker 0 :yeah so the the assumption they're
+ generalization out of distribution is that it's possible to create new newideas the pot you know it's possible
+ that nobody's ever creating new ideas and then was scaling GPT 2 to GPT 20 youwould you would essentially generalize
+ to all possible thoughts the Aussie was gonna have I think just to play devil's
+
+1:01:32
+Speaker 1 :ne how many new new story ideas have we
+ come up with since Shakespeare right yeah exactly it's just all different
+
+1:01:41
+Speaker 0 :forms of love and drama and so on okay
+ not sure if you read bitter lesson a recent blog post by Ray Sutton no I havehe basically says something that echoes
+ some of the ideas that you've been talking about which is he says thebiggest lesson that can be read from so
+ many years of AI research is that general methods the leveragecomputation are ultimately going to
+ ultimately win out do you agree with this so basically and openly I ingeneral about the ideas you are
+ exploring about coming up with methods whether it's GPT to modeling or whetherits opening i-5 playing dota or a
+ general method is better than a more fine-tuned expert to tuned a method yeah
+
+1:02:27
+Speaker 1 :so I think that well one thing that I
+ think was really interesting about the reaction to that blog post was that alot of people have read this as saying
+ that compute is all that matters and it's a very threatening idea right and Idon't think it's a true idea either
+ right it's very clear that we have algorithmic ideas that have been veryimportant for making progress and to
+ really build a GI you want to push as far as you can on the computationalscale and you want to push as far as you
+ can on human human ingenuity and so I think you need both but I think the waythat you phrase the question is actually
+ very good right that it's really about what kind of ideas should we be strivingfor and absolutely if you can find a
+ scalable idea you'd pour more compute into you pour more data into it it getsbetter like that's that's the real Holy
+ Grail and so I think that the answer to the question I think is yes that that'sreally how we think about it that part
+ of why we're excited about the power of deep learning the potential for buildingan AGI is because we look at the system
+ that exists in the most successful AI systems and we realize that you scalethose up they're gonna work better and I
+ think that that scalability is something that really gives us hope for being ableto build transformative systems so I'll
+
+
+1:03:40
+Speaker 0 :tell you this is a partially an
+ emotional you know a thing that responds that people often have is computers soimportant for state-of-the-art
+ performance you know individual developers maybe a 13 year old sittingsomewhere in Kansas or something like
+ that you know they're sitting they that might not even have a GPU and or mayhave a single GPU a 1080 or something
+ like that and there's this feeling like well howcan I possibly compete or contribute to
+ this world of AI if scale is so important so for if you can comment onthat and in general do you think we need
+ to also in the future focus on democratizing compute resources moremore or as much as we democratize the
+
+
+1:04:22
+Speaker 1 :algorithms well so the way that I think
+ about it is that there's this space of a possible progress right there's a spaceof ideas and sort of systems that will
+ work that will move us forward and there's a portion of that space and tosome extent increasingly significant
+ portion in that space that does just require massive compute resources andfor that fit I think that the answer is
+ kind of clear and that part of why we have this structure that we do isbecause we think it's really important
+ to be pushing the scale and to be you know building these large clusters andsystems but there's another part portion
+ of the space that isn't about the large scale compute that are these ideas thatand again I think that for the a is to
+ really be impactful and really shine that they should be ideas that if youscaled them up would work way better
+ than they do at small scale um but you can discover them withoutmassive computational resources and if
+ you look at the history of recent developments you think about things likebegan or the VA II that these are ones
+ that I think you could come up with them without having and you know in practicepeople did come up with with them
+ without having massive massive computational resources alright I just
+
+1:05:27
+Speaker 0 :talked to being good fellow but the
+ thing is the initial gaen produce pretty terrible results right so only becauseit was in a very specific it was because
+ only because they're smart enough to know that this is quite surprising cangenerate anything that they know and do
+ you see a world there's that too optimistic and dreamer like to imaginethat the compute resources are something
+ that's owned by governments and provided as utility actually some extent this
+
+1:05:54
+Speaker 1 :this question reminds me of of blog post
+ from one of my former professors at Harvard this guy map Matt Welshwho was a systems professor I remember
+ sitting in his tenure talk right and you know that he had literally just gottentenure he went to Google for the summer
+ and I then decided he wasn't going back it's academia right and that kind of inhis bog post makes this point that look
+ as a systems researcher that I come with these cool system ideas right and I kindof a little proof of concept and the
+ best thing I can hope for is that the people at Google or Yahoowhich was around at the time I will
+ implement it and like actually make it work at scaleright that's like the dream for me right
+ I built the little thing and they the big thing that's actually working andfor him he said I'm done with that I
+ want to be the person who's who's actually doing this building and anddeploying and I think that there's a
+ similar dichotomy here right I think that there are people who reallyactually find value and I think it is a
+ valuable thing to do to be the person who produces those ideas right whobuilds the proof of a concept and yeah
+ you don't get to generate the coolest possible Ganim ajiz but you invent itagain right and so that there's that
+ there's there's a real trade-off there and I think that's a very personalchoice but I think there's value in both
+ sides do you think creating AGI
+
+1:07:11
+Speaker 0 :something or some new models would we
+ would see echoes of the brilliance even at the prototype level so you would beable to develop those ideas without
+ scale the initial so seeds you know I
+
+1:07:28
+Speaker 1 :always like to look at at examples that
+ exist right look at real precedent and so take a look at the June 2018 modelthat we released that we scaled up to
+ turn into GPT - and you can see that at small scale it set some records rightthis was you know the devotional GPT we
+ actually had some some cool generations that weren't nearly as amazing andreally stunning as the GPT - ones every
+ but it was promising it was interesting and so I think it is the case that witha lot of these ideas
+ do you see prominence at small-scale but there is an asterisk here a very bigasterisk which is sometimes we see
+ behaviors that emerge that are qualitatively different from anything wesaw it's small scale and that the
+ original inventor of whatever algorithm looks at and says I didn't think itcould do that this is what we saw in
+ DotA all right so PPO was was created by JohnSchulman who's a researcher here and and
+ with with dota we basically just ran PPO at massive massive scale and I there'ssome tweaks and in order to make it work
+ but fundamentally it's PPO with the core and we were able to get this long-termplanning these behaviors to really play
+ out on a time scale that we just thought was not possible and John looked at thatand it was like I didn't think it could
+ do that that's what happens when you're at threeorders of magnitude more scale contest
+ to that yeah but it still has the same
+
+1:08:48
+Speaker 0 :flavors of you know at least echoes of
+ the expected billions although I suspect with GPT is scaled more and more youmight get surprising things so yeah yeah
+ you're right it's it's interesting that it's it's difficult to see how far anidea will go when it's scaled it's an
+ open question
+
+1:09:10
+Speaker 1 :we've also at that point with with dota
+ and PPO like I mean here's a very concrete one right it's like it'sactually one thing that's very
+ surprising about dota that I think people don't really pay that muchattention to is the decree of
+ generalization out of distribution that happens right that you have this AIthat's trained against other bots for
+ its entirety the entirety of its existence sorry to take a step back and
+
+1:09:31
+Speaker 0 :you can't talk through in his you know a
+ story of dota a story of leading up to opening high five and that passed andwhat was the process of self play it's a
+ lot of training yeah yeah yeah yeah so
+
+1:09:45
+Speaker 1 :with donors dota
+ yeah it's a complex video game and we started training we started trying tosolve dota because we felt like this was
+ a step towards the real world relative to other games like chess or go rightthose various free board games where you
+ just kind of have this board very discrete moves dota starts to be muchmore continuous time so you have this
+ huge variety of different actions that you have a 45 minute game with all thesedifferent units and it's got a lot of
+ messiness to it that really hasn't been captured by previous games and famouslyall of the hard-coded bots for dota were
+ terrible right just impossible to write anything good for it because it's socomplex and so this seems like a really
+ good place to push what's the state of the art in reinforcement learning and sowe started by focusing on the one versus
+ one version of the game and and and were able to solve that we were able to beatthe world champions and that the
+ learning you know the skill curve was this crazy exponential right it was likeconstantly we were just scaling up that
+ we were fixing bugs and you know that you look at the at the skill curve andit was really very very smooth one it's
+ actually really interesting to see how that like human iteration loop yieldedvery steady exponential progress and to
+
+
+1:10:53
+Speaker 0 :want one side note first of all it's an
+ exceptionally popular video game this effect is that there's a lot ofincredible human experts at that video
+ again so the benchmark the trying to reach is very high and the other can youtalk about the approach that was used
+ initially and throughout training these agents to play this game yep and so they
+
+1:11:12
+Speaker 1 :person that we used is self play and so
+ you have cue agents they don't know anything they battle each other theydiscover something a little bit good and
+ now they both know it and they just get better and better and better withoutbound and that's a really powerful idea
+ right that we then went from the one versus one version of the game andscaled up to four five versus five right
+ so you think about kind of like with basketball where you have this like teamsport you know I need to do all this
+ coordination and we were able to push the same idea the same self play to toreally get to the professional level at
+ the full thigh versus by version of the game and and and the things I think arereally interesting here is that these
+ agents in some ways they're almost like an insect like intelligence right wherethe you know there's they've a lot in
+ common with how an insect is trained right insect kind of lives in thisenvironment for a very long time or you
+ know the the ancestors of this insect I've been around for a long time and hada lot of experience it gets baked into
+ into into this agent and you know it's not really smart in the sense of a humanright it's not able to go and learn
+ calculus but it's able to navigate its environment extremely well and simplethey handle unexpected things in the
+ environment that's never seen before pretty well and we see the same sort ofthing with our dota BOTS
+ right they're able to in within this game they're able to play against humanswhich are something that never existed
+ in its evolutionary environment totally different playstyles from humans versusthe bots and yet it's able to handle it
+ extremely well and that's something I think was very surprising to us wassomething that doesn't really emerge
+ from what we've seen with PPO at smaller scale writing the kind of scale we'rerunning the stuff out was you know I
+ could take a hundred thousand CPU cores running with like hundreds of GPUs it'sprobably about I you know like you know
+ it's something like hundreds of years of experience going into this bot everysingle real day and so that scale is
+ massive and we start to see very different kinds of behaviors out of thealgorithms that we all know and love
+
+
+1:13:10
+Speaker 0 :Dora he mentioned beat the world expert
+ 1v1 and then you didn't weren't able to win505 this year yeah at the best in the
+ world so what's what's the comeback story what's first of all talk throughthat does exceptionally exciting event
+ and what's what's the following months and this year look like yeah yeah so
+
+1:13:33
+Speaker 1 :well one thing that's interesting is
+ that you know we lose all the time because we we so the dota team atopening I we played the bot against
+ better players than our system all the time or at least we used to it rightlike you know the the first time we lost
+ publicly was we went up on stage at the International and we played against someof the best teams in the world and we
+ ended up losing both games but we gave them a run for their moneyright the both games were kind of 30
+ minutes 25 minutes and that they went back and forth back and forth back andforth and so I think that really shows
+ that we're at the professional level and that kind of looking at those games wethink that the coin could have gone a
+ different direction and it could have could have had some wins and so that wasactually very encouraging for us and you
+ know it's interesting because the international was at a fixed time rightso we we knew exactly what day we were
+ going to be playing and we pushed as far as we could as fast as we couldtwo weeks later we had a bot that had an
+ 80% win rate versus the one that played at ti so the march of progress you knowyou should think of as a snapshot rather
+ than as an end state and so in fact well we'll be announcing our our finalspretty soon I actually think that we'll
+ announce our final match I prior to this podcast being released Cassell'sthere should be will be playing will be
+ playing against the the world champions and you know for us it's really lessabout like that the way that we think
+ about what's upcoming is the final milestone the file competitive milestonefor the project right that our goal in
+ all of this isn't really about beating humans at dota our goal is to push thestate of the art and reinforcement
+ learning and we've done that right and we've actually learned a lot from oursystem and that we have I you know I
+ think a lot of exciting next steps that we want to take and so you know kind ofa final showcase of what we built we're
+ going to do this match but for us it's not really the success or failure to seeyou know do
+ do we have the coin flip go in our direction or against where do you see
+
+1:15:26
+Speaker 0 :
+
+1:15:27
+Speaker 1 :
+
+1:15:27
+Speaker 0 :the field of deep learning heading in
+ the next few years what do you see the
+
+1:15:32
+Speaker 1 :
+
+1:15:33
+Speaker 0 :work and reinforcement learning perhaps
+ heading and more specifically with open AI all the exciting projects that you'reworking on
+ what is 2019 hold for you massive scale
+
+1:15:47
+Speaker 1 :scale I will put a naturist on that and
+ just say you know I think that it's about ideas plus scale you need both so
+
+1:15:54
+Speaker 0 :that's a really good point so the
+ question in terms of ideas you have a lot of projects that are exploringdifferent areas of intelligence and the
+ question is when you when you think of scale do you think about growing scalethose individual projects so do you
+ think about adding new projects and society today in if you are thinkingabout adding new projects or if you look
+ at the past what's the process of coming up with new projects and new ideas so we
+
+1:16:23
+Speaker 1 :really have a life cycle of project here
+ so we start with a few people just working on a small scale idea andlanguage is actually a very good example
+ of this that it was really you know one person here who was pushing on languagefor a long time I mean then you get
+ signs of life right and so this is like let's say you know with with theoriginal gbt we had something that was
+ interesting and we said okay it's time to scale this right it's time to putmore people on it put more computational
+ resources behind it and and then we just kind of keep pushing and keep pushingand the end state is something that
+ looks like dota or robotics where you have a large team of you know 10 or 15people that are running things at very
+ large scale and that you're able to really have material engineering and andand and you know sort of machine
+ learning science coming together to make systems that work and get materialresults that just would've been
+ impossible otherwise so we do that whole lifecycle we've done it a number oftimes you know typically end to end it's
+ probably to two years or so to do it I you know the organization's been aroundfor three years so maybe we'll find it
+ we also have longer life cycle projects but you know we we will work up to thosewe have so so one one team that we were
+ actually just starting Illya and I are kicking off a new team called thereasoning team
+ and that this is to really try to tackle how do you get neural networks to reasonand we think that this will be a
+ long-term project and we're very excited about in terms of reasoning super
+
+1:17:44
+Speaker 0 :exciting topic woody what kind of
+ benchmarks what kind of tests of reasoning oh do you envision what whatwould if you set back with whatever
+ drink and you would be impressed that this system is able to do something whatwould that look like not fear improving
+
+
+1:18:04
+Speaker 1 :
+
+1:18:05
+Speaker 0 :they are improving so some kind of logic
+ and especially mathematical logic I
+
+1:18:11
+Speaker 1 :think so right I think that there's
+ there's there's kind of other problems that are dual to if you're improving inparticular you know you think about
+ programming I think about even like security analysis of code that these allkind of capture the same sorts of core
+ reasoning and being able to do some amount of distribution generalization it
+
+1:18:29
+Speaker 0 :would be quite exciting if open ai
+ reasoning team was able to prove that P equals NP that would be very nice I be
+
+1:18:35
+Speaker 1 :very very very exciting especially if it
+ turns out the P equals NP that'll be interesting too
+
+1:18:43
+Speaker 0 :it just it would be ironic and humorous
+ you know so what problem stands out to you is uhthe most exciting and challenging
+ impactful to the work for us as a community in general and for open AIthis year he mentioned reasoning I think
+ that's that's a heck of a problem yeah
+
+1:19:01
+Speaker 1 :so I think reasoning is an important one
+ I think it's gonna be hard to get good results in 2019 you know again just likewe think about the life cycle takes time
+ I think for 2019 language modeling seems to be kind of on that ramp right it's atthe point that we have a technique that
+ works we want to scale 100 X thousand X see what happensawesome do you think we're living in a
+
+
+1:19:18
+Speaker 0 :simulation I think it's I think it's
+
+
+1:19:21
+Speaker 1 :hard to have a real opinion about it I
+ you know it's actually interesting I separate out things that I think canhave like you know yield materially
+ different predictions about the world from ones that are just kind of you knowfun fun to speculate about and I kind of
+ view simulation it's more like is there a flying teapot between Mars and Jupiterlike maybe but it's a little bit hard to
+ know what that would mean for my life so
+
+1:19:45
+Speaker 0 :there is something actionable I'd so
+ some of the best work opening has done is in the field of reinforcementlearning and some of the success of
+ reinforcement learning come from being able to simulate the problem you tryingto solve so it do you have a hope for
+ reinforcement for the future of reinforcement learning and for thefuture of simulation like what we're
+ talking about autonomous vehicles or any kind of system do you see that scalingso we'll be able to simulate systems and
+ enhance be able to create a simulator that echoes our real world and provingonce and for all even though you're
+ denying it that we're living in a simulation question right so you know
+
+1:20:25
+Speaker 1 :kind for the core thereof like can we
+ use simulation for self-driving cars take a look at our robotic system dactylright that was trained in simulation
+ using the DOTA system in fact and it transfers to a physical robot and Ithink everyone looks at our dota system
+ the wreck okay it's just a game how are you ever going to escape to the realworld
+ and the answer is well we did it with the physical robot the noble couldprogram and so I think the answer is
+ simulation goes a lot further than you think if you apply the right techniquesto it now there's a question of you know
+ are the beings in that simulation gonna wake up and have consciousness I thinkthat one seems a lot a lot harder to
+ again reason about I think that you know you really should think about like wherewhere exactly just human consciousness
+ come from and our own self-awareness and you know is it just that like once youhave like a complicated enough neural
+ net do you have to worry about the agents feeling pain and I think there'slike interesting speculation to do there
+ but but you know again I think it's a little bit hard to know for sure well
+
+1:21:23
+Speaker 0 :let me just keep with a speculation do
+ you think to create intelligence general intelligence you need one consciousnessand to a body do you think any of those
+ elements are needed or as intelligence something that's that's orthogonal to
+
+1:21:38
+Speaker 1 :those I'll stick to the kind of like the
+ the non grand answer first right so the non grand answer is just tolook at you know what are we already
+ making work yoga GPG to a lot of people would have said that even get thesekinds of results you need real-world
+ experience you need a body you need grounding how are you supposed to reasonabout any of these things how are you
+ supposed to like even kind of know about smoke and fire and those things ifyou've never experienced them and GPT
+ two shows it you can actually go way further thanthat kind of reasoning would predict so
+ I think that the the in terms of doing any consciousness do we need a body itseems the answer is probably not right
+ that we can probably just continue to push kind of the systems we have theyalready feel general they're not as
+ competent or as general or able to learn as quickly as an aged guy would but youknow they're at least like kind of proto
+ AGI in some way and they don't need any of those things now now let's move tothe grand answer which is you know if
+ our neural next Nets conscious already would we ever know how can we tell rightyeah here's where the speculation starts
+ become become you know at least interesting or fun and maybe a littlebit disturbing it depending on where you
+ take it but it certainly seems that when we think about animals that there's somecontinuum of consciousness you know my
+ cat I think is is conscious in some way right I you know not as conscious as ahuman and you could imagine that you
+ could build a little consciousness meter right you pointed a cat gives you alittle reading we ran a human gives you
+ much bigger reading what would happen if you pointed one of those at a dotaneural net and if your training of this
+ massive simulation do the neural nets feel pain you know it becomes prettyhard to know that the answer is no and
+ it becomes pretty hard to to really think about what that would mean if theanswer were yes and it's very possible
+ you know for example you could imagine that maybe the reason these humans arehave consciousness is because it's a
+ it's a convenient computational shortcut all right if you think about it if youhave a being that wants to avoid pain
+ which seems pretty important to survive in this environment I'm and once youlike you know eat food then that may be
+ the best way of doing it is to have a being that's conscious right that youknow in order to succeed in the
+ environment you need to have those properties and how are you supposed toimplement them and maybe this this
+ consciousness is way of doing that if that's true then actually maybe weshould expect that really competent
+ reinforcement learning agents will also have consciousness but you know it's abig if and I think there a lot of other
+ arguments they can make in other directions I think that's a really
+
+1:24:07
+Speaker 0 :interesting idea that even GPT to has
+ some degree of consciousness that's something is actually not as crazy tothink about
+ it's useful to think about as we think about what it means to createintelligence of a dog intelligence of a
+ cat and the intelligence of human so last question do you think we will ever
+
+1:24:27
+Speaker 1 :
+
+1:24:28
+Speaker 0 :fall in love like in the movie her with
+ an artificial intelligence system or an artificial intelligence system fallingin love with a human I hope so
+
+
+1:24:39
+Speaker 1 :
+
+1:24:40
+Speaker 0 :if there's any better way to end it on
+ love so Greg thanks so much for talking
+

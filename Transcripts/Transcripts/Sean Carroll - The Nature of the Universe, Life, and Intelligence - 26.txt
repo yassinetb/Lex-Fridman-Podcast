@@ -1,0 +1,435 @@
+Speaker 1 :the following is a conversation with
+ Sean Carroll he's a theoretical physicist at Caltech specializing inquantum mechanics gravity and cosmology
+ he's the author of several popular books one on the arrow of time called frometernity to here one on the Higgs boson
+ called particle at the end of the universe and one on science ofphilosophy called the big picture on the
+ origins of life meaning in the universe itself he has an upcoming book onquantum mechanics that you can pre-order
+ now called something deeply hidden he writes one of my favorite blogs and hiswebsite preposterous universe com I
+ recommend clicking on the greatest-hits link that lists accessible interestingposts on the arrow of time dark matter
+ dark energy the Big Bang general relativity string theory quantummechanics and the big meta questions
+ about the philosophy of science God ethics politics academia and muchmuch more finally and perhaps most
+ famously he's the host of a podcast called mindscape that you shouldsubscribe to and support on patreon
+ along with the Joe Rogan experience Sam Harris is making sense and Dan Carlin'shardcore history sean's mindscape
+ podcast is one of my favorite ways to learn new ideas or explore differentperspectives and ideas that I thought I
+ understood it was truly an honor to meet and spend a couple hours with Sean it'sa bit heartbreaking to say that for the
+ first time ever the audio recorder for this podcast died in the middle of ourconversation there are technical reasons
+ for this having to do with phantom power that I now understand and will avoid ittook me one hour to notice and fix the
+ problem so much like the universal 60 percent dark energy roughly the sameamount in this conversation was lost
+ except in the memories of the two people involved and in my notes I'm sure we'lltalk again and continue this
+ conversation on this podcast or on Shawn's and of course I look forward toit
+ this is the artificial intelligence podcast if you enjoy it subscribe onYouTube iTunes supported on patreon or
+ simply connect with me on Twitter at Lex Friedman and now here's my conversation
+
+Speaker 0 :
+
+Speaker 1 :with Sean Carroll what do you think is
+ more interesting and impactful understanding how the universe works ata fundamental level or understanding how
+
+
+Speaker 0 :the human mind works you know of course
+ this is a crazy meaningless unanswerable question in some sense because they'reboth very interesting and there's no
+ absolute scale of interestingness that we can rate them on there's the glibanswers that says the human brain is
+ part of the universe right and therefore under saying the universe is morefundamental than understanding the human
+
+
+Speaker 1 :brain but do you really believe that
+ once we understand the fundamental way the universe works at the particle levelthe forces we would be able to
+ understand how the mind works no
+
+Speaker 0 :certainly not we cannot understand how
+ ice cream works just from understanding how particles work right so a bigbeliever in emergence I'm a big believer
+ that there are different ways of talking about the world beyond just the mostfundamental microscopic one you know
+ when we talk about tables and chairs and planets and people we're not talking thelanguage of particle physics and
+ cosmology so but understanding the universe you didn't say just at the mostfundamental level right so understanding
+ the universe at all levels is part of that I do think you have to be a littlebit more fair to the question there
+ probably are general principles of complexity biology informationprocessing memory knowledge creativity
+ that go beyond just the human brain right and and maybe one could countunderstanding those as part of
+ understanding the universe the human brain as far as we know is the mostcomplex thing in the universe so there's
+ it's certainly absurd to think that by understanding the fundamental laws ofparticle physics you get any direct
+
+
+Speaker 1 :insight on how the brain works but then
+ there's this step from the fundamentals of particle physics to informationprocessing yeah a lot of physicists and
+ philosophers maybe a little bit carelessly take when they talk aboutartificial intelligence do you think of
+ the universe as a kind of a computational device know
+
+Speaker 0 :to be like the honest answer there is no
+ there's a sense in which the universe processes information clearly there's asense in which the universe is like a
+ computer clearly but in some sense I think I tried to say this once on myblog and no one agreed with me but the
+ universe is more like a computation than a computer because the universe happensonce a computer is a general-purpose
+ machine right if you can ask it different questions even a pocketcalculator right and it's set up to
+ answer certain kinds of questions the universe isn't that so informationprocessing happens in the universe but
+ it's not what the universe is because I know your MIT colleagues that Lloydfeels very differently about this well
+
+
+Speaker 1 :you're thinking of the universe it's a
+ closed system I am so what makes a computer more like a like a PC like acomputing machine is that there's a
+ human that everyone comes up to it and moves the mouse around yeah so inputgives it input gives it input and your
+ and that's why you're saying is just a computation a deterministic thing that'sjust unrolling but the immense
+ complexity of it is nevertheless like processing there's a state and then itchanges with good rule with rules and
+ there's a sense for a lot of people that if the brain operates the human brainoperates within that world then it's
+ simply just a small subset of that and so there's no reason we can't buildarbitrarily great intelligences yeah do
+ you think of intelligence in this way
+
+Speaker 0 :intelligence is tricky I don't have a
+ definition of it offhand so I remember this panel discussion that I saw onYouTube I wasn't there but Seth Lloyd
+ was on the panel and so was Martin Rees the famous astrophysicist and Seth gavehis shtick for why the universe is a
+ computer and explained this and and and Martin we said so what is not a computerthat's a good question I'm not sure
+ because if you have a sufficiently broad definition of what a computer is theneverything is right and the simile or
+ the analogy gains force when it excludes some things youknow is the moon going around the earth
+ performing a computation I can come up with definitions in which the answer isyes but it's not a very useful
+ computation I think that it's absolutely helpful to think about the universe incertain situations certain contexts as
+ an information processing device I am even guilty of writing a paper calledquantum circuit cosmology where we
+ modeled the whole universe as a quantum circuit as a circuit as a circuit yeahand what you bits kind of with new bits
+ basically right yeah so in cube it's becoming more and more entangled so whatdo you want to do want to digress a
+ little bit this is kind of fun so here's a mystery about the universe that is sodeep and profound that nobody talks
+ about it space expands right and we talk about in a certain region of space acertain number of degrees of freedom a
+ certain number of ways that the quantum fields and the particles in that regioncan arrange themselves that that number
+ of degrees of freedom in a region of space is arguably finite we actuallydon't know how many there are but
+ there's a very good argument it says it's a finite number so as the universeexpands and space gets bigger
+ are there more degrees of freedom if it's an infinite number it doesn'treally matter infinity times two is
+ still infinity but if it's a finite number then there's more space sothere's more degrees of freedom so where
+ did they come from that would mean the universe is not a closed system there'smore degrees of freedom popping into
+ existence so what we suggested was that there are more degrees of freedom andit's not that they're not there to start
+ but they're not entangled to start so the universe that you and I know of zienover the three dimensions around us that
+ we see we said those are the entangled degrees of freedom making up space-timeand as the universe expands there's a
+ whole bunch of qubits in their in their zero State that become entangled withthe rest of space-time through the
+
+
+Speaker 1 :action of these quantum circuits so what
+ does it mean that there's now more degrees of freedom as they become moreintegral yeah so this is the universe
+
+
+Speaker 0 :expands that's right so there's more and
+ more degrees of freedom they're entangled that areplaying part playing the role a part of
+ the entangled space-time structure so the basic the underlying philosophy isthat space-time itself arises from the
+ entanglement of some fundamental quantum
+
+Speaker 1 :degrees of freedom Wow okay so at which
+ point is most of the the the entanglement happening are we talkingabout close to the bing bang are we
+ talking about throughout the the time
+
+Speaker 0 :right yeah so the idea is that at the
+ Big Bang almost all the degrees of freedom thatthe universe could have were there but
+ they were unentangled with anything else and that's a reflection of the fact thatthe Big Bang had a low entropy it was
+ very simple very small place and as space expands more and more degrees offreedom become entangled with the rest
+
+
+Speaker 1 :of the world well I have to ask John
+ Carroll what do you think of the thought experiment from Nick Bostrom that we'reliving in a simulation so I think let me
+ contextualize that a little bit more I think people don't actually take thisthought experiments I think it's quite
+ interesting it's not very useful but it's quite interesting from theperspective of AI a lot of the learning
+ that can be done usually happens in simulation from artificial examples andso it's a constructive question to ask
+ how difficult is our real world to simulate right which is kind of a dualpart of for living in a simulation and
+ somebody built that simulation now how if you were to try to do it yourself howhard would it be so obviously we could
+
+
+Speaker 0 :be living a simulation if you just want
+ the physical possibility then I completely agree that it's physicallypossible I don't think that we actually
+ are so take this one piece of data into consideration you know we we live in abig universe okay there's two trillion
+ galaxies in our observable universe with 200 billion stars in each galaxy etc itwould seem to be a waste of resources to
+ have a universe that big going on just to do a simulation so in other words Iwant to be a good Bayesian I want to ask
+ under this hypothesis what do I expect to see so the first thing I would say isI wouldn't expect to see a universe that
+ was that big okay the second thing is I wouldn'texpect the resolution of the universe to
+ be as good as it is so it's always possible that if they're superhumansimulators only have finite resources
+ that they don't render the entire universe right that that the part thatis out there that two trillion galaxies
+ isn't actually being simulated fully okay but then the obvious extrapolationof that is that only I am being
+ simulated fully like the rest of you are just part not non-player charactersright I'm the only thing that is real
+ the rest of you are just chatbots beyond this wall I see the wall butthere is literally nothing on the other
+ side of the wall that is sort of the Bayesian prediction that's what it wouldbe like to do an efficient simulation of
+ me so like none of that seems quiterealistic there's that I don't see I
+ hear the argument that it's just possible and easy to simulate lots ofthings I don't see any evidence from
+ what we know about our universe that we look like a simulated universe now maybeyou could say well we don't know what it
+ would look like but that's just abandoning your Bayesianresponsibilities like your your job is
+ to say under this theory here's what you would expect to see yes certainly if you
+
+Speaker 1 :think about simulation is a thing that's
+ like a video game where only a small subset is being rendered but say theentire all of the laws of physics it the
+ entire closed system of the quote-unquote universe mm-hmm it had a
+
+Speaker 0 :creator yeah it's always possible all
+
+
+Speaker 1 :right so that's not useful to think
+ about when you're thinking about physics the way Nick Bostrom phrases it if is ifit's possible to simulate a universe
+ eventually we'll do it right you could use that by the way for a lot of thingswell yeah but I guess the question is
+ how hard is it to create a universe I
+
+Speaker 0 :wrote a little blog post about this and
+ maybe maybe I'm missing something but there's an argument that says not onlythat it might be possible to simulate a
+ universe but probably if you imagine that you actually attributeconsciousness and agency to the little
+ things that we're simulating to our little artificial beingsthere's probably a lot more of them than
+ there are ordinary organic beings in the universe or there will be in the futureright so there's an argument that not
+ only is being a simulation possible it's probable because in the space of allliving consciousness is most of them are
+ being simulated right most of them are not at the top level I think thatargument must be wrong because it
+ follows from that argument that you know if we're simulated but we can alsosimulate other things well but if we can
+ simulate other things they can simulate other things rightif we give them enough power and
+ resolution and ultimately we'll reach a bottom because the laws of physics inour universe have a bottom or made of
+ atoms and so forth so there will be the cheapest possiblesimulations and if you believe the
+ original argument you should conclude that we should be in the cheapestpossible simulation because that's where
+ most people are but we don't look like that doesn't look at all like we're atthe edge of resolution you know there
+ were 16-bit you know things but it's it seems much easier to make much lowerlevel things that then we are so and
+ also I questioned the whole approach to the anthropic principle that says we aretypical observers in the universe I
+ think that that's not actually I think that there's a lot of selection that wecan do that we're typically in things we
+ already know but not typical within all
+
+Speaker 1 :the universe so do you think there's
+ intelligent life however you would like to define intelligent life out there in
+
+Speaker 0 :the universe my guess is that there is
+ not intelligent life in the observable universe other than us simply on thebasis of the the fact that the likely
+ number of other intelligent species in the observable universe there's twolikely numbers zero or billions and if
+ there had been billions we would have noticed already - for there to beliterally like a small number like you
+ know Star Trek there's you know a dozen intelligent civilizations in our galaxybut not a billion that that's weird that
+ that's sort of bizarre to me it's easy for me to imagine that there are zeroothers because there's just a big
+ bottleneck to making multicellular life orlogical life or whatever it's very hard
+ for me to imagine that there's a whole bunch out there that have somehow
+
+Speaker 1 :remained hidden from us the question I'd
+ like to ask is what would intelligent life look like the what I mean by thatquestion in a war that's going is what
+ if intelligent life is just fundamental it's in some very big ways differentthan our the one that has on earth that
+ there's all kinds of intelligent life that operates in different scales ofboth size and temporal right that's a
+
+
+Speaker 0 :great possibility because I think we
+ should be humble about what intelligence is what life is we don't even agree onwhat life is much less what intelligent
+ life is right so that that's an argument for humility saying there could beintelligent life of a very different
+ character right like you could imagine that dolphins are intelligent but neverinvent space travel because they live in
+ the ocean and they don't have thumbs right so they never invent technologyyou never events melting maybe the
+ universe is full of intelligent species that just don't make technology rightthat that's compatible with the data I
+ think and and I think maybe maybe what you're pointing at is even more outthere versions of intelligence you know
+ intelligence in inter molecular clouds or on the surface of a neutron star orin between the galaxies and giant things
+ where the equivalent of a heartbeat is 100 million years on the one hand yes weshould be very open-minded about those
+ things on the other hand we all all of us share the same laws of physics theremight be something about the laws of
+ physics even though we don't currently know exactly what that thing would bethat makes meters and years the right
+ length and time scales for intelligent life maybe not but you know we're madeof atoms atoms have a certain size we
+ orbit stars or stars have a certain lifetime it's not impossible to me thatthere's a sweet spot for intelligent
+ life that we find ourselves in so I'm hoping mine didn't either way I won'tmind either being humble and there's all
+ sorts of different kinds of life or no there's a reason we just don't know ityet why life like ours is the kind of
+
+
+Speaker 1 :life that's out there yeah I'm of two
+ minds too but I often wonder if our brains is just designed to quiteobviously to operate and see the world
+ in the unnies timescales and we're almost blind and and the tools we'vecreated for detecting things are blind
+ yeah to the kind of observation needed to see intelligent life or other skills
+
+Speaker 0 :well I'm totally open to that but so
+ here's another argument I would make you know we have looked for intelligent lifebut we've looked at for it in the
+ dumbest way we can rise by turning radio telescopes to the sky and why in theworld would a super advanced
+ civilization randomly beam out radio signals wastefully in all directionsinto the universe that just doesn't make
+ any sense especially because in order to thinkthat you would actually contact another
+ civilization you would have to do it forever you have to keep doing it formillions of years that sounds like a
+ waste of resources if you thought that there were other solar systems withplanets around them where maybe
+ intelligent life didn't yet exist but might someday you wouldn't try to talkto it with radio waves she would send a
+ spacecraft out there and you would park it around there and it would be likefrom our point of view be like 2001 or
+ there's an you know an monolith monolith so there could be an artifact in factthe other way works also right there
+ could be artifacts in our solar system that are have been put there by othertechnologically advanced civilizations
+ and that's how we will eventually contact them and we have just haven'texplored the solar system well enough
+ yet to find them the reason why we don't think about that is because we're youngand impatient right like it would take
+ more than my lifetime to actually send something to another star system andwait for it and then come back so but if
+ if we start thinking on hundreds of thousands of years or million yeartimescales that's clearly the right
+ thing to do
+
+Speaker 1 :are you excited by the thing that Elon
+ Musk says don't pay sex in general space but the idea of space exploration eventhough your or your species is young and
+
+
+Speaker 0 :impatient ya know I do think that space
+ travel is crucially important long term even to other star systems and I thinkthat many people overestimate the
+ difficulty because they say look if you travel 1% the speed of light to anotherstar system will be dead before we get
+ there right and I think that it's much easier and therefore when they writetheir science fiction stories they
+ imagine we feel fast from the speed of light because otherwise they are tooimpatient right we're not gonna go
+ faster than the speed of light but we could easily imagine that the humanlifespan gets extended to thousands of
+ years and once you do that then the stars are much closer effectively rightand what's a hundred year trip right so
+ I think that that's gonna be the future the far future not not my lifetime onceagain but baby steps and unless your
+
+
+Speaker 1 :lifetime gets extended well it's in a
+
+
+Speaker 0 :race against time right a friend of mine
+ who actually thinks about these things said you know you and I are gonna diebut I don't know about our grandchildren
+ that's right that's it I don't know for predicting the future is hard but that'sat least a plausible scenario and so ya
+ know I think that as we discussed earlier there are threats to the earthknown and unknown right having spread
+ humanity and biology elsewhere is a really important long-term goal what
+
+Speaker 1 :kind of questions can science not
+ currently answer but might soon when you think about the problems and themysteries before us hmm that may be
+ within reach of science I think an
+
+Speaker 0 :obvious one is the origin of life we
+ don't know how that happened there's a difficulty in knowing how it happenedhistorically actually you know literally
+ on earth but starting life from non-life is something I kind of think we're close
+
+Speaker 1 :to right we really think so how like how
+ difficult is it to start lie - well I
+
+Speaker 0 :I've talked to people including on the
+ podcast about this you know life requires three things life as we know itso there's a difference with life which
+ who knows what it is and life as we know it which we can talkabout with some intelligence so life as
+ we know it requires compartmentalization you need like a little membrane aroundyour cell metabolism you take in food
+ and eat it and let that make you do things and then replication okay so youneed to have some information about
+ you are that you passed down through to future generations in the labcompartmentalization seems pretty easy
+ not hard to make lipid bilayers that come into a little cellular walls prettyeasily metabolism and replication are
+ hard but replication we're close to people have made RNA like molecules inthe lab that I think the state of the
+ art is they're not able to make one molecule that reproduces itself butthey're able to make two molecules that
+ reproduce each other yeah so that's okay that's pretty close metabolism is hardto believe it or not even though it's
+ sort of the most obvious thing but you want some sort of controlled metabolismand the actual cellular machinery in our
+ bodies is quite complicated it's hard to see it just popping into existence allby itself probably took a while but it's
+ we're making progress and in fact I don't think we're spending nearly enoughmoney on it if I were the NSF I would
+ flood this area with money because it would change our view of the world if wecould actually make life in the lab and
+ understand how it was made originally here on earth and I'm sure have some
+
+Speaker 1 :ripple effects that help cure disease
+ and so on I mean that just that ending
+
+Speaker 0 :so synthetic biology is a wonderful big
+ frontier where we're making cells the right now the best way to do that is toborrow heavily from existing biology
+ right where craig Venter several years ago created an artificial cell but allhe did was not all he did it was a
+ tremendous accomplishment but all he did was take out the DNA from a cell and putin an entirely new DNA and let it boot
+ up and go hmm what about the leap to
+
+Speaker 1 :creating intelligent life on Earth yeah
+ however again we define intelligence of course but let's just even say Homosapiens the the modern the modern
+ intelligence in our human brain you have a sense of what's involved in that leapand how big of a leap that is so AI
+
+
+Speaker 0 :would count in this or you really want
+ life you want a really organism in some
+
+Speaker 1 :sense AI would count okay I yeah of
+ course of course AI would come but well
+
+Speaker 0 :let's say artificial consciousness right
+ so I do not think we are on the threshold of creating artificialconsciousness I think it's possible
+ I'm not again very educated about how close we are but my impression is notthat we're really close because we
+ understand how little how little we understand of consciousness and what itis so if we don't have any idea what it
+ is it's hard to imagine we're on the threshold of making it ourselvesbut it's doable it's possible I don't
+ see any obstacles in principle so yeah I would hold out some interest in thathappening eventually I think in general
+
+
+Speaker 1 :consciousness I think we'll be just
+ surprised how easy consciousness is once we create intelligence you know I thinkconsciousness is the thing that that's
+ just something we all fake
+
+Speaker 0 :well good no actually I like this idea
+ that in fact consciousness is way less mysterious than we think yeah becausewe're all at every time at every moment
+ less conscious than we think we are right we can fool things and I thinkthat plus the idea that you not only
+ have artificial intelligent systems but you put them in a body right give them arobot body that will help the faking a
+ lot yeah I think I think creating
+
+Speaker 1 :consciousness in our artificial
+ consciousness is as simple as asking a Roomba to say I'm conscious and refusingto be talked out of it could be it could
+ be and I mean I'm almost being silly but that's what we do yeah that's what we dowith each other this is the kind of that
+ consciousness is also a social construct and a lot of our ideas of intelligenceis a social construct and so reaching
+ that bar involves something that's beyond that's not necessarily involvethe fundamental understanding of how you
+ go from electrons to neurons to cognition no I actually I think that is
+
+Speaker 0 :a really good point and in fact what it
+ suggests is you know so yeah you referred to Kate Kate darling who I hadon the podcast and who does these
+ experiments with very simple robots but they look like animals and they can looklike they're experiencing pain and we
+ human beings react very negatively to these little robots looking like they'reexperiencing pain and what you want to
+ say is yeah but they're just robots it's not really painhe's just some electrons going around
+ but then you realize you know you and I are just electrons going around andthat's what pain is also and so what I
+ what I would have an easy time imagining is that there is a spectrum betweenthese simple robots that Kate works with
+ and a human being where there are things that sort of by some strict definitiontouring test level thing are not
+ conscious but nevertheless walk and talk like they're conscious and it could bethat the future is I mean
+ Siri is close right and so it might be the future has a lot more agents likethat and in fact rather than some day
+ going aha we have consciousness will just creep up on it with more and moreaccurate reflections of what we expect
+
+
+Speaker 1 :and in the future maybe the present for
+ example we haven't met before and you're made basically assuming that I'm human
+
+Speaker 0 :as it's a high probability at this time
+
+
+Speaker 1 :because the yeah but in the future there
+ might be question marks on that right yeah no absolutely
+
+Speaker 0 :certainly videos are almost to the point
+ where you shouldn't trust them already photos you can't trust right videos iseasier to trust but we're getting worse
+ that yeah we're getting better at faking them Yeah right getting betteryeah so physical embodied people what's
+ what's so hard about faking that so this is very depressing this conversation
+
+Speaker 1 :right so to me is excited you're doing
+
+
+Speaker 0 :it so exciting to you but it's a
+ sobering thought we're very bad right yet imagining what the next 50 years aregonna be like when we're in the middle
+ of a phase transition as who you are
+
+Speaker 1 :right now yeah and I in general I'm not
+ blind to all the threats yeah I am excited by the power of technology tosolve to protect us against the threats
+ as they evolve I'm not as much as Steven Pinker optimistic about the world but ineverything I've seen all the brilliant
+ people in the world that I've met are good people so the army of the good interms of the development of technology
+
+
+Speaker 0 :is large okay you're way more optimistic
+ than I am I think that goodness and badness are equally distributed amongintelligent and unintelligent people I
+ don't see much of a correlation there interesting
+
+Speaker 1 :neither of us have proof yeah exactly is
+
+
+Speaker 0 :yeah
+ again that pinions are freeze right nor
+
+Speaker 1 :definitions of good and evil we come
+ without definitions or with without data opinions so what kind of questionsconcerns not currently answer may never
+ be able to answer in your view well the
+
+Speaker 0 :obvious one is what is good and bad you
+ know I know what is right and wrong I think that there are questions that youknow science tells us what happens what
+ the world is and what it does it doesn't say what the world should do or what weshould do because we're part of the
+ world but we are part of the world and we have the ability to feel likesomething's right something's wrong and
+ to make a very long story very short I think that the idea of moral philosophyis systematizing our intuitions of what
+ is right what is wrong and science might be able to predict ahead of time what wewill do but it won't ever be able to
+ judge whether we should have done it or
+
+Speaker 1 :not so you know you're kind of unique in
+ terms of scientists listen it doesn't have to do with podcast but even justreaching out I think you referred to as
+ sort of an doing interdisciplinary science so you reach out and talk topeople that are outside of your
+ discipline which I always hope that's what science was for in fact I was alittle disillusioned when I realized
+ that academia is very siloed yeah and so the question is how well at your ownlevel how do you prepare for these
+ conversations how do you think about these conversations how do you open yourmind enough to have these conversations
+ and it may be a little bit broader how can you advise other scientists tohave these kinds of conversations not at
+ the podcast so the fact that you're doing a podcast is awesome other peopledon't hear them yeah but it's also good
+ to have it without mics right in general
+
+Speaker 0 :it's a good question but a tough one to
+ answer I think about you know a guy knows a personal trainer and he wasasked on a podcast how do we you know
+ psych ourselves up to do a workout how do we make that discipline to go andwork out he's like why you asking me
+ like I can't stop working out like I don't need to psych myself up so andlikewise you know he asked me like how
+ do you get to like have inner discipline conversations and all sorts of differentthings all sorts of different people and
+ like that's that's what makes me go right like that's I couldn't stop doingthat I did that long before any of them
+ were recorded in fact a lot of the motivation for starting recording it wasmaking sure I would read all these books
+ that I had purchased right like all these books I wanted to read not enoughtime to read them and now if I have
+ motivation because I'm gonna you know interview Pat Churchland I'm gonnafinally read her for her book you know
+ and it's absolutely true that academia is extraordinarily siloed right we don'ttalk to people we rarely do and in fact
+ when we do is punished you know like the people who do it successfully generallyfirst became very successful within
+ their little silo you have discipline and only then did they start expandingout if you're a young person you know I
+ I have graduate students I try to be very very candid with them about thisthat it's you know most graduate
+ students are to not become faculty members right it's a it's a tough roadand so live the life you want to live
+ but do it with your eyes open about what it does to your job chances and the morebroad you are and the less time you
+ spend hyper specializing in your field the lower your job chances are that'sjust an academic reality it's terrible I
+ don't like it yeah but it's a reality and for some people that's fine likethere's plenty of people who are
+ wonderful scientists who have zero interest in branching out and talking tothings to anyone outside their field but
+ it is disillusioning to me some of the you know romantic notion I had theintellectual academic life is belied by
+ the reality of it the idea that we should reach out beyond our disciplineand that is a positive good is just so
+ rare in universities that it may as well not exist at all but that said even
+
+Speaker 1 :though you're saying you're doing it
+ like the personal trainer because you just can't help it you're also aninspiration to others like I could speak
+ for myself you know I also have a career I'm thinking about right now and withoutyour podcast I may
+ not have been doing this at all right so it makes me realize that these kinds ofconversations is kind of what science is
+ about in many ways what the reason we write papers this exchange of ideas isit's much harder to do interdisciplinary
+ papers I would say yeah that's right and conversations are easier soconversations is a beginning and in the
+ field of AI that's in - it's it's obvious that we should think outside ofpure computer vision competitions and a
+ particular data sets which should think about the broader impact of how this canbe you know you know the reaching out
+ the physics the psychology to neuroscience and having theseconversations so that you're an
+ inspiration and so well thank you never sweet but never know how the worldchanges I mean the the fact that this
+ stuff is out there and I've a huge number of people come up to me a gradstudents really loving the podcast
+ inspired by it and they will probably have that there'll be ripple effectswhen they become faculty and so on so we
+ can end on a balance between pessimism and optimism and Shawn thank you so muchfor talking it was awesome no Lex thank
+
+

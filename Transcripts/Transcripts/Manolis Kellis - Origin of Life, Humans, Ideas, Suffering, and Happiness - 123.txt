@@ -1,0 +1,1773 @@
+Speaker 1 :the following is a conversation with
+ manolis kellis his second time on the podcast he's aprofessor at mit
+ and head of the mit computational biology grouphe's one of the most brilliant
+ productive and kind people i've had the fortune of talking to a lotof my colleagues at mit and
+ former mit faculty and students wrote to meafter our first conversation with some
+ version of minos is awesome isn't he i'm glad youguys are not friends
+ i am too and i'm happy that he makes timein his insanely busy schedule to sit
+ down and have a chat with me quick summary of the sponsors publicgoods magic spoon
+ and expressvpn please check out the sponsorsin the description to get a discount and
+ to support this podcast as a side note let me say that i justgot back from talking to joe rogan on
+ his podcast my fifth time on there i also got achance to record a separate conversation
+ with joe on this podcast we talked on both quitea bit
+ about his journey and his advice for mineone of the things that i think made his
+ show special is that he just had fun and made choices thatdidn't get in the way of him having fun
+ and loving life i'm learning to do just thatit's tough since i'm naturally full of
+ self-doubt and anxiety but i'm learning to let go andhave fun
+ even if my monotone robotic voice sometimes sounds otherwisefor joe that involved talking to his
+ friends comedians especially ones that brought out thebest in him duncan trussell
+ and the five-hour first episode on spotify comes to mind is an example ofthat
+ duncan has been a guest probably close to if not more than 50 times on joe'spodcast
+ my hope with amazing people like manolas is to find my duncan trussellmy joey diaz and yes even my
+ eddie bravo obviously joe and i are very different people butultimately both love life when we can
+ interact often with people we love and whoinspire us
+ make us smile make us think and make us have fun when we get behind the mic of apodcast
+ whether anyone is listening or not if you enjoy this thingsubscribe on youtube review it with five
+ stars on apple podcast follow on spotify support on patreon orconnect with me on twitter alex friedman
+ i also this time put a link in the description to a survey for this podcaston how i can improve and also an option
+ if you like i don't know why you would like to butif you like to join an inner circle of
+ people that help guide the direction of thispodcast via
+ email or occasional video chats if you have a few minutesplease fill it out as usual i'll do a
+ few minutes of ads now and no ads in the middlei try to make these interesting but i
+ give you time stamps so you can skip but still please docheck out the sponsors by clicking the
+ links in the description it's the best way honestly to supportthis podcast
+ this show is sponsored by public goods an online store for basic health andhousehold stuff
+ their products have a minimalist black and white design that i find to be justclean elegant and beautiful it goes
+ nicely at least i think so with the design of crew dragon and therecent spacex nasa mission
+ that sent two humans into space to me very few things are as inspiring as ushumans reaching out
+ into the unknown the harsh challenges of spacecolonizing mars may not have obvious
+ near-term benefits but i believe it will challenge ourscientists and our engineers
+ to create technologies whose impact will be immeasurablefor us humans here on earth or those of
+ us who choose to stay here on earth personallyi'm kind of a
+ long time big fan of this planet anyway visit publicgoods.com lexand use codelex at checkout to get 15
+ bucks off
+
+Speaker 0 :
+
+Speaker 1 :your first order this episode is also
+ supported by magic spoon low carb keto friendlycereal you might have heard on other
+ videos that i eat keto mostly these days so magicspoon is a delicious healthy treat
+ on a hard workout day that fits into that crazy dietalso they're a sponsor of episode 100
+ with my dad and got my dad to buy this cereal and henow loves it
+ honestly just loves it it's kind of funny actuallythe deep heartfelt nature of that
+ conversation and the silliness of the cereal captures my dadperfectly
+ much of the hardship in his life he dealt with using wit
+
+Speaker 0 :
+
+Speaker 1 :and humor his favorite flavor happens to
+ be coco mine is too he hasn't bought thea sleep mattress yet though my mom wants
+ to but he's all about this magic spooncereal i think it's his actually
+ favorite sponsor of this podcast probably because they chose to sponsorthe episode he's on
+ anyway click the magicspoon.com lex link in the description and use code lex atcheckout for free shipping
+ to let them know i sent you and also indirectly to make my dad happythis show is also sponsored by
+ expressvpn get it at expressvpn.com lexpodthey gave me a suggested opening line of
+ using the internet without expressvpn is like going to thebathroom and not closing the door
+ this is like gpt-3 suggesting to me how to be more human-likeand i'll honestly take all the help i
+ can get by way of life advice let me tell you that you need a vpn toprotect you
+ from russians like me in fact this podcast is a kind of hackof your biological network where i use
+ my monotone low energy voice to convince you to buya kind of expensive cereal as a way
+ to influence the stability of the us economyi use expressvpn on both windows and
+ linux to protect myself if i ever do shadythings on the internet
+
+
+Speaker 0 :which of course i never do and never
+
+
+Speaker 1 :will so
+ secure your online activity by going to expressvpn.comslackspod to get an extra three months
+ free and to support this podcast and now here's my conversation withmanolas
+ kalas what is beautiful about the human
+
+Speaker 0 :epigenome
+ don't get me started so first of all as an engineering featthe human epigenome manages the most
+ compact the most incredible compaction you couldimagine
+ so every single one of your cells contains two meters worth of dna andthis is compacted
+ in a radius which is one thousandth of a millimeter that'ssix orders of magnitude to give you a
+ sense of scale it's as if a string as tall as the burjal khalifa
+ which is about a kilometer tall was compacted into a tiny little ballthe size of a millimeter
+ and if you put it all together if you stretch the trillions of cells that wehave we have about
+ 30 trillion cells in your body if you stretch the dna the 2 meters worth ofdna in every one of your trillion cells
+ you would basically reach all the way to jupiter
+
+Speaker 1 :a hundred times yeah it's all curled up
+ in there it's 30 trillion cells 30 trillion
+
+Speaker 0 :human body every one of them two meters
+ worth of dna so all of that is compacted through theepigenome
+ the epigenome basically has the ability to compactthis massive amount of dna from here to
+ jupiter 10 times into one human body into just the nuclei of one human bodyand the vast majority of human bodies
+ not even these nuclei and that's sort of thestructural part
+ so that's the boring part that's the structural part the functional partis way more interesting so functionally
+ what the human epigenome allows you to dois basically control the
+ activity patterns of thousands of genes so 20 000 genes in your human body everyone of your cells only needs
+ a few thousand of those but a different few thousand of those and the way thatyour cells remember
+ what their identity is is basically drivenby the epigenome so the epidural is both
+ structural in sort of making this dramaticcompaction and it's also functional
+ in being able to actually control the activity patterns
+
+Speaker 1 :of all your cells now can we draw
+ a definition distinction between the genome and the epigenome
+
+Speaker 0 :again being greek epi means on top of
+ so the genome is the dna and the epigenome is anything on top ofthe dna
+ and there's you know three types of things on top of the dnathe first is chemical modifications on
+ the dna itself so we like to think of four bases of thedna acgt
+ c has a methyl form which is sometimes referred to as the fifth baseso methylc takes a different meaning
+ so in the same way that you have annotationsin a orchestra score that basically say
+ whether you should play something softly or loudly or space it out or you knowinterpret basically the score the human
+ epigenome allows you to modify that primary score so a modified cbasically says play this one softly it's
+ basically a sign of repression in a gene regulatory region i love how
+
+Speaker 1 :you're talking about the function that
+ emerges from the epigenome as a musical score
+
+Speaker 0 :it is in many ways and uh every single
+ cell plays a different part of that scoreit's like having all of human knowledge
+ in 23 volumes like 23 giant books which are your chromosomesand every single cell has a different
+ profession a different role some cells play thepiano
+ and they're looking at chapter seven from chromosome 23 and chapter four fromchromosome two and so forth
+ and each of those uh pieces are all encoding in the same dnabut what the epigenome allows you to do
+ is effectively conduct the orchestra and sort of coordinate the pieces sothat every instrument plays only the
+ things that it needs to play
+
+Speaker 1 :one thing that kind of blows my mind
+ maybe you can tell me your thoughts about it is thethe way evolution works with natural
+ selection is uh based on the final sort ofthe entirety of the orchestra
+ musical performance right and then but there's theseincredibly rich structural things
+ like each one of them doing their own little job that somehow work togetherlike
+ the evolution selects based on the final resultand yet all the individual pieces are
+ doing like infinitely minuscule specific things how the heck
+
+Speaker 0 :does that work
+ right it's a very good insight and you can even go beyond thatand basically say evolution doesn't
+ select at the level of an organism it actually selects at thelevel of whole environments whole
+ ecosystems so let me break this down so youbasically have
+ at the very bottom every single nucleotidebeing selected but then that nucleotides
+ function is selected at the level of you know each geneand every not even its gene each
+ gene regulatory control element and then those control elements are basicallyconverging
+ onto the function of the gene and many genes are converging onto the functionof one cell
+ and many cells are converging into the function of one tissue or organand all of these organs are converging
+ onto the level of an organism but now that organism isnot in isolation
+ so if you basically think about why is altruism for examplea thing why are people being nice to
+ each other it was probably selected and it wasprobably selected
+ because those species that were just nasty to each otherdidn't survive as a species and now if
+ you think about um symbiosisof you know there's plants for example
+ that love co2 and there's humans that love o2 andwe're sort of you know
+ trading different types of gases to each other if you look atecosystems where one organism which is
+ really nasty that organism actually died becauseeveryone they were being nasty to was
+ killed off and then that kind of you knowuniverse of life is gone so basically
+ what emerges is selection at so many different layersof benefit including
+ you know all of these nucleotides within a bodyinteracting for the emergent functions
+
+
+Speaker 1 :at the body level yeah i wonder i wonder
+ if it's possible to break it down into levels that'sselection even beyond humans like you
+ said environment but there's environments at all different levels tooright
+ at the minuscule at the organ level the tissue level like you saidmaybe at the microscopic level it would
+ be fascinating if like there's a kind of selection going on atlike
+ both the quantum level and like the the galaxy level yeah yeah right yeah so
+
+Speaker 0 :so all the different forms
+ yeah let's again sort of break down these different layers so basically ifyou think about the environment
+ in which a gene operates that gene of course thefirst definition of environment that we
+ think of is pollution or sunlight or heat or coldand so forth that's the external
+ environment but every gene also operates at the level of the internal cellularenvironment that it's in
+ if i take a gene from say an african individual and i put it in a europeancontext
+ will it perform the same way probably not because there's a cellular contextof thousands of other genes that that
+ gene has co-evolved with you know in the out of africa event andyou know
+ all of this sort of human history of evolutionso basically if you look at neandertal
+ genes for example which again happened long after that uhout of africa event
+ there's incompatibilities between neanderthal genesand modern human genes that can lead to
+ diseases so in the context of the neonatal genomethat gene version that allele was fine
+ but in the context of the modern human genome that neanderthal gene version isactually detrimental
+ so it's it's you know that cellular environmentconstitutes the genetics of that gene
+ but also of course all of the epigenomics of that gene it's
+
+Speaker 1 :fascinating that the
+ the gene has a history i mean we talked about this a little bit last time butjust and and then some of your research
+ goes into that but the genes as they are today have have astory
+ from the beginning of time and then some sometimes their story was like theirpath was useful
+ for survival for the particular organisms and sometimes notthat's fascinating let me ask as a
+ tangent we kind of started talking offline aboutneanderthals uh
+ do you have something interesting genetically biologicallyin terms of difference between uh
+ neanderthal and like the different branches of humanevolution that
+
+
+Speaker 0 :you find fascinating neanderthals are
+ only one of about five branches that we are pretty confident about onebranches of
+ of out of africa events so basically there's neanderthalsthere's denisovans what is the evidence
+ for denisovans one tiny little fragment of one pinkyfrom one cave in siberia
+
+
+Speaker 1 :recent relatively recently discovered
+
+
+Speaker 0 :right less than 10 years ago yeah
+
+
+Speaker 1 :and those are like little folks right no
+
+
+Speaker 0 :no no no no that's yet another one
+ though homo florences it had the little folks in sort ofindonesia but then
+ uh denisovans are basically another branch that we only knowabout genetically from that one bone and
+ eventually we realize that it's one of the threemajor branches along with neanderthal
+ modern human and denisovan and then that one branchhas now resurfaced in many different
+ areas and we kind of know about the gene flow that happened in between themso when i was reading my greek mythology
+ it was talking about the age of the heroesthese eras of human like
+ you know precursors that were wiped out by zeus or by all kindsof wars and so forth like the titans and
+ the you know it's it's ridiculous to sort ofread these stories as a kid because
+ you're like oh yeah whatever and then you're growing up and you're like whoalayers and layers of human-like
+ ancestors and who knows if those stories wereinspired by bones that they found that
+ kind of looked human-like but were not quite human-like who knowsif stories of dragons were inspired by
+ bones of dinosaurs basically this archaeological evidencehas been there
+ and has probably entered the folk imaginationmigrated into those stories but it's not
+ that far you know removed from what actually happenedof massive wars of wiping out
+ neanderthals as humans are modern humans arepopulating um
+
+
+Speaker 1 :you know europe do you think do you
+ think what killed the neanderthals and all those other branches is humanconflict or is it genetic conflict so
+ is it uh us humans being the opposite of altruistic towards eachother or
+ is it uh some other uh competition at some other level likeas we're discussing
+
+
+Speaker 0 :yeah so if you look at a lot of human
+ traits today they're probably not that far removedfrom the human traits that got us where
+ we are now so you know this whole tribalismyou know your my sports team or
+ your my you know political party or you're myyou know tiny little village and
+ therefore you know if you're from that othervillage i hate you but as soon as we're
+ both in the major city i can't believe we'refrom the same region my friend come
+ and like two neighboring countries fighting and as soon as they're off inanother country they're like oh i can't
+ believe that right so it's it's kind of funny like thistribalism is nonsensical in many ways
+ it's like cognitive incongruent that basically welike
+ kin and selection for for sort of liking kin is hugelyadvantageous genetically
+
+
+Speaker 1 :probably across all kinds of organs all
+ across all kinds of life
+
+Speaker 0 :yeah so so basically if you now
+ transport that to the sort of humans arrivingin europe and neanderthals are
+ everywhere what are you going to do you're going tokill them off you know there's this
+ battle for territory and these battle for they're not like uswe have to get rid of them
+ so basically there's a you know very interesting mix there but and yetand yet when you look at the genetics
+ there's tons of gene flow between them so basically you know love romancebetween you know
+
+
+Speaker 1 :tribes but love uh uh spans
+ uh the gap between the different tribes
+
+Speaker 0 :it's wrong julia it's across species
+ boundaries sneaks away from the villageeven before the out of africa there's
+ you know within africa's election which was probably massive battles oflarger and larger tribes
+ selecting for our social networking and savviness and uh you know probablyall our conspiracy theory
+ genes or you know dating back from then and you know it'sso there's a lot of this mischievousness
+ in the history of human evolution that unfortunately still present in you knowmany ugly forms today
+ but probably contributed to our success as a speciesin wiping out other species it just
+
+
+Speaker 1 :sucks that uh
+ we don't have neighboring species that areyou know intelligent like us
+ that but yet very different than us so we have like you know dogs or wolvesi guess
+ uh co-evolved they they figured out how to uh neighbor up with humans in afriendly way and collaborate and
+ it develop into describing this as if
+
+Speaker 0 :the wolves made a choice
+ it's possible that the wolves never had to say that basically humans were justso
+ overpowering that they had captive wolvesand then at every generation killed off
+ eight of the nine pups and only kept the one that was milder ahhumans it only takes a few generations
+ to then sort of have pups that are really mild
+
+Speaker 1 :and so the neanderthals weren't useful
+
+
+Speaker 0 :in the same way i don't know if it's a
+ question of useful they were probably super usefulmy thinking is that they were
+ scary that basically something that almost resembles youyeah is something that you try to
+ eliminate first it's too close yeah and uh speaking ofum you know species that are intelligent
+ and sort of what's left of evolution it is a shameexactly like you say that
+ so many different amazing life forms were extinctand the kind of boring ones remained
+ so if you look at dinosaurs i mean the diversitythat they had if you look at sub you
+ know like there's just so many different lineagesof
+ life that were just abruptly killed and yet out of that death emergedyou know many new kinds of really
+ awesome lineages do you think there was
+
+Speaker 1 :in the history of
+ life on earth species that may be still alive todaythat are more intelligent than humans
+ and we just don't know
+
+Speaker 0 :it's also made for dolphins like if you
+ look at their brains if you look at the way that they play if you look at theway that they learn
+ uh you know i mean they don't have possible thumbs and we doso you know that probably made a big
+
+
+Speaker 1 :difference it's terrifying to think that
+ like not terrifying i don't know how to feelabout it that they're more intelligent
+ than us
+
+Speaker 0 :it's like a hitchhiker's guide i know
+ but how do you define intelligence basically like i was saying last timeyou know stupid is a stupid does and
+ smart is a smart does so yeah if the dolphins are basically supersmart
+ figure out the meaning of life and just go around playing with water all daywhich is probably the meaning of life
+ then we wouldn't know because all they're doing is kicking water just likesharks are and sharks are probably
+ pretty stupid so so basically it's very difficult tosort of
+ judge a species intelligence unless you they kind of go out of their way todemonstrate it
+
+
+Speaker 1 :yeah and that's instructive for our
+ understanding of any kind of life form uh you know i recently talked to sarahseeger looking for
+ life out there on other planets it'd be fascinating to thinkif we discover a habitable planet that's
+ you know outside of earth in one day maybe many centuries away or be able totravel
+ with like a robot there how would we actually knowthat this species would probably be able
+ to detect that it's a living being but how would we know if it's anintelligent being
+ i mean uh it's both exciting and terrifyingto sort of come face to face with a
+ life form that's of another world like something that clearly is moving ina um
+ how would you say like a deliberate way and to then like ask well how do i askthat thing
+ with it whether it's intelligent no but
+
+Speaker 0 :the the question that you're asking is
+ um applicable to every species on on the earth on earth nowyeah so basically you know dolphins are
+ a great example we know that they're you know clearly capable hardware wiseand behavior-wise
+ of intelligence you know how do we communicateso basically if your question is about
+ crossing species boundaries of communicationthe way that i want to put it is that
+ humans have achieved a level of sophistication in ourbehaviors in our communication in our
+ language in our ways of expressing ourselvesthat i have no doubt that if we
+ encounter the human-like form of intelligence we'd figure out theirlanguage
+ in a few weeks like it'd be just fine as long as you know of coursethey're both trusting each other not
+ annihilating each other and not sort of fearing each other and attacking each
+
+Speaker 1 :other what about
+ the message just out of curiosity into science fiction land a little bitif so uh clearly you're one of the top
+ scientists in the world so if we were to discover an alien lifeform
+ uh you would be brought in to study his geneticsdo you think the epigenome that we
+ talked about the genome the code the digital code that underliesthat alien life form would be similar to
+ ours like the in um in fundamental ways maybenot exactly but
+ in fundamental ways of how it's
+
+Speaker 0 :structured yeah so so
+ you're getting to the very definition of life you're getting to the verydefinition
+ of what what makes life life and how do wedecode that life and it's so easy to
+ think that every life form would basically have toyou know like oxygen has to have to like
+ heat from the sun and rely on sort of being in the habitable zoneof you know its solar system and so
+ forth but i think we have to sort of go beyondthis
+ sort of oh life on another planet must be exactly like life is on earthbecause of course life on earth happens
+ to rely on the proximity to the sun and benefit from that amount of energybut we're talking at
+ time scales of human life where we kind of live i don't knowbetween and i'm going to be super wide
+ here we're going we're going to live betweensix earth months and
+ you know 200 a month earth months or 200 earth yearsso basically if you look at the time
+ scale that we inhabit on earth it is very muchdictated by the amount of energy that we
+ receive from the sun if you look at i don't know europa youknow the smallest the fourth smallest
+ moon of jupiter the smallest of the galilean moons and also the smallestin its distance from jupiter
+ it has an iron core it has a rock exterior it has ice all around itand it has probably massive liquid
+ oceans underneath and the gravitational pull thegravitational pull of jupiter
+ is probably creating all kinds of movement under that icehow did life evolve on earth yes sure
+ life now most of life that we above the surface look at has to do withexploiting the solar energy
+ for you know our daily behavior but that's not the case everywhere on theplanet
+ if you look at the bottom of the ocean there are hydrothermal ventsthere's both black smokers and white
+ smokers and they are near these volcanic uhyou know ducts that basically emanate
+ a massive amount of energy from the core of our planetwhat does life need it needs energy does
+ it need energy from the sun it couldn't careless does it need energy from
+ you know the earth itself yeah possibly it could usethat and if you look at how did life
+ evolve on you know on earth there are manytheories
+ i mean a kind of silly theory is that it came from outer spacethat basically there's a meteorite out
+ there that sort of landed on earth and it brought with itdna material i think it's a little silly
+ because it kind of pushes the buck down the roadbasically the next question is how did
+ it evolve over there yeah whereas our planet has basically all ofthe right ingredients why wouldn't
+ evolve here so basically let's kind of ignore that one and nowthat the two other competing hypotheses
+ are from the outside in or from the inside outfrom the outside in means from the
+ surface to the bottom of the ocean ah from the inside out means from thebottom of the ocean to the surface
+ so life on the surface is pretty brutal life obviously evolved in the waterand then there was an out of water event
+ but basically before it exited it was clearly in the water which is amuch nicer and shielded environment
+
+
+Speaker 1 :so just to be clear on the surface
+ are you referring to the the surface of
+
+Speaker 0 :the sea or the bottom of the sea
+
+
+Speaker 1 :versus the bottom of the sea and you're
+ saying life on the surface is uh it's harsh
+
+Speaker 0 :like inside the life outside the water
+ is horrible it takes huge amounts of evolutionaryinnovations to sustain
+
+
+Speaker 1 :living outside the water well that's so
+ interesting why why is that so it's easier to life iseasier
+ in the water maybe see i'm telling you
+
+Speaker 0 :don't
+ water yeah dolphins went back into the water really
+
+Speaker 1 :because dolphins are mammals of course
+ yeah interesting well again they might be smarter they
+
+Speaker 0 :went back
+ so so if you if you basically think aboutthe fact that we are 70 water we're
+ basically transporting the sea with us outside the sea you know if we if wedon't have
+ water for about a year 24 hours we're dryyeah and if you look at life under the
+ sea i mean i don't know if you're a diverbut when you go diving your brain
+ explodes again when i say the light the boringlife forms is what we see all the time
+ like tetrapods i mean what a stupid boringbody plan seriously like just go diving
+ and you'll see that a tiny little minorityof the stuff under the sea under the
+ surface of the sea is actually tetrapods it's like you know snails with all kindsof crazy appendages and colors and
+ you know round things and five-way symmetric things and you knoweight-way symmetric things all kinds of
+ crazy body plans and only the tetrapod fish managed toget out
+ and then they gave rise to all the boring plants we kind of see todayof basically you know uh humans with
+ four limbs birds with four limbs lizards with fourlimbs and you know
+ right it's kind of boring if you look at by comparisonlife underwater is teeming with
+ diversity so now let's roll back the clock andbasically say
+ where did life in the ocean come from
+
+Speaker 1 :from the surface
+ or from the bottom exactly those two
+
+Speaker 0 :options exactly so basically life on the
+ surface is one option and then the idea there isthat
+ there's tides with the moon and the sun sort of causing all this movementand this movement is basically causing
+ nutrients to sort of you know coalesce and you know bouncearound et cetera that's one option
+ the second option massive amount of energy underyou know from from from our the core of
+ our planet basically uh exploitedleading to these basic ingredients of
+ life forms and what are these basic ingredientsmetabolism
+ being able to take energy from the environment and put it as part ofyourself
+ metabolism it basically means transformation again in the greekit basically means taking stuff from you
+ know like nutrients or energy source oranything and then making it your own
+ the second one is compartmentalization if there's no notion ofself there can't be evolution you have
+ to know where your own boundaries end and where the non-self boundaries beginand that's basically
+ the lipid bilayer nowadays which is extremely simple to to formit's basically just a bunch of lipids
+ and then they eventually just self-organize into a membraneso that's a very natural way of forming
+ a self and then the third component isreplication
+ replication doesn't need to be self-replication it could be ahelps make more of b b helps make more
+ of c and c helps make more of a any kind ofself-reinforcement
+ is what you need to ignite the process of evolutionafter you've ignited that process you
+ know i don't want to say all hell breaks loose but all paradise breaks looseso basically you then boom you know have
+ life going and the moment you have abc some kind ofthing
+ looping back onto a you can make modificationsand you can improve and then you let
+ natural selection work
+
+Speaker 1 :is there some element of that that's
+ like co like uh like some state representation thatstores information like
+ maybe i should say information absolutely is that talking about the
+
+Speaker 0 :part
+ we like to think of life as the information propagation which is dnathe messenger which is rna and then the
+ action which is protein so basically dnawe think is an essential part of life
+ that's where the storage is and therefore that early life forms musthave had some kind of storage
+ medium dna if you look at how life actually evolved dna was invented muchlater
+ proteins were invented later and rna was find by itself thank youvery much
+ in an rna world so the early version of life as we know it today wasin fact
+ rna molecules performing all of the functionsthe rna molecule itself was the
+ protein actuator by creating three-dimensional foldsthrough self-hybridization itself what
+ self-hybridization so basically the same way that dna moleculescan hybridize with themselves and
+ basically form this double helix the single-stranded rna molecule canform
+ partial double helixes in various places creating structureas if you had a long string with
+ complementary parts and you could then sort of designkind of like origami-like structures
+ that will fall down to themselves and then you can make any shape fromthat
+ that early rna world eventually got to replication whereenzymes encoded in rna would replicate
+ rna itself and then that process basically kicked offevolution
+ and that process of evolution then led to major innovationsthe first innovation was translation
+ so you start with an rna molecule and you translate it into another kind ofform and that's the first kind of
+ encoding you're like well do you need some kind of code yeah butthe code
+ was in fact one thing it was conflated with the actuators the actuators wereseparated from the code only later on
+ so you first had the self-replicating code which was also the actuatorand then you kind of have a
+ functionalization partitioning of the functionalization asub-functionalization
+ of the proteins that are now going to be the workhorse of lifebut they're not self-replicating the
+ code remains the rna so the most beautiful and most complexrna machine
+ known to man is the ribosome the ribosomeis this massive factory that is able to
+ translate rna into protein the ribosomeif you if you want i don't know divine
+ intervention in the history of life the ribosome is it that's one of the
+
+Speaker 1 :great invention in the history of life
+
+
+Speaker 0 :it's it's yeah but again you can't think
+ of great inventions as one one-time steps they're basically youknow the
+ culmination of probably many competing software infrastructures for lifepreservation
+ that won out and then when the ribosome was so efficient at making proteinsall the other ones basically died out
+ and then the life forms that were using themodern ribosome
+ were basically the more successful ones because it could make proteinsand now those proteins are much more
+ versatile because rna only has four bases proteinseventually have 20 amino acids not
+ initially but eventually and then they can form in much morecomplex shapes and they can create all
+ kinds of additional machines one of which is reverse transcriptaseso you basically now have rna again we
+ like to think of transcription as the normal reverse transcription as theoddball
+ well rna preceded dna so reverse transcription actually was the firstinvention before transcription itself so
+ basically rna invents proteins rna and proteinstogether
+ invent dna so you now have a more stable mediuma more stable backbone
+ with two helices instead of one two strands instead of one the doublehelix and rna basically says
+ listen i'm tired i'm gonna delegate all information stories to dnaand i'm going to delegate most actuation
+
+
+Speaker 1 :to proteins proteins but that's to you
+ is not like a that's just an efficiency thing it's nota fundamental
+
+
+Speaker 0 :new correlation that's why when you're
+ asking is a separate information storage mediuma definition of life like no any kind of
+ self preservation self reinforcement and itdidn't need to be
+ rna rna-based initially it didn't need to be self-replicationinitially you just need to have enough
+ rna molecules randomly arising that reinforce eachother
+ that ultimately lead to the you know the closing of that loop andthe ignition of the evolutionary process
+
+
+Speaker 1 :can we just rewind a little bit like if
+ you were to bet all your money on the two optionsin terms of where life started probably
+ the bottom at the bottom though i don't know ifthis is answerable but
+ how hard is the first step or if there's something interesting youcan say about that first leap
+ yeah yeah yeah about from not from not
+
+Speaker 0 :life to life
+ yeah i think it's inevitable
+
+Speaker 1 :
+
+Speaker 0 :on earth or just in the universe i think
+ it's inevitable if you look at europa you know goingback to
+ the the moon of jupiter it's also a
+
+Speaker 1 :
+
+Speaker 0 :really nice song by santana
+ basically has all the ingredients it has you know the core that can emit energyit has the shielding through the ice
+ sheet protecting it just like an atmospherewould it even has a layer of oxygen
+ probably sufficiently dense to sustain life somy guess is that there's probably
+ uh independently a reason life form already teeming in europabecause as soon as it
+
+
+Speaker 1 :today is that exciting or terrifying to
+
+
+Speaker 0 :you
+ it's i mean as a scientist i can't wait to seenon-dna based life forms i can't wait
+ because we are so born uhin in you know sort of uh borne
+ as i would say in french but basically we're sort of you knowwe we we are so narrow-minded in our
+ thinking of what life should look like that ican't wait for all that to just be blown
+ away by the discovery of life elsewhere let
+
+Speaker 1 :me bring you into another science
+ fiction uh it's a scenario so on that pointif we discover life on europa
+ and you were brought in you seem very excited buthow would you start looking at that life
+ in a way that's useful to you as a scientistbut also not going to kill all of us
+ so like to me it's a little bit scary because not not because it's amalevolent life like it's a
+ it's a dictator petting like a cat it's evilbut just the way life is it seems to be
+ very good at conquering other life so there's a
+
+Speaker 0 :lot of science fiction movies based on
+ that principle yeah and that's sort of what causes thepublic to be so scared but if you think
+ about sort of would europa life be scared of humanscoming over and taking over
+ chances are no not even like earth bacteria because earth bacteria would bewiped out
+ in an instant in this foreign world because they don't know how tometabolize
+ energy that doesn't come from the types of energy sources that are herethe levels of acidity may just kill us
+ all off and at the same way in this in in theconverse way
+ if you bring life from europa on earth it'll die instantly because it's too hotor because it doesn't need to know how
+ to cope with i don't know the sun's radiation soclose to this completely inhabitable
+ zone by their standards so so what we callthe habitable zone
+ might actually be the inhabitants for
+
+Speaker 1 :them so the difference
+ if the environments are sufficiently different you think we'll justnot be able to even attack each other
+ and a basic
+
+Speaker 0 :uh it'll take massive amounts of
+ engineering to create machines that will go there and samplethe you know oceans basically drill
+ through the layers of ice to basically sampleand see
+ what life is like there and detecting it will probably be trivial it definitelywon't be dna based it's not like we're
+ going to send a sequencer but it'll be you know some other kind ofcombination of chemicals that will look
+ non-random
+
+Speaker 1 :so if you had to bet if i took that life
+ form we find on europa and like put it on a sandwichthat you're eating and like eat that
+ sandwich it'll taste just fine and you'll be well
+
+Speaker 0 :i
+ don't know about that i don't know
+
+Speaker 1 :anyone well it tastes fine that's
+ interesting so
+
+Speaker 0 :the other question is do we have taste
+ receptors for this adaptations to chemical molecules thatwe are used to seeing
+ so you think we don't have case bugs for things we don't even know about wow sowe won't yeah we want to be able to know
+ that this chemical tastes funny
+
+Speaker 1 :but you think it won't be it's likely
+ not to be dangerous like it won't know how to even interruptdo you think our immune system will
+ will even detect that something weird is
+
+Speaker 0 :probably
+ and it'll be very easy to detect because it'll be very different from very weirdbut it won't be able to sort of
+ attack i mean the scene from i don't know independence daywhere like they're communicating with
+ the other computer and they're like ooh i'm ini mean it's hilarious because like macs
+ and pcs have trouble communicating i mean let alone an alien technology oreven alien dna
+
+
+Speaker 1 :so okay uh now i was talking about you
+ being a scientist on earth but say you were a scientist uh they wereshipped over to europa
+ to investigate if there's life what would you look forin terms of signs of life
+
+
+Speaker 0 :life is unmistakable i would say
+ the way that life transforms a planet surrounding itis not the kind of thing that you would
+ expect from the physical laws alone so it'si would say that as soon as life
+ arises it creates this compartmentalizationit starts pushing things away it starts
+ sort of keeping things inside that herselfand there's a whole signature
+ that you can see from that so when i was organizing my meaning of life symposiummy my my friend was an astrophysicist um
+ basically uh we were deciding on what would be the themesfor the for the symposium and then uh i
+ said well we're going to have biology we're going to have physics and she'slike
+ come on biology is just a small part of physics[Laughter]
+ everything is a small part of physics and uh i meanin in many ways it is but my immediate
+ answer was no no wait life challenges physics it supersedesphysics
+ it sort of fights against physics and that's what i would look for ineuropa i would basically look for this
+ fight against physics for anything that sort ofsignatures of not just entropy at work
+ not just things diffusing away not just gravitational pulls butclear signatures of you remember when i
+ was talking earlier about this whole selection for environment selection forbiospheres for ecosystems
+ for this multi-organism form of life and i think that's sort of thethe first thing that you can look for
+ you know chemical signatures that are not simply predictedfrom the reactions you would get
+
+
+Speaker 1 :randomly such a beautiful
+ way to look at life so you're basically leveraging some energy sourceto enable you to resist the physics of
+ the universe
+
+Speaker 0 :fighting against physics but that's
+ that's the first transformation if you look at humanswe're way past that what do you mean by
+
+
+Speaker 1 :transformation so so
+
+
+Speaker 0 :basically there's there's layers i sort
+ of see life you know when we talk about themeaning of life
+ life can be construed at many levels we talked aboutlife in the simplest form of sort of the
+ ignition of evolution and that's sort of thebasic definition that you can check off
+ yes it's alive but when alexander the greatwas asked to whom do you owe
+ your life to your teachers or to your parents and alexander thegreat
+ uh answered i owe to my parents the zine the life itself and i owe to myteachers the
+ f zine like euphony f means good the opposite of cacophony which meansyou know bad
+ so f zine in his uh words was basically livinga human life a proper life so basically
+ we can go from the zine to the f-zine and that transformation has takenseveral additional leaps so basically
+ you know life on europa i'm pretty sure has gotten to the stage ofa makes b makes c makes a again
+ but getting to the f zine is a whole otherlevel and that level requires
+ cooperation that level requires altruism that level requiresspecialization
+ remember how we're talking about the rna specializing into dna for storageproteins and then compartmentalizations
+ and if you look at prokaryotic life there's no nucleusit's all one soup of things
+ intermingling if you look at eukaryotic life again you for truegood you know so a eukaryote
+ basically has a nucleus and that's where you compartmentalize furtherthe organization of the information
+ storage from all of the daily activities if youlook at a you know human body plan or
+ any animal you have a comparablization of thegermline you basically have
+ one lineage that will basically be saved for the future generationsand everything outside that lineage is
+ almost superfluous if you think about it the rest of yourbody all it does
+ is ensure that that lineage will make it to the next generationthat these germ lines will make to the
+ next generation the rest is packaging i'm sorry to be so blunt yeah and if youlook at nutrition
+ you know where deterostomes what does the stone meandertero means second where
+ this is the second mouth the first mouth is actually down here is the esophagusso dirt or stones have evolved a second
+ layer of eating kind of like alien with the two mouthsyeah so you can think of us as alien
+ where the first mouth is up here and then the second mouth is down there
+
+Speaker 1 :is of course is the first mouth just the
+ the the physical manipulation of the food to make it more correct
+
+Speaker 0 :correct and basically again you know if
+ you look at if you look at a worm it's an extremely simple life form itbasically has a mouth it has an anus
+ and it has you know just some organs in between that consume the food and justspit spit out poo
+ humans are basically a fancy form of thatso you basically have the mouth you have
+ the digestive tract and then you have limbs to get better atgetting food you have
+ eyesight hearing etc to get better getting foodyeah and then you have of course the
+ germline and all of this food part it's just auxiliary to their germline soyou basically have layers of
+ addition of comparablization of specializationon top of this zine to get all the way
+ to the earth scene
+
+Speaker 1 :yeah so like the warm is like windows 95
+ very few features very basic and then us humans are likewindows vista or windows 10 whatever it
+ is
+
+Speaker 0 :well a few innovations beyond that but
+ yeah and then all right where i don't know where windows 3000 atleast is such a fascinating way to look
+
+
+Speaker 1 :at life as a set of transformations
+ exactly so like is there some interesting transformations to ourhistory here on earth that like appeal
+ to you of course so and what are the most brilliantinnovations and transformations yeah
+
+
+Speaker 0 :yeah yeah i mean this is such a
+ fascinating question of course like you know we're talking about basicbasic life forms and we'll talk about
+ eukaryotic life forms and then the next big transformation ismulticellular life forms
+ where the specialization separates the germ linefrom everything else that accompanies it
+ and sort of carries it and then that specialization then sortof has this
+ massive new innovation like above the second mouthwhich is this massive brain and this
+ massive brain is basically something that arisesmuch much later on basically you know
+ notochords like having the first spinal cordthis whole concept that along with the
+ this very simple layers you basically now have acoordinating agent
+ and this coordinating agent is starting to make decisionsand remember when we're talking about uh
+ free will i mean you know as a worm is hunting forfood
+ oh it has plenty of free will it can choose to you knowfollow chemotaxis to the left for
+ chemotaxis to the right and maybe that's free will because it's unpredictablebeyond a certain level so you basically
+ now have more and more decision making andcoordination of all of these different
+ body parts and organs by a central operating system a centralmachine that basically will control
+ the rest of the body and the other thing that ilove talking about is the different time
+ scales at which things happen you know we're talking about the humanepi genome before the human epigenome is
+ basically able to find what genes should be expressed inresponse to environmental stimuli
+ in the order of minutes and basically receive a stimulustransfer all that data through this
+ humongously long string of searching and then sort of find whatgenes to turn on
+ and then create all that all of that is happening in the time scale ofminutes basically you know three minutes
+ to a to half an hour that's the expression response but ourdaily life doesn't happen on the order
+ of three minutes to half an hour it happens on the order ofmilliseconds like i throw a ball at you
+ you catch it right away no gene expression changes there youjust don't have time to do that
+ so you basically have a layer of control built on a hardware that supports itbut that hardware itself lives in a
+ different time scale than the controlling machine on top of
+
+Speaker 1 :that is that an accident by the way is
+ that like a feature is it was it possible for life to have evolvedwhere
+ the our the daily life of the organism as it interacts with its environmentwas on time scale similar to uh
+ the the way our internals work if you
+
+Speaker 0 :look at
+ trees they look kind of boring and stupid you're like looking at a treelike stupid if you speed up the movie of
+ a tree from spring until october you'll be likeoh my god it's intelligent
+ and the reason for that is that at that time scalethe tree is basically saying oh i'm
+ looking for a you know a thing to catch on to oh i just caught onto that i'm going to grow more here i'm
+ going to spawn there etc like i can see the trees in my gardenjust growing and sort of you know
+ looping around and um it's all a matter of time scaleand if you look at the human time scale
+ remember we were talking about neoteny the last time aroundthe whole fact that our young are pretty
+ useless until you know maybe you know a fewmonths of age if not a few years of age
+ if not i don't know getting out of collegeand then we we basically hold them
+ enabling their brain to continue being malleableand infusing it with knowledge and you
+ know thoughts as you know that period of neotimiincreases and expands
+ if you fast forward i don't know another million yearsso humans have only been around you know
+ different from apes for about that long jump another unit of that another humangym divergence
+ what could happen from an evolutionary time scale a lot one of the thingsthat's happening already
+ is expansion of human lifespan we have longer and longer periods before wemature
+ and we have longer and longer periods because before we have babiesso intergenerational distance is you
+ know grown from i don't know 16 years to 40 years you're saying that's in the
+
+Speaker 1 :genetics like
+
+
+Speaker 0 :no no not necessarily but but it's it's
+ sort of an environmental tendency that's happeningbut as we medically expand
+ human lifespan the generations might actually be pushedinstead of 40 years
+ to 60 years to 100 years if we look at
+
+Speaker 1 :the long arc
+
+
+Speaker 0 :of the evolutionary history exactly so
+ as we start thinking about intergalactic travel nowi'm sorry that's that's a heck of a
+
+
+Speaker 1 :transition
+ uh yeah so let's talk about it no no no
+
+Speaker 0 :no no as as we
+ as a species start thinking about i mean i'm talking about these transitions thatare happening right now and that's
+ that's so awesome continuing along thesetransitions what does the future hold in
+ the next million years so the concept of us going to anotherplanet
+ and that taking three human lifetimes might be a jokeif the human lifetime starts being 400
+ years or 800 years so imaginethis time scale it's all time scale just
+ different time skills yeah you asked me offline whether i wouldlike to live forever i mean
+ my answer is absolutely and there's many different types offorevers one forever
+ is do i want to live today forever kind of like groundhog day andthe answer is
+ absolutely the stuff that i want to learn today will probably take alifetime
+ just to learn you know basically to clear my to-do list for the day
+
+Speaker 1 :you mean like relive the day of the day
+ and then and then pick up different things from the richness of theexperiences
+
+
+Speaker 0 :there's just so much happening in the
+ world every single day so much knowledge that has happened alreadythat just to catch up on that will
+ probably take me around forever
+
+Speaker 1 :and that on that point i just i would
+ just love to see you in the groundhog moviejust because you're so
+ naturally as a scientist but just the way your mind works beautifullyjust all the richness of the experiences
+ that you would pick up from that uh that's a beautiful visual but you
+
+Speaker 0 :just try to live each day as if it was
+ groundhog i'm basically every single day waking upand saying all right how would bill
+ murray get out of that one well you know what
+
+Speaker 1 :on uh
+ on a funny tangent like i got a chance to uhgo to a neural link demonstration event
+ i'm not usually familiar with neurolink and uh i talked to elon for a while uhand one of the funny things he said on
+ this groundhog day thing is you know it's a beautifuldream to
+ eventually be able to replay our memories so we'rekind of these recording machines our
+ brain is kind of uh maybe a noisy recording machine ofmemories
+ and it would be beautiful if we can someday in the future maybe far into thefuture
+ be able to like in the groundhog day situation replay thatand the funny comment that stuck with me
+ is he said that maybe this our conversation now is areplay
+ of a member of a previous memory and that stuck with me becauseit would probably be my replay you know
+ who the hell am i i'm just some idiot guy but like elon musk is you knowprobably because of spacex and so on is
+ probably going to be remembered as a special personone of our special apes in history
+ so if i wanted to replay memory probably be that one you know talking to elon fora while yeah
+ that's an interesting uh possibility from uhif we think about time scales if we
+ think about the richness of the experience throughtime
+ that we humans take and be able to replace some aspects of that of thatbiology that's
+ super interesting but anyway sorry sorry for the tangent let'syeah you were talking about time scales
+ and the expansion of the human lifetime and uh
+
+Speaker 0 :the intergalactic travel yeah no but but
+ you're laughing about this yeah for sure that is you're talkingabout this you're talking about
+ exploring alien worlds yeah and going to other planets i meanyou know when sarah was here she was
+ talking about sort of going to other planetswhen we find these life i mean i'm just
+ very naturally given the topics that we've approachedtalking about the the time scale at
+ which this will happen
+
+Speaker 1 :so i think eventually we will human or
+ life life will expand out into the universe
+
+Speaker 0 :the the point that i'm trying to make is
+ that in intergalactic species we'll probably find ways to engineer itsbiology
+ in order to expand the way that we experiencetime expand the the time skills that we
+ experienced and going back to this whole concept ofyou know would i like to live forever
+ yes i'd like to live forever even if it was even if i was stuck on the same dayi'd love to live forever because i would
+ finally have time to do all these things that i want to dobut if living forever actually comes
+ with a perk of watching the whole world evolveforever i mean
+ that's a huge perk and i would you know just it'll never get boringjust an ever-changing world and then the
+ mind uh you know sort of experiment that i wantyou to to do
+ is to also ask what if i wanted to live foreverone day at a time every year
+ or one day at a time every decade would you choose thatwhere you would wake up and the world
+ would be 10 years later every single day you wake up it's theopposite of groundhog day
+ where basically you always wake up and it's always 10 years later
+
+Speaker 1 :so you're saying that's such a powerful
+ interesting concept that life is more interesting if you're of all thelife forms on earth
+ that you're the slowest one exactly
+
+Speaker 0 :exactly like trees
+ like you know they've been there since the minoan civilization yeah and youknow that takes us back to the the
+ question you asked about sort of the transformations that have happenedin humanity the minoan civilization is
+ one of them you know there's this paper that waspublished just a couple of years ago by
+ one of my friends that basically looked at theuh genetic makeup of the minoans
+ and the messinians in ancient greek in ancient greece and how they relate tomodern greeks
+ and they found that indeed there was very little gene flowfrom you know the outside and
+ you know it's it's fantastic to sort of think about these amazing civilizationsthat transformed the way that human
+ thought happens that basically looked for rulesin nature that looked for principles
+ that looked for the standards of beauty not human beautybut beauty in the natural world
+ this whole concept that the world must be elegantand there must be deeper ways of
+ understanding that world to me that's a massive transformation ofour species
+ similar to you know the earlier transformation we were talking about ofeven involving a brain
+ of you know learning how to communicate languageor the evolution of eyesight if you look
+ at sort of you know we're talking about these wormscrawling around and then sensing which
+ direction are the chemicals more abundantyou know chemotaxis so eventually
+ they grow a nose eventually they grow uh i mean when i say nose i meanways of sensing chemicals that's
+ probably one of the earliest senses you know we always talk about how deeprooted is in your brain that's one of
+ the earliest senses if you look at hearing that's a muchlater sense if you look at eyesight
+ that's an intermediate sense where you're basically sensing where the lightdirection comes from
+ that's probably something that life didn't mean until it got you know intothe surface
+ and so on and so forth so there's a lot ofyou know milestones and i was talking
+ about the latest milestone which is ligo last time of being able to detectgravitational waves
+ and sort of being able to sort of have a sense that humans haven't had
+
+Speaker 1 :before so you see that as a yet another
+ transformation it gives us an extra little sound of
+
+Speaker 0 :course and now if you go back to this
+ history of ancient greece i mean this this transformation thathappened i mean of course
+ the egyptians had this incredible you know civilization for thousands of yearsbut what happened in greece was this
+ whole concept of let's break things down and understand the natural worldlet's break things down and understand
+ physics let's basically build rules around architectureabout around elegance around you know
+ statues and tragedy i mean another question thatyou asked me in passing
+ was this whole concept of embracing the good and the badembracing your the full range of human
+ emotions and if you look at greek tragedy it'sthe definition of that
+ it's i mean drama i mean again it's a greek wordbut but the whole concept of some
+ problems that are just so vast and large that dying is the easy way outthe death oh that's the easy solution
+ you know so so i want to touch a little bit on thatpoint and and um
+ sort of talk about this concept that life supersedes physicsand that the brain supersedes life
+ that basically we have a brain that can decideto not follow evolution's path we can
+ decide to not have children we can decide to not eat we can decideto suicide
+ we can decide to sort of abolish communication with the outside worldi mean all the things that make us human
+ we can basically decide not to do that and that that isbasically when
+ the brain itself is basically supersedingwhat evolution program is for so
+
+
+Speaker 1 :okay so one of the it's okay my mind was
+ already blown at the beautiful formulation of the ideathat
+ life is uh is a system that
+
+Speaker 0 :resists physics yeah and
+
+
+Speaker 1 :our brain or perhaps the content of it
+ or however maybe functionally our brainis a thing that resists life yes
+
+
+Speaker 0 :
+
+Speaker 1 :yes you're so
+ you're so brilliant but but
+
+Speaker 0 :but but i want you to see all of that as
+ a continuum basically you're sort of talking aboutthe sort of individual transformations
+ but it's a path yeah that that humanity has a transformationit's a path of transformation and then i
+ want us to think about what it truly means to becomehuman like the
+ f zine and you asked me about what motivated my meaning of life symposiumwhat motivated it in part i mean of
+ course it was an inside joke of turning 42but what motivated him in part was
+ actually a mid-life crisis so the joke that i always like to say ischris papadimitriou a famous greek
+ professor who was previously at mit at harvard atstanford berkeley everywhere
+ uh brilliant brilliant person that's actually costis advisoryeah uh so so christopher means really
+ likes to say that when you're an undergrad you work like arat to get into grad school
+ and where you grasp you work like a rat to get your phdand where you're post doc you work like
+ a rat to get your assistant professors in jailand where is this profession you work
+ like a rat to become a full professor and then when you're a full professorwell by then you're basically a rat
+ that's brilliant so basically what happened to me is thati arrived at the end of the rat race
+ yeah you know life is a rat race you constantly havehurdles to jump over you constantly have
+ tunnels and secret pathways and i figured it all out and eventuallyas i was turning 42
+ i looked back and i was like wow that was an awesome rat racebut i'm not a rat i basically got out of
+ the labyrinth and i was like i'm not i'm not a rat turns out is that
+
+Speaker 1 :the first moment where you saw
+ that it's that you were in a rat race it
+
+Speaker 0 :no no i've known that i'm in a rat race
+ for a long time it's so easy to be in a rat race it's so easy to be anundergraduate because you have problem
+ sets and you know we're all smart people you knowproblem set it has a solution somebody
+ made it for you you can just solve it everything was made as a test and youkeep passing those tests and tests and
+ tests and tests and you have tasks that are well definedthe phd is a little different
+ because it's more open-ended but yet you have an advisor who's guiding youand then you become a professor and
+ tenure is a well-set defined set of tasks andyou do all that
+ and at 42 i basically had bought a house three kids beautiful wife tenureyeah awesome students tons of grants
+ life was basically laid out for me and that's when i had mymain life crisis that's when people
+ usually buy a harley davidson [Applause]and they basically say oh i need
+ something new i need something different and to be young myself etcbut basically that was my realization
+ that it's not a rat race that there's no rat race it's over thati have to basically think how do i fully
+ instantiate myself how do i complete my transformation into anactual human being
+ because it's very easy to sort of forget all the intangibles of lifeit's very hard to just sort of think
+ about the next task and the next ask and it's all metrics and you know what's thenumber of viewers i have what is the
+ number of you know publications i have what's the number of citationsthe number of talks the number of grants
+ it's very easy to quantify everything and then at some point you're like thisis real life
+ it's not a test anymore and that's something that i told my wifeearly on i was like no no
+ our life is not going to be let's put the kids through collegeand that you know maybe that's when i
+ escaped the rat race maybe it continued being a rat race maybe the next stepwould have been
+ all right how do i make sure that my kid is first in class how do i make surethat they're you know into the great
+ greatest callers and then you know they're into collegeand then you're like 60.
+
+
+Speaker 1 :so how do you how do you escape but what
+ is uh uh
+
+Speaker 0 :
+
+Speaker 1 :is is there a light at the end of the
+ tunnel of a midlife crisis
+
+Speaker 0 :so so you should watch that symposium
+ because the videos were transformative to meand to many others so basically the
+ advice that i received from all of my friends wasso meaningful this you know there's some
+ some advice that basically says you have to constantly maintainunachievable goals
+ goals that you can make progress towards but you can never be fully done withand i think that's almost playing into
+ the sort of rat race thing like basically make sure that there's moreobstacles for your little
+ rant persona to jump through so that's one possibility so first ofall
+
+
+Speaker 1 :
+
+Speaker 0 :watch is it available it's on youtube
+ just google it google really meaning of licensing i'veknown this and you should have told me
+ this like this is awesome
+
+Speaker 1 :okay yeah this is great but and also
+ like you know saying rat race is uhyou know if you look at ratatouille it's
+
+
+Speaker 0 :not
+ i mean that's a beautiful that's a
+
+Speaker 1 :beautiful thing
+ of challenges and overcoming child that could befundamentally the meaning of life is
+ uh to see life as a set of challenges and to fullyengage in the overcoming of those
+ challenges
+
+Speaker 0 :i would say that that's embracing the
+ rat race view of life so so a joke that we like to have withmy wife all the time is
+ we basically say we we pretend that we're in this all-inclusive resortthat we've basically hired all these
+ people to go on the esplanade and play games because we enjoy watching peopleplaying on the esplanade and
+ we enjoy sort of laying and looking at life and all the people biking androllerblading and all that
+ and then we've paid all these people in this all-inclusive resort that we livein
+ and then uh what are we going to do today i'm like oh i've signed up forprofessor activities
+ it's going to be awesome they they lined up a bunch of super smart mit studentsfor me to meet with i'm gonna have a
+ grant writing meeting afterwards it's gonna beawesome and then she signed up for a
+ bunch of consulting activities it's gonna be greatand then in the evening we just get back
+ together and say hey how was your consulting today so in a way that'sanother view of life of basically
+ wait a minute if i was a gazillionaire what would i choose to doi would probably pay an awesome
+ university to give me an office there and justpay a bunch of super smart people to
+ work with me even though they don't really want toetc etc in fact i would have exactly the
+ life that i have now working my butt off every single daybecause it's so freaking fulfilling well
+ that's so let's clarify this is a
+
+Speaker 1 :beautiful way it's almost like a video
+ game view of life that it's a set of i mean again game isnot
+ perhaps a positive term but it's a it's a it is a beautiful time so youyou do do you or do you not like the
+ rat race view of life no
+
+Speaker 0 :
+
+Speaker 1 :because it is fulfilling in some the
+
+
+Speaker 0 :right race is about the goal
+ my view of life is about the path so againquote in greece those folks have
+
+
+Speaker 1 :
+
+Speaker 0 :come up with some good stuff so this um
+ basically wrote this uh beautiful poem about sort of going throughlife saying as you go through your
+ journey impersonating ulysses of his voyagehe says wish that the path is long
+ and arduous because when you get to ithaca you might realizethat it was all about the path not the
+ destination and so the rat rate view of life makesit all about the destination it's like
+ how do i get through the maze to get therebut the all-inclusive resort view of
+ life is about the path it's about wowtoday i couldn't wish for a better set
+ of activities all programmed for me to enjoyhaving my brain having my body having my
+ senses and you know the life that i have soit's a very different kind of view
+ it's focused on the journey not on the destination so we
+
+Speaker 1 :you mentioned kind of the ups and downs
+ of life and the midlife crisis and right now yousaid
+ focusing kind of on the journey but what the journey involvesis ups and downs is there
+
+
+Speaker 0 :
+
+Speaker 1 :uh advice or any kind of thoughts
+ that you can elucidate about the downs in your life yeah the hard parts of yourlife and
+ how you got out or maybe not or is there yeah how do you see the dark parts of
+
+Speaker 0 :life
+ so i i'm so glad you're asking this question because it's something that oursociety does a terrible
+ job at preparing us for every hollywood moviehas to have a happy ending it is
+ ridiculous you can count on your ten fingersthe number of bad ending movies that
+ you've ever watched and you probably wouldn't need all 10fingers
+ we strive to tell everyone yes you can succeed yesyou're a millionaire just temporarily
+ disabled and yes you know uhthe prince will eventually figure out
+ his princess and they will have a happily ever after ending andyes the hero will be beaten and beaten
+ and beaten but you know that at the end of the movie the googly eyes will winwe need more movies where the bad guys
+ win we need more movies where just everybody dieswe're just you know a macgyver doesn't
+ figure out how to disable the bomb and it just explodesyou just you just need more movies that
+ are more realistic about the fact that life kind of sucks sometimes and it'sokay
+ so again growing up in greece i i have been exposed to songsthat are not just sad but they're
+ miserable miserable so so one of them one of them comes tomind
+ and and it's it's basically talking about this womanwho's lamenting in the early morning
+ about losing the joyful kid the joyful young man who basically diedin the civil war in the arms
+ of our own fellow citizens and she's like if only he had diedfighting the foreign forces if only he
+ had died at the you know sides of the you knowgeneral if only he had died with honor
+ i would be proud to have lost the joyful kidi mean it's devastating right it's like
+ he didn't just die he died without honoryeah and and i my friend who was with me
+ was listening to the song and she's like this is depressing i'm likeyou have to listen to another one it's
+ not as sad and she's like what this one died with honorso so that's one example it's a kind of
+
+
+Speaker 1 :a celebration
+ of uh misery no no no no no no so let me
+
+Speaker 0 :give you a couple more examples and and
+ then i'll answer that question so another example is i i picked up thisbook that i had from my childhood
+ and i started reading stories to my kids and the first storyis about these two children one is
+ really poor living on the street and the other one is really rich livingin the house and the bright light above
+ and the poor one is wishing looking at that window and wishing that you couldhave that house
+ and the other one is at the window wishing that he was free that he wasn'tsick all the time that you could escape
+ outside it's only four pages long and at the endboth children die
+ one of them dies from cold the other one dies from illnessand you're like how is that even a
+ children's story the next story i'm like okay that's finelet's skip this one let's you know so i
+ read this to my kids and then i read the next one and the next one isabout this this woman
+ whose brother is at war against the turksand he is
+ gonna die and she prays to the virgin please don't let him die and the virginappears and she's like
+ no problem tell me who to kill instead and she's like anyone anyone no no nochoose one
+ how about this turk this one has two kidsa beautiful family waiting for him at
+ home she's like no not this one choose another oneand then she goes through all the life
+ stories of the other and since he's like no nojust don't take anyone he's like i can't
+ do that i can you can choose to bring yourbrother back and he will be depressed
+ for the rest of his life because he didn't fight at warbecause he didn't go to that battle and
+ he will live without her she's like and in the end the woman decides to haveher brother killed instead
+ because he dies with her i mean this is insaneso so why am i giving you these examples
+ it's not a glorification of misery it's a it's expand your emotional rangeit's teaching you that and and when i
+ read these stories i'm not i'm not a jerk i'm crying outloud
+ i have tears and i like my face becomes redfrom the the the pain that i'm
+ experiencing through these stories it's just so deeply touchingto embrace the
+ suffering not because of an accident but because of a choicethe sacrifice to embrace the fact that
+ not everything is cute and rosy and always ending welland i think that we don't do a good
+ enough job of teaching our kids that just lifesucks and life is unfair sometimes and
+ that's and that's okay and sometimes i read a story to my kidsi read a story every night
+ and sometimes the story is horrible and sometimes the story is good and andsort of friendly and happy
+ and my kids always ask what's the moral of the storyand sometimes those are moral and it's
+ like oh you should be good or you should benice you should be helping each other et
+ cetera and sometimes it's just no moral and i tell my kids you know whatsometimes just life doesn't make sense
+ and it's okay and you can't comprehend everything andi think this concept
+ of how do you deal with bad days comes from the fact that we're taughtwe're brainwashed into thinking that
+ every day should be a happy day and we're not ready to cope with miseryand the other thing that crying through
+ these stories teaches you is that you don't have itnearly half as bad as you think
+ do you see do you see what i mean basically it tells you that i meanmy mom would always tell me about how
+ she was transformed as a teenager when she volunteeredin the hospital and she saw all these
+ people at the brink of death clinging for lifeand
+ helping them out to be as she could and cryingher her heart out when they were dying
+ and sort of how that taught her the appreciationfor what we have every day waking up
+ every morning and saying my life doesn't suck my life is notnearly half as bad as it could be
+ and and sort of embracing the joy that we have of living where we livein the moment we live and i'm gonna go
+ further if you look at the arc of humanum life the you know human existence
+ through the centuries there's no better way to be alive than nowi mean we're complaining about every
+ single little thing but life expectancy is at an all-timehigh
+ sickness all-time low poorness misery all-time low there's no bettertime to be alive
+ globally across all of human existence number onenumber two here in boston there's no
+ better place to be alive if you think about the amalgamation ofscience
+ engineering technology the ridiculously awesome people you're bringing everyweek to your podcast
+ i mean this is the ancient greece of modern society
+
+Speaker 1 :but the weather still sucks because no
+
+
+Speaker 0 :let me put it this way the weather gives
+ us a range of emotion the full range the fullscenic pattern
+
+
+Speaker 1 :that's such a fascinating thing about
+ human psychology i've i often reread this book i'm not sure if you'refamiliar with this
+ man's search for meaning by viktor frankland uh he talks
+ about you know his uh living through the holocaust and in theconcentration camps
+ and even there where there's like human miseryis at its uh highest even
+ there he discovers these moments by observing the suffering by acceptingthe suffering
+ he uh he observes moments of true joy of how great his life isrelative to others at the camp
+ uh who have it worse yeah so so
+
+Speaker 0 :it's it's a dangerous liberty slope to
+ think that way because it's basically being better than jones'sand if you know if
+ the the house next door has a giant car then you want to get a bigger car orsomething like that
+ it's not comparative misery i think the way that i see it is slightlydifferent it's
+ and it's not even thinking about all the worst possible outcomesthat could have happened but didn't the
+ the example as you were talking about the concentration camps the mosthorrible
+ i mean one of the most horrible moments of human existence i was thinking aboutpictures that i was seeing of kids in
+ syria in war-torn zones and you're looking atthese kids
+ and again i cried out loud imagining my own son in thevan after a bomb explosion
+ watching his you know father die or his siblings die or losing his friends it'ssomething that we are not
+ capable of fathoming but if you actually put a seven-year-old in that situationthe look that i saw in these kids eyes
+ basically said it is what it is it was it wasand and i've experienced that with my
+ own kid when he gets like my my my three-year-old last liketwo years ago
+ who's not my five-year-old uh she was burnedreally badly with like hot chocolate and
+ coffee that just peeled off her skin so you couldactually see just her fragile skin had
+ just peeled off and she was the happiest little kidshe was just going along with the
+ punches it is what it is it is she accepted it so soto sort of realize that
+ children don't say oh i could have it betterthey they sort of
+ embrace the moment not embrace but sort of accept the momentand then they can have moments of pure
+ joy in a horrendous war-torn countryand you know like so many people from
+ you know these war torn countries basically say oh youthink
+ you americans are going to just come and just send us a bunch of aid and food etcyeah sure that's helpful but what do we
+ dream of what do we struggle for we struggle for love we struggle formeaning
+ we struggle for you know emotions and friendships we struggle for the samethings you guys struggle for
+ we're not just like every day waking up and saying oh i wish i had more foodno that's just a given i just don't have
+ enough food but what we struggle with are basically everything else and thatsort of gives you some perspective
+ on life it basically says you know and another story that my mom told me when iwas a kid is this story about sort of
+ this man who's basically you know see he seesthe christ up here in front of him and
+ he says oh christ i'm carrying all these problems i'm carrying this bigbag
+ can you please take it from me and he's like sure let me just give you any otherbag
+ and basically you know the person in the end except his own bagso acceptance
+
+
+Speaker 1 :ultimately recommended acceptance
+
+
+Speaker 0 :every single other bag is probably worse
+ it's the evil you don't know versus the evil you know like we allstruggle with our own problems
+ but if you look at the bigger picture it's just your path through life and ifyou embrace it
+ the good and the bad every single day it's just joyelation sadness
+ misery if you don't have both you're not a complete human beingyou know you can't i mean the last
+ example i'm going to give is the movie um inside out by pixarbeautiful movie which one is that the
+ one with the little characters controlling
+
+Speaker 1 :
+
+Speaker 0 :all the emotions so you basically have
+ joy and sadness and fear and disgust etcand the moral of the story if you
+ remember the movie the moral of the storyis that in the end joy is basically
+ trying to fix everything to make everything happyand she's failing miserably and
+ everything else is like crumbling and falling apartand the little girl basically becomes
+ emotionless because all she knows how to do is fake happinessand i think it's a very good analogy for
+ our everyday society where we're always saying are you happyare you happy my mom calls me and she's
+ like manolas are you happy i'm like mom stop asking this stupid question no i'mnot happy
+ yeah what you should be asking is if i'm fulfilled yeah and that's a verydifferent thing i don't go around being
+ happy i wouldn't love it if your mom called
+
+Speaker 1 :and said
+ manolas are you suffering beautifully
+
+Speaker 0 :that's exactly right that's what she
+ should be asking are you are you struggling to achievesomething great
+ yeah that's the question that your mom should be asking not only did that mom
+
+Speaker 1 :call me about the suffering not about
+ how good uh how good are you doing so what i tell
+
+Speaker 0 :her is that life is not about maximizing
+ happiness life is about accomplishing somethingmeaningful
+ and accomplishing that meaningful thing cannot come froma series of joyful moments it comes from
+ a series of struggles of successes and failuresof people being nasty to you and people
+ being nice to you and embracing the full thing and if yousupersede
+ that constant need for gratification if yousupersede that constant need for
+ kindness you suddenly know you who you areand what i like to say to my kid and my
+ son the other day was telling me oh so-and-so called me such and such andi'm like
+ are you such and such he's like no i'm like ha hasee they were wrong and what i tell him
+ is if you know who you are what other people say about you onlyteaches you
+ about them yeah so it has no influence on yourself-esteem
+ if you know where you stand you embrace the good but you also embrace the badi have plenty of bad and i'm embracing
+ it i'm a procrastinator how do i deal withthat
+ i trick myself into procrastinating about mindless stupid littleday-to-day things and in that
+ procrastination time doing important things for the future
+
+Speaker 1 :so accepting who you are accepting your
+
+
+Speaker 0 :flaws accepting the whole of it
+
+
+Speaker 1 :
+
+Speaker 0 :accepting the struggle accepting the
+ sleeplessness accepting the fact that the journey iswhat matters
+ hoping that your path to ithaca is full of troublesbecause those troubles are the life you
+ will lead accepting that life will not startafter the next milestone that life has
+ already started a long time ago and what you're experiencing now is thelife
+ this is it it's not some kind of future thing that you work yourself hard to getto
+ and then after that you'll live hyperello happily ever afterto me the happily ever after that's the
+ end of the story nothing happens after thatthey struggled and the struggle and the
+ struggle is much more interesting story thanthey lived happily ever after so i think
+ we have to embrace that as a as a society that it's not just about thehappy ending that our kids
+ are brainwashed into expecting that things will be happy and rosy and it'sokay if they're not
+ and they should keep struggling because the struggle is the journey and thejourney
+ is the meaning of life it's not the end it's the journey
+
+Speaker 1 :what about accepting one of the harder
+ things we talked a little bit about immortalitywhat about accepting that life ends
+ so do you monoliths think about your own mortalityhow we talked about accepting that
+ there's ups and downs to life what about the ultimate down which isthe finality of it do you think about
+ that do you fear it you also ask me
+
+Speaker 0 :if i'm afraid of getting older
+ yes and that's on the path to mortality so let me talk about thatfirst step and then the last step
+ literally the last step so getting older what doesthat mean
+ when i was 18 when i was 20 my brain i felt was at my maximum i was likenothing
+ is impossible i can solve anything i could takeany math puzzle any logic puzzle any
+ programming puzzle and to solve it in millisecondsi just saw the answer through problems i
+ was like feeling invincible i would show up at lecture with mynewspaper
+ lift up my head every now and then point to errors justbrat complete brat i would raise my hand
+ and correct my professors from the whole classroomtotal brand i have some of those in my
+ class now and it's awesome it's like veryhuge i used to be you teaching you
+ humility yeah so um so so so i felt invincibleand i was like this is it this is
+ awesome i'm living the life 10 years later my brain didn't work thesame way
+ i wasn't as good at the tiny little puzzlesbut it worked in different ways and
+ right now 20 years later it works in yet differentways
+ and oh gosh i love the journey
+
+Speaker 1 :can you maybe give some hints of the
+ interesting different ways that your brain works asit aged
+
+
+Speaker 0 :yeah i went from the phase of sheer
+ speed and hardcore quantitative thinkingto sort of stepping back being able to
+ sort of make more connections being able to sort of say yeah but let'suse that thing sort of
+ a huge new creativity being unleashed basically when you're young you're sortof thinking about that one problem you
+ can sort of reconfigure all the variables combinatorially in your headand just
+ wipe it all out when you're you know just a little olderyou start getting more creative you
+ start bringing in things from different fields and differentcontexts and sort of stepping outside
+ the box basically it's like being in the rat race and sayingthere's a ceiling why are we trying to
+ get through that so it's sort of look you know thinking outside the boxand then at 40
+ what i'm going through now is this whole sort of embracing the path of lifeand when i say life has started already
+ it's not a test anymore this is basically embracing the finalityembracing that the journey is what it's
+ at so what i like to say is live every dayas if it's your last one
+ and make plans as if you'll never die i always have the long term that i'myou know sort of planning out for that
+ will eventually become the short term and i always have the sort of short termand i think this ability to sort of look
+ at life in the back in the past and look at life in thefuture jointly
+ and sort of embrace the continuity both of life in the universeand on our planet as well as life as a
+ human being from the beginning to the end just as apath as a journey
+ and just embracing every aspect of that i mean i was talking about parenthoodthe other day and how amazingly
+ fulfilling it is to sort of relive childhoodthrough the eyes of my kid but with the
+ perspective of a parent so the thethe sheer you know um
+ arrogance of youth yeah watching this in my kidi can see myself when i was 18
+ correcting my professor i felt so proud yeah little did i know that my professorwas working on so much more interesting
+ things than the three little things he was putting onthe board that day and i was like i'm
+ invincible but in fact no just a little brat andbasically right now
+ i i sort of can see the the the sort of journey with a littlemore humility
+ i can sort of look at my own students with theirunbelievable abilities being able to do
+ things that i'm no longer able to do better than i probably was ever able todo but yet
+ being able to guide them and shape their thinkingand blow their minds with new ideas and
+ new directions through my perspective and i know whensomething is solvable because i've been
+ there but i'm not going to even bother it'snot that i can't do it
+ i'm sure i could if i tried i just i'm not interested in that anymoreso what i'm embracing this journey of
+ aging is how my brain is changing and howi'm constantly trying to figure out the
+ niches the evolutionary niches that i'm best adapted forfor the tasks that i'm best at
+ while hiring and recruiting both assistants and research scientistsand students and postdocs and you know
+ that will be the best at those tasks so but someone still has to see the bigpicture
+ and i love being in that role so you're
+
+Speaker 1 :at
+ the at the time scale of a human lifespan you're doing the same thingthat the worm
+ did at the evolutionary time scale of uh growing arms ofthe specialization the car
+ compartmentalization right he talks about i mean it'sfascinating to think of what
+ uh 80 year old menolas would look back at theat the man that's sitting here today and
+ and and laugh at the ceiling at the
+
+Speaker 0 :arrogance finally figured out something
+ i was like no little thing you didn't figure out anythingi mean ultimately it seems that if
+
+
+Speaker 1 :you're introspective about life it all
+ it leads to a kind of acceptance a deeper and deeper acceptance of thewhole of it
+
+
+Speaker 0 :there again i want to be cautious about
+ acceptance because it almost says that you can't change it
+
+Speaker 1 :
+
+Speaker 0 :ah yeah it's it's sort of embracing the
+ struggle and embracing the journey is the waythat i would put it so you ultimately
+
+
+Speaker 1 :feel the
+ journey isn't just something that happens to you your horse
+
+Speaker 0 :you shape it you shape it remember how i
+ was saying that boston is the best place and the best time to live in rightnow you know in the history of humanity
+ i'm exaggerating a little bit but the way that i think about this isthat if you look at the hub in the whole
+ of cosmos where would you rather be if you're justa bunch of molecules roughly your
+ you know biomass where would you rather be would you rather be a rock on marsprobably not would you rather be in a
+ black hole probably not would you rather be an explodingsupernova maybe that might be
+ interesting but being on earth is an awesome solarsystem
+ an awesome planetary system an awesome you know place to be inacross all of space time it's a pretty
+ good place to be in as a bunch of moleculesif you are a bunch of molecules on earth
+ today being an animal with you know some kind ofawareness of the stuff around you is
+ wonderful being a human among all animalsis amazing because you have all this
+ introspection and being a human who's young fitathletic
+ smart etc i mean you know you have so much to behappy for beyond that being surrounded
+ by a bunch of awesome people that you interact with all the timei mean i feel blessed to interact with
+ the people i know the friends i have the dinners that i haveall of this the students that i interact
+ with i'm so blessed and the last little little blip in thisawesomeness of local maximum
+ the last little blip comes from being kindbeing grateful and being kind i don't
+ know if you remember that little prayer that i described last timeof thank you for all the good you've
+ given me and give me strength to give unto otherswith the same love that you've given to
+ me and and the whole point of that is beinggrateful and being kind
+ what does that do from a purely egoistic perspective it makes the people aroundyou happier
+ and it takes that little maximum a little bit furtherbecause you'll be surrounded by happy
+ people by being kind that's the purely egoistic view and thepurely altruistic view
+ or maybe it's egoistic as well is that it just it's good to giveit feels good to give like basically
+ watching somebody who's touched by what you said watching somebody who's likeappreciating a rapid response or a
+ generous offer or just random acts of kindness is so fulfillingso evolutionarily we were selected for
+ that they're just such a good feeling thatcomes from that
+
+
+Speaker 1 :you know it's fascinating to think you
+ said boston is the best place and talking about kindness that the verythought
+ that boston is the place best place in the universeis almost it's a kind of a gravitational
+ field uh like your thoughtand your very life in itself is a kind
+ of field that makes that real
+
+Speaker 0 :yeah so the self-fulfilling prophecy
+ yeah and by by claiming it's the best andthinking is the best it becomes the best
+
+
+Speaker 1 :and you make others
+ it's it's a for it's not a force that just applies to yourown cognition exactly it applies to the
+ others around you
+
+Speaker 0 :and then suddenly you live in an even
+ better place yeah and because you it
+
+Speaker 1 :creates the reality the
+ actual reality that the the social realityexactly it molds the environment exactly
+ what's one of the coolest things about you i thinkis uh you represent
+ uh the best of mit like the spirit of mitthere's um so i'm i'm so glad
+ that i'm fortunate enough to be able to talk to you becauseum you know there's a kind of uh
+ cynicism about academia in parts that i think is undeserved and thatthat there's a you know mit of course
+ but academic institutions is a sacred place where ideas canflourish
+ and just in the same very way that you're talking aboutis both kindness and uh
+ curiosity and that like that weird thing that happens when a bunch ofcurious descendants of apes get together
+ and just like get excited and this this uh uhripple effect that happens i mean that's
+ the most beautiful aspect of mit people might think likecompetition and grants and
+ like uh position like you said the rat race but like underneath it allis is these curious human beings
+ inspiring younger human beings and there's this uh ripple effect thathappens and i'm so glad that
+ i mean i'm glad that you that i get a chance to record thisbecause it inspires so many other
+ students and so many other people uh to do the same to embrace the theinner curious
+ creature that's not about the race so
+
+Speaker 0 :let's talk about the negatives
+ let's talk about no no no i'm serious i'm serious wait you know you have toembrace the good and the bad
+ so let's talk about the negative as degree comes up let's address itum so why do people want positions of
+ power why do people want you know more moneymore power more this more that
+ remember the part where i was saying if you know who you are what other peoplethink about you
+ it makes no difference to you it only teaches you about themmany people feel
+ um define themselves they feel instantiated through the eyes of othersso being in a position of power
+ makes them feel better about themselves who knows what other kind of strugglesthey might have
+ that creates that need to feel better about themselvesbut they have a bunch of struggles and
+ everybody has a bunch of struggles and every time i see somebody behavingpoorly i'm basically
+ thinking well they're in a tough spot right nowand and it's okay you know i can i can
+ kind of see how i would behave badly in other circumstances as well so ithink
+ if you take away that sort of having to prove yourselfin the eyes of others life becomes so
+ much easier so when i first became a professor atmit
+ i started wearing adult clothes i had my likeyou know i mean before i became a
+
+
+Speaker 1 :serious person
+
+
+Speaker 0 :i i basically had you know i would i
+ would always like go around in my rollerblades and my shorts and a t-shirtand eventually i was a professional like
+ oh i bought all these khaki pants and youknow this nice
+ like you know shirts with like you know whatever they call it thepatterns and i was like you know
+ dressing with my nice belt every day showing upand then a few months later i was like i
+ can't stand it and i just went back to my rollerbladesand my t-shirts and my shirts and it was
+ this struggle of sort of not feeling that i fit in i was sointimidated by all of my colleagues
+ like just watching their incredible achievements like persons next to me andthe person
+ you know the floor below me i was like oh my god likethey clearly made a mistake what the
+ heck am i doing here how will i ever live up to these people'sstandards and um
+ eventually you grow up to realize that the way that i i grew up to realize thatthe way that other people perceived my
+ work was very similar to the way that iperceived other people's work as
+ flawless i knew all of the flaws in my work iknew
+ the limitations i knew what i hadn't managed to achieveand what i saw was maybe a third of the
+ way of what i was trying to achieve and i saw everything as flawed what theysaw was what i had achieved
+ they didn't see what i hadn't achieved they only saw the one-third down whichwas pretty good in their eyes
+ so they all respected me and i was feeling miserable about myself i waslike
+ i'm not worthy and i think that this is a cognitive problem that we havewe kind of
+ um it's kind of like when we're talking about artificial general intelligenceagi
+ of sort of we kind of have this definition that anything that machinescan do
+ is not intelligent right and anything that they can't do is intelligenttherefore
+ we narrow in our narrow narrow the field of what intelligence truly means and assoon as machine learning not intelligent
+ anymore i feel like i was doing the same thingwith myself as soon as i could solve
+ something it was the kind of thing that a kid likeme could solve and therefore it was kind
+ of easy but to the others it seemed hard yeahbut to me it seemed easy so it was this
+ kind of thing that everything that my colleagues were doingseemed impossible to me but everything
+ that i was doing seemed impossible to themso it was that realization that sort of
+ made me mature into sort of a not more confident butmore comfortable
+ human being can you actually linger on
+
+Speaker 1 :that a little bit i mean
+ you mentioned minsky remember he said something in an interviewwhere he said the secret to his um like
+ the way he approached life was to never be happy with anything he didso there's a something powerful as a
+ motivator to to uh doing exactly what you'resaying which is everything you've
+ achieved to see that as easy and unimpressivewhat do you do with that because clearly
+ that's a i think useful thing i think i've kind
+
+Speaker 0 :of matured past that
+ and i think the maturity past that is to sort of acceptwhat it is and accept that
+ it has helped others build onto it and therefore advance human knowledge soit's very easy to sort of fall into the
+ trap of oh everything i've done is crap what i told you last time is that ialways tell my students that our best
+ work is ahead of us and i think that's more of my mindsetthat's a beautiful way to put it
+
+
+Speaker 1 :exactly what we've done is it's great
+
+
+Speaker 0 :it's great for the time and it'll become
+ obsolete in 30 years yeah not we can we are doing even betterwe're doing it
+ exactly so basically our next work will juststrive and and again you can't you can't
+ let the perfect be the enemy of the good at some point you have to rap i washaving a meeting with my student
+ yesterday and it was like listen we know this isnot perfect
+ but it's way better than anything that's ever been done beforeyou know how to improve it but if you
+ try to your paper is never going to getpublished so
+ so it you know there's this balance of we're already at the top of the fieldget it out
+ and then you work on the next improvement and in my experience thishas never happened we've never actually
+ worked on the next improvement and that's okayit didn't make a difference because
+ you're basically putting a new stepping stonethat others will be able to step on and
+ surpass you my advisor in grad school wouldbasically tell me
+ manolis let others write the second paper in that fieldjust write the first one move on move on
+ to the next field you don't want to be writing the secondand the third and the fourth and the
+ fifth paper in the same field just it's veryshocking to a student to hear that
+ because i was like i was at the top of my gamei was owning that field and i published
+ the first paper i'm like i'm ready for two and three and fourhe's like move on just let it be
+ and i was like whoa and it's so liberatingto sort of not have to surpass everyone
+ but just just put your little stepping stone outthere
+ and others will step on it and put their own stones further and eventually crossa bigger river
+ than if you try to sort of make a giant leap all at onceso you need both beautifully put
+
+
+Speaker 1 :so the funny thing is uh i've uh i
+ believe i closed the previous episode with a darwin quote aboutuh the power of poetry and music and
+ life i think your quote and again i only
+
+Speaker 0 :heard once was
+ darwin basically saying if i were to live life again next timei would read more poetry and
+ something about art every week or something like that yeah
+
+Speaker 1 :yeah it's so interesting for somebody
+ who studied uh life at a very cold i would say geneticlevel to say that
+ yeah the the highest form of living is is the art but like on that whichmade me realize that you write poetry
+ and i uh um forced you or maybe convinced yousomehow
+ to uh to maybe share if it's possible if it's okaysome of uh the poetry you've written
+ yourself in your life so um again being
+
+Speaker 0 :greek
+ a lot of my poems have been pretty miserableand uh i always like to say that it's
+ very hard for me to write a poem without when i'm happyand i just have to be in a state of deep
+ despair in order to write poems but the first poem i ever wrotewas in uh english class i was
+ i'm in greek i grew up in kris but i was in a french high school and i was takingenglish as a foreign language
+ so the english teacher basically asked us to write a poemin english so this is basically what uh
+ what i'm going to embarrass myself and read from my 16 year old selfmany many years ago can you give a
+
+
+Speaker 1 :little bit more context about who you
+ were in this moment so like just so so here's what's really
+
+Speaker 0 :interesting in terms of growing up
+ how do we grow up um it's very difficult to grow up if you'rein the same school going from one class
+ to the other and all your friends know you inside outit's very difficult to change
+ it's very difficult to to grow up because they have a certain set ofexpectations for who you are
+ and for how you're going to behave so in in many ways we kind oftend to get set in our ways and not
+ change very much i think something that helped me grow upis that when i was
+ 11 years old i was a kid in greece in primary school when i was 12 yearsold i was a kid in greece
+ in a you know first year of high school when i was 13 i was in franceso basically moved countries and schools
+ the next year i moved schools again because it was a transition in thefrench educational system from one
+ school to the next the next year after that my family movedto new york in a french high school
+ there and then the next day after that i'mmoving to mit uh so
+ basically between 11 and 19 every single yeari actually had the opportunity to grow i
+ was not held by people who knew meand i could reinvent myself or reshape
+ myself or reshape my you know sort of personality my emotionsmy you know as i was growing up
+ especially in such a transformative time of a kid's lifefrom 11 to 17. okay first of all it's so
+
+
+Speaker 1 :powerful that you think of it that way
+ did you think of it that way at the momentbecause it's kind of a source you said
+ an opportunity to grow it's kind of suffering i mean you'rebeing torn away from the thing you know
+ into a thing you don't know
+
+Speaker 0 :so when we moved from south france to
+ new york i was pissed i was pissed i i was taking these longbike rides in the countryside
+ jumping in friends swimming pools and i had all these wonderfulfriendships going downtown and just
+ staying by the fountains in the dim lit streets of exxon provence in the southof france it was
+ magical and suddenly i moved to new york citya city of cement of ugliness
+ like trash in the streets and every corner is horriblesnow everywhere having never seen snow
+ or like real snow in my life i moved from athens to south france tosouthern new york so
+ i was pissed but whether i saw it as an opportunity for growth i don't think soi don't think that i was that
+ self-reflective it was just only now you
+
+Speaker 1 :see it this way
+
+
+Speaker 0 :i i saw it like that probably pretty
+ early on but not during those transitions so basicallyduring this transition i was just a kid
+ being a kid you know and um maybe the time that i started seeing itthat way was
+ maybe when i decided to stay at mit as a professorafter having been there as a student and
+ i kind of saw the struggle of getting professors tonot see you
+ as a kid when they're your peers and i was very flattered when one of myuh
+ friends basically told me oh i remember you in recitation when you first askedme a question
+ i said wow this kid i'll pay attention one day it'll be a pier so so it's it'syou know
+ certainly my perception was that many of them could not see me as anything but akid
+ but it turns out that some of them saw me as something different than a kideven
+ before i was actually their colleague so it's it's kind of an interesting placebecause
+ what i like to say about mit is that people treat you as equalno matter what stage and they respect
+ you for what you say not for who you are when you're saying itand if i'm wrong my students will tell
+ me they will have no reservation to just be bluntlyyou know sorry i don't agree with that
+
+
+Speaker 1 :yeah i mean the the beautiful thing uh
+ about you sorry to to put it this way is uhyou know maybe people who weren't
+ familiar with your work beforehand might think uh like
+
+Speaker 0 :you might not realize that you're a
+
+
+Speaker 1 :world-class scientist leads a large
+ group and so on they because there's a youthful natureto you that
+ it's i mean you talk like a like a first like an undergradyou know with the excitement and the
+ fresh eyes and the sort of excitement about the world and that'sfirst of all super contagious and
+ beautiful you know it's easy to sort of fall intouh behaving seriously because then
+ people kind of um start putting you on a pedestalmore into a position of power you you
+ want to sort of act like you're in a position of poweras opposed to
+ allowing yourself to be lost in the just the curiosity thethe childish view of the world which is
+ just this open-eyed love of knowledge and that was the
+
+Speaker 0 :transition that i was describing when i
+ decided to go back to my rollerblades and t-shirt andbaseball cap basically um you know when
+ i when i met my first postdoc uh it wasbasically
+ you know he was interviewing for postdocs at mit he already had severalfirst author papers to his name in top
+ journals and my friend julia basically introducedme to
+ to to alex stark who basically was interviewing at the time with rick youngand with
+ eric lander just like these massive names in the fieldand i was just a first-year faculty
+ person with you know zero credibility andshe basically says oh there's this
+ friend of mine alex who's visiting he's also germanyou know he wanted to meet you i'm like
+ oh sounds great i'd love to talk science i show up we sit at the amphitheater instata uh
+ you know i basically arrive in my rollerbladesyou know jump a few steps sit down
+ wearing my blades we're having this awesome conversation about science andabout gene regulation and how the whole
+ thing works and sort of you know my perspective and hisperspective or just bouncing ideas for
+ 30 minutes and then i just dash off to my nextmeeting and he basically emails me
+ afterwards and i was giving him advice about how tointerview with eric lander how to
+ interview with rick young and how to sort of get a position with themand then after uh after a while he
+ emails me saying i would love to become a postdoc in your groupi'm like what are you kidding me like
+ wow so so uh he basically didn't carethat i would wear roller blades and
+ t-shirt all he cared about was my ideas and sort ofembracing the me with the childhood
+ excitement about science was basically what attracted himit wasn't the wow this guy runs a big
+ lab or this and that he was just like i like his ideas i wantto work with him
+
+
+Speaker 1 :that by the way folks is the best of mit
+ that's what mit stands for so that's a beautthat's a beautiful story but take me
+ back to the poem and where did this poem come from whatnow where's your mind's
+ set so who's the 17 16 year old kid manolas
+
+Speaker 0 :so uh again i've i've just seen snow for
+ the first time and i'm is this new york this is newyork so
+ i'm you know maybe that's where the sadness in the poem comes from butanyway
+ we're asked in class to write an assignment this is my third language i'mnot very good at it
+ so pardon me but here's what i wrote children dance now all in row childrenlaughing
+ at the snow but in times endless flow children sooner or later grow men aremortal
+ we go by if we know it we may cry but i thought a love so sweet wasimmortal was so deep
+ there i told you darling sweet that forever love would keepblossomed spring and summer shined then
+ blue autumn winter died one year passedbut the clouds still remember all our
+ vows never faked and never lied all we didwas stare
+ and smile all alone sitting down to the snow we made our vow but you toldme
+ you were right birds who love are birds who crynow with laughter children play
+ yet the sky is so grey even if the snow seems bright withoutyou have lost their light
+ sun that sang and moon that smiled all the stars have ceased to shineall of nature drew its grace found its
+ light within your face now you're gone and won't return let thesnow
+ and my heart burn there's a greek
+
+Speaker 1 :that's beautiful that's beautiful by the
+
+
+Speaker 0 :
+
+Speaker 1 :way and and the rhyming the musicality
+ there's a there's a both of simplicity i'm language no
+
+Speaker 0 :
+
+Speaker 1 :no no but like i so i really enjoy like
+ robert frost poems i don't mean simplicity so what a badway and then a negative way again it's
+
+
+Speaker 0 :very weird to analyze your own poem
+ but i think it captures the simplicity of youth and the way that it kind ofstarts with children dance line only
+ though it basically and it kind of shows that snow can beinterpreted first
+ in the first verse as a happy thing and then in the end you knownow with laughter children play i'm like
+ now i've grown basically it's it's this transformation that we'reactually talking about this whole men
+ are mortal we go by i'm sort of you know you're saying areyou comfortable with growing old i'm
+ like duh i was i was since i was 16. yeahand what's really interesting is that
+ you know again when i was 12 years old in our summer house in greece i remembersort of telling my sister
+ my outlook that i would have as a father for how to bring up my own kidsso it's very weird that i've always sort
+ of seen the full path from you know a kid when you were youngyeah i don't know if you you like this
+ johnny mitchell song i've looked at clouds from both sidesnow from up and down
+ and still somehow it's those illusions i recallit yeah it's clouds illusions i recall i
+ really don't know clouds at all so it's it's really beautiful so so ithink the johnny mitchell song which
+ again i heard for the first time much much after thisum and i wouldn't even compare this to
+ that but what johnny mitch is saying that songis that you can see life from two
+ perspectives you can see the good or the bad in bothyou know in everything you see and i
+ think that's the allegory of snow right now you can see snowas this bright white wonderful thing or
+ you can see snow as this miserable you know gray thing so that sort ofand what i like about the last verse now
+ with laughter children play is that it's a recall to the first onewhere i was the kid
+ enjoying careless life and eventually was making promises thatsomething would be forever
+ and i think part of that is also the loss of my friendships in franceof being in new york now and sort of
+ everything is gray and you know even though the snow seemsbright
+ without you have lost their light some that sang and moon that's mild soit's this um this concept that if you
+ lose your love the same thing can be perceived in avery different way
+
+
+Speaker 1 :let me ask you this because somebody
+ wrote me this long email and i think you're the perfect person toask this
+
+
+Speaker 0 :um you mentioned love
+
+
+Speaker 1 :from a genetic perspective
+ what what's what is it what what do you make of love why why are wewhy do we humans fall in love
+ in your own life why did you fall in love you knowthe email that was written to me was
+ you always talk about mortality and fear of mortalitybut you don't ask about love
+ some i don't know if there's some thoughts you could give aboutthe role of love in your own life
+
+
+Speaker 0 :
+
+Speaker 1 :or the role of life the role of love in
+ human life in general i think
+
+Speaker 0 :love in many ways defines my life it's
+ basically i like to say that i'm a human first and a professorsecond and uh i think this passion
+ for life this passion for you know everything around usi mean the only way to describe that is
+ love it's basically you know embracing youryou know emotional self embracing the
+ you know the [Music]the the non brainiac in you embracing
+ the sort of intangible thenot very well defined and even in my on
+ my own research i'm just very passionate about everything i doand you know there's a certain passion
+ that comes through and what i'm sorry again being greek theetymology of the word passion what was
+ passion passion is sufferingthe etymology when we talk about the
+ passion of the christ it's the suffering yeah and in the greek version of thatword pathos
+ like pathology pathos is deep suffering it's the concept andsomeone who's sympathetic sympathetic
+ means suffering together experiencing emotions together so it'sfunny that you ask me about love and i
+ respond with passion passion for life passion for researchpassion for my family for my children
+ for you know so um there's there's a certainpassion that uh defines me
+ and everything else follows rather than the other way around i'm notfirst thinking with my brain what is the
+ most impactful people we could write and then going after that i'm thinkingwith my heart what am i passionate about
+ what drives me which just like you know makesme take
+
+
+Speaker 1 :and that's a beautiful way to live but i
+ i love it how the greek part of you just kind of connects it to the suffering soif you could remove the suffering no no
+
+
+Speaker 0 :no no when i say suffering
+ i don't mean suffering as in being miserablei mean suffering as in being emotionally
+ invested in something remember i mean again if you if you lookat this poem what is it saying it's
+ saying birds who love are birds who cryright it's that's the very definition of
+ love exposing your fragility if you're notafraid of suffering
+ you don't fall in love as soon as you hold backyou protect you shield your heart no
+ love can enter so there's this uh simon garfunkel songi am a rock i am an island
+ and a rock feels no pain and an island never cries so again there's some aspectof that
+ into this poem the you know the fact thatum you know but you told me you know
+ there i told you darling sweet that forever love would keep is thisintermediate thing and then there's a
+ recall but you told me you were right birds could love or burst who cryso it basically says that love is the
+ fragility that you're willing to give to anotherperson it's opening up your
+ uh vulnerable spots it's sort of acceptingthat there's no safety net
+ you're just giving yourself fully and you're ready to be hurt
+
+Speaker 1 :so you've already been way too kind with
+ your time but i'm gonna force you to stay here just a few minutes longer aswe're talking about
+ uh goodbyes you have a really nice other poem hereabout goodbyes can i force you to read
+ it as well
+
+Speaker 0 :oh twist my arm twist my arm so um and
+ the next poem was written uh specifically for our highschool yearbook
+ so uh another poem written on demand the rest of them are just so miserablewritten by pure you know sadness and
+ melancholy but this one was also written on demandand it was basically um saying goodbye
+ as it's appropriate right now to my friends and sort of againreflecting this whole journey and
+ transformation through life and also i think showing a little bit ofintrospection
+ about how we kind of had it easy in high schooland we're about to go into rougher
+ waters so the title is actually the tidewatersand it's an analogy on that so here it
+ goes all this was another lake where somerest
+ we sailer stake water's calm and full of fishwe'll find there what we wish some seek
+ fruit and others feast some of us just lookfor peace
+ some find fresh other love some seek bothand neither have we were different when
+ we came it's his own story and fame differentpeople had we been
+ different cultures had we seen different naturedifferent faiths each unlike all in this
+ place we had faced success defeat that in onelake
+ came to meet there the orders that we followedand the pride that we swallowed made us
+ one but not the same joined us strangers who there camesooner later groups were made tribes
+ where differences will fade some attached more or lessothers fought and made a mess but again
+ we have to go what for where to we don't know still weknow
+ it we will try there to rush to flee to fly there'll be some who wish to staybut will carry on away we will continue
+ on our journey as we came here strong yet lonelyfrom the lake a river flows from the
+ river many goals on that river we will race each will tryto find his pace
+ in that scene the sailors face their firstfear defeat disgrace
+ here and there comes out a face that the waterssoon embrace some get lucky
+ find their way others sink beneath the wavesin this race we will part some will
+ settle near the start some set goals beyond thestars
+ because the river carries far you should knowin what we've done the hard part is
+ still to come so i'll have to say goodbye don't youworry
+ i won't cry neither will they those who trytill the end to keep their pride
+ but please know dearest friends who are always there to mendi will always need your hand i will miss
+ you till the end i don't think there's a
+
+Speaker 1 :better way to end it
+ manolas like i said last time you're one of the most special peopleat mit one of the most special people
+ in boston and whatever mental force fieldthat you're applying and saying that
+ boston is the best city in the world might be the best university in theworld
+ you're actually making it happen so thank you so much for talking to hishuge honor thank you so much it's been a
+
+
+Speaker 0 :pleasure
+ thanks for listening to this
+
+Speaker 1 :conversation with manolas kellis and
+ thank you to our sponsors public goods magic spoon and expressvpnplease check out these sponsors in the
+ description to get a discount and to support this podcast if you enjoythis thing subscribe on youtube
+ review 5 stars on apple podcast follow on spotifysupport on patreon or connect with me on
+ twitter at lex friedman and now let me leave you with some wordsfrom another well-known greek
+ alexander iii of macedonia commonly known as alexander the greatthere is nothing impossible to him who
+ will try thank you for listening and hope to see
+

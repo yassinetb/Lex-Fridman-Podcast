@@ -1,0 +1,1016 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ Alex garland writer and director of many imaginative and philosophical films fromthe dreamlike exploration of human
+ self-destruction in the movie annihilation to the deep questions ofconsciousness and intelligence raised in
+ the movie ex machina which to me is one of the greatest movies and artificialintelligence ever made I'm releasing
+ this podcast to coincide with the release of his new series called devsthat will premiere this Thursday March
+ 5th on Hulu as part of FX on Hulu it explores many of the themes this verypodcast is about from quantum mechanics
+ to artificial life to simulation to the modern nature of power in the tech worldI got a chance to watch a preview and
+ loved it the acting is great Nick Offerman especially is incredible in itthe cinematography is beautiful and the
+ philosophical and scientific ideas explored are profound and for me as anengineer and scientist were just fun to
+ see brought to life for example if you watch the trailer for the seriescarefully you'll see there's a
+ programmer with a Russian accent looking at a screen with Python like code on itthat appears to be using a library that
+ interfaces with a quantum computer this attention and technical detail onseveral levels is impressive and one of
+ the reasons I'm a big fan of how Alex weave science and philosophy together inhis work meeting Alex for me was
+ unlikely but it was life changing in ways I may only be able to articulate ina few years
+ just as meeting spot many of Boston Dynamics for the first time planted aseed of an idea in my mind
+ so did meeting Alex garland he's humble curious intelligent and to me andinspiration plus he's just really a fun
+ person to talk with about the biggest possible questions in our universe thisis the artificial intelligence podcast
+ if you enjoy it subscribe on YouTube give it five starson Apple podcast supported on patreon or
+ simply connect with me on Twitter and Lex Friedman spelled Fri D M am as usualI'll do one or two minutes of ads now
+ and never any ads in the middle that can break the flow of the conversation Ihope that works for you and doesn't hurt
+ the listening experience this show is presented by cash app the number onefinance app in the App Store when you
+ get it you just code Lex podcast cash app lets you send money to friends buyBitcoin and invest in the stock market
+ with as little as one dollar since cash app allows you to buy Bitcoin let memention that cryptocurrency in the
+ context of the history of money is fascinating I recommend a cent of moneyas a great book on this history debits
+ and credits on Ledger's started thirty thousand years ago the US dollar wascreated about two hundred years ago a
+ Bitcoin the first decentralized cryptocurrency was released just overten years ago so given that history
+ cryptocurrency still very much in its early days of development but it stillis aiming to and just might
+ redefine the nature of money so again if you get cash up from the AppStore Google Play and use collects
+ podcast you'll get ten dollars in cash Apple also donate ten dollars the firstone of my favorite organizations that is
+ helping advanced robotics and STEM education for young people around theworld and now here's my conversation
+ with Alex garland you describe the world inside the shimmer in the movieannihilation as dreamlike I mean that
+ it's internally consistent but detached from reality that leads me to ask do youthink a philosophical question I
+ apologize do you think we might be living in adream or in a simulation like the kind
+ that the shimmer creates we human beings here today yeah I want
+
+0:04:06
+Speaker 0 :to sort of separate that out into two
+ things yes I think we're living in a dream of sorts no I don't think we'reliving in a simulation I think we're
+ living on a planet with a very thin layer of atmosphere and the planet is ina very large space and the space is full
+ of other planets and stars and quasars and stuff like that and I don't think Idon't think those physical objects I
+ don't in the matter in that universe is simulated I think it's there we aredefinitely Soho problem is saying
+ definitely but in my opinion just about that we I think it seems very like we'reliving in a dream state I'm pretty sure
+ we are and I think that's just to do with the nature of how we experience theworld we experience in a subjective way
+ and the the thing I've learned most as I've got older in some respects is isthe degree to which reality is
+ counterintuitive and that the things that are presented to us as objectiveturn out not to be objective and quantum
+ mechanics is full of that kind of thing but actually just day-to-day life isfull of that kind of thing as well so so
+ my understanding of the way the way the brain works is you you get someinformation hit your optic nerve and
+ then your brain makes its best guess about what it's seeing or what it'ssaying it's seeing it may or may not be
+ an accurate best guess it might be an inaccurate best guess and that that gapthe best guess gap means that we are
+ essentially living in a subjective state which means that we're in a dream stateso I I think you could enlarge on the
+ dream state in all sorts of ways but so yes dream state no simulation would be
+
+0:05:58
+Speaker 1 :where I'd come down said going further
+ deeper into that direction you've also described that world aspsychedelia so on that topic I'm curious
+ about that world on the topic of psychedelic drugs do you see those kindsof chemicals that modify our
+ option as a distortion of our perception reality or a window into another reality
+
+0:06:25
+Speaker 0 :no I think what I'd be saying is that we
+ live in a distorted reality and then those kinds of drugs give us a differentkind of distorted active yeah exactly
+ they just give an alternate Distortion and I think that what they really do isthey give they give a distorted
+ perception which is a little bit more halide to daydreams or unconsciousinterests so if for some reason you're
+ feeling unconsciously anxious at that moment and you take a psychedelic drugyou'll have a more pronounced unpleasant
+ experience and if you're feeling very calm or or happy my have a good time butbut yeah so if I'm saying we're starting
+ from a premise our starting point is or we were already in the slightlypsychedelic state you what those drugs
+ do is help you go further down an avenue or it may be a slightly different Avenue
+
+0:07:15
+Speaker 1 :but that's what so in in a movie
+ annihilation the the shimmer this alternate dreamlike state is created byI believe perhaps an alien entity of
+ course everything is up to interpretation right but do you thinkthere's in our world in our universe do
+ you think there's intelligent life out there and if so how different is it from
+
+0:07:42
+Speaker 0 :us humans well one of the things I was
+ trying to do in annihilation was to to offer up a form of alien life that wasactually alien because it would often
+ seem to me that in the way we would represent aliens in in books or cinemaor television or well you know any one
+ of the sort of storytelling mediums is we would always give them veryhuman-like qualities so they wanted to
+ teach us about galactic federations or they wanted to eat us or they wanted ourresources like our water or they want to
+ enslave us or whatever it happens to be but all of these are incrediblyhuman-like motivations and I was
+ interested in the idea of an alien that was not in any way like us itdidn't share it maybe it had a
+ completely different clock speed maybe it's way so what we're talking aboutwe're looking at each other we're
+ getting information like hits our optic nerve our brain makes the best guess ofwhat we're doing sometimes it's right
+ something you know the thing we were talking about before what if this aliendoesn't have an optic nerve maybe its
+ way of encountering the space it's in is wholly different maybe it has adifferent relationship with gravity the
+
+
+0:09:01
+Speaker 1 :basic laws of physics that operates
+ under might be fundamentally different it could be a different timescale and so
+
+0:09:07
+Speaker 0 :on yeah or it could be the same laws it
+ could be the same underlying laws of physics you know it's a machine createdit where it's it's a creature creating a
+ quantum mechanical way it just ends up in a very very different place to theone we end up in so so part of the
+ preoccupation with annihilation was to come up with an alien that was reallyalien and didn't give us and it didn't
+ give us and we didn't give it any kind of easy connection between human and thealien because I think it was to do with
+ the idea that you could have an alien that landed on this planet that wouldn'teven know we were here and we might only
+ glancingly know it was here that just be this strange point where the Venndiagrams connected where we could sense
+
+
+0:09:55
+Speaker 1 :each other or something like that so in
+ the movie first of all incredibly original view ofwhat an alien life would be and she said
+ in that sense it's a huge success let's go inside your imagination did the alienthat alien entity know anything about
+ humans when it landed No so the idea is you're both you're basically an alienlife is trying to reach out to anything
+ that might be able to hear its mechanism of communication or was it simply was itjust basically they're biologists
+ exploring different kinds of stuff they
+
+0:10:32
+Speaker 0 :compete you see but this is the
+ interesting thing as as soon as you say they're biologists you've done the thingof attributing human type motivations to
+ it I I was trying to free myself from anything yes like thatso all sorts of questions you might
+ answer about this notion or alien I wouldn't be able to answer because Idon't know what it was or how it works
+ you know yeah I had I gave it some I had some rough ideas like it had a very veryvery slow clock speed and I thought
+ maybe the way it is interacting with this environment is a little bit likethe way an octopus will change its color
+ forms around the space that it's in so it's sort of reacting to what it's in toan extent but the reason it's reacting
+ in that way is indeterminate
+
+0:11:23
+Speaker 1 :but it's Sobers Clark speed was slower
+ than our human life Clark speed are inter but it's faster than evolutionfirst Laura then our solution yeah give
+
+
+0:11:33
+Speaker 0 :him the four billion years it took us to
+ get here then yes maybe it started eight
+
+0:11:40
+Speaker 1 :if you look at the human soul ization is
+ a single organism yeah in that sense you know this evolution could be us you knowthe evolution of the living organisms on
+ earth could be just a single organism and it's kind of that's its life is theevolution process that eventually will
+ lead to probably the the heat death of the universe already something beforethat I mean that's that's just an
+ incredible idea so you almost don't know you've created something that you don't
+
+0:12:10
+Speaker 0 :even know how it works like yeah because
+ anytime I tried to look into how it might workI would then inevitably be attaching my
+ kind of thought processes into it and I wanted to try and put a bubble around itoh so no this is this is alien in its
+ most alien form I have no real point of
+
+0:12:33
+Speaker 1 :contacts so unfortunately I can't talk
+ to Stanley Kubrick so I'm really fortunate to get a chance to talk to youon this particular notion I'd like to
+ ask it a bunch of different ways and we'll explore in different ways but doyou ever consider human imagination your
+ imagination as a window into a possible futureand that what you're doing you're
+ putting that imagination on paper as a writer and then on screen as a directorand that plants the seeds in the minds
+ of millions of future and current scientists and so your imagination youputting it down actually makes it as a
+ reality so it's almost like a first step of the scientific method that youimagining what's possible in your new
+ series with ex machina is actually inspiring you know thousands oftwelve-year-olds millions of scientists
+ and actually creating the future of
+
+0:13:33
+Speaker 0 :you've imagined well all I could say is
+ that from my point of view it's almost exactly the reverse because I I see thatpretty much everything I do is a
+ reaction to what scientists are doing I am I'm an interested layperson and I Ifeel you know this individual I feel
+ that the most interesting area that humans are involved in is science Ithink art is very very interesting but
+ the most interesting is science and science is in a weird place becausemaybe around the time Newton was a alive
+ if a very very interested lay person said to themselves I want to reallyunderstand what Newton is saying about
+ the way the world works with a few years of dedicated thinking they would be ableto understand that the sort of
+ principles he was laying out I don't think that's true anymore I think thatstopped being true now so I'm a pretty
+ smart guy and if I said to myself I want to really really understand what iscurrently the state of quantum mechanics
+ or string theory or or any of the sort of branching areas of it I wouldn't beable to I'd be intellectually incapable
+ of doing it because because to work in those fields at the moment is a bit likebeing an athlete I suspect you need to
+ start when you're 12 you know and if you if you start in your mid-20s starttrying to understand
+ in your mid-twenties then you're just never gonna catch up that's the way itfeels to me so so what I do is I try to
+ make myself open so the people that you're implying maybe I would influenceit to me it's exactly the other way
+ around these people are strongly influencing meI'm thinking they're doing something
+ fascinating I'm concentrating and working as hard as I can to try andunderstand the implications of what they
+ say and in some ways often what I'm trying to do is disseminate their ideasinto a means by which it can enter a
+ public conversation so so X Makana contains lots of name checks all sortsof existing thought experiments you know
+ shadows on you know Plato's cave and Mary in the black white room and allsorts of different long-standing thought
+ processes about sentience or consciousness or subjectivity or genderor whatever it happens to be and then
+ and then I'm trying to marshal that into a narrative to say look this stuff isinteresting and it's also relevant and
+ this is my best shot at it so so I'm the one being influenced in my construction
+
+0:16:27
+Speaker 1 :that that's fascinating of course you
+ would say that because you're not even aware of your ownthat's probably what Kubrick will say
+ too right is in describing why Hal 9000 is greater the way how 9000 is createdas you're just studying what's but the
+ reality when it when the specifics of the knowledge passes through yourimagination I would argue that you're in
+ incorrect in thinking that you're just disseminating knowledge that the thevery act of your imagination consuming
+ that science it creates something that creates the next steppotentially creates the next step I
+ certainly think that's true with 2001 a Space Odyssey I think at its best and if
+
+0:17:18
+Speaker 0 :it fails prove that that's true of that
+
+
+0:17:20
+Speaker 1 :it is best it plans something it's hard
+ describe it it inspires the the next generation and it could be feeldependent so your new series is more a
+ connection to physics quantum physics quantum quantum mechanics quantumcomputing and yet ex machina is more
+ artificial intelligence I know more about AI my sense that AI ismuch much earlier in its in the depth of
+ its understanding I would argue nobody understands anything to the depth thatphysicists do about physics in AI nobody
+ understands AI that there is a lot of importance and role for imaginationwhich they think you know we're in that
+ what were Freud imagine the subconscious we're in that stage of of AI wherethere's a lot of imagination you didn't
+
+
+0:18:13
+Speaker 0 :thinking outside the box yeah it's
+ interesting the spread of discussions and the spread of my anxieties thatexists about AI fascinate me the way in
+ which some people are some people seem terrified about it what whilst alsopursuing it and I've never shared that
+ fear about AI personally but it but the the way in which it educates people andalso the people who it agitates I find I
+ find kind of fascinating are you afraid
+
+0:18:47
+Speaker 1 :are you excited I use sad by the
+ possibility let's take the existential risk of artificial intelligence by thepossibility an artificial intelligence
+ system becomes our offspring and makes
+
+0:19:06
+Speaker 0 :us obsolete I mean it's a huge huge
+ subject to talk about I suppose but but one of the things I think is that humansare actually very experienced at
+ creating new life-forms because that's why you and I are both here and it's whyeveryone on the planet is here and so so
+ something in the process of having a living thing that exists that didn'texist previously it's very much encoded
+ into the structures of our life and the structures of our societies doesn't meanalways get it right but it does mean
+ we've learned quite a lot about that we've learned quite a lot about what thedangers are of allowing things to be
+ unchecked and it's why we then create systems of checks and balances in ourgovernment and and so on and so forth I
+ mean it's not say the other thing is it seems like there's all sorts of thingsthat you could put into a machine that
+ you would not be so with us we sort of roughly try to give some rules to liveby and some of us then live by those
+ rules to some don't and with a machine it feels like you could enforce thosethings so so partly because of our
+ previous experience and partly because the different nature of a machine I justdon't feel anxious about it I I'm more I
+ just see all the good you know broadly speaking the good that can come from itbut that that's just my that's just
+ where I am on that anxiety spectrum you
+
+0:20:32
+Speaker 1 :know it's kind of there's a sadness so
+ we as humans give birth to other humans right petition in their generations andthere's often in the older generation a
+ sadness about what the world has become now I mean that's kind of yeah there is
+
+0:20:44
+Speaker 0 :but there's a counterpoint as well which
+ is the most parents would wish for a better life for their children so theremay be a regret about some things about
+ the past but broadly speaking what people really want is that things willbe better for the future generations not
+ worse and so a and then it's a question about what constitutes a futuregeneration a future generation could
+ involve people it also could involve machines and it could involve a sort ofcross pollinated version of it too or
+ any but but none of those things make me feel anxious and doesn't give you
+
+0:21:19
+Speaker 1 :anxiety it does excite you like anything
+
+
+0:21:24
+Speaker 0 :that does not anything that's new I I
+ don't think for example I've got I my anxieties relate to things like socialmedia that so I've got plenty of
+ anxieties about that which is also
+
+0:21:35
+Speaker 1 :driven by artificial intelligence in the
+ sense that there's too much information to be able to do is that an algorithmhas to filter that information and
+ present to you so ultimately the algorithm a simple oftentimes simplealgorithms can
+ trolling the flow of information on social media so that's another it is
+
+0:21:56
+Speaker 0 :yeah his but but at least my sense of it
+ I might be wrong but my sense of it is that the algorithms have an eitherconscious or unconscious bias which is
+ created by the people who are making the algorithms and and sort of delineatingthe areas to which those algorithms are
+ going to lean and so for example the kind of thing I'd be worried about isthat it hasn't been thought about enough
+ how dangerous it is to allow algorithms to create echo chambers say but thatdoesn't seem to me to be about the AI or
+ the algorithm it's it's the my IVA T of the people who are constructing thealgorithms to do that thing if you see
+
+
+0:22:39
+Speaker 1 :what I mean yes so a new series does
+ then we could speak more broadly there's a let's talk about the peopleconstructing those algorithms which be
+ our modern society Silicon Valley those algorithms happen to be a source of alot of income because of advertisements
+ okay so let me ask sort of a question about those people are there currentconcerns and failures on social media
+ they are naivety I can't pronounce that word well are they naive are they I use
+
+0:23:10
+Speaker 0 :
+
+0:23:13
+Speaker 1 :that word carefully but evil and intent
+ or misaligned and intent I think that's a do they mean well and just go have aunintended consequence or is there
+ something dark in them that that results in them creating a company results inthat super competitive drive to be
+ successful and those are the people that will end up controlling the algorithms
+
+0:23:40
+Speaker 0 :at a guess I'd say there are instances
+ of all those things so so sometimes I think it's naivety sometimes I thinkit's extremely dark and sometimes I
+ think people are are not being naive or dark and and then in those instances aresometimes generating things that are
+ very benign and and other times generating things that despite theirbest intentions are not very benign it's
+ something I think the reason why I don't get anxious about AI high in terms of orat least hey is that have I don't know a
+ relationship with some sort of relationship with humans is that I thinkthat's the stuff we're quite well
+ equipped to understand how to mitigate the problem is is is issues that relateactually to the power of humans or the
+ wealth of humans and that's where that's where it's dangerous here and now so sowhat I see I'll tell you what I
+ sometimes feel about Silicon Valley is that it's like Wall Street in the 80s itit's rabidly capitalistic absolutely
+ rabidly capitalistic and it's rabidly greedy but whereas in the 80s the senseone had of Wall Street was that these
+ people kind of knew they were sharks and in a way relished in being sharks anddressed in sharp suits and and and kind
+ of lauded over other people and felt good about doing it Silicon Valley hasmanaged to hide its voracious Wall
+ Street like capitalism behind hipster t-shirts and you know cool cafes in theplace where they set up their and and so
+ that obfuscates what's really going on what's really going on is the absolutevoracious pursuit of money and power so
+ so that that's where I get shaky for me
+
+0:25:48
+Speaker 1 :so that veneer and you explore that
+ brilliantly that veneer of virtue that
+
+0:25:57
+Speaker 0 :Silicon Valley has which they believe
+
+
+0:26:00
+Speaker 1 :themselves I'm sure so okay I I hope to
+ be one of those people and I believe that so as a maybe a devil's advocateterm poorly used in this case
+ what if some of them really are trying to build a better world
+
+0:26:22
+Speaker 0 :I can't I'm sure I think some of them
+ are I think I've spoken to once who I believe in their heart feel they're
+
+0:26:27
+Speaker 1 :building a better work are they not able
+
+
+0:26:28
+Speaker 0 :to no no no they may or may not be but
+ it's just a zone with a lot of flying about and there's also anotherthing which is that this actually goes
+ back to I always thought about some sports that later turned out to becorrupt in the way that the sport like
+ who won the boxing match or how a football match got thrown or cricketmatch or whatever happened to me and I
+ used to think well look if there's a lot of money and there really is a lot ofmoney people stand to make millions or
+ even billions you will find a corruption that's gonna happen so so it's it's inthe nature of its of its voracious
+ appetite that some people will be corrupt and some people will exploit andsome people will exploit whilst thinking
+ they're doing something good but there are also people who I think are veryvery smart and very benign and actually
+ very self-aware and so I'm not I'm not trying to I'm not trying to wipe out themotivations of this entire area but I do
+ it there are people in that world who scare the hell out of me yeah sure yeah
+
+0:27:39
+Speaker 1 :I'm a little bit naive and that like I
+ it I don't care at all about money and so I'm uh you you might be one of the
+
+0:27:49
+Speaker 0 :
+
+0:27:52
+Speaker 1 :good guys yeah but so the thought is but
+ I don't have money so my thought is if you give me a billion dollars I would itwould change nothing and I would spend
+ it right away on on investing it right back and creating a good world but yourintuition is that billion there's
+ something about that money that maybe slowly corrupt the people around youthere's somebody gets in that corrupts
+ your souls of you the way you view the
+
+0:28:17
+Speaker 0 :world money does corrupt
+ we know that but but there's a different sort of problem aside from just themoney corrupts you know thing that we're
+ familiar with in throughout history and it's it's moreabout the sense of reinforcement an
+ individual gets which is so it effectively works like the reason Iearned all this money and so much more
+ money than anyone else is because I'm very gifted I'm actually a bit smarterthan they are or I'm a lot smarter than
+ they are and I can see the future in the way they can't and maybe some of thosepeople are not particularly smart
+ they're very lucky or they're very talented entrepreneurs and there's adifference between it so in other words
+ the the the acquisition of the money and power can suddenly start to feel likeevidence of virtue yes and it's not
+ evidence of virtue it might be evidence of completely different things as
+
+0:29:12
+Speaker 1 :brilliantly put yeah yeah yeah that's
+ brilliant put like so I think one of the fundamental drivers of my currentmorality let me just represent nerds in
+ general the of all kinds is of constant self-doubt and the signals you know I'mvery sensitive to signals from people
+ that tell me I'm doing the wrong thing but when there's a huge inflow of moneyit's you're there you just put it
+ brilliantly that that could become an overpowering signal that everything youdo is right and so your moral compass
+ can just get thrown off yeah and it's
+
+0:29:52
+Speaker 0 :that that is not contained to Silicon
+ Valley that's across the board in
+
+0:29:58
+Speaker 1 :general yeah like I said I'm from Soviet
+ Union the current president is convinced I believe actually he is he wants to doreally good by the country and by the
+ world but his moral clock may be our compass may be off because yeah I mean
+
+0:30:13
+Speaker 0 :it's the interesting thing about evil
+ which is the I think most people who do spectacularly evil things thinkthemselves they're doing really good
+ things that they're not they're thinking I am a sort of incarnation of Satanthey're thinking yeah I've seen a way to
+ fix the world and everyone else is wrong
+
+0:30:35
+Speaker 1 :here I go in fact I uh I'm having a
+ fascinating conversation with a historian of Stalin and he took power iswhat he actually
+ got more power than almost any person in history and he wanted he didn't wantpower
+ he just wanted he truly and this is what people don't realize he truly believedthat communism will make for a better
+ world absolutely and he wanted power he wanted to destroy the competition tomake sure that we actually made
+ communism work in the Soviet Union and that spread it across the world he was
+
+0:31:11
+Speaker 0 :trying to do good I think it's it's
+ typically the case yeah that that's what people think they're doing and I thinkthat but you don't need to go to Stalin
+ I mean Stalin sure I think Stalin but probably got pretty crazy but actuallythat's another part of it which is that
+ the other thing that comes from being convinced of your own virtues that thenyou stop listening to the modifiers
+ around you and that tends to drive people crazy it's it's other people thatkeep us sane and if you stop listening
+ to them I think you go be mad so that
+
+0:31:43
+Speaker 1 :that also that's funny a disagreement
+ keeps us saying to jump back for an entire generation of AI researchers 2001a Space Odyssey put an image the idea of
+ human level superhuman level intelligence into their mind do you eversort of jumping back to ex machina and
+ talk a little bit about that you ever consider the audience of people who youwho are build the system's the robot
+ assisted scientists that build the systems based on the stories you createwhich I would argue I mean there's
+ literally most of the top researchers about 40 50 years old and plus you knowthat's their favorite movie 2001 Space
+ Odyssey and it really is in their work their idea of what ethics is of what isthe target the hope the dangers of AI is
+ that movie yeah right do you ever consider the the impact on thoseresearchers when you create the the work
+
+
+0:32:45
+Speaker 0 :you do certainly not with Xbox in
+ relation to 2001 because I'm not sure I mean I'd be pleased if there was but I'mnot sure in a way there isn't a
+ fundamental discussion of issues to do with AI thatisn't already and better dealt with by
+ 2001 2001 does a very very good account of of the way in which an AI might thinkand also potential issues with the way
+ the AI might think and also then a separate question about whether the AIis malevolent or benevolent and 2001
+ doesn't really is it's a slightly odd thing to be making a film when you knowthere's a pre-existing film which is not
+ a really super job but there's a
+
+0:33:35
+Speaker 1 :questions of consciousness embodiment
+ and also the same kinds of questions could you because those are my twofavorite AI movies so can you compare
+ how all 9000 and Ava how 9,000 from 2001 Space Odyssey na or from ex machina thein your view from a philosophical
+
+
+0:33:53
+Speaker 0 :perspective they've got different goals
+ the to a eyes have completely different guy I think that's really the differenceso in some respects ex machina took as a
+ premise how do you assess whether something else has consciousness so itwas a version of the Turing test except
+ instead of having the machine hidden you you put the machine in plain sight inthe way that we are in plain sight of
+ each other and say now assess the consciousness and a way it wasillustrating the the the way in which
+ you'd assess the state of consciousness of a machine is this exactly the sameway we assess the state of consciousness
+ of each other and in exactly the same way that in a funny way your sense of myconsciousness is is actually based
+ primarily on your own consciousness that is also then true with the machine andand so it was actually about how much of
+ the sense of consciousness is a projection rather than something thatconsciousness is actually containing and
+
+
+0:34:52
+Speaker 1 :Plato's cave I mean this view really
+ explored you could argue that how sort of space odyssey explores idea of theTuring test for intelligence or not test
+ there's no test but it's more focused on intelligence and ex machina kind of goesaround intelligence and says the
+ consciousness of the human do you humanure by interactions moreinteresting more important more at least
+ the focus of that particular particular
+
+0:35:19
+Speaker 0 :movie yeah it's about the interior state
+ and and what constitutes the interior state and how do we know it's there andactually in that respect ex machina is
+ as much about consciousness in general as it is to do specifically with machineconsciousness yes and it's also
+ interesting you know thing you started asking about the dream state and I wassaying well I think we're all in a dream
+ state because we're all in a subjective state yeah one of the things that Ibecame aware of with ex machina is that
+ the way in which people reacted to the film was very based on what they tookinto the film so many people thought
+ xmax magnet was a stet was the tale of a sort of evil robot who murders two menand escapes and she has no empathy for
+ example because she's a machine whereas I felt no she was a consciousbeing with a consciousness different
+ from mine but so what imprisoned and made a bunch of valuejudgments about how to get out of that
+ box and there's a moment which is sort of slightly bugs me but nobody ever hasnoticed in its years after so I might as
+ well say it now which is that after Ava has escaped she crosses a room and hasshe's crossing a room this is just
+ before she leaves the building she looks over her shoulder and she smiles and Ithought after all the conversation about
+ tests but in a way the best indication you could have of the interior state ofsomeone is if they are not being
+ observed and they smile about something with they're smiling for themselvesand that to me was evidence of Ava's
+ true sentience whatever that sentience was but those really interesting she we
+
+0:37:08
+Speaker 1 :don't get to observe a ver much or or
+ something like a smile in any context except through interaction trying toconvince others that she's conscious
+
+
+0:37:21
+Speaker 0 :that's beautiful yeah exactly yeah but
+ it was a small it in a funny way I think maybe peoplesaw it as an evil smile like ha yeah I
+ fooled them but actually it was just a smile and I thought well in the endafter all the conversations about the
+ test that was the answer to the test and then off she goes so if we align if we
+
+0:37:40
+Speaker 1 :just deliver it a little a little bit
+ longer on hell and Ava do you think in terms of motivation what was how'smotivation is how good or evil is Ava
+ good or evil
+
+0:37:56
+Speaker 0 :Ava's good in my opinion and how is
+ neutral because I don't think how is presented as having a sophisticatedemotional life he has a set of paradigms
+ which is that the mission needs to be completed I mean it's a version of the
+
+0:38:18
+Speaker 1 :paperclip yeah you know the idea there
+ is just it's a super intelligent machine but it's just performing a particulartask
+ yeah and in doing that tasks may destroy everybody on earth or may may achieveundesirable effects for us humans
+ precisely
+
+0:38:34
+Speaker 0 :but what if okay at very end you said
+ something like I'm afraid Dave but that that maybe he is on some levelexperiencing fear or it may be this is
+ the terms in which it would be wise to stop someone from doing the thingthey're doing if you see what it means
+
+
+0:38:53
+Speaker 1 :yes absolutely so it actually has funny
+ so that's such of this is such a small short exploration of consciousness thatI'm afraid
+ and then you just with ex machina say okay we're going to magnify that partand then minimize the other part so
+ that's that's a good way to sort of compare the two but if you could justuse your imagination and if Ava sort of
+ I don't know ran the Quran easy was President of the United States also hassome power so what kind of world which
+ you want to create if we here's you kind of say good and there is a sense thatshe has a really like I think there's a
+ desire for better human to human interaction human robotinteraction in her but what kind of
+ world do you think she would create with
+
+0:39:48
+Speaker 0 :that desire she also really it's a very
+ interesting question that I'm gonna approach it slightly obliquelywhich is the if if a friend of yours got
+ stabbed in a mugging and you then felt very angry at the person who'd done thestabbing but then you learned that it
+ was a fifteen year old and the 15 year old both their parents redic todaycrystal meth and the kid had been
+ addicted since he was 10 and he really never had any hope in the world and he'dbeen driven crazy by his upbringing and
+ did the stabbing that would hugely modify and it would also make you worryabout that kid then becoming president
+ of America right and Ava has had a very very distorted introduction into theworld so although there's nothing as it
+ as it were organically within Ava that would lean her towards badness it's notthe robots or sentient robots are bad
+ she did not her arrival into the world was being imprisoned by humans so I'mnot sure she'd be a great present the
+
+
+0:40:59
+Speaker 1 :trajectory through which she arrived at
+ her moral views you have some dark
+
+0:41:06
+Speaker 0 :elements then but I like ever personally
+ I like over and I think vote for her I'm having difficulty finding anyone to voteright now in my country or if I lived
+ here in yours I am so that's a yes I guess because the
+
+0:41:20
+Speaker 1 :
+
+0:41:22
+Speaker 0 :competition she could easily do a better
+ job than any of the people I'd worked her over Boris Johnson so what is a good
+
+0:41:31
+Speaker 1 :test of consciousness just can we talk
+ about consciousness a little bit more if something appears conscious is itconscious he mentioned the smile which
+ is seems to be something done I mean that's a really good indication becauseit's
+ a tree falling in the forest with nobody there to hear it but does the appearancefrom a robotics perspective of
+ consciousness mean consciousness - you
+
+0:42:01
+Speaker 0 :know I I don't think you could say that
+ fully because I think you could then easily have a thought experiment whichsaid we will create something which we
+ know is not conscious but is going to give a very very good account of seemingconscious and so and and also it would
+ be a particularly bad test where humans are involved because humans are so quickto project sentience into things that
+ don't have sentience so someone could have their computer playing up and feelas if their computer is being malevolent
+ to them when it clearly isn't and so so of all the things to judge consciousnessus humans are better
+ we're empathy machines so that so the
+
+0:42:43
+Speaker 1 :flipside of that the argument there is
+ because we just attribute consciousness to everything almost andanthropomorphize everything including
+ Roombas the that maybe consciousness is not real that would just attributeconsciousness to each other so you have
+ a sense that there is something really special going on in our mind that makesus unique and gives us the subjective
+ experience there's something very
+
+0:43:10
+Speaker 0 :interesting going on in our minds I'm
+ slightly worried about the word special because it it gets a bit it nudgestowards metaphysics and maybe even magic
+ in I mean in some ways something magic like which I don't think is there at all
+
+0:43:29
+Speaker 1 :I mean if you think about there's an
+ idea of called pants like ism that says consciousness is in everything whatever
+
+0:43:35
+Speaker 0 :but as brother yeah so the idea that
+ that there is a thing that it would be like to be the son yeah no I don't buythat I think that consciousness is a
+ thing did my sort of broad modification is that usually the more I find outabout things the more illusory our
+ instinct is and is leading us into a different direction about what thatthing actually is that that happens it's
+ in modern science that happens a hell of a lot whether it's to do with how evenhow big or small things are so so my
+ sense is that consciousness is a thing but it isn't quite the thing or maybevery different from the thing that we
+ instinctively think it is so it's there it's very interesting but we may be init's sort of quite fundamentally
+ misunderstanding it for reasons that are based on intuition so I have to ask this
+
+0:44:33
+Speaker 1 :is this kind of an interesting question
+ the ex machina for many people including myself is one of the greatest AI filmsever made
+
+
+0:44:45
+Speaker 0 :well it's number two for me thanks yeah
+ number one I'd really have to was anyway
+
+0:44:50
+Speaker 1 :yeah whenever you grow up with something
+ right you may grow up for something it's it's an it's in the wood but there's uhone of the things that people bring up
+ and can't please everyone including myself this is what I first reacted tothe film is the idea of the lone genius
+ this is the the criticism that people say sort of me as an AI researcher I'mtrying to create what what what nathan
+ is trying to do so there's a brilliant series called Chernobyl yes this one
+
+0:45:23
+Speaker 0 :tested how so you spec talk I think I
+
+
+0:45:25
+Speaker 1 :mean as eyes are I mean they got so many
+ things brilliant right but one of the things again the criticism there yeah
+
+0:45:33
+Speaker 0 :great nice place with lots of people who
+
+
+0:45:34
+Speaker 1 :need your one character that represents
+ all nuclear scientists you wanna comb yet you know it's a composite characterthat presents all scientists is this
+ what you were is this the way you were thinking about that or is it justsimplifies the storytelling how do you
+ think about the lone genius well I'd say
+
+0:45:54
+Speaker 0 :this the series I'm doing at the moment
+ is a critique in part of the lone genius conceptso yes I'm sort of oppositional and
+ either agnostic or atheistic about that as a concept I mean they're not entirelyyou know where the lone lone is the
+ right word broadly isolated but Newton clearlyexists in a sort of bubble of himself in
+ some respect such as Shakespearean do
+
+0:46:23
+Speaker 1 :you think we would have an iPhone
+ without Steve Jobs I mean how much Steve
+
+0:46:27
+Speaker 0 :Jobs clearly isn't alone genius because
+ because there's too many other people in the sort of superstructure around himwho are absolutely fundamental to to
+
+
+0:46:37
+Speaker 1 :that journey are you saying Newton but
+ that's a scientific so there's an engineering element to building Ava but
+
+0:46:44
+Speaker 0 :just to say what ex machina is is really
+ it's a thought experiment I mean so it's a construction of putting four people ina house nothing about ex machina adds up
+ in all sorts of ways in as much as that who built the machine parts did thepeople building the machine parts know
+ what they were creating and how did they get there and it's a thought experimentyes so it doesn't it doesn't stand up to
+ scrutiny of that sort I don't think it's
+
+0:47:14
+Speaker 1 :actually that interesting of a question
+ but it's brought up so often that I had to ask it because that's exactly how Ifelt after what you know there's
+ something about there was almost a defense I got wash your movie the firsttime in at least for the first little
+ while in a defensive way like how dare this person try to step into the AIspace and try to beat Kubrick that's the
+ way I was thinking like this because it comes off as a movie that really isgoing after the deep fundamental
+ questions about AI so there's a there's a kind of a you know nerds do psyche isautomatically searching for the for the
+ flaws and I I decide exactly the same I think in annihilation and the othermovie the I was be able to free myself
+ from that much quicker that it's a it is a thought experiment there's you knowwho cares if there's batteries that
+ don't run out right those kinds of questions that's the whole pointyeah but I bits nevertheless something I
+ wanted to bring up it yeah it's a foot
+
+0:48:18
+Speaker 0 :it's the first thing to bring up for me
+ the you you had all the lone genius thing for me it was actually peoplealways said ex machina makes this big
+ leap in terms of where AI has got to and so what pay I would look like if it gotto that point there's another one which
+ is just robotics I mean look at the way Ava walks around the rooms like forgetit building that it's that that's that's
+ also got to be a very very long way often if you did get that would it lookanything like that it's a thought
+ experiment
+
+0:48:51
+Speaker 1 :actually it's figure we I think the way
+ as a ballerina Alicia vikander brilliant actress actor that movesaround that we're very far away from
+ creating that but the way she moves around is exactly the definition ofperfection for roboticist it's like
+ smooth and efficient so it is where we want to get where I believe like I thinkbecause so I hang out with a lot of like
+ human robotics people they love elegant smooth motion like that that'stheir dream so the way she moved is
+ actually what I believe that would dream for a robot to move it might not be thatuseful to move that sort of that way but
+ that is important the definition of perfection in terms of movement drawinginspiration from real life so for devs
+ for ex machina look at characters like Elon Musk what do you think about thevarious big technological efforts of
+ Elon Musk and others like him and that he's involved with such as Tesla SpaceXyour link do you see any of any of that
+ technology potentially defining the future worlds you create in your workso Tesla's automation SpaceX is space
+ exploration your link is brain machine interface somehow merger of biological
+
+0:50:09
+Speaker 0 :and electric systems I'm in a way I'm
+ influenced by that almost by definition because that's the world I live in andthis is the thing that's happening in
+ that world and I also feel supportive of it so I think I think amongst variousthings Elon Musk has done I'm almost
+ sure he's done a very very good thing with Tesla for all of us it's reallykicked all the other car manufacturers
+ interfaces kicked the fossil fuel industry in the face and and they neededkicking in the face and he's done it so
+ and and so that's the world he's part of creatingand I live in that world just bought a
+ Tesla in fact and so does that play into whatever I then make in some ways itdoes partly because I try to be a writer
+ who quite often filmmakers are in some ways fixated on the films they grew upwith and they sort of remake those films
+ in some ways I've always tried to avoid that and so I looked at the real worldto get inspiration and as much as
+ possible sort of by living I think and so so yeah I'm sure
+
+0:51:24
+Speaker 1 :which of the directions do you find most
+
+
+0:51:28
+Speaker 0 :exciting space trouble space travel so
+
+
+0:51:30
+Speaker 1 :you haven't really explored space travel
+ in your work you've said you've said something like if you had unlimitedamount of money I think I now read at a
+ ma that you would make like a multi-year series space Wars or something like thatso what what is it that excites you
+
+
+0:51:50
+Speaker 0 :about space exploration well because if
+ we have any sort of long-term future it's that it just simply is that ifenergy and matter are linked up in the
+ way we think they're linked up will run out if we don't move so we got to moveand but but also how can we not it's
+ it's built into us to to do it or die trying I was on Easter Island a fewmonths ago which is as I'm sure you know
+ in the middle of the Pacific and and difficult for people to have got to butthey got there and I did think a lot
+ about the way those boats it must have set out into something like space it wasthe ocean and and how sort of
+ fundamental that was to the way we are and it it's the one that most excites mebecause it's the one I want most to
+ happen it's the thing it's the place where we could get to islike in a way I could live with us never
+ really unlocking fully unlocking the nature of consciousness I like to knowI'm really curious but if we never leave
+ the solar system and if we never get further out into this galaxy or maybeeven galaxies beyond our galaxy that
+ that would that feel sad to me because because it's so limiting yeah there's
+
+0:53:24
+Speaker 1 :something hopeful and beautiful bar
+ reaching out any kind of exploration reaching out across earth centuries agoand reaching out into space so what do
+ you think about colonization of Mars so go to Mars does that excite you the ideaof a human being stepping foot on Mars
+
+
+0:53:41
+Speaker 0 :it does it absolutely does but in terms
+ of what would really excite me it would be leaving this solar system in as muchas that I just think I think we already
+ know quite a lot about Mars and but yes listen if it happened that would be Ihope I say in my lifetime I really hope
+ I say in my lifetime I do it would be a wonderful thing without giving anything
+
+0:54:03
+Speaker 1 :away but the series begins with the use
+ of quantum computers a new series does begins with the use of quantum computersto simulate basic living organisms or
+ actually I don't know if it's quantum computers are used but basic livingorganisms simulated on a screen and yeah
+ the cool kind of demo yeah that's right
+
+0:54:23
+Speaker 0 :they're using yes they are using a
+ quantum computer to simulate a nematode
+
+0:54:31
+Speaker 1 :pill so returning to our discussion of
+ simulation or thinking of the universe as a computer do you think the universeis deterministic is there a free will so
+
+
+0:54:43
+Speaker 0 :with the qualification of what do I know
+ because I'm a layman right layperson but
+
+0:54:50
+Speaker 1 :
+
+0:54:50
+Speaker 0 :with big imagination thanks with that
+ qualification yeah I think the universe is deterministic and I see absolutely II cannot see how freewill fits into that
+ so so yes deterministic no free will thatwould be my position and how does that
+
+
+0:55:07
+Speaker 1 :make you feel it partly makes me feel
+
+
+0:55:09
+Speaker 0 :that it's exactly in keeping
+ with the way these things tend to work out which is that we have an incrediblystrong sense that we do have free will
+ and just as we have an incredibly strong sense that time is a constant and turnsout probably not to be the case or
+ definitely in the case of time but but but it's the the problem I always havewith free will is that it gets I can
+ never seem to find the place where it is supposed to reside and yet you explore
+
+0:55:43
+Speaker 1 :
+
+0:55:45
+Speaker 0 :just but a very very but we have
+ something we can call free will but it's not the thing that we think it is but
+
+0:55:52
+Speaker 1 :free was so what we call free will is
+
+
+0:55:55
+Speaker 0 :just what they call it as the illusion
+ of it and that's a subjective experience
+
+0:55:57
+Speaker 1 :of yeah the yeah yeah which is a useful
+
+
+0:56:00
+Speaker 0 :thing to have and it partly it partly
+ comes down to although we live in a deterministic universe our brains arenot very well equipped to fully
+ determine the deterministic universe so we're constantly surprised and feel likewe're making snap decision decisions
+ based on imperfect information so that feels a lot like freewill it just isn'tit would be might that's why I guess so
+
+
+0:56:24
+Speaker 1 :in that sense your sort of sense is that
+ you can unroll the universe forward or backward and you will see the same thingand you would I mean that notion yeah
+
+
+0:56:37
+Speaker 0 :sort of sort of but yeah sorry go ahead
+
+
+0:56:40
+Speaker 1 :I mean that notion is a bit
+ uncomfortable to think about that it's good you can roll it back and andforward and well if you were able to do
+
+
+0:56:53
+Speaker 0 :it it would certainly have to be a
+ quantum computer yeah something that worked in a quantum mechanical way inorder to understand a quantum mechanical
+ system I I guess but but and so that
+
+0:57:07
+Speaker 1 :unrolling there may be a multiverse
+ thing where there's a bunch of branching
+
+0:57:11
+Speaker 0 :what will exactly because it wouldn't
+ follow that every time you roll it back or forward you'd get exactly the sameresult which is another thing that's
+
+
+0:57:17
+Speaker 1 :
+
+0:57:21
+Speaker 0 :hard to rapamycin fact yeah but but but
+ that yes it but essentially what you just describedthat the the yes forwards and yes
+ backwards but you might get a slightly different result works very different
+
+0:57:33
+Speaker 1 :though or very different
+ along the same lines well you've explored some really deep scientificideas in this new series and I mean it's
+ just in general you're unafraid to to ground yourself and some of the mostamazing scientific ideas of our time
+ what what are the things you've learned or ideas you find beautiful mysteriousabout quantum mechanics multiverse
+ string theory quantum computing that
+
+0:57:58
+Speaker 0 :you've learned well I would have to say
+ every single thing I've learned is beautiful and one of the motivators forme is that I think that people tend not
+ to see scientific thinking as being essentially poetic and lyrical but but Ithink that is literally exactly what it
+ is and I think the idea of entanglement or the idea of superpositions or thefact that you could even demonstrate a
+ superposition or have a machine that relies on the existence of superpositions in order to function to me is
+ is almost indescribable beautiful I it it it fills me with all it fills me withawe and also it's not it's not just a
+ sort of grand massive or of but it's also delicate it's very very delicateand subtle and it has these beautiful
+ sort of nuances in it and also these completely paradigm changing thoughtsand truths so so it's it's as good as it
+ gets as far as I can tell so so so broadly everything that doesn't mean Ibelieve everything I read quantum
+ physics because because obviously a lot of the interpretations are completely inconflict with each other and who knows
+ whether string theory will turn out to be a good description or not but but thebeauty in it it seems undeniable and and
+ I do wish people more readily understood how beautiful and poetic science
+
+0:59:41
+Speaker 1 :I would say Sciences poetry in terms of
+ quantum computing being used to simulate things or just in general the idea ofsimulating simulating small parts of our
+ world which actually current physicists are really excited about simulatingsmall quantum mechanical systems on
+ quantum computers but scaling that up to something bigger like simulatinglife-forms how do you think what are the
+ possible trajectories of that going wrong or going right if you if youunroll it into the future well if a bit
+
+
+1:00:17
+Speaker 0 :like Ava and her robotics you park the
+ the sheer complexity of what you're trying to do the the issues are I thinkI think it will have a profound it if
+ you were able to have a machine that was able to project forwards and backwardsaccurately it would in an empirical way
+ show it would demonstrate that you don't have free will so the first thing thatwould happen is people would have to to
+ really take on a very very different idea of what they were the thing thatthey truly truly believe they are they
+ are not and so that that I suspect would be very very disturbing to a lot ofpeople do you think there has a positive
+
+
+1:01:02
+Speaker 1 :or negative effect on society the the
+ realization that you are not you cannot control your actions essentially I guessis the way that could be interpreted
+
+
+1:01:13
+Speaker 0 :yeah although in some ways we
+ instinctively understand that already because in the example I gave you of thekid in the stabbing we would all
+ understand that that kid was not really fully in control of their actions soit's not an idea that's entirely alien
+ to us but I don't know we understand
+
+1:01:29
+Speaker 1 :that I think there's a bunch of people
+ who see the world that way but not everybody yes true
+
+1:01:37
+Speaker 0 :i but what this machine would do is is
+ prove it any doubt because someone would say well I don't believe that's true andthen you'd predict well in 10 seconds
+ you're going to do this and they'd say no no I'm not and then they'd do it andthen determine is
+ would have played its part but I or something like that but actually theexact terms of that thought experiment
+ probably wouldn't play out but but still broadly speaking you could predictsomething happening in another room sort
+ of unseen I suppose the foreknowledge would not allow you to affect so whateffect would that have I think people
+ would find it very disturbing but then after they'd got over their sense ofbeing disturbed which by the way I don't
+ even think you need a machine to to take this idea on board but after they've gotover that they'd still understand that
+ even though I have no free will and my actions are in effect alreadydetermined
+ I still feel things I I still care about stuff I remember my daughter saying tome wish it she'd got hold of the idea
+ that my view of the universe made it meaningless and she said well then it'smeaningless and I said well it I can
+ prove it's not meaningless because you mean something to me and I meansomething to you so it's not completely
+ meaningless because there is a bit of meaning contained within this space andso with a lack of free will space you
+ could think well this robs me of everything I am and then you'd say wellno it doesn't because you still like
+ eating cheeseburgers and you still like going to see the movies and so so howbig a difference does it really make but
+ I think I think initially people would find it very disturbing I think I thinkthat what would come if you could really
+ unlock with a determinism machine everything there'd be this wonderfulwisdom that would come from and I'd
+ rather have that than not so that's a
+
+1:03:33
+Speaker 1 :really good example of a technology
+ revealing to us human something fundamental about our world about oursociety so it's it's almost this
+ creation is helping us understand ourselves in the the thing to be saidabout artificial intelligence so what do
+ you think us creating something like Ava will help us understand about ourselveshow will that change society well I
+
+
+1:04:01
+Speaker 0 :would hope it would teach us some
+ humility humans are very big on exceptionalismyou know America is is constantly
+ proclaiming itself to be the greatest nation on earth which it may feel likethat if you're an American but it may
+ not feel like that if you're from Finland because there's all sorts ofthings you dearly love about Finland and
+ exceptionalism is usually probably not always if we both sat herewe could find a good example of
+ something there isn't but as a rule of thumb and and and what it would do is itwould teach us some humility and about
+ you know actually often that's what science does in a funny way it makes usmore and more interesting but it makes
+ us a smaller and smaller part of the thing that's interesting and I don'tmind that humility at all I I don't
+ think it's a bad thing our excesses don't tend to come fromhumility you know our excesses come from
+ the opposite megalomania we tend to think of consciousness as having someform of exceptionalism
+ attached to it I suspect if we ever unravel it it will turn out to be lessthan we thought in a way and perhaps
+
+
+1:05:13
+Speaker 1 :your very own Exceptionalist assertion
+ earlier on in our conversation that consciousness is something belongs to ushumans or not humans belong organisms
+ maybe you will one day find out that consciousness is in everything and thatwill yeah will humble you exact if that
+
+
+1:05:32
+Speaker 0 :was true it would certainly humble me
+ although maybe almost maybe I don't know I don't know what effect that would haveaye-aye-aye sort of I mean my
+ understanding of that principle is along the lines of say that that an electronhas a preferred state or it may or may
+ not pass through a bed of glass it may reflect off or it may go through orsomething like that and and so that
+ feels as if a choice has been made and but if if I'm going down the fullydeterministic routes I would say there's
+ just an underlying determinism that has defined that that is defined thepreferred state or the reflection or non
+ reflections but look yeah you're right if if if itturned out that there was a thing that
+ it was like to be the Sun then I would I'd be amazed and humbled I'd be happyto be both it sounds pretty cool and
+
+
+1:06:30
+Speaker 1 :they'll be you'll say the same thing as
+ you said to your daughter but it's nevertheless feels something like to beme and that that's pretty damn good yeah
+
+
+1:06:38
+Speaker 0 :
+
+1:06:39
+Speaker 1 :so Kubrick created many masterpieces
+ including The Shining dr. Strangelove Clockwork Orange but to me he will beremembered I think to many a hundred
+ years from now for 2001 a Space Odyssey I would say that's his greatest film I
+
+1:06:55
+Speaker 0 :
+
+1:06:57
+Speaker 1 :agree you are incredibly humble I've
+ listened to a bunch of your interviews and I really appreciate that you'rehumble in your creative efforts in your
+ work but if I were to force you a gunpoint keep it with God
+
+1:07:11
+Speaker 0 :
+
+1:07:13
+Speaker 1 :you don't know that the mystery is to
+ imagine 100 years out into the future what will Alex Carlin be remembered forfrom something you've created already or
+ feel you may feel somewhere deep inside you may still create well ok well I'll
+
+1:07:30
+Speaker 0 :take I'll take the question in the
+ spirit was asked but very generous
+
+1:07:37
+Speaker 1 :
+
+1:07:38
+Speaker 0 :gunpoint yeah what what I what I try to
+ do so therefore what I hope yeah if Iremembered what I might be remembered
+ for is is as someone who who participates in a conversation and Ithink that often what happens is people
+ don't participate in conversations they make proclamations they make statementsand people can either react against the
+ statement or can fall in line behind it and I don't like that so I want to bepart of a conversation I take as a sort
+ of basic principle I think I take lots of my cues from science but one of thebest ones it seems to me is that when a
+ scientist has something proved wrong that they previously believed in theythen have to abandon that position so
+ I'd like to be someone who is allied to that sort of thinking so part of anexchange
+ part of an exchange of ideas and the exchange of ideas for me is somethinglike people in your world show me things
+ about how the world work and then I say this is how I feel about what you'vetold me and then other people can react
+ to that and it's it's not it's not to say this is how the world is it's justto say it is interesting to think about
+ the world in this way and the
+
+1:08:57
+Speaker 1 :conversation is one of the things I'm
+ really hopeful about in your works that the conversation you're having is withthe viewer in the sense that you you're
+ bringing back you and several others but you very much so sort of intellectualdepth to cinema to now series sort of
+ allowing film to be something that yeah sparks a conversation is a conversationlets people think allows them to think
+
+
+1:09:33
+Speaker 0 :but also crew it's very important for me
+ that if that conversation is going to be a good conversation what that mustinvolve is that someone like you who
+ understands AI and I imagine understands a lot about quantum mechanics if theythen watch the narrative feels yes this
+ is a fair account so it is a worthy addition to the conversation that for meis hugely important I'm not interested
+ in getting that stuff wrong I'm only interested in trying to get it right
+
+1:10:03
+Speaker 1 :Alex it was truly an honor to talk to
+ you I really appreciate I really enjoy
+
+1:10:08
+Speaker 0 :it thank you so much thank you Thanks
+
+
+1:10:11
+Speaker 1 :thanks for listening to this
+ conversation with Alex Garland and thank you to representing sponsor cash appdownloaded use code Lex podcast you'll
+ get ten dollars and $10 will go to first an organization that inspires andeducates young minds to become science
+ and technology innovators of tomorrow if you enjoy this podcast subscribe onyoutube give it five stars in a podcast
+ supported on patreon are simply connect with me on Twitter at Lex Friedman andnow let me leave you with a question
+ from Ava the central artificial intelligence character in the movie exmachina that she asked during her Turing
+ test what will happen to me if I fail
+
+1:10:55
+Speaker 0 :your test
+
+
+1:10:56
+Speaker 1 :for listening and hope to see you next
+
+

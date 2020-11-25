@@ -1,0 +1,1176 @@
+Speaker 1 :the following is a conversation with
+ Ariane Vinnie Alice he's a senior research scientist at google deepmindand before that he was a Google brain
+ and Berkeley his research has been cited over 39,000 times he's truly one of themost brilliant and impactful minds in
+ the field of deep learning he's behind some of the biggest papersand ideas and AI including sequence the
+ sequence learning audio generation image captioning neural machine translationand of course reinforcement learning
+ he's a lead researcher of the Alpha Star project creating an agent that defeateda top professional at the game of
+ StarCraft this conversation is part of the artificial intelligence podcast ifyou enjoy it subscribe on youtube itunes
+ or simply connect with me on twitter at Lex Friedman spelled Fri D and nowhere's my conversation with Arielle
+ Minnie Alice you spearheaded the deepmind team behindalpha star that recently beat a top
+ professional player Starcraft so you have an incredible wealth of work anddeep learning in a bunch of fields but
+ let's talk about Starcraft first let's go back to the very beginning evenbefore alpha star before deep mine
+ before deep learning first what came first for you a lot for programming or a
+
+Speaker 0 :love for videogames I think for me it
+ definitely came first the drive to play videogames I really liked computers Ididn't really code much but what I would
+ do is I would just mess with the computer break it and fix it that wasthe level of skills I guess that I
+ gained in my very early days I mean when I was 10 or 11 and then I really gotinto video games especially Starcraft
+ actually the first version I spent most of my time just playing kind of pseudoprofessionally as professionally as you
+ could play back in 98 in Europe which was not a very main scene like thatwhat's called nowadays eSports right of
+
+
+Speaker 1 :course in the 90s so how did you get
+ into StarCraft what was your favorite race how do you develop how did youdevelop your skill what was your
+ strategy all that kind of thing so as a
+
+Speaker 0 :player I tended to try to play not many
+ games not to kind of disclose the strategies that I kind of developed andI like to play random actually not in
+ competitions but just to I think in StarCraft there's well there's threemain races and I found it very useful to
+ play with all of them and so I would choose random many times even sometimesin tournaments to gain skill on the
+ three races because it's not how you play against someone but also if youunderstand the race because you play it
+ you also understand what's annoying what then when you're on the other side whatto do to annoy that person to try to
+ gain advantages here and there and so on so I actually played random although Imust say in terms of favorite race I
+ really liked zerk I was probably best at Zerg and that's probably what I tend touse towards the end of my career
+ year before starting University so let's
+
+Speaker 1 :step back a little bit could you try to
+ describe Starcraft to people that may never have played video games especiallythe massively online variety right so
+
+
+Speaker 0 :craft so Starcraft is a real-time
+ strategy game and the way to think about Starcraft perhaps if you understand abit chess is that there are there's a
+ board which is called map or or or the gallic the map where people play againsteach other there's obviously many ways
+ you can play but the most interesting one is the one versus one setup whereyou just play against someone else or
+ even the built in AI right the wizard put a system that can play the gamereasonably well if you don't know how to
+ play and then in this board you have again pieces like in chess but thesepieces are not there initially like they
+ are in chess you actually need to decide to gather resources to decide whichpieces to build so in a way you're
+ starting almost with no pieces you start gathering resources in StarCraft there'sminerals and gas that you you can gather
+ and then you must decide how much do you want to focus for instance on gatheringmore resources or starting to build
+ units or pieces and then once you have enough pieces or maybe like attack youknow a good attack composition then you
+ go and attack the other side of the map and now the other main difference withchess is that you don't see the other
+ side of the map so you're not seeing the moves of the enemy it's what we callpartially observable
+ so as a result you must not only decide Trading of economy versus building yourown units but you also must decide
+ whether you want to scout to gather information but also byscouting you might be giving away some
+ information that you might be hiding from the enemy so there's a lot ofcomplex decision-making all in real-time
+ there's also unlike chess this is not a turn-based game you play basically allthe time continuously and thus some
+ skill in terms of speed and accuracy of clicking is also very important andpeople that train for these really play
+ this game at an amazing skill I've seen many times these and if youcan witness this life is really really
+ impressive so in a way it's kind of a chess where you don't see the other sideof the board you're building your own
+ pieces and you also need to gather resources to basically get some money tobuild other buildings pieces technology
+ and so on
+
+Speaker 1 :from the perspective of the human player
+ the difference between that and chess or maybe that and a game like turn-basedstrategy like heroes a might of magic is
+ that there's an anxiety because you have to make these decisions really quicklyand if you are not actually aware or
+ what decisions work it's a very stressful balance the if there'severything you describe is actually
+ quite stressful difficult to balance for a mature human player I don't know if itgets easier at the professional level
+ like if they're fully aware what they have to do but at the amateur levelthere's this anxiety oh crap I'm being
+ attacked oh crap I have to build up resource oh I have to probably expandand all these the time the real-time
+ strategy aspect is really stressful and computation I'm sure difficult we'll getinto it but for me battlenet so
+ Starcraft was released in 98 20 years ago which is hard to believe andBlizzard battlenet with Diablo 96 came
+ out and to me it might be a narrow perspective but it changed online gamingand perhaps society forever
+ yeah but I may have made way too narrow viewpoint but from your perspective canyou talk about the history of gaming
+ over the past 20 years is this how transformational how important is this
+
+Speaker 0 :line of games right so I think I I kind
+ of was an active gamer whilst this was developing the internet I'm onlinegaming so for me that the way it came
+ was I played other games strategy related I play a bit of common andconquer and then I played Warcraft 2
+ which is from Blizzard but at the time I didn't know I didn't understand aboutwhat Blizzard was or anything Warcraft 2
+ was just a game which is which was actually very similarto start off in many ways it's also
+ real-time strategy game and where there's orcs and humans so there's onlytwo races throughs offline and it was
+ offline right so I remember a friend of mine came to to school say oh there'sthis new cool game called Starcraft and
+ I just said all these sounds like just a copy of Warcraft 2 until I kind ofinstalled it and at the time I am from
+ Spain so we didn't have internet like very good internet right so there wasfor us a Starcraft became first kind of
+ an offline experience where you kind of start to play these missions right youplay against some sort of scripted
+ things to develop the story of the characters in the game and then later onI start playing against the butene AI
+ and I thought it was impossible to defeat it then eventually you defeat oneand you can actually break n7 built in
+ the eyes at the same time which also felt impossible but actually it's notthat hard to beat seven built-in eyes at
+ once so once we achieve that also we discovered that we could play as I saidinternet wasn't that great but we could
+ play with the land right on like basically against each other if we werein the same place because you could just
+ connect machines with like cables right so we started playing in LAN mode andagain you know as a group of friends and
+ it was really really like much more entertaining than playing against theeyes and later on as internet was
+ starting to develop and being a bit faster and more reliable then it's whenI started experiencing battlenet which
+ is these amazing universe not only because of the fact that you can playthe game against any way anyone in the
+ world but you can also get to know more peopleyou just get exposed to now like this
+ vast variety of it's kind of a bit when the chats came about right there was achat system you could play against
+ people where you could also chat with people not only about soccer but aboutanything and that became a way of life
+ for kind of two years and obviously then it became like an elite exploded didn'tmean that I started to play more
+ seriously going to tournaments and so on so forth
+
+Speaker 1 :do you have a sense and a societal
+ sociological level what whole part of society that many of usare not aware of and it's a huge part of
+ society which is gamers I mean every time I come across that in YouTube orstreaming sites I mean this is a huge
+ number of people play games religiously do you have a sense of those folksespecially now that you've returned to
+ that realm a little bit on the high side
+
+Speaker 0 :yeah so in fact I even after soccer if I
+ actually played World of Warcraft which is mainly the main sort of online worldor in presence that you get to interact
+ with lots of people so I played that for a little bit it was to me it was a bitless stressful than Starcraft because
+ winning was kind of a given you just put in this world and you can alwayscomplete missions but I think it was
+ actually the social aspect of especially Starcraft first and then games likeWorld of Warcraft really shaped me in a
+ very interesting ways because you had you get to experience it's just peopleyou wouldn't usually interact with right
+ so even nowadays I still have many Facebook friends from the area where Iplayed online and their ways of thinking
+ is even political they just don't we don't live in like we don't interact inthere in the real world but we were
+ connected by basically fiber and that way I actually get to understand a bitbetter that we live in a diverse world
+ and these were just connections that were made by because you know I happenedto go in a city in a virtual city as a
+ priest and I met these you know this warrior and we became friends and thenwe start like playing together right so
+ I think it's it's it's transformative and more and more and more people aremore aware of it I mean it's it's
+ becoming quite mainstream but back in the day as you were saying in 2000 2005even it was very still very strange
+ thing to do especially in in Europe I think there were exceptions like Koreafor instance it was amazing like that
+ that everything happened so early in terms of cyber cafes like it's if you goto Seoul it's a city that back in the
+ day Starcraft was kind of you could be a celebrity by playing Starcraft but thiswas like 99 2000 right it's not like
+ recently so um yeah it's quite it's quiteinteresting to to look back and and yeah
+ I think it's changing society that the same way of course like technology andsocial networks and so on are also
+ transforming things and a quick tangent
+
+Speaker 1 :let me ask you're also one of the most
+ productive people in your particular chosen passion and path in life and yetyou're also appreciate and enjoy video
+ games do you think it's possible to do to enjoy video games in moderation
+
+Speaker 0 :someone told me that you could choose
+ two out of three when I was playing video games you could choose having agirlfriend playing video games or
+ studying and I think for the most part it was relatively true these things dotake time games like stark if you take
+ the game pretty seriously and you wanna study it then you obviously willdedicate more time to it and I
+ definitely took gaming and obviously studying very seriously I loved learningscience and etc so to me especially when
+ I started University undergrad I kind of step off Starcraft I actually fullystopped playing and then wall of war
+ curve was a bit more casual you could just connect online and I mean it was itwas fun but I as I said that was not as
+ much time investment as it was for me in
+
+Speaker 1 :StarCraft ok so let's get into alpha
+ star what are the your behind the team so deep mine has been working onStarcraft and released a bunch of cool
+ open-source agents and so on the past few years but alpha star really is themoment where the first time you beat a
+ world-class player so what are the parameters of the challenge in the waythat alpha star took it on and how did
+ you and David and the rest of deepmind team get into itconsider that you can even beat the best
+
+
+Speaker 0 :in the world or top players I think it
+ all started in back in 2015 actually I'm lying I think it was 2014when the mine was acquired by Google and
+ I at the time was at Google brain which is it it was in Californiain California we had this summit where
+ we got together the two groups so Google brain and google deepmind got togetherand we gave a series of talks and given
+ that they were doing deep reinforcement learning for games I decided to bring uppart of my past which I had developed at
+ Berkeley like this thing which we called Berkeley over mine which is really justa Starcraft one but right so I about
+ that and I remember them is just came to me and said well maybe not now it's it'sperhaps a bit too early but you should
+ just come to the mine and do this again with deep reinforcement learning rightand at the time it sounded very
+ science-fiction for for several reasons but then in 2016 when I actually movedto London and joined in mind
+ transferring from brain it became apparent that because of the alphagomoment and kind of Blizzard reaching out
+ to us to say wait like do you want the next challenge and also me beingfull-time at deep mine it's a sort of
+ kind of all these came together and then I was I went to to air vine inCalifornia to the Blizzard headquarters
+ to just chat with them and try to explain how would it all work before youdo anything and the approach has always
+ been about the learning perspective right so in in Berkeley we did a lot ofrule-based you know conditioning and or
+ if you have more than three units then go attack and if the other has moreunits than me I retreat and so on and so
+ forth and of course the point of deep reinforcement learning deep learningmachine learning in general is that all
+ these should be learned behavior so that kind of was the DNA of the project sinceits inception in 2016 where we just
+ didn't even have an environment to work with and so these that's how it allstarted really so if you go back to a
+
+
+Speaker 1 :conversation with damage or even in your
+ own head how far away did you because that's we're talking about Atari gameswe're talking about go which is kind of
+ if you're honest about it really far away from Starcraft in a well now thatyou've beaten it maybe you could say
+ it's close but is it's much it seems like Starcraft is way harder than gophilosophically in mathematically
+ speaking so how far away did you did you think you were do you think it's 2019 in18 you could be doing as well as you
+
+
+Speaker 0 :have yeah when I when I kind of thought
+ about okay I'm gonna dedicate know a lot of my time and focus on this andobviously I do a lot of different
+ research in deep learning so spending time on it I mean I really had to kindof think there's gonna be something good
+ happening out of this so really I thought well this sounds impossible andit probably is impossible to do the full
+ thing like the all like the full game where you play one versus one and it'sonly a neural network playing and so on
+ so it really felt like I just didn't even think it was possible but on theother hand I could see some stepping
+ stones like towards that goal clearly you could define subproblems inStarCraft and sort of dissect it a bit
+ and say okay here is a part of the game here's another part and also obviouslythe fact so this was really also
+ critical to me the fact that we could access human replays right so Blizzardwas very kind and in fact they
+ open-source these for the whole community where you can just go and it'snot every single Starcraft game ever
+ played but it's a lot of them you can just go and download and every day theywill you can just query a dataset and
+ say well give me all the games that were played today and given my kind ofexperience with language and sequences
+ and supervised learning I thought well that's definitely gonna be very helpfuland something quite unique now because
+ ever before we had such a large dataset of replays of people playing the game atthis scale of such a complex video game
+ right so that to me was a precious resource and as soon as I knew thatBlizzard was able to kind of give these
+ to the community I started to feel positive about something non-trivialhappening but but I also thought the
+ full thing like really no rules no no single line of code that tries to saywell I mean if you see this unit will
+ the detector all these not having any of these specializations seemed reallyreally really difficult to me
+
+
+Speaker 1 :I do also like that Blizzard was teasing
+ or even trolling you sort of almost yeah pulling you in into this reallydifficult challenge they have any aware
+ and that what's what's the interest from the perspective of Blizzard except just
+
+Speaker 0 :curiosity yeah I think Blizzard has
+ really understood and and really bring bring forward these competitiveness ofeSports in games the Starcraft really
+ kind of sparked a lot of like something that almost was never seen especially asI was saying he back in Korea so they
+ just probably thought well this is such a pure 1vs1 setup that it would be greatto see if something that can play Atari
+ or go and then later on chess could could even tackle these kind of complexrealtime strategy game right so for them
+ they wanted to see first obviously whether it was possible if the game theycreated was in a way solvable to some
+ extent and I think on the other hand they also are a pretty modern companythat innovates a lot so just starting to
+ understand AI for them to how to bring AI into games is not is not AI for gamesbut get a games for AI oh right I mean
+ both ways I think can work and you up we obviously did mine use games for AIright to drive AI progress but Blizzard
+ might actually be able to do and many other companies to start to understanddone to the opposite so I think that is
+ also something they can get out of these and they definitely we have brainstorm alot about about these right but one of
+
+
+Speaker 1 :the interesting things to me about
+ Starcraft and Diablo and these games that blizzards created is the task ofbalancing classes for example sort of
+ making the game fair from the starting point and then let's skill the term andthe outcome is there uh I mean can you
+ first comment there's three races Zerg Protoss and Terran I don't know if I'veever said that out loud is that how you
+
+
+Speaker 0 :pronounce it Terran yeah yeah I don't
+
+
+Speaker 1 :think I've ever seen personally interact
+ with anybody about Starcraft it's funny
+
+Speaker 0 :
+
+Speaker 1 :so they seem to be pretty balanced
+ I wonder if the AI the work that you're doing with the Alpha star would helpbalance them even further is that
+ something you think about is that something that Blizzard is thinking
+
+Speaker 0 :about right so so balancing when you add
+ a new unit or a new spell type is obviously possible given that you canalways train or retrain at scale some
+ agent that might start using that in unintended ways but I think actually ifyou understand how StarCraft has kind of
+ co-evolved with players in a way I think it's actually very cool the ways thatmany of the things and strategies that
+ people came up with right so I think it's we've seen it over and over inStarCraft that Blizzard comes up with
+ maybe a new unit and then some players get creative and do something kind ofunintentional or something that Blizzard
+ designers that just simply didn't test or think about and then after thatbecomes kind of mainstream in the
+ community Blizzard patches the game and and then they kind of maybe weaken thatstrategy or or make it actually more
+ interesting but a bit more balanced so these kind of continual talk betweenplayers and Blizzard is is kind of what
+ has defined them actually in actually most games that the in in stykera butalso in World of Warcraft they would do
+ that there are several classes and it would be not good that everyone playsabsolutely the same race or and so on
+ right so I think they they do care about balancing of course and they do a fairamount of testing but it's also
+ beautiful to to also see how players get creative anyways and I mean whether Ican be more creative at this point I
+ don't think so right I mean it's just sometimes something so amazing happenslike I remember back in in the days like
+ you have these drop ships that could drop rivers and that was actually notthought about that you could drop this
+ unit that has this what's called Splash Damage that would basically eliminateall the enemies workers at once no one
+ thought that you could actually put them and really early game do that kind ofdamage and then we know things change in
+ the game but I don't know I think there's it's quite an amazingexploration process from both sides
+ players and Blizzard alike well
+
+Speaker 1 :it's it's almost like a reinforcement
+ learning exploration but a the scale of humans that play that play Blizzardgames is almost on the scale of a
+ large-scale deepmind RL experiment I mean if you look at the numbers that's Imean you're talking about I don't know
+ how many games but hundreds of thousands of games probably a month yeah I mean sothat you could it's almost the same as
+ running RL agents what an aspect of the problem of StarCraft II things thehardest is it the like you said the
+ imperfect information is it the fact they have to do long term planning is itthe real time aspects we have to do
+ stuff really quickly is it the fact that a large action space that you can do somany possible things or is it you know
+ in the game theoretic sense there is no Nash equilibria at least you don't knowwhat the optimal strategy is because
+ there's way too many options right what's is there something that standsout is just like the hardest the most
+
+
+Speaker 0 :annoying thing so when we sort of looked
+ at the problem and start to define permit like the parameters of it rightwhat are the observations what are the
+ actions it became very apparent that you know that the very first barrier thatone would hit in StarCraft would be
+ because of the action space being so large and as not being able to searchlike you could in in chess or or go even
+ though the search space is vast the main problem that we identified was that ofexploration right so without any sort of
+ human knowledge or human prior if you think about StarCraft and you know howdeep reinforcement learning is algorithm
+ works work which is essentially by issuing random actions and hoping thatthey will get some wins sometimes so
+ they could learn so if you think of the of the action space in StarCraft almostanything you can do in the early game is
+ bad because any action involves taking workers which are mining minerals forfree that's something that the game does
+ automatically sends them to mine and you would immediately just take them out ofmining and send them around so just
+ thinking how how is it gonna be possible to to get to understand thethese concepts but but even more like
+ expanding right there's there's these buildings you can place in otherlocations in the map to gather more
+ resources but the location of the building is important and you have toselect a worker send it walking to that
+ location build the building wait for the building to be built and then put extraworkers there so they start mining that
+ just that feels like impossible if you just randomly click to produce thatstate desirable state that then you
+ could hope to learn from because eventually that may yield to an extrawin right so for me the exploration
+ problem and due to the actions pace and the fact that there's not really turnsthere's so many turns because the game
+ essentially peaks at 22 times per second if you mean that's how they keepdiscretize sort of time obviously you
+ always have to discretize time there's not no such thing as real time but it'sreally a lot of time steps of things
+ that could go wrong and that definitely felt a priori like the hardest youmentioned many good ones I think partial
+ observability and the fact that there is no perfect strategy because of thepartial observability those are very
+ interesting problems we start seeing more and more now in terms of us wesolve the previous ones but the core
+ problem to me was exploration and solving it has been basically kind ofthe focus and how we saw the first
+
+
+Speaker 1 :breakthroughs so exploration you know in
+ a multi hierarchical way so like 22 times the second exploration is a verydifferent meaning than it does in terms
+ of should I gather resources early or should I wait or so on so how do yousolve the long-term let's talk about the
+
+
+Speaker 0 :internals of alpha stuff so first of all
+
+
+Speaker 1 :how do you represent the state of the
+ game as an input right how do you then do the long term sequence modeling howdo you build a policy right also what's
+
+
+Speaker 0 :the architecture like so alpha star has
+ obviously several components but everything passes through what we callthe policy which is a neural network and
+ that's kind of the beauty of it there is I could just now give you a neuralnetwork and some weights
+ and if you fed the right observations and you understood the actions the sameway we do you would have basically the
+ agent playing the game there's absolutely nothing else needed otherthan those weights that were trained now
+ the first step is observing the game and we've experimented with a fewalternatives the one that we currently
+ use mixes both spatial sort of images that you would process from the gamethat is the zoomed out version of the of
+ the map and also assume the inversion of the camera or the screen as we call itbut also we give to the agent the list
+ of units that it sees more of as a set of objects that it can operate on thatis not necessarily required to use it
+ and we have versions of the game that play well without this set vision thatis a bit not like how humans perceive
+ the game but it certainly helps a lot because it's a very natural way toencode the game is by just looking at
+ all the units that there are there they have properties like health positiontype of unit whether it's my unit or the
+ enemies and that's sort of is kind of the the summary of the state of the ofthe game note that list of units or set
+ of units that you see all the time well
+
+Speaker 1 :that's pretty close to the way humans
+ see it again why do you say it's not isn't it you're saying the exactness ofit is not yeah other humans the
+
+
+Speaker 0 :exactness of it is perhaps not the
+ problem I guess maybe the problem if you look at it from how actually humans playthe game is that they play with a mouse
+ on a keyboard and a screen and they don't see sort of a structured objectwith all the units what they see is what
+ they see on the screen right yes so
+
+Speaker 1 :remember that there's a certain
+ interrupt there's a plot that you showed with camera base where you do exactlythat right move around and that seems to
+ converge it to similar performance yeah
+
+Speaker 0 :I think that's what I we're kind of
+ experimenting with what's necessary or not but using the set so actually if youlook at research in computer vision
+ where it makes a lot of sense to treat images as two-dimensional arrays thereis actually a very nice paper from
+ Facebook I think I forgot who the authorsbut I think it's part of gaming's has
+ group and what they do is they take an image which is this two-dimensionalsignal and they actually take pixel by
+ pixel and scramble the image as if it was just a list of pixels and cruciallythey encode the position of the pixels
+ with at the XY coordinates and this is just kind of a new architecture which weincidentally also use in StarCraft
+ called the transformer which is a very popular paper from last year whichyielded very nice result in machine
+ translation and if you actually believe in this kind of or it's actually a setof pixels as long as you encode X Y it's
+ okay then you you could argue that the listof units that we see is precisely that
+ because we have each unit as a kind of pixel if you will and then there XYcoordinates so in that perspective we
+ without knowing it we use the same architecture that was shown to work verywell on Pascal on image net and so on so
+
+
+Speaker 1 :the interesting thing here is putting it
+ in that way it starts to move it towards the way you usually work with languageso what and especially with your
+ expertise and work in language it seems like there's echoes of a lot of the wayyou would work with natural language in
+ the way you've approached alpha star right what's does that help with thelong term sequence modeling there
+
+
+Speaker 0 :somehow exactly so so now that we
+ understand what an observation for a given time step is we need to move on tosay well there's going to be a sequence
+ of such observations and an agent will need to given all that it's seen notonly the current time step but all that
+ it's seen why because there is partial observability we must remember whetherwe saw a worker going somewhere for
+ instance right because then there might be an expansion and the top right of themap so given that what you must then
+ think about is there is the problem of given all the observations you have topredict the next action and not only
+ given all the observations but given all the observations and given all theactions you've taken predict the next
+ action and that sounds exactly like machine translation where and that'sexactly how kind of I saw the problem
+ especially when you are given supervised data or replays from humans because theproblem is exactly the same you're
+ translating essentially a prefix of observations and actions onto what'sgoing to happen next which is exactly
+ how you would train a model to translate or to generate language as well rightyou have a certain prefix you must
+ remember everything that comes in the past because otherwise you might starthaving noncoherent text and the same
+ architectures we're using LST MS and transformers to operate on across timeto kind of integrate all that's
+ happening in the past those architectures that work so well intranslation or language modeling are
+ exactly the same than what the agent is using to issue actions in the game andthe way we train in moreover for
+ imitation which is step one of alpha studies take all the human experienceand try to imitate it much like you try
+ to imitate translators that translated many pairs of sentences from French toEnglish say that sort of principle
+ applies exactly the same it's you mightyou it's almost the same codeexcept that instead of words you have a
+ slightly more complicated objects which are the observations and the actions arealso a bit more complicated that than
+
+
+Speaker 1 :award is there a self play component
+ into so once you run out of imitation
+
+Speaker 0 :right so so indeed you can bootstrap
+ from human replays but then the agents you get are actually not as good as thehumans you imitated right so how do you
+ imitate well we take humans from 3,000 MMR and hire 3,000 MMR is just a metricof human skill and 3,000 MMR might be
+ like 50% percentile right so it's just Kevin average human what's that so maybe
+
+Speaker 1 :quick pause MMR's ranking scale the
+ matchmaking rating yeah for players so street uh remember there's like a masterand a grandmaster with 3000 so 3,000 is
+
+
+Speaker 0 :is pretty bad I think it's kind of gold
+
+
+Speaker 1 :level it just sounds really good
+ relative to chess I think oh yeah I know
+
+Speaker 0 :the the rating is the best in the world
+ are at 7,000 mm so 3,000 it's a bit like Eloy indeedright so 3,300 just allows us to not
+ filter a lot of the data so we like to have a lot of data in deep learning asyou probably know so we take these kind
+ of 3,500 and above but then we do a very interesting trick which is we tell theneural network what level they are
+ imitating so we say these replay you're gonna try to imitate to predict the nextaction for all the actions that you're
+ gonna see is a 4,000 mm our replay this one is a 6,000 mm our replay and whatwhat's cool about this is then we take
+ this policy that is being trained from human and then we can ask it to playlike a 3,000 mm our player by setting a
+ bit saying well okay play like a 3,000 mm our player or play like a 6,000 mmour player and you actually see how the
+ policy behaves differently it gets worse economy if you play like agold level player it does less actions
+ per minute which is the number of clicks or number of actions that you will issuein a whole minute and it's very
+ interesting to see that it kind of imitates the skill level quite well butif we ask you to play like a 6000 mm our
+ player we tested of course these policies tosee how well they do they actually beat
+ all the built-in ai's that these are put in the game but they're nowhere near6000 mm our players right they might be
+ maybe around gold level platinum perhaps so there's still a lotof work to be done for the policy to
+ truly understand what it means to win so far we only asked them ok here is thescreen and that's what happened on the
+ game until this point what would the next action be that we asked you know weasked a pro - now say all this you're
+ gonna click here or here or there and the point is experiencing experiencingwins and losses is very important to
+ then start to refine otherwise the policy can get loose can can just go off
+
+Speaker 1 :policy as we call it that's so
+ interesting you can at least hope eventually to be able to control apolicy approximately to be a some MMR
+ level that's that's so interesting especially given that you have groundtruth for a lot of these cases right can
+ ask your personal questions or what's your mmm
+
+Speaker 0 :well I haven't played Starcraft 2 so I
+ am unranked oh is the kind of Lois League okay so I used to play Starcraftthe first one and but you haven't
+
+
+Speaker 1 :
+
+Speaker 0 :seriously played so the best player we
+ have a deep mind is about five thousand MMR which is high masters is not atGrandmaster level
+ Grandmaster level would be the top 200 players in a certain region like Europeor America or Asia but for me it would
+ be hard to say I am very bad at the game I actually played alpha star a bit toolate and it bit me I remember the whole
+ team was Oreo you should play yeah and I was it looks like it's not so good yetand then I remember I kind of got busy
+ and waited an extra week and I played and it really beat mevery badly was it I've heard that feel
+
+
+Speaker 1 :it's not an amazing feelings amazing
+
+
+Speaker 0 :yeah I mean obviously I tried my best
+ and I try to also impress my because I actually played the first game so I'mstill pretty good at micromanagement
+ um the promise I just don't understand Starcraft 2 I understand Starcraft andwhen I played Starcraft I probably was
+ consistently like for for a couple years top 32 in Europe so I was decent but atthe time we didn't have this kind of MMR
+ system as as well established so it would be hard to know what what it wasback then so what's the difference in
+
+
+Speaker 1 :interface between alpha star and
+ Starcraft and a human player and Starcraft is there any significantdifferences between the way they both
+
+
+Speaker 0 :see the game I would say the way they
+ see the game there's a few things that are just very hard to simulate the mainone perhaps which is obvious in
+ hindsight is what's called cloaked units which are invisible units so inStarCraft you can make some units that
+ you need to have a particular kind of unit to detect it so these units areinvisible
+ if you cannot detect them you cannot target them so they would just you knowdestroy your buildings or kill your
+ workers but despite the fact you cannot target theunit there's a shimmer that as a human
+ you observe I mean you need to train a little bit you need to pay attention butyou would see this kind of space-time as
+ space-time like distortion and you wouldn't know okay there art yeah yeahit's like a wave thing yeah she's kinda
+ storsch I don't like it that's really like the Blizzard term is shimmershimmer and so this shimmer professional
+ players actually can see it immediately they understand it very well but it'sstill something that requires certain
+ amount of attention and and and it's kind of a bit annoying to deal withwhereas four alpha star in terms of
+ vision it's very hard for us to simulate sort ofyou know are you looking at these pixel
+ in the screen and so on so um the only thing we can do is we there is a unitthat's invisible over there so alpha
+ star would know that immediately obviously still obeys the rules youcannot attack the unit you must have a
+ detector and so on but it's it's kind of one of the main things that it justdoesn't feel there's there's a very
+ proper way I mean you could imagine are you you don't have high present knowexactly where it is or sometimes you see
+ it sometimes you don't but it's it's just really really complicated to get itso that everyone would agree oh that's
+ that's the best way to simulate this right you know it seems like a
+
+Speaker 1 :
+
+Speaker 0 :perception problem it is a perception
+ problem so so the only problem is people are you ask what's the differencebetween how humans perceive the game I
+ would say they wouldn't be able to tell a shimmer immediately as it appears onthe screen
+ whereas alpha star in principal sees it very sharply right it seems okay it seesthat the beat turned from zero to one
+ meaning there's now a unit there although you don't know the unit or youdon't know it you know you know that you
+ cannot attack it and so on God so that from from a vision standpoint thatprobably is the one that is kind of the
+ most obvious one then there are things humans cannot do perfectly evenprofessionals which is they might miss a
+ detail or they might have not seen a unit and obviously as a computer ifthere's a corner of the screen that
+ turns green because a unit enters the field of view that can go into thememory of the agent the lsdm and Percy's
+ there for a while for whatever for however long is
+
+Speaker 1 :relevant right and in terms of action it
+ seems like the rate of action from an alpha star is comparative if not slowerthan professional players but is there
+ but it's more precise as well right so
+
+Speaker 0 :so that's that's a very like that's
+ really probably the one that is causing us more issues for a couple of reasonsright
+ the first one is Starcraft has been an AI environment for quite a few years infact I mean I was participating in the
+ very first competition back in 2010 and there's really not been a kind of a veryclear set of rules how the actions per
+ minute the rate of actions that you can issue is and as a result these agents orbots that people build in a kind of
+ almost very cool way they do like 20,000 40,000 actions per minute now now to putthis in perspective a very good
+ professional human my du 300 to 800 actions per minute they might not be asprecise that's why the range is a bit
+ tricky to to identify exactly I mean 300 actions per minute precisely is probablyrealistic 800 is probably not but you
+ see humans doing a lot of actions because they warm up and they kind ofselect things and spam and so on just so
+ that when they need they have the accuracy so we came into this by nothaving kind of a standard way to say
+ well how do we measure whether an agent is at human level or not on the otherhand we had a huge advantage which is
+ because we do imitation learning agents turned out to act like humans in termsof rate of actions even Precision's and
+ imprecisions of actions in the supervise policy you could see all this you couldsee how agents like to spam click to
+ move here if you played specially Diablo you would know what I mean I mean youjust duck like spam or a move here
+ Murphy a move here you're doing literally like maybe five actions in twoseconds but these actions are not very
+ meaning meaningful one would have sufficed so on the one hand we startfrom this imitation policy that is at
+ the ballpark of the actions per millions of humans because it actsstatistically trying to imitate humans
+ so we see these very nicely in the curves that we showed in the blog postlike this these actions per minute and
+ the distribution looks very human-like but then of course as self play kicks inand and that's the part we haven't
+ talked too much yet but of course the agent must played getting itself toimprove then there's almost no
+ guarantees that these actions will not become more precise or even the rate ofactions is going to increase over them
+ so what we did and this is probably kind of the first attempt that we thought wasreasonable is we looked at the
+ distribution of actions for humans for certain windows of time and just to givea perspective because I guess I
+ mentioned that some of these agents that are programmatic let's call them they do40,000 actions per minute professionals
+ as I said to 300 to 800 so what we looked is we look at a distribution overprofessional gamers and we took
+ reasonably high actions per minute but we kind of identify certain cat offsafter which if even if the agent wanted
+ to act these actions would be dropped but the problem is this cutoff isprobably set a bit too high and what
+ ends up happening even though the games and when we ask the professionals andthe gamers by by and large they feel
+ like it's playing human-like there are some Asians that developed maybeslightly too high a PMS which is actions
+ per minute combined with the precision which made people sort of startdiscussing a very interesting issue
+ which is should we have limited these should we just let it loose and see whatcool things it can come up with right so
+ this is in itself an extremely interesting question but the same waythat modeling the shimmer would be so
+ difficult modeling absolutely all the detailsabout muscles and precision and an
+ tiredness of humans would be quite difficult right so we're here in kind ofinnovating in this sense of okay what
+ could be maybe the next iteration of putting more rules that makes the agentsmore human-like in terms of restrictions
+
+
+Speaker 1 :yeah putting constraints that more
+ constraints yeah that's really interesting that's really innovative soone of the constraints you put on your
+ on yourself or at least focused in is on the protoss race as far as I understandcan you tell me about the different
+ races and how they so protoss terran and the Zerg how do they compare how do theyinteract why did you choose Protoss in
+ right there is in the dynamics of the game you seen from a strategic
+
+Speaker 0 :perspective so Protoss so in stacked of
+ there are three races indeed in the demonstration we saw only the Protossrace so maybe let's start with that one
+ Protoss is kind of the most technologically advanced race it hasunits that are expensive but powerful
+ right so in general you want to kind of conserve your units as you go attack soyou wanna and and then you want to
+ utilize these tactical advantages of very fancy spells and so on so forth andat the same time they're kind of people
+ say like they're they're a bit easier to play perhaps right but that I actuallydidn't know I mean I just talked to now
+ a lot to the players that we we work with TLO and mana and they said oh yeahProtoss is actually people think is
+ actually one of the easiest races so perhaps the easier that doesn't meanthat it's you know obviously
+ professional players excel at the three races and there's never like a race thatdominates for a very long time anyway so
+
+
+Speaker 1 :if you look at the top and 100 in the
+ world is there one race that dominates
+
+Speaker 0 :that list it would be hard to know
+ because it depends on the regions I think it's pretty equal in terms ofdistribution and Blizzard wants it to be
+ equal right they don't want they wouldn't want one race like Protoss tonot be representative in the top place
+ so definitely like they tried it to be like the balance right so then maybe theopposite race of Protoss is zerk dirt is
+ a race where you just kind of expand and take over as many resources as you canand they have a very high capacity to
+ regenerate their units so if you have an army it's not that valuable in terms oflosing the whole army is not a big deal
+ azarkh because you can then rebuild it and given that you generally accumulatea huge Bank of resources zurk steep it
+ will play by a prayer applying a lot of pressure may be losing their whole armybut then rebuilding it quickly so
+ although of course every race I mean there is never I mean they're prettydiverse I mean there's some unity insert
+ that are technologically advanced and they do some very interesting spells andthere's some units in proto's that are
+ less valuable and you could lose a lot of them and rebuild them and it wouldn't
+
+Speaker 1 :be a big deal all right so maybe I'm
+ missing out maybe I'm gonna say some dumb stuff but just summary of strategyso first there's collection of a lot of
+ resources right so that's one option the other one is expanding so building otherbasins then the other is obviously
+ attack ability building units and attacking with those units and then Idon't know what else there is maybe
+ there is the different timing of attacks like to attack early attack ready whatare the different strategies that
+ emerged that you've learned about I've read the a bunch of people are superhappy that you guys have apparently that
+ alpha star apparently is discovered that's really good too what is itsaturate oh yeah they're mind-numbing
+
+
+Speaker 0 :
+
+Speaker 1 :online yeah the mineralogist yeah yeah
+ the in it for greedy amateur players like myself that's always been a goodstrategy you just build up a lot of
+ money and it just feels good it's just accumulate and accumulate so thank youfor discovering that yeah validating all
+ of us but is there other strategies that you discovered interesting yeah unique
+
+Speaker 0 :to to this game yeah so if you look at
+ the kind of not being a stack of two player but of course Starcraft andStarcraft 2 and realtime strategy games
+ in general are very similar I would classify perhaps the openings of thegame they're very important and
+ generally I would say there's two kinds of openings one that's a standardopening that's generally how players
+ find sort of a balance between risk andeconomy and building some you needs
+ early on so that they could defend but they're not to expose basically but alsoexpanding quite quickly so this is would
+ be kind of a standard opening and within a standard opening then you what you dochoose general is what technology are
+ you aiming towards so there's a bit of rock-paper-scissors of you could go forspaceships or you could go for invisible
+ units or you could go for I don't know like massive units that attack againstcertain kinds of units but they're weak
+ against others so standard openings themselves have some choices likerock-paper-scissors style of course if
+ you Scout and you're good at guessing what the opponent is doing then you canplane as an advantage because if you
+ know you're gonna play rock I mean I'm gonna play paper obviously so you canimagine that normal standard games in
+ StarCraft looks like a continuous rock paper scissor game where you guess whatthe distribution of rock paper and
+ scissor is from the enemy and reacting accordingly to try to beat it or youknow put the paper out before he kind of
+ changes his mind from rock to scissors and then you would be in a weak position
+
+Speaker 1 :so sorry to pause on that I didn't
+ realize this element cuz I know it's true but poker I know I looked atLambrakis
+ you're this is so you're also estimating trying to guess the distribution tobetter and better estimate the
+ distribution what the Epona's likely to
+
+Speaker 0 :be doing yeah I mean as a player you
+ definitely want to have a belief state over what's up on the other side of themap and when your belief state becomes
+ inaccurate when you start having that serious doubts whether he's gonna playsomething that you must know that's when
+ you scout you wanna then gather
+
+Speaker 1 :information right it's improving the
+ accuracy of the belief or improving the belief state part of the loss that youtry to optimize or is it just in a side
+
+
+Speaker 0 :effect it's implicit but you could
+ explicitly model it and it would be quite good that's probably predictingwhat's on the other side of the map but
+ so far it's all implicit the lot there's no no additional reward for predictingthe enemy so there's these standard
+ opening x' and then there's what people callwhich is very interesting and alpha star
+ sometimes really likes this kind of cheese these cheese's what they are iskind of an all-in strategy you're gonna
+ do something sneaky you're gonna hide enemies as hide your own buildings closeto the enemy base or you're gonna go for
+ hiding your technological buildings so that you do invisible units and theenemy just cannot react to detect it and
+ does lose the game and there's quite a few of these cheeses and variants ofthem and there is where actually the
+ belief state becomes even more important because if I spelled your base and I seeno buildings at all any human prayer
+ knows something's up they might know well you're hiding something close to mybase should I build suddenly a lot of
+ units to defend should I actually block my ramp with workers so that you cannotcome and destroy my base so there's all
+ these is happening and defending against Jesus is extremely important and in thealpha star League many agents actually
+ develop some cheesy strategies and in the games we saw against elo and manatwo out of the ten agents were actually
+ doing these kind of strategies which are cheesy strategies and then there's abaron of cheesy strategy which is called
+ all-in so an all-in strategy is not perhaps as drastic as oh I'm gonna buildcannons on your base and then bring all
+ my workers and try to just disrupt your base and game over or GG as we say inStarCraft umm there's these kind of very
+ cool things that you can align precisely at a certain time mark so for instanceyou can generate exactly ten unit
+ composition that is perfectly five of these type five of disorder type andalign the upgrade so that at four
+ minutes and a half let's say you have these ten units and the upgrade justfinished and at that point that army is
+ really scary and unless the enemy really knows what's going onif you push you might then have an
+ advantage because maybe the enemy is doing something more standard itexpanded too much it developed too much
+ economy and any trade-off badly against having defenses and the enemy will losebut it's called all-in because if you
+ don't win then you're gonna lose so you see players that do these kind ofstrategies if they don't succeed game is
+ not over I mean they still have a place and they still gathering minerals butthey will just gg out of the game
+ because they know well game is over I gambled and I failedso if we start entering the game
+ theoretic aspects of the game it's really rich and it's really that's whyit also makes it quite entertaining to
+ watch even if I don't play I still enjoy watching the game but the agents aretrying to do this mostly implicitly but
+ one element that we improved in self plays creating the alpha star League andthe alpha star League is not pure self
+ play it's trying to create different personalities of agents so that some ofthem will become cheese cheese agents
+ some of them might become very economical very greedy like getting allthe resources but then being maybe early
+ on they're gonna be weak but later on they're gonna be very strong and bycreating this personality of agents
+ which sometimes it just happens naturally that you can see kind of anevolution of agents that given the
+ previous generation they trained against all of them and then they generate kindof the count the perfect counter to that
+ distribution but these these agents you must have them in the populationsbecause if you don't have them you're
+ not covered against these things right it's kind of you wanna you wanna youknow create all sorts of the opponents
+ that you will find in the wild so you can be exposed to these cheeses earlyaggression later aggression more
+ expansions dropping units in your base from the side all these things and pureself play is getting a bit stack at
+ finding some subset of these but not all of these so the alpha star League is away to kind of do an example of agents
+ that they're all playing and in a league much like people play on battlenet rightthey play you play against someone who
+ does a new cool strategy and you immediately oh my god I want to try it Iwant to play again and these to me was
+ another critical part of the of the of the problem which was can we create abattlenet for agents yeah that's kind of
+ what the Alpha star league is really
+
+Speaker 1 :fascinating and where they stick to
+ their different strategies yeah wow that'sit's really really interesting so but
+ that said you were fortunate enough or just skilled enough to win 5-0 and sohow hard is it to win I mean that's not
+ the goal I guess I don't know what the goal is the goal should be to a majoritynot five zero but how hard is it in
+ general to win all matchups
+
+Speaker 0 :I don't want 1v1 so that's a very
+ interesting question because once you see alpha star and superficially youthink well locate one
+ let's if you some of the games like ten to one right it lost the game that itplayed with the camera interface you
+ might think well that's that's done right there's it's it's super human atthe game and that's not really the claim
+ we really can make actually the claim is we beat a professional gamer for thefirst time Starcraft has really been a
+ thing that it's been going on for a few years but moment a moment like thishasn't not had not occurred before yet
+ but our decisions impossible to beat absolutely not right so that's a bitwhat's you know kind of that the
+ difference is the agents play at Grandmaster level there definitelyunderstand the game enough to play
+ extremely well but are they am beatable do they play perfect no and actually inStarCraft because of these sneaky
+ strategies it's always possible that you might take a huge risk sometimes but youmight get wins right out of out of this
+ so I think that as a domain it still has a lot of opportunities not only becauseof course we want to learn with less
+ experience we would like to I mean if I if I learn to play Protoss I can playturn and learn it much quicker than
+ alpha star can right so there are obvious interesting research challengesas well but even as as the raw like as
+ the raw performance goes really the claim here can be we are at pro level orat high Grandmaster level but obviously
+ the players also did not know what to expect right this kind of their priordistribution was a bit off because they
+ played this kind of new like alien brain as they like to say drive andthat's what makes it exciting for them
+ but also I think if you look at the games closely you see there wereweaknesses in some points maybe alpha
+ star did not scout or if it had got invisible units going against at certainpoints it wouldn't have known and it
+ would have been bad so there's still quite a lot of work to do but it'sreally a very exciting moment for us to
+ be seeing Wow a single neural net on a GPU is actually playing against theseguys who are amazing I mean you have to
+ see them play in life if they're really really amazing players yeah I'm sure
+
+Speaker 1 :there's there's the most there must be a
+ guy in Poland somewhere right now training his butt off to make sure thatthis never happens again with alpha star
+ so that's really exciting in terms of alpha star having some holes to exploityeah it's just great and then you build
+ on top of each other and it feels like Starcraft I'll like go even if you winit's still not there it's still not
+ there's so many different dimensions in which you can explore so that's reallyreally interesting do you think there's
+ a ceiling to alpha star you've said that it hasn't reached you know it's this isa big wait what you know let me actually
+ just pause for a second how did it feel to come here to this point to beat a topprofessional player like that night I
+ mean you know Olympic athletes have their gold medal right this is your goldmedal and sense sure you're cited a lot
+ you published a lot of prestige papers whatever but this is like a win
+
+Speaker 0 :how did it feel I mean it was for me was
+ unbelievable because first the win itself me was so exciting I mean d solooking back to those last days of 2018
+ really well that's when the games were played I'm sure I look back at thatmoment I say oh my god I want to be it
+ like in a project like that it's like I already feel the nostalgia of like yeahthat was huge in terms of the energy and
+ the team effort that went into it and so in that sense as soon as it happened Ialready knew it was kind of I was losing
+ it a little bit so it is almost like sad that it happened and alllike but on the other hand it also
+ verifies the approach but to me also there's so many challenges andinteresting aspects of intelligence that
+ even though we can train a neural network to play at the level of the besthumans there's still so many challenges
+ so for me it's also like well this is really an amazing achievement but Ialready was also thinking about next
+ steps I mean as I said these agents play Protoss vs. Protoss but they should beable to play a different race much
+ quicker right so that would be an amazing achievement some people callthis matter reinforcement learning meta
+ learning and so on right so there's so many possibilities after that moment butthe moment itself it really felt great
+ it's I we had this bet so I I'm kind of a pessimist in general so I kind of sendan email to the team and said okay let's
+ again steal offers right like what's gonna be the result and I really thoughtwe would lose like five zero right III
+ we had some calibration made against the 5000 MMR player TLO was much strongerthan that player even if he played
+ Protoss which is his off race but yeah I was not imagining we would win so for methat was just kind of a test run or
+ something and then it really kind of he was really surprised and unbelievably wewent to this to this bar to celebrate
+ and and dave tells me well why don't we invite someone who is a thousand mm arestronger in proto's like an actual
+ Protoss player like like that it turned up being man all right and you know wehad some drinks and I said sure why not
+ but then I thought well that's really gonna be impossible to beat I mean evenbecause it's so much I had a thousand
+ MMR is really like 99% probability that mana would beat TLO as Protoss vs.Protoss right so we did that and to me
+ the second the second game was much more important even though a lot ofuncertainty kind of disappeared after we
+ we cannot beat the yellow I mean it he is a professional player so that waskind of over that's really a very nice
+ achievement but mana really was at the top and youcould see he played much better but our
+ agents got much better too so it's a and then after the first game I said if wetake a single game at least we can say
+ we beat a game I mean even if we don't beat the series for me that was a hugerelief and I mean I remember hugging
+ them is and I mean it was it was really like this moment for me will resonateforever as a researcher and I mean as a
+ person and is a really like great accomplishment and it was great also tobe there with the team in the room I
+ don't know if you saw like so it was really like I mean from my perspective
+
+Speaker 1 :the other interesting thing is just like
+ watching Kasparov watching mana was also interesting because he didn't he is kindof a loss of words I mean whenever you
+ lose I've done a lot of sports you sometimes say excuses you look forreasons right and he couldn't really
+ come up with a reason yeah yeah I mean so with the off race for Protoss youcould say it was it felt awkward it
+ wasn't but here it was yeah it was it was just beaten and it was beautiful tolook at a human being being superseded
+ by an AI system I mean it's a it's a beautiful moment for researchers so yeah
+
+Speaker 0 :for sure it was it was I mean probably
+ the highlight of my career so far because of its uniqueness and coolnessand I don't know I mean it's obviously
+ as you said you can look at paper citations and so on but these thesereally is like a testament of the whole
+ machine learning approach and using games to advance technology I mean it'sreally it really was everything came
+ together at that moment that that's really the summary also on the other
+
+Speaker 1 :side it's a popularization of AI too
+ because just like traveling to to the moon and so on I mean this is where avery large community of people that
+ don't really and no way I get to really interact with it which is very important
+
+Speaker 0 :I mean it's really we must you know
+ writing papers helps our peers researchers to understand what we'redoing but I think AI is becoming mature
+ enough that we must sort of try to explain what it is and perhaps throughgames is an obvious way because these
+ games always had built so it may be everyone experience an AIplaying a video game even if they don't
+ know because there's always some scripted element and some people mighteven call that AI already right so what
+
+
+Speaker 1 :are other applications of the approaches
+ underlying alpha star that you see happening there's a lot of echoes of hesaid transformer of language modeling so
+ on have you already started thinking where the breakthroughs in alpha starget expanded to other applications right
+
+
+Speaker 0 :so I thought about a few things for like
+ kind of next months next year's the main thing I'm thinking about actually iswhat's next as a kind of a grand
+ challenge because for me like we've seen Atari and then there's like the sort ofthree-dimensional worlds that we've seen
+ also like pretty good performance from these capture-the-flagagents that also some people at deep
+ mine and elsewhere are working on we've also seen some amazing results on likefor instance dota 2 which is also a very
+ complicated game so for me like the main thing I'm thinking about is what's nextin terms of challenge so as a researcher
+ I see sort of two tensions between research and then applications or areasor domains where you apply them so on
+ the one hand we've done thanks to the application of StarCraft is very hard wedevelop some techniques some new
+ research that now we could look at elsewhere like are there otherapplications where we can apply this and
+ the obvious ones absolutely you can think of feeding back to sort of thecommunity we took from which was mostly
+ sequence modeling or natural language processing so we've developed anextended things from the transformer and
+ and we use pointer networks we combine LSD and transformers in interesting waysso that perhaps the kind of lowest
+ hanging fruit of feeding back to now different fields of machine learningthat's not playing video games let me go
+
+
+Speaker 1 :old-school and jump to the
+ to mr. Alan Turing yeah so the Turing test you know there's a natural languagetest the conversational test what's your
+ thought of it as a test for intelligence do you think it is a grand challengethat's worthy of undertaking maybe if it
+ is would you reformulate it or phrase it somehow differently right so I really
+
+Speaker 0 :love the Turing test because I also like
+ sequences and language understanding and in fact some of the early work we did inmachine translation we tried to apply to
+ apply to kind of a neural chat bot which obviously would never pass the Turingtest because it was very limited but it
+ is a very fascinating fascinating idea that you could really have an AI thatwould be indistinguishable from humans
+ in terms of asking or conversing with with it right so I think the test itselfseems very nice and it's kind of well
+ defined actually like the passing it or not I think there's quite a few rulesthat feel like pretty simple and and and
+ you know you could you could really like have I mean I think they have thesecompetitions every year yes of the
+
+
+Speaker 1 :laudner prize but I don't know if you've
+ seen a I don't know if you've seen the
+
+Speaker 0 :
+
+Speaker 1 :kind of bots that emerge from that
+ competition they're not quite as what you would so it feels like that there'sweaknesses with the way tauren
+ formulated it it needs to be that the definition of a genuine rich fulfillinghuman conversation it needs to be
+ something else like the Alexa prize which I'm not as well familiar with hastried to define that more I think by
+ saying you have to continue keeping a conversation for 30 minutes somethinglike that
+ so basically forcing the agent not to just fool but to have an engagingconversation kind of thing is that I
+ mean is is this have you thought about this problem richly like as and if ifyou have in general how how far away are
+ we from you worked a lot on language understanding language generation butthe full dialogue the conversation you
+ know just sitting at the bar having a couple of beers for an hour and thatkind of conversation have you thought
+
+
+Speaker 0 :about yeah so I think you touched here
+ on the critical point which is feasibility right so so there's there'sa great sort of essay by Hamming which
+ describes sort of grand challenges of physics and he argues that well okay forinstance teleportation or time travel
+ our great grand challenges of physics but there's no attacks we really don'tknow or cannot kind of make any progress
+ so that's why most physicists and so on they don't work on these in their PhDsand and as part of their careers so I
+ see the Turing test as I in the full Turing test as a bit still too earlylike I am I think we're especially with
+ the current trend of deep learning language models we've seen some amazingexamples I think GPD to being the most
+ recent one which is very impressive but to understand to fully solve passing orfooling a human to think that you're
+ that there's a human on the other side I think we're quite far so as a result Idon't see myself and I probably would
+ not recommend people doing a PhD on solving the Turing test because it justfeels it's kind of too early or too hard
+ of a problem yeah but that said you said
+
+Speaker 1 :the exact same thing about Starcraft
+ about a few years ago so into damage so
+
+Speaker 0 :I prefer yeah you'll probably also be
+
+
+Speaker 1 :the person who passes the Turing test in
+
+
+Speaker 0 :three years I mean I think I think that
+ yeah so so we have the Sun record this
+
+Speaker 1 :
+
+Speaker 0 :is nice it's really I mean that the it's
+ true that progress sometimes is a bit unpredictable I really wouldn't have noteven six months ago I would not have
+ predicted the level that we see that these agents can deliver at Grandmasterlevel but I I have worked on language
+ enough and basically my concern is not that something could happen abreakthrough could happen that would
+ bring us to solving or passing the Turing test is that I just think thestatistical approach to it like this it
+ is not is not gonna cut it so we need we need the breakthrough weis great for the community but given
+ that I think there's quite a more uncertainty whereas for StarCraft I knewwhat the steps would be to kind of get
+ us there I think it was clear that using the imitation learning part and thenusing these battlenet for agents were
+ gonna be key and and it turned out that this was the case and a little more wasneeded but not much more for Turing test
+ I just don't know what the plan or execution plan would look like so that'swhy I'm I myself working on it as a
+ grand challenge is hard but there are quite a few sub challenges that arerelated that you could say well I mean
+ what if you create a great assistant like Google already has like the Googleassistant so can we make it better and
+ can we make it fully new role and so on that I start to believe maybe we'rereaching a point where we should attempt
+ these challenges like this conversation
+
+Speaker 1 :so much because the echo is very much to
+ start a conversation it's exactly how you approach StarCraft let's break itdown into small pieces solve those and
+ you end up solving the whole game great but that said you you're behind some ofthe sort of biggest pieces of work and
+ deep learning in the last several years so you mentioned some limits what do youthink of the current limits of deep
+ learning and how do we overcome those
+
+Speaker 0 :limits so if I had to actually use a
+ single word to define the main challenge in deep learning is a challenge thatprobably has been the challenge for many
+ years and is that of generalization so what that means is that all that we'redoing is fitting functions to data and
+ when the data we see is not from the same distribution or even if there sometimes that it is very close to
+ distribution but because of the way we train it with limited samples we thenget to this stage where we just don't
+ see generalization as much as we can generalize and I think adversarialexamples are a clear example of these
+ but if you study machine learning and literature and you know the reason whyas VMs came very popular where because
+ they were dealing and they had some guarantees about generalizationwhich is unseen data or out of
+ distribution or even within distribution where you take an image adding a bit ofnoise
+ these models fail so I think really I don't see a lot of progress ongeneralization in in the strong
+ generalization sense of the word I I think our neuron neural networks you canalways find design examples that will
+ make their outputs arbitrary which is which which is not good because wehumans would never be fooled by these
+ kind of images or manipulation of the image and if you look at the mathematicsyou kind of understand this is a bunch
+ of matrices multiplied together there's probably numerix and instabilitythat you can just find corner cases so I
+ think that's really the underlying topic many times we see when even even at thegrand stage of like doing test
+ generalization I mean if used if you startI mean passing the Turing test should
+ you should it be in English or should it be in any language right I mean as ahuman if you could you could if you ask
+ something in a different language you actually will go and do some researchand try to translate it and so on
+ shoot the Turing test in clementa include that right and it's really adifficult problem and very fascinating
+ and very mysterious actually yeah
+
+Speaker 1 :absolutely but do you think it's if you
+ were to try to solve it can you not grow the size of data intelligently in such away that the distribution of your
+ training set does include the entirety of the testing set I think is that onepath the other path is totally new
+ methodology right it's not statistical
+
+Speaker 0 :so a path that has worked well and it
+ worked well in in stark Ravin in machine translation and in languages scaling upthe data and the model and that's kind
+ of been maybe the only single formula that the leap still delivers today indeep learning right it's it's that scale
+ data scale and model scale really do more and more of the things that wethought oh there's no way it can
+ generalize to these Ori there's no way it can generalize to that but I don'tthink fundamentally it
+ resolve with these and for instance I'm really liking some style or approachthat would not only have neural networks
+ but it would have programs or some discrete decision-making because thereis what I feel there's a bit more like
+ like I mean the example of the best example I think for understandingdisease I also worked a bit on or like
+ we can learn an algorithm with a neural network right so you give it manyexamples and it's going to sort your
+ sort the input numbers or something like that but really strong generalization isyou give me some numbers or you ask me
+ to create an algorithm that sorts numbers and instead of creating a neuralnet which will be fragile because it's
+ gonna go out of range at some point you're gonna give you numbers that aretoo large to small and whatnot
+ you just if you just create a piece of code that sorts the numbers then you canprove that that will generalize to
+ absolutely all the possible inputs you could give so I think that's the problemcomes with some exciting prospects I
+ mean scale is a bit more boring but it really works and then maybe programs andthese critics tractions are a bit less
+ developed but clearly I think they're quite exciting in terms of future for
+
+Speaker 1 :the field do you draw any insight wisdom
+ from the 80s and expert systems and symbolic systems about computing do youever go back to those reasoning that
+ kind of logic do you think that might make a comeback you have to dust off
+
+Speaker 0 :those books yeah I actually love
+ actually adding more inductive biases to me the problem really is what are youtrying to solve if what you're trying to
+ solve is so important that try to solve it no matter what then absolutely userules use domain knowledge and then use
+ a bit of the magic of machine learning to empower to make the system as thebest system that will detect cancer or
+ you know or detect weather patterns right or in terms of start of it alsowas a very big challenge so I was
+ definitely happy that if we had to get take cut a corner here and there itcould have been
+ interesting to do and in fact in StarCraft we we start thinking aboutexpert systems because it's very you
+ know you can define I mean people actually build stack reports by thinkingabout those principal I guess you know
+ state machines and rule-based and then you could you could think of combining abit of a rule-based system but that has
+ also neural networks incorporated to make it generalize a bit better soabsolutely I mean we should we should
+ definitely go back to those ideas and anything that makes the problem simpleras long as your problem is important
+ that's okay and that's research driving a very important problem and on theother hand if you wanna really focus on
+ the limits of reinforcement learning then of course you must try not to lookat imitation data or to look some like
+ for some rules of the domain that would help a lot or even feature engineeringright so these these attention that
+ depending on what you do I think both both ways are definitely fine and Iwould never not do one or the other if
+ you're as long as you what you're doing is important and needs to be soft rightright so there's a bunch of different
+
+
+Speaker 1 :ideas that that that you develop that I
+ really enjoy so but one one is translating from the image captioningtranslated finish the text just just
+ another just beautiful yeah beautiful idea I think that resonates throughoutyour work actually so the underlying
+ nature of reality being language always yes somehow so what's the connectionbetween images and text rather the
+ visual world and the world of language
+
+Speaker 0 :in your view right so I think a piece of
+ research that's been central to I would say even extending into Starcraft is isthis idea of sequence to sequence
+ learning which what we really meant by that is that you can you can now reallyinput anything to a neural network as
+ the input X and then the neural network will learn a function f that will take Xas an input and produce any output Y and
+ these x and y's don't need to be like static or like a features like aslike a fixed vectors or anything like
+ that it could be it really sequences and now beyond like data structures right sothat paradigm was tested in a very
+ interesting way when we moved from translating French to English totranslating an image to its caption but
+ the beauty the beauty of it is that really and that's actually how ithappened I run I change the line of code
+ in this thing that was doing machine translation I and I came the next dayand I saw how it like it was producing
+ captions that seemed like oh my god this is really really working and theprinciple is the same right so I think I
+ don't see text vision speech waveforms as something different here as long asyou basically learn a function that will
+ vector eyes you know these into and then after we vectorize it we can then useyou know transformers LS DMS whatever
+ the flavor of the month of the model is and then as long as we have enoughsupervised data really this formula will
+ work and we'll keep working I believe to some extent model of thesegeneralization issues that I mentioned
+ before so but the testers to vectorize
+
+Speaker 1 :sort of former representation that's
+ meaningful nothing and your intuition now having worked with all this media isthat once you are able to form that
+ representation you can basically take any things any sequence is there go backto Starcraft is there limits on the
+ length so we didn't really touch on a long term effect how did you overcomethe whole really long term aspect of
+ things here is there some tricks or so
+
+Speaker 0 :the main streak so Starcraft if you look
+ at absolutely every frame you might think it's it's quite a long game so wewould have to multiply 22 times 60
+ seconds per minute times maybe at least 10 minutes per game on average so thereare quite a few frames but the trick
+ really was to only observe in fact which might be seen as a limitation butit is also computational advantage only
+ observe when you act and then what the neural network decides is what is thegap gonna be until the next action and
+ if you look at most Starcraft games that we have in the in the data set thatBlaser provided it turns out that most
+ games are actually only I mean it is still a long sequence but it may be likea thousand to 1,500 actions which if you
+ start looking at L STM's large LST M's transformers it's it's not like it's notthat that difficult especially if you
+ have supervised learning if you had to do it with reinforcement learning thecredit assignment problem what is it
+ that in this game that made you win that would be really difficult but thankfullybecause of imitation learning we didn't
+ kind of have to deal with these directly although if we had to we tried it andwhat happen is you just take all your
+ workers and attack with them and that sort of is kind of obvious in retrospectbecause you start trying random actions
+ one of the actions will be a worker that goes to the enemy base and because it'sself play it's not gonna know how to
+ defend because it basically doesn't know almost anything and eventually what youdevelop is this take our workers and
+ attack because the the create assignment issue in Arad is really really hard I dobelieve we could do better and that's
+ maybe a research challenge for the future but yeah even even in StarCraftthe sequences are maybe a thousand which
+ I believe there is within the realm of what transformers can do yeah I guess
+
+Speaker 1 :the difference between Starcraft and go
+ is in go and chest stuff starts happening right away right so there'snot yeah it's pretty easy to self play
+ not easy but to sulfa is possible to develop reasonable strategy as quicklyas opposed to Starcraft meaning go
+
+
+Speaker 0 :there's only 400 actions but one action
+ is what people would call the god action that would be if you had expanded thewhole search tree that's the best action
+ if you did minimax or whatever algorithm you would do if you had thecomputational capacity
+ but in StarCraft the 400 is miniscule like a in 400 you don't even like youyou couldn't even click on the pixels
+ around a unit right so I think the problem there is in terms of actionspace size is way harder so and that
+ surge is impossible so there's quite a few challenges indeed that make thiskind of a step step up in terms of
+ machine learning for humans maybe they playing Starcraft it seemsmore intuitive because it's looks real I
+ mean you know like the graphics and everything moves smoothlywhereas I I don't know how to come in go
+ is a game that I wouldn't really mean to study it feels quite complicated but formachines kind of maybe easier reverse
+ yes
+
+Speaker 1 :which shows you the gap actually between
+ deep learning and however the heck our brains work so you developed a lot ofreally interesting ideas it's
+ interesting to just ask what's the what's your process of developing newideas
+ do you like brainstorming with others do you like thinking alone do you like likewas it eating good fellow said he came
+ up with Gans after a few beers right he thinks beers are essential yeah comingup with new ideas we had beers to decide
+
+
+Speaker 0 :to play another game game of Starcraft
+ after a week so it's really similar to that story actually I explained this ina in a deep mind retreat and I said this
+ is the same as the gun story I mean we were wearing a bar and we decided let'splay again next week and that's what
+ happened I feel like we're giving the
+
+Speaker 1 :wrong message to young undergrads yeah
+
+
+Speaker 0 :
+
+Speaker 1 :but in general like yeah do you like
+ brainstorming do you like thinking alone
+
+Speaker 0 :working stuff out and so I think I think
+ throughout the years also things changed right so initially I was very fortunateto be with great minds like Geoff Hinton
+ Jeff Dean Ilya sutskever I was really fortunate to join brain at a very goodtime so at that point it ideas I was
+ just kind of brainstorming with my colleagues and learned a lot and keeplearning is actually something you
+ should never stop doing right so learning implies reading papers and alsothese casting ideas with others it's
+ very hard at some point to not communicate that being readingpaper forms from someone or actually
+ discussing right so definitely that communication aspect needs to be therewhether it's written or oral nowadays
+ I'm also trying to be a bit more strategic about what research to do so Iwas describing a little bit this sort of
+ tension between research for the sake of research and then you have on the otherhand applications that can drive the
+ research right and honestly the formula that has worked best for me is just finda hard problem and then try to see how
+ research fits into it how it doesn't fit into it and then you must innovate so Ithink machine translation drove sequence
+ to sequence then maybe like learning algorithms that had to likecombinatorial algorithms led to pointer
+ networks Starcraft led to really scaling a permutation learning and the Alphastar league so that's been a formula
+ that I personally like but the other one is also about it and I seen it succeed alot of the times where you just want to
+ investigate model-based RL as a kind of a research topic and then you must thenstart to think well how are the tests
+ how are you going to test these ideas you need to kind of a minimalenvironment to try things you need to
+ read a lot of papers and so on and that's also very fun to do and somethingI've also done quite a few times both at
+ brain at the mine and obviously as as a PhD so so I think besides that the ideasand discussions I think it's important
+ also because you start sort of guiding not only your own goals but otherpeople's goes to the next breakthrough
+ so you you must really kind of understand these you know feasibilityalso as we were discussing before right
+ whether whether these domain is ready to be tackled or not and you don't want tobe too early you obviously don't want to
+ be too late so it's it's really interesting and this is a strategiccomponent of research which I think as a
+ grad student I just had no idea to you know I just read papers and discussedideas and I think this has been maybe
+ the major change and I recommend people kind of feed forward to successhow it looks like and try to backtrack
+ other than just kind of looking out these looks cool these looks cool andthen you do a bit of random work which
+ sometimes you stumble upon some interesting things but in general it'sit's also good to plan a bit yeah I like
+
+
+Speaker 1 :it
+ especially like your approach I've taken a really hard problem stepping right inand then being super skeptical about
+
+
+Speaker 0 :
+
+Speaker 1 :yeah being robbed I mean there's a
+ balance of both right there's a silly optimism and and a critical sort ofskepticism that's good to balance which
+ is why it's good to have a team of people that that balance that you don't
+
+Speaker 0 :do that on your own you have both
+ mentors that have seen or you obviously wanna chat and discuss whether it's theright time I mean Demi's came in 2014
+ and he said maybe in a bit we'll do starcraft and maybe he knew and that'sand I'm just following his lead which is
+ great because he's he's brilliant right so these these things are obviouslyquite important that you wanna be
+ surrounded by people who you know are diverse they they have their knowledgethere's also important too I mean I I've
+ learned a lot from people who actually have an idea that I might not think it'sgood but if I give them the space to try
+ it I've been proven wrong many many times as well so that's that's greatit's I think it's your colleagues are
+ more important than yourself I think so
+
+Speaker 1 :sure now let's real quick talk about
+ another impossible problem AGI right what do you think it takes to build asystem that's human level intelligence
+ we talked a little bit about the Tauranga stark after all these haveechoes of general intelligence but if
+ you think about just something that you would sit back and say wow this isreally something that resembles human
+ level intelligence what do you think it
+
+Speaker 0 :takes to build that so I find that AGI
+ oftentimes is maybe not by well defined so what I'm trying to then come up withfor myself is what would be a result
+ look like that you would start to believe that you would haveagents or neural nets that no longer
+ sort of over feet to a single task right but actually kind of learn the skill oflearning so to speak and that actually
+ is a field that I am fascinated by which is the learning to learn or metalearning which is about no longer
+ learning about a single domain so you can think about the learning algorithmitself is general right so the same
+ formula we applied for alpha star or Starcraft we can now apply to kind ofalmost any video game or you could apply
+ to many other problems and domains but the algorithm is what's kind ofgeneralizing but the neural network the
+ weights those weights are useless even to play another race right I train anetwork to play very well at Protoss vs.
+ Protoss I need to throw away those weights if I want to play nowterran vs terran i would need to retrain
+ a network from scratch with the same algorithm that's beautifulbut the network itself will not be
+ useful so I think when I if I see an approach that can observe or startsolving new problems without the need to
+ kind of restart the process I think that to me would be a nice way to define someform of AGI again I don't know the grand
+ views like age I mean so it should Turing test nice or before AGI I mean Idon't know I think I think concretely I
+ would like to see clearly that meta learning happened meaning there there isan architecture or network that as it
+ sees new new problem or new data it solves it and to make it kind of abenchmark it should solve it at the same
+ speed that we do solve new problems when I define your new object and you have torecognize it when I when you start
+ playing a new game you played all the times but now you play a new Atari gamewell you you're gonna be pretty quickly
+ pretty good at the game so that's perhaps what's the domain and what's theexact benchmark is a bit difficult I
+ think as a community we might need to do some work to define itbut I think this first step I could see
+ it happen relatively soon but then the whole what a GI means and so on I am abit more confused about what I think
+ people mean different things there's an
+
+Speaker 1 :emotional psychological level that like
+ the even the Turing test passing the Turing test is something that we justpassed judgment on human beings what it
+ means to be you know as a as a dog in a GI system yeah like what level what doesit mean right yeah what does it mean but
+ I like the generalization and maybe as a community would converge towards a groupof domains that are sufficiently far
+ away that would be really damn impressive if we're able to generalizesome perhaps not as close as Protoss and
+ Zerg but like Wikipedia step be a good stuff and then a really good step butthen then like Wickham Starcraft 2
+ Wikipedia yeah I'm back yeah that kind
+
+Speaker 0 :of thing and that that feels also quite
+ hard and far but I think there's as long as you put the benchmark out as wediscovered for instance with image net
+ then tremendous progress can be had so I think maybe there's a lack of benchmarkbut I'm sure we'll find one and yeah a
+ community will will then work towards that and then beyond what a GI mightmean or would imply I really am hopeful
+ to see basically machine learning or AI just scaling up and helping you knowpeople that might not have the resources
+ to hire an assistant or that they might not even know what the weather is likebut you know so I think there's in terms
+ of the impact the positive impact of AI I think that's maybe what we should alsonot lose focus right the research
+ community building AG I mean that's a real nice girl but man I think the waythat deep mind puts it is and then use
+ it to solve everything else right so I think we should paralyze yeah we
+
+Speaker 1 :shouldn't forget about all the positive
+ things that are actually coming out of it already and I are not going to becoming out right but
+ that I know let me ask relative the popular perception do you have any worryabout the existential threat of
+ artificial intelligence in the near or far future that some people have I think
+
+Speaker 0 :I'm in the near future I'm I'm skeptical
+ so I hope I'm not wrong but I'm I'm not concerned but I I appreciate effortsongoing efforts and even like whole
+ research fields on AI safety emerging and in conferences and so on I thinkthat's great in the long term I really
+ hope we just can simply have the benefits outweigh the potential dangersI am hopeful for that but also we must
+ remain vigilant to kind of monitor and assess whether the trade-offs are arethere and and we have you know enough
+ also lead time to prevent or to redirect our efforts if need be right so but I'mquite I'm quite optimistic about the
+ technology and definitely more fearful of other threats in terms of planetarylevel at this point but obviously that's
+ the one I kind of have more like power on so clearly I do start thinking moreand more about this and it's kind of
+ it's groaning me actually to to start reading more about AI safety jeez afieldthat so far I have not really
+ contributed to but maybe there's something to be done there as well I
+
+Speaker 1 :think it's really important you know I
+ would talk about this issue folks but it's important to ask you and shove itin your head because you're at the
+ leading edge of actually what people are excited about nay I I mean the work withalpha star it it's arguably at the very
+ cutting edge of the kind of thing that people are afraid of and so you speakingto that fact and that we're actually
+ quite far away to the kind of thing that people might be afraid of but it's stillsomething worthwhile to think about and
+ it's also good that you're the you're not as worried and you'realso open to us yeah me Maura
+
+
+Speaker 0 :there's two aspects I mean me not being
+ worried but obviously we should prepare for for for it right for for likeforever for things that could go wrong
+ misuse of the technologies as with any technologies right so I think there'sthere's always trade-offs and I I as a
+ society we've kind of solved these to some extent within the past so I'mhoping that by having the researchers
+ and the whole community brainstorm and come up with interesting solutions tothe new things that will happen in the
+ future that we can still also push the researchto the Avenue that I think is kind of
+ the greatest Avenue which is to understand intelligence right how are wedoing what we're doing and you know
+ obviously from a scientific standpoint that is kind of the drive my personaldriver of all the time that I spend
+ doing what I'm doing really what do you
+
+Speaker 1 :see the deep learning as a field heading
+ what do you think the next big big breakthrough might be so I think deep
+
+Speaker 0 :learning I I discuss a little of this
+ before deep learning has to be combined with some form of discretization programsynthesis I think that's kind of as a
+ research in itself is an interesting topic to expand and start doing moreresearch and then as kind of what will
+ deep learning and able to do in the future I don't think that's gonna bewhat's gonna happen this year but also
+ this idea of starting not to throw away all the weights that the this idea oflearning to learn and really having
+ these agents not having to restart their weights and you you can have an agentthat is kind of solving or classifying
+ images on image net but also generating speech if you ask it to generate somespeech and and it should really be kind
+ of almost the same network but might not be a neural networking might be a neuralnetwork with a optimization algorithm
+ attached to it but I think this idea of generalization to new tasks is somethingthat we first must define good
+ benchmarks but then I think that's gonna be exciting and I'm notsure how close we are but I think
+ there's the pet if you have a very limited domain I think we can startdoing some progress and much like how we
+ did a lot of programs in computer vision we should start thinking am I reallylike a talk that gave that Leon blue to
+ give gave at ICML a few years ago which is this train test paradigm should bebroken we we know we should stop
+ thinking about a training test at Acharya training set and a test set andthese are closed you know things that
+ are untouchable I think we should go beyond these and in meta learning wecall these the meta training set and the
+ meta test set which is really thinking about if I know about imagenet why wouldthat network not work on M NIST which is
+ a much simpler problem but right now it really doesn't it you know yeah and butit just feels wrong right so I think
+ that's kind of the there's the on the application or the benchmark sites we weprobably will see quite a few more
+ interest and progress and hopefully people defining new and excitingchallenges really do you have any hope
+
+
+Speaker 1 :or interest in knowledge graphs within
+ this context so just kind of totally yeah constructing graph so going backthat graphs yap well okay neural
+ networks and graphs but I mean a different kind of knowledge graph sortof like semantic graphs or there's
+
+
+Speaker 0 :concepts yeah so I think I think the the
+ idea of graphs is is so I've been quite interested in sequences first and thenmore interesting or different data
+ structures like graphs and I've studied graph narrow networks in the last threeyears or so I found these models just
+ very interesting from like deep learning sites standpoint but then how what do wewant why do we want these models and and
+ why would we use them what's the application what's kind of the killerapplication of graphs right and perhaps
+ if we could extract a knowledge Graff from Wikipedia automatically rightum that would be interesting because
+ then these graphs have this very interesting structure that also is a bitmore comfortable with this idea of
+ programs and deep learning kind of working togetherthe jumping neighborhoods and so on you
+ could imagine defining some primitives to go around graphs right so I think Ireally like the idea of a knowledge
+ graph and in fact when we we started or you know as part of the research we didfor StarCraft I thought wouldn't it be
+ cool to give the graph of you know all the prerequisites like this all thesebuildings that depend on each other and
+ units that have prerequisites of being built by that and so this is informationthat the network can learn and extract
+ but it would have been great to see um or to think of really stack graph as agiant graph that even also as the game
+ evolves use kind of star trek taking branches and so on and we tried we reada bit of research on these nothing too
+ relevant but I I really like the idea
+
+Speaker 1 :and it has elements that are which
+ something you also worked with in terms of visualizing your networks as elementsof having human interpretable being able
+ to generate knowledge representations that are human interpretable that maybehuman experts can then tweak or at least
+ understand so there's there's a lot of interesting aspect there and for mepersonally I'm just a huge fan of
+ Wikipedia and it's it's a shame that our neural networks aren't taking advantageof all the structured knowledge that's
+ on the web what's next for for you what's next for deep mind what are youexcited about what a four alpha star
+
+
+Speaker 0 :yeah so I think the obvious next steps
+ would be to apply alpha star to other races I mean that's sort of shows thatthe algorithm works because we wouldn't
+ want to have created by mistake something in the architecture thathappens to work for Protoss but not for
+ other races right so as verification I think that's an obvious next step thatwe are working on and then I would like
+ to see so agents and players can specialize ondifferent skill sets that allow them to
+ be very good I think we've seen alpha star understanding very well when totake battles and when to not to do that
+ do that also very good at micromanagement and moving the unitsaround and so on and also very good at
+ producing non-stop and trading of economy with building units but I havenot perhaps seen as much as I would like
+ this idea of the poker idea that you mentioned right I'm not sure Starcraftor alpha star rather has developed a
+ very deep understanding of what the opponent is doing and reacting to thatand sort of trying to to to trick the
+ player to do something else or that you know so this kind of reasoning I wouldlike to see more so I think purely from
+ a research standpoint there's perhaps also quite a few of you things to bedone there in the domain of StarCraft
+
+
+Speaker 1 :yeah in a domain of games I've seen some
+ interesting work in sort of in even auctions manipulating other players soforming a belief state and just messing
+ with people yeah about theory of mind
+
+Speaker 0 :
+
+Speaker 1 :yeah yeah yeah this is a theory of mine
+
+
+Speaker 0 :on star Kirby's kind of they're really
+ made for each other yeah so that would be very exciting tosee those techniques applied to
+ Starcraft or perhaps Starcraft driving new techniques right as I said this isalways the tension between the two well
+
+
+Speaker 1 :Oriol thank you so much for talking
+ today awesome it was great to be here
+

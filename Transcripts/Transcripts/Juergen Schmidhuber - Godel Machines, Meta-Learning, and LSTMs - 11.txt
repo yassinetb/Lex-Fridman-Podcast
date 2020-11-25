@@ -1,0 +1,793 @@
+Speaker 0 :
+
+Speaker 1 :the following is a conversation with
+ jurgen schmidhuber he's the co-director
+
+Speaker 0 :of a CSA a lab and a co-creator of long
+
+
+Speaker 1 :short term memory networks LS TMS are
+
+
+Speaker 0 :used in billions of devices today for
+ speech recognition translation and much
+
+Speaker 1 :
+
+Speaker 0 :more over 30 years he has proposed a lot
+
+
+Speaker 1 :of interesting out-of-the-box ideas a
+
+
+Speaker 0 :
+
+Speaker 1 :meta learning adversarial networks
+ computer vision and even a formal theory
+
+Speaker 0 :of quote creativity curiosity and fun
+
+
+Speaker 1 :
+
+Speaker 0 :this conversation is part of the MIT
+ course and artificial general intelligence and the artificial
+
+Speaker 1 :intelligence podcast if you enjoy it
+
+
+Speaker 0 :subscribe on youtube itunes or simply
+
+
+Speaker 1 :connect with me on twitter at Lex
+
+
+Speaker 0 :Friedman spelled Fri D and now here's my
+ conversation with jurgen schmidhuber
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :early on you dreamed of AI systems that
+ self-improve recursively when was that
+
+Speaker 0 :dream born when I was a baby
+ no it's not true I mean it was a
+
+Speaker 1 :teenager and what was the catalyst for
+ that birth what was the thing that first
+
+Speaker 0 :inspired you when I was a boy I'm I was
+ thinking about what to do in my life and then I thought the most exciting thingis to solve the riddles of the universe
+ and and that means you have to become a physicist however then I realized thatthere's something even grander you can
+ try to build a machine that isn't really a machine any longer that learns tobecome a much better physicist than I
+ could ever hope to be and that's how I thought maybe I can multiply my tinylittle bit of creativity into infinity
+
+
+Speaker 1 :but ultimately that creativity will be
+ multiplied to understand the universe around us that's that's the thecuriosity for that mystery that that
+
+
+Speaker 0 :drove you yes so if you can build a
+ machine that learns to solve more and more complex problems and more and moregeneral problems older then you
+ basically have solved all the problems at least all the solvable problems so
+
+Speaker 1 :how do you think what is the mechanism
+ for that kind of general solver look like obviously we don't quite yet haveone or know how to build one who have
+ ideas and you have had throughout your career several ideas about it so how do
+
+Speaker 0 :you think about that mechanism so in the
+ 80s I thought about how to build this machine that learns to solve all theseproblems I cannot solve myself and I
+ thought it is clear that has to be a machine that not only learns to solvethis problem here and
+ problem here but it also has to learn to improve the learning algorithm itself soit has to have the learning algorithm in
+ a representation that allows it to inspect it and modify it such that itcan come up with a better learning
+ algorithm so I call that meta learning learning to learn and recursiveself-improvement that is really the
+ pinnacle of that why you then not only alarm how to improve on that problem andon that but you also improve the way the
+ machine improves and you also improve the way it improves the way it improvesitself and that was my 1987 diploma
+ thesis which was all about that hierarchy of metal or knows that I haveno computational limits except for the
+ well known limits that Google identified in 1931 and for the limits our physics
+
+Speaker 1 :in the recent years meta learning has
+ gained popularity in a in a specific kind of form you've talked about howthat's not really meta learning with
+ Newall networks that's more basic transfer learning can you talk about thedifference between the big general meta
+ learning and a more narrow sense of meta learning the way it's used today theways talked about today let's take the
+
+
+Speaker 0 :example of a deep neural networks that
+ has learnt to classify images and maybe you have trained that network on 100different databases of images and now a
+ new database comes along and you want to quickly learn the new thing as well soone simple way of doing that as you take
+ the network which already knows 100 types of databases and then you wouldjust take the top layer of that and you
+ retrain that using the new label data that you have in the new image databaseand then it turns out that it really
+ really quickly can learn that to one shot basically because from the first100 data sets
+ it already has learned so much about about computer vision that it can reusethat and that is then almost good enough
+ to solve the new task except you need a little bit of adjustment on the top sothat is transfer learning and it has
+ been done in principle for many decades people have done similar things fordecades meta-learning true mental
+ learning is about having the learning algorithm itself open to introspectionby the system that is using it and also
+ open to modification such that the learning system has an opportunity tomodify any part of the learning
+ algorithm and then evaluate the consequences of that modification andthen learn from that to create a better
+ learning algorithm and so on recursively so that's a very different animal whereyou are opening the space of possible
+ learning algorithms to the learning
+
+Speaker 1 :system itself right so you've like in
+ this 2004 paper you described get all machines and programs that we writethemselves yeah right philosophically
+ and even in your paper mathematically these are really compelling ideas butpractically do you see these self
+ referential programs being successful in the near term to having an impact wheresort of a demonstrates to the world that
+ this direction is a is a good one to
+
+Speaker 0 :pursue in the near term yes we had these
+ two different types of fundamental research how to build a universalproblem solver one basically exploiting
+ [Music] proof search and things like that thatyou need to come up with asymptotic Liam
+ optimal theoretically optimal self-improvement and problems all of ushowever one has to admit that through
+ this proof search comes in an additive constant an overhead an additiveoverhead that vanishes in comparison to
+ what you have to do to solve large problems however for many of the smallproblems that we want to solve in our
+ everyday life we cannot ignore this constant overhead and that's why we alsohave been doing other things non
+ universal things such as recurrent neural networks which are trained bygradient descent and local search
+ techniques which aren't universal at all which aren't provably optimal at alllike the other stuff that we did but
+ which are much more practical as long as we only want to solve the small problemsthat we are
+ typically trying to solve in this environment here yes so the universalproblem solvers like the girdle machine
+ but also Markos who does fastest way of solving all possible problems which hedeveloped around 2012 - in my lab they
+ are associated with these constant overheads for proof search whichguarantee is that the thing that you're
+ doing is optimal for example there is this fastest way of solving all problemswith a computable solution which is due
+ to Marcus Marcus jota and to explain what's going on there let's taketraveling salesman problems with
+ traveling salesman problems you have a number of cities in cities and you tryto find the shortest path through all
+ these cities without visiting any city twice and nobody know is the fastest wayof solving Traveling Salesman problems
+ tsps but let's assume there is a method of solving them within n to the 5operations where n is the number of
+ cities then the universal method of Marcus is going to solve the sametrolley salesman problem
+ also within n to the 5 steps plus o of 1 plus a constant number of steps that youneed for the proof searcher which you
+ need to show that this particular class of problems that Traveling Salesmansalesman problems can be solved within a
+ certain time bound within order into the five steps basically and this additiveconstant doesn't care for in which means
+ as n is getting larger and larger as you have more and more cities the constantoverhead pales in comparison and that
+ means that almost all large problems I solved in the best possible way ourway today we already have a universal
+ problem solver like sound however it's not practical because the overhead theconstant overhead is so large that for
+ the small kinds of problems that we want to solve in this little biosphere by the
+
+Speaker 1 :way when you say small you're talking
+ about things that fall within the constraints of our computational systemsthinking they can seem quite large to us
+
+
+Speaker 0 :mere humans right that's right yeah so
+ they seem large and even unsolvable in a practical sense today but they are stillsmall compared to almost all problems
+ because almost all problems are large problems which are much larger than anyconstant do you find it useful as a
+
+
+Speaker 1 :person who is dreamed of creating a
+ general learning system has worked on creating one has done a lot ofinteresting ideas there to think about P
+ versus NP this formalization of how hard problems are how they scale this kind ofworst-case analysis type of thinking do
+ you find that useful or is it only just a mathematical it's a set ofmathematical techniques to give you
+ intuition about what's good and bad
+
+Speaker 0 :mm-hmm so P versus NP that's super
+ interesting from a theoretical point of view and in fact as you are thinkingabout that problem you can also get
+ inspiration for better practical problems always on the other hand wehave to admit that at the moment as he
+ best practical problem solvers for all kinds of problems that we are nowsolving through what is called AI at the
+ moment they are not of the kind that is inspired by these questions you knowthere we are using general-purpose
+ computers such as recurrent neural networks but we have a search techniquewhich is just local search gradient
+ descent to try to find a program that is running on these recurrent networks suchthat it can
+ or some interesting problems such as speech recognitionmachine translation and something like
+ that and there is very little theory behind the best solutions that we haveat the moment that can do that do you
+
+
+Speaker 1 :think that needs to change you think
+ that world change or can we go can we create a general intelligence systemswithout ever really proving that that
+ system is intelligent in some kind of mathematical way solving machinetranslation perfectly or something like
+ that within some kind of syntactic definitionof a language or can we just be super
+ impressed by the thing working extremely well and that's sufficient there's an
+
+Speaker 0 :old saying and I don't know who brought
+ it up first which says there's nothing more practical than a good theory and umyeah and a good theory of
+ problem-solving under limited resources like here in this universe or on thislittle planet has to take into account
+ these limited resources and so probably that is lockinga theory in which is related to what we
+ already have sees a sim totally optimal comes almost which which tells us whatwe need in addition to that to come up
+ with a practically optimal problem so long so I believe we will have somethinglike that
+ and maybe just a few little tiny twists unnecessary to to change what we alreadyhave to come up with that as well as
+ long as we don't have that we mmm admit that we are taking sub optimal ways andwe can y'all not Verizon long shorter
+ memory for equipped with local search techniques and we are happy that itworks better than any competing method
+ but that doesn't mean that we we think
+
+Speaker 1 :we are done you've said that an AGI
+ system will ultimately be a simple one a general intelligent system willultimately be a simple one maybe a
+ pseudocode of a few lines to be able to describe itcan you talk through your intuition
+ behind this idea why you feel that uh at its core intelligence is a simple
+
+Speaker 0 :
+
+Speaker 1 :
+
+Speaker 0 :algorithm experience tells us that this
+ stuff that works best is really simple so see asymptotic team optimal ways ofsolving problems if you look at them and
+ just a few lines of code it's really truealthough they are these amazing
+ properties just a few lines of code then the most promising and most usefulpractical things maybe don't have this
+ proof of optimality associated with them however they are so just a few lines ofcode the most successful mmm we can
+ neural networks you can write them down and five lines of pseudocode that's a
+
+Speaker 1 :beautiful almost poetic idea but what
+ you're describing there is this the lines of pseudocode are sitting on topof layers and layers
+ abstractions in a sense hmm so you're saying at the very top mmm you'll be abeautifully written sort of algorithm
+ but do you think that there's many layers of abstractions we have to firstlearn to construct yeah of course we are
+
+
+Speaker 0 :building on all these great abstractions
+ that people have invented over the millennia such as matrix multiplicationsand real numbers and basic arithmetic
+ and calculus and derivations of error functions and derivatives of errorfunctions and stuff like that
+ so without that language that greatly simplifies our way our thinking aboutthese problems we couldn't do anything
+ so in that sense as always we are standing on the shoulders of the Giantswho in the past simplified the problem
+ of problem solving so much that now we have a chance to do the final step the
+
+Speaker 1 :final step will be a simple one oh if we
+ if you take a step back through all of human civilization in just the universein check
+ how do you think about evolution and what if creating a universe is requiredto achieve this final step what if going
+ through the very painful and an inefficient process of evolution isneeded to come up with this set of
+ abstractions that ultimately to intelligence do you think there's ashortcut or do you think we have to
+ create something like our universe in order to create something like human
+
+Speaker 0 :level intelligence hmm so far the only
+ example we have is this one this universe and you live you better maybenot but we are part of this whole
+ process right so apparently so it might be the key is that the code that runsthe universe as
+ really really simple everything points to that possibility because gravity andother basic forces are really simple
+ laws that can be easily described also in just a few lines of code basicallyand and then there are these other
+ events that the apparently random events in the history of the universe which asfar as we know at the moment don't have
+ a compact code but who knows maybe somebody and the near future is going tofigure out the pseudo-random generator
+ which is which is computing whether the measurement of that spin up or downthing here is going to be positive or
+
+
+Speaker 1 :negative underlying quantum mechanics
+ yes so you ultimately think quantum mechanics is a pseudo-random numbergenerator monistic there's no randomness
+ in our universe does God play dice so a
+
+Speaker 0 :couple of years ago a famous physicist
+ quantum physicist Anton Zeilinger he wrote an essay in nature and it startedmore or less like that one of the
+ fundamental insights our theme of the 20th century was that the universe isfundamentally random on the quantum
+ level and that whenever you measure spin up or down or something like that a newbit of information enters the history of
+ the universe and while I was reading that I was already typing the respondsand they had to publish it because I was
+ right that there's no evidence no physical evidence for that so there's analternative explanation where everything
+ that we consider random is actually pseudo-random such as the decimalexpansion of pi
+ supply is interesting because every three-digit sequence every sequence ofthree digits appears roughly one in a
+ thousand times and every five digit sequence appears roughly one in tenthousand times what do you really would
+ expect if it was run random but there's a very short algorithm short programthat computes all of that so it's
+ extremely compressible and who knows maybe tomorrow somebody some gradstudent at CERN goes back over all these
+ data points better decay and whatever and figures out oh it's the secondbillion digits of pi or something like
+ that we don't have any fundamental reason at the moment to believe thatthis is truly random and not just a
+ deterministic video game if it was a deterministic video game it would bemuch more beautiful because beauty is
+ simplicity and many of the basic laws of the universe like gravity and the otherbasic forces are very simple so very
+ short programs can explain what these are doing and and it would be awful andugly the universe would be ugly the
+ history of the universe would be ugly if for the extra things the random theseemingly random data points that we get
+ all the time that we really need a huge number of extra bits to destroy allthese um these extra bits of information
+ so as long as we don't have evidence that there is no short program thatcomputes the entire history of the
+ entire universe we are a scientists compelled to look further for that Swiss
+
+Speaker 1 :program your intuition says there exists
+ a shortest a program that can backtrack to the to the creation of the universeso the shortest path to the creation yes
+
+
+Speaker 0 :including all the
+ entanglement things and all the spin up-and-down measurements that have beentaken place since 13.8 billion years ago
+ and so yeah so we don't have a proof that it is random we don't have a proofof that it is compressible to a short
+ program but as long as we don't have that proof we are obliged as scientiststo keep looking for that simple
+ explanation absolutely so you said
+
+Speaker 1 :simplicity is beautiful or beauty is
+ simple either one works but you also work on curiosity discoveryyou know the romantic notion of
+ randomness of serendipity of being surprised by things that are about youkind of in our poetic notion of reality
+ we think as humans require randomness so you don't find randomness beautiful youuse you find simple determinism
+
+
+Speaker 0 :beautiful yeah okay so why why because
+ the explanation becomes shorter a universe that is compressible to a shortprogram is much more elegant and much
+ more beautiful than another one which needs an almost infinite number of bitsto be described as far as we know many
+ things that are happening in this universe are really simple in terms arefrom short programs that compute gravity
+ and the interaction between elementary particles and so on so all of that seemsto be very very simple every electron
+ seems to reuse the same sub program all the time as it is interacting with otherelementary particles if we now require
+ an extra Oracle injecting new bits of information all the time for these extrathings which are currently no
+ understood such as better decay then the whole descriptionlength our data that we can observe out
+ of the history of the universe would become much longer and therefore uglier
+
+Speaker 1 :and uglier
+ again the simplicity is elegant and
+
+Speaker 0 :beautiful all the history of science is
+ a history of compression progress yes so you've described sort of as we build up
+
+Speaker 1 :abstractions and you've talked about the
+ idea of compression how do you see this the history of science the history ofhumanity our civilization and life on
+ earth as some kind of path towards greater and greater compression what doyou mean by there how do you think of
+
+
+Speaker 0 :that indeed the history of science is a
+ history of compression progress what does that mean hundreds of years agothere was an astronomer whose name was
+ Keppler and he looked at the data points that he got by watching planets move andthen he had all these data points and
+ suddenly turnouts that he can greatly compress the data by predicting itthrough an ellipse law so it turns out
+ that all these data points are more or less on ellipses around the Sun andanother guy came along whose name was
+ Newton and before him hook and they said the same thing that is making theseplanets move like that is what makes the
+ apples fall down and it also holds form stones and for all kinds of otherobjects and suddenly many many of these
+ compression of these observations became much more compressible because as longas you can predict the next thing given
+ what you have seen so far you can compress it you don't have to store thatdata extra this is called predict
+ coding and then there was still something wrong with that theory of theuniverse and you had deviations from
+ these predictions of the theory and 300 years later another guy came along whosename was Einstein and he he was able to
+ explain away all these deviations from the predictions of the old theorythrough a new theory which was called
+ the general theory of relativity which at first glance looks a little bit morecomplicated and you have to warp space
+ and time but you can't phrase it within one single sentence which is no matterhow fast you accelerate and how fast are
+ hard you decelerate and no matter what is the gravity in your local frameworkLightspeed always looks the same and
+ from from that you can calculate all the consequences so it's a very simple thingand it allows you to further compress
+ all the observations because suddenly there are hardly any deviations anylonger that you can measure from the
+ predictions of this new theory so all of science is a history of compressionprogress you never arrive immediately at
+ the shortest explanation of the data but you're making progress whenever you aremaking progress you have an insight you
+ see all first I needed so many bits of information to describe the data todescribe my falling apples my video are
+ falling apples I need so many data so many pixels have to be stored but thensuddenly I realize no there is a very
+ simple way of predicting the third frame in the video from the first tool and andmaybe not every little detail can be
+ predicted but more or less most of these orange blocks blobs that are coming downthey accelerate in the same way which
+ means that I can greatly compress the video and the amount of compressionprogress that is the depth of the
+ insight that you have at that moment that's the fun that you have theScientific fun that fun in that
+ discovery and we can build artificial systems that do the same thing theymeasure the depth of their insights as
+ they are looking at the data which is coming in through their own experimentsand we give them a reward an intrinsic
+ reward and proportion to this depth of insight and since they are trying tomaximize the rewards they get they are
+ suddenly motivated to come up with new action sequences with new experimentsthat have the property that the data
+ that is coming in as a consequence are these experiments has the property thatthey can learn something about see a
+ pattern in there which they hadn't seen yet before so there's an idea of power
+
+Speaker 1 :play you've described a training general
+ problem solver in this kind of way of looking for the unsolved problemsyeah can you describe that idea a little
+
+
+Speaker 0 :further it's another very simple idea so
+ normally what you do in computer science you have you have some guy who gives youa problem and then there is a huge
+ search space of potential solution candidates and you somehow try them outand you have more less sophisticated
+ ways of moving around in that search space until you finally found a solutionwhich you consider satisfactory that's
+ what most of computer science is about power play just goes one little stepfurther and says let's not only search
+ for solutions to a given problem but let's search two pairs of problems andtheir solutions where the system itself
+ has the opportunity to phrase its own problem so we are looking suddenly atpairs of problems and their solutions or
+ modifications are the problems over that is supposed to generate a solution tothat
+ new problem and and this additional degree of freedom allows us to buildKorea systems that are like scientists
+ in the sense that they not only try to solve and try to find answers toexisting questions no they are also free
+ to impose their own questions so if you want to build an artificial scientist wehave to give it that freedom and power
+ play is exactly doing that so that's
+
+Speaker 1 :that's a dimension of freedom that's
+ important to have but how do you are hardly you think that
+
+Speaker 0 :
+
+Speaker 1 :how multi-dimensional and difficult the
+ space of them coming up in your questions is yeah so as as it's one ofthe things that as human beings we
+ consider to be the thing that makes us special the intelligence that makes usspecial is that brilliant insight yeah
+ that can create something totally new
+
+Speaker 0 :yes so now let's look at the extreme
+ case let's look at the set of all possible problems that you can formallydescribe which is infinite which should
+ be the next problem that a scientist or power-play is going to solve well itshould be the easiest problem that goes
+ beyond what you already know so it should be the simplest problemthat the current problems all of that
+ you have which can already sold 100 problems that he cannot solve yet byjust generalizing so it has to be new so
+ it has to require a modification of the problem solver such that the new problemsolver can solve this new thing but the
+ old problem solver cannot do it and in addition to that we have to makesure that the problem solver doesn't
+ forget any of the previous solutions right and so by definition power play isnow trying always to search and this
+ pair of in in the set of pairs of problems and problems over modificationsfor a combination that minimize the time
+ to achieve these criteria so as always trying to find the problem which iseasiest to add to the repertoire so just
+
+
+Speaker 1 :like grad students and academics and
+ researchers can spend the whole career in a local minima hmmstuck trying to come up with interesting
+ questions but ultimately doing very little do you think it's easy well inthis approach of looking for the
+ simplest unsolvable problem to get stuck in a local minima is not never reallydiscovering new you know really jumping
+ outside of the hundred problems the very solved in a genuine creative way no
+
+Speaker 0 :because that's the nature of power play
+ that it's always trying to break its current generalization abilities bycoming up with a new problem which is
+ beyond the current horizon just shifting the horizon of knowledge alittle bit out there breaking the
+ existing rules search says the new thing becomessolvable but wasn't solvable by the old
+ thing so like adding a new axiom like what Google did when he came up withthese new sentences new theorems that
+ didn't have a proof in the phone system which means you can add them to therepertoire
+ hoping that that they are not going to damage the consistency of the whole
+
+Speaker 1 :thing so in the paper with the amazing
+ title formal theory of creativity fun in intrinsic motivation you talk aboutdiscovery as intrinsic reward so if you
+ view humans as intelligent agents what do you think is the purpose and meaningof life far as humans is you've talked
+ about this discovery do you see humans as an instance of power play
+
+Speaker 0 :agents yeah so humans are curious and
+ that means they behave like scientists not only the official scientists buteven the babies behave like scientists
+ and they play around with toys to figure out how the world works and how it isresponding to their actions and that's
+ how they learn about gravity and everything and yeah in 1990 we had thefirst systems like the hand would just
+ try to to play around with the environment and come up with situationsthat go beyond what they knew at that
+ time and then get a reward for creating these situations and then becoming moregeneral problem solvers and being able
+ to understand more of the world so yeah I think in principle that that thatcuriosity strategy or sophisticated
+ versions of whether chess is quiet they are what we have built-in as wellbecause evolution discovered that's a
+ good way of exploring the unknown world and a guy who explores the unknown worldhas a higher chance of solving problems
+ that he needs to survive in this world on the other hand those guys who weretoo curious they were weeded out as well
+ so you have to find this trade-off evolution found a certain trade-offapparently in our society there are as a
+ certain percentage of extremely exploitive guyand it doesn't matter if they die
+ because many of the others are more conservative and and and so yeah itwould be surprising to me if if that
+ principle of artificial curiosity wouldn't be present and almost exactlythe same form here in our brains
+
+
+Speaker 1 :so you're a bit of a musician and an
+ artist so continuing on this topic of creativity what do you think is the roleof creativity and intelligence so you've
+ kind of implied that it's essential for intelligence if you think ofintelligence as a problem-solving system
+ as ability to solve problems but do you think it's essential this idea of
+
+Speaker 0 :creativity we never have a program a sub
+ program that is called creativity or something it's just a side effect ofwhen our problem solvers do they are
+ searching a space of problems or a space of candidates of solution candidatesuntil they hopefully find a solution to
+ have given from them but then there are these two types of creativity and bothof them are now present in our machines
+ the first one has been around for a long time which is human gives problem tomachine machine tries to find a solution
+ to that and this has been happening for many decades and for many decadesmachines have found creative solutions
+ to interesting problems where humans were not aware of these particularly increative solutions but then appreciated
+ that the machine found that the second is the pure creativity that I would callwhat I just mentioned I would call the
+ applied creativity like applied art where somebody tells you now make a nicepicture off of this Pope and you will
+ get money for that okay so here is the artist and he makes a convincing pictureof the Pope and the Pope likes it and
+ gives him the money and then there is the pure creativecreativity which is more like the power
+ play and the artificial curiosity thing where you have the freedom to selectyour own problem like a scientist who
+ defines his own question to study and so that is the pure creativity of UL andopposed to the applied creativity which
+ serves another and in that distinction
+
+Speaker 1 :there's almost echoes of narrow AI
+ versus general AI so this kind of constrained painting of a pope seems
+
+Speaker 0 :like the the approaches of what people
+
+
+Speaker 1 :are calling narrow AI and pure
+ creativity seems to be maybe I'm just biased as a human but it seems to be anessential element of human level
+ intelligence is that what you're implying
+
+Speaker 0 :to a degree if you zoom back a little
+ bit and you just look at a general problem-solving machine which is tryingto solve arbitrary problems then this
+ machine will figure out in the course of solving problems that it's good to becurious so all of what I said just now
+ about this prewired curiosity and this will to invent new problems that thesystem doesn't know how to solve yet
+ should be just a byproduct of the general search however apparentlyevolution has built it into us because
+ it turned out to be so successful a pre-wiring a buyer's a very successfulexploratory buyers that that we are born
+ with and you've also said that
+
+Speaker 1 :consciousness in the same kind of way
+ may be a byproduct of problem-solving you know do you think do you find it'san interesting by-product you think it's
+ a useful by-product what are your thoughts on consciousness in general oris it simply a byproduct of greater and
+ greater capabilities of problem-solving that's that's similar to creativity inthat sense yeah we never have a
+
+
+Speaker 0 :procedure called consciousness in our
+ machines however we get as side effects of what these machines are doing thingsthat seem to be closely related to what
+ people call consciousness so for example in 1990 we had simple systems which werebasically recurrent networks and
+ therefore universal computers trying to map incoming data into actions that leadto success
+ maximizing reward in a given environment always finding the charging station intime whenever the battery's low and
+ negative signals are coming from the battery always finds the chargingstation in time without bumping against
+ painful obstacles on the way so complicated things but very easilymotivated and then we give these little
+ a separate we can all network which is just predicting what's happening if I dothat in that what will happen as a
+ consequence of these actions that I'm executing and it's just trained on thelong and long history of interactions
+ with the world so it becomes a predictive model loss of art basicallyand therefore also a compressor our
+ theme observations after what because whatever you can predict you don't haveto store extras or compression is a side
+ effect of prediction and how does this record Network impress well it'sinventing little sub programs little sub
+ Network networks that stand for everything that frequently appears inthe environment like bottles and
+ microphones and faces maybe lots of faces in my environment so I'm learningto create something like a prototype
+ face and a new face comes along and all I have to encode are the deviations fromthe prototype so it's compressing all
+ the time the stuff that frequently appears there's one thing that appearsall the time that is present all the
+ time when the agent is interacting with its environment which is the agentitself
+ so just for data compression reasons it is extremely natural for this we cannetwork to come up with little sub
+ networks that stand for the properties of the agents the hand you know the theother actuators and all the stuff that
+ you need to better encode the data which is influenced by the actions of theagent so they're just as a side effect
+ of data compression during problem-solvingyou have inter myself models now you can
+ use this model of the world to plan your future and that's what yours have donesince 1990 so the recurrent Network
+ which is the controller which is trying to maximize reward can use this model asa network of the what is this model
+ network as a wild this predictive model of the world to plan ahead and say let'snot do this action sequence let's do
+ this action sequence instead because it leads to more predictor to rewards andwhenever it's waking up these layers of
+ networks let's stand for itself and it's thinking about itself and it's thinkingabout itself and it's exploring mentally
+ the consequences of its own actions and and now you tell me what is stillmissing missing the next the gap to
+
+
+Speaker 1 :consciousness yeah hi there there isn't
+ that's a really beautiful idea that you know if life is a collection of data andin life is a process of compressing that
+ data to act efficiently you in that data you yourself appear very often so it'suseful to form compressions of yourself
+ and it's a really beautiful formulation of what consciousness is a necessaryside-effect it's actually quite
+
+
+Speaker 0 :
+
+Speaker 1 :compelling to me you've described our
+ nen's developed LST aims long short-term memory networks the there type ofrecurrent neural networks they have
+ gotten a lot of success recently so these are networks that model thetemporal aspects in the data temporal
+ patterns in the data and you've called them the deepest of the Newell networksright so what do you think is the value
+ of depth in the models that we use to
+
+Speaker 0 :learn since you mentioned the long
+ short-term memory and the lsdm I have to mention the names of the brilliantstudents
+ of course that's worse first of all and my first student ever set for writer whohad fundamental insights already in this
+ diploma thesis then Felix Kias had additional important contributions Alexgray is a guy from Scotland who is
+ mostly responsible for this CTC algorithm which is now often used toto train the Alice TM to do the speech
+ recognition on all the Google Android phones and whatever and Siri and so onso these guys without these guys I would
+ be nothing it's a lot of incredible work
+
+Speaker 1 :
+
+Speaker 0 :what is now the depth what is the
+ importance of depth well most problems in the real world are deepin the sense that the current input
+ doesn't tell you all you need to know about the environment mm-hmm so insteadyou have to have a memory of what
+ happened in the past and often important parts of that memory are dated they arepretty old and so when you're doing
+ speech recognition for example and somebody says eleven then that's abouthalf a second or something like that
+ which means it's already fifty-eight time steps and another guy or the sameguy says seven so the ending is the same
+ Evan but now the system has to see the distinction between seven and eleven andthe only way I can see the differences
+ it has to store that fifty steps ago there wasn't or a nerve eleven or sevenso there you have already a problem of
+ depth fifty because for each time step you have something like a virtual alayer and the expanded unrolled version
+ of this Riccar network which is doing the speech recognition so these longtime lags they translate into problem
+ depth and most problems and this world Asajj that you really have to look farback in time
+ to understand what is the problem and to solvent but just like with our CMS you
+
+Speaker 1 :don't necessarily need to when you look
+ back in time remember every aspect you just need to remember the important
+
+Speaker 0 :aspects that's right the network has to
+ learn to put the important stuff in into memory and to ignore the unimportant
+
+Speaker 1 :noise so but in that sense deeper and
+ deeper is better or is there a limitation is is thereI mean LCM is one of the great examples
+ of architectures that do something beyond just deeper and deeper networksthere's clever mechanisms for filtering
+ data for remembering and forgetting so do you think that that kind of thinkingis necessary if you think about LCM is a
+ leap a big leap forward over traditional vanilla are nuns what do you think is
+
+Speaker 0 :the next leap hmm it within this context
+
+
+Speaker 1 :so LCM is a very clever improvement but
+ LCM still don't have the same kind of ability to see far back in the future inthe in the past as us humans do the
+ credit assignment problem across way back not just 50 times steps or ahundred or a thousand but millions and
+
+
+Speaker 0 :billions it's not clear what are the
+ practical limits of the lsdm when it comes to looking back already in 2006 Ithink we had examples where it not only
+ looked back tens of thousands of steps but really millions of steps and who wonParis artists in my lab I think was the
+ first author of a paper where we really was a 2006 or something had examplesword learn to look back for more than 10
+ million steps so for most problems of speech recognition it's not necessary tolook that far back but there are
+ examples where it does now so looking back thing[Music]
+ that's rather easy because there is only one past but there are many possiblefutures and so a reinforcement learning
+ system which is trying to maximize its future expected rewards and doesn't knowyet which of these many possible future
+ should I select given this one single past it's facing problems that the LCNby itself cannot solve so the other sim
+ is good for coming up with a compact representation of the history so far ofthe history and observations in action
+ so far but now how do you plan in an efficient and good way among all thesehow do you select one of these many
+ possible action sequences that a reinforcement learning system has toconsider to maximize reward in this
+ unknown future so again it behaves this basic setup where you have one week onnetwork which gets in the video and the
+ speech and whatever and it's executing actions and is trying to maximize rewardso there is no teacher who tells it what
+ to do at which point in time and then there's the other network which isjust predicting what's going to happen
+ if I do that then and that could be an LCM Network and it allows to look backall the way to make better predictions
+ of the next time step so essentially although it's men predicting only thenext time step it is motivated to learn
+ to put into memory something that happened maybe a million steps agobecause it's important to memorize that
+ if you want to predict that at the next time step the next event you know howcan a model of the world like that a
+ predictive model of the world be used by the first guy let's call it thecontroller and the model the controller
+ and the model how can the model be used by the controller to efficiently selectamong these many possible futures so
+ naive way we had about 30 years ago was let's just use the model of the world asa stand-in as a simulation of the wall
+ and millisecond by millisecond we planned the future and that means wehave to roll it out really in detail and
+ it will work only as the model is really good and it will still be inefficientbecause we have to look at all these
+ possible futures and and there are so many of them so instead what we do nowsince 2015 and our cm systems controller
+ model systems we give the controller the opportunity to learn by itself how touse the potentially relevant parts of
+ the M of the model network to solve new problems more quickly and if it wants toit can learn to ignore the M and
+ sometimes it's a good idea to ignore the the M because it's really bad it's a badpredictor in this particular situation
+ of life where the control is currently trying to maximize r1 however it canalso allow and to address and exploit
+ some of the sub programs that came about in the model network through compressingthe data by predicting it so it now has
+ an opportunity to reuse that code the ethnic information in the modern aretrying to reduce its own search space
+ such that it can solve a new problem more quickly than without the model
+
+Speaker 1 :compression so you're ultimately
+ optimistic and excited about the power of ära of reinforcement learning in thecontext of real systems absolutely yeah
+
+
+Speaker 0 :
+
+Speaker 1 :so you see RL as a potential having a
+ huge impact beyond just sort of the M part is often develop on supervisedlearning methods
+ you see RL as a four problems of cell traffic cars or any kind of appliedcyber BOTS X that's the correct
+ interesting direction for research in your view I do think so we have a
+
+Speaker 0 :company called Mason's Mason's which has
+ applied to enforcement learning to little Howdy'sthere are DS which learn to park without
+ a teacher the same principles were used of course so these little Audi's theyare small maybe like that so I'm much
+ smaller than the real Howdy's but they have all the sensors that you find thereal howdy is you find the cameras that
+ lead on sensors they go up to 120 20 kilometres an hour if you if they wantto and and they are from pain sensors
+ basically and they don't want to bump against obstacles and other Howdy's andso they must learn like little babies to
+ a park take the wrong vision input and translate that into actions that lead tosuccessful packing behavior which is a
+ rewarding thing and yes they learn that they are salt we have examples like thatand it's only in the beginning this is
+ just the tip of the iceberg and I believe the next wave of a line is goingto be all about that so at the moment
+ the current wave of AI is about passive pattern observation and predictionand and that's what you have on your
+ smartphone and what the major companies on the Pacific of em are using to sellyou ads to do marketing that's the
+ current sort of profit in AI and that's only one or two percent of the worldeconomy which is big enough to make
+ these company is pretty much the most valuable companies in the world butthere's a much much bigger fraction of
+ the economy going to be affected by the next wave which is really about machinesthat shape the data through our own
+ actions and you think simulation is
+
+Speaker 1 :ultimately the biggest way that that
+ though those methods will be successful in the next 10 20 years we're nottalking about a hundred years from now
+ we're talking about sort of the near-term impact of RL do you thinkreally good simulation is required or is
+ there other techniques like imitation learning you know observing other humansyeah operating in the real world where
+ do you think this success will come from
+
+Speaker 0 :so at the moment we have a tendency of
+ using physics simulations to learn behavior for machines that learn tosolve problems that humans also do not
+ know how to solve however this is not the future because the future is andwhat little babies do they don't use a
+ physics engine to simulate the world no they learn a predictive model of theworld which maybe sometimes is wrong in
+ many ways but captures all kinds of important abstract high-levelpredictions which are really important
+ to be successful and and that's what is what was the future thirty years agowhen you started that type of research
+ but it's still the future and now we are know much better how to go there to tomove there to move forward and to really
+ make working systems based on that where you have a learning model of the world amodel of the world that learns to
+ predict what's going to happen if I do that and thatand then the controller uses that model
+ to more quickly learn successful action sequences and then of course always thiscrazy thing in the beginning the model
+ is stupid so the controller should be motivated to come up with experimentswith action sequences that lead to data
+ that improve the model do you think
+
+Speaker 1 :improving the model constructing an
+ understanding of the world in this connection is the in now the popularapproaches have been successful you know
+ grounded in ideas of neural networks but in the 80s with expert systems there'ssymbolic AI approaches which to us
+ humans are more intuitive in a sense that it makes sense that you build upknowledge in this knowledge
+ representation what kind of lessons can we draw in our current approaches mmmfor from expert systems from symbolic
+
+
+Speaker 0 :yeah so I became aware of all of that in
+ the 80s and back then a logic program logic programming was a huge thing wasinspiring to yourself did you find it
+
+
+Speaker 1 :compelling because most a lot of your
+ work was not so much in that realm mary is more in learning systems yes or no
+
+Speaker 0 :but we did all of that so we my first
+ publication ever actually was 1987 was a the implementation of genetic algorithmof a genetic programming system in
+ prologue prologue that's what you learn back then which is a logic programminglanguage and the Japanese the anthers
+ huge fifth-generation AI project which was mostly about logic programming backthen although a neural networks existed
+ and were well known back then and deep learning has existed since 1965 sincethis guy and the UK and even anko
+ started it but the Japanese and many other people theyfocus really on this logic programming
+ and I was influenced to the extent that I said okay let's take thesebiologically inspired rules like
+ evolution programs and and and implement that in the language which I know whichwas Prolog for example back then and
+ then in in many ways as came back later because the Garuda machine for examplehas approved search on board and without
+ that it would not be optimal well Marcus what does universal algorithm forsolving all well-defined problems as
+ approved search on board so that's very much logic programming without that itwould not be a Centanni optimum but then
+ on the other hand because we have a very pragmatic is also we focused on wecannula networks and and and some
+ optimal stuff such as gradient based search and program space rather thanprovably optimal things the logic
+
+
+Speaker 1 :programming does it certainly has a
+ usefulness in when you're trying to construct something provably optimal orprobably good or something like that but
+ is it useful for for practical problems
+
+Speaker 0 :it's really useful at volunteer
+ improving the best theorem provers today are not neural networks right no say ourlogic programming systems and they are
+ much better theorem provers than most math students and the first or secondsemester on but for reasoning to for
+
+
+Speaker 1 :playing games of go or chess or for
+ robots autonomous vehicles that operate in the real world or object manipulationyou know you think learning yeah as long
+
+
+Speaker 0 :as the problems have little to do with
+ with C or improving themselves then as long as that is not the case you youjust want to have better pattern
+ recognition so to build a self-driving car you want to have better patternrecognition and
+ and pedestrian recognition and all these things and you want to your minimum youwant to minimize the number of false
+ positives which is currently is slowing down self-driving cars in many ways andand all that has very little to do with
+ logic programming yeah what are you most
+
+Speaker 1 :excited about in terms of directions of
+ artificial intelligence at this moment in the next few years in your ownresearch and in the broader community so
+
+
+Speaker 0 :I think in the not so distant future we
+ will have for the first time little robots that learn like kids and Iwill be able to say to the robot um look
+ here robot we are going to assemble a smartphone it's takes a slab of plasticand the school driver and let's screw in
+ the screw like that no no not like that like so hmm not like that like that andI don't have a data glove or something
+ he will see me and he will hear me and he will try to do something with his ownactuators which will be really different
+ from mine but he will understand the difference and will learn to imitate mebut not in the supervised way where a
+ teacher is giving target signals for all his muscles all the timeno by doing this high level imitation
+ where he first has to learn to imitate me and then to interpret theseadditional noises coming from my mouth
+ as helping helpful signals to to do that Hannah and then it will by itself comeup with faster ways and more efficient
+ ways of doing the same thing and finally I stopped his learning algorithm andmake a million copies and sell it and so
+ at the moment this is not possible but we already see how we are going to getthere and you can imagine to the extent
+ that this works economically and cheaply it's going to change everything almostall our production is going to be
+ affected by that and a much bigger wave much bigger ai wave is coming than theone that we are currently witnessing
+ which is mostly about passive pattern recognition on your smartphone this isabout active machines that shapes data
+ Susy actions they are executing and they learn to do that in a good way so manyof the traditional industries are going
+ to be affected by that all the companies that are building machineswell equip these machines with cameras
+ and other sensors and they are going to learn to solve all kinds of problemsthrough interaction with humans but also
+ a lot on their own to improve what they already can do and lots of old economyis going to be affected by that and in
+ recent years I have seen that all the economy is actually waking up andrealizing that those vacations and are
+ you optimistic about the future are you
+
+Speaker 1 :concerned there's a lot of people
+ concerned in the near term about the transformation of the nature of work thekind of ideas that you just suggested
+ would have a significant impact of what kind of things could be automated areyou optimistic about that future are you
+ nervous about that future and looking a little bit farther into the futurethere's people like you la musk - a
+ rustle concerned about the existential threats of that future so in the nearterm job loss in the long term
+ existential threat are these concerns to you or yalta mele optimistic so let's
+
+Speaker 0 :first address the near future we have
+ had predictions of job losses for many decades for example when industrialrobots came along many people many
+ people predicted and lots of jobs are going to get lost and in a sense saywere right because back then there were
+ car factories and hundreds of people and these factories assembled cars and todaythe same car factories have hundreds of
+ robots and maybe three guys watching the robots on the other hand those countriesthat have lots of robots per capita
+ Japan Korea and Germany Switzerland a couple of other countriesthey have really low unemployment rates
+ somehow all kinds of new jobs were created back then nobody anticipatedthose jobs and decades ago I already
+ said it's really easy to say which jobs are going to get lost but it's reallyhard to predict the new ones 30 years
+ ago who would have predicted all these people making money as YouTube bloggers200 years ago 60% of all people used to
+ work in agriculture today maybe 1% but still only I don't know 5% unemploymentlots of new jobs were created and Homo
+ Luden's the the playing man is inventing new jobs all the time most of these jobsare not existentially necessary for the
+ survival of our species there are only very few existentially necessary jobssuch as farming and building houses and
+ and warming up the houses but less than 10% of the population is doing that andmost of these newly invented jobs are
+ about interacting with other people in new ways through new media and so ongetting new high types of kudos and
+ forms of likes and whatever and even making money through that so homoLuden's the playing man doesn't want to
+ be unemployed and that's why he is inventing new jobs all the time and hekeeps considering these jobs as really
+ important and is investing a lot of energy and hours of work into into thoseand new jobs
+ it's quite beautifully put were really
+
+Speaker 1 :nervous about the future because we
+ can't predict what kind of new jobs would be created but your ultimate lyoptimistic that we humans are so
+ Restless that we create and give meaning to newer in your jobstelling you likes on faith things that
+ get likes on Facebook or whatever the social platform is so what aboutlong-term existential threat of AI where
+ our whole civilization may be swallowed up by this ultra super intelligentsystems maybe it's not going to be
+
+
+Speaker 0 :smaller DUP but I'd be surprised if B
+ were B humans were the last step and the evolution of the universe you you've
+
+Speaker 1 :actually at this beautiful comment
+ somewhere that I've seen saying that artificial quite insightful artificialgeneral intelligence systems just like
+ us humans will likely not want to interact with humansthey'll just interact amongst themselves
+ just like ants interact amongst themselves and only tangentiallyinteract with humans hmm and it's quite
+ an interesting idea that once we create a GI that will lose interest in humansand and have compete for their own
+ Facebook Likes on their own social platforms so within that quite elegantidea how do we know in a hypothetical
+ sense that there's not already intelligent systems out there how do youthink broadly of general intelligence
+ greater than us how do we know it's out there mmm how would we know it's aroundus and could it already be I'd be
+
+
+Speaker 0 :surprised even with within the next few
+ decades or something like that we we won't have a eyes that truly smarts inevery single way and better problem
+ solvers and almost every single important way and I'd be surprised asthey wouldn't realize what we have
+ realized a long time ago which is that almost all physical resources are nothere and this biosphere but for thou
+ the rest of the solar system gets 2 billion times more solar energy than ourlittle planet there's lots of material
+ out there that you can use to build robots and self-replicating robotfactories and all this stuff and they
+ are going to do that and there will be scientists and curious and they willexplore what they can do and in the
+ beginning they will be fascinated by life and by their own origins and ourcivilization they will want to
+ understand that completely just like people today would like to understandhow life works and um and also the
+ history of our own existence and civilization and also on the physicallaws that created all of that so they in
+ the beginning they will be fascinated my life once they understand that I wasinterest like anybody who loses interest
+ and things he understands and then as you said the most interesting sourcesinformation for them will be others of
+ their own kind so at least in the long run there seemsto be some sort of protection through
+ lack of interest on the other side and now it seems also clear as far as weunderstand physics you need matter and
+ energy to compute and to build more robots and infrastructure and more AIcivilization and III ecology is
+ consisting of trillions of different types of AIS and and so it seemsinconceivable to me that this thing is
+ not going to expand some AI ecology not controlled by one AI but one bytrillions of different types of AI is
+ competing and all kinds of quickly evolving and disappearing ecologicalniches in ways that we cannot fathom at
+ the moment but it's going to expand limited by Lightspeed and physics it'sgoing to expand and and now we realize
+ that the universe is still young it's only 13.8 billion years oldand it's going to be a thousand times
+ older than that so there's plenty of time to conquer the entire universe andto fill it with intelligence and senders
+ and receivers such that AI scan trouble the way they are traveling in our labstoday which is by radio from sender to
+ receiver and let's call the current age of the universe one Eonone Eon now it will take just a few eons
+ from now and the entire visible universe is going to be full of that stuff andlet's look ahead to a time when the
+ universe is going to be one thousand times older than it is now they willlook back and they will say look almost
+ immediately after the Big Bang only a few eons later the entireuniverse started to become intelligent
+ now to your question how do we see whether anything like that has alreadyhappened or is already in a more
+ advanced stage in some other part of the universe of the visible universe we aretrying to look out there and nothing
+ like that has happened so far or is that herdo you think we'll recognize it or
+
+
+Speaker 1 :how do we know it's not among us how do
+ we know planets aren't in themselves intelligent beings how do we know ants
+
+Speaker 0 :
+
+Speaker 1 :seen as a collective are not much
+ greater intelligence in our own these kinds of ideas no but it was a boy I was
+
+Speaker 0 :thinking about these things and I
+ thought hmm maybe it has already happened because back then I know I knewI learned from popular physics books
+ that the structure the large-scale structure of the universe is nothomogeneous and you have these clusters
+ of galaxies and then in between there are these huge empty spaces and Ithought hmm maybe they aren't really
+ empty it's just that in the middle of that some AI civilization already hasexpanded and then has covered a bottle
+ of a billion light-years diameter and is using all the energy of all the starswithin that bubble for its own
+ unfathomable purposes and so it always happened and we just failed to interpretthe signs but then alarmed effect
+ gravity by itself explains the large-scale structure of the universeand that this is not a convincing
+ explanation and then I thought maybe maybe it's the dark matter because asfar as we know today 80% of the
+ measurable matter is invisible and we know that because otherwise our galaxyor other galaxies would fall apart they
+ would they are rotating too quickly and then the idea was maybe all us he is AIcivilizations and hourly out there they
+ they just invisible because they are really efficient in using the energiesat their own local systems and that's
+ why they appear dark to us but this is awesome at a convincing explanationbecause then the question becomes why is
+ there are there still any visible stars leftin our own galaxy which also must have a
+ lot of dark matter so that is also not a convincing thing and today I like tothink it's quite plausible that maybe
+ are the first at least in our local light cone within a few hundreds ofmillions of light years that we can
+ reliably observe is there exciting to you it will might be the first and itwould make us much more important
+ because if we mess it up through a nuclear war then then maybe this willhave an effect on the on the on the
+ development on of the entire universe so let's not mess it up let's not mess itup Union thank you so much for talking
+
+
+Speaker 1 :today I really appreciate it it's my
+
+

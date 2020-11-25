@@ -1,0 +1,766 @@
+0:00:00
+Speaker 1 :- The following is a
+conversation with Elon Musk.
+ He's the CEO of Tesla, SpaceX, Neuralink, and a co-founder of
+several other companies.This conversation is part of
+ the Artificial Intelligence Podcast. This series includes leading researchersin academia and industry,
+ including CEOs and CTOs of automotive, robotics, AI and technology companies.This conversation
+happened after the release
+ of the paper from our group at MIT on driver functional vigilanceduring use of Tesla's Autopilot.
+ The Tesla team reached out to me offering a podcast
+conversation with Mr. Musk.I accepted with full control
+of questions I could ask
+ and the choice of what
+is released publicly. I ended up editing out
+nothing of substance.I've never spoken with Elon
+before this conversation,
+ publicly or privately. Neither he nor his
+companies have any influenceon my opinion, nor on
+the rigor and integrity
+ of the scientific method that I practice in my position at MIT.Tesla has never financially
+supported my research
+ and I've never owned a Tesla vehicle, and I've never owned Tesla stock.This podcast is not a scientific paper,
+ it is a conversation. I respect Elon as I do all other leadersand engineers I've spoken with.
+ We agree on some things
+and disagree on others. My goal, as always with
+these conversations,is to understand the way
+the guest sees the world.
+ One particular point of
+disagreement in this conversation was the extent to which
+camera-based driver monitoringwill improve outcomes and for how long
+ it will remain relevant
+for AI-assisted driving. As someone who works
+on and is fascinated byhuman-centered artificial intelligence,
+ I believe that, if implemented
+and integrated effectively, camera-based driver monitoring
+is likely to be of benefitin both the short term and the long term.
+ In contrast, Elon and Tesla's focus is on the improvement of Autopilotsuch that its statistical safety benefits
+ override any concern for
+human behavior and psychology. Elon and I may not agree on everything,but I deeply respect the
+engineering and innovation
+ behind the efforts that he leads. My goal here is to catalyze a rigorous,nuanced and objective discussion
+ in industry and academia
+on AI-assisted driving, one that ultimately makes
+for a safer and better world.And now, here's my
+conversation with Elon Musk.
+ What was the vision, the dream, of Autopilot in the beginning?The big picture system level
+when it was first conceived
+ and started being installed in 2014, the hardware in the cars?What was the vision, the dream?
+
+
+0:02:49
+Speaker 0 :- I wouldn't characterize
+it as a vision or dream,
+ it's simply that there are
+obviously two massive revolutions in the automobile industry.One is the transition to electrification,
+ and then the other is autonomy. And it became obvious to
+me that, in the future,any car that does not have autonomy
+ would be about as useful as a horse. Which is not to say that there's no use,it's just rare, and
+somewhat idiosyncratic,
+ if somebody has a horse at this point. It's just obvious that carswill drive themselves completely,
+ it's just a question of time. And if we did not participate
+in the autonomy revolution,then our cars would not
+be useful to people,
+ relative to cars that are autonomous. I mean, an autonomous
+car is arguably worthfive to 10 times more than a
+car which is not autonomous.
+
+
+0:03:53
+Speaker 1 :
+
+0:03:54
+Speaker 0 :- In the long term.
+ - Depends what you mean by long term but, let's say at least for
+the next five years,
+
+0:04:00
+Speaker 1 :perhaps 10 years.
+ - So there are a lot of very
+interesting design choices with Autopilot early on.First is showing on
+the instrument cluster,
+ or in the Model 3 and
+the center stack display, what the combined sensor suite sees.What was the thinking behind that choice?
+ Was there a debate, what was the process?
+
+0:04:19
+Speaker 0 :- The whole point of the display
+ is to provide a health check on the vehicle's perception of reality.So the vehicle's taking in information
+ from a bunch of sensors,
+primarily cameras, but also radar and
+ultrasonics, GPS and so forth.And then, that information
+is then rendered into
+ vector space with a bunch of objects, with properties like lane linesand traffic lights and other cars.
+ And then, in vector
+space, that is re-rendered onto a display so you can confirm whetherthe car knows what's going on or not,
+ by looking out the window.
+
+0:05:01
+Speaker 1 :- Right, I think that's an
+extremely powerful thing
+ for people to get an understanding, sort of become one with the systemand understanding what
+the system is capable of.
+ Now, have you considered showing more? So if we look at the computer vision,like road segmentation, lane detection,
+ vehicle detection, object
+detection, underlying the system, there is at the edges, some uncertainty.Have you considered revealing the parts
+ that the uncertainty in
+the system, the sort of--
+
+0:05:32
+Speaker 0 :- Probabilities associated with say,
+ image recognition or something like that?
+
+0:05:36
+Speaker 1 :- Yeah, so right now, it shows
+the vehicles in the vicinity,
+ a very clean crisp image,
+and people do confirm that there's a car in front of meand the system sees there's
+a car in front of me,
+ but to help people build an intuition of what computer vision is,by showing some of the uncertainty.
+
+
+0:05:52
+Speaker 0 :- Well, in my car I always look
+at this with the debug view.
+ And there's two debug views. One is augmented vision,
+which I'm sure you've seen,where it's basically we
+draw boxes and labels
+ around objects that are recognized. And then there's we what
+call the visualizer,which is basically vector
+space representation,
+ summing up the input from all sensors. That does not show any pictures,which basically shows the car's view
+ of the world in vector space. But I think this is very difficultfor normal people to understand,
+ they're would not know what
+thing they're looking at.
+
+0:06:39
+Speaker 1 :- So it's almost an HMI challenge through
+ the current things that are
+being displayed is optimized for the general public understandingof what the system's capable of.
+
+
+0:06:48
+Speaker 0 :- If you have no idea how
+computer vision works or anything,
+ you can still look at the screen and see if the car knows what's going on.And then if you're a development engineer,
+ or if you have the
+development build like I do, then you can see all
+the debug information.But this would just be like
+total gibberish to most people.
+
+
+0:07:10
+Speaker 1 :- What's your view on how
+to best distribute effort?
+ So there's three, I would
+say, technical aspects of Autopilot that are really important.So it's the underlying algorithms,
+ like the neural network architecture, there's the data that it's trained on,and then there's the hardware
+development and maybe others.
+ So, look, algorithm, data, hardware. You only have so much money,
+only have so much time.What do you think is
+the most important thing
+ to allocate resources to? Or do you see it as
+pretty evenly distributed
+
+0:07:43
+Speaker 0 :between those three?
+ - We automatically get
+vast amounts of data because all of our cars haveeight external facing cameras,
+ and radar, and usually
+12 ultrasonic sensors, GPS obviously, and IMU.And we've got about
+400,000 cars on the road
+ that have that level of data. Actually, I think you keep quite
+close track of it actually.- Yes.
+ - Yeah, so we're approaching
+half a million cars on the road that have the full sensor suite.I'm not sure how many
+other cars on the road
+ have this sensor suite, but I'd be surprised if
+it's more than 5,000,which means that we have
+99% of all the data.
+
+
+0:08:35
+Speaker 1 :- So there's this huge inflow of data.
+
+
+0:08:37
+Speaker 0 :- Absolutely, a massive inflow of data.
+ And then it's taken us about three years, but now we've finally developedour full self-driving computer,
+ which can process an
+order of magnitude as much as the NVIDIA system that we
+currently have in the cars,and to use it, you unplug
+the NVIDIA computer
+ and plug the Tesla
+computer in and that's it. In fact, we still are exploringthe boundaries of its capabilities.
+ We're able to run the
+cameras at full frame-rate, full resolution, not even crop the images,and it's still got headroom
+even on one of the systems.
+ The full self-driving computer
+is really two computers, two systems on a chip,
+that are fully redundant.So you could put a boat through
+ basically any part of that
+system and it still works.
+
+0:09:30
+Speaker 1 :- The redundancy, are they
+perfect copies of each other or--
+ - Yeah. - Oh, so it's purely for redundancyas opposed to an arguing
+machine kind of architecture
+ where they're both making decisions, this is purely for redundancy.
+
+0:09:41
+Speaker 0 :- Think of it more like it's
+ a twin-engine commercial aircraft. The system will operate best
+if both systems are operating,but it's capable of
+operating safely on one.
+ So, as it is right now, we can just run, we haven't even hit
+the edge of performanceso there's no need to actually distribute
+ functionality across both SOCs. We can actually just run a
+full duplicate on each one.
+
+0:10:16
+Speaker 1 :- So you haven't really explored
+ or hit the limit of the system.
+
+0:10:20
+Speaker 0 :- [Elon] No not yet, the limit, no.
+
+
+0:10:22
+Speaker 1 :- So the magic of deep learning
+ is that it gets better with data. You said there's a huge inflow of data,but the thing about driving,
+- Yeah.
+ - the really valuable data to
+learn from is the edge cases. I've heard you talk somewhere
+about Autopilot disengagementsbeing an important moment of time to use.
+ Is there other edge cases or perhaps can you speak
+to those edge cases,what aspects of them might be valuable,
+ or if you have other ideas, how to discover more and moreand more edge cases in driving?
+
+
+0:10:59
+Speaker 0 :- Well there's a lot of
+things that are learnt.
+ There are certainly edge cases where, say somebody's on Autopilot
+and they take over,and then that's a trigger
+that goes out to our system
+ and says, okay, did they
+take over for convenience, or did they take over
+because the Autopilotwasn't working properly?
+ There's also, let's say
+we're trying to figure out, what is the optimal spline for
+traversing an intersection.Then the ones where there
+are no interventions
+ are the right ones. So you then you say, okay,
+when it looks like this,do the following.
+ And then you get the optimal spline for navigating a complex intersection.
+
+0:11:45
+Speaker 1 :- So there's kind of the common case,
+ So you're trying to capture
+a huge amount of samples of a particular intersection
+when things went right,and then there's the edge case
+ where, as you said, not for convenience, but something didn't go exactly right.
+
+0:12:01
+Speaker 0 :- So if somebody started
+manual control from Autopilot.
+ And really, the way to look at this is view all input as error.If the user had to do
+input, there's something,
+
+
+0:12:13
+Speaker 1 :all input is error.
+ - That's a powerful line
+to think of it that way 'cause it may very well be error,but if you wanna exit the highway,
+ or if it's a navigation decision that Autopilot's not
+currently designed to do,then the driver takes
+over, how do you know
+
+
+0:12:27
+Speaker 0 :the difference?
+- Yeah, that's gonna change
+ with Navigate on Autopilot,
+which we've just released, and without stalk confirm.Assuming control in order
+to do a lane change,
+ or exit a freeway, or doing
+a highway interchange, the vast majority of that will go awaywith the release that just went out.
+
+
+0:12:48
+Speaker 1 :- Yeah, so that, I don't
+think people quite understand
+ how big of a step that is.
+
+0:12:54
+Speaker 0 :- Yeah, they don't.
+ If you drive the car then you do.
+
+0:12:57
+Speaker 1 :- So you still have to keep your hands
+ on the steering wheel currently when it does the automatic lane change.There's these big leaps through
+he development of Autopilot,
+ through its history and, what stands out to you as the big leaps?I would say this one,
+Navigate on Autopilot
+ without having to confirm is a huge leap.
+
+0:13:21
+Speaker 0 :- It is a huge leap.
+- What are the--
+ It also automatically overtakes slow cars. So it's both navigation and
+seeking the fastest lane.So it'll overtake slow
+cars and exit the freeway
+ and take highway interchanges, and then we have traffic
+light recognition,which introduced initially as a warning.
+ I mean, on the development
+version that I'm driving, the car fully stops and
+goes at traffic lights.
+
+0:13:56
+Speaker 1 :- So those are the steps, right?
+ You've just mentioned some things that are an inkling of a
+step towards full autonomy.What would you say are
+the biggest technological
+ roadblocks to full self-driving?
+
+0:14:09
+Speaker 0 :- Actually, the full self-driving
+computer that we just,
+ the Tesla, what we call, FSD computer that's now in production,so if you order any Model S or X,
+ or any Model 3 that has the
+full self-driving package, you'll get the FSD computer.That's important to have
+enough base computation.
+ Then refining the neural net
+and the control software. All of that can just be provided
+as an over-the-air update.The thing that's really profound,
+ and what I'll be emphasizing
+at the investor day that we're having focused on autonomy,is that the car is
+currently being produced,
+ with the hard word
+currently being produced, is capable of full self-driving.
+
+0:15:00
+Speaker 1 :- But capable is an
+interesting word because--
+
+
+0:15:04
+Speaker 0 :- [Elon] The hardware is.
+ - Yeah, the hardware. - And as we refine the software,the capabilities will
+increase dramatically,
+ and then the reliability
+will increase dramatically, and then it will receive
+regulatory approval.So essentially, buying a car today
+ is an investment in the future. I think the most profound thing is thatif you buy a Tesla today,
+ I believe you're buying
+an appreciating asset, not a depreciating asset.
+
+0:15:32
+Speaker 1 :- So that's a really
+important statement there
+ because if hardware is capable enough, that's the hard thingto upgrade usually.
+- Yes, exactly.
+ - Then the rest is a software problem--
+
+0:15:43
+Speaker 0 :- Yes, software has no
+marginal cost really.
+
+
+0:15:47
+Speaker 1 :- But, what's your intuition
+on the software side?
+ How hard are the remaining steps to get it to where the experience,not just the safety,
+but the full experience
+ is something that people would enjoy?
+
+0:16:08
+Speaker 0 :- I think people it enjoy
+it very much so on highways.
+ It's a total game changer
+for quality of life, for using Tesla Autopilot on the highways.So it's really just
+extending that functionality
+ to city streets, adding in
+the traffic light recognition, navigating complex intersections,and then being able to navigate
+complicated parking lots
+ so the car can exit a parking
+space and come and find you, even if it's in a complete
+maze of a parking lot.And, then it can just drop you off
+ and find a parking spot, by itself.
+
+0:16:52
+Speaker 1 :- Yeah, in terms of enjoyabilty,
+and something that people
+ would actually find a lotta use from, the parking lot, it's rich of annoyancewhen you have to do it manually,
+ so there's a lot of benefit to be gained from automation there.So, let me start injecting the human
+ into this discussion a little bit. So let's talk about full autonomy,if you look at the current
+level four vehicles
+ being tested on row like Waymo and so on, they're only technically autonomous,they're really level two systems
+ with just a different design philosophy, because there's always a safety driverin almost all cases, and
+ they're monitoring the system.
+- Right. - Do you see Tesla's full
+self-driving as still,for a time to come, requiring supervision
+ of the human being. So its capabilities are
+powerful enough to drivebut nevertheless requires a human
+ to still be supervising, just like a safety driver is in other
+fully autonomous vehicles?
+
+0:17:56
+Speaker 0 :- I think it will require
+detecting hands on wheel
+ for at least six months or
+something like that from here. Really it's a question of,
+from a regulatory standpoint,how much safer than a person
+does Autopilot need to be,
+ for it to be okay to not monitor the car. And this is a debate that one can have,and then, but you need
+a large amount of data,
+ so that you can prove,
+with high confidence, statistically speaking, that the caris dramatically safer than a person.
+ And that adding in the person monitoring does not materially affect the safety.So it might need to be 200
+or 300% safer than a person.
+
+
+0:18:50
+Speaker 1 :- And how do you prove that?
+ - Incidents per mile. - Incidents per mile.
+- Yeah.- So crashes and fatalities--
+
+
+0:18:56
+Speaker 0 :- Yeah, fatalities would be a factor,
+ but there are just not enough fatalities to be statistically significant, at scale.But there are enough crashes,
+ there are far more crashes
+then there are fatalities. So you can assess what is
+the probability of a crash.Then there's another step
+which is probability of injury.
+ And probability of permanent injury, the probability of death.And all of those need to be
+much better than a person,
+ by at least, perhaps, 200%.
+
+0:19:32
+Speaker 1 :- And you think there's
+the ability to have
+ a healthy discourse with
+the regulatory bodies
+
+0:19:39
+Speaker 0 :on this topic?
+ - I mean, there's no
+question that regulators paid a disproportionate amount of attentionto that which generates press,
+ this is just an objective fact. And it also generates a lot of press.So, in the United States there's, I think,
+ almost 40,000 automotive deaths per year. But if there are four in Tesla,they will probably receive
+a thousand times more press
+ than anyone else.
+
+0:20:08
+Speaker 1 :- So the psychology of that
+is actually fascinating,
+ I don't think we'll have enough time to talk about that, but I
+have to talk to you aboutthe human side of things.
+ So, myself and our team
+at MIT recently released a paper on functional vigilance of driverswhile using Autopilot.
+ This is work we've been
+doing since Autopilot was first released publicly,
+over three years ago,collecting video of driver
+faces and driver body.
+ So I saw that you tweeted
+a quote from the abstract, so I can at least guess
+that you've glanced at it.- Yeah, I read it.
+ - Can I talk you through what we found? - Sure.- Okay, it appears that in
+the data that we've collected,
+ that drivers are maintaining
+functional vigilance such that, we're looking at 18,000
+disengagements from Autopilot,18,900, and annotating were they able
+ to take over control in a timely manner. So they were there,
+present, looking at the roadto take over control, okay.
+ So this goes against
+what many would predict from the body of literature
+on vigilance with automation.Now the question is, do you think
+ these results hold across
+the broader population. So, ours is just a small subset.One of the criticism is that,
+there's a small minority
+ of drivers that may be highly responsible, where their vigilance
+decrement would increasewith Autopilot use.
+
+
+0:21:40
+Speaker 0 :- I think this is all
+really gonna be swept,
+ I mean, the system's improving so much, so fast, that this is gonna
+be a moot point very soon.Where vigilance is, if
+something's many times safer
+ than a person, then adding a person does, the effect on safety is limited.And, in fact, it could be negative.
+
+
+0:22:10
+Speaker 1 :- That's really interesting,
+so the fact that a human may,
+ some percent of the population may exhibit a vigilance decrement, will not affectoverall statistics, numbers on safety?
+
+
+0:22:22
+Speaker 0 :- No, in fact, I think it will become,
+ very, very quickly, maybe even
+towards the end of this year, but I would say, I'd be
+shocked if it's not next yearat the latest, that
+having a human intervene
+ will decrease safety. Decrease, like imagine
+if you're in an elevator.Now it used to be that there
+were elevator operators.
+ And you couldn't go on
+an elevator by yourself and work the lever to move between floors.And now nobody wants an elevator operator,
+ because the automated elevator
+that stops at the floors is much safer than the elevator operator.And in fact it would be quite dangerous
+ to have someone with a lever that can move the elevator between floors.
+
+0:23:09
+Speaker 1 :- So, that's a really powerful statement,
+ and a really interesting one, but I also have to ask
+from a user experienceand from a safety perspective,
+ one of the passions for me algorithmically is camera-based detection
+of just sensing the human,but detecting what the
+driver's looking at,
+ cognitive load, body pose,
+on the computer vision side that's a fascinating problem.And there's many in industry who believe
+ you have to have camera-based
+driver monitoring. Do you think there could be benefit gainedfrom driver monitoring?
+
+
+0:23:41
+Speaker 0 :- If you have a system that's
+at or below a human level
+ of reliability, then driver
+monitoring makes sense. But if your system is dramatically better,more reliable than a human,
+then driver monitoring
+ does not help much. And, like I said,if you're in an elevator,
+do you really want
+ someone with a big
+lever, some random person operating the elevator between floors?I wouldn't trust that.
+ I would rather have the buttons.
+
+0:24:16
+Speaker 1 :- Okay, you're optimistic
+about the pace of improvement
+ of the system, from what you've seen with the full self-driving car computer.
+
+0:24:25
+Speaker 0 :- The rate of improvement is exponential.
+
+
+0:24:28
+Speaker 1 :- So, one of the other very interesting
+ design choices early on
+that connects to this, is the operational design
+domain of Autopilot.So, where Autopilot is
+able to be turned on.
+ So contrast another vehicle
+system that we were studying is the Cadillac Super
+Cruise system that's,in terms of ODD, very constrained
+ to particular kinds of highways, well mapped, tested,
+but it's much narrowerthan the ODD of Tesla vehicles.
+
+
+0:25:00
+Speaker 0 :- It's like ADD (both laugh).
+ - Yeah, that's good, that's a good line.
+
+0:25:07
+Speaker 1 :What was the design decision in
+ that different philosophy of thinking, where there's pros and cons.What we see with a wide ODD
+ is Tesla drivers are able to explore more the limitations of the system,at least early on, and they understand,
+ together with the
+instrument cluster display, they start to understand
+what are the capabilities,so that's a benefit.
+ The con is you're letting drivers use it basically anywhere--
+
+0:25:38
+Speaker 0 :- Anywhere that it can
+detect lanes with confidence.
+
+
+0:25:41
+Speaker 1 :- Lanes, was there a philosophy,
+ design decisions that were challenging, that were being made there?Or from the very beginning
+was that done on purpose,
+ with intent?
+
+0:25:55
+Speaker 0 :- Frankly it's pretty crazy letting people
+ drive a two-ton death machine manually. That's crazy, like, in the
+future will people be like,I can't believe anyone
+was just allowed to drive
+ one of these two-ton death machines, and they just drive wherever they wanted.Just like elevators, you could just move
+ that elevator with that
+lever wherever you wanted, can stop it halfway
+between floors if you want.It's pretty crazy, so,
+ it's gonna seem like a
+mad thing in the future that people were driving cars.
+
+0:26:32
+Speaker 1 :- So I have a bunch of questions about
+ the human psychology,
+about behavior and so on--
+
+0:26:39
+Speaker 0 :- That's moot, it's totally moot.
+
+
+0:26:40
+Speaker 1 :- Because you have faith in the AI system,
+ not faith but, both on the hardware side and the deep learning approach
+of learning from data,will make it just far safer than humans.
+
+
+0:26:56
+Speaker 0 :- Yeah, exactly.
+
+
+0:26:56
+Speaker 1 :- Recently there were a few hackers,
+ who tricked Autopilot to
+act in unexpected ways for the adversarial examples.So we all know that neural network systems
+ are very sensitive to minor disturbances, these adversarial examples, on input.Do you think it's possible
+ to defend against something like this, for the industry?
+- Sure (both laugh), yeah.
+
+0:27:16
+Speaker 0 :
+
+0:27:18
+Speaker 1 :- Can you elaborate on the
+confidence behind that answer?
+
+
+0:27:23
+Speaker 0 :- A neural net is just basically a bunch
+ of matrix math. But you have to be a very sophisticated,somebody who really
+understands neural nets
+ and basically reverse-engineer
+how the matrix is being built, and then
+create a little thingthat's just exactly causes the matrix math
+ to be slightly off. But it's very easy to
+block that by having,what would basically negative recognition,
+ it's like if the system sees something that looks like a matrix hack, exclude it.It's such a easy thing to do.
+
+
+0:28:02
+Speaker 1 :- So learn both on the valid
+data and the invalid data,
+ so basically learn on
+the adversarial examples to be able to exclude them.
+
+0:28:10
+Speaker 0 :- Yeah, you like basically wanna both know
+ what is a car and what
+is definitely not a car. And you train for, this is a car,and this is definitely not a car.
+ Those are two different things. People have no idea of neural nets really,They probably think neural nets involves,
+ a fishing net or something (Lex laughs).
+
+0:28:28
+Speaker 1 :- So, as you know, taking
+a step beyond just Tesla
+ and Autopilot, current
+deep learning approaches still seem, in some ways,to be far from general
+intelligence systems.
+ Do you think the current approaches will take us to general intelligence,or do totally new ideas
+need to be invented?
+
+
+0:28:54
+Speaker 0 :- I think we're missing a few key ideas
+ for artificial general intelligence. But it's gonna be upon us very quickly,and then we'll need to
+figure out what shall we do,
+ if we even have that choice. It's amazing how people
+can't differentiatebetween, say, the narrow
+AI that allows a car
+ to figure out what a lane
+line is, and navigate streets, versus general intelligence.Like these are just very different things.
+ Like your toaster and your
+computer are both machines, but one's much more
+sophisticated than another.
+
+0:29:38
+Speaker 1 :- You're confident with
+Tesla you can create
+ the world's best toaster--
+
+0:29:43
+Speaker 0 :- The world's best toaster, yes.
+ The world's best self-driving... yes, to me right now this
+seems game, set and match.I mean, I don't want us to be complacent
+ or over-confident, but that's what it, that is just literally
+how it appears right now,I could be wrong, but it
+appears to be the case
+ that Tesla is vastly ahead of everyone.
+
+0:30:10
+Speaker 1 :- Do you think we will ever create
+ an AI system that we can
+love, and loves us back in a deep meaningful way,
+like in the movie Her?
+
+0:30:19
+Speaker 0 :- I think AI will
+capable of convincing you
+ to fall in love with it very well.
+
+0:30:25
+Speaker 1 :- And that's different than us humans?
+
+
+0:30:28
+Speaker 0 :- You know, we start getting into
+ a metaphysical question of, do emotions and thoughts exist in a different realmthan the physical?
+ And maybe they do, maybe
+they don't, I don't know. But from a physics standpoint,
+I tend to think of things,you know, like physics was
+my main sort of training,
+ and from a physics
+standpoint, essentially, if it loves you in a
+way that you can't tellwhether it's real or not, it is real.
+
+
+0:30:57
+Speaker 1 :- That's a physics view of love.
+
+
+0:30:59
+Speaker 0 :- Yeah (laughs), if you
+cannot prove that it does not,
+ if there's no test that you can apply that would make it,allow you to tell the difference,
+ then there is no difference.
+
+0:31:17
+Speaker 1 :- Right, and it's similar to
+seeing our world a simulation,
+ they may not be a test to
+tell the difference between what the real world
+- Yes.- and the simulation, and therefore,
+ from a physics perspective, it might as well be the same thing.
+
+0:31:30
+Speaker 0 :- Yes, and there may
+be ways to test whether
+ it's a simulation, there might be, I'm not saying there aren't.But you could certainly imagine that
+ a simulation could correct, that once an entity in
+the simulation founda way to detect the simulation,
+ it could either pause the simulation, start a new simulation, or
+do one of many other thingsthat then corrects for that error.
+
+
+0:31:53
+Speaker 1 :- So when, maybe you,
+or somebody else creates
+ an AGI system, and you get
+to ask her one question,
+
+0:32:04
+Speaker 0 :what would that question be?
+ - What's outside the simulation?
+
+0:32:21
+Speaker 1 :- Elon, thank you so
+much for talking today,
+ it's a pleasure.
+

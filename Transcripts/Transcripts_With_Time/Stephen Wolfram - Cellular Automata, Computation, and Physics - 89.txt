@@ -1,0 +1,2743 @@
+0:00:00
+Speaker 0 :the following is a conversation with
+ Stephen Wolfram a computer scientist mathematician and theoretical physicistwho is the founder and CEO of Wolfram
+ research a company behind Mathematica Wolfram Alpha Wolfram language and thenew Wolfram physics project is the
+ author of several books including a new kind of science which on a personal notewas one of the most influential books in
+ my journey in computer science and artificial intelligence it made me fallin love with the mathematical beauty and
+ power of cellular automata it is true that perhaps one of the criticisms ofStephen is in a human level that he has
+ a big ego which prevents some researchers from fully enjoying thecontent of his ideas we talked about
+ this point in this conversation to me ego can lead you astray but can also bea superpower one that fuels bold
+ innovative thinking that refuses to surrender to the cautious ways ofacademic institutions and here
+ especially I ask you to join me in looking past the peculiarities of humannature and opening your mind to the
+ beauty of ideas and Stephens work and in this conversationI believe Stephen Wolfram is one of the
+ most original minds of our time and at the core is a kind curious and brillianthuman being this conversation was
+ recorded in November 2000 nineteen when the Wolfram physics project was underwaybut not yet ready for public exploration
+ as it is now we now agreed to talk again probably multiple times in the nearfuture so this is round one and stay
+ tuned for round two soon this is the artificial intelligencepodcast if you enjoy it subscribe on
+ YouTube review five stars in Apple podcast supported on patreon or simplyconnect with me on Twitter Alex Friedman
+ spelled Fri D ma n as usual I'll do a few minutes of ads now and never any adsin the middle that can break the flow of
+ the conversation I hope that works for you it doesn't hurt the listeningexperience quick summary of the ads to
+ sponsors expressvpn and cash app please consider supporting the podcast bygetting expressvpn and expressvpn com /
+ FlexPod and downloading cash app and using code lex podcast this show ispresented by cash app the number-one
+ finance app in the App Store when you get ituse collects podcast cash app lets you
+ send money to friends buy Bitcoin and invest in the stock market with aslittle as $1 this cash app does
+ fractional share trading let me mention that the order execution algorithm thatworks behind the scenes to create the
+ abstraction of fractional orders is an algorithmic marvel so big props the cashapp engineers for solving a hard problem
+ then in the end provides an easy interface that takes a step up to thenext layer of abstraction over the stock
+ market this makes trading more accessible for new investors anddiversification much easier so again if
+ you get cash out from the App Store Google Play and use the code lex podcastyou get $10 and cash shop will also
+ donate $10 the first an organization that is helping to advanced robotics inSTEM education for young people around
+ the world the show is presented by expressvpn getit at expressvpn calm / Lex pod to get a
+ discount and to support this podcast I've been using expressvpn for manyyears I love it it's really easy to use
+ press the big power on button and your privacy is protected and if you like youcan make it look like your locations
+ anywhere else in the world this has a large number of obvious benefitscertainly it allows you to access
+ international versions of streaming websites like the Japanese Netflix orthe UK Hulu expressvpn works on any
+ device you can imagine I use it on Linux shout-out to Oban to new version comingout soon actually windows Android but
+ it's available anywhere else to once again get it at expressvpn comm / lexpod to get a discount and to support
+ this podcast and now here's my conversation with stephen wolframyou and your son Christopher helped
+ create the alien language in the movie arrival so let me ask maybe a bit of acrazy question but if aliens were to
+ visit us on earth do you think we would be able to find a common language well
+
+0:04:31
+Speaker 1 :by the time we're saying
+ aliens are visiting us we've already prejudiced the whole story because theyou know the concept of alien actually
+ visiting so to speak we already know they're kind of things that make senseto talk about visiting so we already
+ know they exist in the same kind of physical setup that we do they're notyou know it's not just radio signals
+ it's an actual thing that shows up and so on so I think in terms of you knowcan one find ways to communicate well
+ the best example we have of this right now is AI I mean that's our first sortof example of alien intelligence and the
+ question is how well do we communicate with AI you know if you were to say ifyou were in the middle of a neural net
+ and you open it up and it's like what are you thinking can you discuss thingswith it it's not easy but it's not
+ absolutely impossible so I think I think by the time but given the setup of yourquestion aliens visiting I think the
+ answer is yes one will be able to find some form of communication whatevercommunication means communication
+ requires notions of purpose and things like this it's a kind of philosophical
+
+0:05:46
+Speaker 0 :quagmire so if AI is a kind of alien
+ life-form what do you think visiting looks like so if we look at aLian's visiting yeah and we'll get to
+ discuss computation and and the world of computation but if you were to imagineyou said you're already prejudiced
+ something by saying you visit but what how would a lian's visit by visit
+
+0:06:08
+Speaker 1 :there's kind of an implication and here
+ we're using the imprecision of human language you know in a world of thefuture and if that's represented in
+ computational language we might be able to take the the concept visit and golook in the documentation basically and
+ find out exactly what does that mean what properties does it have and so onbut by visit
+ in ordinary human language I'm kind of taking it to be there's you knowsomething a physical embodiment that
+ shows up in a spacecraft since we kind of know that that's necessarywe're not imagining it's just you know
+ photons showing up in a radio signal that you know photons in some veryelaborate pattern we're imagining it's
+ it's physical things made of atoms and so on that that show up can't be photons
+
+0:06:58
+Speaker 0 :
+
+0:07:00
+Speaker 1 :in a pattern well that's good question I
+ mean whether there is the possibility you know what counts as intelligencegood question I mean it's some you know
+ and I used to think there was sort of a oh they'll be you know it'll be clearwhat it means to find extraterrestrial
+ intelligence etcetera etcetera etcetera I've I've increasingly realized as aresult of science that I've done that
+ there really isn't a bright line between the intelligent and the merelycomputational so to speak so you know in
+ our kind of everyday sort of discussion will say things like you know theweather has a mind of its own
+ well we'd let's unpack that question you know we realize that there arecomputational processes that go on that
+ determine the fluid dynamics of this and that and the atmosphere or etceteraetcetera etcetera how do we sting which
+ distinguish that from the processes that go on in our brains of you know thephysical processes that go on in our
+ brains how do we how do we had we separate those how do we say the thephysical processes going on that
+ represents sophisticated computations in the weather oh that's not the same asthe physical processes that go on that
+ represent sophisticated computations in our brains cancer is I don't think thereis a fundamental distinction I think the
+ distinction for us is that there's kind of a a thread of history and so on thatconnects kind of what happens in
+ different brains to each other so to speak and it's a you know what happensin the weather is something which is not
+ connected by sort of a a thread of civilizational history so to speak to
+
+0:08:32
+Speaker 0 :what we're used to in our story in the
+ stories that the human brains told us but maybe the weather has its own
+
+0:08:38
+Speaker 1 :stories that's Allah's house absolutely
+ and that's and that's where we run into trouble thinking about extraterrestrialintelligence because
+ you know it's like that pulsar magnetosphere that's generating thesevery elaborate radio signals you know is
+ that something that we should think of as being this whole civilization that'sdeveloped over the last however long you
+ know millions of years of of processes going on in the in the neutron star orwhatever um versus what you know what
+ we're used to in human intelligence and I think it's a I think in the end youknow when people talk about
+ extraterrestrial intelligence and where is it in the whole you know Fermiparadox of how come there's no other
+ signs of intelligence in the universe my guess is that we've got sort of twoalien forms of intelligence that we're
+ dealing with artificial intelligence and sort of physical or extraterrestrialintelligence and my guess is people will
+ sort of get comfortable with the fact that both of these have been achievedaround the same time and in other words
+ people will say well yes we're used to computers things we've created digitalthings we've created being sort of
+ intelligent like we are and they'll sell we're kind of also used to the idea thatthere are things around the universe
+ that are kind of intelligent like we are except they don't share the sort ofcivilizational history that we have and
+ so we don't they know they're they're a different branchI mean it's similar to when you talk
+ about life for instance I mean you you you kind of said life form I thinkalmost synonymously with intelligence
+ which I don't think is is some you know I the the a eyes will be upset to hearyou I wait those guys I really probably
+
+
+0:10:19
+Speaker 0 :implied biological life right right
+ right but you're saying I mean we'll explore this more but you're saying it'sreally a spectrum and it's all just the
+ kind of computation and so it's it's a full spectrum and we just make ourselvesspecial by weaving a narrative around
+ our particular kinds of computation yes
+
+0:10:39
+Speaker 1 :I mean what the thing that I think I've
+ kind of come to realize is you know it's a little depressing to realize thatthere's there's so little it's
+ liberating well yeah but I mean it's you know it's the story of science right inyou know from Copernicus on it's like
+ you know first we were like convinced a planets at the center of the universe nothat's not true well then we will
+ convince there something very special about the chemistry that we have asbiological organisms now that's not
+ really true and then we're still holding out that hope or this intelligence thingwe have that's really special yeah I
+ don't think it is however in a sense as you say it's kind of liberating for thefollowing reason that you realize that
+ what's special is the details of us not some abstract attribute that you know wecould wonder Oh is something else going
+ to come along and you know also have that abstract attribute wellyes every abstract attribute we have
+ something else has it but the full details of our kind of history of ourcivilization and so on nothing else has
+ that that's what you know that's our story so to speak and that's sort of onemost by definition
+ special so I I view it as not being such a I mean I was initially I was like thisis bad this is this is kind of you know
+ how can we have self-respect about some about the things that we do then Irealized the details of the things we do
+ they are the story everything else is kind of a blank canvas so maybe on a
+
+0:12:11
+Speaker 0 :small tangent you just made me think of
+ it but what do you make of the monolith in 2001 Space Odyssey in terms of alienscommunicating with us and sparking the
+ the kind of particular intelligent computation that we humans have is thereanything interesting to get from that
+
+
+0:12:34
+Speaker 1 :sci-fi yeah I mean I think what's what's
+ fun about that is you know the monoliths are these you know one to four to nineperfect cuboid things and in the you
+ know earth four million years ago whatever they will pertain with a bunchof apes and so on
+ a thing that has that level of perfection seems out of place it seemsvery kind of constructed very engineered
+ so that's an interesting question what is the you know what's the technosignature so to speak what is it that
+ you see it somewhere and you say my gosh that had to be engineered um now thefact is
+ we see crystals which are also very perfect and you know that the perfectones are very perfect they're nice
+ polyhedra or whatever um and so in that sense if you say well it's a sign ofsort of it's a techno signature that
+ it's a perfect you know a perfect polygonal shape polyhedral shape that'snot true and so then it's it's an
+ interesting question what what is the you know what is the right signature Imean like you know Gauss famous
+ mathematician you know he had this idea you should cut down the Siberian forestin the shape of sort of a typical image
+ of the proof of the Pythagorean theorem on the grounds that there's a kind ofcool idea didn't get done but um you
+ know it's on the grounds that the Martians would see that and realize goshthere are mathematicians out there it's
+ kind of you know it's the in his theory of the world that was probably the bestadvertisement for the cultural
+ achievements of our species um but you know it's it's a it's a reasonablequestion what do you what can you send
+ or create that is a sign of intelligence in its creation or even intention in its
+
+0:14:20
+Speaker 0 :creation you talk about if we were to
+ send a beacon can you what what should we send is math our greatest creation is
+
+0:14:30
+Speaker 1 :what is our greatest creation I think I
+ think in it's a it's a philosophically doomed issue so I mean in other wordsyou send something you think it's
+ fantastic but it's kind of like we are part of the universe we make things thatare you know things that happen in the
+ universe computation which is sort of the thing that we are in some abstractsent you then sense using to create all
+ these elaborate things we create is surprisingly ubiquitous in other wordswe might have thought that you know
+ we've built this whole giant engineering stack that's led us to microprocessorsthat's led us to be able to do elaborate
+ computations but this idea the computations are happening all over theplace the only question is whether
+ whether there's a thread that connects our human intentions to what thosecomputations are and so I think I think
+ this question of what do you send to kind of show off our civilization inthe best possible way I think any kind
+ of almost random slab of stuff we've produced is about equivalent toeverything else I think it's one of
+ these things where it's a non romantic
+
+0:15:40
+Speaker 0 :way of phrasing it I just started to
+ interrupt but I just talked to it up Andrew in who's the wife of crosshanging uh-huh and so I don't know if
+ you're familiar with the Voyager it's just part of its ascending I thinkbrainwaves of you know I wasn't it hers
+
+
+0:15:57
+Speaker 1 :
+
+0:16:00
+Speaker 0 :it was yeah her brain waves when she was
+ first falling in love with Carl Sagan right it's this beautiful story right
+
+0:16:04
+Speaker 1 :
+
+0:16:06
+Speaker 0 :that brand that perhaps you would shut
+ down the power of that by saying we might as well send anything else andthat's interesting all of it is kind of
+ an interesting peculiar thing that's
+
+0:16:17
+Speaker 1 :yeah yeah right well I mean I think it's
+ kind of interesting to see on the on the Voyager you know golden record thing oneof the things that's kind of cute about
+ that is you know it was made one was it in the late seventies early eightiesyeah um and you know one of the things
+ it's a phonograph record okay and it has a diagram how to play aphonograph record and you know it's kind
+ of like it's shocking that in just 30 years if you show that to a random kidof today and you show them that diagram
+ I've tried this experiment they're like I don't know what the heck this is andthe best anybody can think of is you
+ know take the whole record forget the fact that it has some kind of helicaltrack in it just image the whole thing
+ and see what's there that's what we would do today in only 30 years ourtechnology has kind of advanced to the
+ point where the playing of a helical you know mechanical track on a phonographrecord is now something bizarre so you
+ know it's it's that's a cautionary tale I would say in terms of the ability tomake something that in detail sort of
+ leads by the nose some you know the aliens or whatever to do something it'slike no you know best you can do as I
+ say if we were doing this today we would not build a helical scan thing with aneedle we would just take some high
+ resolution imaging system and get all the bits off itsay oh it's a big nuisance that they put
+ in a helix you know the spiral let's sum let's just you know unravel the spiraland then start from there do you think
+
+
+0:17:49
+Speaker 0 :and this will get into trying to figure
+ out interpretability of AI interpretability of computation beingable to communicate with various kinds
+ of computations do you think would be able to if you're put put your alien haton figure out this record how to play
+
+
+0:18:10
+Speaker 1 :this record well it's a question of what
+ one wants to do I mean understand what
+
+0:18:14
+Speaker 0 :the other party was trying to
+ communicate or understand anything about
+
+0:18:20
+Speaker 1 :the other party what is understanding
+ mean I mean that's the issue the issue is it's like what people were trying todo natural language understanding for
+ computers right so people try to do that for years it wasn't clear what it meantin other words you take your piece of
+ English or whatever and you say gosh my computer has understood this okay that'snice what can you do with that well so
+ for example when we did you know built wolf malphur um you know one of thethings was it's you know it's doing
+ question answering and so on it needs to do natural language understanding thereason that I realized after the fact
+ the reason we were able to do natural language understanding quite well andpeople hadn't before the number one
+ thing was we had an actual objective for the natural language understand and wewere trying to turn the natural language
+ into commentation into this computational language that we couldthen do things with now similarly when
+ you imagine your alien you say okay we're playing them the record did theyunderstand it well it depends what you
+ mean if they you know if we if there's a representation that they have if itconverts to some representation where we
+ can say oh yes that is a that's a representation that we can recognize isrepresents understanding then all well
+ and good but actually the only ones that I think we can say would representunderstanding a ones that will then do
+ things that we humans kind of recognize as being useful to us maybe a trying to
+
+0:19:47
+Speaker 0 :understand quantify how
+ technological advances particular civilization is so are they a threat tous from a military perspective yeah yeah
+ that's probably the kind of first kind of understanding that would be
+
+0:20:02
+Speaker 1 :interested in gosh that's so hard I mean
+ that's like in the arrival movie that was sort of one of the key questions asis you know why are you here so to speak
+
+
+0:20:11
+Speaker 0 :and it's I using a hurtis right but but
+
+
+0:20:12
+Speaker 1 :even that is that you know it's a very
+ unclear you know it's like the the are you gonna hurt us that comes back to alot of interesting area fix questions
+ because the you know we might make an AI that says blood take autonomous cars forinstance you know are you gonna hurt us
+ well let's make sure you only drive at precisely the speed limit because wewant to make sure we don't hurt you so
+ to speak because that's some and then well something you know but you say butactually that means I'm gonna be really
+ late for this thing and you know that sort of hurts me in some way so it'shard to know even even the definition of
+ what it means to hurt yeah someone is unclear and as we start thinking aboutthings about AI ethics and so on that's
+ you know something one has to address
+
+0:20:56
+Speaker 0 :there's always trade-offs and that's the
+ annoying thing about ethics yeah well
+
+0:20:59
+Speaker 1 :right and I mean I think ethics like
+ these other things we're talking about is a deeply human thing if there's noabstract you know let's write down the
+ theorem that proves that this is ethically correct that's a that's ameaningless idea you know you have to
+ have a ground truth so to speak that's ultimately sort of what humans want andthey don't all want the same thing so
+ that gives one all kinds of additional complexity and thinking about that one
+
+0:21:27
+Speaker 0 :convenient thing in terms of turning
+ ethics into computation you ask the question of what maximizes thelikelihood of the survival of the
+
+
+0:21:37
+Speaker 1 :species that's a good existential issue
+ but then when you say survival of the species right you might say um you mightfor example for example let's say forget
+ about technology just you know hang out and you know be happy live our lives goon to the next generation and you know
+ go through many many generations where in a sense nothing is happening thatokay is that not okay hard to know in
+ terms of the attempt to do elaborate things andthe attempt to might be
+ counterproductive for the survival of the specieslike for instance I mean in in you know
+ I think it's it's also a little bit hard to know so ok let's take that as a sortof thought experiment ok you know you
+ can say well what are the threats that we might have to survive you know thesupervolcano the asteroid impact the you
+ know all these kinds of things ok so now we inventory these possible threats andwe say let's make our species as robust
+ as possible relative to all these threats I think in the end it's a it'ssort of an unknowable thing what what it
+ takes to you know so so given that you've got this AI and you've told itmaximize the long term what is long term
+ mean does long term mean until the sun burns out that's that's not gonna workand you know does long term mean next
+ thousand years ok they're probably optimizations for the next thousandyears that it's like it's like if you're
+ running a company you can make a company be very stable for a certain period oftime like if you know if your company
+ gets bought by some you know private investment group then they'll you knowyou can you can run a company just fine
+ for five years by just taking what it does and you know removing all R&D andthe company will burn out after a while
+ but it'll run just fine for a while so if you tell the AI keep the humans okayfor a thousand years there's probably a
+ certain set of things that one would do to optimize that many of which one mightsay well that would be a pretty big
+ shame for the future of history so to speak for that to be what happens but Ithink I think in the end you know as you
+ start thinking about that question it is what you realize is there's a whole sortof raft of undecidability computational
+ irreducibility in other words it's I mean one of the good things about sortof the the the what our civilization has
+ gone through and what sort of we humans go through is that there's a certaincomputational irreducibility to it in
+ the sense that it isn't the case you can look from the outside and just say theanswer is going to be this
+ at the end of the day this is what's gonna happen you actually have to gothrough the process to find out and I
+ think that's um that's both that feels better in the sense it's not a you knowsomething is achieved by going through
+ all of this all of this process and it's but it also means that telling the a Igo figure out you know what will be the
+ best outcome well unfortunately it's going to come back and say it's kind ofundecidable what to do we'd have to run
+ all of those scenarios to see what happens and if we want it for theinfinite future
+ we're throwing immediately into a sort of standard issues of of kind ofinfinite computation and so on so yeah
+
+
+0:25:01
+Speaker 0 :even if you get that the answer to the
+ universe and everything is 42 you still have to actually run the universe yes
+
+0:25:08
+Speaker 1 :
+
+0:25:09
+Speaker 0 :yes like the question I guess or the the
+ you know the the journey is the point
+
+0:25:15
+Speaker 1 :right well I think it's saying to
+ summarize this is the result of the universe yeah that's if that is possibleit tells us I mean the whole sort of
+ structure of thinking about computation and so on and thinking about how stuffworks if if there if it's possible to
+ say and the answer is such-and-such you're basically saying there's a way ofgoing outside the universe and you're
+ kind of you're getting yourself into something of a sort of paradox becauseyou're saying if it's knowable what the
+ answer is then there's a way to know it that is beyond what the universeprovides but if we can know it then
+ something that we're dealing with is beyond the universe so then the universeisn't the universe so to speak so and in
+
+
+0:26:00
+Speaker 0 :general as we'll talk about at least for
+ small human brains it's hard to show that the result of a sufficientlycomplex computation it's hard I mean
+ it's probably impossible right and there's a side ability so and theuniverse appears by at least the poets
+ to be sufficiently complex they won't be able to predict what the heck it's all
+
+0:26:29
+Speaker 1 :going to well we better not be able to
+ because if we can kind of denies I mean it's you knowwe're part of the universe yeah so what
+ does it mean for us to predict it means that we that our little part of theuniverse is able to jump ahead of the
+ whole universe and you know this this quickly winds up I mean that there it isconceivable the only way we'd be able to
+ predict is if we are so special in the universe we are the one place wherethere is computation more special more
+ sophisticated than anything else that exists in the universe that's the onlyway we would have the ability to sort of
+ the almost theological ability so to speak to predict what happens in theuniverse is to say somehow we're we're
+ better than everything else in the universe which I don't think is the case
+
+0:27:16
+Speaker 0 :yeah perhaps we can detect a large
+ number of looping patterns that reoccur throughout the universe and fullydescribe them and therefore but then
+ it's it still becomes exceptionally difficult to see how those patterns
+
+0:27:32
+Speaker 1 :interact and what kind of well look the
+ most remarkable thing about the universe is that it has regularity at all mightnot be the case if you don't have
+ regularity absolutely therefore it's full of I mean physics is successful youknow it's full of of laws that tell us a
+ lot of detail about how the universe works I mean it could be the case thatyou know the 10 to the 90th particles in
+ the universe they will do their own thing but they don't they all followedwe already know they all follow
+ basically physical the same physical laws and that's something that's a veryprofound fact about the universe what
+ conclusion you draw from that is unclear I mean in the you know the early earlytheologians that was you know exhibit
+ number one for the existence of God now you know people have differentconclusions about it
+ but the fact is you know right now I mean I happen to be interested actuallyI've just restarted a long-running kind
+ of interest of mine about fundamental physics I'm kind of like come on I'm ona bit of a quest which I'm about to make
+ more public of to to see if I can actually find the fundamental theory of
+
+0:28:40
+Speaker 0 :physics excellence we'll come to that
+ and I just had a lot of conversation with quantum mechanics folks with so I'mreally excited on your take because I
+ think you have a fascinating take on the the the fundamental notch in nature ofour reality from a physics perspective
+ so and what might be underlying the kind of physics as we think of it today okaylet's take a step back what is
+
+
+0:29:08
+Speaker 1 :computation it's a good question
+ operationally computation is following rules that's kind of itI mean computation is the result is the
+ process of systematically following rules and it is the thing that happens
+
+0:29:24
+Speaker 0 :when you do that for taking initial
+ conditions are taking inputs and following rules I mean what are youfollowing rules on so there has to be
+ some data some not necessarily it can be
+
+0:29:34
+Speaker 1 :something where that there's a you know
+ very simple input and then you're following these rules and you'd saythere's not really much data going into
+ this it's you could actually pack the initial conditions into the rule if youwant to um so I think the the question
+ is is there a robust notion of computation that is what is this lastmean what I mean by that is something
+ like this so so one of the things that are different in an earlier physicssomething like energy okay the different
+ forms of energy there's but somehow energy is the robust concept thatdoesn't isn't particular to kinetic
+ energy or you know nuclear energy or whatever else there's a robust idea ofenergy so only things you might ask is
+ there's the robust idea of computation or does it matter that this computationis running in a Turing machine this
+ computation is running in as you know CMOS Salkin CPU this computation isrunning in a fluid system in the whether
+ those kinds of things or is there a robust idea of computation thattranscends the sort of detailed
+ framework that it's running in okay and is that her yes I mean it wasn't obviousthat there was so it's worth
+ understanding the history and how we got to where we are right now because youknow to say that there is is a statement
+ in part about our universe it's not a statement about what ismathematically conceivable it's about
+ what actually can exist for us maybe you
+
+0:31:03
+Speaker 0 :can also comment because energy as a
+ concept is robust but there's also its intricate complicated relationship withmatter with mass is very interesting of
+ particles that carry force and particles that sort of particles that carryforcing particles that have mass these
+ kinds of ideas they seem to map to each other at least in the mathematical senseis there a connection between energy and
+ mass and computation or are these completely disjoint ideas we don't know
+
+0:31:43
+Speaker 1 :yet the things that I'm trying to do
+ about fundamental physics may well lead to such a connection but there is noknown connection at this time so key can
+
+
+0:31:54
+Speaker 0 :you elaborate a little bit more on what
+ how do you think about computation what
+
+0:32:01
+Speaker 1 :is company yeah so I mean let's let's
+ tell a little bit of a historical story yes okay so you know back go back 150years people were making mechanical
+ calculators of various kinds and you know the typical thing was do you wantan adding machine you go to the adding
+ machine store basically he wants a multiplying machine you go to themultiplying machine store that different
+ pieces of hardware and so that means that at least at the level of that kindof computation and those kinds of pieces
+ of hardware there isn't a robust notion of computationthere's the adding machine kind of
+ computation there's the multiplying machinenotion of computation and they're
+ disjoint so what happened in around 1900 people started imagining particularly inthe contests of mathematical logic could
+ you have something which would be represent any reasonable function rightand they came up with things this idea
+ of primitive recursion was one of the early ideas and it didn't work therewere reasonable functions that people
+ who come up with that were not represented using the primitive as aprimitive recursion okay so then then
+ along comes 1931 and girdle's theorem and so onand as in looking back one can see that
+ as part of the process of establishing girdles theorem girdle basically showedhow you could compile arithmetic you
+ could basically compile logical statements like this statement isunprovable into arithmetic so what he
+ essentially did was to show that arithmetic can be a computer in a sensethat's capable of representing all kinds
+ of other things and then Turing came along 1936 came up with Turing machinesmeanwhile Alonzo Church had come up with
+ lambda calculus and the surprising thing that was established very quickly is theTuring machine idea about what might be
+ what computation might be is exactly the same as the lambda calculus idea of whatcomputation might be and so and then
+ there started to be other ideas you know register machines other kinds of otherkinds of representations of computation
+ and the big surprise was they all turned out to be equivalent so in other wordsit might have been the case like those
+ old adding machines and multiplying machines that you know Turing had hisidea of computation church had his idea
+ of computation and they were just different but it isn't true there areactually all equivalent so then by I
+ would say the the 1970s or so in in sort of the computation computer sciencecomputation theory area people had sort
+ of said Oh Turing machines are kind of what computation is physicists werestill holding out saying no no no it's
+ just not how the universe works we've got all these differential equationswe've got all these real numbers that
+ have infinite numbers of digits
+
+0:34:43
+Speaker 0 :the universe is now a Turing machine
+
+
+0:34:44
+Speaker 1 :right the you know the Turing machines
+ are a small subset of that the things that we make in microprocessors andengineering structures and so on so
+ probably actually through my work in the 1980s about sort of the relationshipbetween computation and models of
+ physics it became a little less clear that there would be that there was thisbig sort of dichotomy between what can
+ happen in physics and what happens and things like Turing machines and I thinkprobably by now people would mostly
+ think and and by the way brains were another kind of elementsthis I mean you know girdle didn't think
+ that his notion of computational what amounted to his notion of computationwould cover brains and Turing wasn't
+ sure either um but tell though he was a little bithe got to be a little bit more convinced
+ that it should cover brains um but so you know but I would say by probablysometime in the 1980s there was
+ beginning to be so a general belief that yes this notion of computation thatcould be captured by things like Turing
+ machines was reasonably robust now the next question is ok you can have auniversal Turing machine that's capable
+ of being programmed to do anything that any Turing machine can do um and youknow this idea of universal computation
+ it's an important idea this idea that you can have one piece of hardware andprogram it with different pieces of
+ software you know that's kind of the idea that launched most moderntechnology I mean that's kind of that
+ that's the idea that launched computer revolution software etc so importantidea but but the thing that's still kind
+ of holding out from that idea is ok there is this Universal computationthing but seems hard to get to it seems
+ like you want to make a universal computer you have to kind of have amicroprocessor with you know a million
+ gates in it and you have to go to a lot of trouble to make something thatachieves that level of computational
+ sophistication ok so the surprise for me was that stuff that I discovered in theearly 80s I'm looking at these things
+ called cellular automata which are really simple computational systems thething that was a big surprise to me was
+ that even when their rules were very very simple they were doing things thatwere as sophisticated as they did even
+ when their rules much more complicated so it didn't look like you know thisidea Oh to get sophisticated computation
+ you have to build something with very sophisticated rulesthat idea didn't seem to pan out and
+ instead it seemed to be the case that sophisticated computation was completelyubiquitous even in systems with
+ incredibly simple rules and so that led to this thing that I call the principleof computational equivalence which
+ basically says when you have a system that follows rules of any kind thenwhenever the system isn't doing things
+ that are in some sense obviously simple then the computation that the behaviorof the system corresponds to is of
+ equivalent sophistication so that means that when you kind of go from the veryvery very simplest things you can
+ imagine then quite quickly you hit this kind of threshold above which everythingis equivalent in its computational
+ sophistication not obvious that would be the case I mean that's a science fact
+
+0:38:10
+Speaker 0 :well then hold on a second
+ you saw this you've opened with a new kind of science I mean I remember it wasa huge eye-opener
+ that's such simple things can create such complexity and yes there's anequivalence but it's not a fact it just
+ appears to I mean it's as much as a fact as sort of these theories are so elegantthat it it seems to be the way things
+ are but let me ask sort of you just brought up previously kind of like thecommunities of computer scientists with
+ their touring machines the physicists will their universe and the whoever theheck maybe neuroscientists looking at
+ the brain what's your sense in the equivalence you've shown through yourwork that simple rules can create
+ equivalently complex touring machine systems right is the universe equivalentto the kinds of tutorial machines is the
+ human brain a kind of toy machine do you see those things basically blendingtogether or is there still a mystery
+ about how disjoint they're well my guess
+
+0:39:24
+Speaker 1 :is that they will blend together but we
+ don't know that for sure yet I mean this I you know I should say I I said ratherglibly that the principle of
+ computational equivalence is sort of a science fact and this I was using halfwas yes efforts for the for the for the
+ science fact because when you it is a I mean just to talk about that for asecond and most people will um
+ the thing is that it is it has a complicated epistemological charactersimilar to things like the second law of
+ thermodynamics law of entropy increase the you know what is the second law ofthermodynamics it is is it a law of
+ nature is that a thing that is true of the physical world is it is it somethingwhich is mathematically provable is it
+ something which happens to be true of the systems that we see in the world isit in some sense a definition of heat
+ perhaps well it's a combination of those things and it's the same thing with theprinciple of computational equivalence
+ and in some sense the principle of computational equivalence is at theheart of the definition of computation
+ because it's telling you there is a thing there is a robust notion that isequivalent across all these systems and
+ doesn't depend on the details of each individual system and that's why we canmeaningfully talk about a thing called
+ computation and we're not stuck talking about over there's computation intrillion machine number 378 5 and etc
+ etc etc that's that's why there is a robust notion like that now on the otherhand can we prove the principle of
+ computational equivalence can we can we prove it as a mathematical result wellthe answer is actually we've got some
+ nice results along those lines that say you know throw me a random system withvery simple rules well in a couple of
+ cases we now know that even the very simplest rules we can imagine of acertain type are universal and do sort
+ of follow what you would expect from the principle of computational equivalenceso that's a nice piece of sort of
+ mathematical evidence for the principle of computational equivalence did you
+
+0:41:28
+Speaker 0 :still enjoy on that point the simple
+ rules creating sort of these complex behaviors but is there a way tomathematically say that this behavior is
+ complex that you've mentioned you cross
+
+0:41:46
+Speaker 1 :a threshold right is the various
+ indicators so for example one thing would be is it capable of universalcomputation that is given the system do
+ there exist initial conditions for the system that can be set up to essentiallyrepresent programs to do anything you
+ to compute primes to compute pi to do whatever he wants right so that's anindicator so we know in a couple of
+ examples that yes the simplest candidates that could conceivably havethat property do have that property and
+ that's what the principle of computational equivalence might suggestbut this principle of computational
+ equivalence one question about it is is it true for the physical world right itmight be true for all these things we
+ come up with the Turing machines the cellular automata whatever else is ittrue for our actual physical world is it
+ true for the Bray brains which are an element of the physical world we don'tknow for sure and that's not the type of
+ question that we will have a definitive answer to because it's you know it's ait's a there's a there's a sort of
+ scientific induction issue you can say what's true for all these brains butthis person over here is really special
+ and it's not true for them and you can't you know the the the only way that thatcannot be what happens is if we finally
+ nail it and actually get a fundamental theory for physics and it turns out tocorrespond to let's say a simple program
+ if that is the case then we will basically have reduced physics to abranch of mathematics in a sense that we
+ will not be you know right now with physics we're like well this is thetheory that you know this is the rules
+ that apply here but in the middle of that you know you know right by thatblack hole
+ maybe these rules don't apply and something else applies and there may beanother piece of the onion that we have
+ to peel back but as if if we can get to the point where we actually have this isthe fundamental theory of physics here
+ it is it's this program run this program and you will get our universe then we'vekind of reduced the problem of figuring
+ out things in physics to a problem of doing some what turns out to be verydifficult irreducibly difficult
+ mathematical problems but it no longer is the case that we can say thatsomebody can come in and say whoops you
+ know you were right about all these things about Turing machines but you'rewrong about the physical universe we
+ know there's sort of ground truth about what's happening the physical universenow I happen to think I mean you asked
+ me at an interesting time because I'm just in the middle of starting tore-energized my my project to kind of
+ study the fundamental theory of physics as of today I'm very optimistic thatwe're actually going to find something
+ and that it's going to be possible to to see that the universe really iscomputational in that sense but I don't
+ know because we're betting against you know we're betting against the universesort of speaking I didn't you know it's
+ not like you know when I spend a lot of my life building technology and then Iknow what what's in there right and it's
+ there maybe it may have unexpected behavior may have bugs things like thatbut fundamentally I know what's in there
+ for the universe I'm not in that position so to speak
+
+0:44:55
+Speaker 0 :what kind of computation do you think
+ the fundamental laws of physics might emerge from so just to clarify sothere's you've you've done a lot of
+ fascinating work with kind of discrete kinds of computation that you know usecellular automata and we'll talk about
+ it have this very clean structure it's such a nice way to demonstrate thatsimple rules can create immense
+ complexity but what you know is that actually our cellular time issufficiently general to describe the
+ kinds of computation that might create the laws of physics just to give it canyou give a sense of what kind of
+ computation do you think would create
+
+0:45:39
+Speaker 1 :well so so this is a slightly
+ complicated issue because as soon as you have universal computation you can inprinciple simulate anything with
+ anything but it is not a natural thing to do and if you're asking will you totry to find our physical universe by
+ looking at possible programs in the computational universe of all possibleprograms would the ones that correspond
+ to our universe be small and simple enough that we might find them bysearching that computational universe we
+ got to have the right basis so to speak we have to have the right language ineffect for describing computation for
+ that to be feasible so the thing that I've been interested in for a long timeis what are the most structureless
+ structures that we can create with computation so in other words if you saya cellular automaton as a bunch of cells
+ they're arrayed on a grid and it's very you know anevery cell is updated in synchrony at
+ the sir at a particular you know when there's a there's a click of a clocksort of speaking it goes a tick of a
+ clock and that every cell gets updated at the same time that's a very specificvery rigid kind of thing but my guess is
+ that when we look at physics and we look at things like space and time thatwhat's underneath space and time is
+ something as structureless as possible that what we see what emerges for us asphysical space for example comes from
+ something that is sort of arbitrarily unstructured underneath and so I've beenfor a long time interested in kind of
+ what what are the most structureless structures that we can set up andactually what I had thought about for
+ ages is using graphs networks where essentially so they'll throw that spacefor example so what is space the kind of
+ a question one might ask back in the early days of quantum mechanics forexample people said oh for sure space is
+ going to be discrete because all these other things were finding a discrete butthat never worked out in physics and so
+ space and physics today is always treated as this continuous thing justlike Euclid imagined it I mean the the
+ very first thing you chlid says and his sort of common notions is you know apoint is something which has no part in
+ other words there are there are points that are arbitrarily small and there's acontinuum of possible positions of
+ points and the question is is that true and so for example if we look at I don'tknow fluid like air or water we might
+ say oh it's a continuous fluid we can pour it we can do all kinds of thingscontinuously but actually we know
+ because we know the physics of it that it consists of a bunch of discretemolecules bouncing around and only in
+ the aggregate is it behaving like a continuum and so the possibility existsthat that's true of space too people
+ haven't managed to make that work with existing frameworks and physics but I'vebeen interested in whether one can
+ imagine that underneath space and also underneath time is something morestructureless and the question is is it
+ computational so there are couple possibilities it could be computationalsomehow fundamentally equivalent to a
+ Turing machine or it could be fundamentally not so how could it not beit could not be so
+ machine essentially deals with integers whole numbers some level and you know itcan do things like it can add one to a
+ number it can do things like this you
+
+0:48:52
+Speaker 0 :can also store whatever the heck it did
+
+
+0:48:54
+Speaker 1 :yes it has an infinite storage the
+ storage but what temp when one thinks about doing physics or sort of idealizedphysics or idealized mathematics one can
+ deal with real numbers numbers with an infinite number of digits numbers whichare absolutely precise someone can say
+ we can take this number and we can multiply it by itself are you
+
+0:49:16
+Speaker 0 :comfortable with infinity in this
+ context are you gone very well in a context of computation do you thinkinfinity and plays a part I think that
+
+
+0:49:24
+Speaker 1 :the role infinity is complicated
+ infinity is useful in conceptualizing things it's not actual izybellealmost by definition it's not actual I
+
+
+0:49:35
+Speaker 0 :zabit do you think infinity is part of
+ the thing that might underlie the laws
+
+0:49:39
+Speaker 1 :of physics I think that um no I think
+ there are many questions that you asked about you might ask about physics whichinevitably involve infinity like when
+ you say you know is faster-than-light travel possible you could say with itwith with it we're given the laws of
+ physics can you make something even arbitrarily large even quotes infinitelylarge that you know that will make
+ faster-than-light travel possible then you you're thrown into dealing withinfinity as a kind of theoretical
+ question but I mean talking about you know sort of what's underneath space andtime and what how one can make you know
+ a computational infrastructure one possibility is that you can't make acomputational infrastructure and Turing
+ such in sense that you really have to be dealing with precise real numbers you'redealing with partial differential
+ equations which just have precise real numbers that arbitrarily closelyseparated points you have a continuum
+ forever thing could be that that that's what happens that there's sort of acontinuum for everything and precise
+ real numbers for everything and then the things I'm thinking about are wrong andyou know that's that's the risk you take
+ if you're you know if you're trying to sort of do things about nature is youmight just be wrong it's not it's for me
+ personally it's kind of strange things I've spent a lot of my life buildingtechnology
+ where you can do something that nobody cares about but you can't be sort ofwrong in that sense and the sense you
+ build your technology and it does what it does but but I think you know thisquestion of what you know what the sort
+ of underlying computational infrastructure for the universe might beum it's so it's sort of inevitable it's
+ gonna be fairly abstract because if you're gonna get all these things likethere are three dimensions of space
+ there are electrons there are muons there are quarks there are this youdon't get to if the if the model for the
+ universe is simple you don't get to have sort of a line of code for each of thosethings you don't get to have sort of the
+ the the muon case the Tau lepton case and so on or as they're all have to be
+
+0:51:39
+Speaker 0 :emergent some right so something deeper
+
+
+0:51:42
+Speaker 1 :right so so that means it's sort of
+ inevitable that's a little hard to talk about what the sort of underlyingstructural is structure actually is do
+
+
+0:51:50
+Speaker 0 :you think our human beings have the
+ cognitive capacity to understand if we're to discover it to understand thekinds of simple structure from which
+ these laws can emerge like do you think
+
+0:52:02
+Speaker 1 :that's a good class pursuit well here's
+ what I think I think that I mean I'm right in the middle of this right nowI'm telling you that I think you this
+ one yeah I mean this human has a hard time understanding it you know a bunchof the things that are going on but but
+ what happens in understanding is one builds waypoints I mean if you saidunderstand modern 21st century
+ mathematics starting from you know counting back in you know whenevercounting was invented 50,000 years ago
+ whenever it was right there's that will be really difficult but what happens iswe build waypoints that allow us to get
+ to higher levels of understanding and we see the same thing happening in languageyou know when we invent a word for
+ something it provides kind of a cognitive anchor a kind of a waypointsthat lets us you know like a podcast or
+ something you could be explaining well it's a thing which this works this waythat way the other way but as soon as
+ you have the word podcast and people kind of societally understand it youstart to be able to build on top of that
+ and so I think and that that's kind of the story of science actually - I meanscience is about building these kind of
+ waypoints where we find this sort of cognitivemechanism for understanding something
+ then we can build on top of it you know we we have the idea of I don't knowdifferential equations we can build on
+ top of that we have this idea of that idea so my hope is that if it is thecase that we have to go all the way sort
+ of from the sand to the computer and there's no way points in between thenwe're toast we won't be able to do that
+
+
+0:53:34
+Speaker 0 :well eventually we might so for if we're
+ as clever apes are good enough a building those abstract abstractionseventually from sanh we'll get to the
+ computer a and it just might be a longer
+
+0:53:44
+Speaker 1 :journey the question is whether it is
+ something that you asked whether our human brains yeswell on will quotes understand what's
+ going on and that's a different question because for that it requires steps thatare for whether it is sort of from which
+ we can construct a human understandable narrative and that's something that Ithink I am somewhat hopeful that that
+ will be possible although you know as of literally today if you ask me I'mconfronted with things that I don't
+ understand very well um and so this is a
+
+0:54:16
+Speaker 0 :small pattern in a computation trying to
+ understand the rules under which the computation functions and yeah it's it'san interesting possibility under which
+ kinds of computations such a creature
+
+0:54:30
+Speaker 1 :can understand itself my guess is that
+ within so we didn't talk much about computational irreducibility but it's aconsequence of this principle of
+ computational equivalence and it's sort of a core idea that that one has tounderstand I think which is question is
+ you're doing a computation you can figure out what happens in thecomputation just by running every step
+ in the computation and seeing what happens or you can say let me jump aheadand figure out you know have something
+ smarter that figures out what's gonna happen before it actually happens and alot of traditional science has been
+ about that act of computational reduce ability it's like we've got theseequations and we can just solve them or
+ we can figure out what's going to happen we don't have to trace all of thosesteps we just jump ahead because we've
+ solved these equations okay so one of the things that is a consequence of theprinciple of computational equivalence
+ is you don't always get to do that many many systems will be computationallyirreducible
+ in the sense that the only way to find out what they do is just follow eachstep and see what happens why is that
+ well if you have if you're saying well we with our brains will are smarter wewe don't have to mess around like the
+ little cellular automata and going through and updating all those cells wecan just you know use the power of our
+ brains to jump ahead but if the principle of computational occurrence isright that's not going to be correct
+ because it means that there's us during our computation in our brains there's alittle cellular automaton doing its
+ computation and the principle of computational current says these twocomputations are fundamentally
+ equivalent so that means we don't get to say we're a lot smarter than thecellular automaton and jump ahead
+ because we're just doing computation that's of the same sophistication as thecellular automaton itself that's
+
+
+0:56:11
+Speaker 0 :computation or disability it's
+ fascinating but the and that's a really powerful ideaI think that's both depressing and
+ humbling and so on that were all we in a cellular automata are the same but thequestion we're talking about the
+ fundamental laws of physics is kind of the reverse question you're notpredicting what's gonna happen you have
+ to run the universe for that but saying can I understand what rules likely
+
+0:56:37
+Speaker 1 :generated me I understand but the
+ problem is to know whether you're right you have to have some computationalreduce ability because we are embedded
+ in the universe if the only way to know whether we get the universe is just torun the universe we don't get to do that
+ because it just ran for fourteen point six billion years or whatever and wedon't you know we can't rerun it so to
+ speak so we have to hope that there are pockets of computational reducibilitysufficient to be able to say yes I can
+ recognize those or electrons there and and and I think that it is a it's afeature of computational irreducibility
+ it's sort of a mathematical feature that there are always an infinite collectionof pockets of reduced ability the
+ question of whether they land in the right place and whether we can sort ofbuild the theory based on them is
+ unclear but to this point about you know whether we as observers in the universebuilt out of the same stuff as the
+ universe can figure out the universe so to speak that relies on these pockets ofreducibility without the pockets of
+ reducibility it's won't work work but I think this question about howobservers operate it's one of the
+ features of science over the last hundred years particularly has been thatevery time we get more realistic about
+ observers we learn a bit more about science so for example relativity wasall about observers don't get to say
+ when you know what's simultaneous with what they have to just wait for thelight signal to arrive to decide what
+ simultaneous or for example in thermodynamics observers don't get tosay the position of every single
+ molecule and a gas they can only see the kind of large scale features and that'swhy the second law of thermodynamics law
+ of entropy increased and so on works if you could see every individual moleculeyou wouldn't conclude something about
+ thermodynamics you would conclude oh these molecules just all doing theseparticular things you wouldn't be able
+ to see this aggregate fact so I strongly expect that in fact him the theoriesthat I have the one has to be more
+ realistic about the computation and other aspects of observers in order toactually make a correspondence between
+ what we experience in fact they have a my little team and I have a littletheory right now about how quantum
+ mechanics may work which is a very wonderfully bizarre idea about how asort of thread of human consciousness
+ relates to what we observe in the universe but this is the several stepsto explain what that's about
+
+
+0:59:07
+Speaker 0 :woody meek of the mess of the observer
+ at the lower level of quantum mechanics sort of the textbook definition withquantum mechanics kind of says that
+ there's some there's two worlds one is the world that actually is and the otheris that's observed do ya what do you
+
+
+0:59:26
+Speaker 1 :
+
+0:59:27
+Speaker 0 :
+
+0:59:28
+Speaker 1 :make sense of well I think actually the
+ ideas we've recently had might actually give away into this and that's I don'tknow yet I mean it's I think that's it's
+ a mess I mean the fact is there is a one of the things that's interesting andwhen you know people look at these
+ models that I started talking about 30 years ago nowthey say oh no that can't possibly be
+ right you know what about quantum mechanics right you say okay tell mewhat is the essence of quantum mechanics
+ what do you want me to be able to reproduce to know that I've got quantummechanics so to speak well and that
+ question comes up it comes up very operationally actually because we'vebeen doing a bunch of stuff with quantum
+ computing and there are all these companies that say we have a quantumcomputer and we say let's connect to
+ your API and let's actually run it and they're like well maybe you shouldn't dothat yet
+ we're not quite ready yet and one of the questions that I've been curious aboutis if I have five minutes with a quantum
+ computer how can I tell if it's really a quantum computer or whether it's asimulator at the other end right and
+ turns out it's really hard it turns out there isn't it's it's it's like a lot ofthese questions about sort of what is
+ intelligence what's life it's soaring
+
+1:00:40
+Speaker 0 :tears for quantum computing that's right
+
+
+1:00:41
+Speaker 1 :that's right it's like are you really a
+ quantum computer and I mean I think simulation the yes exactly is it just asimulation or is it really a quantum
+ computer famous you're all over again but but that so you know this this wholeissue about the sort of mathematical
+ structure of quantum mechanics and the completely separate thing that is ourexperience in which we think definite
+ things happen but as quantum mechanics doesn't say definite things ever happenquantum mechanics is all about the
+ amplitudes for different things to happen but yet our thread ofconsciousness operates as if definite
+ things are happening but to linger on
+
+1:01:21
+Speaker 0 :the point you've kind of mentioned the
+ structure that could underlie everything in this idea that it could perhaps havesomething like a structure of a graph
+ can you elaborate why your intuition is that there's a graph structure of nodesand edges and what it might represent
+
+
+1:01:41
+Speaker 1 :right okay so the question is what is in
+ a sense the most structureless structure you can imagine right so and in factwhat I've recently realized in the last
+ year or so I have a new most structureless structure by the way the
+
+1:01:59
+Speaker 0 :question itself is a beautiful and a
+ powerful one in itself so even without an answer just the question is
+
+1:02:06
+Speaker 1 :strong question right right well what's
+
+
+1:02:07
+Speaker 0 :
+
+1:02:08
+Speaker 1 :your new idea well it has to do with
+ hypergraphs essentially what what is interestingabout the sort of ID model I have now is
+ it's a little bit like what happened with computation everything that I thinkof as oh well maybe the model is this I
+ discover its equivalent and that's quite encouraging becauseit's like I could say well I'm gonna
+ look at trivalent graph the graphs with you know three edges for each node andso on or I could look at this special
+ kind of graph or I could look at this kind of algebraic structure and turnsout that the things I'm now looking at
+ everything that I've imagined that is a plausible type of structuraliststructure is equivalent to this so what
+ is it well a typical way to think about it is well so you might have some somecollection of tuples collection of let's
+ say numbers so you might have one three five two three four little justcollections of numbers triples of
+ numbers let's say quadruples of numbers pairs of numbers whatever and you haveall these sort of floating little tuples
+ they're not in any particular order and that sort of floating collection oftuples and I told you this was abstract
+ represents the whole universe the only thing that relates them is when a symbolis the same it's the same so to speak so
+ if you have two tuples and they contain the same symbol let's say at the sameposition of the tuple of the first
+ element of the tuple then that's represents a relation okay so let me letme try and peel this back Wow okay it's
+
+
+1:03:55
+Speaker 0 :
+
+1:03:55
+Speaker 1 :it's I told you it's abstract but this
+ is this is the this is so the
+
+1:03:59
+Speaker 0 :relationship is formed by the same some
+
+
+1:04:03
+Speaker 1 :aspect of sameness right but but so
+ think about it in terms of a graph yeah so a graph a bunch of nodes let's sayyou number each node okay then what is a
+ graph a graph is a set of pairs that say this node has an edge connecting it tothis other node
+ so that's the that's an a graph is just a collection of those pairs that saythis node connects to this other node so
+ this is a generalization of that in which instead of having pairs you havearbitrary and tuples um that's it that's
+ the whole story um and now the question is okay so that might be that mightrepresent the state of the universe how
+ does the universe evolved what does the end of us do and so the answer is thatwhat I'm looking at is transformation
+ rules on these hyper graphs in other words you say this whenever you see a apiece of this hyper graph that looks
+ like this turn it into a piece of hyper graph that looks like this so on a graphit might be when you see the sub graph
+ when you see this thing with a bunch of edges hanging out in this particular waythen rewrite it as this other graph
+ mm-hm okay and so that's the whole story sothe question is what so now you say I
+ mean think as I say this is quite abstract and one of the questions iswhere do you do those updating so you've
+ got this giant graph what triggers
+
+1:05:31
+Speaker 0 :outdating like what's the what's the
+ ripple effect of it is it yeah and I I suspecteverything's discrete even in time so
+
+
+1:05:41
+Speaker 1 :okay so the question is where do you do
+ the updates yes and the answer is the rule is you do them wherever they applyand you do them you do them the order in
+ which the updates is done is not defined that is the you can do them so there maybe many possible orderings for these
+ updates now the point is if imagine you're an observer in this universe soand you say did something get updated
+ well you don't in any sense know until you yourself have been updated right soin fact all that you can be sensitive to
+ is essentially the causal network of how an event over there affects an eventthat's in you it doesn't even feel like
+
+
+1:06:22
+Speaker 0 :observation that's like that's something
+ else you're just part of the whole thing
+
+1:06:27
+Speaker 1 :yes you're part of it but but even to
+ have so the the end result of that is you're sensitive to is this causalnetwork of what event effects what other
+ event I'm not making a big statement about sort of the structure of theobserver I'm simply saying I'm simply
+ making the argument that what happens the microscopic order of these rewritesis not something that any observer any
+ conceivable observer in this universe can be affected by because the the onlything the observer can be affected by is
+ this causal network of how the events in the observer are affected by otherevents that happen in the universe so
+ the only thing you have to look at is the causal network you don't really haveto look at this microscopic rewriting
+ that's happening so these rewrites are happening wherever they they were theyhappen wherever they feel like causal
+
+
+1:07:18
+Speaker 0 :network is there you said that there's
+
+
+1:07:22
+Speaker 1 :
+
+1:07:22
+Speaker 0 :not really so the idea would be an
+ undefined like what gets updated the the sequence of things is undefined it's a
+
+1:07:31
+Speaker 1 :
+
+1:07:32
+Speaker 0 :yes that's what you mean by the causal
+ network then the cop no the causal
+
+1:07:35
+Speaker 1 :network is given that an update has
+ happened that's an event then the question is is that event causallyrelated to does that event if that event
+ didn't happen then some future event couldn't happen yet gotchaand so you build up this network of what
+ effects what okay and so what that does so when you build up that network that'skind of the observable aspect of the
+ universe in some sense yeah um and so then you can ask questionsabout you know how robust is that
+ observable ass network of the what's happening in the universe okay so here'swhere it starts getting kind of
+ interesting so for certain kinds of microscopic rewriting rules the order ofrewrites does not matter to the causal
+ network and so this is okay mathematical logic moment this is equivalent to thechurch-rosser property of a confluence
+ property of rewrite rules and it's the same reason that if you are simplifyingan algebraic expression for example you
+ can say oh let me expand those terms out let me factor those pieces doesn'tmatter what order you do that in you'll
+ always get the same answer and that's it's the same fundamental phenomenonthat causes for certain kinds of
+ microscopic rewrite that causes the causal network to beindependent of the microscopic order of
+ rewritings why is there properly
+
+1:08:53
+Speaker 0 :
+
+1:08:55
+Speaker 1 :important because it implies special
+ relativity I mean the reason what the reason it's important is that thatproperty special relativity says you can
+ look at these sort of you can look at different reference frames you can havedifferent you can be looking at your
+ notion of what space and what's time can be different depending on whether you'retraveling at a certain speed depending
+ on whether you're doing this that and the other but nevertheless the laws ofphysics are the same that's what the
+ principle special relativity says there's the laws of physics are the sameindependent of your reference frame well
+ turns out this sort of change of the microscopic rewriting order isessentially equivalent to a change of
+ reference frame or at least there's a sub part of how that works that's a callinterchange a reference frame so
+ somewhat surprisingly and sort of for the first time and forever it's possiblefor an underlying microscopic theory to
+ imply special relativity to be able to derive it it's not something you put inas a this is a it's something where this
+ other property causal invariance which is also the property that implies thatthere's a single thread of time in the
+ universe it might not be the case that that's that is the that's what wouldlead to the possibility of an observer
+ thinking that definite stuff happens otherwise you've got all these possiblerewriting orders and who's to say which
+ one occurred but with this causal invariance property there's a there's anotion of a definite threat of time it
+
+
+1:10:25
+Speaker 0 :sounds like that kind of idea of time
+ even space would be emergent from the system oh yeah no it's not a fundamental
+
+1:10:33
+Speaker 1 :part of the fundamental level all you've
+ got is a bunch of nodes connected by hyper edges or whatever so there's no
+
+1:10:38
+Speaker 0 :time there's not space that's right and
+
+
+1:10:40
+Speaker 1 :but but the the thing is that it's just
+ like imagining imagine you're just dealing with a graph and imagine youhave something like a you know like a
+ honeycomb graph we have a hexagon bunch a hexagonyou know that graph at a microscopic
+ level is just a bunch of nodes connected to other nodes but at a microscopiclevel you say that looks like a
+ honeycomb you know it's lattice it looks like atwo-dimensional you know manifold of
+ some kind it looks like a two-dimensional thing if you connect itdifferently if you just connect all the
+ nodes one one to another and kind of a sort of linked list type structure thenyou'd say well that looks like a
+ one-dimensional space but at the microscopic level all these are justnetworks with nodes the macroscopic
+ level they look like something that's like one of our sort of familiar kindsof space and it's the same thing with
+ these hyper graphs now if you ask me have I found one that gives me threedimensional space the answer is not yet
+ so we don't know this is one of these things we're kind of betting againstnature so to speak and I have no way to
+ know I mean so there are many other properties of this this kind of systemthat have are very beautiful actually
+ and very suggestive and it will be very elegant if this turns out to be rightbecause it's very it's very clean and
+ you start with nothing and everything gets built up everything about spaceeverything about time everything about
+ matter it's all just emergent from the properties of this extremely low-levelsystem and that that will be pretty cool
+ if that's the way our universe works now do I on the other hand the thingthat that I find very confusing is let's
+ say we succeed let's say we can say this particular sort of hyper graph rewritingrule gives the universe just run that
+ hyper graph rewriting rule for enough times and you'll get everything you'llget this conversation we're having will
+ you'll get everything it's that um if we get to that point and we look at what isthis thing what is this rule that we
+ just have that is giving us our whole universe how do we think about thatthing let's say turns out the minimal
+ version of this and this is kind of cool thing for a language designer like methe the minimal version of this model is
+ actually a single line of orphan language code so that's I wasn't sure isgoing to happen that way but it's it's a
+ that's um it's kind of now we don't know what we don't know what that's that'sjust the framework to know the actual
+ particular hypergraph that might be a longer that the specification of therules might be slightly like how does
+
+
+1:13:14
+Speaker 0 :help you except marveling in the beauty
+ and the elegance of the simplicity that creates the universe that does that helpus predict anything not really because
+ of the irreducibility that's correct
+
+1:13:25
+Speaker 1 :that's correct but so the thing that is
+ really strange to me and I haven't wrapped my my brain around this yet isyou know one is one keeps on realizing
+ that we're not special in the sense that you know we don't live at the center ofthe universe we don't blah blah blah and
+ yet if we produce a rule for the universe and it's quite simple and wecan write it down and a couple of lines
+ or something that feels very special how do we come to get a simple universe whenmany of the available universes so to
+ speak are incredibly complicated might be you know a quintillion characterslong why did we get one of the ones
+ that's simple and so I haven't wrapped my brain around that asou yet if indeed
+
+1:14:11
+Speaker 0 :we are in such a simple way the universe
+ is such a simple rule is it possible that there is something outside of thisthat we are in a kind of what people
+ calls to the simulation right the word just part of a computation is beingexplored by a graduate student in
+ alternate universe well you know the
+
+1:14:31
+Speaker 1 :problem is we don't get to say much
+ about what's outside our universe because by definition our universe iswhat we exist within yeah now can we
+ make a sort of almost theological conclusion from being able to know howour particular universe works
+ interesting question I don't think that if you ask the question could we and itrelates again to this question about the
+ extraterrestrial intelligence you know we've got the rule for the universe wasit built in on purpose hard to say
+ that's the same thing as saying we see a signal from you know that we're you knowreceiving from some you know random star
+ somewhere and it's a series of pulses and you know it's a periodic series ofpulses let's say was that done on
+ purpose can we conclude something about the origin of that series of pulses just
+
+1:15:21
+Speaker 0 :because it's elegant does not
+ necessarily mean that somebody created it or thoughcan even comprehend yeah well yeah I
+
+
+1:15:29
+Speaker 1 :think it's it's the ultimate version of
+ the sort of identification of the techno signature questionit's the ultimate version of that is was
+ our universe a piece of technology so to speak and how on earth would we knowbecause but I mean it'll be it's some I
+ mean you know in the kind of crazy science fiction thing you could imagineyou could say Oh somebody's going to
+ have them you know that's gonna be a signature there it's gonna be you knowmade by so-and-so but there's no way we
+ could understand that sort of speaking it's not clear what that would meanbecause the universe simply you know
+ this if we find a rule for the universe we're not we're simply saying that rulerepresents what our universe does we're
+ not saying that that rule is something running on a big computer and making ouruniverse it's just saying that
+ represents what our universe does in the same sense that you know laws ofclassical mechanics differential
+ equations whatever they are represent what mechanical systems do it's not thatthe mechanical systems are somehow
+ running solutions to those differential equations those differential equationsjust representing the behavior of those
+
+
+1:16:39
+Speaker 0 :systems so what's the gap in your sense
+ to linger and the fascinating perhaps slightly sci-fi a question what's thegap between understanding the
+ fundamental rules that create a universe and engineering a system actuallycreating a simulation ourselves so
+ you've talked about sort of you've talked about you know nano engineeringkind of ideas that are kind of exciting
+ actually creating some ideas of computation in the physical space howhard it is is it as an engineering
+ problem to create the universe once you know the rules the Creator and well it's
+
+1:17:12
+Speaker 1 :an interesting question I think the
+ substrate on which the universe is operating is not a substrate that wehave access to I mean the only substrate
+ we have is that same substrate that the universe is operating in so if theuniverse is a bunch of hypergraphs being
+ rewritten then we get to attach ourselves to those same hypergraphsbeing rewritten we don't get to and if
+ you ask the question you know is the code clean you know is you know can wewrite nice elegant code
+ with efficient algorithms and so on well that's an interesting question how howyou know that's this question of how
+ much computational reducibility there is in the system but so I've seen some
+
+1:17:52
+Speaker 0 :beautiful cellular automata that
+ basically create copies of itself within itself right that's the question whetherit's possible to create like whether you
+ need to understand the substrate or whether you can just yeah well right I
+
+1:18:04
+Speaker 1 :mean so one of the things that is sort
+ of one of my slightly sci-fi thoughts about the future so to speak is you knowright now if you pol typical people who
+ say do you think it's important to find the fundamental theory of physics youget because I've done this poll
+ informally at least it's curious actually you get a decent fraction ofpeople saying oh yeah that would be
+ pretty interesting I think that's
+
+1:18:27
+Speaker 0 :becoming surprisingly enough more I mean
+ a lot of people are interested in physics in a way that like withoutunderstanding it just kind of watching
+ scientists a very small number of them struggle to understand the nature of our
+
+1:18:46
+Speaker 1 :reality right mean I I mean I I think
+ that's somewhat true and in fact in this project that I'm launching into to tryand find in fundamental theory of
+ physics I'm going to do it as a very public project I mean it's gonna be livestreamed and all this kind of stuff and
+ I don't know what will happen it'll be kind of fun I mean I think that it's theinterface to the world of this project I
+ mean I I figure one feature of this project is you know unlike technologyprojects that basically are what they
+ are this is a project that might simply fail because it might be the case thatgenerates all kinds of elegant
+ mathematics that has absolutely nothing to do with the physical universe that wehappen to live in well okay so we're
+ talking about kind of the quest to find the fundamental theory physics firstpoint is you know it's turned out it's
+ kind of hard to find the fundamental theory physics people weren't sure thatthat would be the case back in the early
+ days of applying mathematics to science 1600s and so on people were like oh anda hundred years we'll know everything
+ there is to know about how the universe works turned out to be harder than thatand people got kind of humble at some
+ level because every time we got to a sort of a greater level of smallness anduniverse it seemed like the math got
+ more complicated and everything got got harder the you know when I when I was akid basically I started doing particle
+ physics and you know what I was doing particle physicsI always thought finding the fundamental
+ fundamental theory of physics that's a kooky business we'll never be able to dothat um but we can operate within these
+ frameworks that we built for doing quantum field theory and generalrelativity and things like this and it's
+ all good and we can figure out a lot of
+
+1:20:26
+Speaker 0 :stuff did you even at that time have a
+ sense that there's something behind that
+
+1:20:30
+Speaker 1 :sure I just didn't expect that I thought
+ in some rather on it's actually kind of crazy and thinking back on it becauseit's kind of like there was this long
+ period in civilization where people thought the ancients had it all figuredout and we'll never figure out oh
+ nothing new and to some extent that's the way I felt about physics when I wasin the middle of doing it so to speak
+ and was you know we've got quantum field theory it's the foundation of what we'redoing and there's you know yes there's
+ probably something underneath this but we'll sort of never figure it out butthen I started studying simple programs
+ and the computational universe things like solar automata and so on and Idiscovered that there so they do all
+ kinds of things that were completely at odds with the intuition that I had hadand so after that after you see this
+ tiny little program that does all this amazingly complicated stuff then youstart feeling a bit more ambitious about
+ physics and saying maybe we could do this for physics too and so that's somethat got me started years ago now and
+ this kind of idea of could we actually find what's underneath all of theseframeworks like one a field theory in
+ jorts everything's on and people perhaps don't realize as slow as they might thatyou know the frameworks we're using for
+ physics which is basically these two things quantum field theory the sort ofthe theory of small stuff and general
+ relativity theory of gravitation and large stuff those are the two basictheories and they're 100 years old I
+ mean general relativity was 1915 quantum field theory well 1920s I'm basically ahundred years old
+ and they've they've it's been a good run there's a lot of stuff been figured outbut what's interesting is the
+ foundations haven't changed in all that period of time even though thefoundations had changed several times
+ before that in the two hundred years earlier than that um and I think thekinds of things that I'm thinking about
+ which is sort of really informed by thinking about computation in thecomputational universe it's a different
+ foundation it's a different set of foundations and might be wrong but it isat least you know we have a shot and I
+ think it's you know to me it's you know my personal calculation for myself is isyou know if it turns out that the
+ finding the fundamental theory of physics it's kind of low-hanging fruitso to speak
+ it'd be a shame if we just didn't think to do it you know if people just said ohyou'll never figure that stuff out let's
+ you know and it takes another two hundred years before anybody gets aroundto doing it um you know I think it's I
+ don't know how low-hanging this fruit actually is it may be you know it may bethat it's kind of the wrong century to
+ do this project I mean I think the the the cautionary tale for me you know Ithink about things that I've tried to do
+ in technology where people thought about doing them a lot earlier and my favoriteexample is probably live Nets who-who
+ thought about making essentially encapsulating the world's knowledge in acomputational form in the late 1600s and
+ did a lot of things towards that and basically you know we finally managed todo this but he was three hundred years
+ too early and that's the that's kind of the in terms of life planning it's kindof like avoid things that can't be done
+ in your in your century so to speak yeah
+
+1:23:51
+Speaker 0 :timing timing is everything you so you
+ think if we kind of figure out the underlying rules that can create fromwhich quantum field theory in general
+ relativity can emerge do you think they'll help us unify it at that level
+
+1:24:08
+Speaker 1 :of track we'll know it completely we'll
+ know how that all fits together yes without a question and I mean it'salready even the things I've already
+ done they're a very you know it's very very elegant actualhow things seem to be fitting together
+ now you know is it right I don't know yet it's awfully suggestive if it isn'tright it's some then the designer of the
+ universe should feel embarrassed so to speak because it's a really good way to
+
+1:24:37
+Speaker 0 :do that in your intuition in terms of
+ design universe does God play dice is there is there randomness in this thingor is it deterministic so the kind of
+
+
+1:24:47
+Speaker 1 :guy that's a little bit of a complicated
+ question because when you're dealing with these things that involve theserewrites that have okay even randomness
+
+
+1:24:54
+Speaker 0 :is an emergent phenomenon perhaps yes I
+
+
+1:24:56
+Speaker 1 :mean it's a yeah well randomness in in
+ many of these systems pseudo randomness and randomness are hard to distinguishum in this particular case the current
+ idea that we have about some measurement in quantum mechanics is something verybizarre and very abstract and I don't
+ think I can yet explain it without kind of yakking about very technical thingseventually I will be able to but if
+ that's if that's right it's kind of a it's a weird thing because it slicesbetween determinism and randomness in a
+ weird way that hasn't been sliced before so to speak so like many of thesequestions that come up in science where
+ it's like is that this or is it that turns out the real answer is it'sneither of those things it's something
+ kind of different and sort of orthogonal to those those those categories and sothat's the current you know this week's
+ idea about how that might work um but you know we'll we'll see how that termunfolds I mean there's there's this
+ question about a field like physics and sort of the quest for a fundamentaltheory and so on and there's both the
+ science of what happens and there's the the sort of the social aspect of whathappens because you know in a field that
+ is basically as old as physics we're at I don't know what it is fourthgeneration I don't know fourth
+ generation I don't know what generation it is of physicists and like I was oneof these so to speak and for me the
+ foundations were like the pyramids so to speak you know it was that way and itwas always that way
+ um it is difficult in an old field to go back to the foundations and would thinkabout rewriting them it's a lot easier
+ in young fields where you're still dealing with the first generation ofpeople who invented the field and it
+ tends to be the case you know that the nature of what happens in science tendsto be you know you'll get there
+ typically the pattern is some methodological advanced occurs and thenthere's a period of five years ten years
+ maybe a little bit longer than that where there's lots of things that arenow made possible whether by that
+ methodological advance whether it's you know I don't know telescopes or whetherthat's some mathematical method or
+ something it's you know there's a something something happens a tool getsbuilt and then you can do a bunch of
+ stuff and there's bunch of low-hanging fruit to be picked and that takes acertain amount of time after that all
+ that low-hanging fruit is picked then it's a hard slog for the next howevermany decades or century or more to get
+ to the next sort of level at which one can do something and it's kind of a a.m.and it tends to be the case that in
+ fields that are in that kind of but I wouldn't say cruise mode because it'sreally hard work but it's very hard work
+ for very incremental progress
+
+1:27:48
+Speaker 0 :um and the in your career and some of
+ the things you've taken on it feels like you're not you haven't been afraid of
+
+1:27:54
+Speaker 1 :the hard slog the also true so it's
+
+
+1:27:55
+Speaker 0 :quite interesting especially on the
+ engineering on the engineering side and a small tangent when you were a Caltechdid you get to interact with Richard
+ five-minute ology aviemore he's very
+
+1:28:10
+Speaker 1 :sure we we work together quite a bit
+ actually in fact on and in fact both when I wasat Caltech and after I left Caltech
+ we were both consultants at this company called Thinking Machines Corporationwhich was just down the street from here
+ actually um ultimately ill-fated company but um I used to say this company is notgoing to work with the strategy they
+ have and dick Feynman always used to say what do we know about running companiesjust let them run their company but uh
+ anyway I was there he was not into into that kind of thing and he always thoughtit was thought that my interest in doing
+ things like running companies was a was a distraction so to speak um andfor me it's a it's a mechanism to have a
+ more effective machine for actually getting things figuring things out andgetting things to happen did he think of
+
+
+1:28:59
+Speaker 0 :it because essentially what you used you
+
+
+1:29:02
+Speaker 1 :
+
+1:29:02
+Speaker 0 :did with the company I don't know if you
+ were thinking of it that way but you're creating tools to empower your toempower the exploration of the
+ university do you think did he did he
+
+1:29:14
+Speaker 1 :understand that point that the point of
+
+
+1:29:16
+Speaker 0 :
+
+1:29:18
+Speaker 1 :tools of I think not as well as he might
+ have done I mean I think that but you know he was actually my first companywhich was also involved with well was
+ involved with more mathematical computation kinds of things um you knowhe was quite - he had lots of advice
+ about the technical side of what we should do and so on um giving examples
+
+1:29:39
+Speaker 0 :and memories of thoughts that oh yeah
+
+
+1:29:41
+Speaker 1 :yeah he had all kinds of lucky in in the
+ business of doing sort of you know one of the hard things in math is doingintegrals and so on right and so he had
+ his own elaborate ways to do integrals and so on he had his own ways ofthinking about sort of getting intuition
+ about how math works and so his sort of meta idea was take those intuitionalmethods and make a computer follow those
+ in traditional methods now it turns out for the most part like when we dointegrals and things what we do is is we
+ build this kind of bizarre industrial machine that turns every integral untilyou know products of Mayer G functions
+ and generates this very elaborate thing and actually the big problem is turningthe results into something a human will
+ understand it's not quotes doing the integral and actually Fineman didunderstand that to some extent and I I
+ am embarrassed to say he once gave me this big pile of you know calculationalmethods for particle physics that he
+ worked out in the 50s and he said you know it's more used to you than to metype thing and I I was like I were
+ intended to look at it and give it back and I store my files now so it's butthat's what happens when when it's
+ finiteness of human lives it um I hate you know maybe if he'd live another 20years I would have I would remember to
+ give it back but I think it's you know that that was his attempt to systematizethe ways that one does integrals that
+ show up in particle physics and so on turns out the way we've actually done itis very different from that way what do
+
+
+1:31:09
+Speaker 0 :you make of that difference between so
+ fireman was actually quite remarkable at creating sort of intuitive like divingin you know creating intuitive
+ frameworks for understanding difficult
+
+1:31:22
+Speaker 1 :concepts is I'm smiling because you know
+ the funny thing about him was that the thing he was really really really goodat is calculating stuff and but he
+ thought that was easy because he was really good at it and so he would dothese things where he would calculate
+ some do some complicated calculation in quantum field theory for example comeout with a result wouldn't tell
+ everybody about the complicated calculation because thought that waseasy
+ he thought the really impressive thing was to have this simple intuition abouthow everything worse so he invented that
+ at the end and you know because he'd done this calculation and knew what howit worked it was a lot easier it's a lot
+ easier to have good intuition when you know what the answer is and then andthen he would just not tell anybody
+ about these calculations he wasn't meaning that maliciously so to speak isjust he thought that was easy
+ yeah um and and that's you know that led to areas where people were justcompletely mystified and they kind of
+ followed his intuition but nobody could tell why it worked because actually thereason it worked was because he done all
+ these calculations and he knew that it was would work and you know when I peeand I worked a bit on quantum computers
+ actually back in 1980-81 but before anybody had heard of those things andyou know the typical mode of um I mean
+ he always used to say and I now think about this because I'm about the agethat he was when I worked with him and
+ you know I see that people have 1/3 my age so to speak and oh he was alwayscomplaining that I was one-third his age
+ and so for various things but but you know he would do some calculation by byhand you know blackboard and things come
+ up with some answer I'd say I don't understand this you know I do somethingwith a computer and he'd say you know I
+ don't understand this so it'd be some big argument about what was you knowwhat was going on but that it was always
+ some and I think actually we many of thethings that we sort of realized about
+ quantum computing that were sort of issues that have to do particularly withthe measurement process are kind of
+ still issues today and I kind of find it interesting it's a funny thing inscience that these you know that there's
+ there's a remarkable happens in technology too there's a remarkable sortof repetition of history that ends up
+ occurring eventually things really get nailed down but it often takes a whileand it often things come back decades
+ later well for example I could tell a story actually happened right down thestreet from here um I will move both
+ that thinking machines I had been working on this particular cellularautomaton will rule 30 that has this
+ feature that it from very simple initial conditions it makes really complicatedbehavior okay
+ so and actually of all silly physical things using this big parallel computercalled a connection machine that that
+ company was making I generated this giant printout of rule 30 on very I'mactually on the same kind of same kind
+ of printer that people use to make um layouts for microprocessors so one ofthese big you know large format printers
+ with high resolution and so on so okay so print this out lots of very tinycells and so there was sort of a
+ question of how some features of that pattern and so it was very much aphysical you know on the floor with
+ meter rules trying to measure different things so so Feynman kind of takes measide we've been doing that for a little
+ while and takes me aside he says I just want to know this one thing he says Iwant to know how did you know that this
+ rule 30 thing would produce all this really complicated behavior that is socomplicated that weird you know going
+ around this big printout and so on and I said well I didn't know I justenumerated all the possible rules and
+ then observed that that's what happened he said ah I feel a lot better you knowI thought you had some intuition that he
+ didn't have that would let why I said no no no intuition just experimentalscience so that's
+
+
+1:35:27
+Speaker 0 :such a beautiful sort of dichotomy there
+ of that's exactly showed is you really can't have an intuition about anirreducible I mean you have to run us
+ yes that's right that's so hard for us humans andespecially brilliant physicist like
+ fireman to say that you can't haven't compressed clean intuition about how thewhole thing yes works yes no he was I
+
+
+1:35:52
+Speaker 1 :mean I think he was sort of on the edge
+ of understanding that point about computation and I think he found that Ithink he always found computation
+ interesting and I think that was sort of what he was a little bit poking at Imean yeah that intuition you know the
+ difficulty of discovering things like even you say oh you know you just didn'twrite all the cases in just find one
+ that does something interesting right sounds very easy turns out like I missedit when I first saw it because I had
+ kind of an intuition that said it shouldn't be there and so I had kind ofarguments oh I'm gonna ignore that case
+ because whatever um and so how did you
+
+1:36:29
+Speaker 0 :have an open mind enough because you're
+ essentially the same person is just your fight like for the same kind of physicstype of thinking how did you find
+ yourself having a sufficiently open mind to be open to watching rules and themrevealing complexity yeah I think that's
+
+
+1:36:44
+Speaker 1 :an interesting question I've wondered
+ about that myself because it's kind of like you know you live through thesethings and then you say what was the
+ historical story and sometimes the historical story that you realized afterthe fact was not what you lived through
+ so to speak and so you know what I realized is I think what happened is youknow I did physics kind of like
+ reductionistic physics where you're throw-in the universe and you have tellsgo figure out what's going on inside it
+ and then I started building computer tools and I started building my firstcomputer language for example and
+ computer language is not like it's sort of like physics in the sense that youhave to take all those computations
+ people want to do and kind of drill down and find the primitives that they canall be made of but then you do something
+ that's really different because you just you're just saying okay these are theprimitives now you know hopefully
+ they'll be useful to people let's build up from there so you're essentiallybuilding an
+ show universe in a sense where you make this language you've got theseprimitives you're just building whatever
+ you feel like building and that's and so it was sort of interesting for mebecause from doing science where you
+ just throw in the universe as the universe is to then just being told youknow you can make up any universe you
+ want and so I think that experience of of making a computer language which isessentially building your own universe
+ so to speak is you know that's kind of the that's that's what gave me asomewhat different attitude towards what
+ might be possible it's like let's just explore what can be done in theseartificial universes rather than
+ thinking the natural science way of let's be constrained by how the universeactually is yeah by being able to
+
+
+1:38:25
+Speaker 0 :program essentially you've as opposed to
+ being limited to just your mind and a pen you you now have you've basicallybuilt another brain that you can use to
+ explore the universe but yeah computer program you know this is kind of a brain
+
+1:38:41
+Speaker 1 :right and it's well it's it's or
+ telescope or you know it's a tool and it lets you see stuff but there's something
+
+1:38:46
+Speaker 0 :fundamentally different between a
+ computer and a telescope I mean it just yeah I'm Amanda sighs the notion but
+
+1:38:56
+Speaker 1 :it's more general and it's it's I think
+ I mean this point about you know people say oh such and such a thing was almostdiscovered at such and such a time the
+ the distance between you know the building the paradigm that allows you toactually understand stuff or allows one
+ to be open to seeing what's going on that's really hard and you know I thinkin I've been fortunate in my life that I
+ spent a lot of my time building computational language and that's anactivity that in a sense works by sort
+ of having to kind of create another level of abstraction and kind of be opento different kinds of structures but you
+ know it's it's always some I mean I'm fully aware of I suppose the fact that Ihave seen it a bunch of times of how
+ easy it is to miss the obvious so to speak that at least is factored into myattempt to not miss the obvious
+ although it may not succeed what do you
+
+1:39:58
+Speaker 0 :think is the role of ego in the history
+ of math and science and more sort of you know a book title is something like anew kind of science you've accomplished
+ a huge amount in fact somebody said that Newton didn't have an ego and I lookedinto it and he had a huge ego yeah but
+ from an outsider's perspective some have said that you have a bit of an ego as
+
+1:40:25
+Speaker 1 :well do you see it that way does ego get
+
+
+1:40:27
+Speaker 0 :in the way is it empowering is it both
+
+
+1:40:32
+Speaker 1 :so it's it's it's all implicated
+ necessary I mean you know I've had look I've spent more than half my life CEO ina tech company right ok
+ and you know that is a I think it's actually very it means that one's ego isnot a distant thing it's the thing that
+ one encounters every day so to speak because it's it's all tied up withleadership and with how one you know
+ develops an organization and all these kinds of things so you know it may bethat if I've been an academic for
+ example I could have sort of you know check the ego put it on put on a shelfsomewhere and ignored its
+ characteristics but for your reminder it
+
+1:41:10
+Speaker 0 :quite often in the context of running a
+
+
+1:41:13
+Speaker 1 :company sure yeah I mean that's what
+ it's about it's it's about leadership and you know leadership is intimatelytied to ego now what does it mean I mean
+ what what is the you know for me I've been fortunate that I think I havereasonable intellectual confidence so to
+ speak that is you know I I'm one of these people who at this point ifsomebody tells me something and I just
+ don't understand it my conclusion isn't that means I'm dumb that my conclusionis there's something wrong with what I'm
+ being told and that was actually dick Feynman used to have that that thatfeature - he never really believed it he
+ actually believed in experts much less than I believe in experts so Wow so
+
+1:41:57
+Speaker 0 :that's a fun that's a that's a
+ fundamentally powerful property of ego and saying like not that I am wrongbut that the the world is wrong and
+ telling me like when confronted with the fact that doesn't fit the thing thatyou've really thought through sort of
+ both the negative and the positive of
+
+1:42:19
+Speaker 1 :ego you see the negative of that get in
+
+
+1:42:20
+Speaker 0 :the way sort of be sure the Fronteras
+
+
+1:42:24
+Speaker 1 :mistakes I've made that are the results
+ of I'm pretty sure I'm right and turns out I'm not I mean that's that's the youknow but but the thing is that the the
+ the idea that one tries to do things that so for example you know onequestion is if people have tried hard to
+ do something and then one thinks maybe I should try doing this myselfif one does not have a certain degree of
+ intellectual confidence one just says well people have been trying to do thisfor a hundred years how am I going to be
+ able to do this yeah and you know I was fortunate in the sense that I happen tostart having some degree of success in
+ science and things when I was really young and so that developed a certainamounts of sort of intellectual
+ confidence I don't think I otherwise would have had um and you know in asense I mean I was fortunate that I was
+ working in the field particle physics during it sort of Golden Age of rapidprogress and that that's kind of good on
+ a false sense of achievement because it's kind of kind of easy to discoverstuff that's gonna survive if you happen
+ to be you know picking the low-hanging fruit of a rapidly expanding field I
+
+1:43:30
+Speaker 0 :mean the reason I totally I totally
+ immediately understood the ego behind a new kind of science to me let me sort ofjust try to express my feelings and the
+ whole thing is that if you don't allow that kind of ego then you would neverwrite that book that you would say well
+ people must have done this there's not you would not dig you would not keepdigging and I think that was I think you
+ have to take that ego and ride it and see where it takes you in that andthat's how you create exceptional work I
+
+
+1:44:03
+Speaker 1 :think the other point about that book
+ was it was a non-trivial question how to take a bunch of ideas that uhI think reasonably big ideas they might
+ you know their importance is determined by what happens historically one can'ttell how important they are one can tell
+ sort of the scope of them and the scope is fairly big and they'revery different from things that have
+ come before and the question is how do you explain that stuff to people and soI had had the experience of sort of
+ saying well there these things does a cellular automaton it does this it doesthat and people are like oh it must be
+ just like this it must be just like that say no it isn't it's something differentright I said I could have done sort of
+
+
+1:44:43
+Speaker 0 :I'm really glad you did what you did but
+ you could have done a sort of academically just publish keeppublishing small papers here and there
+ and then you would just keep getting this kind of resistance right you wouldget like yeah it's supposed to just
+ dropping a thing that says here it is yeah here's like full the full thing no
+
+1:44:59
+Speaker 1 :I mean that was my calculation is that
+ basically you know you could introduce little pieces it's like you know onepossibility is like it's it's the secret
+ weapon so to speak it's this you know I keep on an intraday you know discoveringthese things in all these different
+ areas where'd they come from nobody knows but I decided that you knowin the interests of one only has one
+ life to lead and you know it the writing that book took me a decade anyway it'snot there's not a lot of wiggle room so
+ to speak one can't be wrong by a factor of three he said is peeking how longit's going to take that I you know I
+ thought the best thing to do the thing that is most sort of that most respectsthe the intellectual content so to speak
+ is you just put it out with as much force as you can because it's notsomething where and you know it's an
+ interesting thing you talk about ego and it's it's you know for example I run acompany which has my name on it right I
+ I thought about starting a club people whose companies have their names on themand it's it's a funny group because
+ we're not a bunch of ego maniacs that's not what it's about so to speak it'sabout basically sort of taking
+ responsibility for what one's doing and you know in a sense any of these thingswhere you're sort of putting yourself on
+ the line it's it's kind of a funny it's a funny dynamic because in a sense mycompany is sort of something that
+ happens to have my name on it but it's kind of bigger than me and I'm kind ofjust its mascot at some level I mean I
+ also happen to be a pretty you know strong leader of it but but
+
+1:46:37
+Speaker 0 :it's basically showing a deep
+ inextricable sort of investment the same your name like Steve Jobs his namewasn't on Apple but he was Apple yes
+ Elon Musk's name is not on Tesla but he is Tesla so it's like a meaningemotionally his company succeeds or
+ fails he would just that emotionally would suffer through that and so that's
+
+1:47:07
+Speaker 1 :that's did recognizing that fact tonight
+ and also wolf form is a pretty good
+
+1:47:10
+Speaker 0 :branding name so that works up I think
+
+
+1:47:13
+Speaker 1 :Steve had it had a bad deal there yeah
+
+
+1:47:17
+Speaker 0 :so you you've made up for it with the
+ last name okay so so in 2002 you published a new kind of science to whichsort of on a personal level I can credit
+ my love for cellular automata and computation in general I think a lot ofothers can as well can you briefly
+ describe the vision the hope the main idea presented in this twelve hundred
+
+1:47:46
+Speaker 1 :page book sure although it took twelve
+ hundred pages to say in the book so know that the the real idea it's kind of agood way to get into it is to look at
+ sort of the arc of history and to look at what's happened in kind of thedevelopments of science I mean there was
+ this sort of big idea in science about three hundred years ago that was let'suse mathematical equations to try and
+ describe things in the world let's use sort of the formal idea of mathematicalequations to describe what might be
+ happening in the world rather than for example just using sort of logicalaugmentation and so on let's have a a
+ formal theory about that and so they've been this three hundred year run ofusing mathematical equations to describe
+ the natural world which would work pretty well but I got interested in howone could generalize that notion you
+ know there is a formal theory there are definite rules but what structure couldthose rules have and so what I got
+ interested in was let's generalize beyond the sort of purely mathematicalrules and we now have this sort of
+ ocean of programming and computing and so on let's use the kinds of rules thatcan be embodied in programs to has a
+ sort of generalization of the ones that can exist in mathematics as a way todescribe the world and so my kind of
+ favorite version of these kinds of simple rules are these things calledcellular automata and so typical case
+
+
+1:49:11
+Speaker 0 :shall we what are cellular automata fair
+
+
+1:49:14
+Speaker 1 :enough so typical case of a cellular
+ automaton it's an array of cells it's just a line of discrete cells each cellis either black or white and in a series
+ of steps you can represent as lines going down a page you're updating thecolor of each cell according to a rule
+ that depends on the color of the cell above it and to its left and right soit's really simple so a thing might be
+ you know if the cell on its right neighbor are not the same and or thecell on the left is is is black or
+ something then make it back on the next step and if not make it white typicalrule um that rule I'm not sure I said it
+ exactly right but a rule very much like what I just said has the feature that ifyou started off from just one black cell
+ at the top it makes this extremely complicated pattern so some rules youget a very simple pattern some rules you
+ have the rule is simple you start them off from a sort of simple seed you justget this very simple pattern but other
+ rules and this was the big surprise when I started actually just doing the simplecomputer experiments to find out what
+ happens is that they produce very complicated patterns of behavior so forexample its rule 30 rule has the feature
+ you start from just one black cell at the top makes this very random patternif you look like at the center column of
+ cells you get a series of values you know it goes back white black blackwhatever it is that sequence seems for
+ all practical purposes random so it's kind of like in in math you know you canput the digits of pi 3
+ one four one five nine two six whatever those digits once computed I mean thatthe scheme for computing pi you know
+ it's the ratio of the circumference to the diameter of a circle verywell-defined but yet when you are once
+ you've generated those digits they seem for all practical purposes completelyrandom and so it is with rule 30 that
+ even though the rule is very simple much simpler much more sort ofcomputationally obvious than the rule
+ for generating digits of pi even with a rule that simple you're still generatingimmensely complicated behavior yeah so
+
+
+1:51:35
+Speaker 0 :if we could just pause on that I think
+ you you probably said it and looked at it so long you forgot the magic of it orperhaps you know you still feel the
+ magic but to me if you've never seen sort of I would say what is it a onedimensional essentially another automata
+ right and and you were to guess what you would see if you have some so cells thatonly respond to its neighbors right if
+
+
+1:52:03
+Speaker 1 :
+
+1:52:05
+Speaker 0 :you were to guess what kind of things
+ you would see like my my initial guess like even when I first like open yourbook a new kind of science right - your
+ guess is you would see I mean it would be a very simple stuff like and I thinkit's a magical experience to realize the
+ kind of complex you mentioned rule 30 still your favorite cellular automaton
+
+1:52:29
+Speaker 1 :oh my favorite rule yes it you get
+
+
+1:52:31
+Speaker 0 :complexity immense complexity you get
+ arbitrary complexity yes and when you say randomness down the middle columnyou know that's just what one cool way
+ to say that there's incredible complexity and that's just the gist Imean that's a magical idea however you
+ start to interpret it all the reducibility discussions all that butit's just I think that has profound
+ philosophical kind of notions around it - it's not just well you know I meanthis transformation about how you see
+ the world I think for me was transformational I don't know we canwhat it can have all kinds of discussion
+ about computation and so on but just you know Iand sometimes think if I were on a
+ desert island and was I don't know maybe it was some psychedelics or somethingbut if I had to take one book any new
+ kind of science would be a because you just enjoy that notion for some reasonit's a deeply profound notion at least
+
+
+1:53:32
+Speaker 1 :to me I find it that way yeah I mean
+ look it's been it was a very intuition breaking thing to discover I mean it'skind of like you know you you point the
+ computational telescope out there and suddenly you see I don't know you knowin the past it's kind of like you know
+ moons of Jupiter or something but suddenly you see something that's kindof very unexpected and rule 30 was very
+ unexpected for me and the big challenge at a personal level was to not ignore itI mean people you know in other words
+ you might say you know it's a bug what
+
+1:54:05
+Speaker 0 :would you say yeah well yeah I mean I I
+
+
+1:54:07
+Speaker 1 :what are we looking at by the way well I
+ was just generating Herald actually generated a rule 30 pattern so that'sthe rule for for rule 30 and it says for
+ example it says here if you have a black cell in the middle and black cell to theleft and white cell to the right then
+ the cell on the next step will be white and so here's the actual pattern thatyou get starting off from a single black
+ cell at the top there and then that's
+
+1:54:33
+Speaker 0 :the initial state initial condition
+
+
+1:54:35
+Speaker 1 :that's the initial thing you just start
+ off from that and then you're going down the page and at every at every stepyou're just applying this rule to find
+ out the new value that you get and so you might think rule that simple you gotto get that there's got to be some trace
+ of that simplicity here okay we'll run it let's say for 400 steps um what itdoes it's kind of really asking a bit on
+ the screen there but but um you can see there's a little bit of regularity overon the left but there's a lot of stuff
+ here that just looks very complicated very random and that's a big sort ofshock to was a big shock to my intuition
+ at least that that's possible your mind
+
+1:55:16
+Speaker 0 :immediately starts is there a pattern
+ there must be a repetitive pattern yeah
+
+1:55:20
+Speaker 1 :there must be as well the rhein so I
+ spent so indeed that's what I thought at first and I thought I thought well thisis kind of interesting but you know if
+ we long enough we'll see you know somethingwill resolve into something simple and
+ you know I did all kinds of analysis of using mathematics statisticscryptography whatever whatever to try
+ and crack it and I never succeeded and after I hadn't succeeded for awhile Istarted thinking maybe there's a real
+ phenomenon here that is the reason I'm not succeeding maybe I mean the thingthat for me was sort of a motivating
+ factor was looking at the natural world and seeing all this complexity thatexists in the natural world the question
+ is where does it come from you know what secret does nature havethat lets it make all this complexity
+ that we humans when we engineer things typically are not making we're typicallymaking things that at least look quite
+ simple to us and so the shock here was even from something very simple you'remaking something that complex maybe this
+ is getting at sort of the secret that nature has that allows it to make reallycomplex things even though its
+ underlying rules may not be that complex how did it make you feel if we if we
+
+1:56:30
+Speaker 0 :look at the Newton Apple was there was
+ it was there you know you took a walk and in something it profoundly hit youor was this a gradual thing a lot of
+
+
+1:56:43
+Speaker 1 :truth the truth of every sort of science
+ discovery is it's not that gradual I mean I've spent I happen to beinterested in scientific biography kinds
+ of things and so I've tried to track down you know how did people come tofigure out this or that thing and
+ there's always a long kind of sort of preparatory you know there's a there's aneed to be prepared in a mindset in
+ which it's possible to see something I mean in the case of rule 30 our eyesaround June 1st 1984 was some kind of a
+ silly story in some ways I finally had a high-resolution laser printer so I wasable so I thought I'm gonna generate a
+ bunch of pictures of these cellular automata and I generate this one and Iput it on some plane flight for to
+ Europe you know have this with me and it's like you know I really should tryto understand this and this is really
+ you know this is I really don't understand what's going on and that waskind of the you know slowly trying to
+ trying to see what was happening as it was not it was depressingly uncertain soto speak in the sense that a lot of
+ these ideas like principle of computational equivalence for exampleyou know I thought well that's a
+ possible thing I didn't know if it's correct still don't know for sure thatit's correct but it's sort of a gradual
+ thing that these things gradually kind of become seem more important than onethought I mean I think the whole idea of
+ studying the computational universe of simple programs it took me probably adecade decade and a half to kind of
+ internalize that that was really an important idea um and I think you knowif it turns out we find the whole
+ universe looking out there in the computational universe that's a good youknow it's a good brownie point or
+ something for the for the whole idea but I think that the the thing that strangein this whole question about you know
+ finding this different raw material for making models of things um what's beeninteresting sort of in the in sort of
+ arc of history is you know for 300 years it's kind of like the the mathematicalequations approach it was the winner it
+ was the thing you know you want to have a really a good model for somethingthat's what you use the thing that's
+ been remarkable is just in the last decade or so I think one can see atransition to using not mathematical
+ equations but programs as sort of the raw material for making models of stuffand that's pretty neat and it's kind of
+ you know as somebody who's kind of lived inside this paradigm shift so to speakit is bizarre I mean no doubt instead of
+ the history of science that will be seen as an instantaneous paradigm shift butit sure isn't instantaneous when it's
+ played out in one's actual life so to speak tryit seems glacial and and it's the kind
+ of thing where where it's sort of interesting because in the dynamics ofsort of the adoption of ideas like that
+ into different fields the younger the field the faster the adoption typicallybecause people are not kind of locked in
+ with the fifth generation of people who've studied this field and it is itis the way it is and it can never be any
+ different and I think that's been you know watching that process has beeninteresting I mean I'm I'm I think I'm
+ fortunate that I I've I I do stuff mainly because I like doing it and if Iwas some that makes me kind of
+ thick-skinned about the world's response to what I do um and but that'sdefinitely you know and anytime you you
+ write a book called something like a new kind of science it's kind of the thepitchforks will come out for the for the
+ old kind of science and I was was interesting dynamics I think that the II have to say that I was fully aware of
+ the fact that the when you see sort of incipient paradigm shifts in science thevigor of the negative response upon
+ early introduction is a fantastic positive indicator of good long-termresults so in other words if people just
+ don't care it's um you know that's not such a good sign if they're like oh thisis great that means you didn't really
+ discover anything interesting um what
+
+2:01:01
+Speaker 0 :fascinating properties of rule 30 have
+ you discovered over the years you've recently announced the rule 30 prizesfor solving three key problems can you
+ maybe talk about interesting properties that have been kind of revealed rule 30or other cellular automata and what
+ problems are still before us like the three problems you've announced yeah
+
+2:01:22
+Speaker 1 :yeah right so I mean the most
+ interesting thing about cellular automata is that it's hard to figurestuff out about them and that's some in
+ a sense every time you try and sort of you try and bash them with some othertechnique you say can i crack them the
+ answer is they seem to be uncrackable they seem to have the feature that theyare that they're sort of showing
+ irreducible computation they're not you're not able to say oh I know exactlywhat this is going to do it's going to
+ do this or that but there's a specific
+
+2:01:56
+Speaker 0 :formulations of that fact yes right so I
+
+
+2:01:58
+Speaker 1 :mean for example in in rule 30 in the
+ pattern you get just starting from a single black cell you get this sort ofvery very sort of random
+ pattern and so one feature of that just look at the center column and forexample we used that for a long time to
+ generate random the symbol from language um just you know what rule 30 producesnow the question is can you prove how
+ random it is so for example one very simple question can you prove that andnever repeat nope we haven't been able
+ to show that will never repeat we know that if there are two adjacentcolumns we know they can't both repeat
+ but just knowing whether that center column can ever repeat we still don'teven know that um another problem that
+ I've sort of put in my collection of you know it's like $30,000 for three youknow for these three prizes for about
+ rule thirty I would say this is not one of those is one of those cases where themoney is not the main point but it's
+ just you know helps some motivate somehow that the investigation sothere's three problems you propose you
+
+
+2:03:06
+Speaker 0 :get thirty thousand dollars if you solve
+ all three or maybe yeah no it's ten
+
+2:03:10
+Speaker 1 :thousand for each for each a my the
+
+
+2:03:14
+Speaker 0 :problems that's right money's not the
+ thing the problems themselves are just
+
+2:03:19
+Speaker 1 :clean yeah right it's just you know will
+ it ever become periodic second problem is other an equal number of black andwhite cells down the middle calm down
+ the middle column and the third problem is a little bit harder to state which isessentially is there a way of figuring
+ out what the color of a cell at position T down the center column is in a with aless computational effort than about T
+ steps so in other words is there way to jump ahead and say I know what this isgonna do you know it's just some
+ mathematical function of T or proving
+
+2:03:53
+Speaker 0 :that there is no way or proving there is
+
+
+2:03:55
+Speaker 1 :no way yes but both I mean you know for
+ any one of these one could prove that you know one could discover you know weknow what rule thirty does for a billion
+ steps but and maybe we'll know for a trillion steps before two very long butmaybe at a quadrillion steps it suddenly
+ becomes repetitive you might say how could that possibly happen but so when Iwas writing up these prizes I thought
+ and this is typical of what happens in the computational universe I thought letme find an example where it looks like
+ it's just gonna be random forever but actually it becomes repetitive yeah andI found one and it's just you know I did
+ a search I searched I don't know maybe a million different rules with somecriterion and this is what's sort of
+ interesting about that is I kind of have this thing that I per se got a silly wayabout the computational universe which
+ is you know the animals are always smarter than youthat is there's always some way one of
+ these computational systems is gonna figure out how to do something eventhough I can't imagine how its gonna do
+ it and you know I didn't think I would find one that you know you would thinkof for all these years that what I found
+ sort of all possible things funky things that that I would have that I would havegotten my intuition wrapped around the
+ idea that you know these creatures are always in the computational universe arealways smarter than I'm gonna be but you
+ know they're equivalently yes Mari that's correct and that makes it thatmakes one feel very sort of it's it's
+ it's humbling every time because every time the thing is is you know you thinkit's gonna do this so it's not gonna be
+ possible to do this and it turns out it finds a way of course the promising
+
+2:05:32
+Speaker 0 :thing is there's a lot of other rules
+ like rule 30 it's just rule 30 is oh it's my favorite
+
+2:05:37
+Speaker 1 :because I found it first and that's
+
+
+2:05:40
+Speaker 0 :right but the problems are focusing on
+ rule 30 it's possible that rule 30 is is repetitive after trillion steps and thatdoesn't prove anything about the other
+ rules it does not but this is a good sort of experiment of how you go abouttrying to prove something about a stick
+
+
+2:05:57
+Speaker 1 :you'll rule yes and it also all these
+ things help build intuition that is intact if it turned out that this wasrepetitive tore trillion steps that's
+ not what I would expect and so we learned something from that the method
+
+2:06:10
+Speaker 0 :to do that though would reveal something
+ interesting about the so no doubt no
+
+2:06:13
+Speaker 1 :doubt
+ I mean it's although it's sometimes challenging like the you know I put outa prize in 2007 for for a particular
+ Turing machine that I there was the simplest candidate for being theuniversal Turing machine and the young
+ chap in England named Alex Smith after a smallish number of months said I've gota proof and he did you know I took a
+ little while to iterate but you had a proof unfortunately the proof is veryit's it's a lot of micro details it's
+ it's not it's not like you look at it you say aha there's a big new principlethe big new principle is the simplest
+ Turing machine that might have been Universal actually is universal and it'sincredibly much simpler than the
+ turning machines that people already knew we universal before that and sothat intuition Allah is important
+ because it says computation universality is closer at home than you might havethought um but the actual methods are
+ not in that particular case were not terribly illuminate happiness if their
+
+2:07:15
+Speaker 0 :methods would also be elegant that's
+
+
+2:07:18
+Speaker 1 :true
+ yeah no I mean I think it's it's one of these things where I mean it's it's likea lot of we've talked about earlier kind
+ of you know opening up a eyes and machine learning and things of what'sgoing on inside and is it just step by
+ step or can you sort of see the bigger picture more abstractly and
+
+2:07:36
+Speaker 0 :unfortunately with Verma's Last Theorem
+ proof it's unfortunate that the proof to such an elegant theorem is is not I meanit's as if it's not it doesn't write
+ into the margins of a page that's true
+
+2:07:49
+Speaker 1 :but these know one of the things is
+ that's another consequence of computational or disability this thisfact that there are even quite short
+ results in mathematics whose proofs arbitrarily long yes that's a that's aconsequence of all this stuff and it's
+ it's a it makes one wonder you know how come mathematics is possible at all whyis you know why is it the case how
+ people manage to navigate doing mathematics through looking at thingswhere they're not just throwing into
+ it's all undecidable that's that's its own own separate separate story and that
+
+2:08:24
+Speaker 0 :would be that would they would have a
+ poetic beauty to it as if people were to find something interesting about rule 30because I mean there's an emphasis to
+ this particular rule it wouldn't say anything about the broad irreducibilityof all computations but it would
+ nevertheless put a few smiles on people's faces of well yeah yeah but to
+
+2:08:45
+Speaker 1 :me it's like in a sense establishing
+ principle of computational equivalence it's a little bit like doing inductivescience anywhere that is the more
+ examples you find the more convinced you are that it's generally true I mean wedon't get to you know whenever we do
+ natural science we we say well it's true here that this will that happens can wecan we prove that it's true everywhere
+ in the universe no we can't so you know it's the same thing herewe're exploring the computational
+ universe we're establishing facts in the computational universe and that's that'ssort of a way of of inductively
+ concluding general things just to think
+
+2:09:30
+Speaker 0 :through this a little bit we've touched
+ on it a little bit before but what's the difference between the kind ofcomputation now that we're talking about
+ cellular automata what's the difference between the kind of computationbiological systems our mind our bodies
+ the things we see before us that emerged through the process of evolution andcellular automata deep
+ I mean we've kind of applied to the discussion of physics underlyingeverything but we we talked about the
+ potential equivalents of the fundamental laws of physics and the kind ofcomputation going on internal machinery
+ interesting about the kind of computation that our bodies do right
+
+2:10:14
+Speaker 1 :well let's talk about brains primary
+ range the the I mean I think the the most important thing about the thingsthat our brains do that we care about
+ them in the sense that there's a lot of computation going on out there in youknow cellular automata and and you know
+ physical systems and so on and it just it does what it does it follows thoserules it does what it does
+ the thing that's special about the computation in our brains is that it'sconnected to our goals and our current
+ whole societal story and you know I think that's the that's that's thespecial feature and now the question
+ then is when you see this whole sort of ocean of computation out there how doyou connect that to the things that we
+ humans care about and in a sense a large part of my life has been involved insort of the technology of how to do that
+ and you know what I've been interested in is kind of building computationallanguage that allows that something that
+ both we humans can understand and that can be used to determine computationsthat are actually computations we care
+ about see I think when you look at something like one of these cellularautomata and it does some complicated
+ thing you say that's fun but why do I care well youcould say the same thing actually in
+ physics you say oh I've got this material and it's a ferrite or somethingwhy do I care you know it's some has
+ some magnetic properties why do I care it's amusing but why do I carewell we end up caring because you know
+ ferrite is what's used to make magnetic tape magnetic disks whatever or you knowwe could use the coke crystals as made
+ used to make um well not that she increasingly not but it has been used tomake computer displays and so on but
+ those are so in a sense where mining these things that happen to exist in thephysical universe and I'm making it be
+ something that we care about because we sort of in train it into technology andit's the same thing in the computational
+ universe that a lot of what's out there is stuff that's just happening butsometimes we have some objective and we
+ will go and sort of mine the computational universe for somethingthat's useful for some particular
+ objective on a large scale trying to do that trying to sort of navigate thecomputational universe to do useful
+ things you know that's where computational language comes in and youknow a lot of what I've spent time doing
+ and building this thing we call Wolfram language which I've been building forthe last one third of a century now and
+ kind of the goal there is to have a way to express kind of computationalthinking computational thoughts in a way
+ that both humans and machines can understand so it's kind of like in thetradition of computer languages
+ programming languages that the tradition there has been more let's take what howcomputers are built and let's specify
+ let's have a human way to specify do this do this do this at the level of theway that computers are built what I've
+ been interested in is representing sort of the whole world computationally andbeing able to talk about whether it's
+ about cities or chemicals or you know this kind of algorithm or that kind ofalgorithm things that have come to exist
+ in our civilization and the sort of knowledge base of our civilization beingable to talk directly about those in a
+ computational language so that both we can understand it and computers canunderstand
+ I mean the thing that I've been sort of excited about recently which I had onlyrealized recently which is kind of
+ embarrassing but trim is kind of the the arc of what we've tried to do inbuilding this kind of computational
+ language is it's a similar kind of arc of what happened when mathematicalnotation was invented so go back 400
+ years people were trying to do math they were always explaining their math inwords and it was pretty conky and as
+ soon as mathematical notation was invented you could start defining thingslike algebra and later calculus and so
+ on it all became much more streamlined when we deal with computational thinkingabout the world there's a question of
+ what is the notation what is the what is the kind of formalism that we can use totalk about the world computationally and
+ in a sense that's what I've spent the last third of a century trying to buildand we finally got to the point where we
+ have a pretty full scale computational language that sort of talks about theworld and that's that's exciting because
+ it means that just like having this mathematical notation let us talk aboutthe world mathematically we now and and
+ let us built up build up these kind of mathematical sciences now we have acomputational language which allows us
+ to start talking about the world computationally and lets us you know myview of it is it's kind of computational
+ X for all X all these different fields of you know computational thiscomputational that that's what we can
+ now build let's step back so first of
+
+2:15:07
+Speaker 0 :all the mundane
+ what is Wolfram language in terms of sort of I mean I can answer the questionfor you but this it basically not the
+ philosophical deep to profound the impact of it I'm talking about in termsof tools in terms of things you can
+ download and yeah you can play with what is it what what does it fit into theinfrastructure what are the different
+ ways to interact with it right so I mean
+
+2:15:33
+Speaker 1 :that the two big things that people have
+ sort of perhaps heard of that come from open language one is Mathematica theother is Wolfram Alpha so Mathematica
+ first came out 1988 it's this system that is basically a instance of Wolframlanguage and it's used to do
+ computations particularly in sort of technical areas and the typical thingyou're doing is you're you're typing
+ little pieces of computational language and you're getting computations done
+
+2:16:05
+Speaker 0 :it's very kind of there's like as
+ symbolic yeah it's a symbolic language
+
+2:16:09
+Speaker 1 :
+
+2:16:10
+Speaker 0 :so symbolic language took any I don't
+ know how to cleanly express that but that makes a very distinct from what howwe think about sort of I don't know
+ programming in a Ling like Python or something right but so so the point is
+
+2:16:22
+Speaker 1 :that in a traditional programming
+ language the raw material of the programming language it's just stuffthat computers intrinsically do and the
+ point of often language is that what the language is talking about is things thatexist in the world or things that we can
+ imagine and construct not it's not it's not sort of it's it's aimed to be anabstract language from the beginning and
+ so for example one feature it has is that it's a symbolic language whichmeans that you know you the thing called
+ you have an X just type in X and what why would you just say oh that's X itwon't say error undefined thing you know
+ I don't know what it is computation you know but in terms of the in terms ofcomputer now that X could perfectly well
+ be you know the city of Boston that's a thing that's a symbolic thing or itcould perfectly well be the you know the
+ trajectory of some spacecraft represented as a symbolic thing and thatidea that one can work with sort of
+ computationally work with these different these kinds of things thatthat exist in the world or describe the
+ world that's really powerful and that's what some I mean you know when I starteddesigning well I designed the
+ predecessor of what's now often language was a thing called SMP which was myfirst computer language I am I kind of
+ wanted to have this the sort of infrastructure for computation which wasas fundamental as possible I mean this
+ is what I got for having bit of physicists and tried to find you knowfundamental components of things and
+ wound up with this kind of idea of transformation rules for symbolicexpressions as being sort of the
+ underlying stuff from which computation would bebuilt and that's what we've been
+ building from in Wolfram language and you know operationally what happens it'sI would say by far the highest level
+ computer language that exists and its really been built in a very differentdirection from other languages so other
+ languages have been about there is a lot core languageit really is kind of wrapped around the
+ operations that a computer intrinsically does maybe people add libraries for thisor that that but the goal of Wolfram
+ language is to have the language itself be able to cover this sort of very broadrange of things that show up in the
+ world and that means that you know there are 6,000 primitive functions in theWolfram language that cover things you
+ know I could probably pick a a random here I'm gonna pick just because justfor fun I'll pick them let's take a
+ random sample of them of all the things that we have here so let's just sayrandom sample of 10 of them and let's
+ see what we get Wow okay so these are really different things from functionsthese are all functions boolean converts
+ okay that's the thing for converting between different types of booleanexpressions so for people are just
+
+
+2:19:25
+Speaker 0 :listening human type 10 random sample
+ names sampling from all functionally how many you said there might six thousandsix thousand six thousand ten of them
+ and there's a hilarious variety of them
+
+2:19:37
+Speaker 1 :yeah right well we've got things about
+ some dollar requests or a dress that has to do with interacting with the theworld of the of the cloud and so on
+ discrete wavelet data it's for ROI a
+
+2:19:50
+Speaker 0 :graphical sort of window yeah yeah
+
+
+2:19:53
+Speaker 1 :window moveable that's the user
+ interface kind of thing I want to pick another 10 cuz I think this is some okayso yeah there's a lot of infrastructure
+ stuff here that you see if you if you just start sampling at random there's alot of kind of infrastructural things if
+ you're more you know if you more look at the some of the exciting machine
+
+2:20:08
+Speaker 0 :learning stuff is shut off is that also
+ in this pool oh yeah yeah I mean you
+
+2:20:11
+Speaker 1 :know so one of those functions is like
+ image identify as a function here where you just say image identifiedwas good too let's do this let's say
+ current image and let's pick up an image
+
+2:20:26
+Speaker 0 :hopefully just a current image accessing
+ the webcam took a picture yourself
+
+2:20:32
+Speaker 1 :anyway we can say image identify open
+ square brackets and then we just paste that picture in there imagine if I
+
+2:20:40
+Speaker 0 :function running come to picture lo and
+
+
+2:20:42
+Speaker 1 :it says oh wow it says I look I look
+ like a plunger because I got this great big thing behind me classify so this
+
+2:20:47
+Speaker 0 :image identify classifies the most
+ likely object in in the image in it so there's a wonder okay that's that that's
+
+2:20:54
+Speaker 1 :a bit embarrassing let's see what it
+ does let's pick the top 10 um okay well it thinks there's oh it thinks it'spretty unlikely that it's a primary two
+ hominid two plus eight percent
+
+2:21:05
+Speaker 0 :probability yeah that's that's five
+ seven it's a plunger yeah well so if we will not give you an existential crisisand then uh eight percent or not I
+ should say percent but no that's a scent
+
+2:21:17
+Speaker 1 :that it's a hominid um and yeah okay
+ it's really I'm gonna do another one of these just because I'm embarrassed thatit there we go let's try that let's see
+ what that did um we took a picture a little bit a little bit more of me andnot just my bald head so to speak okay
+ eighty-nine percent problem is it's a person so that there so then I would umbut you know so this is image identify
+ as an example of one of just one of them
+
+2:21:47
+Speaker 0 :in just one function and that's part of
+ the that's like part of the language yes
+
+2:21:52
+Speaker 1 :so first I mean you know something like
+ um I could say I don't know let's find the geo nearest what could we find let'sfind the nearest volcano um let's find
+ the ten I wonder where it thinks here is let's try finding the ten volcanoesnearest here okay yo nearest volcano
+
+
+2:22:14
+Speaker 0 :here 10 years volcanoes right let's find
+
+
+2:22:18
+Speaker 1 :out where those oh we can now we got a
+ list of volcanoes out and I can say geo list plot that and hopefully okay sothere we go so there's a map that shows
+ the positions of those ten volcanoes of the East Coast and the Midway
+
+2:22:31
+Speaker 0 :density well no we're okay okay there's
+ not it's not too bad yeah they're not
+
+2:22:36
+Speaker 1 :very close to us we could we could
+ measure how far away they are but you know the fact that right in the languageit knows about all the volcanoes in the
+ world that knows you know computing what the nearest ones are it knows all themaps of the world and so on a
+
+
+2:22:50
+Speaker 0 :fundamentally different idea what a
+ language is yeah right that's that's
+
+2:22:53
+Speaker 1 :what I like to talk about is you know a
+ full scale computational language that's that's what we've tried to do and just
+
+2:22:59
+Speaker 0 :if you can comment briefly I mean this
+ kind of the Wolfram language along with Wolfram Alpha represents kind of whatthe dream of what AI is supposed to be
+ there's now a sort of a craze of learning kind of idea that we can takeraw data and from that extract the the
+ different hierarchies of abstractions and in order to be able to under thekind of things that well from language
+ operates with but we're very far from learning systems being able to form that
+
+2:23:31
+Speaker 1 :but like the context of history of AI if
+
+
+2:23:34
+Speaker 0 :you could just comment on there is a you
+ said computation X and there's just some sense where in the 80's and 90's sort ofexpert systems represented a very
+ particular computation ax yes right and there's a kind of notion that thoseefforts didn't pan out right but then
+ out of that emerges kind of Wolfram language Wolfram Alpha which is thesuccess I mean yeah right I think those
+
+
+2:24:00
+Speaker 1 :are in some sense those efforts were too
+ modest they're nice they were they were looking at particular areas and youactually can't do it with a particular
+ area I mean like like even a problem like natural language understanding it'scritical to have broad knowledge of the
+ world if you want to do good natural language understanding and you kind ofhave to bite off the whole problem if
+ you if you say we're just gonna do the blocks world over here so to speakyou don't really it's it's it's actually
+ it's one of these cases where it's easier to do the whole thing than it isto do some piece of it you know what one
+ comment to make about so the relationship between what we've tried todo and sort of the learning side of AI
+ you know in a sense if you look at the development of knowledge in ourcivilization as a whole there was kind
+ of this notion for three hundred years ago or so now youwant to figure something out about the
+ world you can reason it out you can do things which would just use raw humanthought and then along came sort of
+ modern mathematical science and we found ways to just sort of blast through thatby in that case writing down equations
+ now we also know we can do that with computation and so on um and so that waskind of a different thing so when we
+ look at how do we sort of encode knowledge and figure things out one waywe could do it is start from scratch
+ learn everything it's just a neuron that figuring everything out but in a sensethat denies the sort of knowledge-based
+ achievements of our civilization because in our civilization we have learnt lotsof stuff we've surveyed all the
+ volcanoes in the world we've done you know we've figured out lots ofalgorithms for this or that those are
+ things that we can encode computationally and that's what we'vetried to do and we're not saying just
+ you don't have to start everything from scratch so in a sense a big part of whatwe've done is to try and sort of capture
+ the knowledge of the world in computational form in computable formnow there's also some pieces which which
+ were for a long time undoable by computers like imageidentification where there's a really
+ really useful module that we can add that is those things which actually werepretty easy for humans to do that had
+ been hard for computers to do I think the thing that's interesting that'semerging now is the interplay between
+ these things between this kind of knowledge of the world that is in asense very symbolic and this kind of
+ sort of much more statistical kind of things like image identification and soon and putting those together by having
+ the sort of symbolic representation of image identification that that's wherethings get really interesting and where
+ you can kind of symbolically represent patterns of things and images and so onum I think that's you know that's kind
+ of a part of the path forward so to speak yeah so the dream of so the
+
+2:26:46
+Speaker 0 :machine learning is not when in my view
+ I think the view of many people is not anywhere close to building the kind ofwide world of computable knowledge that
+ Wolfram language would build but because you have a kind of you've you've donethe incredibly hard work of building
+ this world now machine learning too can be conservativesto help you explore that world yeah and
+ that's what you've added with the version 12 oh yeah if you all seeingsome demos it looks amazing right I mean
+
+
+2:27:19
+Speaker 1 :I think you know this it's sort of
+ interesting to see the this sort of the once its computable once it's in thereit's running in sort of a very efficient
+ computational way but then there's sort of things like the interface of how doyou get there
+ you know how do you do natural language understanding to get there how do youhow do you pick out entities in a big
+ piece of text or something um that's I mean actually a good example right nowis our NLP NL
+ which is we've done a lot of stuff natural language understanding usingessentially not learning based methods
+ using a lot of you know a little algorithmic methods human curationmethods and so on and so on people try
+
+
+2:27:59
+Speaker 0 :to enter a query and then converting so
+ the process of converting NLU defined beautifully as converting their queryinto computation come into a
+ computational language which is a very well first of all super practicaldefinition a very useful definition and
+ then also a very clear definition right
+
+2:28:19
+Speaker 1 :writing right having a different thing
+ is natural language processing where it's like here's a big lump of text gopick out all the cities in that text for
+ example and so a good example you know so we do that we're using using modernmachine learning techniques um and it's
+ actually kind of kind of an interesting process that's going on right now it'sthis loop between what do we pick up
+ with NLP using machine learning versus what do we pick up with our more kind ofprecise computational methods in natural
+ language understanding and so we've got this kind of loop going between thosewhich is improving both of them yeah I
+
+
+2:28:56
+Speaker 0 :think you have some of the state of the
+ art transforms okay have Bert in there I think oh you know so Josey of you'reintegrating all the models I mean this
+ is the hybrid thing that people have always dreamed about are talkingwell that makes she's just surprised
+ frankly that Wolfram language is not more popular than already it already is
+
+2:29:16
+Speaker 1 :you know that's that's a it's a it's a
+ complicated issue because it's like it involves you know it involves ideas andideas are absorbed absorbed slowly in
+ the world I mean I think that and then
+
+2:29:30
+Speaker 0 :there's sort of like we're talking about
+ there's egos and personalities and and some of the the absorption absorptionmechanisms of ideas have to do with
+ personalities and the students of personalities and and then a littlesocial network so it's it's interesting
+ how the spread of ideas works you know
+
+2:29:48
+Speaker 1 :what's funny with Wolfram language is
+ that we are if you say you know what market sort of market penetration if youlook at the I would say very high-end of
+ Rd and sort of the the people where you say wow that's a really you knowimpressive smart person they're very
+ often users of our or from language very very often if you look at the more sortof it's a funny thing if you look at the
+ more kind of I would say people who are like oh we're just plodding away doingwhat we do they're often not yet well
+ from language users and that dynamic it's kind of odd that there hasn't beenmore rapid trickle down because we
+ really you know the high-end we've really been very successful in for along time and it's it's some but was you
+ know that's partly I think a consequence of my fault in the sense because it'skind of you know I have a company which
+ is really emphasizes sort of creating products and building a sort of the bestpossible technical tower we can rather
+ than sort of doing the commercial side of things and pumping it out and so yeahmost effective what and there's an
+
+
+2:31:00
+Speaker 0 :interesting idea that you know perhaps
+ you can make more popular by opening everything everything up sort of thegithub bottle but there's an interesting
+ I think I've heard you discussed this that that turns out not to work in a lotof cases like in this particular case
+ that you want it you know that when you deeply care about the integrareally the quality of the knowledge that
+ you're building that unfortunately you can't you can't distribute that effort
+
+2:31:31
+Speaker 1 :yeah it's not the nature of how things
+ work I mean you know what we're trying to do is the thing that for better orworse requires leadership and it
+ requires kind of maintaining a coherent vision over a long period of time anddoing not only the cool vision related
+ work but also the kind of mundane in the trenches make the thing actually workwell work so how do you build the
+
+
+2:31:56
+Speaker 0 :knowledge because that's the fascinating
+ thing that's the mundane the fascinating in the mundane as well building theknowledge they're adding integrating
+ more data yeah I mean that's probably
+
+2:32:05
+Speaker 1 :not the most stunning that the things
+ like get it to work in all these different cloud environments and so onthat's pretty you know it's very
+ practical stuff you know have the user interface be smooth and you know havethere be take on him you know fraction
+ of a millisecond to do this or that that's a lot of work and it's some it'sit's but you know I think my it's an
+ interesting thing over the period of time you know often language has existedbasically for more than half of the
+ total amount of time that any language any computer language has existed thatis computer language maybe 60 years old
+ you know give or take um and both languages 33 years old so it's it's kindof a um and I think I was realizing
+ recently there's been more innovation in the distribution of software thanprobably than in the structure of
+ programming languages over that period of time and we you know we've been sortof trying to do our best to adapt to it
+ and the good news is that we have you know because I have a simple privatecompany and so on that doesn't have you
+ know a bunch of investors you know telling us we're gonna do this so that Ihave lots of freedom and what we can do
+ and so for example we're able to oh I don't know we have this free Wolframengine for developers which is a free
+ version for developers and we've been you know we've there a site licenses forfor mathematical more from language
+ basically all major universities certainly in the u.s. by now so it'seffectively free to people
+ and all the universities in effect and you know we've been doing a progressionof things I mean different things like
+ Wolfram Alpha for example the main website is just a free website
+
+2:33:47
+Speaker 0 :what is Wolfram Alpha okay it wolf now
+
+
+2:33:48
+Speaker 1 :for is a system for answering questions
+ where you ask in question with natural language and it'll try and generate areport telling you the answer to that
+ question so the question could be something like you know what's thepopulation of Boston divided by New York
+ compared to New York and it'll take those words and give you an answer andthat have inverts the words into
+
+
+2:34:13
+Speaker 0 :computable not into inter Wolfen
+
+
+2:34:16
+Speaker 1 :language a common language and the
+ additional language and then could you don'ts in underlying knowledge belongs
+
+2:34:21
+Speaker 0 :to Wolfram Alpha to the Wolfram language
+ what's the let's just call it the
+
+2:34:25
+Speaker 1 :Wolfram knowledge base knowledge base I
+ mean it's it's been a that's been a big effort over the decades to collect allthat stuff and you know more of it flows
+ in every second so can you just pause on
+
+2:34:37
+Speaker 0 :that for a second like that's the one of
+ the most incredible things of course in the long term were from language itselfis the fundamental thing but in the
+ amazing sort of short term the the knowledge base is kind of incredible sowhat's the process of building in that
+ knowledge base the fact that you first of all from the very beginning thatyou're brave enough to start to take on
+ the general knowledge base and how do you go from zero to the incredibleknowledge base that you have now well
+
+
+2:35:11
+Speaker 1 :yeah it was kind of scary at some level
+ I mean I had I had wondered about doing something like this since I was a kid soit wasn't like I hadn't thought about it
+ for a while but most of us most of the
+
+2:35:20
+Speaker 0 :brilliant dreamers give up such a such a
+ difficult engineering notion at some
+
+2:35:27
+Speaker 1 :point right right well the thing that
+ happened with me which was kind of it's a it's a live your own paradigm kind oftheory so basically what happened is I
+ had assumed that to build something like wolf alpha would require sort of solvingthe general AI problem that's what I had
+ assumed and so I kept on thinking about that and I thought I don't really knowdo that so I don't do anything then I
+ worked on my new kind of science project and sort of exploring the computationaluniverse and came up with things like
+ this principle of computational equivalence which say there is no brightline between the intelligence and the
+ milli computational so I thought look that's this paradigm I've built you knownow it's you know now I have to eat that
+ dog food myself so to speak you know I've been thinking about doing thisthing with computable knowledge forever
+ and you know let me actually try and do it and so it was you know if my if myparadigm is right there miss should be
+ possible but the beginning was certainly you know it's a bit daunting I rememberI took the the the the early team to a
+ big reference library and we're like looking at this reference library andit's like you know my basic statement is
+ our goal over the next year or two is to ingest everything that's in here andthat's you know it seemed very daunting
+ but but in a sense I was well aware of the fact that it's finite you know thefact you can walk into the reference
+ library it's big big thing with lots of reference books all over the place butit is finite you know this is not an
+ infinite you know it's not the infinite corridor of so to speak of referencelibrary it's not truly infinite so to
+ speak but but no I mean and then then what happenedsort of interesting there was from a
+ methodology point of view was I didn't start off saying let me have a grandtheory for how all this knowledge works
+ it was like let's you know implement this area this area this areaof a few hundred areas and so on it's a
+ lot of work I also found that you know I've been fortunate in that our productsget used by sort of the world's experts
+ and lots of areas and so that really helped because we were able to askpeople you know the world expert on this
+ or that and were able to ask them for input and so on and I found that mygeneral principle was that any area
+ where there wasn't some expert who helped us figure out what to do wouldn'tbe right and you know because our goal
+ was to kind of get to the point where we had sort of true expert level knowledgeabout everything and so that you know
+ that the ultimate goal is if there's a question that can be honeston the basis of general knowledge and a
+ civilization make it be automatic to be able to answer that question and youknow and now well welcome I forgot used
+ in serie from the very beginning and it's now a zoo isn't it Alexa and soit's people are kind of getting more of
+ the you know they get more of the sense of this is what should be possible to doI mean in a sense the question answering
+ problem was viewed as one of the sort of core AI problems for a long time I hadkind of an interesting experience I had
+ a friend Marvin Minsky who was a well-known a AI person from from rightaround here and I remember when my morph
+ mouthful was coming out um as a few weeks before it came out I think I mighthappen to see Marvin and I said I should
+ show you this thing we have you know it's a question answering system and hewas like okay type something and it's
+ like okay fine and then he's talking about something differentI said no Marvin you know this time it
+ actually works you know look at this it actually works these types in a few morethings there's maybe ten more things of
+ course we have a record of what he's typed in which is kind of interestingbut can you share where his mind was in
+
+
+2:39:13
+Speaker 0 :a testing space like what whoa all kinds
+
+
+2:39:17
+Speaker 1 :of random things he's trying random
+ stuff you know medical stuff and you know chemistry stuff and you knowastronomy and so on it was like like you
+ know after a few minutes he was like oh my god it actually works the the butthat was kind of told you something
+ about the state you know what what happened in AI because people had youknow in a sense by trying to solve the
+ bigger problem we were able to actually make something that would work now to befair you know we had a bunch of
+ completely unfair advantages for example we already built a bunch of oftenlanguage which was you know very
+ high-level symbolic language we had you know I had the practical experience ofbuilding big systems I have the sort of
+ intellectual confidence to not just sort of give up and doing something like thisI think that the you know it is a it's
+ always a funny thing you know I've worked on a bunch of big projects in mylife
+ and I would say that the you know you mention ego I would also mentionoptimism so does it very carefully I
+ mean in you know if somebody said this budget is gonna take 30 yearsum it's I you know it would be hard to
+ sell me on that you know I'm always in the in the well I can kind of see a fewyears you know something's gonna happen
+ a few years and usually it does something happens in a few years but thewhole the tale can be decades long and
+ that's a that's a you know and from a personal point of view or is thechallenges you end up with these
+ projects that have infinite tails and the question is - the tails kind of doyou just drown and kind of dealing with
+ all of the tails of these projects and that's that's an interesting sort ofpersonal challenge and like my efforts
+ now to work on fundamental theory or physics which I've just started doingand I'm having a lot of fun with it but
+ it's kind of you know it's it's kind of making a bet that I can I can kind ofyou know I can do that as well as doing
+ the incredibly energetic things that I'm trying to do with all from language andso on
+ I mean vision yeah and underlying that I
+
+2:41:27
+Speaker 0 :mean I just talked for the second time
+ with Elon Musk and that you you to share that quality a little bit of thatoptimism of taking on basically the
+ daunting what most people call impossible and he and you take it on outof you can call it ego you can call it
+ naivety you can call it optimism whatever the heck it is but that's howyou solve the impossible things yeah I
+
+
+2:41:53
+Speaker 1 :mean look at what happens and I don't
+ know you know in my own case I you know it's been I progressed oligo a bit moreconfident and progressively able to you
+ know decide that these projects aren't crazy but then the other thing is theother the other trap the one can end up
+ with is oh I've done these projects and they're big let me never do a projectthat's any smaller than any project I've
+ done so far and that's you know and that can be a trap and and often theseprojects are of completely unknown you
+ know that their depth and significance is actuallyvery hard to know yeah I'm the sort of
+
+
+2:42:33
+Speaker 0 :building this giant knowledge base
+ that's behind well from language WolframAlpha what do you think about theinternet what do you think about for
+ example Wikipedia these large aggregations of text that's notconverted into computable knowledge do
+ you think yeah well if you look at Wolfram language Wolfram Alpha 20 30maybe 50 years down the line do you hope
+ to store all of the sort of Google's dream is to make all informationsearchable accessible but that's really
+ as defined it's it's a it doesn't include the understanding of informationright do you hope to make all of
+ knowledge represented with the hope so
+
+2:43:24
+Speaker 1 :that's what we're trying to do I'm hard
+
+
+2:43:27
+Speaker 0 :is that problem they could closing that
+
+
+2:43:30
+Speaker 1 :gap well it depends on the use cases I
+ mean so if it's a question of answering general knowledge questions about theworld we're in pretty good shape on that
+ right now if it's a question of representing like an area that we'regoing into right now is computational
+ contracts being able to take something which would be written in legalese itmight even be the specifications for you
+ know what should the self-driving car do when it encounters this or that or theother what should they you know whatever
+ they you know write that in a computational language and be able toexpress things about the world you know
+ if the creature that you see running across the road is a you know thing atthis point in the evil you know tree of
+ life then it's worth this way otherwise don't those kinds of things are there
+
+2:44:16
+Speaker 0 :ethical components when you start to get
+ to some of the messy human things are those in encoder well into computable
+
+2:44:23
+Speaker 1 :knowledge well I think that it is a
+ necessary feature of attempting to automate more in the world that weencode more and more of ethics in a way
+ that gets sort of quickly you know is able to be dealt with by computer I meanI've been involved recently I sort of
+ got backed into being involved in the question ofautomated content selection on the
+ internet so you know their Facebook's Google's Twitter's you know what how dothey rank the stuff they feed to us
+ humans so to speak um and the question of what are you know what should neverbe fed to us what should be blocked
+ forever what should be up ranked you know and what is the what are thecurrent principles behind that and what
+ I kind of well a bunch of different things I realized about that but onething that's interesting is being able
+ you know affect your building sort of an AI ethics you have to build an AI ethicsmodule in effect to decide is this thing
+ so shocking I'm never gonna show it to people is this thing so whatever and andI did realize in thinking about that
+ that you know there's not gonna be one of these things it's not possible todecide or it might be possible but it
+ would be really bad for the future of our species if we just decided there'sthis one AI FX module and it's going to
+ determine the the the practices of everything in the world so to speak andI kind of realized one has to sort of
+ break it up and that's an that's an interesting societal problem of how onedoes that and how one sort of has people
+ sort of self-identify for you know I'm buying in in the case of just contentselection it's sort of easier because
+ it's like an individual's for an individual it's not something that kindof cuts across sort of societal
+ boundaries but it's a really interesting
+
+2:46:08
+Speaker 0 :notion of I heard you'd describe I
+ really like it sort of maybe in the sort of have different AI systems that have acertain kind of brand that they
+ represent essentially Rowdy you could have like I don't know whether it'sconserve conservative or liberal and
+ then libertarian and there's an R and E an Objectivist I exist I'm a differentethical and Co I mean it's almost
+ encoding some of the ideologies which we've been struggling I come from aSoviet Union that didn't work out so
+ well with the ideologies they worked out there so you you have but they alsoeverybody purchased that particular
+ ethic system indeed and in the same I suppose could be done encodedthat that system could be encoded into
+ computational knowledge and allow us to explore in the realm of in the digitalspace as that's the right exciting a
+ possibility are you playing with those ideas and or from language yeah yeah I
+
+2:47:10
+Speaker 1 :mean the the the you know that's we open
+ language has sort of the best opportunity to kind of express thoseessentially computational contracts
+ about what to do now there's a bunch more work to be done to do it inpractice for you know deciding the is
+ this a credible news story what does that mean or whatever whatever elseyou're going to pick I think that that's
+ some you know that's the the question of well exactly what we get to do with thatis you know for me it's kind of a
+ complicated thing because there are these big projects that I think aboutlike you know find the fundamental
+ theory physics okay that's a possible one right bucks number two you knowsolve the IIx problem in the case of you
+ know figure out how you rank old content so to speak and and decide what peoplesee that's that's kind of a box number
+ two so to speak these are big projects and and I think waiting is more
+
+2:48:02
+Speaker 0 :important the the fundamental nature of
+ reality or pennsville you ask it's one
+
+2:48:06
+Speaker 1 :of these things that's exactly like you
+ know what's the ranking right it's the it's the ranking system and it's likewho's who's module do you use to rank
+ that if you and I think come having multiple modules is really compelling
+
+2:48:19
+Speaker 0 :notion to us humans in a world where
+ there's not clear that there's a right answer it perhaps you have systems that
+
+2:48:29
+Speaker 1 :
+
+2:48:31
+Speaker 0 :operate under different how would you
+ say it I mean there's different value
+
+2:48:35
+Speaker 1 :systems based different value systems I
+ mean I think you know in a sense the I mean I'm not really a politics orientedperson but but you know in the kind of
+ totalitarianism it's kind of like you're gonna have this this system and that'sthe way it is I mean kind of the you
+ know the concept is sort of a market-based system where you have okayI as a human I'm gonna pick this system
+ I is another human I'm going to pick this system I mean that's in a sensethis case of automated content selection
+ is a non-trivial but it is probably the easiest of the AI ethics situationsbecause it is each person gets to pick
+ for themselves and there's not a huge interplay between what different peoplepick by the time you're dealing with
+ other societal things like you know what should the policy of the central bank beor something or healthcare so now this
+
+
+2:49:28
+Speaker 0 :kind of centralized kind of things right
+
+
+2:49:31
+Speaker 1 :well I mean healthcare again has the
+ feature that that at some level each person can pick for themselves so tospeak
+ I mean whereas there are other things where there's a necessary Public Healththat's one example well that's not
+ whether it doesn't get to be you know something which people can what theypick for themselves they may impose on
+ other people and then it becomes a more non-trivial piece of sort of politicalphilosophy of course the central banking
+
+
+2:49:53
+Speaker 0 :system some would argue we would move we
+ need to move away into digital currency and so on and Bitcoin and Ledger's andso on so yes there's a lot of we've been
+
+
+2:50:02
+Speaker 1 :quite involved in that and that's where
+ that's sort of the motivation for computational contracts in part comesout of you know this idea oh we can just
+ have this autonomously executing smart contract the idea of a computationalcontract is just to say you know have
+ something where all of the conditions of the contract are represented incomputational form so in principle it's
+ automatic text secured the contract and I think that's you know that will surelybe the future of you know the idea of
+ legal contracts written in English or legalese or whatever and where peoplehave to argue about what goes on is is
+ surely not you know we have a much more streamlined process if everything can berepresented computationally and the
+ computers can kind of decide what to do I mean ironically enough you know oldgottfried leibniz back in the you know
+ 1600s was saying exactly the same thing but he had you know his pinnacle oftechnical achievement was this brass for
+ function mechanical calculator thing that never really worked properlyactually um and you know so he was like
+ 300 years too early for that idea but now that idea is pretty realistic Ithink and you know you ask how much more
+ difficult is it than what we have now a more from language toexpress I call it symbolic discourse
+ language being able to express sort of everything in the world and kind ofcomputational symbolic form um I I think
+ it is absolutely within reach I mean I think it's a you know I don't know maybeI'm just too much of an optimist but I
+ think it's a it's a limited number of years to have a pretty well built outversion of that that will allow one to
+ encode the kinds of things that are relevant to typical legal contracts andthese kinds of things
+
+
+2:51:50
+Speaker 0 :the idea of symbolic discourse language
+ can you try to define the scope of what of what it is so we're having a
+
+2:51:59
+Speaker 1 :conversation it's a natural language can
+ we have a representation of these sort of actionable parts of that conversationin a precise computable form so that a
+ computer could go do it and not just
+
+2:52:13
+Speaker 0 :contracts but really sort of some of the
+ things we think of as common sense essentially even just like basic notionsof human life well I mean things like
+
+
+2:52:21
+Speaker 1 :you know I am I'm getting hungry and
+ want to eat something right right that that's something we don't have arepresentation you know in wolf language
+ right now if I was like I'm eating blueberries and raspberries and thingslike that and I'm eating this amounts of
+ them we know all about those kinds of fruits and plants and nutrition contentand all that kind of thing but the I
+ want to eat them part of it is not covered yet um and that you know youneed to do that in order to have a
+
+
+2:52:46
+Speaker 0 :complete symbolic discourse language to
+ be able to have a natural language conversation right right to be able to
+
+2:52:53
+Speaker 1 :express the kinds of things that say you
+ know if it's a legal contract it's you know the parties desire to have this andthat and that's you know that's a thing
+ like I want to eat of raspberry or something that that's what isn't that
+
+2:53:07
+Speaker 0 :that isn't this just throwing you said
+ it's centuries old this dream yes but
+
+2:53:13
+Speaker 1 :
+
+2:53:14
+Speaker 0 :it's also the more near-term the dream
+ of touring in formulating a tauren test
+
+2:53:20
+Speaker 1 :yes so do you do you hope do you think
+
+
+2:53:27
+Speaker 0 :that's the ultimate test of creating
+ something special we said I tell I think
+
+2:53:33
+Speaker 1 :my special look if the test is does it
+ walk and talk like a human well that's just the talking like a human but theanswer is it's an okay test if you say
+ is it a test of intelligence you know people have attached wolf alpha the wolfnow for API - you know Turing test BOTS
+ and those BOTS just lose immediately because all you have to do is ask itfive questions that you know about
+ really obscure weird pieces of knowledge and it's just drop them right out andyou say that's not a human ID it's it's
+ a it's a different thing it's achieving a different right now but it's yeah I
+
+2:54:13
+Speaker 0 :would argue not I would argue it's not a
+ different thing it's actually legitimately Wolfram Alpha islegitimately
+ languor Wolfram language only is legitimately trying to solve the touringDean tent of the Turing test perhaps the
+
+
+2:54:27
+Speaker 1 :intent yeah perhaps the intent I mean
+ it's actually kind of fun you know I'm touring trying to work out he's thoughtabout taking encyclopedia britannica and
+ you know making it computational in some way and he estimated how much work itwould be and actually I have to say he
+ was a bit more pessimistic than the reality we did it more efficiently but
+
+2:54:46
+Speaker 0 :to him that represents
+
+
+2:54:47
+Speaker 1 :so I mean he was that he was almighty
+ mental tasks yeah right he believes they had the same idea I mean it was you knowwe were able to do it more efficiently
+ because we had a lot we had layers of automation that he I think hadn't youknow it's it's hard to imagine those
+ layers of abstraction that end up being being built up but to him he represented
+
+2:55:07
+Speaker 0 :like an impossible task essentially well
+
+
+2:55:09
+Speaker 1 :he thought it was difficult he thought
+ it was so you know maybe if he'd live another 50 years he would have been ableto do it I don't know in the interest of
+
+
+2:55:15
+Speaker 0 :time easy questions
+
+
+2:55:17
+Speaker 1 :
+
+2:55:19
+Speaker 0 :what is intelligence you talking I love
+
+
+2:55:21
+Speaker 1 :the way you say easy questions yeah you
+
+
+2:55:26
+Speaker 0 :talked about sort of rule 30 and so
+ you're tammana humbling your sense of human beings having a monopoly andintelligence but in your in retrospect
+ just looking broadly now with all the things you learn from computation whatis intelligence
+ not intelligence arise
+
+2:55:47
+Speaker 1 :think there's a bright line of what
+ intelligence is I think intelligence is at some level just computation but forus intelligence is defined to be
+ computation that is doing things we care about and you know that's that's a veryspecial definition it's a very you know
+ when you try and try and make it apps you know you trying to say wellintelligence this is problem-solving
+ it's doing general this it's doing that they sudden the other thing it's it'soperating within a human environment
+ type thing okay you know that's fine if you say well what's intelligence ingeneral you know that's I think that
+ question is totally slippery and doesn't really have an answer as soon as you saywhat is it in general it quickly segues
+ into this is what this is just computation so to speak but in a sea of
+
+2:56:37
+Speaker 0 :computation how many things if we were
+ to pick randomly is your sense would have the kind of impressive to us humanslevels of intelligence meaning it could
+ do a lot of general things that are useful to us humans right well according
+
+2:56:54
+Speaker 1 :to the principle of computational
+ equivalents lots of them I mean in in you know if you ask me just in cellularautomata or something I don't know it's
+ maybe 1% a few percent are achieve it varies actually it's a little bit as youget to slightly more complicated rules
+ the chance that there'll be enough stuff there to to sort of reach this kind ofequivalence point it makes it maybe 1020
+ percent of all of them so it's a it's very disappointing really I mean it'skind of like you know we think there's
+ this whole long sort of biological evolution a kind of intellectualevolution that our cultural evolution
+ that our species has gone through it's kind of disappointing to think that thathasn't achieved more but it has achieved
+ something very special to us it just hasn't achieved something generally moreso to speak but what do you think about
+
+
+2:57:48
+Speaker 0 :this extra feels like human thing of
+ subjective experience of consciousness what is consciousness well I think it's
+
+2:57:55
+Speaker 1 :a deeply slippery thing and I'm always
+ I'm always wondering what my seller wrote on to feelI mean what do they feel now you're
+
+
+2:58:03
+Speaker 0 :wondering as an observer yeah yeah yeah
+
+
+2:58:05
+Speaker 1 :who's to know I mean I think that the
+ you think sorry to interrupt do you
+
+2:58:08
+Speaker 0 :think consciousness can emerge from
+ computation yeah I mean everything
+
+2:58:13
+Speaker 1 :whatever you mean by it it's going to be
+ I mean you know look I have to tell a little story I was at an area fixconference fairly recently and people
+ were I think I maybe I brought it up but I was like talking about right surveyeyes
+ when will they eyes hope when when should we think of a eyes as havingrights when when should we think that
+ it's immoral to destroy the memories of a eyes for example um those those kindsof things and and some actual
+ philosopher in this case it's usually the techies who are the most naive butbut Tim in this case it was a
+ philosopher who sort of piped up and said well you know the eyes will haverights when we know that they have
+ consciousness I'm like good luck with that it's it's a it's a I mean this is ayou know it's a very circular thing you
+ end up you'll end up saying this thing that has sort of you know when you talkabout having subjective experience I
+ think that's just another one of these words that doesn't really have a a youknow there's no ground truth definition
+ of what that means by the way I would
+
+2:59:28
+Speaker 0 :say I I do personally think that'll be a
+ Taiwan hey I will demand rights and I think they'll demand rights when theysay they have consciousness which is not
+
+
+2:59:42
+Speaker 1 :a circular definition well so actually a
+ human including where where the humans encouraged it and said it basically youknow we want you to be more like us
+ because we're gonna be you know interacting with with you and so we wantyou to be sort of very Turing test like
+ you know just like us and it's like yeah we're just like you we want to vote intowhat here which is a I mean it's it's a
+ it's an interesting thing to think through in a world whereconsciousnesses are not counted like
+ humans are that's a complicated business
+
+3:00:19
+Speaker 0 :so in many ways you've launched quite a
+ few ideas revolutions that could in some number of years have huge amount ofimpact sort of more than they had even
+ had already there might be any to me
+
+3:00:35
+Speaker 1 :
+
+3:00:36
+Speaker 0 :cellular automata is a fascinating world
+ that I think could potentially even this but even be even beside the discussionof fundamental laws of physics just
+ might be the idea of computation might be transformational the society in a waywe can't even predict yet but it might
+ be years away that's true I mean I think
+
+3:00:58
+Speaker 1 :you can kind of see the map actually
+ it's not it's not it's not mysterious I mean the fact is that you know this ideaof computation is sort of a you know
+ it's a big paradigm that lots lots and lots of things are fitting into and it'skind of like you know we talk about you
+ talk about I don't know this company this organization has momentum andwhat's doing we talk about these things
+ that were you know we've internalized these concepts from Newtonian physicsand so on in time things like
+ computational irreducibility will become as you know as I was amused recently Ihappen to be testifying at the US Senate
+ and so I was amused that the the term computational irreducibility is now canbe you know it's it's on the
+ Congressional Record and being repeated by people away in those kinds ofsettings and that that's only the
+ beginning because you know computational irreducibility for example will end upbeing something really important for i
+ mean it's it's it's kind of a funny thing that that you know one can kind ofsee this inexorable phenomenon i mean
+ it's you know as more and more stuff becomes automated and computational andso on so these core ideas about how
+ computation work necessarily become more and more significant and i think one ofthe things for people like neil like
+ kind of trying to figure out sort of big stories and so on it says one of the oneof the bad features is
+ it takes unbelievably long time for things to happen on a human time scalethe time scale of of of history it's all
+ looks instantaneous blink of an eye but
+
+3:02:36
+Speaker 0 :let me ask the human question do you
+ pawn your mortality your own mortality
+
+3:02:42
+Speaker 1 :goes I do yeah ever since I've been
+ interested in that for you know it's it's a-you know the big discontinuity ofhuman history will come when when one
+ achieves effective human immortality and that's that's gonna be the biggestdiscontinuity in human history if you
+ could be immortal would you choose to be
+
+3:02:58
+Speaker 0 :
+
+3:02:59
+Speaker 1 :oh yeah I'm having fun
+ geez do you think it's possible that
+
+3:03:03
+Speaker 0 :mortality is the thing that gives
+ everything meaning and makes it fun yeah
+
+3:03:11
+Speaker 1 :that's a complicated issue right I mean
+ the the way that human motivation will evolve when there is effective humanimmortality is unclear I mean if you
+ look at sort of you know you look at the human condition as it now exists and youlike change that you know you change
+ that knob so to speak it doesn't really work you know the human condition as itnow exists has you know mortality is
+ kind of something that is deeply factored into the human condition as itnow exists and I think that that's I
+ mean it is indeed an interesting question is you know from a purelyselfish I'm having fun point of view so
+ to speak it's it's easy to say hey I could keep doing this forever thisthere's an infinite collection of things
+ I'd like to figure out but I think the you know what the future of historylooks like in a time of human
+ immortality is is an interesting one I mean I I my own view of this I was veryI was kind of unhappy about that because
+ I was kind of you know it's like okay forget sort of biological form you knoweverything becomes digital everybody is
+ you know it's the it's the giant you know the cloud of a trillion Souls typething um and then you know and then that
+ seems boring because it's like play video games the rest of eternitything um but what I think I I I'm in my
+ my I I got some less depressed about that idea on realizing that if you lookat human history and you say what was
+ the important thing the thing people said was the you know this is the bigstory at any given time in history it's
+ changed a bunch and it you know whether it's you know why am i doing what I'mdoing
+ well there's a whole chain of discussion about well I'm doing this because ofthis because of that and a lot of those
+ because is would have made no sense a thousand years ago how do you even asense even the so the interpretation of
+
+
+3:05:17
+Speaker 0 :the human condition even the meaning of
+ life changes over time well I mean why
+
+3:05:23
+Speaker 1 :do people do things you know it's it's
+ if you say whatever I mean the number of people in I don't know doing you knownumber of people at MIT you say they're
+ doing what they're doing for the greater glory of God is probably not that largeyeah
+ whereas if you go back five hundred years you'd find a lot of people who aredoing kind of creative things that's
+ what they would say um and so today
+
+3:05:47
+Speaker 0 :because you've been thinking about
+ computation so much and been humbled by it what do you think is the meaning oflife
+
+
+3:05:54
+Speaker 1 :well it's do that's it that's the thing
+ well I don't know what meaning I mean you know my attitude is I you know I dothings which I find fulfilling to do I'm
+ not sure that that I can necessarily justify you know each and every thingthat I do on the basis of some broader
+ context I mean I think that for me it so happens that the things I findfulfilling to do some of them are quite
+ big some of them are much smaller you know I I there things that I've notfound interesting earlier in my life and
+ I know I found interesting like I got interested in like education andteaching people things and so on which I
+ didn't find that interesting when I was younger um and you know can I justifythat in some big global sense I don't
+ think I mean I I can I can describe why I think it might be important in theworld but I think my local reason for
+ doing it is that I find it personally fulfilling which I can't you knowexplain in a sort of it's just like this
+ discussion of things like AI ethics you know is there a ground truth to theethics that we should be having I don't
+ think I can find a ground truth to my life any more than I can suggest aground truth for kind of the ethics for
+ the whole for the whole of civilization and I think that's a you know my youknow it would be it would be a yeah it's
+ it's sort of a I think I'm I'm you know at different times in my life I've haddifferent kind of gold structures and so
+ on although your perspective your local
+
+3:07:33
+Speaker 0 :your you're just a cell in the cellular
+ automata and but in some sense I find it funny from my observation is I kind ofyou know it seems that the universe is
+ using you to understand itself it's some sense you're not aware of it yeah well
+
+3:07:50
+Speaker 1 :right well if it turns out that we
+ reduce sort of all of the universe to some some simple rule everything isconnected so to speak and so it is
+ inexorable in that case that you know if if I'm involved in finally how that ruleworks then you know then that say I'm
+ then it's inexorable that the universe set it up that way but I think you knowone of the things I find a little bit
+ you know this goal of finally fundamental theory of physics forexample if indeed we end up as the sort
+ of virtualized consciousness the the disappointing feature is people wouldprobably care less about the fundamental
+ theory of physics in that setting than they would now because gosh it's likeyou know what the machine code is down
+ below underneath this thing is much less important if you're virtualized so tospeak and I think the although I think
+ my my own personal you talk about ego I find it just amusing that um you knowkind of a you know if you're if you're
+ imagining that sort of virtualized consciousness like what does thevirtualized consciousness do for the
+ rest of eternity well you can explore you know the videogame that representsthe universe as the universe is or you
+ can go off you can go off that reservation and goand start exploring the computational
+ universe of all possible universes yeah and so in some vision of the future ofhistory it's like the disembodied
+ consciousness is are all sort of pursuing things like my new kind ofscience sort of for the rest of eternity
+ so to speak and that that ends up being the the kind of the the thing that umrepresents the you know the future of
+ kind of the human condition I don't
+
+3:09:36
+Speaker 0 :think there's a better way to end it
+ Stephen thank you so much the huge honor I'm talking today thank you so much this
+
+3:09:43
+Speaker 1 :was great you did very well thanks for
+
+
+3:09:45
+Speaker 0 :listening to this conversation with
+ stephen wolfram and thank you to our sponsors expressvpn and cash app pleaseconsider supporting the podcast by
+ getting expressvpn at expressvpn comm slash FlexPod and downloading cash appand using collects podcasts if you enjoy
+ this podcast subscribe on youtube review of the five stars an apple podcastsupported on patreon or simply connect
+ with me on Twitter at lex friedman and now let me leave you withsome words from stephen wolfram it is
+ perhaps a little humbling to discover that we as humans are in effectcomputationally no more capable than the
+ cellular automata was very simple rules but the principle of computationalequivalence also implies that the same
+ is ultimately true of our whole universe so while science has often made it seemthat we as humans are somehow
+ insignificant compared to the universe the principle of computationalequivalence now shows that in a certain
+ sense we're at the same level for the principle implies that what goes oninside us can ultimately achieve just
+ the same level of computational sophistication as our whole universethank you for listening and hope to see
+
+

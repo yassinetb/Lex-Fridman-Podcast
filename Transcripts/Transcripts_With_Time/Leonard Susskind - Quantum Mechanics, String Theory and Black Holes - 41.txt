@@ -1,0 +1,937 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ Leonard Susskind he's a professor of theoretical physics at StanfordUniversity and founding director of
+ Stanford Institute of theoretical physics he's widely regarded as one ofthe fathers of string theory and in
+ general is one of the greatest physicists of our time both as aresearcher and an educator this is the
+ artificial intelligence podcast perhaps you noticed that the people have beenspeaking with are not just computer
+ scientists but philosophers mathematicians writers psychologistsphysicists and soon other disciplines to
+ me AI is much bigger than deep learning bigger than computing it is ourcivilizations journey into understanding
+ the human mind and creating echoes of it in the machine if you enjoy the podcastsubscribe on YouTube give it five stars
+ and iTunes supported on patreon or simply connect with me on Twitter at lexfriedman spelled fri d
+ ma a.m. and now here's my conversation with leonard susskindyou work two more friends with richard
+ fineman house he influenced you changed you as a physicist and thinker what I
+
+0:01:09
+Speaker 0 :saw I think what I saw was somebody who
+ could do physics in this deeply intuitive way his style was almost aclosed his eyes and visualize the
+ phenomena that he was thinking about and through visualizationI'll flank the mathematical highly
+ mathematical and very very sophisticated technical arguments that people woulduse I think that was also natural to me
+ but I saw somebody who was actually successful at itwho could do physics in a way that that
+ I regarded as simpler more direct more intuitive and while I don't think hechanged my way of thinking I do think he
+ validated it he made me look at it and say yeah that's something you can do andget away with practically even get away
+ with it
+
+0:02:07
+Speaker 1 :so do you find yourself whether you're
+ thinking about quantum mechanics or black holes or string theory usingintuition as a first step or step
+ throughout using visualization yeah very
+
+0:02:21
+Speaker 0 :much so very much so I tend not to think
+ about the equations I tend not to think about the symbols I tend to try tovisualize the phenomena themselves and
+ then when I get an insight that I think is valid I might try to convert it tomathematics but I'm not a math and then
+ a natural mathematician or I'm good enough at it I'm good enough at it butI'm not a great mathematician so for me
+ the way of thinking about physics is first intuitive first visualizationscribble a few equations maybe but then
+ try to convert it to mathematics experiences that other people are betterat converting into mathematics and I am
+
+
+0:03:07
+Speaker 1 :and yet you've worked very
+ counterintuitive ideas so how that's
+
+0:03:11
+Speaker 0 :
+
+0:03:12
+Speaker 1 :true that's naive is something Connor
+
+
+0:03:14
+Speaker 0 :into every their rewiring your brain in
+ new ways yeah quantum mechanics is not intuitive verylittle of modern physics is intuitive
+ intuitive or what does intuitive mean it means the ability to think about it withbasic classical physics the physics that
+ that we evolved with throwing stones splashing water or whatever it happensto be quantum physics general relativity
+ quantum field theory are deeply unintuitive in that way but you knowafter time and getting familiar with
+ these things you develop new intuitions I always said you rewire and it's to thepoint where me and many of my friends
+ find many my friends can think more easilyquantum-mechanically than we can
+ classically we've gotten so used to it I
+
+0:04:12
+Speaker 1 :mean yes our neural wiring in our brain
+ is such that we understand rocks and stones and water and so I'm sort of
+
+0:04:20
+Speaker 0 :evolved evolved for you do you think
+
+
+0:04:22
+Speaker 1 :it's possible to create a wiring of
+ neuron like state devices that more naturally understand quantum mechanicsunderstand wave function understand
+ these weird things well I'm not sure I
+
+0:04:38
+Speaker 0 :think many of us have evolved the
+ ability to think quantum mechanically to some extent but that doesn't mean youcan think like an electron
+ that doesn't mean an another example forget for a minute quantum mechanicsjust visualizing four dimensional space
+ or five dimensional space or six dimensional space I think we'refundamentally wired to visualize three
+ dimensions I can't even visualize two dimensions orone dimension without thinking about it
+ as embedded in three dimension in space if I want to visualize a line I think ofthe line as being aligned in three
+ dimensions right well I think of the line as being aligned on a piece ofpaper with a piece of paper being in
+ three dimensions I never seem to be able to in some abstract and pure wayvisualize in my head the one dimension
+ the two dimension the four dimensions the five dimensions and I don't thinkthat's ever gonna happen the reason is I
+ think our neural wiring is just set up for that on the other hand we do learnways to think about five six seven
+ dimensions and we learn ways we learn mathematical ways and we learn ways tovisualize them but they're different and
+ so yeah I think I think we do rewire ourselves whether we can ever completelyrewire ourselves to be completely
+ comfortable with these concepts I doubt
+
+0:06:11
+Speaker 1 :so that it's completely natural there
+
+
+0:06:12
+Speaker 0 :was a tour it's completely natural so
+
+
+0:06:15
+Speaker 1 :I'm sure there's some what you could
+ argue creatures that live in it
+
+0:06:21
+Speaker 0 :two-dimensional space yeah and there are
+
+
+0:06:22
+Speaker 1 :and um well it's romanticizing the
+ notion of course we're all living as far as we know in three-dimensional spacebut how do you how do those creatures
+ imagine 3d space well probably the way
+
+0:06:35
+Speaker 0 :we imagined 4d by using some mathematics
+ and some equations and some some tricks
+
+0:06:42
+Speaker 1 :okay so jumping back to a fireman just
+ for a second he had a little bit of an
+
+0:06:52
+Speaker 0 :ego yes
+
+
+0:06:53
+Speaker 1 :what do you think ego is powerful or
+
+
+0:06:59
+Speaker 0 :dangerous in science I think both both
+ both I think you have to have both arrogance and humility you have to havethe arrogance to say I can do this
+ nature is difficult nature is very very hard I'm smart enough I can do it I canwin the battle with nature on the other
+ hand I think you also have to have the humility to know that you're very likelyto be wrong on any given occasion
+ everything you're thinking could suddenly change young people can comealong and say things you won't
+ understand and you'll be lost and flabbergasted so I think it's acombination of both you better recognize
+ that you're very limited and you better be able to say to yourself I'm not solimited that I can't win this battle
+ with nature it takes a special kind of person who canmanage both of those I would say and I
+
+
+0:07:59
+Speaker 1 :would say there's echoes of that in your
+ own work a little bit of ego a little bit of outside of the box humble
+
+0:08:06
+Speaker 0 :thinking I hope so
+
+
+0:08:08
+Speaker 1 :so it was their time where you complete
+ you felt you looked at yourself and asked am i completely wrong about this
+
+0:08:20
+Speaker 0 :oh yeah but the whole thing about
+
+
+0:08:23
+Speaker 1 :specific things the whole thing that way
+
+
+0:08:26
+Speaker 0 :which cold thing me and me and my
+ ability to do this thing
+
+0:08:30
+Speaker 1 :oh those kinds of doubts those first of
+ all did you have those kinds of doubts
+
+0:08:33
+Speaker 0 :no I had different kind of doubts I came
+ from a very working-class background and I was uncomfortable in academia for Ohfor a long time but they weren't doubts
+ about my ability of my they were just the discomfort and being in anenvironment that my family hadn't
+ participated in I know nothing about as a young person I didn't learn that therewas such a thing called physics until I
+ was almost 20 years old so I did have certain kind of doubts but not about myability I don't think I was too worried
+ about whether I would succeed or not I never I never felt this insecurity am Iever gonna get a job that veteran never
+ occurred to me that I wouldn't maybe you
+
+0:09:27
+Speaker 1 :could speak a little bit to this sense
+ of what is academia for because I do feel a bit uncomfortable in it mm-hm
+
+0:09:35
+Speaker 0 :
+
+0:09:37
+Speaker 1 :there's something I can't put quite into
+ words what you have that's not doesn't if we call it musicyou play a different kind of music than
+ a lot of academia what how have you joined this Orchestra how do you thinkabout it
+
+
+0:09:54
+Speaker 0 :I don't know that I thought about it as
+ much as I just felt it yeah you know thinking is one thing feeling is anotherthing I felt like an outsider until a
+ certain age when I suddenly found myself the ultimate insider in academic physicsand that was a sharp transition in the
+ world I wasn't the young man I was probably 50 years old you were never
+
+0:10:21
+Speaker 1 :quite it was a phase transition you were
+ never quite free milk in the middle yeah
+
+0:10:27
+Speaker 0 :that's right I wasn't I always felt a
+ little bit of an outsider the beginning a lot and outside Earthmy way of thinking was different
+ my approach to mathematics was different but also this my social background thatI came from was different now these days
+ half the young people I meet their parents were professors my that was notmy case so yeah but then all of a sudden
+ at some point I found myself at they're very much the center of maybe not theonly one at the center but certainly one
+ of the people in the center of a certain kind of physics and all that put away I
+
+0:11:17
+Speaker 1 :mean I went away in a flash so maybe
+
+
+0:11:18
+Speaker 0 :
+
+0:11:19
+Speaker 1 :maybe a little bit with Fineman but in
+ general how do you develop ideas do you work their ideas alone do you brainstorm
+
+0:11:27
+Speaker 0 :with others oh both both very definitely
+ both the earth the younger time I spent more time with myself now because I'm atStanford because I'm because I have a
+ lot of ex students and I you know people who who are interested in the same thingI am I spend a good deal of time almost
+ on a daily basis interacting brainstorming as you said it's a it's avery important part I spend less time
+ probably completely self focused and the paper and just sitting there staringat it
+
+
+0:12:12
+Speaker 1 :what are your hopes for quantum
+ computers so machines that are based on that have some elements of leveragequantum mechanical ideas yeah it's not
+
+
+0:12:24
+Speaker 0 :just leveraging quantum mechanical ideas
+ you can simulate quantum systems on a classical computer simulate them meanssolve the Schrodinger equation for them
+ or solve the equations of quantum mechanics on a computer on a classicalcomputer but the classical computer is
+ not doing is not a quantum mechanical system itself of course it is thateverything is made of quantum mechanics
+ but it's not some functioning it's not a functioning as a quantum systemit's just solving equations the quantum
+ computer is truly a quantum system which is actually doing the things that you'reprogramming it to do you want to program
+ a quantum field theory if you do it in classical physics that program is notactually functioning in the computer as
+ a quantum field theory it's just solving some equations physically it's not doingthe things that that the quantum system
+ would do the quantum computer is really a quantum mechanical system which isactually carrying out the quantum
+ operations you can measure it at the end it intrinsically satisfies theuncertainty principle it is limited in
+ the same way that quantum systems are limited by uncertainty and so forth andit really is a quantum system that means
+ that what you what you're doing when you program something for quantum system isthey're actually building a real version
+ of the system the limits of a classical computer classical computers areenormous ly limited when it comes to the
+ quantum systems enormously limited because you probably heard this beforebut in order to store the amount of
+ information that's in a quantum state of 400 spins that's not very many 400 I canput in my path
+ with 400 pennies in my pocket so we'll be able to simulate the quantum state of400 elementary quantum systems qubits we
+ call him to do that would take more information than can possibly be storedin the entire universe if it were packed
+ so tightly that you couldn't pack anymore in right 400 cubits on the otherhand if your quantum computer is
+ composed of four hundred qubits it can do everything four hundred qubits can do
+
+0:14:59
+Speaker 1 :what kind of space if you just
+ intuitively think about the space of algorithms that that unlocks for us sothere's a whole complexity theory around
+ classical computers measuring the running time of things and PE so on whatkind of algorithm is just intuitively do
+ you think it's you know mocks for us
+
+0:15:17
+Speaker 0 :okay so we know that there are a handful
+ of algorithms that can seriously be quantum of classical computers and whichcan have exponentially more power and
+ this is a mathematical statement nobody's exhibited this in thelaboratory it's a mathematical statement
+ we know that's true but it also seems more and more that the number of suchthings is very limited only very very
+ special problems exhibit that much advantage for a quantum computer othersof standard problems to my mind as far
+ as I can tell the great power of quantum computers will actually be to simulatequantum systems if you're interested in
+ a certain quantum system and it's too hard to simulate classically you simplybuild a version of the same system you
+ build a version of it you build a model of it that's actually functioning as thesystem you run it and then you do the
+ same thing you would do the quantum system you make measurements on itquantum measurements on it the
+ advantages you can run it much slower you could say why bother why not justuse the real system and why not just do
+ experiments on the real system well real systems are kind of limited you can'tchange them you can't
+ like them you can't slow them down so that you can poke into them you can'tmodify them an arbitrary kinds of ways
+ to see what would happen if I if I change the system a little bit so Ithink that quantum computers will be
+ extremely valuable in in understanding quantum systems at the
+
+0:17:00
+Speaker 1 :lowest of the fundamental laws they're
+
+
+0:17:03
+Speaker 0 :actually satisfying the same laws as the
+ systems that they're simulating that's right okay so in the one hand you havethings like factoring in factoring is
+ the great thing of quantum computers factoring large numbers that doesn'tseem that much to do with quantum
+ mechanics right it seems to be almost a fluke that a quantum computer can solvethe factoring problem in a short time so
+ though and those problems seem to be extremely special rare and it's notclear to me that there's gonna be a lot
+ of them on the other hand there are a lot of quantum systems chemistry there'ssolid-state physics there's material
+ science there's quantum gravity there's all kinds of quantum of quantum fieldtheory and some of these are actually
+ turning out to be Applied Sciences as well as very fundamental Sciences so weprobably will run out of the ability to
+ solve equations for these things you know solve equations by the standardmethods of pencil and paper and solve
+ the equations by the method of classical computers and so what we'll do is we'llbuild versions of these systems run them
+ and run them under controlled circumstances or we can change themmanipulate them make measurements on
+ them and find out all the things we want to know
+
+0:18:30
+Speaker 1 :so in finding out the things we want to
+ know about very small systems right now the is there something we can also findout about the macro level about
+ something about it the function and forgive me of our brain biologicalsystems the the stuff that's about one
+ meter in size versus much much smaller
+
+0:18:52
+Speaker 0 :well what the only excitement is about
+ among the people that I interact with is understanding black holes that fallsblack holes are big things there are
+ many many degrees of freedom there is another kind of quantum system that isbig it's a large quantum
+ computer and one of the things we learned is that the physics of largequantum computers is in some ways
+ similar to the physics of large quantum black holes and we're using thatrelationship now you asked you didn't
+ ask about quantum computers or systems you didn't ask about black holes youasked about brains
+
+
+0:19:29
+Speaker 1 :yeah I bought stuff that's in the middle
+ of the - it's different so but black holes are there's something fundamentalabout black holes it feels to be very
+ different in the brain yes and they also
+
+0:19:42
+Speaker 0 :function in a very quantum mechanical
+ way right okay it is first of all unclear to me but of course it's unclearto me I another I'm not a a
+ neuroscientist I have I don't even have very many friends who areneuroscientists I would like to have
+ more friends who are neuroscientists I just don't run into them very oftenamong the few neuroscientists I've ever
+ talked about about this they are pretty convinced that the brain functionsclassically there is not intrinsically a
+ quantum mechanical system or doesn't make use of the of the special featuresentanglement coherent superposition are
+ they right I don't know I sort of hope that wrongwith just because I like the romantic
+ idea that the brain is a quantum system and but I think that I think probablynot
+ the other thing big systems can be composed of lots of little systemsmaterials the materials are that we work
+ with and so forth are three large systems and a large piece of materialbut they're Bagan they're made out of
+ quantum systems now one of the things that's been happening over the last agood number of years is with discovering
+ materials and quantum systems which function much more quantum mechanicallythen than we imagine topological
+ insulators this kind of thing that kind of thing those are macroscopic systemsbut they just superconductors
+ superconductors I have a lot of quantum mechanics in them you can have a largechunk of superconductor so it's a big
+ decent material on the other hand it's functioning and its properties dependvery very strongly on quantum mechanics
+ and to analyze them you need the tools of quantum mechanics if we can go on to
+
+0:21:37
+Speaker 1 :black holes mm-hmm and looking at the
+ universe as a information processing system as a computer as a giant computer
+
+0:21:47
+Speaker 0 :
+
+0:21:48
+Speaker 1 :what's the power of thinking of the
+ universe as an information processing system but what is perhaps its usebesides the mathematical use of
+ discussing black holes and your famous debates and ideas around that to humanbeings or life in general as information
+ processing systems well all systems are
+
+0:22:08
+Speaker 0 :information processing systems
+ you poke them they change a little bit they evolve all systems or information
+
+0:22:19
+Speaker 1 :processes there's no extra magic to us
+ humans it certainly feels consciousness intelligence feels like magicsure though where does it emerge from if
+ we look at information processing what are the emergent phenomena that comefrom viewing the world is an information
+ processing system here is what I think
+
+0:22:39
+Speaker 0 :my thoughts are not worth much of this
+ if you ask me about physics my thoughts may be worth somethingyes if you ask me about this I'm not
+ sure my thoughts are worth anything but as I said earlier I think when we dointrospection when we imagine doing
+ introspection and try to figure out what it is when we do and we're thinking Ithink we I think we get it wrong I'm
+ pretty sure we get it wrong everything I've heard about the way the brainfunctions is so counterintuitive for
+ example you have neurons which detect the vertical lines you have differentneurons which detect lines at 45 degrees
+ you have different neurons I never imagined that there were whole circuitswhich were devoted to vertical lines in
+ the brain yeah doesn't seem to we where when my brain works my brain seems towork put my finger up vertically or if I
+ put it horizontally or if I put it this way or that way it seems to me it's thesame the same circuits that are it's not
+ the way it works the way the brain is compartmentalized seems to be very verydifferent than what I would have
+ imagined if I were just doing psychologicalintrospection about how things work my
+ conclusion is that we won't get it right that way but how will we get it right Ithink maybe computer scientists will get
+ it right eventually I don't think that any ways near it I don't even thinkthey're thinking about it but by
+ computer eventually we will build machines perhaps which are complicatedenough
+ and partly engineered partly evolved maybe evolved by machine learning and soforth this machine learning is very
+ interesting by machine learning will evolve systemsand we may start to discover mechanisms
+ that that have implications for how we think and for what what doesconsciousness thing is all about and
+ we'll be able to do experiments on them and perhaps answer questions that wecan't possibly answer by by
+ introspection so that's a really
+
+0:24:50
+Speaker 1 :interesting point you've in many cases
+ if you look even at string theory when you first think about a system it seemsreally complicated like the human brain
+ and through some basic reasoning then trying to discover a fundamentallow-level behavior of the system you
+ find out that it's actually much simpler you one have you you know is thatgenerally the process and to do you have
+ that also hope for biological systems as well for all the kinds of stuff we'restudying at the human level of course
+
+
+0:25:21
+Speaker 0 :physics always begins by trying to find
+ the simplest version of something an analyzer yeah I mean there are lots ofexamples where physics has taken very
+ complicated systems analyze them and found simplicity in them for sure I saidsuperconductors before it's an obvious
+ one a superconductor seems like monstrously complicated thing with allsorts of crazy electrical properties
+ magnetic properties and so forth and when it finally is boiled down throughits simplest elements it's a very simple
+ quantum mechanical phenomenon called spontaneous symmetry breaking and whichwe in other context we learned about and
+ we're very familiar with so yeah I mean yes we do take complicated things makethem simple but what we don't want to do
+ is take things which are intrinsically complicated and fool ourselves intothinking that we can make them simple we
+ don't want to make I don't know who said this but we don't want to make themsimpler than they really are
+ right okay is the brain a thing which ultimately functions bysome simple rules or is it just
+ complicated in terms of artificial
+
+0:26:35
+Speaker 1 :intelligence nobody really knows what
+ are the limits of our current approaches you mentioned machine learning how do wecreate human level intelligence it seems
+ that there's a lot of very smart physicists who perhaps oversimplify thenature of intelligence and think of it
+ as information processing and therefore that it doesn't seem to be anytheoretical reason why we can't
+ artificially create a human level or super human level intelligence in factthe reasoning goes if you create human
+ level intelligence the same approach you just used to create human levelintelligence should allow you to create
+ superhuman level intelligence very easily exponentially so what do youthink that way of thinking that comes
+ from physicists is all about I wish I
+
+0:27:21
+Speaker 0 :knew but there's a particular reason why
+ I wish I knew I have a second job I consult for Googleah not for Google for Google X I am the
+ senior academic advisor third to a group of machine learning physicists at nowthat sounds crazy because I know nothing
+ about the subject I know very little about the subject on the other hand I'mgood at giving advice so I give them
+ advice on things anyway I see these young physicists who areapproaching the machine learning problem
+ there is a myth there is a real machine learning problem mainly why does it workas well as it does it nobody really
+ seems to understand why it is capable of doing the kind of generalizations thatit does and so forth and there are three
+ groups of people who have thought about this there are the engineers theengineers are incredibly smart but they
+ tend not to think as hard about why the thing is working as much as they do howto use it obviously they provided a lot
+ of data and it is they who demonstrated that machine learning can work muchbetter than you have any right to expect
+ the machine learning systems are systems that the system is not too differentthan the kind of systems if this is a
+ study there's not all that much difference between quantum constructionof mathematics physically yes but in the
+ structure the mathematics between a tension network designed to describe aquantum system on the one hand and the
+ kind of networks that are used in machine learning so they're more andmore I think young physicists are being
+ drawn to this field of machine learning some very very good ones I work with anumber of very good ones not on machine
+ learning but having lunch on having
+
+0:29:21
+Speaker 1 :lunch yeah and I can tell you they are
+
+
+0:29:23
+Speaker 0 :super smart they don't seem to be so
+ arrogant about their physics backgrounds that they think they can do things thatnobody else can do
+ but those physics way of thinking I think will add will I had great value toUM
+ will bring value to the machine learning I believe it will and I think it already
+
+0:29:48
+Speaker 1 :has and what time scale do you think
+ predicting the future becomes useless in your long experience and being surprisedat new discoveries sometimes a day
+
+
+0:29:58
+Speaker 0 :sometimes 20 years there are things
+ which I thought we were very far from understanding which practically in asnap of the fingers or a blink of the
+ eye suddenly became understood completely surprising for methere are other things which I looked at
+ and I said we're not gonna understand these things for 500 years in particularquantum gravity the scale for that was
+ 20 years 25 years and we understand a lot and we don't understand itcompletely now by any means but we're I
+ thought it was 500 years to make any progress it turned out to be very veryfar from that it turned out to be more
+ like 20 or 25 years from the time when I thought it was 500 years so for me can
+
+0:30:49
+Speaker 1 :we jump around quantum gravity some
+ basic ideas in physics what is the dream of string theory mathematically what isthe hope where does it come from what
+ problems are trying to solve I don't
+
+0:31:03
+Speaker 0 :think the dream of string theory is any
+ different than the dream of fundamental theoretical physics altogether
+
+0:31:09
+Speaker 1 :understanding a unified theory of
+ everything I I don't like thinking of
+
+0:31:12
+Speaker 0 :string theory as a subject unto itself
+ with people called string theorists who are the practitioners of this thingcalled string theory I much prefer to
+ think of them as theoretical physicists trying to answer deep fundamentalquestions about nature in particular
+ gravity in particular gravity and it's connection with quantum mechanics andwho at the present time find string
+ theory a useful tool rather than saying there's a subject called stringtheorists I don't like being referred to
+ as a string theorists yes but as a tool
+
+0:31:49
+Speaker 1 :is it useful to think about our nature
+ in multiple dimensions the strings vibrating I believe it is useful I'll
+
+0:31:57
+Speaker 0 :tell you what the main use of it has
+ been up till now well has had a number of main uses originally string theorywas invented then I know there I was
+ there I was right at the spot where it was being invented literally and it wasbeing invented to understand hey groans
+ hey drones are sub-nuclear particles protons neutrons mesons andat that time the late 60s early
+ seventies it was clear from experiment that these particles call hydrants hadcould vibrate could rotate could do all
+ the things that a little closed string can do and it was and is a valid andcorrect theory of these hydrants it's
+ been experimentally tested and that is a done deal it had a second life as atheory of gravity the same basic
+ mathematics except on a very very much smaller distance scale the objects ofgravitation are nineteen orders of
+ magnitude smaller than a proton but the same mathematics turned up the samemathematics turned up what has been its
+ value its value is that it's mathematically rigorous in many ways andenabled us to to find to find
+ mathematical structures which have both quantum mechanics and gravity with rigorwe can test out ideas we can test out
+ ideas we can't test them in the laboratory that nineteen orders ofmagnitude too small or things that were
+ interested in but we can test them out mathematically and analyze theirinternal consistency by now forty years
+ ago thirty five years ago so forth people very very much questioned theconsistency between gravity and quantum
+ mechanics Stephen Hawking was very famous for it rightly sonow nobody questions that consistency
+ anymore they don't because we have mathematically precise string theorieswhich contain both gravity and quantum
+ mechanics in a consistent way so it's provided that um that certaintythat quantum mechanics and gravity can
+ coexist that's not a small thing that's a very huge thing it's a huge thing
+
+0:34:29
+Speaker 1 :Einstein be proud
+
+
+0:34:30
+Speaker 0 :Einstein he might be appalled I don't
+ know I'm like a very much yeah he would certainly be struck by it yeah I thinkthat maybe at this time its biggest
+ contribution to physics in illustrating almost definitively that quantummechanics and gravity are very closely
+ related and not inconsistent with each
+
+0:34:50
+Speaker 1 :other is there a possibility of
+ something deeper more profound that still is consistent with string theorybut is deeper that is to be found well
+ you could ask the same theme of quantum
+
+0:35:04
+Speaker 0 :mechanics is there something exactly
+ yeah yeah I think string theory is just an example of a quantum mechanicalsystem that contains both gravitation
+ and in quantum mechanics so is there something underlying quantum mechanics
+
+0:35:20
+Speaker 1 :perhaps something deterministic so have
+
+
+0:35:22
+Speaker 0 :something deterministic my friend far
+ out it wolf whose name you may know he's a very famous physicist Dutch not asfamous as he should be but the heart
+
+
+0:35:34
+Speaker 1 :dispels names it's hard to say his name
+
+
+0:35:35
+Speaker 0 :you know it's easy to spelling ' he's
+ only person I know his name begins with an apostrophe and he's one of my heroesin physics and it's a little younger
+ than me but it's nonetheless one of my heroesthe Tufte believes that there was some
+ sub structure to the world which is classical in character the deterministicin character which somehow by some
+ mechanism that he has a hard time spelling out emerges as quantummechanics I don't the wavefunction is
+
+
+0:36:11
+Speaker 1 :somehow emergent the wavefunction and
+
+
+0:36:14
+Speaker 0 :not just the wavefunction but the whole
+ making the whole thing that goes with quantum mechanics uncertainty and pangomeant all these things are emergent do
+ you think quantum mechanics is the
+
+0:36:24
+Speaker 1 :bottom of the well as is the right here
+
+
+0:36:28
+Speaker 0 :I think is here I think is where you
+ have to be humble here's where humility comes I don't think anybody should sayanything is the bottom of the well at
+ this time yes I think we I think we can reasonably say I can reasonably say whenI look into the well I can't see past
+ quantum mechanics I don't see any reason for it to be anything beyond quantummechanics I think a tuft is a Sperry
+ interesting and deep questions I don't like his answers well again let me ask
+
+0:37:02
+Speaker 1 :if we look at the deepest nature of
+ reality with whether it's deterministic or unobservedis probabilistic what does that mean for
+ our human level of ideas of free will is there any connection whatsoever fromthis perception perhaps illusion of free
+ will that we have and the fundamental nature of reality the only thing I can
+
+0:37:28
+Speaker 0 :say is I am I am puzzled by that as much
+ as you are the illusion of it the
+
+0:37:33
+Speaker 1 :
+
+0:37:35
+Speaker 0 :illusion of consciousness the illusion
+ of free will the illusion of self does
+
+0:37:41
+Speaker 1 :that connect to how can a physical
+
+
+0:37:44
+Speaker 0 :system do that and and I am as puzzled
+ as anybody there's echoes of it in the
+
+0:37:49
+Speaker 1 :observer effect yeah so do you
+ understand what it means to be an
+
+0:37:55
+Speaker 0 :observer I understand it at a technical
+ level an observer is a system with enough degrees of freedom that it canrecord information and which can become
+ entangled with the thing that's measuring entanglement is the key when asystem which we call an apparatus or an
+ observer same thing interacts with the system that it's observing it doesn'tjust look at it it becomes physically
+ entangled with it and it's that entanglement which we call anobservation or measure
+ now does that satisfy me personally as an observer hmm yes and no I find itvery satisfying that we have a
+ mathematical representation of what it means to observe a system you are
+
+0:38:41
+Speaker 1 :observing stuff right now
+ yeah the conscious level right is you think there's echoes of that kind ofentanglement in our macro scale yes
+
+
+0:38:49
+Speaker 0 :absolutely for sure we're entangled with
+ quantum mechanically entangled with everything in this room if we weren't ofand it was just well we wouldn't be
+ observing it but on the other hand you can ask though I really am I reallycomfortable with it and I'm
+ uncomfortable with it in the same way that I can never get comfortable withfive dimensions my my brain isn't wired
+ for it are you comfortable with four
+
+0:39:19
+Speaker 1 :
+
+0:39:21
+Speaker 0 :dimensions a little bit more because I
+ can always imagine the fourth dimension this time so the arrow of time are you
+
+0:39:26
+Speaker 1 :comfortable with that arrow do you think
+ time is an emergent phenomena or is it's fundamental to nature that is a big
+
+0:39:35
+Speaker 0 :question in physics right now all the
+ physics that we do or at least that the people that I am comfortable withtalking to my my friends yeah my friends
+ no we all ask the same question that you just asked in space we have a prettygood idea is emergent and it emerges out
+ of tan tangle mint and other other thingstime always seems to be built into our
+ equations as just what Newton pretty much were for Newton modified a littlebit by Einstein would have called time
+ and and mostly in our equations it is not emergent time in physics iscompletely symmetric forward and
+
+
+0:40:23
+Speaker 1 :bathymetric so you don't really need to
+ think about the area of time for most physical phenomena the most microscopic
+
+0:40:30
+Speaker 0 :phenomena no it's only when the
+ phenomena involves systems which are big enough for thermalAmyx to become important the entropy to
+ become important for small subsets a small system entropy is not a goodconcept an entropy is something which
+ which emerges out of large numbers it's a probabilistic idea it's astatistical idea and it's a
+ thermodynamic idea thermodynamics requires lots and lots and lots oflittle sub structures okay so it's not
+ until you emerge at the thermodynamic level that there's an arrow of time dowe understand it yeah I think I think we
+ understand better than most people think that most people say they think weunderstand it yeah I think we understand
+ it it's just a statistical idea the you
+
+0:41:24
+Speaker 1 :mean like second law thermodynamics
+ entropy and so on yeah the pack of cards
+
+0:41:28
+Speaker 0 :and you're flinging it in the air and
+ you look what happens to it yeah but what's random we understand it doesn'tgo from random to simple it goes from
+ simple to random but do you think it
+
+0:41:39
+Speaker 1 :ever breaks down what I think you can do
+
+
+0:41:42
+Speaker 0 :is in a laboratory setting you can take
+ a system which is somewhere intermediate between being small and being large andmake it go backward a thing which looks
+ like it only wants to go forward because of statistical mechanical reasonsbecause of the second law you can very
+ very carefully manipulate it to make it run backward I don't think you can takean egg Humpty Dumpty who fell on the
+ floor yeah and reverse that but you can in a very controlled situation you cantake systems which appear to be evolving
+ statistically toward randomness stop them reverse them and make them go backwhat's the intuition behind that how do
+
+
+0:42:30
+Speaker 1 :how do we do that how do we reverse it a
+ clue you're saying closed system yeah
+
+0:42:36
+Speaker 0 :pretty much closed system yes did you
+
+
+0:42:39
+Speaker 1 :just say that time travel is possible no
+
+
+0:42:41
+Speaker 0 :I didn't say time travel is possible I
+ said you can make a system go backward in time and you don't like it go backyou can make it reverse it steps you can
+ make it reverse its trajectory yeah how
+
+0:42:53
+Speaker 1 :do we do what's the intuition there does
+ it have is it just a fluke thing that we can do at a small scale in thelab that doesn't have what I'm saying is
+
+
+0:43:02
+Speaker 0 :you can do it on a little bit better
+ than a small scale you can certainly do it with a simple small system smallsystems don't have any sense of the
+ arrow of time atoms atoms uh no sense of the arrow of time they're completelyreversible it's only when you have you
+ know the second law of thermodynamics is the law of large numbers say you can
+
+0:43:29
+Speaker 1 :break the law because it's not you can
+ break German isn't the break it but it's
+
+0:43:32
+Speaker 0 :hard it requires great care the bigger
+ the system is the more to care the more the harder it is you have to overcomewhat's called chaos and that's hard and
+ it requires more and more precision for 10 particles you might be able to do itwith a with some effort 400 particles
+ it's really hard for a thousand or a million particles forget it but not forany fundamental reason just because it's
+ technologically too hard to make the system go backward so so note no time
+
+0:44:08
+Speaker 1 :travel for engineering reasons oh no no
+
+
+0:44:14
+Speaker 0 :no what is time travel time travel time
+ travel to the future that's easy yes you just close your eyes go to sleepand you wake up in the future yeah yeah
+
+
+0:44:24
+Speaker 1 :good nap gets you there yeah good map
+ gets you there right
+
+0:44:27
+Speaker 0 :
+
+0:44:28
+Speaker 1 :but in reversing the second law of
+ thermal is a very difficult engineering effort I wouldn't call that time travel
+
+0:44:40
+Speaker 0 :because it gets to me too mixed up with
+ what the science fiction calls time-travel right this is just theability to reverse a system you take the
+ system and you reverse the direction of motion of every molecule in it thatinput you can do it with one molecule if
+ you find a particle moving in a certain direction let's not say a mama particlea baseball you stop it dead and then you
+ simply reverse its motion in principle that's nottoo hard and it'll go back along its
+ trajectory in the backward direction just running the program backwards
+
+0:45:17
+Speaker 1 :
+
+0:45:18
+Speaker 0 :running the program backward yeah okay
+ if you have two baseball's colliding well you can do it but you have to bevery very careful to get it just right
+ now ten baseball's really really tore better yet tend ten billiard balls on anidealized frictionless billiard table
+ mm-hmm okay so you start the balls all in atriangle right and you're whack them yep
+ depending on the game you're playing you the wacom where you're really carefulbut the you're welcome
+ and they go flying off in all possible directions okay try to reverse that tryto reverse that imagine trying to take
+ every billiard ball stopping it dated sometime at some point and reversing itsmotion so it was going in the opposite
+ direction if you did that with tremendous care it would reassembleitself back into the triangle okay that
+ is a fact and you can probably do it with two billiard balls maybe with threebillion balls if you're really lucky but
+ what happens is as the system gets more and more complicated you have to be moreand more precise not to make the tiniest
+ error because the tiniest errors will get magnified and you'll simply not beable to do the reversal so yeah you
+ could that but I wouldn't call that time travel yeah that's something else but if
+
+0:46:38
+Speaker 1 :you think think of it it just made me
+ think if we think the unrolling of state that's happening as a program if we lookat the world so the idea of looking at
+ the world as a simulation as a computer but it's not a computer it's just asingle program a question arises that
+ might be useful how how hard is it to have a computer that runs the universe
+
+0:47:12
+Speaker 0 :okay so there are mathematical universes
+ that we know about one of them is called anti de sitter space where weand it's quantum mechanics well I think
+ we could simulate it in a computer and a quantum computer classical computer allyou can do is solve its equations you
+ can't make it work like the real system if we could build a quantum computer orbig enough one robust enough one we
+ could probably simulate a universe a small version of an anti-de sitteruniverse and that the sitter is a kind
+ of cosmology so I think we know how to do that the trouble is the universe thatwe live in is not the anti-de sitter
+ geometry it's the decent or geometry and we don't really understand the quantummechanics at all so at the present time
+ I would say we wouldn't have the vaguest idea how to simulate a universe similarto our own you know we could ask oh we
+ could we build in the laboratory a small version a quantum mechanical version thecollection of quantum computers
+ entangled and the couple together which would reproduce the the phenomena thatgo on in the universe even on a small
+ scale yes if you were anti de sitter space know if it's the sitter space canyou a slightly describe the sitter space
+
+
+0:48:46
+Speaker 1 :and anti-de sitter space yeah what are
+ the geometric properties of big
+
+0:48:52
+Speaker 0 :different they differ by a this is the
+ sine of a single constant called the cosmological constant one of them isnegatively curved the other is
+ positively curved the anti-de sitter space which is the negatively curved oneyou can think of as an isolated system
+ in a box with reflecting walls you could think of it as a system of quantummechanical system isolated in an
+ isolated environment the sitter space is the one we really live in and that's theone that's exponentially expanding
+ exponential expansion dark energy whatever you want to call it and wedon't understand that mathematically do
+ we understand not everybody would agree
+
+0:49:36
+Speaker 1 :
+
+0:49:38
+Speaker 0 :with me but I don't understand
+ they would agree with me they definitely would agree with me that I don'tunderstand it
+
+
+0:49:44
+Speaker 1 :what about their an understanding of the
+ birth the origin no the bing bang so
+
+0:49:51
+Speaker 0 :knows what normally theories there are
+ theories my favorite is the one called eternal inflation the infinity can be on
+
+0:50:00
+Speaker 1 :both sides on one of the sides and none
+ of the sides so what my real opinion
+
+0:50:06
+Speaker 0 :okay
+ infinity on both sides oh boy yeah yeah that's why is that your favorite because
+
+0:50:16
+Speaker 1 :it's the the most just mind-blowing no
+ because we want a beginning no why do we
+
+0:50:23
+Speaker 0 :want a beginning I practiced it was the
+ beginning of course and practice it was a beginning but could it have been arandom fluctuation in an otherwise
+ infinite time maybe in any case the the eternal inflation theoryI think if correctly understood it would
+ be infinite in both directions how do
+
+0:50:51
+Speaker 1 :you think about infinity Oh God
+
+
+0:50:53
+Speaker 0 :
+
+0:50:54
+Speaker 1 :so okay of course you can think about
+ mathematically I just finished this I
+
+0:50:58
+Speaker 0 :just finished this discussion with my
+ friend Sergey Brin yes how do you think about infinity I say well Sergey Brin isinfinitely rich how do you test that
+
+
+0:51:08
+Speaker 1 :hypothesis okay essential good lines all
+ right yeah so there's no there's really no way to visualize some of these thingslike ya know this is a very good
+
+
+0:51:20
+Speaker 0 :question those physics have any is does
+ infinity have any place in physics right right and well I can say is very goodquestion
+
+
+0:51:35
+Speaker 1 :so what do you think of the recent first
+ image of a black hole visualized from the event horizon telescope it
+
+0:51:43
+Speaker 0 :it's an incredible triumph of science in
+ itself the fact that there are black holes which collide is not a surpriseand they seem to work exactly the way
+ they're supposed to work will we learn a great deal from it I don't know I can II we might but the kind of things we
+ learn won't really be about black holes why there are black holes in nature ofthat particular mass scale and why
+ they're so common may tell us something about the structure evolution ofstructure in the universe but I don't
+ think it's going to tell us anything new about black holes but it's a triumph inthe sense that you go back a hundred
+ years and it was a continuous development general relativity thediscovery of black holes LIGO the
+ incredible technology that went into LIGOit is something that I never would have
+ believed was gonna happen you know 30 40 years ago and I think it's a magnificentthe structure magnificent thing this
+ evolution of general relativity LIGO high precision ability to measure thingson a scale of 10 to the minus 21 so so
+
+
+0:53:10
+Speaker 1 :you're just astonishing though we zoom
+ all this just happy for us to this right picture is it different you know you'vethought a lot about black holes is it
+ how did you visualize them in your mind and is the picture different than youknow lies that no it simply confirmed
+
+
+0:53:27
+Speaker 0 :you know it's a magnificent triumph to
+ have confirmed confirmed a direct observation yeah that Einstein's theoryof gravity at the level of black hole
+ collisions actually works is awesome and it's really awesome you know I know someof the people who were involved in that
+ they just thought married people yeah and the idea that they could carry thisout I just don't I'm shocked yeah just
+
+
+0:53:58
+Speaker 1 :these little Homo sapiens
+ yeah just these little monkeys got
+
+0:54:01
+Speaker 0 :together right and took a picture of
+
+
+0:54:03
+Speaker 1 :
+
+0:54:04
+Speaker 0 :slightly advanced lemurs I think what
+
+
+0:54:08
+Speaker 1 :kind of questions can science not
+ currently answer but you hope might be able to soon well you you've already
+
+0:54:15
+Speaker 0 :addressed them what is consciousness for
+ example do you think that's within the
+
+0:54:18
+Speaker 1 :reach of science I think it's somewhat
+
+
+0:54:21
+Speaker 0 :within the reach of science but I think
+ that now I think it's in the hands of the computer scientists and theneuroscientists I'm not a physicist
+
+
+0:54:28
+Speaker 1 :perhaps with the helper haps at some
+
+
+0:54:30
+Speaker 0 :point but I think physicists will try to
+ simplify it down to something that they can use their methods and maybe they'renot appropriate maybe we maybe we simply
+ need to do more machine learning on bigger scales evolve machines machinesnot only that learn but
+ volve their own architecture as a process of learning evolve inarchitecture not under our control only
+ partially under our control but under the control of a machine learning I'lltell you another thing that I find
+ awesome you know this Google thing that theytaught the computers how to play chess
+ yeah yeah okay they taught the computers how to play chess not by teaching themhow to play chess but just having them
+ play against each other against each other itself against each other this isa form of evolution these machines
+ evolved they evolved and intelligence they evolved in intelligence withoutanybody telling them how to do it and
+ we're not engineered they just played against each other and got better andbetter and better
+ that makes me think that machines can evolve intelligence what exact kind ofintelligence I don't know but in
+ understanding that better and better maybe we'll get better clues as to whatthere goes on your life and intelligence
+
+
+0:55:53
+Speaker 1 :is last question what kind of questions
+ can science not currently answer and may never be able to answer yeah
+
+0:56:03
+Speaker 0 :is there an intelligence out there
+ that's underlies the whole thing you can call them with the G word if you want Ican say are we a computer simulation
+ with a purpose is there an agent an intelligent agent that underlies or isresponsible for the whole thing
+ does that intelligent agent satisfy the laws of physics does it satisfy the lawsof quantum mechanics is it made of atoms
+ and molecules yeah there's a lot of questions and I don't see this it seemsto me a real question
+
+
+0:56:42
+Speaker 1 :it's an answerable question well it's
+ answerable the questions have to be
+
+0:56:45
+Speaker 0 :answerable to be real some philosophers
+ would say that a question is not a question unless it's answerable thisquestion doesn't seem to me answerable
+ by any known method but it seems to me real there's no better place to end
+
+0:57:06
+Speaker 1 :monitor thank you so much for talking
+
+

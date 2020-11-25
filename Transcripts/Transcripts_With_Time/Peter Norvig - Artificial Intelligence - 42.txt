@@ -1,0 +1,1010 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ peter norvig he's a director of research
+
+0:00:03
+Speaker 0 :at google
+
+
+0:00:05
+Speaker 1 :and the co-author with stuart russell of
+ the book artificial intelligence and
+
+0:00:08
+Speaker 0 :
+
+0:00:09
+Speaker 1 :modern approach
+ that educated and inspired a whole generation of researchers includingmyself
+ to get into the field of artificial intelligencethis is the artificial intelligence
+ podcast if you enjoy it
+
+0:00:22
+Speaker 0 :subscribe on youtube give it five stars
+ on itunes
+
+0:00:26
+Speaker 1 :support on patreon or simply connect
+ with me on twitter at lex friedman spelled f-r-i-d-m-a-nand now here's my conversation with
+ peter
+
+0:00:36
+Speaker 0 :norvig most researchers in the ai
+ community including myself own all three editions red green andblue of the uh
+ artificial intelligence a modern approach it's a field-definingtextbook as many people are aware that
+ you wrote with stuart russell how has the book changed and how haveyou changed
+ in relation to it from the first edition to the second to the third and now
+
+0:01:00
+Speaker 1 :fourth edition as you work on it yeah so
+ it's been a lot of years a lot of changes one of the thingschanging from the first
+ to maybe the second or third was just the rise of uh computing powerright so i think in the in the first
+ edition we said uh here's predicate logicbut uh that only goes so far because
+ pretty soon you have millions of uh short littlepredicate expressions and they couldn't
+ possibly fit in memory uh so we're going to use first orderlogic that's more concise
+ and then we quickly realized oh predicate logic is pretty nicebecause there are really fast sat
+ solvers and other things and look there's only millions ofexpressions and that fits easily into
+ memory or maybe even billions fit into memory nowso that was a change of the type of
+ technology we needed just because the hardware expanded even
+
+0:01:56
+Speaker 0 :to the second edition
+ resource constraints were loosened significantly yeahyeah and that was the early 2000s second
+
+
+0:02:04
+Speaker 1 :edition
+ right so 95 was the first and then 2000 2001 or so and then moving on from therei think we're starting to see that again
+ with the gpus and then more specific type ofmachinery like the tpus and using custom
+ asics and so on for deep learning so we're seeinganother advance in terms of the hardware
+ then i think another thing that we especially notice this time aroundis in all three of the first editions we
+ kind of said well we're going to find ai asmaximizing expected utility
+ and you tell me your utility function and now we've got27 chapters worth of cool techniques for
+ how to optimize that i think in this edition we're sayingmore you know what
+ maybe that optimization part is the easy part and the hard partis deciding what is my utility function
+ what do i want and if i'm a collection of agents or asociety
+ what do we want as a whole so you touch
+
+0:03:07
+Speaker 0 :that topic in this edition you get a
+ little bit more into utility yeah that's really interesting on atechnical level we're almost pushing the
+ philosophical
+
+0:03:17
+Speaker 1 :i guess it is philosophical right so we
+ we've always had a philosophy chapter which which i was uhglad to that we were supporting
+ and now it's less kind of the uh you know chinese room type argument andmore of these
+ uh ethical and societal type issues so we get intouh the issues of fairness and bias
+ and uh and just the issue of aggregating utilities so how
+
+0:03:45
+Speaker 0 :do you encode human values into a
+ utility function is is this something that you can do purely through data in alearned way or is there
+ some systematic obviously there's no good answers yetthere's just uh beginnings to this uh to
+ even opening
+
+0:04:02
+Speaker 1 :doors so there is no one answer yes
+ there are techniques uh to try to learn that so we talk about inversereinforcement learning
+ right so reinforcement learning uh you take some actions you get some rewardsand you figure out what actions you
+ should take in inverse reinforcement learning youobserve somebody
+ taking actions and you figure out uh wellthat this must be what they were trying
+ to do if they did this action it must be because they want itof course there's restrictions to that
+ right so lots of people take actions that areself-destructive
+ uh where they're they're suboptimal in certain ways so you don't want to learnthat
+ right you want to uh somehow learn the uh the perfect actionsuh rather than the ones they actually
+ take so so that's a challenge uh for that field thenanother big part of it is just kind of
+ uh theoretical of saying uh what can we accomplish andso you look at like this
+ this work on the uh programs to uh predict recidivism and decide uhyou know who should get parole or who
+ should get bail or whatever uh and how are you gonna evaluate thatand
+ one of the big issues is fairness across protected classesprotected classes being things like uh
+ sex and race and so on and uh so two things you want is youwant to say well if i get a score of say
+ uh six out of ten then i want that to mean the samewhether no matter what race i'm on yes
+ right so i want to have a 60 percent chance of reoccurringuh regardless uh and the makers of the
+ one of the makers of a commercial program to do that says that's whatwe're trying to optimize and look
+ we achieved that we've we've reached that kind ofbalance and then on the other side you
+ also want to say well if if it makes mistakes i want thatto affect
+ both sides of the protected class equallyand it turns out they don't do that
+ right so they're they're twice as likely to make amistake that would harm a black person
+ over a white person so that seems unfair so you'd like to say well i want toachieve both those goals
+ and then it turns out you do the analysis and it's theoreticallyimpossible
+ to achieve both those goals so you have to trade them off one against the otherso that analysis is really helpful to
+ know what you can aim for and how much youcan get that you can't have everything
+ but the analysis certainly can't tell you where should we make that
+
+0:06:38
+Speaker 0 :trade-off point but nevertheless then we
+ can uh as humans deliberate where that
+
+0:06:42
+Speaker 1 :trade-off should be yeah so at least we
+ now we're we're arguing an informed way we're notasking for something impossible
+ we're saying uh here's where we are and and here's what we aim for andthis strategy is better than that
+
+
+0:06:55
+Speaker 0 :strategy
+ so that's i would argue is a really powerful and really important first stepbut it's a doable one sort of removing
+ uh undesirable degrees of bias in uh insystems
+ in terms of protected classes and then there's something i listen to your uhcommencement speech
+ or there's some fuzzier things like you mentioned angry birds yeahdo you want do you want to create
+ systems that feed the dopamine enjoyment that feedthat optimize for you returning to the
+ system enjoying the moment of playing the game ofgetting likes or whatever
+ this kind of thing or some kind of long-term improvementright is if are you even thinking about
+ that that's ex that's really going to thephilosophical area
+
+
+0:07:42
+Speaker 1 :i think that's a really important issue
+ too certainly thinking about that i i don't think about thatas a as an ai issue as much
+ but as you say you know the point is we'vebuilt this society in this
+ infrastructure where we say we have a marketplace forattention
+ and uh we've decided as a society that we like things that are freeand so we want all uh apps on our phone
+ to be free uh and that means they're all competingfor your attention and then eventually
+ they they make some money some way through uhads or in-game sales or whatever
+ but they can only win by defeating all the other apps byinstilling your attention and
+ we build a marketplace where it seems like they'reworking against you rather than working
+ with you and i'd like to find a way where we canchange the playing field so we feel more
+ like well these things are on my side yes they're letting me have some fun inthe short term but they're also helping
+ me in the long term rather than competingagainst me
+
+
+0:08:54
+Speaker 0 :and those aren't necessarily conflicting
+ objectives they're just the incentives the direct currentincentives as we try to figure out this
+ whole new world seem to be on uh the easier part of thatwhich is feeding the dopamine
+ the rush right but uh let me take a quick step backat the beginning of the artificial
+ intelligence and modern approach book of writingso here you are in the 90s when you
+ first sat down with stuart to write the bookto cover
+ an entire field which is one of the only books that successfully done that for aiand
+ actually in a lot of other computer science fieldsyou know it's a dif it's a it's a huge
+ undertaking so it must have been quite daunting whatwas that process like did you envision
+ that you would be trying to cover the entire fieldwas there a systematic approach to it
+ that was more step by step
+
+0:09:51
+Speaker 1 :how did it feel so i guess it came about
+ you know go to lunch with the other ai faculty atberkeley
+ and we'd say uh you know the field is changingseems like the current books are a
+ little bit behind nobody's come out with a new book recently we should do thatand everybody said yeah yeah that's a
+ great thing to do and we never did anythingright and then i ended up heading off
+ to uh industry i went to uh sun labs so i thought well that's the end ofmy possible academic publishing career
+ but i met stuart again at a conference like a year laterand said you know that book we were
+ always talking about you guys must be half done with it by now righthe said well we keep talking we never do
+ anything so i said well you know we should do itand i think the reason is that
+ we all felt it was a time where the field was changingand that was in two ways
+ so you know the good old-fashioned ai was baseduh primarily on boolean logic you had a
+ few tricks to deal with uncertainty and itwas based
+ primarily on knowledge engineering then the way you got something done is youwent out you interviewed an expert and
+ you wrote down by hand everything they knew and we saw inin 95 that the field was changing in
+ in two ways one we're moving more towards probabilityrather than boolean logic and we're
+ moving more towards machine learning rather than knowledge engineering uh andthe other books uh
+ hadn't caught that way if they were still in the uhmore in the in the old school although
+ so certainly they had part of that on the way but we said if we start nowcompletely taking that point of view we
+ can have a different kind of book and we were able to put that together
+
+0:11:40
+Speaker 0 :and uh what was literally the process if
+ you remember did you start writing a chapter did yououtline
+
+
+0:11:47
+Speaker 1 :yeah i guess i guess we did an outline
+ and then we sort of assigned chapters to each person at the time uhi had moved to boston and stewart was in
+ berkeley so basically uh we did it uhuh over the internet and uh you know
+ that wasn't the same as doing it today it meant you knowdial-up lines and telnetting in and
+ you know you you telnetted into one shell and you type cat file name andyou hoped it was captured at the other
+ end and
+
+0:12:23
+Speaker 0 :certainly you're not sending uh images
+ and figures back and forth
+
+0:12:27
+Speaker 1 :right right that didn't work but you
+
+
+0:12:29
+Speaker 0 :know did you anticipate where the field
+ would go from that day from from the 90sdid you see the
+ growth into learning-based methods into data-driven methodsthat followed in the future decades we
+
+
+0:12:46
+Speaker 1 :certainly thought
+ that learning was important i guess we we missed it as uh being as important asit
+ as it is today we missed this idea of big data we missed that uhuh the idea of deep learning hadn't been
+ invented yet we could have uh taken the book from acomplete uh machine learning point of
+ view right from the start we chose to do itmore from a point of view of we're going
+ to first develop different types of representations andwe're going to talk
+ about different types of environments of is it fully observable or partiallyobservable and is it
+ deterministic or stochastic and so on and wemade it more complex along those axes
+ rather than focusing on the machine learning axisfirst
+
+
+0:13:38
+Speaker 0 :do you think you know there's some sense
+ in which the deep learning craze is extremely successful for a particularset of problems
+ and you know eventually it's going to in the general casehit challenges so in terms of the
+ difference between perception systems and robots that haveto act in the world
+ do you think uh we're going to return to ai modern approach type breadthin addition five and six yeah
+ in uh in future decades do you think deep learning will take its place as achapter and as
+ in his bigger uh view of ai yeah i think
+
+0:14:17
+Speaker 1 :we don't know yet how it's all going to
+ play out so uh in the new edition uh we have achapter on deep learning
+ uh we got ian goodfellow to be the guest authorfor that chapter so he said he could
+ condense his whole deep learning book into onechapter i think he did a great job
+ we were also encouraged that he's you know we gave himthe old neural net chapter and said
+ have fun with it modernize that and he said you know half of thatwas okay that certainly there's lots of
+ new things that have been developed but some of the core was still the sameso i think we'll gain a better
+ understanding of what you can do there i think we'll need to incorporate allthe things we can do with the other
+ technologies right so deep learning started outconvolutional networks and very close to
+ perception uh and has since moved to be uhto be able to do more with actions and
+ some degree of longer term planning but we need to do abetter job
+ with representation than reasoning and one-shot learning and so on andwell i think we don't know yet how
+ that's going to play out
+
+0:15:41
+Speaker 0 :so do you think looking at the
+ some success but certainly uh eventual demise the partial demise ofexperts to symbolic
+ systems in the 80s do you think there is kernels of wisdomin the work that was done there with
+ logic and reasoning and so on that will rise again in your view
+
+0:16:05
+Speaker 1 :so certainly i think the idea of
+ representation and reasoning is crucial that you know sometimes youjust don't have enough data about the
+ world to learn de novo so you've got to havesome idea of representation whether that
+ was programmed in or told or whatever and then be able to take uh steps ofreasoning
+ i i think the problem uh with the you know the good old-fashioned aiwas uh one we tried to base everything
+ on these uh symbols that were atomicand that's great if you're like trying
+ to define the properties of a triangle right because they have necessaryinsufficient conditions
+ uh but things in the real world don't the real world is is messy and doesn'thave sharp edges
+ and atomic symbols do so that was a poor matchand then the other aspect was that the
+ reasoning was universal and applied anywhere which in some sense is good butit also means there's no guidance
+ as to where to apply it and so you you know you started getting these paradoxeslike
+ uh well if i have a mountain and i removeone grain of sand then it's still a
+ mountain and but if i do that repeatedly at somepoint it's not
+ right and with logic you know there's nothing to stopyou from applying things uh repeatedly
+ but maybe with something like deep learning and i don't really knowwhat the right name for it is
+ we could separate out those ideas so one we could sayuh you know a mountain isn't just an
+ atomic notion it it's some sort of somethinglike uh word embedding that
+ uh uh has a a more complex representation yeah andsecondly we could somehow learn yeah
+ there's this rule that you can remove one grain of sandand you can do that a bunch of times but
+ you can't do it a near infinite amount of timesbut on the other hand when you're doing
+ induction on the integer sure then it's fine to do it an infinitenumber of times and
+ if we could uh somehow we have to learn when these strategies are applicablerather than having the strategies be
+ completely neutral and available everywhere anytime you use
+
+0:18:30
+Speaker 0 :neural networks anytime you learn
+ from data or form representation from data in an automated wayit's not very explainable as
+ to or it's not introspective to us humansin terms of uh how this neural network
+ sees the world where why does it succeed so brilliantlyon so many in so many cases
+ and fail so miserably in surprising ways and smallso what do you think is this is uh
+ the future there can simply more data better data more organized datasolve that problem or is there
+ elements of symbolic systems that need to be brought in which are a little bitmore explainable
+
+
+0:19:12
+Speaker 1 :yeah so i prefer to talk about
+ trust and uh validation and verification rather than just about explainabilityand then i think uh
+ explanations are one tool that you use towards those goalsand i think it is important issue that
+ we don't want to use these systems unless wetrust them and we want to understand
+ where they work and where they don't workand in an explanation can be part of
+ that right so i apply for loan and i getdenied i want some explanation of why
+ and you have in europe we have the gdpr thatsays
+ you're required to be able to get that but on the other handexplanation alone is not enough right so
+ you know we're used to dealing with people and with theorganizations and corporations and so on
+ and they can give you an explanation then you have no guarantee that thatexplanation relates to reality
+ right right so the bank can tell me well you didn't get the loanbecause you didn't have enough
+ collateral and that may be true or it may be true that they just didn'tlike my religion
+ or or something else i can't tell from the explanation and that'sthat's true whether the decision was
+ made by computer or by a person so i want morei do want to have the explanations and i
+ want to be able to uh have a conversation to go back and forthand said well you gave this explanation
+ but what about this and what would have happened if this hadhappened and uh
+ what would i need to change that so i think a conversation isis a better way to think about it than
+ just an explanation as a single output and i think we need testing of variouskinds right so in order to know
+ was the decision really based on my collateral or was itbased on my uh religion or skin color or
+ whatever i can't tell if i'm only looking at mycase but if i look across all the cases
+ then i can detect a pattern all right right so you want to have that kind ofcapability
+ uh you want to have these adversarial testing right so we thought we weredoing pretty good
+ at object recognition in images we said lookwe're at sort of pretty close to human
+ level performance on imagenet and so on and then you startseeing these
+ adversarial images and you say wait a minute that part is nothing likehuman performance okay you can mess with
+
+
+0:21:39
+Speaker 0 :
+
+0:21:40
+Speaker 1 :it really easily you can mess with it
+ really easily right and uh yeah you could do that tohumans too right so
+ in a different way perhaps right humans don't know what color the dress wasright and so they're vulnerable to
+ certain attacks that are different than the attacks on the on the machinesbut the
+ you know the tax on the machines are so striking uh they really change the wayyou think about what we've done
+ right and the the way i think about it is i think part of the problem is we'reseduced
+ by uh our low dimensional metaphors right yeah so you know youlook like that phrase
+ you look in uh in a textbook and you say okay now we've mapped out the space andyou know
+ uh cat is here and dog is here and maybe there's a tiny little spot inthe middle where you can't tell the
+ difference but mostly we've got it all coveredand if you believe that metaphor uh then
+ you say well we're nearly there and uh you know there's only going to bea couple adversarial images
+ but i think that's the wrong metaphor and what you should really say isit's not a 2d flat space that we've got
+ mostly covered it's a million dimension space and a catis this string that goes out in this
+ crazy bath and if you step a little bit offthe path in any direction you're in
+ nowhere's land and you don't know what's going tohappen and so i think that's where we
+ are and now we've got to deal with that souh it wasn't so much an explanation but
+ it was an understanding of what the models are and what they'redoing and now we can start exploring how
+ do you fix that
+
+0:23:12
+Speaker 0 :yeah validating the robustness of the
+ system so on but take it back to the this uh this word trust uh do you thinkwe're
+ a little too hard on our robots in terms of uh the standards we applyso you know
+ of uh there's a dance there's a there's a there's a dance and nonverbaland verbal communication between humans
+ you know if we apply the same kind of standard in terms of humansyou know we trust each other pretty
+ quickly uh you know you and i haven't met beforeand there's some degree of trust
+
+
+0:23:47
+Speaker 1 :
+
+0:23:48
+Speaker 0 :right that nothing's gonna go crazy
+ wrong and yet to ai when we look at ai systems where we seemto approach
+ uh through skepticism always always and it's like theyhave to prove through a lot of hard work
+ that they're even worthy of uh even inkling of our trust do itwhat do you what do you think about that
+ how how do we break that barrier close that gap
+
+0:24:11
+Speaker 1 :i think that's right i think that's a
+ big issue uh just listening uh my friend uh mark moffat is a naturalistand he says uh the most amazing thing
+ about humans is that you can walk into a coffee shopor
+ a a busy street in a city and there's lots of people around youthat you've never met before and you
+ don't kill each other yeah he says chimpanzees cannot do thatyeah right
+ right if the chimpanzee's in a situation wherehere's some that aren't from my tribe
+ bad things happen especially in a coffee
+
+0:24:46
+Speaker 0 :shop there's delicious food around you
+ know
+
+0:24:49
+Speaker 1 :yeah yeah but but we humans have figured
+ that out yeah right uh and you know for the most part forthe most part we still go to war
+ we still do terrible things uh but for the most part we've learned totrust each other and live together uh so
+ that's going to be important for our uh our ai systems as welland i th also i think uh you know a lot
+ of the emphasis is on ai but in many casesai is part of the technology but isn't
+ really the main thing so a lot of what we've seen is more due tocommunications technology
+ than ai ai technology yeah you want to makethese good decisions but the reason
+ we're able to have any kind of system at allis we've got the communication so that
+ we're collecting the data and so that we can reach lots of peoplearound the world
+ i think that's a bigger change that we're dealing with
+
+0:25:45
+Speaker 0 :speaking of reaching a lot of people
+ around the world on the side of educationyou've uh one of the many things in
+ terms of education you've done you taughtthe intro to artificial intelligence
+ course that signed up 100 160 000 students is one of the firstsuccessful examples
+ and massive of a mooc massive open online coursewhat did you learn from that experience
+ what do you think is the future of moocs of education online yeah it was
+
+0:26:12
+Speaker 1 :a great fun
+ doing it particularly uh being right at the start just because it wasexciting and new
+ but it also meant that we had less competitionright so uh one of the things you hear
+ about uh well the problem with moocs is uh the completion rates are are so lowso there must be a failure
+ and and i gotta admit i'm a prime contributor right i've probablystarted 50 different courses that i
+ haven't finished but i got exactly what i wanted out ofthem because i had never intended to
+ finish them i just wanted to dabble in a little bit either to see thetopic matter or just to see the pedagogy
+ of how are they doing this class so i guess the main thing i learned iswhen i came in
+ i thought the challenge was information saying if i'm justtake the stuff i want you to know and
+ i'm very clear and explain it well then my job is doneand good things are going to happen and
+ then in doing the course i learned well yeah you got to have theinformation but really
+ the motivation is the most important thing thatif students don't stick with it it
+ doesn't matter how good the content is and i think being one of the firstclasses
+ we were helped by uh sort of exterior motivationso we tried to do a good job of making
+ it enticing and setting up ways for uhyou know the community to work with each
+ other to make it more motivating but really a lot of it was hey this is anew thing and i'm really excited to be
+ part of a new thing and so the students brought their ownmotivation
+ and so i think this is great because there's lots of people around the worldwho have never had this before
+ you know it would never have the opportunityto go to stanford and take a class or go
+ to mit or go to one of the other schools but now we can bring that to them and ifthey bring their own motivation
+ they can be successful in a way they couldn't beforebut that's really just the top tier of
+ people that are ready to do that the rest of the peoplejust don't see or don't have their
+ motivation and don't see how if they push through and were able to do itwhat advantage that would get them so i
+ think we've got a long way to go before we're able to do that and i thinkit'll be some of it is
+ based on technology but more of it's based on the idea of community that yougot to
+ actually get people together some of the getting together can be done online ithink some of it really has to be done
+ in person to be able in order to build that type ofcommunity and trust you know there's an
+
+
+0:28:56
+Speaker 0 :intentional
+ mechanism that we've developed uh a short attention spanespecially younger people uh because
+ sort of shorter and shorter videos online uhthere's a
+ whatever the the way the brain is developing nowwith people that have grown up with the
+ internet they have a quite a short attention span soand i would say i had the same when i
+ was growing up too probably for different reasons so iprobably wouldn't have
+ learned as much as i have if i wasn't forced to sit in a physical classroomsort of bored sometimes falling asleep
+ but sort of forcing myself through that processto sometimes extremely difficult
+ computer science courses what's the difference in your viewbetween in-person
+ education experience which you first of allyourself had and you yourself taught and
+ online education and how do we close that gap if it'seven possible yeah
+
+
+0:29:54
+Speaker 1 :so i think there's two issues one is
+ whether it's in person or online so it's sort of the physicallocation and then the other is kind of
+ the affiliation right soyou stuck with it in part because you
+ were in the classroom and you saw everybody else was suffering right thesame way you were
+ but also because you were enrolled you had paid tuitionsort of everybody was expecting you to
+ stick with it
+
+0:30:25
+Speaker 0 :society parents yeah peers
+
+
+0:30:28
+Speaker 1 :right and so those are two separate
+ things i mean you could certainly imaginei pay a huge amount of tuition and
+ everybody signed up and says yes you're doing thisuh but then i'm in my room and my
+ classmates are in are in different rooms rightwe could have things set up that way so
+ it's not just the online versus offline i think what's more important is thecommitment
+ that you've made and certainly it is important to have thatkind of informal
+ you know i meet people outside of class we talk together because we're all in ittogether
+ i think that's uh really important both in keeping your motivation and alsothat's where
+ some of the most important learning goes on so you want to have thatmaybe you know especially now we start
+ getting into higher bandwidths and augmented realityand virtual reality you might be able to
+ get that without being in the same physical place do you think it's
+
+0:31:26
+Speaker 0 :possible we'll see a course
+ at stanford for example that for students enrolled students is onlyonline
+ in the near future who are literally sort of that's part of the curriculumand there is
+
+
+0:31:41
+Speaker 1 :no yeah so you're starting to see that i
+ know uh georgia tech has a master's that's done that wayoftentimes
+
+
+0:31:47
+Speaker 0 :it's sort of they're creeping in in
+ terms of a master's program or sort of umfurther education considering the
+ constraints of students and so on but i mean literally is it possible thatwe just you know stanford mit berkeley
+ all these places go online only in uh in the next fewdecades
+
+
+0:32:07
+Speaker 1 :yeah probably not because you know
+ they've got a big commitment to a physical campus sure right
+
+0:32:14
+Speaker 0 :there's a momentum that's both financial
+ and culturally right and
+
+0:32:18
+Speaker 1 :and then there are certain things that
+ just hard to do uh virtually right so you know we're in a field uh where uhif you have your own computer and your
+ own paper and so on uh you can do the workanywhere
+ uh but if you're in a biology lab or something uh you knowyou don't have all the right stuff at
+ home right
+
+0:32:43
+Speaker 0 :so our field programming you've also
+ done a lot of you've done a lot of programming
+
+0:32:49
+Speaker 1 :yourself
+
+
+0:32:50
+Speaker 0 :in 2001 you wrote a great article about
+ programming called teach yourself programming in 10 yearssort of response to
+ all the books that say teach yourself programming in 21 days so if you'regiving advice to someone getting into
+ programming today this is a few years since you've writtenthat article what's the best way to
+ undertake that journey
+
+0:33:10
+Speaker 1 :i think there's lots of different ways
+ and i think programming means more thingsnow and i guess you know when i wrote
+ that article i was thinking more aboutbecoming a professional software
+ engineer and i thought that's a you know a sort of a career-long fieldof study
+ but i think there's lots of things now that people can dowhere programming is a part of
+ solving what they want to solve without achieving that professional level statusright so i'm not going to be going and
+ writing a million lines of code but you know i'm a biologist or aphysicist or something
+ or even a historian and i've got some dataand i want to ask a question of that
+ data and i think for that you don't need 10 years rightso
+ there are many shortcuts to being able toanswer those kinds of questions and and
+ you know you see today a lot of emphasis on learning to codeteaching kids how to code uh i think
+ that's great uh but i wish they would change themessage a little bit
+ right so i think code isn't the main thing i don't really care if you knowthe
+ syntax of javascript or if you can connect these blocks together in thisvisual language
+ but what i do care about is that you can analyze a problemyou can think of a solution you can
+ carry out you know make a model run that model test the model see theresults
+ verify that they're reasonable ask questions and answer themright so it's more modeling and problem
+ solving and you use coding in order to do thatbut it's not just learning coding for
+ its own sake that's really interesting
+
+0:35:04
+Speaker 0 :so
+ it's actually almost in many cases it's learning to work with datato extract something useful out of data
+ so when you say problem solving you really mean taking some kind ofmaybe collecting some kind of data set
+ cleaning it up and saying something interesting about it which is useful inall kinds of domains
+
+
+0:35:22
+Speaker 1 :and you know and i see myself
+ being stuck sometimes in kind of the the old waysright so you know be working on a
+ project maybe with a younger employee and we sayoh well here's this new package that
+ could help solve this problem and i'll go and i'll startreading the manuals and you know i'll be
+ two hours into reading the manuals and thenmy colleague comes back and says i'm
+ done yeah you know i downloaded the package i installed it i tried callingsome things
+ the first one didn't work the second one work now i'm doneyeah and i say but i have 100 questions
+ about how does this work and how does that work and they saywho cares right i don't need to
+ understand the whole thing i unders i answered my questionit's a big complicated package i don't
+ understand the rest of it but i got the right answer and i'm just it'shard for me
+ to get into that mindset i want to understand the whole thing and you knowif they wrote a manual
+ i should probably read it and but that's not necessarily the right way i think ihave to get used to
+ dealing with more being more comfortable with uncertainty and not knowingeverything yeah so i struggle with the
+
+
+0:36:32
+Speaker 0 :same instead of the
+ the spectrum between donald and don knuth yeahit was kind of the very you know before
+ he can say anything about a problem he really has to getdown to the machine code assembly
+ yeah versus exactly what you said i've have several students in my group thatuh you know
+ 20 years old and they can solve almost any problem within a few hours thatwould take me probably weeks because i
+ would try to as you said read the manual sodo you think the nature of mastery
+ you're you're mentioning biology sort of outside disciplines applyingprogramming but computer scientists
+ so over time there's higher and higher levels of abstraction available nowso with uh this week there's a the
+ tensorflow summit right so if you're if you're not particularlyinto deep learning but you're still a
+ computer scientist uh you can accomplish an incredibleamount with uh tensorflow without really
+ knowing any fundamental internals of machinelearning do you think the nature of
+ mastery is is changing even for computerscientists
+ like what it means to be an expert programmer
+
+0:37:45
+Speaker 1 :yeah i think that's true you know we
+ never really should have focused on programmer right because it's still it'sthe skill
+ and what we really want to focus on is the result so wewe built this uh ecosystem where the way
+ you can get stuff done is by programming it yourself at leastwhen i started
+ that you know library functions meant you had square root and that was aboutit
+ right everything else you built from scratch and then we built up anecosystem where
+ a lot of times well you can download a lot of stuff that doesa big part of what you need and so now
+ it's more a question of assembly rather than[Music]
+ manufacturing and that's a different way of looking atproblems from another perspective in
+
+
+0:38:32
+Speaker 0 :terms of mastery and
+ looking at programmers or people that reason about problems in a computationalway
+ so google is you know the from the hiring perspective from the perspectiveof hiring or building a team of
+ programmers how do you determine if someone's a goodprogrammer or
+ if somebody again yeah i want to deviate from i want to move away from the wordprogrammer but
+ somebody who can solve problems of large-scale data and so onwhat's what's uh how do you build a team
+ like that through the interviewing process
+
+0:39:04
+Speaker 1 :yeah and i and i think uh as a company
+ grows uh you get more uh expansivein the types of people you're looking
+ for right so i think you know in the early days we'd interview peopleand the question we were trying to ask
+ is uh how close are they to jeff dean and most people were pretty far away butwe take the ones that were you know not
+ that far away and so we got kind of a homogeneousgroup of people who are really great
+ programmers then as a company grows you say well wedon't want everybody
+ to be the same to have the same skill set and so nowwe're uh hiring uh biologists in our
+ health areas and we're hiring physicists we're hiringmechanical engineers we're hiring uh you
+ know social scientists and ethnographers andpeople with different backgrounds who
+ bring different skills so you have mentioned
+
+0:40:02
+Speaker 0 :that you still may partake in code
+ reviews given that you have a wealth ofexperience as you've also mentioned
+ uh what errors do you often see and tend to highlight in the code ofjunior developers of people coming up
+ now uh given your background from blispto a couple decades of programming yeah
+
+
+0:40:25
+Speaker 1 :that's a great question
+ you know sometimes i try to look at the flexibilityof the design of yes
+ you know this api solves this problem butuh where is it going to go in the future
+ who else is going to want to call this and uh you know are you making it easierfor them to do that it's a matter of
+
+
+0:40:47
+Speaker 0 :design is it documentation is it is it
+ uh sort of an amorphous thing you can't really put itit's just how it feels if you put
+ yourself in the shoes of a developer would you use this kind of thing i think
+
+0:40:59
+Speaker 1 :it is how you feel
+ right and so yeah documentation is good uh but it's but it's more a designquestion right if you get the design
+ right then people will figure it out whether thedocumentation is good or not and
+ and if the design is wrong then it'll be harder to use
+
+0:41:17
+Speaker 0 :how have uh you yourself changed as a
+ programmer over the years as in in a way wealready started to say sort of you want
+ to read the manual you want to understand the core of thesyntax to the how the language is
+ supposed to be used and so on but what's the evolution been like fromthe 80s 90s to today
+
+
+0:41:40
+Speaker 1 :i guess one thing is you don't have to
+ worry about the small details of efficiency as muchas you used to
+ right so like i remember uh i did my list book in the 90s and one of thethings i wanted to do
+ was say uh here's how you do an object systemand uh basically we're going to make it
+ so each object is a hash table and you look up the methods and here's how itworks and then i said
+ of course the real common lisp object system is much more complicatedit's got all these efficiency
+ type issues and this is just a toy nobody would do this in real lifeand it turns out python pretty much did
+ exactly what i said yeah and said uh objects arejust dictionaries and yeah they have a
+ few little uh tricks as well but mostly you know the thing thatwould have been 100 times too slow in
+ the 80s is now plenty fast for most everything so you
+
+0:42:39
+Speaker 0 :had to as a programmer let go
+ of perhaps an obsession that i remember coming up with of tryingto write
+
+
+0:42:48
+Speaker 1 :efficient code yeah that to say you know
+ what really matters is the total time it takes to get theproject done
+ and most of that's going to be the programmer time so if you're a littlebit less efficient but it makes it
+ easier to understand and modify then that's theright trade-off
+ so you've written quite a bit about lisp
+
+0:43:06
+Speaker 0 :your book on programming is in lisp
+ you you have a lot of code out there that's in lispso myself and people who don't know what
+ lisp is should look it up it's my favorite language for many airesearchers it is a favorite language
+ the favorite language they never use these daysso what part of the list do you find
+ most beautiful and powerful
+
+0:43:29
+Speaker 1 :so i think the beautiful part is the
+ simplicity that in half a page you can define the wholelanguage
+ and other languages don't have that so you feel like you can hold everythingin your head and
+ then you know a lot of people say well then that's too simple you know here'sall these things i want to do
+ and you know my java or python or whateverhas 100 or 200 or 300 different syntax
+ rules and don't i need all those and lisp's answer was no we're onlygoing to give you
+ eight or so syntax rules but we're going to allow you to define your ownand so that was a very powerful idea and
+ i think this idea of saying i can start with my problem and with mydata
+ and then i can build the language i want uhfor that problem and for that data and
+ then i can make lists define that languageso you uh you're sort of uh mixing
+ levels and saying i'm simultaneously a programmer in a language and alanguage designer
+ and that allows a better match between your problemand your eventual code and i think lis
+ had done that better than other languages yeah it's a very elegant
+
+0:44:48
+Speaker 0 :implementation of functional programming
+ but why do you think lisp has not had the mass adoption and success oflanguages like python
+ is it the parentheses is it all the parentheses
+
+0:45:01
+Speaker 1 :yeah so i think a couple of things
+ so one was i think it was designed for a single programmer or a small teamand a skilled programmer who
+ had the good taste to say well i'm i am doing language designand i have to make good choices and if
+ you make good choices that's great if you make bad choicesyou can hurt yourself and it can be hard
+ for other people on the team to understand itso i think there was a limit to the
+ scale of the size of a project in terms ofnumber of people that lisp was good for
+ and as an industry we kind of grew beyond thati think it is in part the parentheses
+ you know one of the jokes is the acronym for lisp islots of irritating silly parentheses
+ my acronym was lisp is syntactically puresaying all you need is parentheses and
+ atoms but i remember you know so we had the the ai textbookand
+ uh because we did it in the 90s we had we had pseudocode in the book but thenwe said well we'll have lisp online
+ because that's the language of ai at the time and i remember some ofthe students complaining
+ because they hadn't had lists before and they didn't quite understand what wasgoing on and
+ i remember one student complained i don't understand how this pseudocodecorresponds to this lisp and there was a
+ one-to-one correspondence between the the symbols in the code inthe pseudocode and the only thing
+ difference was the parentheses so i said it must be that for somepeople a certain number of left
+ parentheses shuts off their brain
+
+0:46:45
+Speaker 0 :yeah it's very it's very possible in
+ that sense then python just goes the other wayand so so that was the point at which i
+
+
+0:46:50
+Speaker 1 :said okay can't have only lisp that's a
+ language because i you know i don't want to youknow you only got 10 or 12 or 15 weeks
+ or whatever it is to teach ai and i don't wantto waste two weeks of that teaching lisp
+ so i say i got to have another language java was the most popular language atthe time
+ i started doing that and then i said it's really hard tohave a one-to-one correspondence between
+ the pseudocode and the java because java's so verboseso then i said i'm going to do a survey
+ and find the language that's most like my pseudocode and turned out pythonbasically was
+ my pseudo code somehow i had channeled uh guido and designed a pseudocode thatwas the same as python although i hadn't
+ heard of python uh at that point and from then on uhthat's what i've been using because it's
+ been a good match
+
+0:47:42
+Speaker 0 :so what's the story in python behind
+ pietudes your github repository with puzzles and exercises and python ispretty fun
+
+
+0:47:50
+Speaker 1 :yeah just it seems like fun uh you know
+ you know i like uh doing puzzles and i like uh being aneducator
+ i did a class with udacity uh udacity uh 212 i think it was it was basicallyproblem solving uh using python
+ and looking at different problems does pie tubes feed that class
+
+0:48:10
+Speaker 0 :in terms of the exercises i was
+ wondering what that yeah so the class
+
+0:48:13
+Speaker 1 :the class came first
+ yeah some of the stuff that's in pi tubes was write-ups of what was in theclass and then some of it was just
+ continuing to uh to work on new problems
+
+0:48:24
+Speaker 0 :so what's the organizing madness of pi
+ tubes is it just the collect a collection of cool exercisesjust whatever i thought was fun okay
+
+
+0:48:30
+Speaker 1 :
+
+0:48:31
+Speaker 0 :awesome
+ so you were the director of search quality of google from2001 to 2005. in the early days
+ uh when there's just a few employees and when the company was growinglike crazy right so
+ i mean a google revolution has the way we discovershare and aggregate knowledge
+ so just this is uh this is one of the fundamental aspects of civilizationright is information
+ being shared and there's different mechanisms throughout history but googleis just
+ 10x improved that right and you're a part of thatright people discovering that
+ information so what were some of the challengeson the philosophical or the technical
+ level in those early days
+
+0:49:17
+Speaker 1 :it definitely was an exciting time and
+ as you say we were doubling in size every yearand the challenges were we wanted to get
+ the right answers right and uh we had to figure outwhat that meant we had to implement that
+ and we had to make it all uh efficient and uhwe had to keep on testing and seeing if
+ we were delivering good answers and now when you say good answers it
+
+0:49:44
+Speaker 0 :means whatever people are typing in in
+ terms of keywords in terms that kind of thing that the the resultsthey get are ordered by the desirability
+ for them of those results like they're like thefirst thing they click on will likely be
+ the thing that they were actually looking for right one of the
+
+0:50:01
+Speaker 1 :metrics we had was focused on the first
+ thing uh some of it was focused on the wholepage so it was focused on
+ you know top three or so so we looked at a lot of different metrics forfor how well we were doing and we broke
+ it down into subclasses of you know maybe here's atype of uh
+ of uh query that we're not doing well on then we try to fix thatearly on we started to realize that we
+ were in an adversarial position right so we started thinking uhwell we're kind of like
+ the card catalog in the library right so the books are here and we're off to theside
+ and we're just reflecting what's there and then we realized every time we makea change the webmasters make a change
+ and it's uh game theoretic and so we had to think not only ofis this the right move for us to make
+ now but also if we make this move what's thecounter move going to be
+ is that going to get us into a work worst place in which case we won't makethat move we'll make a different move
+
+
+0:51:05
+Speaker 0 :and did you find i mean i assume with
+ the popularity and the growth of the internet that people were creating newcontent
+ so you're almost helping guide the
+
+0:51:14
+Speaker 1 :creation yeah so that's certainly true
+ right so we we definitely changed uh thestructure
+ of the network right so if you think back you know in the in the very earlydays
+ uh larry and sergey had the page rank paperand john kleinberg had this uh hubsan
+ authorities model which says the web is made out ofthese uh hubs which will be
+ my page of cool links about dogs or whateverand people would just list links uh and
+ then there'd be authorities which were the ones uh thepage about dogs that most people link to
+ that doesn't happen anymore people don't bother to say my page ofcool links
+ because we took over that function right so sowe changed the way that worked did you
+
+
+0:52:04
+Speaker 0 :imagine back then that the internet
+ would be as massively vibrant as it is todayi mean it was already growing quickly
+ but it's just another i i don't know if you've ever if todayif you sit back and just look at the
+ internet with wander the amount of content that'sjust constantly being created constantly
+ being shared
+
+0:52:23
+Speaker 1 :unemployed yeah it's uh it's always been
+ surprising to me i guess i'm not very good at predictingthe future in the future
+ okay and i remember you know being a graduate student inin 1980 or so and uh you know we had the
+ arpanet and then there was this uh proposal touh commercialize it and have this
+ internet and this uh uh crazy senator gore thought that mightbe a good idea yeah and i remember
+ thinking oh come on you can't you can't expect a commercial company tounderstand
+ this technology they'll never be able to do it yeah okay we can have this dot-comdomain but it won't go anywhere
+ so i was wrong al gore was right at the
+
+0:53:05
+Speaker 0 :same time
+ the nature of what it means to be a commercial company has changed tooso google yeah isn't that it's founding
+ is different than uh you know what companies were before ithink right so there's all these
+
+
+0:53:17
+Speaker 1 :uh business models that are so different
+ than what was possible back then
+
+0:53:23
+Speaker 0 :so in terms of predicting the future
+ what do you think it takes to build a systemthat approaches human level intelligence
+ you've talked about of course that we you know we shouldn'tbe so obsessed about creating human
+ level intelligence just create systems that are very usefulfor humans but what do you think it
+ takes
+
+0:53:41
+Speaker 1 :
+
+0:53:42
+Speaker 0 :to uh to uh yeah approach that level
+ right
+
+0:53:46
+Speaker 1 :so certainly i don't think human level
+ intelligence is one thing right so i think there's lots ofdifferent tasks lots of different
+ capabilities i also don't think uh that should be thegoal right so i you know
+ i wouldn't want to create a uh calculator that could do multiplicationat human levels right
+ that would be a step backwards and so for many things we should be aiming farbeyond human level
+ for other things maybe human level is a good level to aim atand for others we say well let's not
+ bother doing this because we already have humans can take on those tasksso as you say i like to focus on what
+ what's a useful tool and and in some cases being on humanlevel
+ is an important part of crossing that threshold to make the tool usefulso we see in things like these uh
+ personal assistants now that you get either on your phone or ona speaker that sits on the table
+ you want to be able to have a conversation with those andand i think as an industry we haven't
+ quite figured out what the right model is forwhat these things can do and we're
+ aiming towards well you just have a conversation with them the way you canwith the person
+ right but we haven't delivered on that model yetright so you can ask it what's the
+ weather you can ask it play some nice songs uh anduh you know five or six other things and
+ then you run out of stuff that it can do
+
+0:55:14
+Speaker 0 :in terms of a deep meaningful connection
+ so you've mentioned the movie her as one of your favorite ai moviesdo you think it's possible for a human
+ being to fall in love with an ai system ai assistant as you mentionedso taking this big leap from uh what's
+ the weather to you know having a deep connection yeah ii think
+
+
+0:55:32
+Speaker 1 :uh as people that's what we love to do
+ and uh i was at a a showing of her where we had a panel discussion and andsomebody asked me
+ uh what other movie do you think her is similar toand my answer was uh life of brian
+ which which is not a science fiction movie uhbut both movies are about wanting to
+ believe in something that's not necessarily real
+
+0:56:00
+Speaker 0 :yeah by the way for people don't know
+ it's monty python yeah yeah that's been brilliantly put right so i mean i think
+
+0:56:05
+Speaker 1 :that's just the way we are we
+ we want to trust we want to believe we want to fall in loveand uh it doesn't necessarily take that
+ much right so you know my kids uh fell in love withtheir teddy bear
+ right and the teddy bear was not very interactive right so that's all usyeah pushing our feelings onto
+ our devices and our things and i think that that's what we like to do so we'llcontinue to do that
+
+
+0:56:33
+Speaker 0 :so yeah as human beings will long for
+ that connection and just ai has to uh do a little bit of work to uh to catchus in the other end
+
+
+0:56:42
+Speaker 1 :yeah and certainly you know if you can
+ get to uh dog level a lot of people have investeda lot of uh
+ love in their pets and their pets some
+
+0:56:50
+Speaker 0 :some people
+ as i've been told in working with autonomous vehicles have invested a lotof love into their
+ inanimate cars yeah so it really doesn't take muchso what is a good test
+
+
+0:57:04
+Speaker 1 :
+
+0:57:04
+Speaker 0 :to linger on a topic that may be silly
+ or a little bit philosophical what is a good test of intelligence in your view
+
+0:57:11
+Speaker 1 :
+
+0:57:12
+Speaker 0 :is natural conversation like in the
+ touring test a good a good test put another way what wouldimpress you yeah if you saw a computer
+ do it these days yeah i mean i get impressed
+
+0:57:23
+Speaker 1 :all the time
+ right but like really impressive you know go playinguh starcraft playing uh those are all
+ pretty cool you know and i think uh sureconversation is important i think uh
+ you know we sometimes have these tests where it's easy to foolthe system where you can have a chatbot
+ that can have a conversation but you never uh itnever gets into a situation where it has
+ to be deep enough that uh it really reveals itselfas being intelligent or not i think
+ uh you know turing suggested that uh but i think if he were alive he'd sayyou know i didn't really mean that
+ seriously right yeah and i think uh and you knowthis is just my opinion but but i think
+ turing's point was not that uh this test of conversation is a good testi think his point was
+ having a test is the right thing so rather thanhaving the philosopher say oh no ai is
+ impossible you should say well we'll just have atest and then the result of that will
+ will tell us the answer and it doesn't necessarily have to be a conversationtest
+ that's right and coming up a new better
+
+0:58:37
+Speaker 0 :test as the technology evolves is
+ probably the right way
+
+0:58:42
+Speaker 1 :
+
+0:58:43
+Speaker 0 :do you worry as a lot of the general
+ public does about not a lot but some vocaluh part of the general public about the
+ existential threat of artificial intelligence solooking farther into the future as you
+ said most of us are not able to predict muchso when shrouded in such mystery there's
+ a concern of well you think you start thinking aboutworst case is that something that
+ occupies your mind space much so i certainly think about
+
+0:59:09
+Speaker 1 :uh threats i think about uh dangers uh
+ and i think uh any new technology uh has positives and negatives and if it'sa powerful technology
+ it can be used for bad as well as for goodso i'm certainly not worried about uh
+ the robot apocalypse the terminator type scenarios i amworried about
+ change in employment and uh are we going to be able to react fastenough to deal with that
+ i think we're you know we're already seeing it today where a lot of peopleare
+ are disgruntled about uh the way income inequality is workingand uh and automation could help
+ accelerate those kinds of problems i see powerful technologies canalways be used as weapons uh whether
+ they're robots or drones or whatever uh some ofthat
+ we're seeing due to ai a lot of it you don't need aiand i don't know what's uh what's a
+ worse threat if it's an autonomous drone or it's uhcrispr technology becoming available or
+ we have lots of threats to face and some of them involveai and some of them don't
+ so the threats that technology presents
+
+1:00:25
+Speaker 0 :are you for the most part optimistic
+ about technology also alleviating those threats so creating new opportunities orprotecting us from the more detrimental
+ effects of these things yeah i don't
+
+1:00:39
+Speaker 1 :know it again it's hard to predict the
+ future and uh yes as a success societyso far we've survived the nuclear
+ systems and other things of course uh only societies that have survived arehaving this conversation so uh maybe
+ that's a survivorship bias there yeah what problem stands out to you as
+
+1:01:00
+Speaker 0 :exciting challenging
+ impactful to work on in the near future for yourselffor the community in broadly so i
+
+
+1:01:08
+Speaker 1 :you know we talked about these uh
+ assistance in conversation i think that's a great areai think combining uh
+ common sense reasoning uh with the power of data is a a great areain which application in in conversation
+
+
+1:01:27
+Speaker 0 :relation or just broadly just
+
+
+1:01:30
+Speaker 1 :in general yeah as a programmer i'm
+ interested in uh programming tools both in terms ofuh you know the current systems we have
+ today with with tensorflow and so on can we make themmuch easier to use for broader uh class
+ of people and also can we apply uh machinelearning
+ to the more traditional type of programming right soyou know when you go to google and you
+ uh type in a query and you spell somethingwrong it says did you mean
+ and the reason we're able to do that is because lots of other people made asimilar error and then they corrected it
+ we should be able to go into our code bases and our bug fix spacesand when i type a line of code it should
+ be able to say did you mean such and such if you typethis today you're probably going to
+ type in this bug fix tomorrow yeah that's a really exciting
+
+1:02:21
+Speaker 0 :application of uh almost
+ uh an assistant for the coding programming experience yeahat every level so
+ i think i could safely speak for the entire ai communityfirst of all for uh thank you for the
+ amazing work you've done uh certainly for the amazing work you'vedone with uh
+ ai a modern approach book yep i think we're all looking forward very much forthe fourth edition and then the fifth
+ edition and so on so uh peter thank you so much for
+

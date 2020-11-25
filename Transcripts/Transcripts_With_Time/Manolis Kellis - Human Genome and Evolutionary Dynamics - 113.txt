@@ -1,0 +1,5121 @@
+0:00:00
+Speaker 0 :the following is a conversation with
+ manolis kellis he's a professor at mit and head of themit computational biology group
+ he's interested in understanding the human genome from a computationalevolutionary biological and other
+ cross-disciplinary perspectives he has more big impactful papers andawards than i can list
+ but most importantly he's a kind curious brillianthuman being and just someone i really
+ enjoy talking to his passion for science and life ingeneral is contagious
+ the hours honestly flew by and i'm sure we'll talk again on this podcast soonquick summary of the ads three sponsors
+ blinkist eight sleep and masterclass pleaseconsider supporting this podcast by
+ going to blinkist.com lex 8sleep.com lex andsigning up at masterclass.com lex
+ click the links buy the stuff get the discount it's the best way to supportthis podcast
+ if you enjoy this thing subscribe on youtube review it with five stars inapple podcast
+ support it on patreon or connect with me on twitter at lex friedmanas usual i'll do a few minutes of ads
+ now and never any ads in the middle that can break the flow of the conversationthis episode is supported by blinkist my
+ favorite app for learning new things get it at blinkist.com lex for a sevenday free trial
+ and 25 off afterwards blinkus takes the key ideas from thousands of non-fictionbooks
+ and condenses them down into just 15 minutes they can read or listen toi'm a big believer in reading at least
+ an hour every day as part of that i use blinkist every dayto try out a book
+ i may otherwise never have a chance to read and in generalit's a great way to broaden your view of
+ the ideal landscape out there and find books that you may want to readmore deeply with blinkist you get
+ unlimited access to read or listen to a massivelibrary of condensed nonfiction books go
+ to blinkist.com lex to try it free forseven days
+ and save 25 off your new subscription that's blinkist.com lex blinkist spelledb-l-i-n-k-i-s-t
+ this show is also sponsored by a sleep and it's pod pro mattressyou can check out at asleep.com lex to
+ get 200 off it controls temperature with a napit can cool down to as low as 55 degrees
+ on each side of the bed separately research shows the temperature has a bigimpact on the quality of our sleep
+ anecdotally has been true for me it's truly been a game changeri love it the pod pro is packed with
+ sensors that track heart rate heart rate variabilityand respiratory rate showing it all in
+ their app the app's health metrics are amazing butthe cooling alone is honestly worth the
+ money check it out at asleep.com lex to get200
+ off this show is also sponsored by masterclasssign up at masterclass.com lex to get a
+ discount and to support this podcast when i first heard about masterclass ithought it was too good to be true
+ for 180 bucks a year you get an all-access pass to watch courses fromto list some of my favorites chris
+ hadfield on space exploration neil degrasse tyson on scientificthinking and communication
+ will wright one of my favorite game designers carlos santanaone of my favorite guitar players gary
+ kasparov of course the greatest chess player of all time i'm not biaseddaniel negrano on poker and many more
+ chris hadfield explaining how rockets work and the experience of beinglaunched into space alone
+ is worth the money by the way you can watch it on basicallyany device once again sign up at
+ masterclass.com lex to get a discount and to support this podcast and nowhere's my conversation with manolis
+ kellis what to use the most beautiful aspect ofthe human genome
+
+
+0:03:57
+Speaker 1 :don't get me started
+ so we got time um the first answer is that the beauty of genomes transcendshumanity so it's not just about the
+ human genome genomes in general are amazinglybeautiful and again i'm obviously biased
+ so um in my view uh the way that i like to introduce thehuman genome and the way that i'd like
+ to introduce genomics to my class is by telling them you know we're notthe inventors of the first digital
+ computer
+
+0:04:26
+Speaker 0 :we are the descendants of the first
+
+
+0:04:27
+Speaker 1 :
+
+0:04:28
+Speaker 0 :digital computer
+ basically life is digital and that's
+
+0:04:32
+Speaker 1 :absolutely beautiful about life the fact
+ that
+
+0:04:36
+Speaker 0 :at every replication step you don't lose
+
+
+0:04:37
+Speaker 1 :any information because that information
+ is digital if it was analog it was just protein
+
+0:04:41
+Speaker 0 :concentrations
+
+
+0:04:42
+Speaker 1 :you'd lose it after a few generations it
+ would just dissolve away
+
+0:04:45
+Speaker 0 :
+
+0:04:46
+Speaker 1 :and that's what the ancients didn't
+ understand about inheritance
+
+0:04:49
+Speaker 0 :
+
+0:04:50
+Speaker 1 :the first person to understand digital
+ inheritance was mendel of course and his theory in factstayed in a bookshelf for like 50 years
+ while darwin was getting famous about natural selection
+
+0:05:01
+Speaker 0 :
+
+0:05:02
+Speaker 1 :but the missing component was this
+
+
+0:05:03
+Speaker 0 :digital inheritance
+
+
+0:05:04
+Speaker 1 :the mechanism of evolution that mendel
+ had discovered so that aspect in my view is the mostbeautiful aspect but it transcends all
+
+
+0:05:14
+Speaker 0 :of life
+ and can you elaborate maybe the inheritance partwhat was the what was the key thing that
+
+
+0:05:21
+Speaker 1 :the ancients didn't understand
+ so the very theory of inheritance uh as discrete units you know throughoutthe life
+ of mendel and well after his writing people thought thathis p experiments were just a little
+ fluke that they were just you know a little exception that wouldnormally not even apply
+ to humans that basically what they saw
+
+0:05:45
+Speaker 0 :is this continuum of eye color
+
+
+0:05:48
+Speaker 1 :this continuum of skin color this
+ continuum of hair color this continuum
+
+0:05:51
+Speaker 0 :of height
+ and all of these continuums did not fit with a discrete type of inheritance thatmendel was describing
+
+
+0:05:58
+Speaker 1 :but what's unique about genomics and
+ what's unique about the genome is really that there aretwo copies and that you get a
+
+
+0:06:04
+Speaker 0 :combination of these
+ but for every trait there are dozens of
+
+0:06:08
+Speaker 1 :contributing variables
+ and it was only ronald fisher in the 20th centurythat basically recognized that
+
+
+0:06:16
+Speaker 0 :even five mendelian traits would add up
+
+
+0:06:21
+Speaker 1 :to a continuum-like inheritance pattern
+
+
+0:06:23
+Speaker 0 :
+
+0:06:24
+Speaker 1 :and he you know wrote a series of papers
+ that still are very relevant today about sort of this mendelian inheritanceof continuum like traits
+ and i think that that was the missing step in inheritanceso well before the discovery of the
+ structure of dna which is again another amazingly beautiful aspectthe double helix what i like to call the
+ most noble molecule over time is uh you know holds within it thesecret of that discrete inheritance
+ but the conceptualization of discrete you knowelements is something that precedes that
+
+
+0:06:59
+Speaker 0 :so even though it's discrete
+ when it uh materializes itself into actual traits that we see it can becontinuous it can
+ basically arbitrarily rich and complex
+
+0:07:10
+Speaker 1 :so if you have five
+ genes that contribute to human height and there aren't five there's a thousand
+
+0:07:17
+Speaker 0 :if there's only five genes and you
+ inherit some combination of them
+
+0:07:20
+Speaker 1 :and everyone makes you two inches taller
+
+
+0:07:23
+Speaker 0 :or two inches shorter
+
+
+0:07:24
+Speaker 1 :it'll look like a continuum trait a
+
+
+0:07:26
+Speaker 0 :
+
+0:07:27
+Speaker 1 :continuous trait
+ but instead of five there are thousands
+
+0:07:29
+Speaker 0 :and every one of them contributes to
+ less than one millimeter we change in heightmore during the day than each of these
+ genetic variants contributes
+
+0:07:38
+Speaker 1 :so by the evening you're shorter than
+ you were you woke up with isn't it weird
+
+0:07:43
+Speaker 0 :then
+ that we're not more different than we are why are we all so similarif there's so much possibility to be
+
+
+0:07:51
+Speaker 1 :different yeah
+ so so there are selective advantages to being medium if you're extremely tallor extremely short
+ you run into selective disadvantages so you have trouble breathing you havetrouble running you have trouble
+ sitting if you're too tall if you're too short you might i don't knowhave other selective pressures are
+ acting against that if you look at natural history of human populationthere's actually selection for height
+ in northern europe and selection against height in southern europeso there might actually be advantages to
+ actually being not not super tall and if you lookacross the entire human population
+ you know for many many traits there's a lot of push towards the middleuh balancing selection is you know the
+ usual term for selection that sort of seeks to notbe extreme
+ and to sort of have a combination of allelesthat sort of you know keep recombining
+ and if you look at you know mate selection super super tallpeople
+ will not tend to sort of marry super super tall people very often you seethese couples that are kind of
+ compensating for each other and the best predictor of the kids ageis very often just take the average of
+ the two parents and then adjust for sex and
+
+0:09:06
+Speaker 0 :boom you get it it's extremely heritable
+ let me ask uh you kind of uh took a step back to thegenome
+ outside of just humans but is there something that you find beautiful aboutthe human genome specifically
+
+
+0:09:18
+Speaker 1 :so i think that genome if more people
+ understood the beauty of the human genome there would be so many fewer warsso much less anger in the world i mean
+ what's really beautiful about the human genome isreally the variation that teaches us
+ both about individuality
+
+0:09:36
+Speaker 0 :and about similarity so any two people
+ on the planet are 99.9 identical
+
+0:09:44
+Speaker 1 :how can you fight with someone who's
+ 99.9 identical to you it's just
+
+0:09:47
+Speaker 0 :counterintuitive
+ and yet any two siblings of the same parentdiffer in millions of locations so every
+
+
+0:09:57
+Speaker 1 :one of them
+ is basically two to the million unique
+
+0:09:59
+Speaker 0 :from any pair of parents
+
+
+0:10:02
+Speaker 1 :let alone any two random parents on the
+
+
+0:10:05
+Speaker 0 :planet so
+
+
+0:10:06
+Speaker 1 :that's i think something that teaches us
+ about sort of the nature of humanity in many waysthat every one of us is as unique as any
+ star and way more unique in actually manyways and
+ uh yet we're all brothers and sisters
+
+0:10:22
+Speaker 0 :and yeah just like stars most of it is
+ just uh
+
+0:10:25
+Speaker 1 :fusion uh reactions yeah you only have a
+ few parameters to describe stars you know mass size initial size and youknow stage of life
+ whereas for humans it's you know thousands of parametersscattered across our genome so the other
+ thing that makes humans unique the other things that makes inheritanceunique in humans
+ is that most species inherit things vertically basicallyinstinct
+
+
+0:10:53
+Speaker 0 :is a huge part of their behavior the way
+
+
+0:10:55
+Speaker 1 :that
+ you know i mean with my kids we've been watching thisnest of birds with two little eggs
+ you know outside our window for the last few months uh for the last few weeks asthey've been growing and there's so much
+
+
+0:11:08
+Speaker 0 :behavior
+ that's hard-coded birds don't just learn
+
+0:11:12
+Speaker 1 :as
+ they grow they don't you know there's no culture likea bird that's born in boston will be the
+ same as a bird that's born in california so there's not as much uminheritance of ideas of customs a lot of
+
+
+0:11:26
+Speaker 0 :
+
+0:11:27
+Speaker 1 :it is hard-coded in their genome
+ what's really beautiful about the human genome is that if you take a person fromtoday
+ and you place them back in ancient egypt or if you take a person from ancientegypt and you
+ place them here today they will grow up
+
+0:11:40
+Speaker 0 :to be completely normal
+ that is not genetics this is
+
+0:11:48
+Speaker 1 :the other type of inheritance in humans
+ so on one hand we have genetic inheritancewhich is vertical from your parents down
+
+
+0:11:55
+Speaker 0 :
+
+0:11:56
+Speaker 1 :on the other hand we have horizontal
+ inheritance which is the ideas that are built up at every
+
+0:12:00
+Speaker 0 :generation
+ are horizontally transmitted and the huge amount of time that we spend
+
+0:12:06
+Speaker 1 :in educating ourselves a concept known
+
+
+0:12:10
+Speaker 0 :as
+ niotini neo for newborn and then tenney for
+
+0:12:15
+Speaker 1 :holding so if you look at humans i mean
+ the little birds they were you know eggs two weeks ago and thatnow one of them has already flown off
+ the other one's ready to fly off in two weeks they're ready to just fend
+
+0:12:27
+Speaker 0 :for themselves humans
+
+
+0:12:28
+Speaker 1 :16 years 18 years 24 getting out of
+ college
+
+0:12:33
+Speaker 0 :i'm still learning so so that's so
+ fascinating the this picture of a vertical in the horizontali when you talk about the horizontal is
+ it in the realm of ideas exactly okay so it's the actual social
+
+0:12:44
+Speaker 1 :interactions and that's exactly right
+ that's exactly right so basically the concept of neotimi
+
+0:12:50
+Speaker 0 :is that you spend acquiring
+ characteristics from your environment in an extremely malleable state of yourbrain and the wiring of your brain
+ for a long period of your life compared to primateswe are useless you take any primate at
+
+
+0:13:03
+Speaker 1 :seven weeks
+
+
+0:13:06
+Speaker 0 :and in human at seven weeks we lose the
+ battle but at eighteen years you know all bets
+
+0:13:10
+Speaker 1 :are off like we
+
+
+0:13:13
+Speaker 0 :basically our brain continues to develop
+ in an extremely malleable form until very late and this is what allowseducation
+
+
+0:13:20
+Speaker 1 :this is what allows the person from
+ egypt to do extremely well
+
+0:13:23
+Speaker 0 :now and the reason for that is that
+ the wiring of our brain
+
+0:13:31
+Speaker 1 :and the development of that wiring is
+
+
+0:13:32
+Speaker 0 :actually delayed
+
+
+0:13:34
+Speaker 1 :so you know the longer you delay that
+ the more opportunity you have
+
+0:13:38
+Speaker 0 :to pass on knowledge to pass on concepts
+
+
+0:13:40
+Speaker 1 :
+
+0:13:42
+Speaker 0 :ideals
+ ideas from the parents to the child
+
+0:13:45
+Speaker 1 :and what's really absolutely beautiful
+ about humans today is that that lateral
+
+0:13:50
+Speaker 0 :transfer of ideas and culture
+
+
+0:13:51
+Speaker 1 :is not just from uncles and aunts and
+ teachers at school but it's from wikipedia and reviewarticles on the web
+ and thousands of journals that are sort of putting outinformation for free and podcasts and
+ videocasts and all of that stuff where you can
+
+0:14:09
+Speaker 0 :basically learn
+ about any topic pretty much
+
+0:14:14
+Speaker 1 :everything that would be in any super
+
+
+0:14:17
+Speaker 0 :advanced textbook
+ in a matter of days instead of having to
+
+0:14:20
+Speaker 1 :go
+ to the library of alexandria and sail there to read three books and then sailfor another few days to get to athens
+ and et cetera et cetera so the
+
+0:14:30
+Speaker 0 :democratization of knowledge
+ and the spread the speed of spread of
+
+0:14:32
+Speaker 1 :knowledge is what
+ defines i think the human inheritance pattern
+
+0:14:38
+Speaker 0 :so you sound excited about it about it
+ are you also a little bit afraid or you're moreexcited by the power of this kind of
+ distributed spread of information so you put it very kindly that most people arekind of using the internet
+ in uh you know looking wikipedia reading articles reading papers and so onbut uh if we if we're honest most people
+ online especially when they're younger probably looking atfive second clips on tick tock or
+ whatever the new social network is are you um given this power ofhorizontal inheritance
+ are you optimistic or a little bit pessimisticabout the this new
+ effect of the internet and democratization of knowledge on ouron our what would you call this this
+ geno like would you would you use the term genome by the way
+
+0:15:31
+Speaker 1 :yeah i think um you know we use the
+ genome to talk about dna but very often we say you know imean i'm greek so people ask me hey
+ what's in the greek genome and i'm like well yeah what's in thegreek genome is both our genes and also
+ our ideas and our ideals and our culture so the
+
+0:15:47
+Speaker 0 :poetic meaning of the word exactly
+
+
+0:15:47
+Speaker 1 :exactly yeah yeah
+
+
+0:15:50
+Speaker 0 :
+
+0:15:51
+Speaker 1 :so i think that um
+ there's a beauty to the democratization of knowledgethe fact that you can reach as many
+ people as you know any other person on the planetand it's not who you are
+ it's really your ideas that matter is a beautiful aspect of the internet the[Music]
+ i think there's of course a danger of my ignoranceis as important as your expertise the
+ fact that uh with this democratization comes theabolishment
+ of respecting expertise just because you've spentyou know 10 000 hours of your life
+ studying i don't know human brain circuitrywhy should i trust you i'm just going to
+ make up my own theories and they'll be just as good as yoursit's an attitude that that sort of
+ counteracts the beauty of the democratization and i think thatwithin our educational system
+ and within the upbringing of our children we have to not onlyteach them knowledge but we have to
+ teach them the means to get to knowledge and that you knowit's very similar to sort of you
+ fish you catch a fish for a man for one day you fed them for one day you teachthem how to fish
+ you fed them for the rest of their life so instead of just gathering theknowledge they need
+ for any one task we can just tell them all right here's how you google ithere's how to figure out what's real and
+ what's not here's how you check the sourceshere's how you form a basic opinion for
+ yourself and i think that
+
+0:17:20
+Speaker 0 :
+
+0:17:21
+Speaker 1 :inquisitive nature is paramount
+ to being able to sort through this huge wealth of knowledge so you need a basiceducational foundation
+
+
+0:17:31
+Speaker 0 :
+
+0:17:33
+Speaker 1 :based on which you can then add on
+ the sort of domain specific knowledge but that basic educational foundationshould just
+ just not just be knowledge but it should also beepistemology the way to acquire
+
+
+0:17:45
+Speaker 0 :knowledge
+ i'm not sure any of us know how to do that in this modern day we'reactually learning one of the big
+ surprising thing to me about the the coronavirus for example is thattwitter has been
+ one of the best sources of information basically like building your own networkof experts
+ of of uh you know as opposed to the traditionalcentralized expertise of the who and the
+ cdc and the or um or maybe any one particularrespectable person at the top of a
+ department in some kind of institution you instead look at ayou know 10 20 hundreds of people
+ some of whom are young kids with just that are incredibly good ataggregating data and plotting and
+ visualizing that data that's been really surprising to me idon't know what to make of it
+ i don't know i don't know how that matures into something stableyou know i don't know if you have ideas
+ like what if you were to try to explain to your kidsof how where should you go to learn
+ about the about coronavirus what would you say
+
+0:18:55
+Speaker 1 :it's such a beautiful example and i
+ think uh the current pandemic and the thespeed at which the scientific community
+ has moved in the current pandemic i think exemplifiesthis horizontal transfer and the speed
+ of horizontal transfer of information
+
+0:19:11
+Speaker 0 :the fact that you know the genome was
+
+
+0:19:12
+Speaker 1 :first sequenced
+ in early january the first sample was obtained december 292019 a week after the publication of the
+ first genome sequence moderna had alreadyfinalized his vaccine design
+ and was moving to production i mean this isuh phenomenal the fact that we go from
+ not knowing what the heck is killing people in wuhan towow it's starscore v2 and here's the set
+ of genes here's the genome here's the sequence here thepolymorphisms et cetera in the matter of
+ weeks is phenomenal in that incredible paceof transfer of knowledge there have been
+
+
+0:19:52
+Speaker 0 :
+
+0:19:53
+Speaker 1 :many mistakes
+ so you know some of those mistakes may have been politically motivated ourother mistakes may have just been
+ innocuous errors others may have been misleading thepublic for the greater good
+ such as don't wear masks because we don't want the mask to run out i meanthat was very silly in my view and
+ a very big mistake but the the spread of knowledge from thescientific community was phenomenal
+ and some people will point out to bogus articles that snuck in and made the
+
+0:20:22
+Speaker 0 :front page
+ yeah they did but within 24 hours they were debunked
+
+0:20:26
+Speaker 1 :and went out of the front page and i
+ think that's that's the beauty of science todaythe fact that it's not oh knowledge is
+
+
+0:20:31
+Speaker 0 :fixed
+ it's the ability to embrace that nothing
+
+0:20:35
+Speaker 1 :is permanent
+ when it comes to knowledge that everything is the current besthypothesis
+ and the current best model that best fits the current dataand the willingness to be wrong the
+ expectation that we're going to be wrong and thecelebration of success based on how long
+ was i not proven wrong for rather than wow i was exactly rightbecause no one is going to be exactly
+ right with partial knowledge
+
+0:20:58
+Speaker 0 :
+
+0:21:00
+Speaker 1 :but the arc towards perfection
+ i think so much more important than how far you are on your first step and ithink that's what sort of
+
+
+0:21:09
+Speaker 0 :
+
+0:21:11
+Speaker 1 :the current pandemic has taught us the
+ fact that yeah no of course we're gonna make mistakesbut at least we're going to learn from
+ those mistakes and become better and learn better and spread informationbetter so
+ if i were to answer the question of where would you go to learn
+
+0:21:26
+Speaker 0 :about coronavirus first textbook
+
+
+0:21:27
+Speaker 1 :it all starts with a textbook just open
+ up a chapter on virology and how coronaviruses workthen some basic epidemiology and sort of
+ how pandemics have worked in the past whatare the basic principles surrounding
+ these first wave second wave why do they even existthen understanding about growth
+ understanding about the are not and rt at you know various time pointsand then understanding the means of
+ spread how it spreads from person to personthen how does it get into your cells
+ from when it gets into the cells what are thepaths that it takes what are the cell
+
+
+0:22:03
+Speaker 0 :types that express
+
+
+0:22:04
+Speaker 1 :the particular h2 receptor how is your
+ immune system interacting with the virus and once your immune system launches
+
+0:22:12
+Speaker 0 :your defense how is that helping
+ or actually hurting your health what
+
+0:22:14
+Speaker 1 :about the cytokine storm what are most
+ people dying from why are the comorbidities and these risk
+
+0:22:21
+Speaker 0 :factors
+ even applying what makes obese people
+
+0:22:24
+Speaker 1 :respond more or elderly people respond
+ more to the virus while kids are completely you knowyou know very often not even aware that
+ they're spreading it so the you know i think there's somebasic
+
+
+0:22:40
+Speaker 0 :questions that you would start from and
+
+
+0:22:43
+Speaker 1 :then
+ i'm sorry to say but wikipedia is pretty awesome yeah google is pretty awesomeso it used to be a time it used to be a
+
+
+0:22:48
+Speaker 0 :time maybe five years ago i forget
+ i forget when but people kind of made fun of wikipediafor being an unreliable source i never
+ quite understood it i thought from the early days it waspretty reliable or better than
+ a lot of the alternatives but at this point it's kind of likea solid accessible survey paper on every
+ subject ever
+
+0:23:10
+Speaker 1 :the there's an ascertainment bias and a
+ writing bias so so i think this this is related tosort of people saying oh
+ so many nature papers are wrong and they're like why would you publish innature so many nature papers are wrong
+ and my answer is no no no so many nature
+
+0:23:26
+Speaker 0 :papers are scrutinized
+
+
+0:23:29
+Speaker 1 :and just because more of them are being
+ proven wrong than in other articles is actually evidence that they'reactually better papers overall because
+
+
+0:23:37
+Speaker 0 :they're being scrutinized at a rate
+ much higher than any other journal so if
+
+0:23:42
+Speaker 1 :you basically
+ uh judge wikipedia by not the initial content by but by thenumber of revisions
+ yeah then of course it's going to be the best source of knowledge eventuallyit's still very superficial you then
+ have to go into the review papers etc etc but i mean for most scientificproject
+ topics it's extremely superficial but it is quite authoritative because it is theplace that everybody likes to criticize
+ you as being wrong you say that it's
+
+0:24:11
+Speaker 0 :superficial on a lot of topics that
+ i'm i've studied a lot of i find it
+
+0:24:19
+Speaker 1 :
+
+0:24:20
+Speaker 0 :i don't know if superficial is the right
+ word um because superficial kind of implies thatit's not correct
+
+
+0:24:27
+Speaker 1 :no no i don't mean any implication of it
+ not being correct it's just superficial it's basicallyonly scratching the surface
+ for depth you don't go to wikipedia you go to the review articles but it can be
+
+0:24:38
+Speaker 0 :profound in the way that articles rarely
+ one of the frustrating things to me aboutlike certain computer science like in
+ the machine learning world articles they they don't as often takethe uh the bigger picture view you know
+ there's a it's a kind of data set and you showthat it works and you kind of show that
+ here's an architectural thing that creates an improvementand so on and so forth but you don't say
+ well like what does this mean for the nature of intelligence forfuture data sets we haven't even thought
+ about or if you were trying to implement thislike if we took this data set of uh
+ a hundred thousand examples and scaled it to a hundred billion exampleswith this method like like look at the
+ bigger picture which is what a wikipedia articlewould actually try to do which is like
+ what does this mean in the context of computer the broad field of computervision or something like that yeah yeah
+
+
+0:25:32
+Speaker 1 :and no i i agree with you completely
+ like but it depends on the topic i mean for some topics there's been ahuge amount of work for other topics
+ it's just a stub so you know i got it yeah well yeah
+
+0:25:41
+Speaker 0 :actually the
+ uh which we'll talk on genomics was not
+
+0:25:47
+Speaker 1 :yeah it's great very shallow yeah yeah
+ it's not wrong it's just shallow yeah every time i criticize something ishould feel partly responsible
+ basically if more people from my community went there and editedit would not be shallow it's just that
+ there's different modes of communication indifferent fields and in some fields
+ the experts have embraced wikipedia in other fieldsit's relegated and perhaps the reason is
+ that if it was any better to start withpeople would invest more time
+ but if it's not great to start with then you need a few initial pioneers who willbasically go in and say
+ ah enough we're just going to fix that and then i think it'll catch on muchmore
+
+
+0:26:28
+Speaker 0 :so if it's okay before we go on to
+ genomics can we linger a little bit longer on the beautyof the human genome
+ you've given me a few notes what else what else do you find beautiful about
+
+0:26:41
+Speaker 1 :the human genome
+ so the last aspect of what makes a human genome uniquein addition to the you know
+ similarity and the differences and individuality
+
+0:26:52
+Speaker 0 :is that so very early on
+
+
+0:26:54
+Speaker 1 :
+
+0:26:54
+Speaker 0 :
+
+0:26:56
+Speaker 1 :people would basically say oh you don't
+ do that experiment in human you have to learn about that in flyor you have to learn about that in yeast
+ first or in mouse first or in a prime at firstand the human genome was in fact
+ relegated to sort of oh the last place that youyou're going to go to learn something
+ new that has dramatically changed and the reason that changed is human
+
+0:27:16
+Speaker 0 :genetics
+ we are these species
+
+0:27:21
+Speaker 1 :in the planet that's the most studied
+
+
+0:27:24
+Speaker 0 :right now it's embarrassing to say that
+
+
+0:27:24
+Speaker 1 :but this was not the case a few years
+ ago it used to be you know first viruses thenbacteria then yeast then
+ the fruit fly and the worm then the mouseand eventually human was very far last
+
+
+0:27:41
+Speaker 0 :so it's embarrassing that it took us
+ this long to focus on it or the
+
+0:27:46
+Speaker 1 :uh it's embarrassing that the model
+ organisms have been taken over because of the power of human genetics
+
+0:27:51
+Speaker 0 :that right now
+
+
+0:27:53
+Speaker 1 :it's actually simpler to figure out the
+ phenotype of something
+
+0:27:58
+Speaker 0 :by mining this massive amount of human
+
+
+0:28:00
+Speaker 1 :data
+ than by going back to any of the other
+
+0:28:03
+Speaker 0 :species and the reason for that is that
+ if you look at the natural variation
+
+0:28:06
+Speaker 1 :that happens in a population of 7
+ billion you basically have a mutation in almost
+
+0:28:11
+Speaker 0 :every nucleotide
+
+
+0:28:13
+Speaker 1 :so every nucleotide you want to perturb
+ you can go find a living breathing human being and gotest the function of that nucleotide by
+ sort of searching the database and finding that person
+
+0:28:22
+Speaker 0 :wait why is that embarrassing it's a
+ beautiful data set
+
+0:28:25
+Speaker 1 :it's embarrassing for the for the model
+ organism for the flies
+
+0:28:30
+Speaker 0 :yeah exactly i i mean do you do you feel
+ on a small tangent is there something of valuein um in the genome of a fly and other
+ these model organisms that you miss that wewish we
+ would have uh would be looking at deeper
+
+0:28:47
+Speaker 1 :so
+ directed perturbation of course so i think the place wherethe the place where humans are still
+ lagging is the fact that in an animal model you can go and say well let meknock out this gene completely
+ and let me knock out these three genes completely and i said the moment you getinto combinatorics it's something you
+ can't do in the human because there just simply aren't enough humans on theplanet and again let me be honest
+ we haven't sequenced all seven billion people it's not like we haveevery mutation but we know that there's
+ a carrier out there so if you look at the trendwith and the speed with which human
+
+
+0:29:18
+Speaker 0 :genetics has progressed we can now
+
+
+0:29:21
+Speaker 1 :find thousands of genes involved
+
+
+0:29:22
+Speaker 0 :in human cognition in human psychology
+
+
+0:29:28
+Speaker 1 :in the emotions and the feelings that we
+ used to think are uniquely learned turns out there's a
+
+0:29:32
+Speaker 0 :
+
+0:29:32
+Speaker 1 :genetic basis to a lot of that
+ so the uh you know the the human genome has continued toelucidate
+ through these studies of genetic variation so many different processesthat we previously thought were
+ you know something that like free will free will is this beautiful concept thathumans have had for
+ a long time you know in the end it's just a bunch of chemical reactionshappening in your brain
+ and the particular abundance of receptors that you havethis day based on what you ate yesterday
+ or that you have been wired with based on you know your parents and yourupbringing etc
+ determines a lot of that quote unquote free will component toyou know sort of narrower and narrower
+ scale you know sort of
+
+0:30:21
+Speaker 0 :slices so how much uh on that point how
+ much freedom do you think we have to escape the the constraints ofour genome you're making it sound like
+ more and more we're discovering that our genome is actually has thea lot of the story already encoded into
+ it how much freedom do we have
+
+0:30:39
+Speaker 1 :i uh so so
+ let me let me describe what that freedom would look like that freedom would bemy saying oh i'm gonna resist the urge
+ to eat that apple because i choose not to butthere are chemical receptors that made
+ me not resist the urge to prove my individuality and my freewill by resisting the apple so then
+ the next question is well maybe now i'll resist the urge to resist the apple andi'll go for the chocolate instead to
+ prove my individuality but then what about those other receptors thatyou know
+
+
+0:31:15
+Speaker 0 :that that might be all encoded in there
+
+
+0:31:17
+Speaker 1 :so it's kicking the bucket down the road
+ and basically saying well your choice will may have actually been driven byother things that you actually are not
+ choosing so that's why it's very hard to answerthat question well it's hard to know
+
+
+0:31:29
+Speaker 0 :what to do with that i mean if uh if the
+ genome has if there's not much freedom it's uh
+
+0:31:37
+Speaker 1 :it's the butterfly effect it's basically
+ that in the short term
+
+0:31:42
+Speaker 0 :
+
+0:31:43
+Speaker 1 :you can predict something extremely well
+ by knowing the current state of the systembut a few steps down it's very hard to
+ predict based on the current knowledge is that because the system is truly freewhen i look at weather patterns i can
+ predict the next 10 days is it because the weather it has a lotof freedom and after 10 days
+ it chooses to do something else or is it because in fact the system is fullydeterministic
+
+
+0:32:06
+Speaker 0 :
+
+0:32:07
+Speaker 1 :and there's just a slightly different
+ magnetic feel of the earth slightly more energy arriving from the sun a slightlydifferent spin of the gravitational pull
+ of jupiter that is now causing you know all kindsof tides and slight deviation of the
+ moon etc maybe all of that can be fully modeledmaybe the fact that china is emitting a
+ little more carbon today is actually going to affect the weatherin you know egypt in three weeks
+ and all of that could be fully modeled
+
+0:32:32
+Speaker 0 :in the same way
+
+
+0:32:36
+Speaker 1 :if you take a complete view of a human
+
+
+0:32:37
+Speaker 0 :being
+
+
+0:32:39
+Speaker 1 :now you know i model everything about
+
+
+0:32:40
+Speaker 0 :you
+ the question is can i predict your next step probably
+
+0:32:46
+Speaker 1 :but at how far and if it's a little
+ further is that because of stochasticity andsort of chaos
+ properties of unpredictability of beyond a certain levelor was that actually true free will yeah
+
+
+0:32:58
+Speaker 0 :then yeah
+ so the number of variables might might be so you might need to uh build anentire universe
+
+
+0:33:04
+Speaker 1 :to uh to be able to simulate a human and
+ then maybe that human will be fully simulatablebut maybe aspects of free will will
+ exist and where's that free will coming from it's still coming from the sameneurons
+ or maybe from a spirit inhabiting these neurons but againyou know it's very difficult empirically
+ to sort of evaluate where does free will beginand sort of chemical reactions and
+ electric signals and you know and
+
+0:33:26
+Speaker 0 :so on that's on that topic let me ask
+ the most absurd question uh that uh most mit faculty role theireyes on but uh
+ do what do you think about the simulation hypothesis and the idea that
+
+0:33:39
+Speaker 1 :we live in a simulation
+ i think it's complete bs okay there's no empirical evidence noit's not absolutely not
+
+
+0:33:47
+Speaker 0 :not in terms of empirical evidence or
+ not but uh in terms of a thought experiment does it help youthink about the universe
+ i mean so if you look at the genome it's encoding a lot of the information thatis required to create some of the
+ beautiful human complexity that we see around usit's an interesting thought experiment
+ how much you know uh parameters do we need to umhave in order to model some you know
+ this full human experience like if we were tobuild a video game
+ yeah how hard it would be to build a video game that's like convincing enoughand fun enough and you know uh
+ it has consistent laws of physics all that stuffit's not interesting to use the stock
+
+
+0:34:30
+Speaker 1 :experiment i i mean it's cute
+ but you know it's all comes razor i mean what's what's morerealistic the fact that you're actually
+ a machine or that you're you know a person what's what'syou know the fact that all of my
+ experiences exist inside the chemical molecules that i haveor that somebody's actually you know
+ simulating all that i
+
+0:34:49
+Speaker 0 :mean well you did refer to humans as a
+ digital computer earlier so
+
+0:34:52
+Speaker 1 :of course of course but that's not kind
+
+
+0:34:54
+Speaker 0 :of a machine right i know
+ i know but i i think
+
+0:34:59
+Speaker 1 :the probability of all that is nil and
+ let the machines wake me up and just terminate me now if it's noti challenge your machines they're gonna
+
+
+0:35:09
+Speaker 0 :they're gonna wait a little bit
+ to see what you're gonna do next it's fun it's fun to watchespecially the clever humans what's the
+ difference to you between the way a computer stores information and uh thehuman genome stores information
+ so you also have roots and your work would you say you're when you introduceyourself at a bar
+
+
+0:35:30
+Speaker 1 :um it depends who i'm talking
+
+
+0:35:34
+Speaker 0 :would you say it's computational biology
+ do you um do you reveal uh your
+
+0:35:42
+Speaker 1 :expertise in computers it depends who
+ i'm talking to truly i mean basically if i meet someonewho's in computers i'll say
+ oh i mean professor in computer science if i meet someone who's in engineering isay computer science and electrical
+ engineering if i meet someone in biology i'll sayhey i work in genomics if i meet someone
+ in medicine i'm like hey i work on you knowgenetics so you're a fun person to meet
+
+
+0:36:01
+Speaker 0 :at a bar i got you but
+
+
+0:36:03
+Speaker 1 :so no no but i'm trying to say is that i
+ i don't i mean there's no single attribute thati will define myself as
+ you know there's a few things i know there's a few things i study there's afew things i have degrees on and there's
+ a few things that i grant degrees in andyou know i i publish papers across the
+ whole gamut you know the whole spectrum ofcomputation to biology etc i mean
+ i the complete answer is that i use computer science to understandbiology
+
+
+0:36:33
+Speaker 0 :
+
+0:36:34
+Speaker 1 :so i'm a you know i develop
+ methods in ai and machine learning statistics and algorithms etcbut the ultimate goal of my career is to
+ really understand biology if these things don't advance ourunderstanding of biology
+ i'm not as fascinated by them although there are somebeautiful computational problems by
+ themselves i've sort of made it my mission to applythe power of computer science to truly
+ understand the human genome health diseaseyou know and then the whole gamut of how
+ our brain works how our body works and all of thatwhich is so fascinating
+
+
+0:37:14
+Speaker 0 :so the dream there's not an equivalent
+ sort of uh complementary dream of understandinghuman biology in order to create an
+ artificial life an artificial brain artificialintelligence that supersedes the
+ intelligence and the capabilities of us humans
+
+0:37:31
+Speaker 1 :it's an interesting question it's a
+ fascinating question so
+
+0:37:33
+Speaker 0 :understanding the human brain is
+
+
+0:37:38
+Speaker 1 :undoubtedly coupled to how do we make
+ better ai because so much of ai has in fact been
+
+0:37:45
+Speaker 0 :inspired
+
+
+0:37:46
+Speaker 1 :by the brain it may have taken 50 years
+ since the early days of neural networks till we have you know all of theseamazing progress
+ that we've seen with uh you know deep belief networks and uhyou know all of these advances in go
+ and chess in image synthesis and deep vagues
+
+0:38:11
+Speaker 0 :in you name it and but but the
+ underlying architecture is very much
+
+0:38:15
+Speaker 1 :inspired
+ by the human brain which actually pauses a very very interesting question
+
+0:38:21
+Speaker 0 :
+
+0:38:23
+Speaker 1 :why are neural networks performing so
+
+
+0:38:26
+Speaker 0 :well
+ and they perform amazingly well is it because they can simulateany possible function and the answer is
+ no no they simulate a very small number
+
+0:38:35
+Speaker 1 :of functions
+ is it because they can simulate every possible function in the universe
+
+0:38:39
+Speaker 0 :and that's where it gets interesting the
+ answer is actually yeah a little closer to that
+
+0:38:45
+Speaker 1 :and here's where it gets really fun uh
+
+
+0:38:48
+Speaker 0 :if you look at human brain and human
+ cognition it didn't evolve in a vacuum it evolved
+
+0:38:53
+Speaker 1 :in a world
+
+
+0:38:55
+Speaker 0 :with physical constraints
+ like the world that inhabits us it is
+
+0:39:00
+Speaker 1 :
+
+0:39:01
+Speaker 0 :the world that we inhabit
+ and if you look at our senses what do they perceive they perceive
+
+0:39:08
+Speaker 1 :different you know
+ parts of the electromagnetic spectrum you knowthe hearing is just different movements
+
+
+0:39:15
+Speaker 0 :
+
+0:39:16
+Speaker 1 :in air
+ the the touch etc i mean all of these things we've built intuitions
+
+0:39:22
+Speaker 0 :for the physical world that we inhabit
+ and our brains and the brains of all
+
+0:39:24
+Speaker 1 :animals
+
+
+0:39:26
+Speaker 0 :evolved for that world and
+
+
+0:39:30
+Speaker 1 :the ai systems that we have built happen
+
+
+0:39:31
+Speaker 0 :to work well with images
+ of the type that we encounter in the
+
+0:39:35
+Speaker 1 :
+
+0:39:36
+Speaker 0 :physical world that we inhabit
+ whereas if you just take noise and you add
+
+0:39:41
+Speaker 1 :random signal that doesn't match
+ anything in our world neural networks
+
+0:39:44
+Speaker 0 :will not do as well
+
+
+0:39:48
+Speaker 1 :and that actually um basically
+ has this whole loop around this which is
+
+0:39:55
+Speaker 0 :this was designed by studying our own
+
+
+0:39:56
+Speaker 1 :brain
+ which was evolved for our own world and they happen to do wellin our own world and they happen to make
+
+
+0:40:02
+Speaker 0 :the same types of mistakes that humans
+ make
+
+0:40:05
+Speaker 1 :many times and of course you can
+ engineer images by adding just the right amountof you know sort of pixel deviations to
+ make a zebra look like a bamboo and stuff like that or like a table
+
+0:40:18
+Speaker 0 :
+
+0:40:19
+Speaker 1 :but ultimately the undoctored images at
+
+
+0:40:22
+Speaker 0 :least
+
+
+0:40:23
+Speaker 1 :are very often you know mistaken i don't
+ know between muffins and dogs for examplein the same way that humans make those
+ mistakes so
+
+0:40:31
+Speaker 0 :
+
+0:40:33
+Speaker 1 :it's it's on you know there's no doubt
+ in my view that the more we understand about the tricks that our human brainhas evolved
+ to understand the physical world around us the more we will be able to bringnew computational primitives in our ai
+ systems to again better understand not just theworld around us
+ but maybe even the world inside us and maybe even the computational problemsthat arise from new types of data that
+
+
+0:40:58
+Speaker 0 :we haven't been exposed
+
+
+0:40:58
+Speaker 1 :to but are yet inhabiting the same
+ universe that we live in with a very tiny little subset offunctions from all possible mathematical
+
+
+0:41:07
+Speaker 0 :functions
+ yeah and that small subset of functions all that matters to us humans really
+
+0:41:12
+Speaker 1 :that's what makes
+ it's all that has mattered so far and even within our scientific realmit's all that seems to continue to
+ matter but i mean i always like to think about our
+
+0:41:23
+Speaker 0 :senses
+
+
+0:41:25
+Speaker 1 :and how much of the physical world
+ around us
+
+0:41:28
+Speaker 0 :we perceive and if you look at the
+
+
+0:41:32
+Speaker 1 :um ligo experiment over the last
+ you know year and a half has been all
+
+0:41:37
+Speaker 0 :over the news what what did lago do
+ it created a new sense for human beings a sense that has never been sensed inthe history of our planet
+ gravitational waves have been traversing the earth
+
+0:41:53
+Speaker 1 :since its creation a few billion years
+
+
+0:41:54
+Speaker 0 :ago
+ life has evolved senses to sense things that were never before sensed lightwas not perceived by early life no one
+ cared and eventually photoreceptors evolved
+
+0:42:12
+Speaker 1 :and you know the ability to sense colors
+ by sort of catching different parts of that electromagneticspectrum
+ and hearing evolved and touch evolved
+
+0:42:22
+Speaker 0 :etc
+
+
+0:42:24
+Speaker 1 :but no organism evolved a way to sense
+ neutrinos floating through earth or gravitational waves flowing through
+
+0:42:30
+Speaker 0 :earth etc
+ and i find it so beautiful in the
+
+0:42:33
+Speaker 1 :history of not just humanity but
+
+
+0:42:35
+Speaker 0 :life on the planet that we are now able
+ to capture additional signals from the physicalworld than we ever knew before
+
+
+0:42:43
+Speaker 1 :and axions for example have been all
+
+
+0:42:46
+Speaker 0 :over the news in the last few weeks
+ the concept that we can
+
+0:42:52
+Speaker 1 :capture and perceive more of that
+
+
+0:42:53
+Speaker 0 :physical world
+ is as exciting as the
+
+0:42:59
+Speaker 1 :
+
+0:43:00
+Speaker 0 :fact that we are we were blind to it is
+ traumatizing
+
+0:43:03
+Speaker 1 :
+
+0:43:04
+Speaker 0 :before right because that also tells us
+ how you know we're in 2020 picture yourself in 30 20or in 20 you know what new senses why
+ might we discover is it you know could it be that we'remissing
+
+
+0:43:19
+Speaker 1 :physics that like there's a lot of
+
+
+0:43:23
+Speaker 0 :physics out there that we're just blind
+ to completely oblivious to it yeah and yet they're permeating us all
+
+0:43:28
+Speaker 1 :
+
+0:43:29
+Speaker 0 :the time yes it might be right in front
+
+
+0:43:30
+Speaker 1 :of us
+
+
+0:43:31
+Speaker 0 :so so when you're thinking about
+ premonitions
+
+0:43:35
+Speaker 1 :yeah yeah a lot of that is ascertainment
+ bias like yeah every you know every now and then you're like oh i remembermy friend and then my friend doesn't
+ appear and i'll forget that i remember my friend but every now and then myfriend will actually appear i'm like oh
+ my god i thought about you a minute ago you
+
+0:43:49
+Speaker 0 :just called me that's amazing
+ so you know some of that is this but
+
+0:43:51
+Speaker 1 :some of that might be that
+
+
+0:43:54
+Speaker 0 :there are within our brain
+ sensors for waves that we emit that we're not even aware of and thiswhole
+ concept of when i hug my children there's such an emotionaltransfer there that we don't comprehend
+
+
+0:44:13
+Speaker 1 :i mean sure yeah of course we're all
+ like hardwired for all kinds of touchy-feely things between parents andkids it's beautiful between partners
+ it's beautiful etc
+
+0:44:19
+Speaker 0 :but then there are intangible aspects
+
+
+0:44:23
+Speaker 1 :
+
+0:44:26
+Speaker 0 :of human communication that i don't
+ think it's unfathomable that our brain has actually
+
+0:44:29
+Speaker 1 :
+
+0:44:30
+Speaker 0 :evolved ways and sensors for it
+
+
+0:44:33
+Speaker 1 :that we just don't capture we don't
+ understand the function of the vast majorityof our neurons and maybe our brain is
+
+
+0:44:39
+Speaker 0 :already sensing it but even worse
+ maybe our brain is not sensing it at all and we're inoblivious to this until we build a
+ machine that suddenly is able to sort of
+
+0:44:46
+Speaker 1 :capture
+ so much more of what's happening in the
+
+0:44:49
+Speaker 0 :natural world so what you're saying
+ is we're going physics is going to discover a sensor for love
+
+0:44:56
+Speaker 1 :for and maybe maybe dogs are off scale
+ for that and we've been oh you know we've beenoblivious to it the whole time because
+ we didn't have the right answer yeah and now you're gonna have a little wristthat says oh my god i feel all this love
+ in the house i see i sense a disturbance in the force
+
+0:45:13
+Speaker 0 :all around us and dogs and cats will
+ have zero none
+
+0:45:16
+Speaker 1 :none
+
+
+0:45:20
+Speaker 0 :but let's take a step back to
+
+
+0:45:23
+Speaker 1 :our unfortunately one of the 400 topics
+ that we had actually planned [Laughter]
+
+0:45:28
+Speaker 0 :but to our sad time in 2020 when we only
+ have just a few sensors and uh very primitiveearly computers so in your
+ you you have a foot in computer science and a floating biologyin your sense how do
+ computers represent information differently than like the genome orbiological systems
+
+
+0:45:51
+Speaker 1 :so first of all let me uh let me uh
+ correct that no we're in an amazing time in 2020computer science is totally awesome and
+ physics is totally awesome and we have understoodso much of the natural world than ever
+
+
+0:46:07
+Speaker 0 :before
+ so i am extremely grateful
+
+0:46:11
+Speaker 1 :and feeling extremely lucky to be living
+ in the time that we are because you know first of all who knowswhen the asteroid will hit
+ [Laughter] and second um you know of all timesin humanity this is probably the best
+ time to be a human being and this might actually be the best place to be a humanbeing so anyway you know for for anyone
+ who loves science this is this is it this is awesome it's a great time
+
+0:46:36
+Speaker 0 :
+
+0:46:37
+Speaker 1 :at the same time just a swift comment
+ all i meant
+
+0:46:40
+Speaker 0 :is that uh if we look several hundred
+ years from now and we end up somehow not uh destroying the uhourselves yeah
+ people will probably look back at this time in computer science
+
+0:46:55
+Speaker 1 :and uh at your work of minos at mit
+
+
+0:46:56
+Speaker 0 :
+
+0:46:59
+Speaker 1 :i like to joke very often with my
+ students that you know we've written so many papers we've published so muchwe've been cited so much and every
+ single time i tell my students you know the best is ahead of uswhat we're working on now is the most
+ exciting thing i've ever worked on so in a way i dohave this sense of
+ yeah even the papers i wrote 10 years ago they were awesome at the timebut i'm so much more excited about where
+ we're heading now and i don't mean to minimize any of thestuff we've done in the past but you
+ know there's just this sense of excitement about whatyou're working on now
+ that as soon as a paper is submitted it's like ughit's old like you know i can't talk
+ about that anymore at the same time
+
+0:47:37
+Speaker 0 :you're not
+ you probably are not going to be able to predict what are the mostuh impactful papers and ideas when
+ people look back 200 years from now at your work whatwould be the most exciting papers and it
+ may very well be not the thing that you expected
+
+0:47:54
+Speaker 1 :or yeah the things you got awards for
+ or you know this might be true in some fields i don't know i feel slightlydifferently about it in our field i feel
+ that i kind of know what what are theimportant ones and there's a very big
+ difference between what the press picks up onand what's actually fundamentally
+ important for the field and i think for the fundamentally important ones we kindof have a pretty good idea what they are
+ and it's hard to sometimes get the press excited about the fundamental advancesbut you know we we take what we get
+ and celebrate what we get and sometimes you know one of our papers which was ina minor journal
+ made the front page of reddit and suddenly had like hundreds of thousandsof views
+ even though it wasn't a minor journal because you know somebody pitched it theright way that it suddenly caught
+ everybody's attention whereas other papers that are sort oftruly fundamental you know we have a
+ hard time getting the editors even excited about themwhen so many hundreds of people are
+ already using the results and building upon themso i do i do appreciate that there's a
+ discrepancy between the perception and the perceived successand the awards that you get for various
+ papers but i think that fundamentally and know that you knowsome people i'm
+ so so so when you're writing that you're
+
+0:49:04
+Speaker 0 :most proud
+
+
+0:49:06
+Speaker 1 :
+
+0:49:07
+Speaker 0 :you know you just you trapped yourself
+ no no no no i mean is there a line of work that you youhave a sense
+ uh is really powerful that you've done today you've done so much work in somany directions which is interesting
+ um is there something where you you think is quite special
+
+0:49:25
+Speaker 1 :i i mean it's like asking me to say
+ which of my three children i love best i meanexactly so i mean and it's such a
+ give me question that it's so so difficult not to brag about the awesomework
+ that my team and my students have done umand i'll i'll just mention a few of the
+ top of my head i mean basically there's a few landmark papersthat i think have shaped
+ my scientific path and you know i like to somehow describe itas a linear continuation of one thing
+ led to another led to another led to anotherand you know it kind of all started with
+
+
+0:50:09
+Speaker 0 :
+
+0:50:11
+Speaker 1 :skip skip skip skip skip let me try to
+ start somewhere in the middle so my first phd paper wasuh the first comparative analysis of
+ multiple species so multiple complete genomes so for thefirst time we we basically con
+ developed the concept of genome-wide evolutionary signatures the fact thatyou could look across the entire genome
+
+
+0:50:34
+Speaker 0 :and understand how things evolve
+ and from these signatures of evolution
+
+0:50:37
+Speaker 1 :you could go back
+ and study any one region and say that's a
+
+0:50:44
+Speaker 0 :protein coding gene that's an rna gene
+
+
+0:50:45
+Speaker 1 :that's a regulatory motif
+ that's a you know binding site and so forth so
+
+0:50:50
+Speaker 0 :sorry so comparing different different
+ species
+
+0:50:54
+Speaker 1 :of the same so so i think human mouse
+
+
+0:50:55
+Speaker 0 :rat and dog
+ you know they're all animals they're all
+
+0:50:59
+Speaker 1 :mammals they're all performing
+ similar functions with their heart with their brain with their lungs etc etcso there's many functional elements that
+ make us uniquely
+
+0:51:09
+Speaker 0 :mammalian and those mammalian elements
+ are actually conserved
+
+0:51:15
+Speaker 1 :99 of our genome does not code for
+
+
+0:51:16
+Speaker 0 :protein
+ one percent codes for protein the other 99we frankly didn't know what it does
+
+
+0:51:24
+Speaker 1 :until we started doing these comparative
+ genomic studies so basically these series of papers inin my career
+ have basically first developed that concept of evolutionary signatures and
+
+0:51:35
+Speaker 0 :then apply them to yeast
+
+
+0:51:38
+Speaker 1 :apply them to flies apply them to four
+ mammals apply them to 17 fungi apply them to 12 drosophila speciesapply them to them 29 mammals and now
+ 200 mammals
+
+0:51:46
+Speaker 0 :so sorry so can we so the evolutionary
+ signatures this seems like a such a fascinating idea uhand we're probably gonna linger in your
+ early phd work for two hours but uh
+
+0:51:58
+Speaker 1 :
+
+0:51:59
+Speaker 0 :what is how can you reveal something
+ interesting about the genome by looking at the uhmultiple multiple species
+ and looking at the evolutionary
+
+0:52:12
+Speaker 1 :signatures yeah like so
+ so um you basically uh align the matching regions
+
+0:52:18
+Speaker 0 :
+
+0:52:20
+Speaker 1 :so everything evolved from a common
+ ancestor way way back and mammals evolved from a commonancestor about 60 million years back
+ so after you know the meteor that killed off the dinosaurslanded a legend near machu picchu
+ we know the crater it didn't allegedly landthat was the aliens okay no just
+ slightly north of machu picchu in the gulf of mexico there's a gianthole that that meteorite by the way
+
+
+0:52:48
+Speaker 0 :sorry is that uh definitive to people
+ have people um um conclusively uh figured out whatkilled the dinosaurs i think so so it
+ was
+
+0:53:00
+Speaker 1 :media well you know for volcanic
+ activity all kinds of other stuff is coincidingbut the meteor is pretty unique and we
+ know how terrifying i wouldn't if i we still have a lot of
+
+0:53:12
+Speaker 0 :20 20 left so if i
+
+
+0:53:15
+Speaker 1 :think no no but think about it this way
+ so the the dinosaurs ruled the earth
+
+0:53:20
+Speaker 0 :for 175 million years
+
+
+0:53:25
+Speaker 1 :we humans have been around for
+ what less than one million years if you're super generous about what youcall humans
+ and you include gems basically so so uh we are just getting warmed upand you know we've ruled the planet much
+ more ruthlessly than tyrannosaurus rex [Laughter]t-rex had much less of an environmental
+ impact than we did yeah and um if you if you give us another 154million years
+ you know humans will look very different if we make it that farso i think dinosaurs basically are
+ much more of life history on earth than we arein all respects but look at the bright
+ side when they were killed off another life form emerged mammals and
+
+0:54:09
+Speaker 0 :that's that whole
+ the evolutionary uh branching that's happened so you you kind of haveuh when you have these evolutionary
+ signatures you see is there basically a map of how the genome
+
+0:54:22
+Speaker 1 :changed yeah exactly exactly so now
+ you can go back to this early mammal that was hiding in cavesand you can basically ask what happened
+ after the dinosaurs were wiped out a ton
+
+0:54:32
+Speaker 0 :of evolutionary niches opened up
+ and the mammals started populating all
+
+0:54:35
+Speaker 1 :
+
+0:54:36
+Speaker 0 :of these niches
+ and in that diversification there was room for expansion of new
+
+0:54:42
+Speaker 1 :types of functions
+ so some of them populated the air
+
+0:54:48
+Speaker 0 :with bats flying a new evolution of
+
+
+0:54:49
+Speaker 1 :
+
+0:54:50
+Speaker 0 :light
+
+
+0:54:52
+Speaker 1 :some populated the oceans with dolphins
+ and whales going off to swim etc but we all arefundamentally mammals
+ so you can take the genomes of all these species and align them on top of each
+
+0:55:05
+Speaker 0 :other
+ and basically create nucleotide
+
+0:55:09
+Speaker 1 :resolution
+
+
+0:55:10
+Speaker 0 :
+
+0:55:11
+Speaker 1 :correspondences what my phd work showed
+ is that when you do that when you line up species on top of each other
+
+0:55:17
+Speaker 0 :you can see that within protein coding
+ genes there's a particular pattern of evolution that is dictatedby the level at which evolutionary
+ selection acts if i'm coding for a proteinand i change the third codon position of
+
+
+0:55:33
+Speaker 1 :a triplet
+
+
+0:55:36
+Speaker 0 :that codes for that amino acid the same
+ amino acid will be encoded so that basically means that any kind ofmutation
+ that preserves that translation that is invariant
+
+0:55:46
+Speaker 1 :to that ultimate functional assessment
+
+
+0:55:51
+Speaker 0 :that evolution will give is tolerated so
+
+
+0:55:53
+Speaker 1 :for any function that you're trying to
+
+
+0:55:55
+Speaker 0 :achieve there's a set of sequences that
+ encode it you can now look at the mapping the
+
+0:56:01
+Speaker 1 :you know graph isomorphism if you wish
+
+
+0:56:04
+Speaker 0 :
+
+0:56:05
+Speaker 1 :between all of the possible dna
+ encodings of a particular function and that function and instead of havingjust that exact
+ sequence at the protein level you can think of the set of proteinsequences that all fulfill the same
+
+
+0:56:17
+Speaker 0 :function what's evolution doing
+
+
+0:56:19
+Speaker 1 :
+
+0:56:20
+Speaker 0 :evolution has two components one
+
+
+0:56:21
+Speaker 1 :
+
+0:56:22
+Speaker 0 :component is random
+ blind and stupid mutation the other
+
+0:56:26
+Speaker 1 :component
+ is super smart ruthless selection that's my mom calling fromgreece
+ yes i might be a fully grown man [Laughter]did you just cancel the call wow i know
+ i'm in trouble she's gonna be calling the cops[Laughter]
+
+
+0:56:51
+Speaker 0 :so so yeah so there's a lot of encoding
+ for the same kind of function yeah so
+
+0:56:54
+Speaker 1 :so you now have this mapping between all
+ of the set of functions that could all encode the same all of the set ofsequences that can all encode the same
+ function
+
+0:57:04
+Speaker 0 :what evolutionary signatures does is
+
+
+0:57:06
+Speaker 1 :that it basically looks at the shape
+
+
+0:57:08
+Speaker 0 :
+
+0:57:09
+Speaker 1 :of that distribution of sequences that
+ all encode
+
+0:57:13
+Speaker 0 :the same thing and based on that shape
+ you can basically say ooh proteins have a very different shape
+
+0:57:16
+Speaker 1 :
+
+0:57:18
+Speaker 0 :than rna structures
+
+
+0:57:20
+Speaker 1 :than regulator motifs etc so just by
+
+
+0:57:22
+Speaker 0 :scanning a sequence
+ ignoring the sequence and just looking at the patterns of change
+
+0:57:26
+Speaker 1 :i'm like wow this thing is evolving like
+
+
+0:57:28
+Speaker 0 :a protein and that thing is evolving
+ like a motif and that thing is evolving
+
+0:57:32
+Speaker 1 :
+
+0:57:33
+Speaker 0 :so that's exactly what we just did for
+ covid
+
+0:57:36
+Speaker 1 :so our paper that we posted about our
+ archive about coronavirus basically took this concept of
+
+0:57:40
+Speaker 0 :evolutionary signatures and applied it
+
+
+0:57:43
+Speaker 1 :on the sarsko v2 genome that is
+
+
+0:57:47
+Speaker 0 :responsible for the carbon-19 pandemic
+
+
+0:57:47
+Speaker 1 :
+
+0:57:48
+Speaker 0 :uh and comparing it to 44 cerbicovirus
+
+
+0:57:50
+Speaker 1 :species so this is
+ the beta word did you just use cervical sarbic virus sars related betacorona virus it's a port ponto so that
+ one family of viruses yeah so it was that family by the way wehave 44 species
+ that or 24 species in the fam yeah virus
+
+0:58:09
+Speaker 0 :is a clever
+
+
+0:58:10
+Speaker 1 :no no but but there's just 44 and again
+ we don't call them species in in viruses we call them strange butanyway there's 44 strains
+
+
+0:58:18
+Speaker 0 :and that's a tiny little subset of you
+
+
+0:58:20
+Speaker 1 :know maybe another 50 strains that are
+ just far too distantly related most of those only infect batsas the host and a subset of only four or
+ five have ever infected humans and we
+
+0:58:33
+Speaker 0 :
+
+0:58:33
+Speaker 1 :basically took all of those and we
+ aligned them in the same exact way that we've alignedmammals and then we looked at
+ what proteins are you know which of the currently hypothesized genesfor the coronavirus genome are in fact
+ evolving like proteins and which ones are notand what we found is that orf10 the last
+ little open reading frame the last little genein the genome is bogus
+ that's not a protein at all what is it
+
+0:58:58
+Speaker 0 :
+
+0:59:00
+Speaker 1 :it's an rna structure
+
+
+0:59:00
+Speaker 0 :that doesn't have a it doesn't get
+
+
+0:59:03
+Speaker 1 :translated into amino acids
+
+
+0:59:05
+Speaker 0 :and that's so it's important to narrow
+ down to basically discover what's useful and what's not
+
+0:59:10
+Speaker 1 :exactly basically what are what is even
+ the set of genes the other thing that these evolutionary signatures showed isthat
+
+
+0:59:17
+Speaker 0 :within or 3a lies a tiny little
+
+
+0:59:19
+Speaker 1 :
+
+0:59:20
+Speaker 0 :additional gene encoded within the other
+
+
+0:59:20
+Speaker 1 :gene
+ so you can translate a dna sequence in three different reading framesif you start in the first one it's you
+ know atg et cetera if you start on the second it's tgc
+
+0:59:32
+Speaker 0 :etc and with there's a there's a gene
+
+
+0:59:34
+Speaker 1 :
+
+0:59:34
+Speaker 0 :within a gene
+
+
+0:59:36
+Speaker 1 :so there's a whole other protein that we
+ didn't know about that might be super
+
+0:59:39
+Speaker 0 :
+
+0:59:40
+Speaker 1 :important
+
+
+0:59:41
+Speaker 0 :so we don't even know the building
+
+
+0:59:42
+Speaker 1 :blocks of sarsko v2
+ so if we want to understand coronavirus biology and eventually find it
+
+0:59:49
+Speaker 0 :successfully
+ we need to even have the set of genes
+
+0:59:51
+Speaker 1 :and and these evolutionary signatures
+ that are developed in my phd work we just
+
+0:59:57
+Speaker 0 :recently used you know what let's uh
+ let's run with that tangent for a little bitif it's okay uh is uh can we talk about
+ uh the the kovic 19 a little bit more like how what's your sense about the thegenome
+ the proteins the functions that we understand aboutcovet 19 where do we stand in in your
+ sense what are the big open problems and andalso
+
+
+1:00:22
+Speaker 1 :
+
+1:00:23
+Speaker 0 :you know you you kind of said it's
+ important to understand what are the like the the important proteins andlike why is that important
+
+
+1:00:34
+Speaker 1 :so what else does the
+ comparison of these species tell us what it tells us is
+
+1:00:40
+Speaker 0 :
+
+1:00:41
+Speaker 1 :how fast are things evolving it tells us
+ about at what level is the acceleration ordeceleration pedal
+ set for every one of these proteins so the genome has you know 30 some genes
+
+1:00:53
+Speaker 0 :
+
+1:00:54
+Speaker 1 :some genes evolve super super fast
+ others evolve super super slow if you look at thepolymerase gene that basically
+ replicates the genome that's a super slow evolving oneif you look at the nuclear capsid
+ protein that's also super slow evolving if you look at the spike
+
+1:01:09
+Speaker 0 :one protein
+
+
+1:01:11
+Speaker 1 :this is the part of the spike protein
+ that actually touches the h2 receptor and then enables the virus to attachto your cells that's the thing that
+
+
+1:01:21
+Speaker 0 :gives it that
+
+
+1:01:23
+Speaker 1 :that visual yeah the corona look
+ basically the coronal look yeah so basically the spike protein sticksout of the virus and there's a first
+ part of the protein s1 which basically attaches to the h2receptor
+ and then s2 is the latch that sort of pushes and channels the fusion of themembranes and then the incorporation
+ of the um viral rna inside our cells which then getstranslated into all of these 30 proteins
+
+
+1:01:51
+Speaker 0 :so the s1 protein is evolving
+
+
+1:01:54
+Speaker 1 :ridiculously fast so if you look at
+ the stop professor's gas pedal the gas
+
+1:02:01
+Speaker 0 :pedal is all the way down
+
+
+1:02:04
+Speaker 1 :or 8 is also evolving super fast and or
+ six is evolving super fast we have no idea what they dowe have some idea but nowhere near what
+ s1 is so what the isn't that terrifying that
+
+1:02:14
+Speaker 0 :s1 is evol that means
+ that's a really useful function and if it's evolving fastdoesn't that mean new strains could be
+ created or it does something that means
+
+1:02:21
+Speaker 1 :that it's searching for
+ how to match how to best match the host so basically anythingin in general in evolution if you look
+ at genomes anything that's contacting the environmentis evolving much faster than anything
+ that's internal and the reason is that the environment changesso if you look at um the evolution of
+ these cervical viruses the s1 protein has evolved very rapidly
+
+1:02:45
+Speaker 0 :because it's attaching to different
+
+
+1:02:46
+Speaker 1 :hosts each time we think of them as bats
+ but there's thousands of species of bats and to go from one species of bat toanother species of bat you have to
+ adjust one to the new ace2 receptor that you'regoing to be facing in that new species
+ sorry quick tangent yeah is it
+
+1:02:59
+Speaker 0 :fascinating to you
+ that viruses are doing this i mean it feels like they're this intelligentorganism
+ i mean is it like does that give you pause howincredible it is that they're the the
+ evolutionary dynamics that you're describing is actually happeningand they're freaking out figuring out
+ how to jump from bass to humans all in this distributed fashion and thenmost of us don't even say they're alive
+ or intelligent whatever
+
+1:03:27
+Speaker 1 :so intelligence is in the eye of the
+ beholder you know stupid is a stupid dose asforest gum would say yes and
+ intelligence is as intelligent does so basically if the virus isfinding solutions that we think of as
+ intelligent yeah it's probably intelligentbut that's again in the eye of the
+ beholder do you think viruses are
+
+1:03:44
+Speaker 0 :intelligent
+ of course not really no
+
+1:03:48
+Speaker 1 :because so incredible so remember
+ remember when i was talking about the two components of evolutionone is the stupid mutation yeah which is
+ completely blind and the other one is the super smartselection
+ which is ruthless so it's not viruses who are smart it's thiscomponent of evolution that's smart
+ so it's evolution that that sort of appears smart
+
+1:04:10
+Speaker 0 :and how is that happening by huge
+
+
+1:04:15
+Speaker 1 :parallel search across thousands of
+
+
+1:04:17
+Speaker 0 :you know parallel infections throughout
+
+
+1:04:19
+Speaker 1 :the world right now
+ yes but so to perfect on that so yes so
+
+1:04:23
+Speaker 0 :then the
+ the intelligence is in the mechanism but then uh by that argument uh viruseswould be more intelligent because
+ there's just more of them so the search they're basically the thebrute force
+ search that's happening with viruses because there's so many more of themthan humans
+ then they're taken as a whole are more intelligenti mean so you don't think it's possible
+ that
+
+1:04:50
+Speaker 1 :i i mean who runs would we even be here
+
+
+1:04:53
+Speaker 0 :with if viruses weren't
+ i mean who runs this thing so
+
+1:04:58
+Speaker 1 :survivors so let me answer yeah let me
+ answer your your question
+
+1:05:04
+Speaker 0 :um so um
+
+
+1:05:06
+Speaker 1 :we would not be here if it wasn't for
+ viruses yes and part of the reason is that if youlook at mammalian evolution
+ early on in this mammalian radiation that basically happened after the deathof the dinosaurs
+ is that some of the viruses that we had
+
+1:05:21
+Speaker 0 :in our genome
+ spread throughout our genome and created binding sites for new classes of
+
+1:05:27
+Speaker 1 :
+
+1:05:29
+Speaker 0 :regulatory proteins
+
+
+1:05:30
+Speaker 1 :and these binding sites that landed all
+ over our genome are now control elements that basicallycontrol our genes
+ and sort of help the complexity of the circuitryof mammalian genomes so you know
+ everything's co-evolution and we're
+
+1:05:45
+Speaker 0 :working together
+
+
+1:05:48
+Speaker 1 :
+
+1:05:49
+Speaker 0 :yeah but and yet you saw
+ they just don't care they don't care another thing oh is the virus trying tokill us no it's not the virus is not
+ trying to kill you it's true
+
+1:05:59
+Speaker 1 :it's not it's actually actively trying
+
+
+1:06:00
+Speaker 0 :to not kill you
+ so when you get infected if you die
+
+1:06:06
+Speaker 1 :palmer i killed him is what the reaction
+ of the virus will be why because that
+
+1:06:10
+Speaker 0 :virus won't spread
+ many people have a misconception of oh
+
+1:06:12
+Speaker 1 :viruses are smart or
+ oh viruses are mean they don't care
+
+1:06:16
+Speaker 0 :
+
+1:06:19
+Speaker 1 :it like you have to clean yourself of
+ any kind of anthropomorphism out there i don't know oh yes
+
+1:06:26
+Speaker 0 :so there's a there's a sense when taken
+ as a whole that there's
+
+1:06:31
+Speaker 1 :it's in a eye of the beholder stupid is
+ a stupid does intelligent injustice intelligence doesso if you want to call them intelligent
+ that's fine then because and the end result is that they'refinding amazing solutions
+
+
+1:06:42
+Speaker 0 :right i mean i mean but they're all
+ they're so dumb about it they're just doing dumb they don't care they're not
+
+1:06:47
+Speaker 1 :dumb and they're not interested
+
+
+1:06:48
+Speaker 0 :they don't care they care the care word
+ is really interesting exactly i mean
+
+1:06:51
+Speaker 1 :there could be an argument that they're
+ conscious
+
+1:06:54
+Speaker 0 :they're just dividing they're not
+ they're just dividing they're just a little entity whichhappens to be dividing and spreading it
+
+
+1:07:03
+Speaker 1 :does doesn't want to kill us in fact it
+
+
+1:07:04
+Speaker 0 :prefers not to kill us
+ it just wants to spread and when i say once again i'm anthropomorphizing
+
+1:07:11
+Speaker 1 :but it's just that if you have two
+ versions of a virus one acquires a mutation that spreads morethat's going to spread more one acquires
+ a mutation that's pressed less that's going to be lostyes one acquires a mutation that enters
+
+
+1:07:23
+Speaker 0 :faster that's going to be kept
+
+
+1:07:24
+Speaker 1 :one requires a mutation that kills you
+ right away it's going to be lost
+
+1:07:29
+Speaker 0 :so over evolutionary time the viruses
+
+
+1:07:31
+Speaker 1 :that spread super well
+ but don't kill the host are the ones
+
+1:07:34
+Speaker 0 :that are going to survive
+ yeah but so you see you brilliantly describe the basic mechanisms of how itall happens but when you zoom out
+ and you see the uh you know the entirety of viruses maybe acrossdifferent strains of viruses it seems
+ like a living organism
+
+1:07:52
+Speaker 1 :
+
+1:07:53
+Speaker 0 :i am in awe of biology i find biology
+ amazingly beautiful i find the design
+
+1:08:00
+Speaker 1 :of the current coronavirus however
+
+
+1:08:00
+Speaker 0 :lethal it is amazingly beautiful
+ the way that it is encoded the way that it tricksyour cells into making 30 proteins from
+ a single rna human cells don't do that human cellsmake
+ one protein from each rna molecule they don't make two they make onewe are hardwired to make only one
+ protein from every rna molecule and yet this virus goes in throws in asingle messenger rna
+ just like any messenger rna we have tens of thousands of messenger rnas in our
+
+1:08:31
+Speaker 1 :
+
+1:08:32
+Speaker 0 :cells in any one time
+ in every one of our cells it throws in one rnaand that rna is so
+
+
+1:08:39
+Speaker 1 :i'm going to use your word here not my
+ word intelligent
+
+1:08:43
+Speaker 0 :yeah that it hijacks the entire
+ machinery of your human cell yeah it basicallyhas at the beginning a giant open
+ reading frame that's a giant protein that getstranslated two-thirds of that rna
+ make a single giant protein that single
+
+1:09:02
+Speaker 1 :protein
+ is basically what a human cell would make it's like oh here's a start codoni'm going to start translating here
+ human cells are kind of dumb i'm sorry again this isnot the word that we normally use but
+ the human cell basically is oh this is an rna it must be mine let me translateand it starts translating it and then
+
+
+1:09:17
+Speaker 0 :you're in trouble why
+ because that one protein as it's growing gets cleaved into about 20 differentpeptides
+ the first peptide and the second peptide startinteracting and the third one and the
+ fourth one and they shut off the ribosome of the whole cellto not translate human
+ rnas anymore so the virus basically
+
+1:09:43
+Speaker 1 :hijacks
+
+
+1:09:45
+Speaker 0 :your cells and it cuts it cleaves every
+ one of your human rnas to basically say to the ribosome don't
+
+1:09:51
+Speaker 1 :
+
+1:09:52
+Speaker 0 :translate this one junk don't look at
+ this one junk and it only spares its own rnas
+
+1:09:58
+Speaker 1 :because they have a particular mark that
+
+
+1:10:00
+Speaker 0 :it spares then all of the ribosomes that
+
+
+1:10:03
+Speaker 1 :normally make protein
+ in your human cells are now only able to translate
+
+1:10:07
+Speaker 0 :
+
+1:10:08
+Speaker 1 :viral rnas and make more and more and
+
+
+1:10:09
+Speaker 0 :
+
+1:10:10
+Speaker 1 :more and more of them
+ that's the first 20 proteins in fact halfway down aboutprotein 11 between you know 11 and 12
+
+
+1:10:18
+Speaker 0 :you basically have a translational
+ slippage where the ribosome skips reading frame
+
+1:10:24
+Speaker 1 :and it translates from one reading frame
+ to another reading frame that means that about half of them are going to betranslated from 1 to
+ 11 and the other half are going to be translated from 12 to 16.
+
+1:10:32
+Speaker 0 :wow it's gorgeous and then
+ then you're done then that mrna will never translate elastin proteins butspike is the one right after that one so
+ how does spike even get translated this positive strand rna virus has areverse transcriptase
+ which is an rna-based reverse
+
+1:10:51
+Speaker 1 :transcriptase so from the rna on the
+
+
+1:10:53
+Speaker 0 :positive strand it makes an rna of the
+ negative strand and in between every single one of thesegenes these open reading frames
+ there's a little signal aac gca or something like thatthat basically loops over to the
+
+
+1:11:07
+Speaker 1 :beginning
+
+
+1:11:09
+Speaker 0 :of the rna and basically instead of sort
+
+
+1:11:11
+Speaker 1 :of having a single
+ full negative strand or an a it
+
+1:11:14
+Speaker 0 :basically has a partial negative strand
+ rna that ends right before the beginning ofthat gene and another one that ends
+ right before the beginning of that gene
+
+1:11:22
+Speaker 1 :these negative strand rnas now make
+
+
+1:11:24
+Speaker 0 :positive strand rnas
+
+
+1:11:25
+Speaker 1 :that then look to the human whole cell
+ just like any other
+
+1:11:29
+Speaker 0 :human mrna it's like oh great i'm going
+
+
+1:11:31
+Speaker 1 :to translate that one because it doesn't
+ have the cleaving that the virus has now
+
+1:11:34
+Speaker 0 :put on all your human genes
+ and then you've lost the battle that cell is now only making proteins for thevirus
+ that will then create the spike protein
+
+1:11:45
+Speaker 1 :the envelope protein the membrane
+ protein the nucleocapsid protein that
+
+1:11:49
+Speaker 0 :will package up the rna
+ and then sort of create new viral envelopesand these will then be secreted out of
+ that cell in new little packages that will then
+
+1:11:58
+Speaker 1 :infect the rest of the cells and repeat
+
+
+1:12:01
+Speaker 0 :the whole process
+
+
+1:12:02
+Speaker 1 :beautiful right it's hard not to
+
+
+1:12:04
+Speaker 0 :anthropomorphize it
+
+
+1:12:06
+Speaker 1 :
+
+1:12:07
+Speaker 0 :oh but it's so gorgeous so there is a
+ beauty to it is there is it is it terrifying to you
+
+1:12:14
+Speaker 1 :so this is something that has happened
+ throughout history humans have been nearly wiped out over and over and over
+
+1:12:20
+Speaker 0 :again and yet never fully wiped out
+ so i'm yeah i'm not concerned about the
+
+1:12:24
+Speaker 1 :human race i'm not even concerned about
+ you know the impact on sort of our our survival as a species umthis is absolutely something i mean you
+ know human life is so invaluable and everyone of us is so invaluable but if you
+ think of it as sort of is this the end of ourspecies
+ by by no means basically so so let me explain
+
+1:12:48
+Speaker 0 :the black death killed what 30 of europe
+
+
+1:12:50
+Speaker 1 :
+
+1:12:51
+Speaker 0 :that has left a tremendous imprint
+
+
+1:12:55
+Speaker 1 :uh you know a huge hole a horrendous
+
+
+1:12:58
+Speaker 0 :hole
+ in the genetic makeup of humans
+
+1:13:05
+Speaker 1 :there's been series of wiping out of
+
+
+1:13:06
+Speaker 0 :huge fractions of entire species or just
+
+
+1:13:11
+Speaker 1 :
+
+1:13:11
+Speaker 0 :entire species all together
+ and that has a consequence on the human immune repertoireif you look at how europe was shaped
+
+
+1:13:24
+Speaker 1 :and how africa was shaped by malaria for
+ example all the individuals that carry amutation that protected from malaria
+
+
+1:13:31
+Speaker 0 :
+
+1:13:32
+Speaker 1 :were able to survive much more and if
+ you look at the frequency of sickle cell disease and the frequencyof malaria
+
+
+1:13:38
+Speaker 0 :
+
+1:13:38
+Speaker 1 :the maps are actually showing the same
+ pattern the same imprint on africa and that basically led people tohypothesize that the reason why sickle
+ cell disease is so much more frequent in americans of african descent isbecause there was selection in africa
+
+
+1:13:51
+Speaker 0 :against malaria leading to sickle cell
+
+
+1:13:55
+Speaker 1 :because when the cells sickle malaria is
+ not able to you know replicate inside your cells aswell and therefore you protect against
+ that
+
+1:14:03
+Speaker 0 :so if you look at human disease all of
+ the genetic associations that we do
+
+1:14:06
+Speaker 1 :
+
+1:14:08
+Speaker 0 :with human disease you basically see
+
+
+1:14:11
+Speaker 1 :the imprint of these
+
+
+1:14:14
+Speaker 0 :waves of selection killing off
+
+
+1:14:16
+Speaker 1 :gazillions of humans
+
+
+1:14:18
+Speaker 0 :and there's so many immune
+ processes that are coming up as associated with so many different
+
+1:14:24
+Speaker 1 :diseases
+ the reason for that is similar to what i was describing earlier where the
+
+1:14:29
+Speaker 0 :outward facing proteins evolve much more
+ rapidly because the environment is always
+
+1:14:35
+Speaker 1 :changing but what's really interesting
+
+
+1:14:35
+Speaker 0 :
+
+1:14:37
+Speaker 1 :the human genome is that we have
+
+
+1:14:38
+Speaker 0 :co-opted many of these immune genes to
+
+
+1:14:41
+Speaker 1 :carry out non-immune functions
+
+
+1:14:43
+Speaker 0 :for example in our brain we use immune
+ cells to cleave off neuronal connections thatdon't get used
+ this whole user will lose it we know the mechanism it's microglia the cleave ofneuronal synaptic connections that are
+ just not utilized
+
+1:14:59
+Speaker 1 :when you utilize them you mark them in a
+ particular way that basically when the microglia
+
+1:15:04
+Speaker 0 :come tell it don't kill this one it's
+
+
+1:15:05
+Speaker 1 :it's used now
+ and the microwave will go off and kill once you don't use this is an immune
+
+1:15:10
+Speaker 0 :function which is co-opted to do
+
+
+1:15:12
+Speaker 1 :non-immune things
+
+
+1:15:15
+Speaker 0 :if you look at our adipocytes m1 versus
+
+
+1:15:18
+Speaker 1 :m2 macrophages inside our fat
+ will basically determine whether you're
+
+1:15:21
+Speaker 0 :obese or not and these are again immune
+ cells that are resident and living within
+
+1:15:25
+Speaker 1 :
+
+1:15:27
+Speaker 0 :these tissues so many disease
+
+
+1:15:29
+Speaker 1 :associations
+
+
+1:15:30
+Speaker 0 :that we co-opt these kinds of things for
+ incredibly uh complicated functions exactly evolution works in
+
+1:15:38
+Speaker 1 :so many different ways which are all
+ beautiful and mysterious it's not intelligent not intelligentit's in the eye of the beholder
+ [Laughter] but but but the the the point that i'mtrying to make is that
+ if you look at the imprint that kovit will havehopefully it will not be big hopefully
+ the u.s will get attacked together and stop the virus fromspreading further but if it doesn't it's
+
+
+1:16:02
+Speaker 0 :having an imprint
+
+
+1:16:03
+Speaker 1 :on individuals who have particular
+ genetic repertoires so if you look at now the genetic
+
+1:16:08
+Speaker 0 :associations of blood type
+
+
+1:16:10
+Speaker 1 :and immune function cells etc there's
+ actually association genetic variation that basically says how much more likelyam i or you to die
+ if we contact the virus and it's it's
+
+1:16:21
+Speaker 0 :through these rounds of shaping
+ the human genome that humans have basically made it so farand uh selection
+
+
+1:16:29
+Speaker 1 :is ruthless and it's brutal and it only
+ comes with a lot of killing but this is the way that viruses andenvironments have shaped the human
+ genome basically when you go through periods of famine
+
+1:16:41
+Speaker 0 :you select for particular genes and
+ what's left is not necessarily better it's just
+
+1:16:47
+Speaker 1 :whatever survived
+
+
+1:16:48
+Speaker 0 :and it may have been the surviving one
+
+
+1:16:50
+Speaker 1 :back then not because it was better
+ maybe the ones that ran slower survived i mean you know again not necessarilybetter
+ but the surviving ones are basically the ones that thenare shaped for any kind of subsequent
+ evolutionary condition and environmental conditionbut if you look at
+
+
+1:17:08
+Speaker 0 :for example obesity obesity was selected
+ for
+
+1:17:12
+Speaker 1 :basically the genes that now predisposes
+ to obesity were at two percent frequency
+
+1:17:14
+Speaker 0 :in africa
+ they rose to 44 frequency in europe wow that's fascinatingbecause you basically went through the
+ ice ages and there was a scarcity of food
+
+1:17:24
+Speaker 1 :so you know there was a selection to
+ being able to store every single
+
+1:17:28
+Speaker 0 :calorie you consume eventually
+ environment changes so the better allele
+
+1:17:34
+Speaker 1 :which was the
+ fat storing allele became the worst
+
+1:17:36
+Speaker 0 :
+
+1:17:37
+Speaker 1 :allele because it's
+ the fat storing allele it still has the
+
+1:17:39
+Speaker 0 :
+
+1:17:41
+Speaker 1 :same function
+ so if you look at my genome speaking of mom calling
+
+1:17:46
+Speaker 0 :mom gave me a bad copy of that gene
+ these fto locus
+
+1:17:49
+Speaker 1 :
+
+1:17:50
+Speaker 0 :basically has to do with the obesity or
+ the obesity
+
+1:17:53
+Speaker 1 :yeah i basically now have a bad copy
+ from mom that makes me more likely to be
+
+1:17:57
+Speaker 0 :obese and i also
+ also have a bad copy from dad that makes
+
+1:17:59
+Speaker 1 :me more likely to be obese i'm
+
+
+1:18:02
+Speaker 0 :homozygous
+
+
+1:18:04
+Speaker 1 :and that's the allele
+ it's still the minor allele but it's at
+
+1:18:07
+Speaker 0 :44 frequency
+
+
+1:18:10
+Speaker 1 :in southeast asia 42 frequency in europe
+
+
+1:18:12
+Speaker 0 :even though it started at 2
+ it was an awesome allele to have 100 years ago
+
+1:18:18
+Speaker 1 :right now it's pretty terrible so the
+
+
+1:18:20
+Speaker 0 :other concept is that diversity matters
+ if we had a hundred million nuclear
+
+1:18:25
+Speaker 1 :physicists living the earth right now
+
+
+1:18:27
+Speaker 0 :we'd be in trouble you need diversity
+ you need artists and you need musicians and you need mathematicians and you needyou know politicians yes even those and
+
+
+1:18:36
+Speaker 1 :you need like
+
+
+1:18:39
+Speaker 0 :it's not it's not get crazy enough but
+ so because then if uh virus comes along or whatever
+
+1:18:44
+Speaker 1 :exactly exactly so no there's two
+ reasons number one you want diversity and immune repertoire
+
+1:18:50
+Speaker 0 :and we have built in diversity
+
+
+1:18:51
+Speaker 1 :so basically they're they are the most
+ diverse basically if you look at our immune system there's layers and layersof diversity
+
+
+1:18:57
+Speaker 0 :like the way that you create your cells
+
+
+1:19:01
+Speaker 1 :generates diversity because of the
+ selection for the vdj recombination that basicallyeventually leads to a huge number of
+ repertoires but that's only one small component ofdiversity the blood type is another one
+ the major histogram histocompatibility complex the hlaalleles are
+ you know another source of diversity so the immune system of humansis by nature incredibly diverse
+
+
+1:19:23
+Speaker 0 :
+
+1:19:24
+Speaker 1 :and that basically leads to resilience
+ so basically what i'm saying that i don't worry for the human speciesbecause we are so diverse
+ immunologically we are likely to be very resilientagainst
+ so many different attacks like this
+
+1:19:40
+Speaker 0 :current virus so you're saying
+ natural pandemics may not be something that you're really afraid ofbecause of the diversity in our
+ genetic makeup what about engineered pandemicsdo you have fears of us messing
+ with the makeup of viruses or well yeah let's say with the makeup of viruses tocreate something that we can't control
+ and we'd be much more destructive than it would come about naturally
+
+1:20:06
+Speaker 1 :remember how we were talking about how
+ smart evolution is
+
+1:20:09
+Speaker 0 :
+
+1:20:10
+Speaker 1 :humans are much dumber so you mean like
+ human scientists yeah humans humans just humans overall yeahbut i mean even you know the sort of
+ synthetic biologists um you know basically
+
+1:20:23
+Speaker 0 :
+
+1:20:24
+Speaker 1 :if you were to create a you know
+ virus like sars that will kill other people you would probably starsstart with stars so whoever
+ you know would like to design such a thing would basically start with starstree or at least some relative of stars
+ the source genome for the current virus was something completely different itwas something that has never infected
+
+
+1:20:49
+Speaker 0 :humans
+ no one in their right mind would have
+
+1:20:51
+Speaker 1 :
+
+1:20:52
+Speaker 0 :started there oh but when you say source
+ is like the nearest
+
+1:20:55
+Speaker 1 :the nearest relative relative he's in a
+ whole other branch no species of which has ever infectedhumans in that branch
+ so you know let's put this to rest this was not designedby someone to kill off the human race so
+ you don't you don't believe it was
+
+1:21:09
+Speaker 0 :
+
+1:21:10
+Speaker 1 :engineered
+ the likely yeah the the path to engineering a deadly virus would notcome
+ from this strain that got it that was useduh moreover there's been various
+ um claims of haha this was mixed and matched in labbecause the s1 protein has three
+ different components each of which has a different evolutionary treeso you know a lot of popular press
+ basically said aha this came from pangolin and this camefrom you know all kinds of other species
+ this is what has been happening throughout the coronavirus treeso basically the s1 protein has been
+ recombining across species all the time remember when i was talking about thepositive strand the negative strands sub
+ genomic rnas these can actually recombine and if youhave two different viruses infecting the
+ same cell they can actually mix and match betweenthe positive strand and the negative
+ strand and basically create a new hybrid virus with recombinationthat now has the s1 from one
+ and the rest of the genome from another and this is something that happens a lotin s1 you know
+ fade etc and that's something that's true of the whole trainingfor the whole family exactly viruses so
+ it's not like someone has been messing with this for millions of yearsand you know changing
+ this happens naturally that's again
+
+1:22:21
+Speaker 0 :beautiful that that somehow happens that
+ they recombine in the so two different strands can affect thebody and recombine
+ so all of this actually magic happens inside uhhosts like all like yeah yeah that way
+
+
+1:22:36
+Speaker 1 :that's why classification wise virus is
+ not thought to be alive because it doesn't self-replicate it'snot autonomous it's something that
+ enters a living cell and then co-opts it tobasically make it its own
+ but by itself people ask me how do we kill this bastard i'm like you stop itfrom replicating
+
+
+1:22:53
+Speaker 0 :
+
+1:22:54
+Speaker 1 :it's not like a bacterium that will just
+ live in a you know puddle or something it's a virus viruses don't live withouttheir host
+ and they only live in their house for very little time so if you stop it fromreplicating
+ it'll stop from spreading i mean it's not like hiv which can stay dormant fora long time basically coronaviruses just
+ don't do that they're not integrating genomes there are any genomesso if it's not expressed it degrades rna
+ degrades
+
+1:23:21
+Speaker 0 :it doesn't just stick around well let me
+ ask also um about the immune system you mentioned alot of people kind of ask
+ you know um how can we strengthen the immune systemto respond to this particular virus but
+ the viruses in general do you have from a biologicalperspective thoughts on what we can do
+ as humans
+
+1:23:43
+Speaker 1 :uh too if you look at our traits across
+ different countries people with less vaccination have beendying more
+ if you look at north italy the vaccination rates areabysmal there and a lot of people have
+ been dying if you look at greece very good vaccination rates almost noone has been dying
+ so yes there's a policy component so italy reacted very slowly greecereacted very fast
+ so yeah many fewer people died in greece but there might actually bea component of genetic immune repertoire
+ basically how did people die off you know in the historyof the greek population versus the
+ italian population there's a
+
+1:24:22
+Speaker 0 :that's interesting to think about uh and
+
+
+1:24:24
+Speaker 1 :then there's a component
+ of what vaccinations did you have as a kid and what are the off-target effectsof those vaccinations
+ so basically a vaccination can have two components one istraining your your immune system against
+ that specific insult the second one is boosting up yourimmune system for all kinds of other
+ things if you look at allergies northern europe
+
+1:24:46
+Speaker 0 :
+
+1:24:48
+Speaker 1 :super clean environments tons of
+ allergies southern europe my kids grew up eatingdirt
+ no allergies so growing up i never had even heard of whatallergies are like really allergies
+ and the reason is that i was playing in the garden i was putting all kinds ofstuff in my mouth from you know all
+ kinds of dirt and stuff tons of viruses there tons of bacteriathere you know my immune system was
+ built up so the more you protect your immunesystem from exposure
+ the less opportunity it has to learn about non-selfrepertoire in a way that prepares it for
+ the next insult
+
+1:25:25
+Speaker 0 :so it's a horizontal thing too like the
+ says throughout your lifetime in the lifetime of theof the people that uh your ancestors
+ yeah that kind of thing yeah what about the so again it returnsagainst free will
+ on the free will side of things is there something we could doto strengthen our immune system in 2020
+
+
+1:25:45
+Speaker 1 :is there like uh you know exercise
+
+
+1:25:47
+Speaker 0 :diet all that kind of stuff so it's kind
+
+
+1:25:50
+Speaker 1 :of funny um
+ there's a cartoon that basically shows uh two windowswith a teller in each window one has a
+ humongous line and the other one has no one the onethat has no one above says
+ health no it says exercise and diet and the other one says pill yeahand there's a huge line for pill so
+ we're looking basically for magic bullets for sort ofways that we can you know beat cancer
+ and beat coronavirus and beat this and beat that and it turns out that thewindow with
+ like just diet and exercise is the best way to boostevery aspect of your health if you look
+ at alzheimer's exercise and nutrition
+
+1:26:30
+Speaker 0 :i mean you're like really for my brain
+ neurodegeneration absolutely if you look at cancer
+
+1:26:36
+Speaker 1 :exercise and nutrition if you look at
+ coronavirus
+
+1:26:42
+Speaker 0 :exercise and nutrition every single
+
+
+1:26:43
+Speaker 1 :aspect of human health
+ gets improved and one of the studies we're doing now is basically looking atwhat
+ are the effects of diet and exercise
+
+1:26:53
+Speaker 0 :how similar are they to each other we're
+
+
+1:26:55
+Speaker 1 :basically taking
+
+
+1:26:57
+Speaker 0 :diet intervention and exercise
+
+
+1:26:58
+Speaker 1 :intervention in human and in mice
+ and we're basically doing single cell profiling of a bunch of differenttissues to basically understand
+
+
+1:27:06
+Speaker 0 :how are the cells both the stromal cells
+
+
+1:27:08
+Speaker 1 :and the immune cells of each of these
+
+
+1:27:12
+Speaker 0 :tissues responding to
+
+
+1:27:14
+Speaker 1 :the effect of exercise what are the
+ communication networks between different cellswhere with the muscle that exercises
+
+
+1:27:22
+Speaker 0 :sends signals through the bloodstream
+
+
+1:27:25
+Speaker 1 :through the lymphatic system through all
+ kinds of other systems
+
+1:27:29
+Speaker 0 :that give signals to other cells that i
+
+
+1:27:29
+Speaker 1 :have exercised and you should change in
+ this particular way which basically reconfigure thosereceptor cells
+
+
+1:27:37
+Speaker 0 :with the effect of exercise how well
+ understood is the those reconfigurations very little
+
+1:27:44
+Speaker 1 :we're just starting now basically is
+
+
+1:27:47
+Speaker 0 :there is the hope there uh
+ to understand the effect on uh so like the effect on the immune
+
+1:27:54
+Speaker 1 :system on the immune system the effect
+ on brain the effect on your liver on yourdigestive system on your adipocytes
+
+
+1:27:59
+Speaker 0 :adipose you know the most misunderstood
+
+
+1:28:02
+Speaker 1 :organ everybody thinks oh
+
+
+1:28:05
+Speaker 0 :fat terrible no fat is awesome your fat
+
+
+1:28:06
+Speaker 1 :cells is what's keeping you alive
+ because if you didn't have your fat cells all those lipids and all thosecalories would be floating around in
+ your blood and you'd be dead by now your adipocytes are your best friendthey're basically storing
+ all these excess calories so that they don't hurtall of the rest of the body and they're
+ also fat burning in many ways so you knowagain
+ when you don't have the homozygous version that i have your cells are ableto burn calories much more easily
+ by sort of flipping a master metabolic
+
+1:28:38
+Speaker 0 :switch
+
+
+1:28:39
+Speaker 1 :that involves this fto locus that i
+ mentioned earlier and its target genes irx3 and rx5that basically switch your adipocytes
+ during their three first days of differentiation asthey're becoming mature dipocytes to
+ basically become either fat burning
+
+1:28:55
+Speaker 0 :or fat storing fat cells and the fat
+
+
+1:28:56
+Speaker 1 :burning fat cells are your best friends
+ they're much closer to muscle than they are to white egg boss eyes is
+
+1:29:02
+Speaker 0 :there a lot of difference between people
+ like that you could give science couldeventually give advice
+ that is very generalizable or is our differences in our genetic makeuplike you mentioned
+ is that going to be basically something we have tobe very specialized individuals any
+ advice we give in terms of diet like we were just talking about believe
+
+1:29:26
+Speaker 1 :it or not the most personalized advice
+ that you give for nutrition don't have to do with your genome they
+
+1:29:30
+Speaker 0 :
+
+1:29:31
+Speaker 1 :have to do with your
+ gut microbiome with the bacteria that live inside you so most of yourdigestion is actually happening by
+ species that are not human inside you you have more non-human cells and youhave human cells
+ you're basically a giant bag of bacteria with a few human cells along
+
+1:29:49
+Speaker 0 :and those do not necessarily have to do
+ with your genetic makeup
+
+1:29:55
+Speaker 1 :they interact with your genetic makeup
+ they interact with your ruby genome they interact with your nutrition theyinteract with your environment
+ they're you know basically an additional source of variation sowhen you're thinking about sort of
+ personalized nutritional advice part of that is actually how do youmatch your microbiome
+ and part of that is how do we match your geneticsbut again you know this is a very
+ diverse set of um you know contributors and the effectsizes are not
+ enormous so i think the science for that is not fully developed yet
+
+1:30:28
+Speaker 0 :speaking of dyes because i've wrestled
+ in combat sports with sports my whole life orweight matters so you have to cut and
+ all that stuff one thing i've learned a lot about mybody and
+ which seems to be i think true about other people's bodies is thatyou can adjust to a lot of things that's
+ the miraculous thing about this biological systemis um like i fast
+ often i used to eat like five six times a dayand thought that was absolutely
+ necessary how could you not eat that oftenand then when i started fasting your
+ body adjusts to that and you learn how to not eat you knowand it's it was
+ uh if you just give it a chance for a few weeks actuallyover a period of a few weeks your body
+ can adjust to anything yeah and that's a miraculous that's such a beautiful thing
+
+1:31:14
+Speaker 1 :so i'm a computer scientist
+ and i've basically gone through periods of 24 hours without eating or stoppingand you know then i'm like oh must eat
+ and i eat a ton i used to order two pizzas just with my brother andyou know like so i i've gone through
+ these extremes as well and i've gone the wholeintermittent fasting thing so i can
+ sympathize with you both on the seven meals a dayto the zero meals a day um so i think
+ when i say everything in moderation i i actuallythink your body responds interestingly
+ to these different changes in diet i think part of the reason why we loseweight with pretty much every kind of
+ change in behavior is because our epigenome and the set of proteinsand enzymes that are expressed
+ and our microbiome are not well suited to that nutritional sourceand therefore they will not be able to
+ sort of catch everything that you give them and then you know a lot ofthat will go undigested
+ and that basically means that your body can then you know lose weight in theshort term but very
+ quickly will adjust to that new normal and then we'll be able to sort ofperhaps gain a lot of weight yeah from
+ the diet so anyway i mean there's also studies in umfactories where basically
+ people you know dim the lights and then suddenly everybody started workingbetter it was like wow that's amazing
+ three weeks later they made the lights a little brighter everybody startedworking better
+ so any kind of intervention has a placebo effect of wow now i'm healthierand i'm going to be running more often
+ etc so it's very hard to uncouple the placebo effect of wow i'm doingsomething to intervene on my diet
+ from the wow this is actually the right thing for me
+
+1:32:50
+Speaker 0 :so you know yeah from the perspective
+ from nutrition science psychology both things i'm interested in especiallypsychology it seems that
+ it's extremely difficult to do good sciencebecause uh there's so many variables
+ involved it's so difficult to control the variablesso difficult to do sufficiently
+ large-scale experiments uh both sort of in terms of number ofsubjects and
+ temporal like how long you do the study forthat uh it just seems like it's not even
+ a real science for now like nutrition science i want to
+
+1:33:22
+Speaker 1 :jump into the whole placebo effect for a
+ little bit here and basically talk about theimplications of that
+ if i give you a sugar pill and tell you it's a sugar pill
+
+1:33:33
+Speaker 0 :
+
+1:33:34
+Speaker 1 :you won't get any better but if i tell
+ you sugar appeal and tell you and i tell you wow this is an amazing drugit actually will stop your cancer
+
+
+1:33:41
+Speaker 0 :
+
+1:33:43
+Speaker 1 :your cash will actually stop with much
+ higher probability
+
+1:33:46
+Speaker 0 :what does that mean that's so amazing
+ that means that if i can trick your brain into thinking that i'm healing youyour brain will basically figure out a
+ way to heal itself to heal the body and that tells us that there's so muchthat we don't understand
+
+
+1:34:01
+Speaker 1 :in the interplay between our cognition
+
+
+1:34:03
+Speaker 0 :and our biology that if we were able to
+
+
+1:34:06
+Speaker 1 :
+
+1:34:07
+Speaker 0 :better harvest
+
+
+1:34:08
+Speaker 1 :the power of our brain to sort of you
+ know impact the body through the placeboeffect we would be
+
+
+1:34:14
+Speaker 0 :so much better in so many different
+ things just by tricking yourself into thinking that you're doing better you'reactually doing better
+
+
+1:34:21
+Speaker 1 :so there's something to be said about
+ sort of positive thinking about optimism about sort ofyou know just getting your
+
+
+1:34:28
+Speaker 0 :brain and your mind into the right
+
+
+1:34:31
+Speaker 1 :mindset
+ that helps your body and helps your entire biologyyeah from a science perspective that's
+
+
+1:34:37
+Speaker 0 :just fascinating i
+ obviously most things about the brain is a total mystery for nowbut that's a fascinating interplay that
+ the brain yeah that the brain can reduceuh the brain can help cure cancer as a
+ i don't even know what to do with that i
+
+1:34:56
+Speaker 1 :mean the way to think about that is the
+ following the converse of the equation issomething that we are much more
+ comfortable with
+
+1:35:04
+Speaker 0 :like oh if you're stressed then
+
+
+1:35:07
+Speaker 1 :your heart right might rise and all
+ kinds of sort of toxins might be released andthat can have a detrimental effect in
+ your body etc so maybe it's easier to understand yourbody
+
+
+1:35:18
+Speaker 0 :healing from your mind by your mind is
+
+
+1:35:20
+Speaker 1 :not killing your body
+ or at least it's killing it less so i think the you knowthat aspect of the stress equation is a
+ little easier for most of us to conceptualize but thenthe healing part
+ is you know perhaps the same pathways perhaps different pathways but againsomething that is totally untapped
+
+
+1:35:39
+Speaker 0 :scientifically i think we try to bring
+ this question up a couple of times but let's return to it again is what doyou think is the difference between the
+ way a computer represents information the human genomerepresents and stores information
+ like what and maybe broadly what is the difference betweenhow you think about computers and how
+ you think about biological systems
+
+1:36:00
+Speaker 1 :so i made a very provocative claim
+ earlier that we are a digital computer like that at the core lies a digitalcode and that's true in many ways but
+ surrounding that digital core there's a huge amount of analogif you look at our brain it's not really
+ digital if you look at our sort of rna and all of that stuff inside ourcell it's not really digital it's really
+ analog in many ways but let's start with the code and then we'll expandto the rest so the code itself is
+ digital so there's genes you can think of thegenes as i don't know the
+ procedures the functions inside your language and thensomehow you have to turn these functions
+ on how do you call a gene how do you call that function the way that youwould do it in old
+ programming languages is go to address whatever in your memory and then youstart running from there
+ and you know modern programming languages have encapsulated this intofunctions and objects and all of that
+ and it's nice and cute but in the end deep downthere's still an assembly code that says
+ go to that instruction and it runs that instructionif you look at the human genome and you
+ know the genome of pretty much
+
+1:37:05
+Speaker 0 :most species out there it's
+
+
+1:37:07
+Speaker 1 :there's no go-to function you just don't
+ start in you know transcribing in positionthirteen
+ hundred five you know thirteen thousand five hundred twentyseven in chromosome 12. you instead have
+ content based indexing so at every location
+
+1:37:23
+Speaker 0 :in the genome in front of the genes that
+
+
+1:37:25
+Speaker 1 :need to be turned on
+ i don't know when you drink coffee there's a little coffee marker
+
+1:37:32
+Speaker 0 :in front of all of them and whenever
+
+
+1:37:35
+Speaker 1 :your
+ cells that metabolize coffee need to metabolize coffee they basically seecoffee and they're like oh
+ let's go turn on all the coffee marked jeans sothere's basically these small motifs
+ these small sequences that we call regulatory motifs they'relike patterns of dna they're only eight
+ characters long or so like gat gca et cetera and these motifs work in
+
+1:37:59
+Speaker 0 :combinations
+
+
+1:38:02
+Speaker 1 :and every one of them has some
+ recruitment
+
+1:38:05
+Speaker 0 :affinity for a different protein that
+
+
+1:38:07
+Speaker 1 :will then come and bind it
+
+
+1:38:09
+Speaker 0 :and together collections of these motifs
+ create regions
+
+1:38:13
+Speaker 1 :that we call regulatory regions that can
+ be either promoters near the beginning of the geneand that basically tells you where the
+ function actually starts where you call itand then enhancers that are looping
+ around of the dna that basically bring the machinery thatbinds those enhancers
+
+
+1:38:29
+Speaker 0 :
+
+1:38:30
+Speaker 1 :and then bring it onto the promoter
+ which then recruits the right sort of the ribosomeand the polymerase and all of that thing
+ which will first transcribe and then export and then eventually translate inthe cytoplasm
+ you know whatever rna molecule so
+
+1:38:46
+Speaker 0 :the beauty
+
+
+1:38:50
+Speaker 1 :of the way that the digital computer
+ that's the genome works is that it's extremely fault tolerant
+
+1:38:58
+Speaker 0 :if i took your hard drive and i messed
+ with twenty percent of the letters
+
+1:39:02
+Speaker 1 :in it of those zeros and ones and i
+ flipped them you'd be in trouble if i take the genomeand i flip 20
+ of the letters you probably won't even notice
+
+1:39:14
+Speaker 0 :
+
+1:39:15
+Speaker 1 :and that resilience that's fascinating
+
+
+1:39:15
+Speaker 0 :again is a
+
+
+1:39:18
+Speaker 1 :key design principle and again i'm
+ triple morphizing here but it's a key driving principle of howbiological systems work
+
+
+1:39:25
+Speaker 0 :they're first resilient and then
+ anything else
+
+1:39:29
+Speaker 1 :and when you look at this incredible
+ beauty of life from the most i don't know beautifuli don't know human genome maybe of
+ humanity and all of the ideals that should come with itto the most terrifying genome like i
+ don't know kovit-19 sarsko v2 and the current pandemicyou basically see this elegance as
+ the epitome of clean design
+
+1:39:54
+Speaker 0 :but it's dirty it's a mess it's
+
+
+1:39:59
+Speaker 1 :
+
+1:39:59
+Speaker 0 :you know the the way to get there is
+ hugely messy and that's something that
+
+1:40:02
+Speaker 1 :we as computer scientists
+
+
+1:40:04
+Speaker 0 :don't embrace we like to have clean code
+
+
+1:40:08
+Speaker 1 :you know as like in engineering they
+ teach you about compartmentalization
+
+1:40:12
+Speaker 0 :about sort of separating functions about
+
+
+1:40:14
+Speaker 1 :
+
+1:40:16
+Speaker 0 :modularity about hierarchical design
+
+
+1:40:18
+Speaker 1 :none of that applies in bio testing
+ [Laughter] testing sure yeah biology does plenty ofthat but
+ i mean through evolutionary exploration but umif you look at biological systems first
+
+
+1:40:32
+Speaker 0 :they are robust and then they specialize
+
+
+1:40:33
+Speaker 1 :to become anything else
+ and if you look at viruses the reason why they're so
+
+1:40:39
+Speaker 0 :elegant when you look at the design of
+
+
+1:40:41
+Speaker 1 :this you know
+ genome it seems so elegant and the reason for that is that it's beenstripped down
+ from something much larger because of the pressure to keep it compact
+
+1:40:54
+Speaker 0 :so many compact genomes out there have
+ ancestors that were much larger
+
+1:40:58
+Speaker 1 :you don't start small and become big you
+ go through a loop of add a bunch of stuff increase complexityand then
+ you know slim it down and one of my early papers was in facton genome duplication one of the things
+ we found is that baker's yeast which is theyou know yeast that you use to make
+ bread but also the yeast that you use to make winewhich is basically the dominant species
+ when you go in the fields of tuscany and you say you know what's out thereit's basically saccharomyces cerevisiae
+ or the way my italian friends say saccharomycesso um uh which means what
+ oh sakura okay i'm sorry i'm i'm greek so yeah zacharomickeys zacharo is sugar minky's is
+ fungus yes cerevisiae cerveza beerso so it means the sugar fungus of beer
+ yeah you know less less sounding to thestill poetic yeah so anyway uh
+ saccharomyces cerevisiae basically the major baker's yeast out thereis the descendant of a whole genome
+
+
+1:41:58
+Speaker 0 :duplication
+ why would a whole genuine duplication even happen when it happenedis coinciding with about 100 million
+
+
+1:42:06
+Speaker 1 :years ago
+ and the emergence of
+
+1:42:11
+Speaker 0 :fruit-bearing plants
+ why fruit-bearing plants because animals would eatthe fruit and would walk around and poop
+ huge amounts of nutrients along with a
+
+1:42:23
+Speaker 1 :
+
+1:42:23
+Speaker 0 :seed
+ for the plants to spread before that plants were not spreading through
+
+1:42:28
+Speaker 1 :animals they were spreading through wind
+ and all kinds of other ways but basically the moment you havefruit-bearing plants
+ the the the these plants are basically creating this abundance of sugar in theenvironment so there's an evolutionary
+
+
+1:42:41
+Speaker 0 :niche that gets created
+ and in that evolutionary niche you
+
+1:42:43
+Speaker 1 :basically have enough sugar
+ that a whole genome duplication which initially is a very messy eventallows you to then you know relieve some
+ of that complexity
+
+1:42:56
+Speaker 0 :so to pause what does genome duplication
+ mean that basically means that instead of
+
+1:43:00
+Speaker 1 :having eight chromosomes
+ you can now have 16 chromosomes
+
+1:43:05
+Speaker 0 :so but with the duplication at first
+ when you have six when you go to 16 you're not usingthat
+
+
+1:43:14
+Speaker 1 :oh yeah you are yeah so basically from
+ one day to the next you went from having eight chromosomesto having 16 chromosomes
+
+
+1:43:20
+Speaker 0 :
+
+1:43:20
+Speaker 1 :probably a non-disjunction event during
+ a duplication during a division so you basically divide the cell insteadof half the genome going this way and
+ half the genome going the other way afterduplication of the genome you basically
+ have all of it going to one cell and then there's a sufficient messinessthere that you end up with
+ slight differences that make most of these chromosomes be actually preservedit's a long story short but it's a big
+
+
+1:43:43
+Speaker 0 :upgrade right so that's
+ not necessarily because what happens
+
+1:43:47
+Speaker 1 :immediately thereafter is that you start
+ massively losing tons of those duplicated genes so ninety
+
+1:43:52
+Speaker 0 :percent of those genes were actually
+ lost very rapidly after holding duplication
+
+1:43:57
+Speaker 1 :and the reason for that is that
+ biology is not intelligent it's just
+
+1:44:03
+Speaker 0 :ruthless selection random mutation
+
+
+1:44:05
+Speaker 1 :so the ruthless selection basically
+ means that as soon as one of the random mutations hit one generuthless selection just kills off that
+ gene it's just you know you you know if you have a pressure tomaintain a small compact genome
+ you will very rapidly lose the second copy of most of your genesand a small number 10 were kept in two
+ copies and those had to do a lot with environment adaptation with the speed ofreplication
+ with the speed of translation and with sugar processingso i'm making a long story short to
+ basically say that evolution is
+
+1:44:37
+Speaker 0 :messy the only way like so so
+
+
+1:44:40
+Speaker 1 :you know the example that i was giving
+ of messing with 20
+
+1:44:44
+Speaker 0 :
+
+1:44:44
+Speaker 1 :of your bits in your computer totally
+ bogus
+
+1:44:47
+Speaker 0 :
+
+1:44:47
+Speaker 1 :duplicating all your functions and just
+ throwing them out there in the same you know function just totally boguslike this would never work in an
+ engineer system but biological systems because of this
+
+1:44:57
+Speaker 0 :content-based indexing and because of
+ this modularity that comes from the fact that
+
+1:45:02
+Speaker 1 :the gene is controlled by a series of
+ tags and now if you need this gene in anothersetting you just add some more tags that
+ will basically turn it on also in those settings so this gene is
+
+1:45:12
+Speaker 0 :now pressured
+ to to do two different functions and it builds up complexityi see a whole term duplication and gene
+
+
+1:45:21
+Speaker 1 :duplication in general as a way to
+
+
+1:45:23
+Speaker 0 :relieve that complexity
+ so you have this gradual buildup of
+
+1:45:25
+Speaker 1 :complexity as functions get
+ past get sort of added on to the existing genesand then boom you duplicate your your
+ workforce and you now have two copies of this geneone will probably specialize to do one
+ and the other one will specialize to do the other or one will maintain theancestral function the other one will
+ sort of be free to evolve and specialize whilelosing the ancestral functions
+ and so forth so that's how genomes evolve they're they're just
+
+1:45:51
+Speaker 0 :messy things but they're extremely fault
+
+
+1:45:52
+Speaker 1 :tolerant
+ and they're extremely able to deal with mutations because that'sthe very way that you generate new
+
+
+1:46:02
+Speaker 0 :
+
+1:46:04
+Speaker 1 :functions so new functionalization comes
+ from the very thing that breaks it so even inthe current pandemic
+
+
+1:46:08
+Speaker 0 :many people are asking me which
+ mutations matter the most and what i tell them is well we can
+
+1:46:15
+Speaker 1 :study the evolutionary dynamics of the
+ current genome
+
+1:46:17
+Speaker 0 :to then understand which mutations have
+
+
+1:46:21
+Speaker 1 :
+
+1:46:22
+Speaker 0 :previously happened or not and
+ which mutations happen in genes that
+
+1:46:26
+Speaker 1 :evolve rapidly or not
+ and one of the things we found for example is thatthe genes that evolved rapidly in the
+
+
+1:46:34
+Speaker 0 :past are still evolving rapidly now in
+ the current pandemic
+
+1:46:38
+Speaker 1 :the genes have evolved slowly in the
+ past are still evolving slowly
+
+1:46:41
+Speaker 0 :which means that they're useful which
+
+
+1:46:43
+Speaker 1 :means that they're
+ under the same evolutionary pressures
+
+1:46:46
+Speaker 0 :but then the question
+
+
+1:46:48
+Speaker 1 :is what happens in specific mutations
+ so if you look at the d614 gene mutation that's been all over the news soin position 614 in the amino acids and
+ harvest 14 of the s protein there's ad to g mutation that that sort of has
+ creeped over the population mutation
+
+1:47:08
+Speaker 0 :we found out through my work disrupts a
+ perfectly conserved nucleotide position that has never been changed in thehistory of
+
+
+1:47:16
+Speaker 1 :millions of years of equivalent
+ mammalian evolution
+
+1:47:20
+Speaker 0 :of these viruses that basically means
+ that it's a completely new adaptation to human and that mutation has now gone
+
+1:47:28
+Speaker 1 :from
+ one percent frequency to 90 frequency in almost all outbreaks
+
+1:47:34
+Speaker 0 :so this mutation i like how you say in
+ the mu the 416 what was it okay yes 6 on 14 sorry614 right that
+
+
+1:47:42
+Speaker 1 :d614g dc so so literally
+
+
+1:47:44
+Speaker 0 :so what you're saying is it's like a
+ chess move yeah so it's just mutated one letter to anotherexactly and that hasn't happened before
+ yeah and and this somehow this mutation is really useful
+
+1:47:57
+Speaker 1 :uh it's really useful in the current
+ environment of the genome which is moving from human to human when
+
+1:48:03
+Speaker 0 :
+
+1:48:05
+Speaker 1 :it was moving from bad to bad
+ it couldn't care less for that mutation but it's environment specific so nowthat it's moving from human to human
+ whoo-hoo it's moving way better like by orders of magnetism what do you okay so
+
+1:48:16
+Speaker 0 :so you're like tracking this
+ evolutionary dynamics which is fascinating but what do you dowith that
+ so what does that mean what does this mean what do you makewhat do you make of this mutation in uh
+ trying to anticipate i guess is is the is one of the things you'retrying to do is anticipate
+ where how this unrolls into the future this thisevolutionary dynamics such a great
+
+
+1:48:40
+Speaker 1 :question so so there's there's two
+ things remember when i was saying earliermutation is the path
+ to new things but also the path to break
+
+1:48:47
+Speaker 0 :
+
+1:48:48
+Speaker 1 :old things
+ so what we know is that this position
+
+1:48:52
+Speaker 0 :
+
+1:48:52
+Speaker 1 :was extremely preserved
+
+
+1:48:55
+Speaker 0 :
+
+1:48:55
+Speaker 1 :through gazillions of mutations that
+ mutation was never tolerated when it was moving from best to batsso that basically means that that
+ contain that position is extremely importantin the function of that protein that's
+ the first thing it tells the second one is thatthat position was very well suited to
+
+
+1:49:10
+Speaker 0 :
+
+1:49:11
+Speaker 1 :bat transmission but now
+ is not well suited to human transmission so it got rid of it and it now has a newversion
+ of that amino acid that basically makes it much easier to transmit from human tohuman
+ so in terms of the evolutionary history teaching us aboutthe future
+ it basically tells us here's the regions that are
+
+1:49:32
+Speaker 0 :currently mutating here's the regions
+
+
+1:49:35
+Speaker 1 :that are most likely to imitate going
+ forward as you're building a vaccine here's whatyou should be focusing on
+ in terms of the most stable regions that are the least likely to mutateor here's the newly evolved functions
+ that are most likely to be important because they've overcome this localmaximum that it had reached in the in
+ the bat transmission so anyway it's atangent to basically say that
+
+
+1:50:02
+Speaker 0 :evolution works in messy ways and the
+ thing that you would break is the
+
+1:50:08
+Speaker 1 :thing that actually allows you to first
+ go through a lull and then reaching new local maximumand i often like to say that if
+
+
+1:50:18
+Speaker 0 :engineers
+
+
+1:50:19
+Speaker 1 :had basically designed evolution we
+
+
+1:50:21
+Speaker 0 :would still be
+
+
+1:50:23
+Speaker 1 :
+
+1:50:24
+Speaker 0 :perfectly replicating bacteria
+
+
+1:50:26
+Speaker 1 :because it's by making the bacterium
+
+
+1:50:29
+Speaker 0 :worse that you allow evolution to reach
+
+
+1:50:30
+Speaker 1 :a new
+
+
+1:50:32
+Speaker 0 :optimum that's just a pause on that
+ that's so profound the the that's so profound for theentirety of um
+ this scientific and engineering disciplinesexactly we as engineers need to embrace
+ breaking things we as engineers need to embracerobustness as the first principle
+ beyond perfection because nothing is
+
+1:50:54
+Speaker 1 :going to ever be perfect
+
+
+1:50:56
+Speaker 0 :and when you're sending a satellite to
+ mars when something goes wrong it'll break down as opposed to building
+
+1:51:02
+Speaker 1 :
+
+1:51:03
+Speaker 0 :systems that tolerate failure
+ and are resilient to that
+
+1:51:07
+Speaker 1 :and in fact get better through that so
+
+
+1:51:11
+Speaker 0 :the spacex approach versus nasa
+
+
+1:51:15
+Speaker 1 :for the for example
+
+
+1:51:16
+Speaker 0 :is there something we can learn about
+ the incredible uh take lessons from the incrediblebiological systems in their resilience
+ in their in the mushiness the messiness to uhto our computing systems to uh to our
+ computers it would basically be starting from
+
+1:51:32
+Speaker 1 :scratch in many ways
+
+
+1:51:34
+Speaker 0 :it would basically be building new
+
+
+1:51:36
+Speaker 1 :paradigms
+ that don't try to get the right answer all the timebut try to get the right answer most of
+ the time or a lot of the time
+
+1:51:46
+Speaker 0 :do you see deep learning systems in the
+ whole world of machine learning is kind of taking a step in that direction
+
+1:51:52
+Speaker 1 :absolutely absolutely basically by
+ allowing this much more natural evolution ofthese parameters you basically and then
+ if you look at sort of deep learning systems againthey're not inspired by the genome
+ aspect of biology they're inspired by the brain aspect of biology
+
+1:52:09
+Speaker 0 :and again i want you to pause for a
+ second and realize the complexity of the entirehuman brain
+ with trillions of connections within our you know neurons
+
+1:52:22
+Speaker 1 :
+
+1:52:23
+Speaker 0 :with millions of cells talking to each
+ other is still encoded within that same genome
+
+1:52:30
+Speaker 1 :that same genome encodes every single
+
+
+1:52:33
+Speaker 0 :freaking cell type
+ of the entire body every single cell is encoded by the same codeand yet specialization
+ allows you to have this single viral-like genome that self-replicatesthe single module modular automaton
+ work with other copies of itself it's mind-bogglingcreate complex organs through which
+ blood flows and what is that blood the same freakinggenome
+ create organs that communicate with each otherand what are these organs the exact same
+ genome create a brain that is innervatedby massive amounts of blood pumping
+ energy to it 20 of our energetic needsto the brain from the same genome and
+ all of the neuronal connections all of the auxiliary cells all of theimmune cells
+ the astrocytes the ligand size the
+
+1:53:34
+Speaker 1 :neurons the excitatory the inhibitory
+ neurons all of the different classes of
+
+1:53:38
+Speaker 0 :parasites
+ the blood-brain barrier all of that same genomeone way to see that in a sad
+ so this one is beautiful the sad thing is thinking about the trillionsof organisms that died to create that
+
+
+1:53:55
+Speaker 1 :you mean on the evolutionary path and
+
+
+1:53:57
+Speaker 0 :the evolutionary path to humans
+ that's crazy there's two descendants of apes justtalking on the podcast okay this is
+
+
+1:54:06
+Speaker 1 :so mind-boggling just just to boggle our
+ minds a little bit more yeah us talking to each other
+
+1:54:12
+Speaker 0 :we are basically generating a series of
+
+
+1:54:16
+Speaker 1 :vocal utterances
+ through our pulsating of vocal chords received through this the people who
+
+1:54:24
+Speaker 0 :
+
+1:54:25
+Speaker 1 :listen to this are taking a completely
+ different path to that information transfer yet
+
+1:54:30
+Speaker 0 :through language
+ but imagine if we could connect these brainsdirectly to each other the
+
+
+1:54:39
+Speaker 1 :amount of information that i'm
+ condensing into a small number of words
+
+1:54:43
+Speaker 0 :is a huge funnel which then you receive
+ and you expand into a huge number of thoughtsfrom that small funnel
+ in many ways engineers would love to have the whole information transfer
+
+1:54:59
+Speaker 1 :just take the whole set of neurons and
+ throw them away i mean throw them to the other person
+
+1:55:05
+Speaker 0 :this might actually not be better
+
+
+1:55:07
+Speaker 1 :because in
+ your misinterpretation of every word that i'm saying
+
+1:55:12
+Speaker 0 :you are creating new interpretation that
+
+
+1:55:14
+Speaker 1 :might actually be way better than what i
+
+
+1:55:17
+Speaker 0 :meant to the first place
+ the ambiguity of language perhaps
+
+1:55:22
+Speaker 1 :
+
+1:55:23
+Speaker 0 :might be the secret to creativity
+
+
+1:55:25
+Speaker 1 :every single time you work on a project
+ by yourself
+
+1:55:27
+Speaker 0 :
+
+1:55:29
+Speaker 1 :you only bounce ideas with one person
+ and your neurons are basically fullycognizant of what these ideas are
+ but the moment you interact with another person themisinterpretations that happen might be
+ the most creative part of the process with my students every time we have aresearch meeting i very often pause and
+ say
+
+1:55:47
+Speaker 0 :let me repeat what you just said in a
+ different way and i sort of go on and
+
+1:55:50
+Speaker 1 :brainstorm
+ with what they were saying but by the
+
+1:55:54
+Speaker 0 :third time
+ it's not what they were saying at all and when they pick up what i'm sayingyou're like oh
+
+
+1:56:00
+Speaker 1 :well now they they've sort of learned
+ something very different from what i was
+
+1:56:05
+Speaker 0 :saying and that is the same kind of
+ messiness that i'm describing in the
+
+1:56:09
+Speaker 1 :genome itself
+
+
+1:56:10
+Speaker 0 :it's sort of embracing the messiness and
+ that's a feature not a book
+
+1:56:15
+Speaker 1 :exactly and in the same way when you're
+ thinking about sort of these deep learning systemsthat will allow us to sort of be more
+ creative perhaps or learn better approximations of thesecomplex functions
+ again tuned to the universe that we inhabit
+
+1:56:30
+Speaker 0 :you have to embrace the breaking you
+ have to embrace the
+
+1:56:34
+Speaker 1 :you know how do we get out of these
+ local optima and a lot of the
+
+1:56:37
+Speaker 0 :
+
+1:56:38
+Speaker 1 :design paradigms that have made deep
+ learning so successful
+
+1:56:43
+Speaker 0 :are ways to get away from that ways to
+
+
+1:56:44
+Speaker 1 :get
+ better training by sort of sending long
+
+1:56:48
+Speaker 0 :
+
+1:56:49
+Speaker 1 :range messages
+ these lstm models and the you know sort of feed forward loops thatyou know sort of jump through layers of
+ a convolutional neural network all of these things are basically ways
+
+1:57:02
+Speaker 0 :to push you out of this local
+ maxima and that's sort of what evolution
+
+1:57:07
+Speaker 1 :does that's what language does that's
+ what
+
+1:57:10
+Speaker 0 :conversation and brainstorming does
+ that's what our brain does
+
+1:57:14
+Speaker 1 :so you know this design paradigm is
+ something that's pervasive
+
+1:57:17
+Speaker 0 :and yet not taught in schools not taught
+ in engineering schools
+
+1:57:22
+Speaker 1 :where everything is minutely modularized
+ to make sure that we never deviate from you know whatever signal we're trying toemit
+ as opposed to let all hell breaks loose because that's the way that's the pathof paradise
+
+
+1:57:34
+Speaker 0 :the path to paradise yeah i mean it's
+ difficult to know how to teach that and uh what to do with it i mean it's umit's difficult to know how to build up a
+ sign the scientific method around messiness you i mean
+
+1:57:47
+Speaker 1 :it's not all messiness we need we need
+ some cleanness and going back to the example with marsthat's probably the place where i want
+ to sort of moderate error as much as possible and sort ofcontrol the environment as much as
+ possible but if you're trying to repopulate marswell maybe messiness is a good thing
+ then
+
+1:58:05
+Speaker 0 :on that uh you quick you quickly
+ mentioned this in terms of us using our vocal cords to speak on apodcast
+ um so elon musk and neurolink are working ontrying to plug
+ as per discussion with computers and biological systemsto connect the two he's trying to con
+ connect our brain to a computer to create a brain computerinterface where they can
+ communicate back and forth on this line of thinking do you think this is uhpossible to bridge the gap between our
+ engineered computing systems and the messy biological systemsmy answer would be absolutely we
+
+
+1:58:52
+Speaker 1 :you know there's no doubt that we can
+ understand more and more about what goes on in the brainand we can sort of train the brain
+ i mean i don't know if you remember the
+
+1:59:01
+Speaker 0 :palm pilot
+ yeah palm pilot yeah remember this whole
+
+1:59:05
+Speaker 1 :
+
+1:59:06
+Speaker 0 :sort of alphabet that they had created
+ am i thinking of the same thing um it's
+
+1:59:10
+Speaker 1 :basically you had you had a little pen
+ and for every character you had a little scribblethat was unique that the machine could
+ understand and that instead of trying the machine trying to
+
+1:59:21
+Speaker 0 :
+
+1:59:23
+Speaker 1 :teach the machine to recognize human
+ characters you had basically they figured out thatit's better and easier
+ to train humans to create human-like
+
+1:59:30
+Speaker 0 :
+
+1:59:31
+Speaker 1 :characters that the machine is better at
+ recognizing so
+
+1:59:35
+Speaker 0 :in the same way i think what will happen
+
+
+1:59:37
+Speaker 1 :is that humans will be trained to be
+ able to create the mind pattern that the machine willrespond to
+ before the machine truly comprehends our thoughts so thefirst human brain interfaces will be
+ tricking humans to speak the machine languagewhere with the right set of electrodes i
+ can sort of trick my brain into doing thisand this is the same way that many
+ people teach like learn to control artificial limbsyou basically try a bunch of stuff and
+ eventually you figure out how your limbs work
+
+2:00:07
+Speaker 0 :that might not be very different from
+
+
+2:00:08
+Speaker 1 :how humans learn to use their
+ natural limbs when they first grow up basically you have theseyou know neoteny period of
+ you know this puddle of soup inside your braintrying to figure out how to even make
+ your own connections before you're born and then learning sounds in utero ofyou know all kinds of echoes and
+ you know eventually getting out in the real world andi don't know if you've seen newborns but
+ they just stare around a lot you know one way to think about this asa machine learning person is oh they're
+ just training their edge detectors and eventually they figure out how totrain their edge detectors they work
+ through the second layer of the visual cortex and the third layer and so forth
+
+2:00:53
+Speaker 0 :
+
+2:00:54
+Speaker 1 :and you basically have this
+ um learning how to control your limbs that probably comes at the same timeyou're sort of you know throwing random
+ things there and you realize that oh wow when i do this thing
+
+2:01:06
+Speaker 0 :my limb moves let's do the following
+
+
+2:01:09
+Speaker 1 :experiment take a breath
+ what muscles did you flex now take another breath and think what muscles doi flex
+
+
+2:01:16
+Speaker 0 :the first thing that you're thinking
+ when you're taking a breath
+
+2:01:20
+Speaker 1 :is the impact that he has on your lungs
+ you're like oh i'm now going to increase my lungs or i'm not going to bring airin
+ but what you're actually doing is just
+
+2:01:26
+Speaker 0 :changing your diaphragm yeah
+ that's not conscious of course you never think of the diaphragm as a thingyeah and why is that that's probably the
+ same reason why i think of moving my
+
+2:01:38
+Speaker 1 :finger when i actually move my finger
+
+
+2:01:39
+Speaker 0 :i think of the effect instead of
+
+
+2:01:42
+Speaker 1 :actually thinking of whatever muscle is
+
+
+2:01:42
+Speaker 0 :twitching
+
+
+2:01:45
+Speaker 1 :that actually causes my finger to move
+ so we basically in our first years of
+
+2:01:48
+Speaker 0 :life
+ build up this massive lookup table
+
+2:01:52
+Speaker 1 :between whatever neuronal firing we do
+
+
+2:01:55
+Speaker 0 :and whatever action happens
+ in our body that we control
+
+2:02:01
+Speaker 1 :if you have a kid grow up with a third
+ limb
+
+2:02:03
+Speaker 0 :
+
+2:02:04
+Speaker 1 :i'm sure they'll figure out how to
+ control them probably at the same rate
+
+2:02:07
+Speaker 0 :as their natural limbs
+ and uh a lot of the work would be done by theso if the third limb is the computer you
+ kind of have a uh not a faith but a thought thatum the brain might be able to figure out
+ like if the plasticity would come from the brain yeah like the brain would becleverer than the machine at first when
+ i talk about a third limb that's exactly
+
+2:02:29
+Speaker 1 :what i'm saying
+ an artificial limb that basically just controls your mouse while you're typingyou know perfectly natural thing i mean
+
+
+2:02:36
+Speaker 0 :
+
+2:02:36
+Speaker 1 :again you know in a few hundred years
+ maybe sooner than that but but basically there's
+
+2:02:43
+Speaker 0 :as long as the machine is consistent in
+
+
+2:02:46
+Speaker 1 :the way that it will respond
+ to your brain impulses you'll figure out
+
+2:02:49
+Speaker 0 :
+
+2:02:50
+Speaker 1 :how to control that
+ and you could play tennis with your
+
+2:02:53
+Speaker 0 :third limb and
+ let me go back to consistency people who havedramatic accidents that basically take
+ out a whole chunk of their brain can be taught to co-opt other parts of
+
+2:03:06
+Speaker 1 :the brain to then control that part
+ you can basically build up that tissue
+
+2:03:10
+Speaker 0 :again and eventually train your body
+ how to walk again and how to read again and how to play again and how to thinkagain how to speak a language again etc
+
+
+2:03:18
+Speaker 1 :so there's a massive amount of
+
+
+2:03:19
+Speaker 0 :malleability
+ that happens you know naturally in
+
+2:03:25
+Speaker 1 :our way of controlling our body our
+ brain or thoughts or vocal cords or limbs etc andhuman machine interfaces are inevitable
+ if we sort of figure out how to read these electric impulsesbut the resolution at which we can
+
+
+2:03:42
+Speaker 0 :understand human thought
+ right now is nil is ridiculous
+
+2:03:45
+Speaker 1 :so how are human thoughts encoded it's
+ basically combinations
+
+2:03:52
+Speaker 0 :of neurons that co-fire and these create
+
+
+2:03:54
+Speaker 1 :these things called
+ engrams that eventually form memories and so so forth
+
+2:03:58
+Speaker 0 :we know nothing of all that stuff
+ so before we can actually read into your brain that you want to build a program
+
+2:04:06
+Speaker 1 :that does this anytime it's on that
+ we need a lot of neuroscience well so
+
+2:04:11
+Speaker 0 :uh to push back on that do you think
+ it's possible that without understanding the functionallyabout the brain or the from the
+ neuroscience or the cognitive science or psychology whichever level of the brainwill look at do you think if we just
+ connect connect them just like per your previouspoint
+ if we just have a high enough resolution between connection betweenuh wikipedia and your brain the brain
+ will just figure it out with us understanding um because that'sone of the
+ innovations of neural link is they're increasing the number ofconnections to the brain to like several
+ thousand which before was you know in the dozens or whatever
+
+2:04:48
+Speaker 1 :you're still off by a few orders of
+ magnets
+
+2:04:54
+Speaker 0 :right but the the thing is the hope is
+ if you increase that number more and more and moremaybe you don't need to understand
+ anything about the actual how human thought is represented in thebrain you could just
+ let it let it figure it out by itself
+
+2:05:08
+Speaker 1 :well uh cannery is waking up and saying
+ i know
+
+2:05:10
+Speaker 0 :yeah exactly exactly so
+
+
+2:05:12
+Speaker 1 :yeah sure you don't have faith in the
+
+
+2:05:15
+Speaker 0 :plasticity of the brain to that degree
+
+
+2:05:18
+Speaker 1 :it's not about brain plasticity it's
+ about the input aspect basically i think on the output aspectbeing able to control a machine
+ is something that you can probably train your neural impulsesthat you're sending out to sort of match
+ whatever response you see in the environment ifthis thing moved every single time i
+ thought a particular thought then i could figure out i could hack myway into moving this thing with just a
+ series of thoughts i could think
+
+2:05:43
+Speaker 0 :guitar piano tennis ball
+
+
+2:05:43
+Speaker 1 :and then this thing would be moving and
+ then you know i would just have the series ofthoughts that would sort of result in
+ the impulses that will move this thing the way that i want it and theneventually it'll become natural because
+ i won't even think about it um i mean the same way that we controlour limbs in a very natural way
+ but babies don't do that babies have to figure it outand you know some of it is hard-coded
+ but some of that is actually learned based on the whatever soup of neuronsyou ended up with whatever connections
+ you pruned them to and eventually you were born withyou know a lot of that is coded in the
+ genome but a huge chunk of that is stochasticinstead of the way that you sort of
+ create all these neurons they migrate they form connections they sort ofyou know spread out they have particular
+ branching patterns but then the connectivity itselfunique in every single new person all
+ this to say that on the output side absolutely i'm very very you know umhopeful that we can have machines that
+ read thousands of these neuronal connectionson the output side but on the input side
+ oh boy i don't expect any time in the nearfuture we'll be able to sort of send a
+ series of impulses that will tell me oh earth to sun distance 7.5 millionet cetera like nowhere i mean i think
+ language will still the be the input way rather than sort of anykind of more complex
+
+
+2:07:07
+Speaker 0 :it's a really interesting notion that
+ the ambiguity of language is a feature yeahand we evolved for millions of years
+ to uh to take advantage of that ambiguity exactly
+
+2:07:20
+Speaker 1 :
+
+2:07:20
+Speaker 0 :and yet no one teaches us the subtle
+ differences between words that are near cognates and yetevoke so much more
+ than you know one from the other and yet you know when you're choosing words from
+
+2:07:34
+Speaker 1 :
+
+2:07:35
+Speaker 0 :a list of 20 synonyms
+ you know exactly the connotation of every single one of them and that'ssomething that
+
+
+2:07:42
+Speaker 1 :you know is there so so yes there's
+ ambiguity but there's all kinds of connotations
+
+2:07:46
+Speaker 0 :and in the way that we select our words
+ we have so much baggage that we're sending along the way that we're
+
+2:07:51
+Speaker 1 :emoting the way that we're moving our
+ hands every single time we speak the you know the pauses the eye contact
+
+2:07:57
+Speaker 0 :etc so much higher baud rate than just a
+
+
+2:08:01
+Speaker 1 :vocal
+ you know string of characters well let
+
+2:08:04
+Speaker 0 :me
+ just take a small tangent on that oh
+
+2:08:07
+Speaker 1 :tangent we haven't done that yet and i
+ haven't done an idea
+
+2:08:12
+Speaker 0 :uh we'll return to the origin of life
+ so i mean you're greek but i'm i'm going on thispersonal journey uh i'm going to paris
+ for the explicit purpose of talking to one of the most famous uh acouple who's a famous translators of
+ russian literature dostoyevsky tolstoy yeah and they gothat's their art is the translation and
+ um everything i've learned about the translation artit makes me feel um
+ it's so profound in a way that's so much more profound than the naturallanguage processing papers i read in the
+ machine learning community that there's such depth to languagethat um i don't know what to do with i
+ don't know if you've experienced that in your own lifewith knowing multiple languages um
+ i don't know what to i don't know how to make sense of it but there's so muchloss in translation between russian and
+ english and getting a sense of that like forexample
+ there's like just taking a single sentence from dostoyevskyand like there's a lot of them you could
+ you could talk for hours about how to translate thatsentence properly
+ uh that captures the meaning the the the periodthe culture the humor the wit the
+ suffering that was in the context of the time all ofthat it could be a single sentence uh
+ you could you could talk forever about what it takes to translate thatcorrectly i don't know what to do with
+ that
+
+2:09:49
+Speaker 1 :so being greek it's very hard for me to
+ think of a sentence or even a word without goinginto the full etymology of that word
+ breaking up every single atom of that that sentence and every single atomof these words
+ and rebuilding it back up i have three kidsand the way that i teach them greek is
+ the same way that you know the documentary i was mentioning earlierabout sort of understanding the deep
+ roots of all of these you know words um
+
+2:10:23
+Speaker 0 :and it's very
+
+
+2:10:27
+Speaker 1 :it's very interesting that every single
+ time i hear a new word that i've never heard before
+
+2:10:32
+Speaker 0 :i go and figure out the etymology of
+ that word because i will never
+
+2:10:35
+Speaker 1 :appreciate that word
+ without understanding how it was initially formed
+
+2:10:39
+Speaker 0 :interesting but how does that help
+ because that's that's not the full picture
+
+2:10:44
+Speaker 1 :no no of course of course but what i'm
+ trying to say is that knowing the
+
+2:10:47
+Speaker 0 :components
+
+
+2:10:48
+Speaker 1 :teaches you about the context of the
+ formation of that word
+
+2:10:51
+Speaker 0 :and sort of the original usage of that
+
+
+2:10:54
+Speaker 1 :word and then of course the word takes
+ new meaning as you create it you know from its parts
+
+2:11:01
+Speaker 0 :and that meaning then gets augmented
+ and two synonyms that that sort of have
+
+2:11:05
+Speaker 1 :different roots
+
+
+2:11:08
+Speaker 0 :will actually have implications that
+ carry a lot of that baggage
+
+2:11:11
+Speaker 1 :of the historical provenance of these
+ words so before working on genome evolutionmy passion was evolution of language
+
+
+2:11:20
+Speaker 0 :and sort of tracing cognates across
+ different languages
+
+2:11:25
+Speaker 1 :through their etymologies and that's
+
+
+2:11:28
+Speaker 0 :fascinating that there's parallels
+ between i mean of course the idea that there'sevolutionary dynamics to our language
+ yeah every single word that you utter parallels parallels what doesparallels mean
+ para means side by side alleles from alleleswhich means identical twins parallels
+ i mean name any word and there's so much baggageso much beauty in how that word came to
+ be and how this word took a new meaning than the sum of its partsyeah and that and those and they're just
+ they're just words they don't have any physical
+
+2:12:08
+Speaker 1 :exactly and now you take your words and
+
+
+2:12:10
+Speaker 0 :you weave them
+ into a sentence the emotional invocations of that weaving arefathomless and they're all all of those
+ emotions all live in our in the brains of humansin the eye of the beholder
+
+
+2:12:28
+Speaker 1 :no seriously you have to embrace this
+
+
+2:12:29
+Speaker 0 :
+
+2:12:31
+Speaker 1 :concept of the eye of the beholder
+
+
+2:12:32
+Speaker 0 :it's it's the the conceptualization that
+ nothing takes meaning with one person creating it everything takes meaningin the receiving end and the emergent
+
+
+2:12:43
+Speaker 1 :properties
+ of these communication networks where
+
+2:12:46
+Speaker 0 :
+
+2:12:48
+Speaker 1 :every single you know if you look at the
+ network of our cells and how they're communicating with each other
+
+2:12:52
+Speaker 0 :every cell has its own code this code is
+ modulated by the epigenome this creates a bunch of different celltypes each cell type now has its own
+ identity yet they all have the common root of thestem cells that sort of
+ led to them each of these identities is now communicating with each otherthey take meaning in their interaction
+ there's an emergent property that comes
+
+2:13:13
+Speaker 1 :from a bunch of cells being together
+
+
+2:13:15
+Speaker 0 :that is not in any one of the parts if
+
+
+2:13:18
+Speaker 1 :you look at neurons communicating again
+
+
+2:13:19
+Speaker 0 :these
+ engrams don't exist in any one neuron they exist in the connection in thecombination of neurons
+ and the meaning of the words that i'm
+
+2:13:27
+Speaker 1 :
+
+2:13:29
+Speaker 0 :telling you
+ is empty until it reaches you and it affects you in a very different waythen it affects whoever's listening to
+ this conversation now because of the emotional baggage thati've grown up with that you've grown up
+ with and that they've grown up with yeah and that's i think the magic oftranslation
+ if you start thinking of translation as
+
+2:13:49
+Speaker 1 :
+
+2:13:50
+Speaker 0 :
+
+2:13:52
+Speaker 1 :just simply capturing that emotional
+
+
+2:13:53
+Speaker 0 :set of reactions that you have that you
+
+
+2:13:56
+Speaker 1 :evoke
+
+
+2:13:59
+Speaker 0 :you need a different set of words to
+ evoke that same set of reactions to a french personthan to a russian person because of the
+ baggage of the culture that we grew up inyeah i mean there's so so basically you
+
+
+2:14:09
+Speaker 1 :shouldn't find
+
+
+2:14:12
+Speaker 0 :the best word sometimes it's a
+ completely different sentence structure that you will needmatched to the cultural context
+ of the target audience that you have yeah the it's i meanyou're just i usually don't think about
+ this but right now there's this feeling as a reminder thatit's just you and i talking
+ but there's several hundred thousand people will listen to thisthere's some guy in russia right now
+ running uh like in moscow listening to usand there's somebody in india i
+ guarantee you there's somebody in china and south america there's somebodyin texas and and they all have different
+ emotional baggage they probably got
+
+2:14:54
+Speaker 1 :angry earlier on about the whole
+
+
+2:14:56
+Speaker 0 :discussion about coronavirus and
+ uh about some aspect of it uh yeah it's and there's that network effect yeahyeah
+ that's uh it's a beautiful thing and and
+
+2:15:07
+Speaker 1 :this lateral transfer of information
+
+
+2:15:09
+Speaker 0 :that's what makes the collective
+
+
+2:15:11
+Speaker 1 :quote-unquote genome
+
+
+2:15:13
+Speaker 0 :of humanity so unique from any other
+ species so you somehow miraculously wrapped itback to the very beginning
+ of when we were talking about the human the beauty of the human genomeso i think this is the right time unless
+ we want to go for a six to eight hour conversation we'regonna have to talk again but
+ i think for now to wrap it up um this is the right time to talk aboutthe uh the biggest most ridiculous
+ question of all meaning of life off mike you mentionedto me that you um
+ you had your 42nd birthday 40 a second being a very special absurdlyspecial number
+ uh and you had to kind of um get together with friends to discuss themeaning of life so let me ask you
+ in your as a biologist as a computer scientistand as a human
+ what is the meaning of life i've been
+
+2:16:16
+Speaker 1 :asking this question
+ for a long time ever since my 42nd birthdaybut well before that and even planning
+ the meaning of life symposium
+
+2:16:26
+Speaker 0 :and symposium
+
+
+2:16:27
+Speaker 1 :means together posey actually means to
+ drink together so symposium is actually a drinking party[Laughter]
+ so can you actually elaborate about this
+
+2:16:36
+Speaker 0 :meaning of life that you put together
+
+
+2:16:39
+Speaker 1 :it's like the most genius idea i've ever
+ heard so 42 is obviously the answer to life theuniverse and everything from the
+ hitchhiker's guide to the galaxy and as i was turning 42 i've had thetheme for every one of my birthdays when
+ i was turning 32 it's one zero zero zero zero zero inbinary
+ so i celebrated my 100 000th binary binary birthday and i had a theme ofgoing back 100 000 years
+ you know let's dress something in the last hundred thousand yearsanyway it was we've i've always had
+ these that's such an interesting human being
+
+2:17:10
+Speaker 0 :okay that's awesome i've always had
+
+
+2:17:13
+Speaker 1 :these sort of
+ uh sort of numerology [Music]related announcements for my for my
+ birthday party so what came out of thatmeaning of life symposium is that i
+ basically asked 42 of my colleagues 42 my friends 42 of myyou know collaborators to basically give
+ seven minute species on the meaning of life each from theirperspective and
+ i really encourage you to go there because it's mind-boggling that everysingle person
+ said a different answer every single person started withi don't know what the meaning of life is
+ but and then give this beautifully eloquently answer eloquent answer
+
+2:17:57
+Speaker 0 :and they were all different but they all
+ were consistent with each other and mutually synergistic
+
+2:18:03
+Speaker 1 :and together forming a beautiful view of
+ what it means to be human in many ways
+
+2:18:07
+Speaker 0 :
+
+2:18:08
+Speaker 1 :some people talked about the loss of
+
+
+2:18:10
+Speaker 0 :their loved one
+ their life partner for many many years and how their life changed through that
+
+2:18:15
+Speaker 1 :some people talked about the origin of
+
+
+2:18:18
+Speaker 0 :life some people talked about
+
+
+2:18:20
+Speaker 1 :the difference between purpose and
+
+
+2:18:22
+Speaker 0 :meaning
+
+
+2:18:24
+Speaker 1 :i'll you know maybe quote one of the
+ answers which is this linguistics uh professorfriend of mine at harvard
+
+
+2:18:34
+Speaker 0 :who basically said
+
+
+2:18:36
+Speaker 1 :that she was gonna she's greek as well
+ and she said i will give a very pythian answer so pithia was the oracle ofdelphi
+ who would basically give these very cryptic answers very short butinterpretable in many different ways
+ there was this whole set of priests who were tasked withinterpreting what pethia had said
+ and very often you would not get a clean interpretation but she saidi will be like pethi and give you a very
+ short and multiple interpretable answer butunlike her i will actually also give you
+ three interpretations
+
+2:19:06
+Speaker 0 :and she said the answer to the meaning
+ of life is become one
+
+2:19:13
+Speaker 1 :and the first interpretation is like a
+
+
+2:19:14
+Speaker 0 :child
+ become one year old with the excitement of discovering everything about theworld
+ second interpretation in whatever you take onbecome one the first the best excel
+ drive yourself to perfection for every one of your tasksand become one when people
+ are separate become one come together
+
+2:19:41
+Speaker 1 :learn to understand each other
+
+
+2:19:44
+Speaker 0 :damn that's an answer and one way to
+
+
+2:19:45
+Speaker 1 :summarize this whole meaning of life
+ symposium is that the very symposium was
+
+2:19:50
+Speaker 0 :illustrating
+ the quest for meaning which might itself bethe meaning of life this constant quest
+
+
+2:20:01
+Speaker 1 :for something sublime something human
+
+
+2:20:02
+Speaker 0 :something intangible some you know
+
+
+2:20:05
+Speaker 1 :aspect of what defines us as a species
+
+
+2:20:08
+Speaker 0 :and as an individual both the quest of
+ me as a person through my own life but the meaning of life could also bethe meaning of all of life
+ what is the whole point of life why life why life itself
+
+2:20:24
+Speaker 1 :because we've been talking about the
+
+
+2:20:27
+Speaker 0 :history and evolution of life
+ but we haven't talked about why life in the first place is life inevitableis life part of physics
+ does life transcend physics but fighting by fighting against entropyby compartmentalizing and increasing
+ concentrations rather than diluting away
+
+2:20:47
+Speaker 1 :is life um a distinct entity in the
+
+
+2:20:49
+Speaker 0 :universe
+
+
+2:20:52
+Speaker 1 :beyond the traditional very simple
+ physical rules that govern gravity and you know electromagnetism and all ofthese forces
+ is life another force is there a life force is there a uniquekind of set of principles that emerge of
+ course built on top of the hardware of physics but is it sort of a new layerof software
+ or a new layer of a computer system so that's at the levelof you know big questions there's
+ another aspect of gratitude of basically
+
+2:21:22
+Speaker 0 :
+
+2:21:24
+Speaker 1 :what i you know what i like to say is
+ during this pandemic i've basically worked from 6 a.m until 7 00 pm
+
+2:21:30
+Speaker 0 :every single day non-stop including
+
+
+2:21:32
+Speaker 1 :saturday and sunday
+ i've basically broken all boundaries of where lifepersonal life begins and work life you
+ know ends and uh that has been exhilarating for mejust just the intellectual pleasure
+
+
+2:21:48
+Speaker 0 :
+
+2:21:51
+Speaker 1 :that i get from a day of exhaustion
+ where at the end of the day my brain is hurting i'm telling my wifewow i was useful today
+
+
+2:21:59
+Speaker 0 :
+
+2:22:01
+Speaker 1 :and there's a certain
+
+
+2:22:03
+Speaker 0 :pleasure that comes from feeling useful
+ and there's a certain pleasure that comes from feeling gratefulso i've written this little sort of
+ prayer for my kids to say at bedtime everynight
+ where they basically say thank you god forall you have given me and give me the
+ strength to give unto others with the same lovethat you have given unto me
+ we as a species are so special the only ones who worry about themeaning of life
+ and maybe that's what makes us human and what i like to say to my wife and tomy students during this pandemic
+
+
+2:22:50
+Speaker 1 :work extravaganza is
+
+
+2:22:52
+Speaker 0 :every now and then they ask me but how
+ do you do this and i'm like i'm a workaholici love this this is me
+ in the most unfiltered way the ability to do somethinguseful to feel that my brain is being
+ used to interact with the smartest people onthe planet
+ day in day out and to help them discover aspects of the human genomeof the human brain of human disease and
+ the human condition that no one has seen beforewith data that we're capturing that
+ has never been observed and there's another aspectwhich is on the personal life many
+ people say oh i'm not going to have kids why botheri can tell you as a father
+ they're missing half the picture if not the whole pictureteaching my kids about my view of the
+ world and watching through their eyes thenaivete with which they start
+ and the sophistication with which they end upthey understanding that they have of not
+ just the natural world around them but of me toothe unfiltered criticism
+ that you get from your own children that knows no boundsof honesty and i've grown
+ components of my heart that i didn't know i haduntil you sense that fragility
+ that vulnerability of the children that immense love and passionthe unfiltered egoism that we as adults
+ learn how to hide so much better it's justthis back of emotions that
+ tell me about the raw materials that make a human beingand how these raw materials can be
+ arranged with more sophistication that
+
+2:24:56
+Speaker 1 :we learn through life
+
+
+2:24:57
+Speaker 0 :to become truly human adults
+ but there's something so beautiful about seeing that progression between themthe complexity of the language growing
+ as more neural connections are formed
+
+2:25:15
+Speaker 1 :to to realize that the hardware is
+
+
+2:25:16
+Speaker 0 :getting rearranged
+ as their software is getting implemented on that hardwarethat their frontal cortex continues to
+ grow for another 10 years these neuronal connections are
+
+2:25:29
+Speaker 1 :continuing to form new neurons that
+ actually get
+
+2:25:31
+Speaker 0 :replicated and formed and it's it's just
+ incredible that we have this not just you grow the hardware for 30 years and
+
+2:25:39
+Speaker 1 :then you feed it all of the knowledge no
+
+
+2:25:42
+Speaker 0 :no the knowledge is fed throughout and
+ is shaping these neural connections as they're formingso seeing that transformation from
+ either your own blood or from an adopted child isthe most beautiful thing you can do as a
+ human being and it completes you it completes thatpath that journey
+ the create life oh sure that's at conception that's easybut create human life to add the human
+ part that takes decades of compassionof sharing of love and of anger
+ and of impatience and patience and as a parenti think i've become a very different
+ kind of teacher because again i'm a professor my first
+
+2:26:26
+Speaker 1 :role is to bring
+
+
+2:26:29
+Speaker 0 :adult human beings into a you know more
+ mature level of adulthood where they learn not just to do sciencebut they learn
+ the process of discovery and the process of collaboration the process of sharingthe process of
+ conveying the knowledge of encapsulating something incredibly complex and and
+
+2:26:48
+Speaker 1 :sort of giving it up
+
+
+2:26:49
+Speaker 0 :in sort of bite-sized chunks that the
+ rest of humanity can appreciate i tell my students all the time if youyou know
+
+
+2:26:58
+Speaker 1 :like when an apple fall when when when a
+ tree falls in the forest and no one's there to listen has it really fallen
+
+2:27:03
+Speaker 0 :the same way you do this awesome
+ research if you write an impenetrable paper that no one will understandit's as if you never did the awesome
+
+
+2:27:10
+Speaker 1 :research so conveying of knowledge
+
+
+2:27:11
+Speaker 0 :conveying
+
+
+2:27:14
+Speaker 1 :this lateral transfer that i was talking
+ about at the very beginning
+
+2:27:16
+Speaker 0 :
+
+2:27:18
+Speaker 1 :of sort of human humanity and sort of
+ the sharing of information
+
+2:27:22
+Speaker 0 :all of that has gotten so much
+ more rich by seeing human beings grow in my own home because thatthat makes me a better parent and that
+ makes me a better teacher and a better mentor to the nurturing
+
+2:27:40
+Speaker 1 :of my adult children which are my
+
+
+2:27:41
+Speaker 0 :
+
+2:27:43
+Speaker 1 :research group first of all
+ beautifully put connects
+
+2:27:46
+Speaker 0 :beautifully to the vertical and the
+ horizontal inheritance of ideas that we've talkedabout at the very beginning
+ i don't think there's a better way to end it uh on this poeticand powerful note uh manolas thank you
+ so much for talking there's a huge honor we have to talk againabout the origin of life about
+ epigenetics epigenomics and uh some of the incredible research you'redoing truly an honor thanks so much for
+ talking
+
+2:28:15
+Speaker 1 :thank you such a pleasure it's such a
+ pleasure i mean your questions are outstanding i've had such a blast herei can't wait to be back awesome thanks
+
+

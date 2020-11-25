@@ -1,0 +1,1558 @@
+0:00:00
+Speaker 1 :the following is a conversation with ian
+ hutchinson a nuclear engineer and plasma physicist at mit he has madea number of important contributions in
+ plasma physics including the magnetic confinement of plasmasseeking to enable fusion reactions which
+ happens to be the energy source of the stars to be usedfor practical energy production
+ current nuclear reactors by the way are based on fission as we discussian has also written on the philosophy
+ of science and the relationship between scienceand religion arguing in particular
+ against scientism which is a negative description of theoverreach of the scientific method
+ to questions not amenable to it on this latter topic i recommend two of hisbooks
+ his new one can a scientist believe in miracles where he answers more than 200questions on all aspects of god and
+ science and his earlier book on scientism calledmonopolizing
+ knowledge as you may have seen already i work hard on having an open mindalways questioning my assumptions and in
+ general marvel at the immense mystery of everything around usand the limitations of at least my
+ mind i'm not religious myself in that i don't go to the synagogue a church ormosque
+ but i see the beautiful bond in the community that religion at its best cancreate
+ i also see both in scientists and religious leaders signs of arrogancehypocrisy
+ greed and a will to power
+
+0:01:30
+Speaker 0 :
+
+0:01:31
+Speaker 1 :we're human whether buddhist christian
+ hindu jewish muslim agnostic or atheist this podcast is myhumble attempt to explore a complicated
+ human nature what stanislav in his book solariscalled
+ our own labyrinth of dark passages and secret chambersi ask that you try to keep an open mind
+ as well and be patient with the limitations of
+
+0:01:56
+Speaker 0 :mine
+
+
+0:01:57
+Speaker 1 :quick summary of the ads two new amazing
+ sponsors sunbasket and powerdot please considersupporting this podcast by going to
+ sunbasket.com lex and use code lex at checkoutand go into powerdot.com lex and use
+ code lex at checkout as well click the links buythe stuff if you like
+ just visiting the site and considering the purchase is really the bestway to support this podcast it's how
+ they know i sent you and based on that that might sponsor the podcast in thefuture
+ if you enjoy this thing subscribe on youtube review it with 5 stars on applepodcast
+ support on patreon or connect with me on twitterat lex friedman as usual i'll do a few
+ minutes of ads now and never any ads in the middle that canbreak the flow of the conversation
+ this show sponsored by sunbasket visit sunbasket.comand use codelex to get 35 bucks off
+ your order and to support this podcast sunbasket delivers freshhealthy delicious meals straight to your
+ door as you may know my diet is pretty minimalist so it'snice to get some healthy variety into
+ the mix they make it super easy with everythingproportioned and ready to prep and cook
+ you can enjoy a delicious healthy dinner in as little as 15 minutesi just ordered my first set of meals
+ haven't gotten them yet but i can't wait i just finished the uhsix mile run and thousand body weight
+ reps and i'm starving but let me risk listing the actual menu items that iordered because they sound delicious
+ italian sausages and vegetable skewers with two romescosi don't actually know where mescals are
+ but the pictures looked awesome and pork fried cauliflower rice withcarrots
+ and peas by the way cauliflower rice is one of my favorite things everright now sun basket is offering 35
+ off your order when you go right now to sunbasket.comlex they told me to say right now with
+ urgency so pause this podcast and go to thewebsite and make the purchase
+ or just go to the website and check it out and enter a promo code lex
+
+0:04:11
+Speaker 0 :
+
+0:04:11
+Speaker 1 :at checkout this show is also sponsored
+ by
+
+0:04:15
+Speaker 0 :
+
+0:04:16
+Speaker 1 :powerdot get it at powerdot.com
+ lex and use code lex at checkout to get 20off and to support this podcast this
+ thing is amazing it's an e-stem electrical stimulationdevice that i've been using
+ a lot for muscle recovery recently mostly for my shoulders and legsas i've been doing the 1000 body weight
+ reps and six miles every day as i just finished they call it thesmart
+ muscle stimulator which is true since the app that goes with itis amazing it has 15 programs for
+ different body parts and guides you through everything you need to doi take recovery really seriously these
+ days and powerdot has been a powerful additionto the whole regime of stretching ice
+ massage and sleep and diet that i do it's used by professional athletes andby slightly insane
+ but mostly normal people like me it's portableso you can throw it in a bag and bring
+ it anywhere get it at powerdot.com lex and use codelex
+ checkout to get 20 off on top of the 30 day free trialand to support this podcast and now
+ here's my conversation with ian hutchinsonmaybe it'd be nice to draw a distinction
+ between nuclear physics and plasma physics what is thedistinction
+
+
+0:05:38
+Speaker 0 :nuclear physics is about the physics of
+ the nucleus and my department department of nuclearscience and engineering at mit
+ is very concerned about all the interactions andreactions and and consequences of things
+ that go on in the nucleus including nuclear energyfission energy which is the nuclear
+ energy that we have already and fusion energy which is the energysource of the sun and stars
+ which we don't quite know how to turn into practical energyuh for humankind at the moment
+ that's what my research has mostly been aimed atbut plasmas are essentially
+ the fourth state of matter so if you think aboutsolid liquid gas plasma is the fourth
+ of those states of matter and it's actually the state of matter which onereaches
+ if one raises the temperature so cold things you know like ice are solidum liquids are hotter water
+ and if you heat water beyond 100 degrees celsius it becomes gasuh well that's true of most substances
+ and um plasma is a is a state of matter in which the electrons areunbound from the nuclei so they become
+ separated from the nuclei and can move separatelyso we have positively charged nuclei
+ and we have negatively charged electrons then the net isis still neutral electrically neutral
+ but a plasma conducts electricity has all sorts of important propertiesthat are associated
+ with that separation and that's what plasmas are all aboutand the reason why my department is
+ interested in plasma physics very strongly is becausemost things well for one thing most
+ things in the universe are plasma the vast majority of matter in theuniverse is plasma but but most
+ particularly stars and the sun are plasmasbecause they're very hot and it's only
+ in very hot states that nuclear fusion reactions take placeand we want to understand how to
+ implement those kind of phenomena
+
+0:07:59
+Speaker 1 :on earth maybe another distinction we
+ want to try to get at is a difference betweenfission and fusion
+ as you mentioned fusion is the kind of reaction happening in the sun so what'svision and what's fusion
+
+
+0:08:10
+Speaker 0 :well fission is taking heavy elements
+ like uranium and breaking them up and it turns out that that process ofbreaking up heavy elements releases
+ energy
+
+0:08:22
+Speaker 1 :what does it mean to be a heavy helmet
+
+
+0:08:24
+Speaker 0 :it means that there are many
+ nuclear particles in the nucleus itself neutrons and protons um in thein the nucleus itself so that in the
+ case of um uranium there are 92protons in each nucleus and even more
+ neutrons so that the total number of nucleonsin the nucleus nucleons is short for for
+ either a proton or a neutron the total number you know might be 235that's
+ u235 or it might be 238 that's u238 so those are heavy elementslight elements by contrast have very few
+ nucleons protons or neutrons in the nucleushydrogen is the lightest nucleus it has
+ one proton there are actually slightly heavier formsof hydrogen isotopes deuterium has
+ a proton and a neutron and tritium has a proton and two neutrons so it hastotal of three
+ nucleons in the new in the nucleus well taking light elementslike isotopes of hydrogen and not
+ breaking them up but actually fusing them together reacting themtogether to produce heavier elements
+ typically helium okay which is helium is a nucleus which hashas two protons and two neutrons
+ that also releases energy and that and that or reactions like thatmaking heavier elements from lighter
+ elements is what mostly powers the sun and starsboth fusion and fission release
+ approximately a million times more energy per unit mass than chemicalreactions
+ so a chemical reaction means take hydrogen takeoxygen react them together let's say and
+ get water that releases energy the energyreleased in a chemical reaction like
+ that or the burning of coal or on oil or whatever else is about amillion times less
+ per unit mass than what is released in nuclear reactions
+
+0:10:36
+Speaker 1 :
+
+0:10:38
+Speaker 0 :so but it's hard to do it requires
+ very high energy of impact and actually it's very easy tounderstand why and that is that
+ those two nuclei if they're both let's sayhydrogen nuclei one is let's say
+ deuterium and the other is let's say tritiumthey're both electrically charged and so
+ the and they're positively charged so they theylike charges repel everyone knows that
+ right so basically to get them close enoughtogether to react
+ you have to overcome the repulsion the electric repulsionof the two um nuclei from one another
+ and you have to get them extremely close to one another in order for the nuclearforces to overtake
+ the electrical forces and and actually form a new nucleusand so one requires very high energies
+ of impact in order for reactions to takeplace and those high energies of impact
+ correspond to very high temperatures
+
+0:11:36
+Speaker 1 :of random motion so that's why you can
+ do something like that in the sun so we can build the sunthat's one way to do it
+ but uh on earth how do you create a fusion[Laughter]
+
+
+0:11:48
+Speaker 0 :reaction yeah well nature engineering
+ nature's fusion uh reactors are indeed the starsand uh they are very hot in the set in
+ the center and re and they reach the point wherethey
+ release more energy from those reactions than they lose by radiation andtransport to the surface
+ and so forth and that's a state of ignitionand and that's what we have to achieve
+ to to give net energy it's like lighting afire
+ if you if you have a if you have a bundle of sticks and you hold a match upto it
+ and you see smoke coming from the sticks but you take the match away and theand the and the sticks just fizzle out
+ that's not the reason they did it fizzled out isthat yes they were burning
+ there was smoke coming from them but they were not ignitedbut if you are able to take the match
+ away and they keep burning and they are generating enough heatto keep themselves hot and hence keep
+ the reactions going that's chemical ignition well what weneed to do
+ what the stars do in order to generate nuclear fusion energy isthey are ignited they are generated
+ enough energy to keep themselves hot and that's what we've got to do on earthif we're going to make
+ fusion work on earth but it's much harder to doon earth than it is you know in a star
+ because you know we need temperatures of order tens of millions ofdegrees celsius in order for the
+ reactions to go fast enough to generate enoughelectricity to keep it
+ or enough energy to keep it going and and so um if you've got something that'stens of millions of degrees
+ celsius and you want to keep it all together and keep the heat in longenough
+ to have enough reactions taking place you can't just put it in a bottleyou know plastic or glass it would be
+ gone you know it's in milliseconds um soum you have to have some non-material
+ mechanism of confining the plasma in the case of stars that non-materialforce
+ is gravity so gravity is what holds a star together it's whatholds the plasma in long enough for it
+ to react and and and sustain itself bythe the fusion reactions but on earth
+ gravity is extremely weak i mean i don't mean to say we don't fall yes we fallbut the the mutual gravitational
+ attraction of small objects is very weak comparedwith the electrical repulsion or any
+ other force that you can think about on earth and so we need a stronger forceto keep the plasma together to confine
+ it and the predominant attemptat making fusion work on earth is to use
+ magnetic fields to confine the plasma and that's whati've worked on for much
+ essentially most of my career is to understandhow we can and how best we can confine
+ these incredibly hot gases plasmas using magnetic fields with the ultimateobjective
+ of releasing fusion energy on earth and you know generating electricity with itand powering our society with it
+
+
+0:15:21
+Speaker 1 :a dumb question so on top of the
+ magnetic fields do you also need the plastic waterbottle walls or is it purely magnetic
+
+
+0:15:29
+Speaker 0 :fields
+ well actually what we do need walls um those walls must be kept away fromthe plasma because otherwise they'd be
+ melted or the plasma must be kept away from them insideinside of them but the main purpose of
+ the walls is not to keep the plasma in it's tokeep the atmosphere out
+ so if we want to do it on earth where there's airwe want the plasma to consist of
+ hydrogen isotopes or other things the things we're trying to reactand by the way the density
+ of those plasmas at least in magnetic confinement fusionis very low it's maybe a million times
+ less than the density of air in this roomso in order for a fusion reactor like
+ that to work you have to keep all of the air out andjust keep the plasma in so yes there are
+ other things but those are things that are relativelyeasy i mean making a vacuum
+ these days is technologically quite quite straightforward we know how to dothat
+ okay what we don't quite know how to do is to makea confinement uh device that
+ isolates the plasma well enough so that itso that it's able to keep itself burning
+ with its own reaction
+
+0:16:44
+Speaker 1 :so maybe can you talk about what a
+
+
+0:16:46
+Speaker 0 :takamaka is
+ the russian acronym from which the word tokamak is built just means toroidalmagnetic chamber
+ so it's a toroidal chamber taurus is is a geometric shape which is like adoughnut with a hole down the middle
+ okay and so it's the so it's the meat of the doughnutokay that's the taurus um and it's
+ and it's got a magnetic field so that's really all takamakuh means but the particular
+ configuration um that we're the that is verywidespread and there's the sort of
+ best prospect in the least in the near term for making fusion energy workis one in which there's a very strong
+ magnetic field the the long way around thedoughnut around the torus um so you've
+ got to imagine that there's this doughnut shape with an embedded magneticfield just going round and round
+ the long way the the big advantage of thatis that plasma particles
+ are when they're in a in the presence of a magnetic fieldfeel strong forces from the magnetic
+ field and those forces make the particles gyrate around thedirection
+ of the magnetic field line so basically the particles follow helical orbits likelike a following like a spring that's
+ directed along the magnetic field well if you make the magnetic field goin inside this toroidal chamber and just
+ simply go round and round the chamber then because of this helical orbitthe particles can't move fast across the
+ magnetic field but they can move very quickly along themagnetic field
+ and if you have a magnetic field that doesn't leave the chamberit doesn't matter if they move along the
+ magnetic field it does it means it doesn't mean they're goingto exit the chamber
+ but if you just had a straight magnetic field as you you know for examplecoming from um you know a bar a
+ helmholtz coil or or a bar magnet then you'd have to haveends it would come would come to the end
+ ends of the chamber somewhere in the and the particles would hit the ends andand they would lose their energy so
+ that's why it's toroidal and that's why we have a strong magneticfield it's
+ providing a confinement against motion in the in the direction that would leadthe particles to leave the chamber
+ it turns out that then here we're getting a little bit technical but itturns out that
+ a toroidal field alone is not enough and so you need morefields to produce true true confinement
+ of plasma and we get those by passing acurrent as well
+ through the plasma itself i can make
+
+0:19:32
+Speaker 1 :sure it stays on track
+
+
+0:19:34
+Speaker 0 :well that what that does is makes the
+ field lines themselves into much bigger helices andthat for reasons that are too
+ complicated to explain that clinches the confinement of theparticles
+ at least in terms of their single particle orbits so they don't leave thechamber
+
+
+0:19:52
+Speaker 1 :and so when the particles are flying
+ along this uh this this doughnut the inside of thedonut
+ uh are they what's where's the generation of the energy coming from arethey smashing
+
+
+0:20:05
+Speaker 0 :into each other yeah eventually i mean
+ in a fusion reactor there will be deuterons and triti andtritons and they will be
+ smashing in they will be very hot they'll be 100 million degreescelsius or something so they're moving
+ thermally with very large thermal energiesin random directions and they will
+ collide with one another and have fusion reactions when thosefusion reactions take place
+ energy is released large amounts of energy is released in the form ofparticles
+ one of the particles that's released is an alpha particle which is also chargedand it's also confined
+ and that alpha particle stays in the in the in the doughnut and heats the otherparticles that are in that doughnut
+ so it transfers its energy to those and they it keeps them hotthere's there's some leaking of heat all
+ the time a little bit of radiation some transport and so forth there's alsoa neutron released from that reaction
+ the neutron carries out four-fifths of the fusion energyand that will have to be captured in a
+ blanket that surrounds the chamber in which wetake the energy drive
+ some kind of electrical generator from you know thermal thermalengine
+ um gas turbine or something like that and power the power you got energy
+
+0:21:25
+Speaker 1 :so where do we stand where do we stand
+ on getting this thing to be uh somethingthat actually works it generates energy
+
+
+0:21:33
+Speaker 0 :yep
+ well um there have been experiments that have generatednet nuclear energies or nuclear powers
+ in the vicinity of um you know a few tens of megawattsfor a few seconds so that's
+ you know 10 megajoules that's not much energyit's a few doughnuts worth of energy
+ okay yeah literal donut that's right umbut um but we have studied how well
+ tokamax can confine plasmas and so we nowunderstand in in rather great detail
+ um the way they work and we're able to predict what isgoing to be required in order to build a
+ tokamak that becomes self-sustaining that that becomes essentially ignitedor very so close to ignited that it
+ doesn't matter and and at the moment at least if youuse the modest magnetic field
+ values still very strong but but limited limited magnetic field valuesyou have to build a very big device and
+ so we are at the moment worldwide fusion research isat the moment in the process of building
+ a very big experiment that's located in the south of franceit's called eta
+ i-t-e-r which means the way or just means the international tokamakexperimental reactor if you like
+ um and that experiment is designed to reach this burning plasma stateand to generate about 500
+ megawatts of fusion power for hundreds of seconds at a time it'llstill only be
+ an experiment it won't put electricity on the grid or anything like thatit's it's to figure out what whether it
+ works and and with what the remaining engineering challenges are it's ascientific experiment
+ it won't be engineered to run round the clock andand so on and so forth which ultimately
+ one one needs to do in order to make something that'spractical for generating electricity
+ but it will be the first demonstration on earthof a controlled fusion reaction reaction
+ for you know long time time periods is
+
+0:23:55
+Speaker 1 :
+
+0:23:56
+Speaker 0 :that exciting to you
+ uh it it it's been an objective that is in many ways motivated my entire careerand the career career of many people
+ like me in the field um i have to admit thoughthat one of the problems with eta is
+ that it's an extremely big and expensive andlong time to build experiment and so it
+ won't even come into operation until about 2025 even though it's beenbeing built for
+ 10 years and it's been it was designed for 30 years before thatright and so that's actually one of the
+ big disappointments of my career in a certain sense which is that wewon't get to
+ a burning fusion reaction until well past the firstoperation of eater and whether i'm alive
+ or not i don't know but i certainly will be well and trulyretired by the time that happens
+ and so when i realized maybe some years ago that that was going to be the caseit was a discouragement to me let's put
+ it like that
+
+0:25:03
+Speaker 1 :but if we can try to look maybe
+ in a ridiculous kind of way look into uh 100 years from now 200 years 500 yearsfrom now
+ and we you know there's folks like elon musk uh trying to uh travel outside thesolar system
+ i mean the amount of energy we need for some of the exciting things we want todo
+ in this world if we look again 100 years from nowuh seems to be a very large amount
+ so do you think fusion energy will eventuallyuh sometime into your retirement uh
+ will be basically uh behind most of the things we do look i
+
+0:25:40
+Speaker 0 :absolutely
+ think that fusion research is completely justified in fact we shouldbe spending more time and effort on it
+ than we currently do but it isn't going to be a magic bulletthat somehow
+ solves all the problems of energy by the way that's a generic statement you canmake about
+ any energy source in my view i think it's a grave mistake to think thatscience
+ of any sort is suddenly going to find a magic bullet for meeting all the energyneeds of society or any of the other
+ needs of society by the way but and we can talk about that hopefullylater
+ but but but but fusion is very worthwhile and we should be doing itum and and so my disappointment
+ that i just expressed was in a certain sense of personal disappointmenti do think that fusion energy is a
+ terrific challenge it's very difficult to bringthe energy source of the sun and stars
+ down to earth this does contrast in a certain sensewith fission energy by contrast fission
+ energy efficient to build a fission reactorproved to be amazingly easy
+ you know we did it um within a few years of discovering nuclear fission peoplehad
+ figured out how to build a reactor and did soum you know during the second world war
+
+
+0:27:07
+Speaker 1 :which is by the way
+ fission is how the current nuclear power
+
+0:27:11
+Speaker 0 :plants work yeah
+ and so we have uh nuclear energy today because fission uh reactors arerelatively easy to build you've got to
+ have what's hard is getting the materials okay and that's just aswell because if everyone could get those
+ materials you know there would be weapons proliferation and so forthbut it wasn't um all that long um
+ after even the discovery of nuclear fissionthat fission reactors were built and
+ fission reactors of course operated before we had weaponsum so um
+ i think nuclear power is obviously important tomeet the energy challenges of our
+ age it is completely intrinsically completelyuh co2 emissions free
+ and in fact the wastes that come from nuclear power whether it's fission orfusion for that matter
+ are so moderate in quantity that that we shouldn't really be worriedabout them
+ um i mean yes fission products are highly radioactive andand we need to keep them away from
+ people but there's so little of them it's that keeping them away from peopleis not particularly difficult
+ and so while people complain a lot about thethe drawbacks of fish and energy um
+ i think most of those complaints are ill-informedum we can talk about you know the the
+ challenges and the disasters if you like ofuh off of fission reactors but i think
+ fission in the near term offers a terrific opportunityfor environmentally friendly energy
+ which in which in the world as a whole is rapidly beingtaken advantage of you know china and
+ india and places like that are rapidly building fission plantswe're not rapidly building fission
+ plants in the u.s although we are actuallybuilding two at the moment
+ um two new ones um but we do still get 20 of our electricity from fish andenergy and we could get a lot more
+
+
+0:29:18
+Speaker 1 :so it's clean energy so it's clean
+ energy now now again the concern is there's a verypopular
+ hbo show and just came out on chernobyl uh there's the three mile island there'sfukushima that's the most recent
+ disaster so there's a kind of a concern of umyeah i mean nuclear disasters
+ is that what do you make of that kind of uh concern especially if we look intothe future of fission energy based uh
+
+
+0:29:43
+Speaker 0 :reactors
+ well first of all let me say one or two words about the contrast between fissionand fusion and then we'll come on to the
+ question of the disasters and so forth fission does havesome drawbacks and they're
+ and they're largely to do with four four main areas one is do we have enoughuranium or other
+ fissile fuels to to supply our energy needsfor a long time the answer to that is
+ that we know we have um enough uranium to support fissionenergy
+ worldwide for thousands of years but maybe not for millions of years okayso that's resources um secondly
+ there there are issues to do with wastes fission wastesare highly radioactive and some of them
+ are volatile and so for example um infukushima the the problem was
+ that some fraction of the fish and waste were volatilizedand went out as a cloud and and polluted
+ air areas with um cesium 137 strontium 90 and things like thatso that's a challenge of fission um
+ there's a problem of safety uh beyond that and that isthat um in fission it's hard to turn the
+ reactor off when you turn when you stop the nuclearreactions
+ there is still a lot of heat being liberated from the fission productsand that is actually what the problem
+ was at fukushima the fukushima reactors were shut downthe moment that the earthquake took
+ place and they were shut down safely what thenhappened
+ after that fukushima was you know there were there was this enormoustidal wave um many tens of meters high
+ that came through and destroyed the electricitygrid feed to the fukushima reactors and
+ their cooling was then turned off and it wasthe after heat
+ of the turned off reactors that eventually caused the problems thatled to release and so that so that is
+ that's a safety concern and then and thenfinally there's a problem of
+ proliferation and that is that fission reactors needfissile fuel
+ and the technologies for producing the underenriching and so forth the fuels can be
+ used can be can be um by by bad actorsto generate um the materials needed for
+ a nuclear weapon and that's a very very serious concern so those arethe four problems
+ fusion has major advantages in respect ofall of those problems it has more uh
+ longer term um fuel resources it has far more benign wasteissues the react the radioactivity from
+ fusion reactions is at least a hundred times less than it is from fissionreactions
+ it has um no none essentially none of thisafter heat problem because it doesn't
+ produce fission products that are highly radioactive and generating theirown heat
+ when it's turned off in fact the hard part of fusion is turning it on notturning it off
+ and and finally you don't need the same uhfission technology to do to make uh
+ fusion work and so it there it's got terrific advantages fromthe point of view of proliferation
+ control so those are the those are four mainissues which make fusion seem attractive
+ technologically um because they address some of theproblems of fission energy
+ i don't mean to say that fission energy is overwhelmingly problematicbut clearly there have been catastrophes
+ associated with fission reactors fukushima actually is i think in manyways
+ often overstated as a disaster because after allnobody was killed by the reactors
+ essentially zero and that's in the contextof a disaster a tsunami
+ that killed between 15 and 20 000 people instantaneous more or lessinstantaneously
+ so you know in the scale of risks um one should take the view that uhin my in my in my estimation that um
+ fission energy came out of that looking pretty good okayof course that's not the popular
+ conception okay
+
+0:34:23
+Speaker 1 :yes that's gonna i mean with a lot of
+ things that threaten our well-being we seem to be very uh baduh users of data we seem to be very
+ scared of uh shark attacks and not at all scaredof
+ car accidents and this kind of miscalculation andi think from everything and i understand
+ uh nuclear energy efficient based energygoes into that category
+ it's one of the safest one of the cleanest forms of energyand yet the pr uh
+ whoever does the pr for nuclear energy is not uhhas a hard job ahead of them at the
+
+
+0:34:58
+Speaker 0 :moment well i think part of that is
+ their association with nuclear weapons right because when you say the wordnuclear people don't instantly think
+ about nuclear energy they think about nuclear weaponsand and so there is you know perhaps
+ um a natural tendency to do that but yes i agree with you people are verypoor at estimating risks and they react
+ emotionally not rationally in most of these situations
+
+0:35:22
+Speaker 1 :can we talk about nuclear weapons just
+ for a little bit so fission is the kind of reactionthat's central to the nuclear weapons we
+ have today
+
+0:35:32
+Speaker 0 :that's what sets them off that's what
+
+
+0:35:34
+Speaker 1 :sets them off
+ so if we look at the hydrogen bomb maybe you can say how these different
+
+0:35:40
+Speaker 0 :weapons work so the earliest nuclear
+ weapons the the nuclear bombs that were dropped onjapan etc etc
+ were pure fission weapons they used uh enriched uranium or plutoniumand their energy is essentially entirely
+ derived from fission reactions butit was early realized that more energy
+ was available if one could somehow combine a fissionbomb
+ with um fusion reactions um because the fusion reactionsgive more energy per unit mass than
+ than fission reactions and these were this was calledthe super you might have heard of the
+ expression the super or more simply hydrogen bombs okay umbombs which use isotopes of hydrogen and
+ the fusion reactions associated with
+
+0:36:39
+Speaker 1 :them
+ like you said it's hard to turn on it's
+
+0:36:40
+Speaker 0 :hard to turn on because you need very
+ high temperatures and you need confinement of thatlong enough for the reactions to take
+ place and so a bomb actually a thermonuclear bombor a hydrogen bomb
+ has essentially a chemical implosionwhich then sets off a fission
+ explosion which then sets off and compresses hydrogen isotopesand other things which i don't know
+ because i don't i've never had a security clearance okay so i so i can'tbetray any
+ secrets about weapons because i've never been a party to them butbecause i know a lot about this problem
+ i can guess okay um and sets offfusion reactions in the middle okay so
+ that's basically it's that sequence of things whichproduce these enormous
+ you know multi-megaton uh bombs that have very large yields umand so fusion alone can't get can't get
+ you there it is actually possible to set off or totry to set off
+ little fusion bombs alone without the surrounding fission explosionand that is what is called laser fusion
+ so another approach to fusion which actually ismostly researched in the
+ weapons complex the national labs and so forthbecause it's more associated with the
+ technology of of weapons is inertial fusion so if if you decideinstead of
+ trying to make your plasma just sit there in this taurus in the in thetokamak and
+ be controlled steady state with a magnetic field if you if you're willingto accept that
+ i'll just set off an explosion okay and then i'll gather the energy from thatsomehow i don't quite know how but let's
+ not ask that question too much um then it is possibleto imagine generating fusion alone
+ explosions and and the way you do it is you takesome small amount of deuterium tritium
+ fuel you bombard it with energy from allsides
+ and this is what the lasers are used for extremely powerful at laserswhich compresses the pe the pelleted
+ fusion and heats it it compresses it to such ahigh
+ density and temperature that the reactions take place very very quicklyand in fact they can take place so
+ quickly that they're it's all over with before the thingflies apart
+
+
+0:39:27
+Speaker 1 :wow and that is heated up really fast
+
+
+0:39:29
+Speaker 0 :that is inertial
+
+
+0:39:32
+Speaker 1 :fusion okay is that useful for
+ energy generation not yet
+
+0:39:36
+Speaker 0 :i mean there are those people who think
+ it will be but you may have heard of the big experiment called the nationalignition facility which was built at
+ livermore starting in the late 1990s and has been inoperation since
+ around about 2010. it was designed in with the claim that it would reachignition fusion ignition
+ in this pulsed form where the reactions have got over withso quickly before the thing whole thing
+ flies apart it didn't actually reach ignition and idoesn't look as if it will although you
+ know we never know maybe people figure out how to make it work betterbut the answer is in principle it seems
+ possible to reach ignition in this way maybe notwith that particular laser facility
+
+
+0:40:22
+Speaker 1 :are you surprised that uh
+ we humans haven't destroyed ourselves giventhat we've invented such powerful tools
+ of destruction like what do you make of the the factthat for many decades
+ we've had nuclear weapons now speaking about estimating riskat least to me it's exceptionally
+ surprising i was born in the soviet unionthat um that big egos
+ of the big leaders when rubbing up against each other have not created uhthe kind of destruction
+ one was everybody was afraid of for
+
+0:40:58
+Speaker 0 :decades
+ well i must say i'm extremely thankful that it hasn't i don't know whether i'msurprised about it
+ i've never thought about it from the point of view ofis it surprising that we've we've
+ avoided it i'm just very thankful that we have i think that thereis a sense in which cooler heads have
+ prevailed at crucial moments i think there is alsoa sense in which you know mutually
+ assured destruction um has in fact worked asa policy to restrain the great powers
+ from going to war and in fact you know thethe the fact that we haven't had
+ a world war you know since the 1940s is perhaps even attributable tonuclear weapons in a kind of strange and
+ peculiar way but i think humans are deeply uh flawedand sinful people and i certainly don't
+ feel gap that we're guaranteed that it's going to go on like this
+
+0:42:05
+Speaker 1 :and we'll talk about the sort of the
+ biggest picture view of it all uh but let me just ask in terms of yourworries
+ of if we look 100 years from now we're in the middle ofwhat is now a natural pandemic that from
+ the looks of it it fortunately is not as bad as it couldhave possibly been if you look at the
+ spanish flu if you look at the history of pandemicsif you look at all the possible
+ pandemics that could have been that that folks like bill gates are exceptionallyterrified about we've
+ uh i know many people are suffering uh but it's it's it's better than itcould have been uh so
+ and now we're talking about nuclear weapons in terms of existential threatsto us
+ as sinful humans uh what worries you the mostis it nuclear weapons is is it
+ natural pandemics engineered pandemics nanotechnology in my field of artificialintelligence some people
+ are afraid of uh killer robots and robots yeahis there do you think in those
+ existential terms uh and and do any aspect do any of those
+
+0:43:17
+Speaker 0 :things worry you
+ i am certainly not confident that my children and grandchildren willexperience the benefits of civilization
+ that i have enjoyed i think it's possible for our civilizations to breakdown
+ catastrophically i also think that it's possible for ourcivilizations to break down
+ progressively and i think they will if we continue to have the explosion ofpopulation on the planet that we
+ currently have i mean it's quite it's quitewrong to think of our problems as mostly
+ being co2 if we can just solve co2 then we can goon
+ having this you know continually expanding economyeverywhere in the world of course you
+ can't do that okay i mean there is a finite you knowbearing capacity of our planet
+
+
+0:44:13
+Speaker 1 :on the resources of our planet on the
+
+
+0:44:16
+Speaker 0 :resources of our planet
+ and and we can't continue to do that so i think there are lots of technicalreasons
+ why um a continually expanding economy and and uh and civilizationis impossible and therefore um
+ actually i'm as much nervous about the fact that ourpopulation is eight billion or something
+ uh right now worldwide as i am about um the fact thatyou know a few million people would be
+ would be killed by covet 19. i mean i don't want to becallous about this but from the big
+ picture it seems like that's much more of a problemoverpopulation
+ people not dying is ultimately more of a problemuh than people dying um so you know that
+ probably sounds incredibly callousy or to listeners but i think it's simply youknow a sober assessment of the situation
+
+
+0:45:13
+Speaker 1 :is there is there ways from
+ the way those eight billion or seven billion or whatever the number islive that could make it sustainable
+ uh you know because you've kind of implied there's a kind of uhwe have especially in the west this kind
+ of capitalist view of uh really consuming a lot of resources isthere a way to
+ like if you could change uh one thing or a few things what would youchange to make this life make it look
+ more likely that your grandchildren have a better life than you well okay so
+
+0:45:47
+Speaker 0 :let's talk a bit about energy because
+ that's something i know a lot a lot about having thought about it most of mycareer
+ in order to reach a steady-state co2 levelokay that's acceptable in terms of
+ global climate change and so on and so forthwe need to reduce our
+ carbon emissions by at least a factor of 10 worldwideokay what's more
+ you know um the average energy consumption and hence co2emission of people in the world
+ is less than a tenth of what we per capita of than what we havein the west in america and europe and so
+ forth so if you have in mind some utopia inthe future where we can where we've
+ reached a sustainable use of energy and we've also reacheda situation in which there's far
+ less inequity in the world in the sense that people haveshare the energy resources more
+ uniformly then what what that is equivalent towould be to reduce
+ the co2 emissions in western economies not by a factor of 10but by a factor of 100 in other words
+ has to go down to one percent of what it is nowokay yeah so you know when people talk
+ about uh you know let's use natural gasbecause you know maybe it
+ only uses 60 of the energy of coal it's complete nonsense we that's not noteven scratching the surface of what we
+ would need to do so you know is that going to be feasiblei i i very much doubt it
+ and therefore i actually doubt that we can reachum a level of energy
+ of fossil energy use that is one percent of the current use in the west withouttotally dramatic changes either in
+ you know our society our use of of energy and so forth which actuallyof course is much of that energy is used
+ for producing food and so on and so forth so it's actuallynot so obvious that we can we can get we
+ can cut down our energy usage by that factoror we've got to reduce the human
+
+
+0:48:06
+Speaker 1 :population population
+ so you run up against that number that's increasing stilland you don't think that could be it's
+ depressing no it's not uh it's not it's not it's not depressingit's um
+ it's difficult like many truths are uh do you do you have a hope uh that therecould be a technological solution
+
+
+0:48:29
+Speaker 0 :in short no there is no technological
+ solution to for example for population control imean we have the technology
+ just you know to prevent ourselves bearing children that's not a problemtechnology's in okay solved
+ the challenge is society the challenges human choices the challenges almostentirely
+ human and sociological not technology not technology and when people thoughttalk about energy they
+ they think that there's some kind of technological magic bullet for this butthere isn't
+ okay and and there isn't for the reasons i just mentionednot because it's obvious there isn't but
+ actually there isn't uh and and in in any case umthat it's true of energy it's true of
+ pollution it's true of human population it's true ofmost of the big challenges in our
+ society are not scientific or technologicalchallenges
+ they're human sociological challenges and that's why i think it's a terriblemistake
+ um even for folks like me who work at you knowwell the high temple of science and
+ technology in in america and maybe in the galaxyyeah i mean
+ you know it's it's it's mit it's mit
+
+0:49:47
+Speaker 1 :best university in the world
+
+
+0:49:49
+Speaker 0 :it's it's a terrible mistake if we give
+ the impression that technology is going to solve it alltechnology will make
+ tremendous contributions and i think it's it's worth working on itbut it's a disaster if you think it's
+ going to solve all of our problems and and actually um you know i've written awhole book about
+ the question of of scientism and the and the overemphasis on science both as a way of of
+ solving problems through technology but also as a way ofgaining knowledge i think it's not
+ all of the knowledge there is either
+
+0:50:23
+Speaker 1 :yeah i think that book
+ and uh your journey there is fascinating so maybe you can go there cancan you tell me about your on a personal
+ side your the personal journey of your faith ofchristianity and your relationship with
+ uh with god with religion in general
+
+0:50:41
+Speaker 0 :yeah in my in my latest book uh can a
+ scientist believe in miracles i i i give a first i devote most of thefirst chapter to telling how
+ how i became a christian um why i became a christian ii didn't grow up as a christian which is
+
+
+0:50:56
+Speaker 1 :fascinating i mean you didn't grow up as
+ a christian so you you've discovered the beauty of uh godand physics at the same time
+
+
+0:51:05
+Speaker 0 :that's a very poetic way of putting it
+ but yes i would accept that um i became a christian when i was anundergraduate at cambridge university
+ um i i had you know i had gone to a school in which there was religionkind of was part of the society there
+ were prayers and at the at the at the daily you knowgathering of the
+ of the students uh the assembly of the students um but ibut i didn't really believe it i just
+ sort of went along with it and it wasn't particularlyyou know aggressive or benign you know
+ blind it just sort of was there um but i didn't believe it um i didn'tdidn't make much sense to me but when i
+ but i came across christians from time to time and when i went to cambridgeuniversity
+ um two of my closest friends who turned out were christians and i thinkit was that
+ was the most important influence on me umthat that here were uh
+ two people who were really smart like me i i'm giving you my yeah my impressionat the time the way i the way i felt at
+ the time um and and they thought christianity madesense and and you know
+ testified to its significance in their lives andso that was a very important influence
+ on me and i and ultimately i mean the reason ii i hadn't i hadn't i didn't see
+ christianity as some kind of great evil the way it's sometimes portrayed by theby the radical atheists of this century
+ i mean i think that's nonsense but but but i so i think there were certainattractive things if you go to a
+ university like cambridge you know you're surrounded byby by western culture you know from from
+ about you know the 15th century onwards andthat saturated
+ with christian art and architecture and so forth and so it's hard it's hardnot to recognize
+ that christianity is in fact the foundation of western society in westernculture
+ well western civilization um so so i i mean maybe i was in that sensefavorably
+ disposed towards christianity as a religion but as a personal faith itdidn't mean anything to me but i became
+ convinced really of two things one is thatthe evidence for the resurrection of
+ jesus christ is actually rather good i mean it's not a proof it's not kind ofsome some kind of scientific demonstrate
+ or mathematical demonstration but it's actually extremely good it'snot scientific evidence by and large
+ it's historical evidence historical evidence yeahum so that was one thing and the other
+ thing that came to me when i was at cambridge itbecame clear
+ that christianity ultimately is not you know some kind of moraltheory or philosophy or something like
+ that it is or elite or at least it claims tobe um
+ a personal relationship with god which is made possibleyou know by um what jesus did and on the
+ cross and and his life and his teaching and andit's a personal call
+ to a relationship with god and that had i'd never thought of it inthose terms when i was you know
+ when i was younger and that that that thought becameum attractive to me i mean i i think
+ most people find the person of christ and his teachings you know compellinginsert
+ in a certain sense what do you mean by
+
+0:54:39
+Speaker 1 :personal do you mean personal
+ for you like a relationship like it's a meditativelike you specifically you even have
+ a connection uh with god uh and and then the other side you saypersonal um
+ with the actual body the person of jesus christso all of those things what do you mean
+ by personal connection and why that was
+
+0:55:02
+Speaker 0 :me well so as well for the stupid
+ question no that's okay no problem as a christiani believe that i have a relationship
+ with god which is best expressed by saying thatit's personal
+ and that comes about because you know jesus through his acts hasreconciled me with god me a sinner
+ me someone full of of of of sins of of failings of ways in whichi don't live up to even my own ideals
+ let alone the ideals of a holy god have been reconciled to the creator ofeverything
+ um and and so christians myself included believe that prayer isin a certain sense a connection with god
+ and there are times when i have felt you know that godspoke to me i don't mean necessarily
+ orally in words but showed me things or enlightened me orinspired me
+ in ways um that um i i attribute to him so i see it as aas a two-way you know relationship in a
+ certain sense of course it's a very asymmetrical relationship butnevertheless christians think that it's
+ a two-way it's a two-way street we're not justtalking into the air when we
+ say we want i'm going to pray for someone
+
+0:56:28
+Speaker 1 :in this two-way communication uh
+ is there a way that you could try to describe on a podcastwhat is god what is god like
+ uh in your view if if you try to describe is it a forceum is it a is it uh for you
+ intellectually is a set of metaphors that you use to reasonabout the world is it um
+ is it uh is it is it kind of a computer that does some computation that's theinfinitely powerful computer
+ uh or is it like santa claus a guy with a with a beardon the cloud like uh i don't mean um
+ i don't mean what god actually is i mean in your limiteduh cognitive capacity as a human
+ what do you actually uh what do you find helpful for thinking of what godactually looks like what is
+
+
+0:57:23
+Speaker 0 :god well let me start by saying none of
+ the above okay i mean clearly god in the christian godum uh the god of abraham isaac and jacob
+ etc um it is is not any of those thingsbecause all of those things you just
+ mentioned are phenomena or or orentities in the created world and the
+ most fundamental thing about monotheism as you knowabraham and moses and so forth handed it
+ down is that god is not an entity withinthe creation within the universe that
+ god is the creator of it all and that's what genesis first twochapters of genesis is really about
+ it's it's not it's not about telling us you know how god created the world it'sabout telling
+ us and telling the early hebrews that god createdthe world okay and that therefore he is
+ not you know simply an entity within it on the other hand you know our finiteminds
+ have a pretty hard time encompassing that soso one has to therefore work in terms of
+ metaphors and images and and so forth and umi think we would know very little about
+ who god is um if we if it was simply uh if we were simply left to our owndevices
+ you know if if we were just you know here you are you're in the universetry to figure out who who made it and uh
+ and so forth well you know philosophers think they cando a little bit of that maybe uh and
+ theologians think that they can do a little bit morebut um but christians think
+ uh that god has actually helped us along a lotby revealing himself and and we say
+ that he's revealed himself supremely in the person of jesus christum and so you know when jesus says to
+ his disciples if you've seen me you've seen the fatherthen that is in a certain sense a watch
+ word for answering this question for christiansit is that supremely if we want to
+ help ourselves understand who god really iswe look to jesus we look to what he did
+ we look to what he said uh and so forth umand we believe that he
+ is one with the father and that's why we believe you know in the trinity i meanit's basically because
+ um that revelation is extremely um central to christian belief and teaching
+
+0:59:59
+Speaker 1 :so in that in that sense through jesus
+ there was um that's kind of a historical momentthat's profound that's really powerful
+ but do you also think that god makes himself seen inless obvious ways
+ in our world today absolutely
+
+1:00:17
+Speaker 0 :absolutely i mean it's it's certainly
+ been the outlook of umjews and christians throughout history
+ that god is seen in the creation that we when we look at the creationwe see to some extent the wonder the
+ majesty the might of the person or the entity but the person who created itand and that's a way in which scientists
+ particularly uh have over over the ages andcertainly over most of the last five
+ centuries since the scientific revolution scientists haveseen in a certain sense the hand of god
+ in creation i mean this leads us perhaps to a differentdiscussion but i mean
+ it's it's remarkable to me how influentialum christianity and religion in
+ generally has been
+
+1:01:19
+Speaker 1 :in science yeah most of the scientists
+ through history as if you described i mean god has been a verybig part of their life
+
+
+1:01:26
+Speaker 0 :and they were certainly up until the
+ beginning of the 20th century that was the case
+
+1:01:32
+Speaker 1 :so maybe this is a good time to can you
+ tell me what scientism is
+
+1:01:36
+Speaker 0 :yeah i mean the short answer is that's
+ by scientism we me we mean the belief that science isall the real knowledge there is
+ um and that's a shorthand there are lots of different facets of it and what whichone can explore and the book in which i
+ explored it most most thoroughly was actuallyan earlier book called monopolizing
+ knowledge and and the the purpose of that title is to is todraw
+ attention to the fact that in our society as a wholein particular in the west today we
+ we have grown so reliant on science that we that wetend to put aside other ways of getting
+ to know things and so of course at mit we are focusedon science and we do
+ focus on it very much but the truth is that there are many ways of getting toknow things
+ in our world know things reliably in our worldand a lot of them are not science so
+ scientism in my view is a terrible intellectual error it's to beit's the belief that somehow the methods
+ of science as we've developed them with exyou know experiments and and in the end
+ they it relies particularly upon reproducibility in theworld
+ and on a kind of clarity that comes from measurementsand mathematics and related types of
+ of skills those powerful though they are for finding out about the worldare not all the knowledge do not give us
+ all the knowledge we we have and there's many other forms ofknowledge
+ and the illustration that i usually use to to try to help people to think aboutthis is to say well look let's think
+ about human history i mean to what extent canhuman history be discovered
+ scientifically the answer is essentially it can'tbecause and the reason is because human
+ history is not reproducible you can't do reproducible experiments or observationsand
+ and go back and you know try it over again it'sit's a one-off thing you know the
+ history is full of unique events and and so you you know you you youcan't hope to do history
+ using the methods of science yeah i mean
+
+1:03:56
+Speaker 1 :in in some sense
+ history is a story of miracles i mean they don't have to haveto do with god it's just uniqueness is
+
+
+1:04:04
+Speaker 0 :anyway unique events
+
+
+1:04:06
+Speaker 1 :these unique events and uh that science
+ doesn't like that because it's uh unique events but they're verydefinition or not
+ reproducible um can i ask sort of a tricky question i don't even know whatatheist or atheism is but is it possible
+ for somebody to be an atheist and avoidum slipping into scientism oh yeah
+
+
+1:04:29
+Speaker 0 :absolutely
+ i mean i mean there the these are two separate things okayi'm quite sure there are many people who
+ don't believe in god and yet recognize that there are many differentways of we get
+ knowledge you know some is history some is sociology economicspolitics um philosophy
+ art history uh language literature et cetera et cetera there aremany people who recognize those
+ disciplines as having their own approaches to epistemology and toget how we get knowledge and valuing
+ them very highly i don't mean to say thateveryone you know who's an atheist
+ automatically you know subscribes to scientific viewpoint that's not true butit's certainly the case that many of the
+ arguments in fact most of the arguments of the aggressive atheists of thiscentury people are sometimes called new
+ atheists although they're actually rather oldmost of their arguments are rather old
+ you know are drawing heavily on scientism so whenthey say things like
+ there's no evidence to support christianity okaywhat they are really focusing on is to
+ say is saying that christianity isn't provedor
+ the evidence for christianity is not science okay science doesn't prove itand and you you know if you read their
+ books that's what you find they really meanis science doesn't lead you necessarily
+ to believe in a creator god or into in any particular in umreligion i accept that that's not a
+ problem to me because i don't think that science isall the knowledge there is and i think
+ there are other important ways of getting to knowthings and one of them is historical for
+ example and i mentioned earlier that i think i became persuaded and i wereand i still am persuaded that the
+ historical evidence for the resurrection is veryis very persuasive again it's not proof
+ or anything like that but it's but it's pretty good evidence okay
+
+1:06:38
+Speaker 1 :yeah i've um i talked to richard dawkins
+ on this podcast and um and uh i saw you debate with seancarroll so
+ i i i understand this world it makes it makes me very curiousbut maybe uh let me ask sort of another
+ way my own kind of uh world view maybe youcan help
+ as by way of therapy i understand um you know because you kind of saidthat there's other ways of knowing
+ what about if we cut if if i kind of sit hereand am cognizant of the fact that i
+ almost don't know anything so sort of i'm sit here almost paralyzedby the the mystery of it all
+ and it's not even when you say there's other ways of knowingit it feels almost too confident to me
+ because uh yeah when i when i listen to beautifulmusic or see art there's something there
+ that's and that's uh that's beyond the reach ofscientism i would say so
+ beyond the reach of uh the the tools of sciencebut i don't even feel like that could be
+ an as an actual tool of knowing it um yeah i just don't even know whereto begin
+ because it just feels like we know so little like uh if we look even a hundredyears from now
+ when people look back to this time humans look back to this timethey'll probably laugh at how little we
+ knew even a hundred years from now and if we look at a thousand years from nowhopefully we're still alive or some
+ version of our ai versions of ourselvesyou know they they'll certainly laugh at
+ the absurdity of our beliefs so what do you uhso you don't seem to be as paralyzed by
+ how little we know you confidently push on forward but whatdo you make of that sense of
+ uh of just not knowing of the mystery
+
+1:08:35
+Speaker 0 :we need to be modest
+ or or humble if even about what we know i accept that and i icertainly think that's true not
+ not simply because in the future we'll know more science andthere will be more powerful ways of
+ finding out about things but simply because you know sometimeswe're not right
+ we're wrong okay in what we think we knowum uh so that's crucial
+ but it's also a very christian outlook that kind of humilityis what jesus taught so i so i don't
+ know whether this was in the back of your mind when you were thinking aboutthis but it's often the case
+ that um people of religious faith are are accused of being dogmatistsokay and there is a sense in which dogma
+ teaching accepted teaching is is part ofreligions
+ okay but i don't think that necessarily uh uh that leads oneto blind dogmatism and i don't i
+ certainly don't think that faith we can talk about this later if you'dlike but i certainly don't
+ think that faith means thinking you know something andnot listening to counter arguments for
+ example um so i i think that's crucial yeah what is
+
+1:09:58
+Speaker 1 :uh
+ what does faith mean to you what does it feel likewhat is it actually sort of how do you
+ carry your faith in terms of the way you see the world
+
+1:10:08
+Speaker 0 :well i think
+ faith is very often misunderstood in our society at the moment um becauseuh it's often portrayed as
+ being nothing other than uh believing things you know ain't trueyou know um or or believing things that
+ are are not proven okay um and um and this and faith does havea strand which is to do with you know
+ basically believing in uh in concepts or umpropositions but actually the word faith
+ is much broader than that faith also means umyou know trusting in something
+ trusting in a person or trusting in a thinguh the reliability of some technology
+ for example um that's equally part of the meaning ofthe word faith
+ and and there's a third strand to the to the meaning of the word as welland that is loyalty so
+ you know i have faith in my wife and and i try to actin faith towards her and that's a kind
+ of loyalty and so those three strands are the arethe most important
+ strands of the meaning of faith yes belief inin propositions that we might not have
+ you know full proof about or maybe we have very little proofabout
+ but it's also trust and and loyalty and actually in the in terms of thechristian faith
+ christians are far more called to trust and loyalty than they are to belief inthings they don't
+ you know don't have proof of okay um but but the critics of religion generallyum tend to emphasize the first one and
+ say well you know you believe things for which you have no evidence okaythat's what that's what they think faith
+ is well yeah there there is a sense in whicheverybody
+ has to live their lives uh believing or or or making decisionsin situations when they don't
+ have all the proof or evidence or knowledgethat enables you to make a completely
+ um rational or well-informed or prudent decision weyou know we do this all the time you
+ know my drive down here i nearly took a wrong turning and ithought which which way do i go do i
+ keep going straight on and so my uh voice came out and i thinkgo straight okay
+ so so you have to make decisions and sometimesyou know you don't have a navigation
+ system telling you what to do you just have to make that decision with nowith insufficient evidence and you're
+ doing it all the time as a human and that's part of beingsentient um
+ and so that kind of um action and belief on the basis ofincomplete evidence
+ is not something that i feel uncomfortable doing or ifeel that i feel on that somehow my
+ christian commitments have forced me to do when iwouldn't have had to have done it
+ otherwise i would have had to do it anywayum and and so you know there's a sense
+ in which um i think it's important to see thebreadth of meaning of faith
+ and and and to recognize then certainly in the case of christianityum it's trust and loyalty that the the
+ key themes that we're called to and i mean another
+
+1:13:41
+Speaker 1 :interesting extension of that that you
+ speak to it's kind of loyalty is referring to uha connection with something outside of
+ yourself yeah um so i think you've spoken about likeexistentialism or even just atheism in
+ general as um as leading naturally to an individualismas a focus on the on the self
+ and uh ideas that maybe the christian faith can instill in you is umallowing you to sort of look outside of
+ yourself so connection i mean loyalty fundamentally is aboutother beings
+ and yeah other beings and i mean i think i don't know what it is in me but i'mvery much drawn to that idea
+ and i think humans in general are drawn to that ideayou can you can make all kinds of
+ evolutionary arguments all that kind of stuff but uhpeople always kind of tease me uh
+ because i talk about love a lot and i mean there's a lot of uhnon-scientific things about love right
+ like what what the heck is that thing why why dowe even need that thing
+ it uh it seems to be an annoying burden that uh that we we get so much uhjoy in in life from a connection with
+ other human beings deep uh lasting connections with human beingssame thing with loyalty
+ why why do we get so much value and pleasureand strength and meaning from loyalty
+ from a connection with somebody else going through uh thick and thin withsomebody else going through some hard
+ times i mean some of the you know the closest friendsi i have is going through some
+ some rough times together and that seems to make lifedeeply meaningful what is that
+
+
+1:15:25
+Speaker 0 :so yeah um i that's
+ that resonates with me and i obviously i would i would affirm it umi i think just to just to correct
+ the implication that you made i i don't think it's necessarilythe co the consequence of atheism uh
+ that we that we lose track of those kinds ofthings i
+ i mean i think that atheists can be loyal okay if you likeum the question more often
+ comes up in the context of you know where does morality come fromand loyalty i think and duty are related
+ to one another you know if we have loyalty to someone then we have a dutyto them
+ okay as well and i think that in so far as we see ourselves as having some kindsany kinds of duties or moral compulsions
+ with respect to our relationships to other peopleit's i think it's a question that always
+ arises well where does these where do these come fromand there there are various approaches
+ that people have towards deciding what makesethics or morality moral okay
+ but i do think it's the case that um it's very hard to ground moralityum in in any kind of absolute way or
+ a persuasive way um in mere human relationshipsand so it's certainly the case that in
+ christianity um there is a sense in whichum morality and
+ you know the morality of morals comes froma transcendent place from a transcendent
+ deity and that we um that weground our the compelling
+ force of of morals on god more than we do on individuals becauseafter all you know
+ if it if you if you've got nothing but you know other people why should youyou know treat your neighbor well why
+ shouldn't you defraud your neighbor if it's good foryou
+ well you know you can construct all kinds of arguments and some of them areyou know obviously
+ arguments that are commonplace in religion too you should do as you wouldbe done by and all this kind of thing
+ right but none of that seems any any more than mere pragmatism to most peopleokay and so that's what that's one of
+ the things if that nature amongst others you knowreally identified you know if god is
+ dead if the idea of god is grounding our moral behavioris no longer viable in the west which
+ nietzsche thought that it wasn't okay then what does ground it and he hadno good answer for it
+ in fact he claimed there was no answer but then he couldn't live with thatand so he invented the idea of the
+ ubermensch you know this the superior human beingokay
+ and this was uh a different way of trying toground morality not a very successful
+ one you know you could argue that is the forerunner of the sort of uhracism of hitler's regime and and
+ and so forth um that you know we've in the west thankfully shied away fromuh in
+ in the past uh uh half or three quarters of a centurybut um you know i think it is the case
+ that uh christianity gives me a basis for mymoral beliefs that is more than mere
+
+
+1:19:13
+Speaker 1 :pragmatism yeah but there is uh
+ so stepping outside of all of that there does seem to bea powerful stabilizing like we humans
+ are able to hold ideas together like in a distributed way uhoutside of
+ whether god exists or not or any that justour ability to kind of converse together
+ towards a set of beliefs uh into sometimes into tribes it's kindof um
+ i don't know if it's inherent to being human beings andi hope not because now if i look on
+ twitter uh and there's uh there's the red team and the blue teamright
+ it's almost like uh it's it's a charac it's some kind of tv show that we'reliving in
+ uh that people get into these tribes and they hold a set of beliefsthat sometimes don't um i mean they
+ they are beliefs for the sake of holding those beliefs and we get thisintimate connection between each other
+ for sharing those beliefs and we spoke to the things about loyaltyand love and that's
+ the thing that people feel inside the tribe andit seems very human that within that
+ tribe those beliefs don't necessarily always have to be connected to anythingit's just the fact that uh you know i've
+ uh did sports uh uh my whole life whenever you're on ateam
+ the bond you get with other people on the team is incredibleand the actual sport is is often the
+ silliest i mean i don't play ball sports anymorebut the ball when i played like soccer
+ or tennis i mean all those sports are silly right you'replaying with a little ball
+ but there's the bond you get is so deeply meaningful soi just it's interesting to me on on the
+ sociological level that um it's it's possible to me whatever thebeliefs of religion
+ is um whatever they're actually grounded inthey might be uh they might have a power
+
+
+1:21:09
+Speaker 0 :in themselves i think there is tribalism
+ everywhere and i think tribalism in the u.s at themoment is rather difficult to bear
+ from my point of view um and it's i think fed by the internet and socialmedia and so forth but
+ but it's but historically tribalism is has been a trait and remains a trait inhumans
+ the genius of christianity is that it supersedes tribalism i meanyes when the hebrews um
+ thought about yahweh initially they thought about him as their tribaldeity just like the tribal deities round
+ about about them and so but and and yetfrom you know early on in
+ hebrew history the crucial thing that yahwehcame to mean or i would say revealed
+ of himself to them was that he wasn't just a tribal deity he was thegod that created the whole thing and if
+ he is the god of the whole thing then he's not just the godof the hebrews or in the case of
+ you know americans god is not just the god of americans he's the god ofeverybody
+ okay and that is a way in a way the most amazingtranscending of tribal loyalties
+ and uh one of the crucial you know occasions in the new testamentum
+ you know when the holy spirit comes at pentecostum you know the the the apostles and the
+ and the disciples speak in other tongues and there are people from allall the countries you know round about
+ hear them in their own languages and so you knowwhether
+ whether you take that as factual or not that is the a statement of thetranscendent
+ um aspects of christianity or the claimedtranscendent aspects of christianity
+ that it transcends culture and that's certainly something which i
+
+1:23:20
+Speaker 1 :find appealing when i kind of uh
+ touch on this topic in my own mind uh one of the hardest questions isas is why is there suffering in the
+ world
+
+1:23:32
+Speaker 0 :do you have a good answer well i have i
+ have some answers um but you're right that it is one ofthe toughest questions
+ the problem of pain or the problem of suffering umor the problem of uh theodicy as
+ as theologians call it is is is probably one of the toughest i think it'simportant to
+ um say that there are certain types of answers to this questionbut there are aspects of this question
+ to which there is no intellectual answer that is going tosatisfy
+ um and and the the fact of the matter is you know when i'm speaking to anaudience
+ uh let's say um at some kind of lecture i can be sure that there are peop thereare people
+ in that audience who are either personally suffering they've gotillness they've got pains they're maybe
+ they're facing death or someone in their family is in similarsorts of situations so
+ suffering is a reality and and and there is nothing that ican say that is going to solve their
+ feeling of agony and angst and andmaybe despair um in those types of
+ situations there is really only one thing that ithink humans can do
+ for one another in those kinds of situations and that is simply to bethere
+ to be there alongside your friend or youror your colleague or or whoever you know
+ family member or whoever it might be um and that's the only really sense inwhich we can give
+ comfort if we try to give intellectual solutions to these problems were goingto be like
+ like the comforters that were in the book of job in thein the bible um who who brought no
+ comfort to job himself um with theirintellectual answers but if they had
+ been there and some of them were there they sat alongsideum that is some level of comfort um and
+ and after all that's the meaning of the word compassionit means to suffer alongside of somebody
+ and i would say first off you know what does a christian sayabout suffering the the first thing a
+ christian should say is compassion is all that really countsand what's more
+ we say that god has acted in compassion towards usthat is to say he has suffered with us
+ in the person of jesus christ and when we see the passion of jesuswe recognize that god takes
+ suffering deadly seriously has taken it so seriouslythat he's been willing to come and be a
+ part of his creation in the person of of jesus christ andsuffer
+ death the most horrible death on the crossum and for our benefit so that's one
+ side of of suffering but the question no thephilosophical question remains you know
+ surely if god is good you know and god isomnipotent um benevolent um
+ you know why doesn't he uh take away all the suffering why doesn't hecause miracles to occur that will take
+ away all this suffering um i think there are some good answersto that question um
+ in the in the following sense that um you know we live in a world wherethe consistency of the world is an
+ absolutely crucial part of it you know the fact that our worldbehaves reproducibly in the main
+ is absolutely essential for the integrityof our lives without it we wouldn't
+ exist okay and so there is a sense in whichthe integrity of creation
+ um calls for there being consistent behavior whichyou know these days we think of as being
+ the laws of nature okay and so the consistent behavior ofnature
+ is very very important it's what enables us to be what we areum and if you're calling upon god in
+ in in in your critique of why isn't this benevolent creator you knowfixing things um one answer is
+ he's fixed things in a certain sense to have an integrity in themand that integrity is the best thing
+ it's the way we have our existence the way we live and move and have our beingand you know if you want something
+ different you've got to show that there is a way in which you couldinvent a world that is better
+ that it has the integrity that we need to exist okayand and and to be able to think and and
+ and love and and be um butbut you were gonna do it better you know
+ and the atheists think that maybe they have got a better idea but if theythought about it a bit more carefully
+ they'd realize no one has put forward a better idea
+
+1:28:43
+Speaker 1 :okay so the so another way
+ to say that uh i mean is that suffering is an integral part of thisof um of a consistent
+ existence so so sort of uh in the philosophical in a philosophicalsense
+ uh the full richness and the beauty of our experiencewould not be as beautiful would not be
+ as rich if there was no suffering in the worldis that is that possible
+
+
+1:29:16
+Speaker 0 :well i think you said two different
+ things that aren't exactly at least that aren't exactly the sameone is that suffering is an integral
+ part of our experience you know thatmight be considered a challenge to
+ certain types of christian theology or or even jewishtheology in other words
+ christians talk about the fall and talk aboutuh adam and eve in the garden and and
+ have that have a vision of there being some kind of persperception from
+ or or perfection from which we have fallen and i think there is a perfectionfrom which we've fallen
+ but i don't think that perfection is some kind of physical comperfection in other words i don't
+ subscribe personally to the view that some some christians do that therewas some state
+ prior to the fall in which death did not occuri don't think that that's consistent
+ with science as we know it and i and i think that um deathfor example has been part of the
+ biological world and and the universe as a wholeum from from billions of years ago so
+ so just to be clear about that um you knowi i on the other hand i do so
+ if that's the case then certainly in that sense at the very leastum suffering or at least death okay
+ is part of the biological existence and that probably seems socompletely obvious
+ to somebody who you know is okay with sciencewhether they you know whether they're a
+ scientist or not well
+
+1:30:54
+Speaker 1 :so and i apologize if i'm interrupting
+ but it's the obvious reality of of uh our life today but there's a lotof people i think it's currently in
+ vogue i've talked to quite a few folks whokind of see as the goal
+ of many of our pursuits as to extend life indefinitely a sort of uhyou know a dream for many people is to
+ live forever uh but in the in this in thetechnological world
+ in the engineering world in the scientific world i mean that's that'sthe big dream
+ to me it feels like that's not a dream it's i certainlywould like to live forever
+ uh like that that's the initial feeling the instinctual feelingbecause you know life is so amazing but
+ then if you actually kind of like you'vepresented it if you actually
+ uh lived that kind of life you would realize that that's actually a stepbackwards that's a step down from the
+ experience of this life in my sense that death is an essentialpart of life
+ about the essential part of this experience death of all things so thething the fact that things end somehow
+ and the scarcity of things somehow createthe beauty of this experience that we
+ have
+
+1:32:10
+Speaker 0 :yeah transhumanism doesn't look very
+ attractive to me either but it also doesn't look very feasibleum
+ but that's a whole big topic that i'm not exactly an expertbut i'll say but i but you know i've i'm
+ of a certain age where my mortality is more pressing or moreobvious to me than it once was okay
+ um and um and i don't dread that i don't see thatas in a certain sense even
+ the enemy okay you're not afraid of
+
+1:32:44
+Speaker 1 :death well
+
+
+1:32:46
+Speaker 0 :i'm afraid of lots of things in a in a
+ in a conceptual way but it doesn't keep meawake at night okay um
+ i i'm i think like most people i'm more afraid of pain than i am of deathso i i don't want to put myself forward
+ to some kind of hero that doesn't worry about these things that's not truebut i i do think and then and
+ maybe this is part of my christian outlookum that there is life beyond the grave
+ um but i don't think that that it's life inthis universe or in this um
+ certainly not in this body and maybe not in a certain sense in this mind i meanyou know christian
+ christian belief in the afterlife is is that we will be resurrected we willin a certain sense be with god i don't
+ know what that means and i don't think anybody elsereally quite knows what that means but
+ there are lots of ways that over history people artists and andand writers and so forth have pictured
+ it um and these are all perhaps some of them helpful ways of thinkingabout it do you think it's possible to
+
+
+1:33:51
+Speaker 1 :know what happens after we die
+
+
+1:33:54
+Speaker 0 :um i i don't think we find out by
+ near-death experiences or those kinds of things butbut i but i think that you know that
+ we have sufficient i feel i have sufficientinformation if you like um in terms of
+ god's revelation to be confident that that i willgo somewhere else okay but it won't be
+ here and i to me theaspirations of transhumanism are
+ horrific i mean i think it would be a nightmare not a dreama nightmare you know to be somehow
+ downloaded into a computer and live one's life like thatbecause it it completely discounts the
+ in integrity of our bodies as well as ourminds i mean
+ we aren't just disembodied minds it would not be me that was in thecomputer
+ it would be something else if if that kind of download were possible of courseit isn't possible and it's
+ very long way from being possible but you know amazing things happen so weshouldn't
+
+
+1:35:07
+Speaker 1 :be too cert so this is this is a place
+ that uh again maybe taking a slight step outside uh we'rephilosophizing a little bit uh let me
+ ask you about uh human level or superhuman levelintelligence
+ uh the uh artificial intelligence systemsdo you what do you make from um
+ from almost a religious or a perspective that we've beentalking about of the special aspect of
+ human nature of us creating intelligence systems thatexhibit some elements
+ of that human nature is that something again like we were talking about withtranshumanism
+ uh there's a feasibility question of how hard is it to actually build machines orhuman level intelligence
+ or have something like consciousness or have all those kinds of human qualitiesand then there's the do we want to
+ do that kind of thing so on both of those directions what do you think
+
+1:36:05
+Speaker 0 :well okay so you know since your podcast
+ is called ai i don't want to offend too many of your listeners outthere that's but i
+ but i i think one should be a little bit more modest about one's claims forai than have typically been the case
+ yeah i think that actually a lot of people in aiare somewhat chastened and so there
+ there are more modest claims than are common with the transhumanists andyes and and so forth
+ um and you know i used to play chess when i was a kid i was pretty goodat it okay
+ um he won competitions and so so on and so forthand i when i'm talking about when i was
+ in high school i thought it was pretty unlikely that a computer would beable to become
+ good at chess but i was dead wrong okay and so you knowum how did that make you feel by the way
+
+
+1:36:54
+Speaker 1 :when um do you blew big kids
+
+
+1:36:57
+Speaker 0 :i stopped playing chess seriously
+ when i had when i encountered computers that could beat meokay i still play with my grandchildren
+ a little bit but but um but yeah it it seemed like in acertain sense it became a solved
+ problem uh when a.i was able to do it better than i couldso i think that there are ways in which
+ today we've seen um computers do things whichhistorically were regarded as being
+ very characteristic of human intelligenceand in that sense there there is some
+ success to ai i also think that um you know there arecertain things which one might think of
+ as being ai which are you know completely widespreadin our society i'm thinking about the
+ internet search engines uh um and soforth which are enormously influential
+ and obviously do things more powerfully thanany individual human or even any
+ combination of humans could do much faster andand and uh accessing
+ databases and so on and so forth all of this is uhoutstripped our human intelligence
+ um i'm not sure the extent though to which that is reallyintelligence uh in the way that was
+ traditionally meant but it's certainly amazinglyum facile and it
+ it multiplies our ability to access human knowledge and and data and soforth so
+
+
+1:38:32
+Speaker 1 :is that something is that enter the
+ realm of something we should be concerned aboutso in the realm of religion you talk
+ about what is good what is evil what is right what is wrongyou have a set of morals set of beliefs
+ and when you have an entity come into the picturethat that has quite a bit of power
+ if we potentially look into the future and intelligence and capabilityum do you think there's something that
+ religion can say about artificial intelligence or is thatsomething you we shouldn't worry about
+ until it arrives you think just like with the chess program um you
+
+1:39:10
+Speaker 0 :know religious writers have thought
+ about this for centuries uh you know there's been a long debateabout
+ what is what it was historically called the plurality of worldsand it was actually more about whether
+ there are places where other intelligent creatureslive than it was about us creating them
+ but but i think it's largely the same
+
+1:39:36
+Speaker 1 :question it's almost like aliens
+ yeah other intelligence so if there is
+
+1:39:39
+Speaker 0 :other intelligent life in the universe
+ what is its relationship to god okay that isin a certain sense the puzzle that
+ religious thinkers and writers have thought about for a long time andthere's
+ a whole range of of different opinions about thati mean personally you know i think it's
+ it's an interesting question but it's not a very pressing question at themoment
+ um yeah and i think the same way about thethe question of what happens if we're
+ able to build a sentient robot for examplei think it's an interesting question and
+ we'll have to think about it when that happensbut i think we're still quite a ways
+ away from that and so i i don't have a good answer um but ithink there's a literature that you one
+ could tap um to think about okay if you want to
+
+1:40:23
+Speaker 1 :start early on the question yeah
+ well let me ask you another impossible question you know from a religious orfrom a personal perspective
+ what do you think is consciousness this this uhsubjective experience that we seem to be
+ having does uh this does uhthe christian religion have something to
+ say about consciousness does your own when you look in the mirror do you havea sense of what is consciousness
+
+
+1:40:50
+Speaker 0 :um i think the bible doesn't have much
+ in the way of answers about that directly in the sense that you'reperhaps asking it which is more like
+ i think you're asking for some kind of uh quasi scientific or maybe indeedscientific
+ uh uh description that's not really looking for one yes
+
+1:41:06
+Speaker 1 :
+
+1:41:07
+Speaker 0 :um i i think that i think that there
+ it's an interesting question i think it's actually uma it's a jump too far i think we have we
+ don't even know the answer to the question what is the mindlet alone consciousness so if you
+ distinguish between those two things i think the question that's beingaddressed more directly
+ scientifically as well as in other ways it is what is the mind and that iscertainly a very
+ topical question even in places like mit which is nothistorically involved with philosophical
+ questions you know that people doing neuroscience and so forth i thinkit's a very important question and i
+ think that we're going to find that um we are not computersin other words i think the the
+ commonplace theory of what mind is is is generally speakingby analogy that we are basically wet
+ wet wear okay um that we that we're some computer-like entityand that that the analogy to digital
+ computers is is is a pretty decent one i mean thatthat's of course a viewpoint
+ which um you know which drives the aspirations of the transhumanists imean they they so much believe that our
+ minds are nothing other than you know a certain sense somekind of implementation of software
+ in biology that they say to themselves well of course we're going to be able todownload
+ it into a into a digital computer i don't think that's truei think it's most likely that
+ quantum mechanics is very important in the brainuh it seems most unlikely that it's not
+ to me i know that that's contrary to the opinions of many people butbut that's my view and it's also a view
+ for example of people like roger penrose and people like that who've writtenabout it rather extensively
+ and if that's the case then really my mind is not reproducereducible to some kind of software which
+ can be considered to be portable it is so connected to the hardwareof my body that the two are inseparable
+ okay and so if that is in fact what we findum as i suspect will be the case then
+ the aspirations of the transhumanists will bevery long in coming if at all
+ um so i think that actually physics and chemistryum you know are in a certain are in a
+ sense um uh involved with the brain and withinthe mind but not
+ in a very simple way like you know like thecomputer analogy um in in a much more
+ complicated way and i also think that umit's philosophically
+ ignorant to speak as if um when and if the actions of the brainare
+ are understood at the physical and chemical levelthat will me that the mind will vanish
+ as a concept you know that we'll just say we're nothing butbrains okay of course it won't
+ i mean it may well be that our mind is an emergentphenomenon that comes out of the physics
+ and chemistry and biology okay but it's also something that wehave to
+ encounter and take seriously and so um you know it's it's not the case thatit that the mind is
+ reducible to nothing but physics and chemistry even if it'sembedded in
+ you know continuously into physics and chemistry as i rather suspect it isum so i that that's my own view i mean
+ another way of putting it is that the mind or the soulis not something added into humans
+ as might have been the viewpoint um historically i do think there is youknow there is something added to humans
+ but it's not it's not the mind it's the spirit andthat takes us beyond the physical
+ context beyond this universe but i but i don't think that thatconsciousness the mind et cetera et
+ cetera is that thing which is necessarily added
+
+1:45:40
+Speaker 1 :in explicit so i mean
+
+
+1:45:42
+Speaker 0 :i'm not a substance duelist in that
+ sense okay if you want to put it philosophically
+
+1:45:48
+Speaker 1 :i mean um but you see you your senses um
+ so the mind and the intelligence and consciousness can be these emergentthings
+ do you have do you have a hope a sense that science couldhelp us get pretty far down the road of
+
+
+1:46:04
+Speaker 0 :understanding we will get much further
+ than we have and we it'll be interesting um i mean right now our our methods ofdiagnosing the human brain
+ are extremely primitive i mean the resolution that we haveyou know that comes out of uh out of nmr
+ and and brain scans and so forth is miserable compared with what we needin order to understand the brain at the
+ cellular level let alone at the at the atomic level um but uhyou know we're making progress it's
+ relatively slow progress but it's progressand people are working on it and we're
+ going to get better at it and we'll find out very interesting things as we doum the time resolution is also
+ completely hopeless compared compare with what we need to understandthe thought you know
+ so um so there's a long way to go and we will get better at itum but i'm but i'm not at all worried as
+ some people are and some people speak as if there'sa good thing
+ that somehow the concepts of humanity and the mind and religionand and consciousness are going to
+ vanish because we're going to have you knowcomplete uh
+ physical chemical description of the brain in the near futurethat we're not going to have that and
+ secondly even if we had it the mind and all these other thingsaren't going to vanish because of it
+
+
+1:47:29
+Speaker 1 :well i i find kind of compelling that
+ the notion that whoever created this universe and usuh did so to understand itself
+ himself i mean that there's this um there's a powerful self reflectionnotion to this whole experiment that
+ we're a part of
+
+1:47:52
+Speaker 0 :i certainly think that god takes delight
+ in his creation and that it was created for that delightas much as it was
+ um for any other reason and that you know that therefore are there'sreason to be
+ hopeful and and awestruck by the creation whether it'son the very small or on the very large
+
+
+1:48:15
+Speaker 1 :i'm not sure if you're familiar there's
+ something called the simulation hypothesisthat's been fun to talk about with the
+ computer scientists and so on which is a kind of thought experiment that proposesthat you know the entirety of the world
+ around us is a kind of a computer programthat's a simulation and then we're
+ living inside it i think there's um i think from acertain perspective that could be
+ consistent with a religious view of the worldi mean you could just use different
+ terms uh basically uh what are your but it's a it's a itfeels like a more
+ um modern updated version of that but what is what's your sense of this uhor the simulation hypothesis do you find
+ it interesting useful to think about it do you find it ridiculousdid you find it fun what what are your
+
+
+1:49:08
+Speaker 0 :thoughts uh
+ it's fun and it's been of course the subject of various movies yeah umthat that some of which are very well
+ known um you know i don't think it makes sense tothink of it as a simulation hypothesis
+ in the sense that we're really lying in uhbanks um of of uh
+ on banks of beds having our energy drained away from usum and and the simulation is going on in
+ our individual brains that that makes no sense to me atall i don't think that's what's
+ meant by the simulation hypothesis as as you're using it nowbut i think that there is a um
+ there is very little distinction between sayingthat a an intelligent creator
+ has set up the universe according to his will and his planand set it in motion and is
+ allowing it to run out maybe as christians sayhe's sustaining it actually
+ um by his word of power it says in the bookof the letter to hebrews okay
+ in in in this amazingly consistent and um integrated wayum i don't think there's very much
+ difference between saying that and saying that it's assimilation okayi mean i think it's almost the same
+ thing okay but i but i think from but i think it'simportant to recognize that
+ the simulation in that concept the simulation and the creation or the orthe universe are the same thing
+ okay in other words it's a simulation you know that is billions of light yearsacross
+ okay yeah um i mean there's a sense in
+
+1:51:03
+Speaker 1 :which it helps
+ one understand especially if you're not religiousthat there is something outside of the
+ world that we live in that there's something bigger than theworld we live in um
+ and that i mean it's just another perspective on uhthat humbles humbles you um so
+ in that sense it's a powerful thought
+
+1:51:25
+Speaker 0 :experiment one shortcoming of that
+ is is the following is of the of the analogy here's thisthat we think of a simulation as
+ something take taking place in the universe you know when we it'sit's taking place in my computer okay
+ i don't think that's the right analogy forum a christian view of creation okay
+ i don't think it's taking place in some otheruniverse that god has made okay i think
+ maybe it's taking place in the mind of godchristians might hypothesize also but i
+ but i think that that that it's important to recognize thatchristian theology at a
+ at any rate is that god is not one of the entities in the universe andand presumably therefore is very
+ different from a simulation that we might run on a computer
+
+1:52:20
+Speaker 1 :let me ask you adam and eve even adam
+ ate of the fruit of the tree of knowledge of good andevil does this is this story meaningful
+ to you what does the story mean to you
+
+1:52:30
+Speaker 0 :yeah it is meaningful to me um i i take
+ the you know the writings of the bible veryseriously and i think that
+ most christians regard them as having some kind of authoritativeum role in their in their in their faith
+ um what do i get from it i mean i think the most important thing that christiansget from the story of adam and eve and
+ eating the apple and so forth is that the relationshipbetween humans and god is broken
+ has been broken by man's disobedience that's what the the story of adam andeve and the apple is all about
+ and um that that broken relationship is for christians what jesus cameto redeem came to
+ overcome that brokenness and restore that relationship with godto some extent at any rate on earth and
+ and ultimately um you know in in the in eternity torestore it fully
+ so that's really what christians mean and gain from the story of adam and eveof course lots of people
+ ask the questions about how so how literally should we takethese stories of particularly the first
+ few few chapters of genesis which is an important question butbut i mean but we tend to um get bogged
+ down with it a bit too much i think we should take away the messageum
+ and i think the the the uh what the what actually we would haveseen if we'd been there
+ okay is something which is a matter of speculation and it's certainly notterribly important from the point of
+ view of christian theology
+
+1:54:18
+Speaker 1 :but it seems like a very important
+ moment as a man of faith do you umdo you do you wish that uh i think it
+ was eve first
+
+1:54:29
+Speaker 0 :uh yeah we'll see do you wish
+ by the way it was just a fruit it was a few you said it very carefully it wasthe
+ fruit of the tree right
+
+1:54:37
+Speaker 1 :do you wish they wouldn't have eaten of
+ the tree i mean this is back to our discussion of suffering wasthat like an essential thing that needed
+ to happen
+
+1:54:48
+Speaker 0 :you're gonna have to read paradise last
+ to get your answer to that
+
+1:54:56
+Speaker 1 :beautifully put okay well let me ask the
+ the biggest question one that you also touch in your book but one that i askevery once in a while is what is the
+ meaning of life
+
+1:55:08
+Speaker 0 :the meaning of my life is many different
+ things okay but it but they are all kind ofcentered around relationships
+ i mean for a christian one's relationship with god isa crucial part of the meaning of life
+ but one's relationship with one's family wife'swife parents children grandchildren in
+ my case and so forth those are cruciallyimportant
+ these are all the places where people whether they're religious or notfind meaning
+ but ultimately i think a person who has faith in a creatorwho we think has
+ a an intention or many intentions but uh butbut but a will um
+ in respect of the world as a whole that'sa crucial part of meaning and
+ the idea that my life might have some small significance in the planof that creator is
+ an amazingly powerful idea that give that brings meaning umi i tell a story in my book that um when
+ i was a student before i became a christian i read aphilosophy book whose
+ approximate title was um what you know what is the meaning of lifeand you know that book basically said
+ there is no meaning to life you have to make up the meaning as you go alongand i think that's probably the the
+ predominant secular view is these days that there is no realmeaning but you can make up a meaning
+ and that will give you meaning into yourlife um
+ i don't subscribe to that view anymore um i think there is more meaning thanthat um but i do think that those things
+ which give meaning to our life are very important and we should emphasize them
+
+1:57:15
+Speaker 1 :and you you have said that as the part
+ of the as the part of that meaning is the partof your faith uh
+ love and loyalty are key parts so can you try to saywhat is uh love and loyalty
+
+
+1:57:34
+Speaker 0 :like what
+
+
+1:57:38
+Speaker 1 :what does it mean to you
+
+
+1:57:41
+Speaker 0 :
+
+1:57:42
+Speaker 1 :
+
+1:57:43
+Speaker 0 :what does it look like
+
+
+1:57:45
+Speaker 1 :if you were to give advice to uh to your
+ children grandchildren of what to look forin and looking for loyalty and and love
+ what would you try to say well i think
+
+1:57:58
+Speaker 0 :it's something like
+ yielding your will or desire to another umit's valuing others more highly
+ or at least as highly as yourself but that's just the start of it because truelove
+ re you reach a point where you are you feel compelled by the otheruh and that i think to some
+ people sounds very scary but actually it's terrifically liberating umand i think that love then brings you
+ into service towards another and i'm you know reminded ofum the phrase from the anglican
+ uh prayer book where it talks about um jesus whose service is perfect freedomin other words
+ for us christians to serve god is what perfects our freedom and i thinkthere is
+ an amazing love as um is in part capped captivitybut in a kind of paradoxical sense
+ it's also an amazing freedom love is
+
+1:59:18
+Speaker 1 :freedom
+ i don't think there's a better way to end it we started with fusion energyand ending on love and there's a huge
+ honor to talk to you thank you so much for your time today thanks it was a
+
+1:59:30
+Speaker 0 :pleasure
+
+
+1:59:32
+Speaker 1 :thanks for listening to this
+ conversation with ian hutchinson and thank youto our sponsors sunbasket and powerdot
+ please consider supporting this podcast by going tosunbasket.com lex and use codelex at
+ checkout and go to powerdot.com lexand use code lex at checkout click the
+ links buy the stuff even just visiting thesite
+ is really the best way to support this podcastbecause it helps convince them to
+ sponsor it in the future if you enjoy this thing subscribe onyoutube review it with five stars on
+ apple podcast support on patreon or connect with me ontwitter
+ at lex friedman spelled somehow without the letter ejust f-r-i-d-m-a-n and now
+ let me leave you with some words from arthur c clarkefinally i would like to assure my many
+ buddhists christian hindu jewish and muslim friends that iam sincerely happy
+ that the religion which chance has given you has contributed to your peace ofmind
+ and often as western medical science now reluctantly admits to your physicalwell-being
+ perhaps it is better to be unsane and happythan sane and unhappy but it is the best
+ of all to be sane and happy whether ourdescendants can achieve that goal
+ will be the greatest challenge of the future indeed it may well decidewhether we have any future
+
+
+2:01:02
+Speaker 0 :
+
+2:01:03
+Speaker 1 :thank you for listening and hope to see
+
+

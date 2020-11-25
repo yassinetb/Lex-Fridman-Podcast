@@ -1,0 +1,1853 @@
+0:00:00
+Speaker 1 :the following is a conversation with Jim
+ Keller legendary microprocessor engineer who has worked at AMD Apple Tesla and
+
+0:00:08
+Speaker 0 :now Intel he's known for his work on AMD
+
+
+0:00:10
+Speaker 1 :K 7 K 8 K 12 and Xen microarchitectures
+ Apple a4 and a5 processors and co-author of the specification for the x86 64instruction set and hyper transport
+
+
+0:00:23
+Speaker 0 :interconnect he's a brilliant first
+
+
+0:00:26
+Speaker 1 :principles engineer and out-of-the-box
+ thinker and just an interesting and fun human being to talk to this is the
+
+0:00:34
+Speaker 0 :artificial intelligence podcast if you
+
+
+0:00:36
+Speaker 1 :enjoy it subscribe on YouTube give it
+ five stars an apple podcast follow on Spotify supported on patreon or simplyconnect with me on Twitter Alex Friedman
+ spelled Fri D ma a.m. I recently started doing ads at the end of the introductionI'll do one or two minutes after
+ introducing the episode and never any ads in the middle that can break the
+
+0:00:58
+Speaker 0 :flow of the conversation I hope that
+
+
+0:00:59
+Speaker 1 :works for you and doesn't hurt the
+
+
+0:01:01
+Speaker 0 :listening experience this show is
+
+
+0:01:03
+Speaker 1 :presented by cash app the number one
+ finance I up in the App Store I personally use cash app to send moneyto friends but you can also use it to
+ buy sell and deposit Bitcoin in just
+
+0:01:13
+Speaker 0 :
+
+0:01:15
+Speaker 1 :seconds cash app also has a new
+ investing feature you can buy fractions of a stock say $1 worth no matter whatthe stock price is brokers services are
+ provided by cash app investing a subsidiary of square and member si PCI'm excited to be working with cash app
+ to support one of my favorite
+
+0:01:33
+Speaker 0 :organizations called first best known
+
+
+0:01:34
+Speaker 1 :for their first robotics and Lego
+ competitions they educate and inspire hundreds of thousands of students inover 110 countries and have a perfect
+ rating a charity navigator which means that donated money is used to maximum
+
+0:01:49
+Speaker 0 :effectiveness when you get cash app from
+
+
+0:01:50
+Speaker 1 :the App Store Google Play and use code
+
+
+0:01:53
+Speaker 0 :
+
+0:01:55
+Speaker 1 :Lex podcast you'll get ten dollars and
+ cash app will also donate ten dollars to
+
+0:01:58
+Speaker 0 :
+
+0:01:59
+Speaker 1 :the first which again is an organization
+ that I've personally seen inspire girls and boys the dream of engineering a
+
+0:02:07
+Speaker 0 :better world and now here's my
+
+
+0:02:08
+Speaker 1 :
+
+0:02:09
+Speaker 0 :with Jim Keller what are the differences
+
+
+0:02:11
+Speaker 1 :in similarities between the human brain
+ and a computer with the microprocessors core let's start with a philosophical
+
+0:02:20
+Speaker 0 :question perhaps well since people don't
+ actually understand how human brains work I think that's true I think that'strue so it's hard to compare them
+ computers are you know there's really two things there's memory and there'scomputation right and to date almost all
+ computer architectures are global memory which is a thing right and thencomputation where you pull data and you
+ do relatively simple operations on it
+
+0:02:53
+Speaker 1 :and write data back so it's decoupled in
+ modern in modern computers and you think in the human brain everything's a mesh amess that's combined together what
+
+
+0:03:02
+Speaker 0 :people observe is there's you know some
+ number of layers of neurons which have local and global connections andinformation is stored in some
+ distributed fashion and people build things called neural networks incomputers where the information is
+ distributed in some kind of fashion you know there's a mathematics behind it Idon't know that the understandings that
+ is super deep the computations we run on those are straightforward computations Idon't believe anybody has said a neuron
+ does this computation so to date it's hard to compare them I would say so
+
+0:03:44
+Speaker 1 :let's get into the basics before we zoom
+ back out how do you build a computer from scratch what is a microprocessorwhat is it microarchitecture what's an
+ instruction set architecture maybe even as far back as what is a transistor so
+
+0:03:59
+Speaker 0 :the special charm of computer
+ engineering is there's a relatively good understanding of abstraction layers sodown to bottom you have atoms and atoms
+ get put together in materials like silicon or dope silicon or metal and webuild transistors on top of that we
+ build logic gates right and in functional units like anadder or subtractor or an instruction
+ parsing unit and we assemble those into you know processing elements moderncomputers are built out of you know
+ probably 10 to 20 locally you know organic processing elements or coherentprocessing elements and then that runs
+ computer programs right so there's abstraction layers and then software youknow there's an instruction set you run
+ and then there's assembly language C C++ Java JavaScript you know there'sabstraction layers you know essentially
+ from the atom to the data center right so when you when you build a computeryou know first there's a target like
+ what's it for look how fast does it have to be which you know today there's awhole bunch of metrics about what that
+ is and then in an organization of you know a thousand people who build acomputer there's lots of different
+ disciplines that you have to operate on does that make sense and so so there's a
+
+0:05:25
+Speaker 1 :bunch of levels abstraction of in in
+ organizational I can tell and in your own vision there's a lot of brilliancethat comes in it every one of those
+ layers some of it is science some was engineering some of his art what's themost
+ if you could pick favorites what's the most important your favorite layer onthese layers of abstractions where does
+
+
+0:05:53
+Speaker 0 :the magic enter this hierarchy I don't
+ really care that's the fun you know I'm somewhat agnostic to that so I would sayfor relatively long periods of time
+ instruction sets are stable so the x86 instruction said the arm instruction set
+
+0:06:12
+Speaker 1 :what's an instruction set so it says how
+
+
+0:06:12
+Speaker 0 :do you encode the basic operations load
+ store multiply add subtract conditional branch you know there aren't that manyinteresting instructions look if you
+ look at a program and it runs you know 90% of the execution is on 25 opcodesyou know 25 instructions on those are
+ stable right what does it mean stable
+
+0:06:33
+Speaker 1 :
+
+0:06:34
+Speaker 0 :until architecture has been around for
+ twenty-five years it works it works and that's because the basics you know ordefined a long time ago right now the
+ way an old computer ran is you fetched instructions and you executed them inorder to the load do the ad do the
+ compare the way a modern computer works is you fetch large numbers ofinstructions say 500 and then you find
+ the dependency graph between the instructions and then you you execute inindependent units those little micro
+ graphs so a modern computer like people like to say computers should be simpleand clean but it turns out the market
+ for a simple complete clean slow computers is zero right we don't sellany simple clean computers now you can
+ there's how you build it can be clean but the computer people want to buythat's say you know phone or data center
+ such as a large number of instructions computes the dependency graph and thenexecutes it in a way that gets the right
+
+
+0:07:49
+Speaker 1 :answers and optimizes that graph somehow
+
+
+0:07:50
+Speaker 0 :yeah they run deeply out of order and
+ then there's semantics around how memory ordering works and other things work sothe the computer sort of has a bunch of
+ bookkeeping tables it says what order CDs operations finishing or appear tofinish him but to go fast you have to
+ fetch a lot of instructions and find all the parallelism now there's a secondkind of computer which we call GPUs
+ today and I called the difference there's found parallelism like you havea program with a lot of dependent
+ instructions you fetch a bunch and then you go figure out the dependency graphand you issues instructions out order
+ that's because you have one serial narrative to execute which in fact isand can be done out of order you call a
+ narrative yeah well so yeah so humans think of serial narrative so read read abook right there's a you know there's
+ the sends after sentence after sentence and there's paragraphsnow you could diagram that
+ imagine you diagrammed it properly and you said which sentences could be readin anti order any order without changing
+ the meaning right but that's a
+
+0:08:59
+Speaker 1 :fascinating question to ask of a book
+
+
+0:09:02
+Speaker 0 :yeah yeah you could do that right so
+ some paragraphs could be reordered some sentences can be reordered you could sayhe is tall and smart and X right and it
+ doesn't matter the order of tall and smart but if you say is that tall manwho's wearing a red shirt what colors
+ you know like you can create dependencies right right and so GPUs onthe other hand run simple programs on
+ pixels but you're given a million of them and the first order the screenyou're looking at it doesn't care which
+ order you do it in so I call that given parallelism simple narratives around thelarge numbers of things where you can
+ just say it's parallel because you told
+
+0:09:52
+Speaker 1 :me it was so found parallelism where the
+ narrative is it's sequential but you discover like little pockets ofparallelism of versus turns out large
+
+
+0:10:01
+Speaker 0 :
+
+0:10:03
+Speaker 1 :pockets of parallelism large so how hard
+
+
+0:10:05
+Speaker 0 :is it to discuss well how hard is it
+ that's just transistor count right so once you crack the problem you sayhere's how you fetch ten instructions at
+ a time here's how you calculated the dependencies between them here's how youdescribe the dependencies here's you
+ know these are pieces right so once you
+
+0:10:21
+Speaker 1 :describe the dependencies then it's just
+ a graph sort of it's an algorithm that finds what is that I'm sure there's agraph there is the theoretical answer
+ here that's solved well in general programs modern programs like humanbeings right
+ how much found parallelism is there and on that I max what is 10 next mean oh
+
+0:10:46
+Speaker 0 :well you execute it in order vs. yeah
+
+
+0:10:49
+Speaker 1 :
+
+0:10:50
+Speaker 0 :you would get what's called cycles per
+ instruction and it would be about you know three instructions three cycles perinstruction because of the latency of
+ the operations and stuff and in a modern computer excuse it butlike point to 0.25 cycles per
+ instruction so it's about with today fine 10x and there and there's twothings one is the found parallelism in
+ the narrative right and the other is to predictability of the narrative right socertain operations they do a bunch of
+ calculations and if greater than one do this else do that that that decision ispredicted in modern computers to high
+ 90% accuracy so branches happen a lot so imagine you have you have a decision tomake every six instructions which is
+ about the average right but you want to fetch five under instructions figure outthe graph and execute them all in
+ parallel that means you have let's say if you effect 600 instructions it'severy six you have to fetch you have to
+ predict ninety-nine out of a hundred branches correctly for that window to be
+
+0:12:01
+Speaker 1 :effective okay so parallelism you can't
+ paralyze branches or you can looking
+
+0:12:07
+Speaker 0 :
+
+0:12:08
+Speaker 1 :pretty you can what is predict a branch
+
+
+0:12:10
+Speaker 0 :mean or what open take so imagine you do
+ a computation over and over you're in a loop so Wowand it's greater than one do and you go
+ through that loop a million times so every time you look at the branch yousay it's probably still greater than one
+
+
+0:12:24
+Speaker 1 :he's saying you could do that accurately
+
+
+0:12:27
+Speaker 0 :very accurately monitoring comes my mind
+
+
+0:12:29
+Speaker 1 :is blown how the heck did you that wait
+ a minute
+
+0:12:32
+Speaker 0 :well you want to know this is really sad
+ 20 years ago yes you simply recorded which way thebranch went last time and predicted the
+ same thing right okay what's the
+
+0:12:44
+Speaker 1 :
+
+0:12:45
+Speaker 0 :accuracy of that 85% so then somebody
+ said hey let's keep a couple of bits and have a little counter so and it predictsone way we count up and then pins so say
+ you have a three bit counter so you count up and then count down and if it'syou know you can use the top bit as the
+ sign bit so you have a sign to bit number so if it's greater than one youpredict taken and lesson one you predict
+ not-taken right or less than zero or whatever thething is
+ and that got us to 92% oh okay I know is this betterthis branch depends on how you got there
+ so if you came down the code one way you're talking about Bob and Jane rightand then said is just Bob like Jane
+ Enoch went one way but if you're talking about Bob and Jill this Bob like changesyou go a different way
+ right so that's called history so you take the history and a counter that'scool but that's not how anything works
+ today they use something that looks a little like a neural network so modernyou take all the execution flows and
+ then you do basically deep pattern recognition of how the program isexecuting and you do that multiple
+ different ways and you have something that chooses what the best result isthere's a little supercomputer inside
+ the computer that's trying to project that calculates which way branches go sothe effective window that it's worth
+ finding grassing gets bigger why was
+
+0:14:18
+Speaker 1 :that gonna make me sad that's amazing
+
+
+0:14:22
+Speaker 0 :it's amazingly complicated oh well
+ here's the funny thing so to get to 85% took a thousand bits to get to 99% takestens of megabits
+ so this is one of those to get the result you want you know to get from awindow of say 50 instructions to 500 it
+ took three orders of magnitudes or four orders of magnitude toward bits now if
+
+0:14:51
+Speaker 1 :you get the prediction of a branch wrong
+ what happens then what is the pipe you flush the pipes is just the performance
+
+0:14:59
+Speaker 0 :cost but it gets even better yeah so
+ we're starting to look at stuff that says so executed down this path and thenyou had two ways to go but far far away
+ there's something that doesn't matter which path you went so you miss you tookthe wrong path you executed a bunch of
+ stuff then you had to miss predicting too backed it up but you remembered allthe results you already calculated some
+ of those are just fine look if you read a book and youmisunderstand the paragraph your
+ understanding is the next paragraph sometimes is invariance I don'tunderstand you sometimes it depends on
+
+
+0:15:38
+Speaker 1 :it and you can kind of anticipate that
+
+
+0:15:42
+Speaker 0 :invariance yeah well you can keep track
+ of whether that data changed and so when you come back to a piece of code shouldyou calculate it again or do the same
+
+
+0:15:51
+Speaker 1 :thing okay how much does this is art and
+ how much of it is science because it sounds pretty complicated so well how do
+
+0:15:58
+Speaker 0 :you describe a situation so imagine you
+ come to a point in the road we have to make a decision right and you have abunch of knowledge about which way to go
+ maybe you have a map so you want to go is the shortest way or do you want to gothe fastest way or you want to take the
+ nicest Road so it's just some set of data so imagine you're doing somethingcomplicated like a building a computer
+ and there's hundreds of decision points all with hundreds of possible ways to goand the ways you pick interacts in a
+ complicated way right and then you have to pick the right spot right so thoseare there so I don't know yeah avoided
+
+
+0:16:37
+Speaker 1 :the question you just described do the
+ Robert Frost poem road less taken I
+
+0:16:43
+Speaker 0 :describe the Robin truss problem which
+ we do as computer designers it's all poetry ok greatyeah I don't know how to describe that
+ because some people are very good at making those intuitive leaps it seemslike the combinations of things some
+ people are less good at it but they're really good at evaluating youralternatives right and everybody has a
+ different way to do it and some people can't make those sleeps but they'rereally good at analyzing it so when you
+ see computers are designed by teams of people who have very different skillsets and a good team has lots of
+ different kinds of people and I suspect you would describe some of them asartistic right but not very many
+
+
+0:17:29
+Speaker 1 :unfortunately or fortunately fortunately
+
+
+0:17:32
+Speaker 0 :well you know computer science hard it's
+ 99% perspiration and the 1% inspiration is really
+
+0:17:43
+Speaker 1 :important but I need the 99 yeah you got
+
+
+0:17:45
+Speaker 0 :to do a lot of work and then there's
+ there are interesting things to do at every level that stack so at the end of
+
+0:17:53
+Speaker 1 :the day if you're on the same program
+ multiple times does it always produce the same result is is there some roomfor fuzziness there that's a math
+
+
+0:18:04
+Speaker 0 :problem so if you run a correct C
+ program the definition is every time you run it you get the same answer yeah that
+
+0:18:12
+Speaker 1 :well that's a math statement but that's
+
+
+0:18:14
+Speaker 0 :a that's a language definitional
+ statement so yes for years when people did when we first did 3d acceleration ofgraphics you could run the same scene
+ multiple times and get different answers right right and then some people thoughtthat was okay and some people thought it
+ was a bad idea and then when the HPC world used GPUs for calculations theythought it's a really bad idea okay now
+ in modern AI stuff people are looking at networks where the precision of the datais low enough that the date has somewhat
+ noisy and the observation as the input data is unbelievably noisy so why shouldthe calculation be not noisy and people
+ have experimented with algorithms that say can get faster answers by beingnoisy like as the network starts to
+ converge if you look at the computation graph it starts out really wide and itgets narrower and you can say is that
+ last little bit that important or should I start to graph on the next rap revbefore we would live all the way down to
+ the answer right so you can create algorithms that are noisy now if you'redeveloping something and every time you
+ run it you get a different answer it's really annoying and so most people thinkeven today every time you run the
+ program you get the same answer now I
+
+0:19:36
+Speaker 1 :know but the question is that's the
+ formal definition of a programming
+
+0:19:41
+Speaker 0 :language there is a definition of
+ languages that don't get the same answer but people who use those you always wantsomething because you get a bad answer
+ and then you're wondering is it because rightsomething in your brother because of
+ this and so everybody wants a little swish that says no matter what ya do itdeterministically and it's really weird
+ because almost everything going into monetary calculations is noisyso why the answers have to be so clear
+
+
+0:20:08
+Speaker 1 :it's right so where do you stand by
+
+
+0:20:09
+Speaker 0 :design computers for people who run
+ programs so somebody says I want in deterministic answer like most peoplewant that can you deliver a
+
+
+0:20:18
+Speaker 1 :deterministic answer I guess is the
+ question like when you hopefully sure
+
+0:20:22
+Speaker 0 :that's what people don't realize is you
+ get a deterministic answer even though the execution flow is very owndeterministic so if you run this program
+ a hundred times it never runs the same way twice ever and the answer it arises
+
+0:20:36
+Speaker 1 :
+
+0:20:37
+Speaker 0 :the same in but it gets the same answer
+
+
+0:20:39
+Speaker 1 :every time it's just just them is just
+ amazing okay you've achieved in eyes of many people legend status as a cheap artarchitect what design creation are you
+ most proud of perhaps because it was challengingbecause of its impact or because of the
+ set of brilliant ideas that that were
+
+0:21:06
+Speaker 0 :involved in well I find that description
+ odd and I has two small children and I promise you they think it's hilarious
+
+0:21:16
+Speaker 1 :
+
+0:21:16
+Speaker 0 :this question yeah so I dude so I I'm
+ I'm really interested in building computers and I've worked with reallyreally smart people
+ I'm not unbelievably smart I'm fascinated by how they go together bothas a as a thing to do and is endeavor
+ that people do how people in computers
+
+0:21:37
+Speaker 1 :
+
+0:21:40
+Speaker 0 :go together yeah like how people think
+ and build a computer and I find sometimes that the best computerarchitects aren't that interested in
+ people or the best people managers aren't that good at designing computers
+
+0:21:53
+Speaker 1 :so the whole stack of human beings is
+ fascinating so the managers individual
+
+0:21:59
+Speaker 0 :engineers yeah I just I said I realized
+ after a lot of years of building computers where you sort of build themout of the transistors logic gates
+ functional units come computational elements that you couldthink of people the same way so people
+ are functional units yes and then you can think of organizational design it'sa computer architectural problem and
+ then it's like oh that's super cool because the people are all differentjust like the computation elephants are
+ all different and they like to do different things and and so I had a lotof fun like reframing how I think about
+
+
+0:22:30
+Speaker 1 :organizations just like with with
+ computers we were saying execution paths you can have a lot of different pathsthat end up at a at at the same good
+ destination so what have you learned about the human abstractions fromindividual functional human units to the
+ broader organization what does it take
+
+0:22:54
+Speaker 0 :to create something special well most
+ people don't think simple enough all right so do you know the differencebetween a recipe and understanding
+ there's probably a philosophical description of this so imagine you canmake a loaf of bread yeah the recipe
+ says get some flour add some water add some yeast mix it up let it rise put itin a pan put it in the oven it's a
+ recipe right understanding bread you can understand biology supply chainsyou know grain grinders yeast physics
+ you know thermodynamics like there's so many levels of understanding there andthen when people build and design things
+ they frequently are executing some stack of recipes right and the problem withthat is the recipes all have a limited
+ scope look if you have a really good recipe book for making bread it won'ttell you anything about how to make an
+ omelet right right but if you have a deep understanding of cooking right thenbread omelets you know sandwich you know
+ there's there's a different you know way of viewing everything and most peoplewhen you get to be an expert at
+ something you know you're you're hoping to achieve deeper understanding not justa large set of recipes to go execute
+ and it's interesting the walk groups of people because xqt reps apiece isunbelievably efficient if it's what you
+ want to do if it's not what you want to do you're really stuck and and thatdifference is crucial and ever and
+ everybody has a balance of let's say deeper understanding recipes and somepeople are really good at recognizing
+ when the problem is to understand something DP deeply that make sense
+
+0:24:48
+Speaker 1 :it totally makes sense does it every
+ stage of development deep on understanding on the team needed oh this
+
+0:24:54
+Speaker 0 :goes back to the art versus science
+ question sure if you constantly unpacked everything for deeper understanding younever get anything done right and if you
+ don't unpack understanding when you need to you'll do the wrong thing and then atevery juncture like human beings are
+ these really weird things because everything you tell them has a millionpossible outputs all right and then they
+ all interact in a hilarious way and then having some intuition about what youtell them what you do when do you
+ intervene when do you not it's it's complicated all right so it's you knowessentially computationally unsolvable
+
+
+0:25:33
+Speaker 1 :yeah it's an intractable problem sure
+ humans are a mess but with deep understanding do you mean also sort offundamental questions of things like
+ what is a computer or why like think the why question is why are we even buildingthis like of purpose or do you mean more
+ like going towards the fundamental limits of physics sort of really gettinginto the core of the sighs well in terms
+
+
+0:26:07
+Speaker 0 :of building the computer thinks simple
+ think a little simpler so common practice is you build a computer andthen when somebody says I want to make
+ it 10% faster you'll go in and say alright I need to make this bufferbigger and maybe I'll add an ad unit or
+ you know I have this thing that's three instructions wide I'm going to make itfour instructions wide and what you see
+ is each piece gets incrementally more complicated rightand then at some point you hit this
+ limit like adding another feature or a buffer doesn't seem to make it anyfaster and then people say well that's
+ because it's a fundamental limit and then somebody else to look at it and saywell actually the way you divided the
+ problem up and the way that different features are interacting is limiting youand it has to be rethought rewritten
+ right so then you refactor it and rewrite it and what people commonly findis the rewrite is not only faster but
+ half is complicated from scratch yes so
+
+0:27:04
+Speaker 1 :how often in your career but just have
+ you seen as needed maybe more generally to just throw the whole out thing out
+
+0:27:14
+Speaker 0 :this is where I'm on one end of it every
+ three to five years which end are you on
+
+0:27:18
+Speaker 1 :
+
+0:27:20
+Speaker 0 :like rewrite more often right and three
+
+
+0:27:22
+Speaker 1 :
+
+0:27:24
+Speaker 0 :or five years is if you want to really
+ make a lot of progress on computer architecture every five years you shoulddo one from scratch so where does the
+
+
+0:27:31
+Speaker 1 :x86 64 standard come in or what how
+
+
+0:27:38
+Speaker 0 :often do you I wrote the I was the
+ co-author that's back in 98 that's 20
+
+0:27:43
+Speaker 1 :years ago yeah so that's still around
+
+
+0:27:45
+Speaker 0 :the instruction set it stuff has been
+ extended quite a few times yes and instruction sets are less interestingand implementation underneath there's
+ been on x86 architecture Intel's designed a few Eames is designed a fewvery different architectures and I don't
+ want to go into too much of the detail about how often but it's there's atendency to rewrite it every you know 10
+ years and it really should be every five
+
+0:28:14
+Speaker 1 :so you're saying you're an outlier in
+ that sense in really more often we write more often well in here isn't that scary
+
+0:28:21
+Speaker 0 :yeah of course
+ well scary - who - everybody involved
+
+0:28:25
+Speaker 1 :because like you said repeating the
+ recipe is efficient companies want to make money well no in the individualjuniors want to succeed so you want to
+ incrementally improve increase the buffer from three to four well we get
+
+0:28:41
+Speaker 0 :into the diminishing return curves I
+ think Steve Jobs said this right so everyyou have a project and you start here
+ and it goes up and they have Domitian return and to get to the next level youhave to do a new one in the initial
+ starting point will be lower than the old optimization point but it'll gethigher so now you have two kinds of fear
+ short-term disaster and long-term
+
+0:29:06
+Speaker 1 :disaster and you're you're wrong right
+
+
+0:29:09
+Speaker 0 :like you know people with a quarter by
+ quarter business objective are terrified about changing everything yeah andpeople who are trying to run a business
+ or build a computer for a long term objective know that the short-termlimitations block them from the long
+ term success so if you look at leaders of companies that had really goodlong-term success every time they saw
+ that they had to redo something they did
+
+0:29:38
+Speaker 1 :and so somebody has to speak up or you
+
+
+0:29:40
+Speaker 0 :do multiple projects in parallel like
+ you optimize the old one while you build a new one and but the marketing guysthey're always like make promise me that
+ the new computer is faster on every single thing and the computer architectsays well the new computer will be
+ faster on the average but there's a distribution or results in performanceand you'll have some outliers that are
+ slower and that's very hard because they have one customer cares about that one
+
+0:30:05
+Speaker 1 :so speaking of the long-term for over 50
+ years now Moore's law has served a for me andmillions of others as an inspiring
+ beacon what kind of amazing future brilliant engineers can build no I'mjust making your kids laugh all of today
+ it was great so first in your eyes what is Moore's law if you could define for
+
+0:30:29
+Speaker 0 :people who don't know well the simple
+ statement was from Gordon Moore was double the number of transistors everytwo years something like that and then
+ my operational model is we increased the performance of computers by 2x every 2or 3 years and it's wiggled around
+ substantially over time and also in how we deliver performance has changed
+
+0:30:57
+Speaker 1 :
+
+0:30:58
+Speaker 0 :but the foundational idea was to X two
+ transistors every two years the current cadence is something like they call it ashrink factor like point six every two
+ years which is not 0.5 but that that's
+
+0:31:11
+Speaker 1 :referring strictly again to the original
+
+
+0:31:15
+Speaker 0 :definition of transistor count a shrink
+
+
+0:31:16
+Speaker 1 :factors just getting them smaller small
+
+
+0:31:18
+Speaker 0 :as well as you use for a constant chip
+ area if you make the transistor smaller by 0.6 then you get 1 over 0.6 moretransistors so can you linger a little
+
+
+0:31:27
+Speaker 1 :longer what's what's a broader what do
+ you think should be the broader definition of Moore's law we mentionedbefore how you think of performance just
+ broadly what's a good way to think about
+
+0:31:41
+Speaker 0 :Moore's law well first of all so I I've
+ been aware of Moore's law for 30 years
+
+0:31:47
+Speaker 1 :in what sense well I've been designing
+
+
+0:31:49
+Speaker 0 :computers for 40 just watching it before
+
+
+0:31:53
+Speaker 1 :
+
+0:31:55
+Speaker 0 :your eyes kind of slow and somewhere
+ where I became aware of it I was also informed that Moore's law was gonna diein 10 to 15 years and I thought that was
+ true at first but then after 10 years it was gonna die in 10 to 15 years and thenat one point it was gonna die in 5 years
+ and then it went back up to ten years and at some point I decided not to worryabout that particular product
+ mastication for the rest of my life which is which is fun and then I joinedIntel and everybody said Moore's law is
+ dead and I thought that's sad because it's the Moore's law company and it'snot dead and it's always been gonna die
+ and you know humans you like these apocryphal kind of statements like we'llrun out of food or run out of air or you
+
+
+0:32:39
+Speaker 1 :know something right but it's still
+ incredible this lived for as long as it has and yesthere's many people who believe now that
+ Moore's Law instead you know they can
+
+0:32:50
+Speaker 0 :join the last 50 years of people had the
+
+
+0:32:53
+Speaker 1 :thing yeah there's a long tradition but
+ why do you think if you can in touch try to understand it why do you think it'snot dead well for Hartley let's just
+
+
+0:33:03
+Speaker 0 :think people think Moore's law is one
+ thing transistors get smaller but actually under the sheets ours literallythousands of innovations and almost all
+ those innovations have their own diminishing return curves so if yougraph it it looks like a cascade of
+ diminishing return curves I don't know what to call that but the result is anexponential curve at least it has been
+ so and we keep inventing new things so if you're an expert in one of the thingson a diminishing return curve right and
+ you can see it's plateau you will probably tell people well this is thisis done meanwhile some other pile of
+ people are doing something different so that's that's just normal so thenthere's the observation of how small
+ could a switching device be so a modern transistor is something like a thousandby a thousand by thousand atoms right
+ and you get quantum effects down around two to two to ten atoms so you canimagine the transistor as small as 10 by
+ 10 by 10 so that's a million times smaller and then the quantumcomputational people are working away at
+ how to use quantum effects so a thousand
+
+0:34:19
+Speaker 1 :
+
+0:34:21
+Speaker 0 :by thousand five thousand atoms it's a
+
+
+0:34:23
+Speaker 1 :really clean way of putting it well fin
+
+
+0:34:27
+Speaker 0 :like a modern transistor if you look at
+ the fan it's like a hundred and twenty atoms wide but we can make that thinnerand then there's there's a gate wrapped
+ around it and under spacing there's a whole bunch of geometry and you know acompetent transistor designer could
+ count both atoms in every single direction like there's techniques now toalready put down atoms in a single
+ atomic layer and you can place atoms if you want to it's just you know from amanufacturing process if placing an atom
+ takes ten minutes and you need to put you know 10 to the 23rd atoms togetherto make a computer it would take a long
+ time so the the methods are you know both shrinking things and then coming upwith effective ways to control what's
+ happening manufacture stabling cheaply
+
+0:35:18
+Speaker 1 :
+
+0:35:19
+Speaker 0 :yeah so the innovation stocks pretty
+ broad you know there there's equipment there's optics there'schemistry there's physics there's
+ material science there's metallurgy there's lots of ideas about when you puttheir four materials together how they
+ interact are they stable is I stable or temperature you know like are theyrepeatable you know there's look there's
+ like literally thousands of technologies
+
+0:35:44
+Speaker 1 :involved but just for the shrinking you
+ don't think we're quite yet close to the fundamental limit in physics I did a
+
+0:35:50
+Speaker 0 :talk on Moore's Law and I asked for a
+ road map to a path of 100 and after two weeks they said we only got to fifty a
+
+0:35:58
+Speaker 1 :hundred what's a 100 extra hundred
+ shrink we only got 15 I said once you go
+
+0:36:02
+Speaker 0 :
+
+0:36:05
+Speaker 1 :to another two weeks well here's the
+
+
+0:36:07
+Speaker 0 :thing about Moore's law right so I
+ believe that the next 10 or 20 years of shrinking is going to happen right nowas a computer designer there's you have
+ two stances you think it's going to shrink in which case you're designingand thinking about architecture in a way
+ that you'll use more transistors or conversely not be swamped by thecomplexity of all the transistors you
+ get right you have to have a strategy you know so you're open to the
+
+0:36:39
+Speaker 1 :possibility and waiting for the
+ possibility of a whole new army of transistors ready to work I'm expecting
+
+0:36:45
+Speaker 0 :expecting more transistors every two or
+ three years by a number large enough that how you think about design how youthink about architecture has to change
+ like imagine you're you build built brick buildings out of bricks and everyyear the bricks are half the size or
+ every two years well if you kept building bricks the same way you know somany bricks per person per day the
+ amount of time to build a building would go up exponentially right right but ifyou said I know that's coming so now I'm
+ going to design equipment and moves bricks faster uses them better becausemaybe you're getting something out of
+ the smaller bricks more strengths inner walls you know less material efficiencyout of that so once you have a roadmap
+ with what's going to happen transistors they're gonna get we're gonna get moreof them then you design
+ was collateral rounded to take advantage of it and also to cope with it likethat's the thing people to understand
+ it's like if I didn't believe in Moore's law and Moore's law transistors showedup my design teams were all drowned so
+
+
+0:37:52
+Speaker 1 :what's the what's the hardest part of
+ this in flood of new transistors I mean even if you just look historicallythroughout your career what's what's the
+ thing you what fundamentally changes when you add more transistors in in thetask of designing an architecture no
+
+
+0:38:09
+Speaker 0 :there's there's two constants right one
+ is people don't get smarter I think by
+
+0:38:15
+Speaker 1 :the way there's some size shown that we
+ do get smarter because nutrition whatever
+
+0:38:22
+Speaker 0 :sorry bring that what effect yes nobody
+ understands it nobody knows if it's still going on so that's all or whether
+
+0:38:27
+Speaker 1 :it's real or not but yeah that's a I
+
+
+0:38:29
+Speaker 0 :sort of Amen but not if I believe for
+ the most part people aren't getting much smarter the evidence doesn't support it
+
+0:38:35
+Speaker 1 :
+
+0:38:36
+Speaker 0 :that's right and then teams can't grow
+ that much right all right so human beings understand you know we're reallygood in teams of ten you know up two
+ teams of a hundred they can know each other beyond that you have to haveorganizational boundaries so you're kind
+ of you have those are pretty hard constraints all right so then you haveto divide and conquer like as the
+ designs get bigger you have to divide it into pieces you know that the power ofabstraction layers is really high we
+ used to build computers out of transistors now we have a team thatturns transistors and logic cells and
+ our team that turns them into functional you know it's another one it turns incomputers right so we have abstraction
+ layers in there and you have to think about when do you shift gears on that wealso use faster computers to build
+ faster computers so some algorithms run twice as fast on new computers but a lotabout rhythms are N squared so you know
+ a computer with twice as many transistors and it might take four Tom'stimes as long to run so you have to
+ refactor at the software like simply using faster computers to build biggercomputers doesn't work so so you have to
+ think about all these things so in terms
+
+0:39:46
+Speaker 1 :of computing performance and the
+ exciting possibility that more powerful computers bringis shrinking the thing we've been
+ talking about one of the for you one of the biggest exciting possibilities ofadvancement in performance or is there
+ are other directions that you're interested in like like in the directionof sort of enforcing given parallelism
+ or like doing massive parallelism in terms of many many CPUs you knowstacking CPUs on top of each other that
+ kind of that kind of parallelism or you kind of well think about it a different
+
+0:40:21
+Speaker 0 :way so old computers you know slow
+ computers you said a equal B plus C times D pretty simple right and then wemade faster computers with vector units
+ and you can do proper equations and matrices right and then modern like AIcomputations or like convolutional
+ neural networks we you convolve one large data set against another and sothere's sort of this hierarchy of
+ mathematics you know from simple equation to linearequations to matrix equations to it's a
+ deeper kind of computation and the data sets are getting so big that people arethinking of data as a topology problem
+ you know data is organized in some immense shape and then the computationwhich sort of wants to be get data from
+ immense shape and do some computation on it so the with computers of a lot ofpeople to do is how about rhythms go
+ much much further so that that paper you you reference the Sutton paper theytalked about you know like in a I
+ started it was a ploy rule sets to something that's a very simplecomputational situation and then when
+ they did first chess thing they solved deep searches so have a huge database ofmoves and results deep search but it's
+ still just a search right now we we take large numbers of images and we use it toTrain these weight sets that we convolve
+ across it's a completely different kind of phenomena we call that AI now they'redoing the next generation and if you
+ look at it they're going up this mathema graph right and then computations theboth computation and data sets support
+ going up that graph yeah the kind of
+
+0:42:13
+Speaker 1 :computation of my I mean I would argue
+ that all of it is still a search right just like you said a topology problemsdata says he's searching the data sets
+ for valuable data and also the actual optimization of your networks is a kindof search for the I don't know if you
+
+
+0:42:33
+Speaker 0 :looked at the inner layers of finding a
+ cat it's not a search it's it's a set of endless projection so you knowprojection and here's a shadow of this
+ phone yeah right then you can have a shadow of that onto something a shadowon that or something if you look in the
+ layers you'll see this layer actually describes pointy ears and round eyenessand fuzziness and but the computation to
+ tease out the attributes is not search right ain't like the inference partmight be searched but the trainings not
+ search okay well 10 then in deep networks they look at layers and theydon't even know it's represented and yet
+ if you take the layers out it doesn't work ok so if I don't think it's searchall right well but you have to talk to
+ my mathematician about what that actually is oh you disagree but the the
+
+0:43:25
+Speaker 1 :it's just semantics I think it's not but
+ it's certainly not I would say it's
+
+0:43:29
+Speaker 0 :absolutely not semantics but okay all
+
+
+0:43:33
+Speaker 1 :right well if you want to go there so
+ optimization to me is search and we're trying to optimize the ability of aneural network to detect cat ears and
+ this difference between chess and the space the incredibly multi-dimensionalhundred thousand dimensional space that
+ you know networks are trying to optimize over is nothing like the chessboarddatabase so it's a totally different
+ kind of thing and okay in that sense you can say yeah yeah you know I could see
+
+0:44:07
+Speaker 0 :how you you might say if if you the
+ funny thing is it's the difference between given search space and foundsearch space exactly yeah maybe that's a
+ different way
+
+0:44:19
+Speaker 1 :beautiful but okay but you're saying
+ what's your sense in terms of the basic mathematical operations and thearchitectures can be hardwired that
+ enables those operations do you see the CPUs of today still being a really corepart of executing those mathematical
+
+
+0:44:37
+Speaker 0 :operations yes
+ well the operations you know continue to be add subtract loads or compare andbranch it's it's remarkable so it's it's
+ interesting that the building blocks of you know computers or transistors andyou know under that atoms so you got
+ atoms transistors logic gates computers right you know functional units andcomputers the building blocks of
+ mathematics at some level are things like adds and subtracts and multipliesbut that's the space mathematics can
+ describe is I think essentially infinite but the computers that run thealgorithms are still doing the same
+ things now a given algorithm may say I need sparse data or I need 32-bit dataor I need you know like a convolution
+ operation that naturally takes 8-bit data multiplies it and sums it up acertain way so the like the data types
+ in tensorflow imply an optimization set but when you go write down a look at thecomputers it's an inorganic salt applies
+ like like that hasn't changed much now the quantum researchers thinkthey're going to change that radically
+ and then there's people who think about analog computing because you look in thebrain and it seems to be more analog ish
+ you know that maybe there's a way to do that more efficiently but we have amillion acts on computation and I don't
+ know the reference the relationship between computational let's sayintensity and ability to hit match
+ mathematical abstractions I don't know anyway subscribe dad but but just likeyou saw an AI you went from rule sets
+ the simple search to complex search does a found search like those are you knoworders of magnitude more computation to
+ do and as we get the next two orders ofmagnitude your friend Roger godori said
+ like every order magnitude changed the
+
+0:46:39
+Speaker 1 :computation fundamentally changes what
+ the computation is doing here oh you
+
+0:46:43
+Speaker 0 :know the expression the difference in
+ quantity is the difference in kind you know the difference between ant and anthill right or neuron and brain you know
+ there's there's there's just indefinable place where the the quantity changed thequality right now we've seen that happen
+ in mathematics multiple times and you know my my guess is it's gonna keep
+
+0:47:08
+Speaker 1 :happening so your senses yeah if you
+ focus head down and shrinking a transistor let's not just head down and
+
+0:47:15
+Speaker 0 :we're aware about the software stacks
+ that are running in the computational loads and we're kind of pondering whatdo you do with a petabyte of memory that
+ wants to be accessed in a sparse way and have you know the kind of calculationsai programmers want so there's that
+ there's a dialog interaction but when you go in the computer chip you know youfind adders and subtractors and
+ multipliers and so if you zoom out then
+
+0:47:42
+Speaker 1 :with as you mentioned which Sutton the
+ idea that most of the development in the last many decades in the AI researchcame from just leveraging computation
+ and just the simple algorithms waiting for the computation to improve well
+
+0:47:59
+Speaker 0 :suffer guys have a thing that they
+ called the the problem of early optimization right so if you write a bigsoftware stack and if you start
+ optimizing like the first thing you write the odds of that being theperformance limiter is low but when you
+ get the whole thing working can you make it to X faster by optimizing the rightthings sure while you're optimizing that
+ could you've written a new software stack which would have been a betterchoice maybe now you have creative
+ tension so but the whole time as you're
+
+0:48:29
+Speaker 1 :doing the writing the that's the
+ software we're talking about the hardware underneath gets faster which
+
+0:48:37
+Speaker 0 :goes back to the Moore's laws Moore's
+ Law is going to continue then your AI researchshould expect that to show up and then
+ you make a slightly different set of choices then we've hit the wallnothing's gonna happen and from here
+ it's just us rewriting algorithms like that seems like a failed strategy forthe last 30 years of Moore's laws death
+
+
+0:49:00
+Speaker 1 :so so can you just linger on it I think
+ you've answered it but it just asked the same dumb question over and over so whatwhy do you think Moore's law is not
+ going to die which is the most promising exciting possibility of why it won'tdone that's five 10 years so is it that
+ continues shrinking the transistor or is it another s-curve that steps in and ittotally so dope shrinking the transistor
+
+
+0:49:26
+Speaker 0 :is literally thousands of innovations
+
+
+0:49:30
+Speaker 1 :right so there's so this they're all
+
+
+0:49:32
+Speaker 0 :answers and it's there's a whole bunch
+ of s-curves just kind of running their course and being reinvented and newthings you know the the semiconductor
+ fabricators and technologists have all announced what's called nano wires sothey they took a fan which had a gate
+ around it and turned that into a little wire so you have better control that andthey're smaller and then from there
+ there's some obvious steps about how to shrink that so the metallurgy aroundwire stocks and stuff has very obvious
+ abilities to shrink and you know there's a whole combination of things there todo your sense is that we're gonna get a
+
+
+0:50:11
+Speaker 1 :lot yes this innovation from just that
+
+
+0:50:16
+Speaker 0 :shrinking yeah like a factor of a
+ hundred salade yeah I would say that's
+
+0:50:19
+Speaker 1 :incredible and it's totally it's only 10
+
+
+0:50:23
+Speaker 0 :or 15 years now you're smarter you might
+
+
+0:50:25
+Speaker 1 :know but to me it's totally
+ unpredictable of what that hundred x would bring in terms of the nature ofthe computation and people be yeah you
+
+
+0:50:34
+Speaker 0 :familiar with Bell's law so for a long
+ time those mainframes Mini's workstation PC mobile Moore's Lawdrove faster smaller computers right and
+ then we were thinking about Moore's law rajae godori said every 10x generates anew computation so scalar vector made
+ Erichs topological computation right and if you go look at the industry transthere was no mainframes and
+ mini-computers and PCs and then the internet took off and then we got mobiledevices and now we're building 5g
+ wireless with one millisecond latency and people are starting to think aboutthe smart world where everything knows
+ you recognizes you like like like the transformations are going to be likeunpredictable how does it make you feel
+
+
+0:51:27
+Speaker 1 :that you're one of the key architects of
+ this kind of futures you're not we're not talking about the architects of thehigh-level people who build the Angry
+ Bird apps and flapping
+
+0:51:43
+Speaker 0 :Angry Bird of who knows we're gonna be
+ that's the whole point of the universe
+
+0:51:46
+Speaker 1 :let's take a stand at that and the
+ attention distracting nature of mobile phones I'll take a stand but anyway in
+
+0:51:55
+Speaker 0 :
+
+0:51:56
+Speaker 1 :terms of that matters much the the side
+ effects of smartphones or the attention distraction which part well who knows
+
+0:52:03
+Speaker 0 :you know where this is all leading it's
+ changing so fast wax my parents do steal my sister's for hiding in the closetwith a wired phone with a dial on it
+ stop talking your friends all day right now my wife feels with my kids fortalking to their friends all day on text
+ looks the same to me it's always it's
+
+0:52:22
+Speaker 1 :echoes of the same thing okay but you
+ are the one of the key people architecting the hardware of this futurehow does that make you feel do you feel
+
+
+0:52:32
+Speaker 0 :
+
+0:52:33
+Speaker 1 :responsible do you feel excited so we're
+
+
+0:52:35
+Speaker 0 :we're in a social context so there's
+ billions of people on this planet there are literally millions of people workingon technology I feel lucky to be you
+ know what doing what I do and getting paid for it and there's an interest init but there's so many things going on
+ in parallel it's like the actions are so unpredictable if I wasn't here somebodyelse are doing the the vectors of all
+ these different things are happening all the time you know there's aI'm sure some philosopher or meta
+ philosophers you know wondering about how we transform our world so you can't
+
+0:53:16
+Speaker 1 :deny the fact that these tools whether
+ that these tools are changing our world that's right do you think it's changing
+
+0:53:28
+Speaker 0 :for the better so some of these I read
+ this thing recently it said the peat the two disciplines with the highest GREscores in college are physics in
+ philosophy right and they're both sort of trying to answer the question why isthere anything right and the
+ Philosopher's you know are on the kind of theological side and the physicistsare obviously on the you know the
+ material side and there's a hundred billion galaxies with a hundred billionstars it seems well repetitive at best
+ so I you know there's on our way to ten billion people I mean it's hard to saywhat it's all for is that's what you're
+ asking
+
+0:54:10
+Speaker 1 :yeah I guess I guess I do tend to are
+
+
+0:54:11
+Speaker 0 :significantly increases in complexity
+ and I'm curious about how computation like like our world our physical worldinherently generates mathematics it's
+ kind of obvious right so we have X Y Z coordinates you take a sphere you makeit bigger you get a surface that falls
+ you know grows by r-squared like it generally generates mathematics and themathematicians and the physicists have
+ been having a lot of fun talking to each other for years and computation has beenlet's say relatively pedestrian like
+ computation in terms of mathematics has been doing binary binary algebra whilethose guys have been gallivanting
+ through the other realms of possibility right now recently the computation letsyou do math m'q mathematical
+ computations that are sophisticated enough that nobody understands how theanswers came out right machine learning
+
+
+0:55:10
+Speaker 1 :
+
+0:55:11
+Speaker 0 :machine lying yeah it used to be you get
+ data set you guess at a function the function is considered physics if it'spredictive of new functions
+ data sets modern you can take a large data set with no intuition about what itis and use machine learning to find a
+ pattern that has no function right and it can arrive at results that I don'tknow if they're completely
+ mathematically describable so a computation is kind of done somethinginteresting compared to a POV plus see
+
+
+0:55:47
+Speaker 1 :there's something reminiscent of that
+ step from the basic operations of addition to taking a step towards newall networks that's reminiscent of what
+ life on Earth and its origins was doing do you think we're creating sort of thenext step in our evolution in creating
+ artificial intelligence systems that I
+
+0:56:08
+Speaker 0 :don't know I mean you know if there's so
+ much in the universe already it's hard to say well I'm standing in his hold arehuman beings working on additional
+ abstraction layers and possibilities yet appear so does that mean that humanbeings don't need dogs you know no like
+ like there's so many things that are all simultaneously interesting and useful
+
+0:56:31
+Speaker 1 :but you've seen through I agree you've
+ seen great and greater level abstractions and built in artificialmachines right do you think when you
+ look at humans you think that the look of all life on earth as a singleorganism building this thing this
+ machine that greater and greater levels of abstraction do you think humans arethe peak the top of the food chain in
+ this long arc of history on earth or do you think we're just somewhere in themiddle are we are we the basic
+ functional operations of a CPU are we the C++ program the Python Perl Network
+
+0:57:10
+Speaker 0 :like somebody's you know people have
+ calculated like how many operations does the brain do and something you know I'veseen the number 10 to the 18th about
+ bunch of times arrive different ways so could you make a computer that did 10 tothe 20th operations yes sure do you
+ think we're gonna do that now is there something magical about how brainscompute things I don't know you know my
+ personal experiences interesting cuz you know you think youknow how you think and then you have all
+ these ideas and you can't figure out how they happened and if you meditate youknow the like what what you can be aware
+ of is interesting so I don't know if brains are magical or not you know thephysical evidence says no lots of
+ people's personal experiences yes so what would be funny as if brains aremagical and yet we can make brains with
+ more computation you know I don't know what to say about that but what do you
+
+0:58:06
+Speaker 1 :think magic is an emergent phenomena
+ what would be our than me I don't know
+
+0:58:12
+Speaker 0 :
+
+0:58:15
+Speaker 1 :teller of what what what in your view is
+
+
+0:58:18
+Speaker 0 :consciousness with with consciousness
+
+
+0:58:21
+Speaker 1 :yeah like what you know cautiousness
+ love things that are these deeply human things that seems to emerge from ourbrain is that something that we'll be
+ able to make encode in chips that get faster and faster and faster and faster
+
+0:58:38
+Speaker 0 :the flick of 10 our conversations no but
+ nobody really knows can you summarize it
+
+0:58:42
+Speaker 1 :
+
+0:58:43
+Speaker 0 :in a couple of couple of words many
+ people have observed that organisms run at lots of different levels right if yougot two neurons somebody said you'd have
+ one sensory neuron and one motor neuron right so we move towards things and awayfrom things and we have physical
+ integrity and safety or not right and then if you look at the animal kingdomyou can see brains that are a little
+ more complicated and at some point there's a planning system and thenthere's an emotional system that's you
+ know happy about being safe or unhappy about being threatened right and thenour brains have massive numbers of
+ structures you know like planning and movement and thinking and feeling anddrives and emotions and we seem to have
+ multiple layers of thinking systems and we have a brain a dream system thatnobody understands whatsoever which I
+ find completely hilarious and you can think in a way that those systems aremore independent and you can observe you
+ know the different parts of yourself can observeI don't know which one's magical I don't
+ know which ones not computational so is
+
+0:59:56
+Speaker 1 :it possible that it's all computation
+
+
+0:59:59
+Speaker 0 :probably is there a limit to computation
+ I don't think so do you think the universe is a computer
+
+1:00:03
+Speaker 1 :I think he seems to be it's a weird kind
+
+
+1:00:06
+Speaker 0 :of computer because if it was a computer
+ right like when they do calculations on what it how much calculation it takes todescribe quantum effects is unbelievably
+ high so if it was a computer when you built it out of something that waseasier to compute right that's that's a
+ funny it's a funny system but then thesimulation guys have pointed out that
+ the rules are kind of interesting like when you look really close it'suncertain and the speed of light says
+ you could only look so far and things can't be simultaneous except for the oddentanglement problem where they seem to
+ be like the rules are all kind of weird and somebody said physics is like having50 equations with 50 variables to define
+ 50 variables like you know it's it's you know like physics itself has been ashitshow for thousands of years it seems
+ odd when you get to the corners of everything you know it's eitheruncomputable or on definable or
+ uncertain it's almost like the designers
+
+1:01:07
+Speaker 1 :the simulation are trying to prevent us
+ from understanding it perfectly but but
+
+1:01:13
+Speaker 0 :also the things that require
+ calculations requires so much calculation that our idea of theuniverse of a computer is absurd because
+ every single little bit of it takes all the computation in the universe tofigure out gee that's a weird kind of
+ computer you know you say the simulation is running in the computer which has bydefinition infinite computations not
+ infinite
+
+1:01:35
+Speaker 1 :oh you mean if the universe is infinite
+
+
+1:01:38
+Speaker 0 :yeah piece of our universe seems to take
+ infinite computation I hit you're out just a lot whoa a lot some pretty bignumber compute this little teeny spot
+ takes all the mass in the local one little year by one like your space it'sclose enough to infinite so it's a heck
+
+
+1:01:56
+Speaker 1 :of a computer if it is one I know it's
+
+
+1:01:56
+Speaker 0 :it's it's a weird it's a weird
+ description because the simulations description seems toothe break when you look closely at it
+ but the rules in universe seemed to imply something's up that seems a littlearbitrary the whole the universe the
+
+
+1:02:11
+Speaker 1 :whole thing the the laws of physics you
+ know it just seems like like how did it come out to be yeah the way it is but
+
+1:02:20
+Speaker 0 :lots of people talk about that it's you
+ know it's like I said the two smartest groups of humans are working on the sameproblem different different aspects and
+ they're both complete failures so that's kind of cool
+
+1:02:32
+Speaker 1 :they might succeed eventually well after
+
+
+1:02:34
+Speaker 0 :two thousand years the trend isn't good
+
+
+1:02:38
+Speaker 1 :two thousand years is nothing in the
+ span of the history of the universe so we have some time but the next thousand
+
+1:02:43
+Speaker 0 :years doesn't look good either so that's
+
+
+1:02:46
+Speaker 1 :what everybody says that every stage but
+ with Moore's law as you've just described not being dead the exponentialgrowth the technology the future seems
+ pretty incredible well it'll be
+
+1:02:57
+Speaker 0 :interesting that's for sure that's right
+
+
+1:03:00
+Speaker 1 :so what are your thoughts on Ray
+ Kurzweil sense that exponential improvement and technology will continueindefinitely that is that how you see
+ Moore's law do you see Moore's law more broadly and since the technology of allkinds has a way of stacking s curves on
+ top of each other where it'll be exponential and then we'll see all kindsof what was an exponential of a million
+
+
+1:03:25
+Speaker 0 :mean that's that's a pretty amazing
+ number and that's just for a local little piece of silicon now it's imagineyou say decided to get a thousand tons
+ of silicon to collaborate in one computer at a million times the densitylike now you know you're talking I don't
+ know 10 to the 20th more computation power then our current alreadyunbelievably fast computers like nobody
+ knows what that's going to mean you know the sci-fi guys called you knowcomputron 'i'm like when like a local
+ civilization turns the nearby star into a computer I like I don't that's true
+
+1:04:07
+Speaker 1 :but so just even when you shrink a
+ transistor the that's only one dimension
+
+1:04:11
+Speaker 0 :of the ripple effects of that but people
+ tend to think about computers the cost problem right so computers aremade out of silicon and minor amounts of
+ metals and you know this and that none of those things cost any money likethere's plenty of sand like like you
+ could just turn the beach and a little bit ocean water in the computers so allthe cost is and equipment to do it
+ and the trend on equipment is once you figure out a build the equipment thetrend of cost is zero Elon said first
+ you figure out what configuration you want the atoms in and then how to putthem there right yeah
+ cuz well what here's you know his his great insight is people are howconstrained I have this thing I know how
+ it works and then little tweaks to that will generate something as opposed towhat do I actually want and then figure
+ out how to build it it's a very different mindset and almost nobody hasit obviously well let me ask on that
+
+
+1:05:13
+Speaker 1 :topic you were one of the key early
+ people in the development of autopilot at least in the hardware side Elon Muskbelieves that autopilot and vehicle
+ autonomy if you just look at that problem can follow this kind ofexponential improvement in terms of the
+ ha the how question that we're talking about there's no reason why I can't whatare your thoughts on this particular
+ space of vehicle autonomy and you're a part of it and Elon Musk's and Tesla'svision well the computer you need to
+
+
+1:05:45
+Speaker 0 :build was straightforward and you can
+ argue well doesn't need to be 2 times faster or 5 times or 10 times but that'sjust a matter of time or price in the
+ short run so that's that's not a big deal you don't have to be especiallysmart to drive a car so it's not like a
+ super hard problem I mean the big problem with safety is attention whichcomputers are really good at not skills
+
+
+1:06:13
+Speaker 1 :well let me push back on one you see
+ everything you said it's correct but we as humans tend to tend to take forgranted how how incredible our vision
+ system is so you can drive a car of 2050
+
+1:06:28
+Speaker 0 :vision
+ and you can train a neural network to extract a distance of any object in theshape of any surface from a video and
+ data but that really simple not simple I
+
+1:06:41
+Speaker 1 :
+
+1:06:42
+Speaker 0 :look that's a simple data problem it's
+ not it's not simple it's because you
+
+1:06:46
+Speaker 1 :because it's not just detecting object
+ it's understanding the scene and it's being able to do it in a way thatdoesn't make errors so the beautiful
+ thing about the human vision system and the entire brain around the whole thingis we were able to fill in the gaps it's
+ not just about perfectly detecting cars it's inferring the occluded cars it'strying to it's it's understanding the I
+ think it's mostly a bigger problem you
+
+1:07:13
+Speaker 0 :
+
+1:07:14
+Speaker 1 :so you think what data you know with
+ compute with improvement of computation with improvement in collection well
+
+1:07:21
+Speaker 0 :there is a you know when you're driving
+ a car and somebody cuts you off your brain has theories about why they did ityou know they're a bad person they're
+ distracted they're dumb you know you can listen to yourselfright so you know if you think that
+ narrative is important to be able to successfully drive a car then currentautopilot systems can't do it but if
+ cars are ballistic things with tracks and probabilistic changes of speed anddirection and roads are fixed and given
+ by the way they don't change dynamically right you can map the world reallythoroughly you can place every object
+ really thoroughly right you can calculate trajectories of things reallythoroughly right but everything you said
+
+
+1:08:07
+Speaker 1 :about really thoroughly has a different
+ degree of difficulty so you could say at
+
+1:08:13
+Speaker 0 :some point computer autonomous systems
+ will be way better it's things that humans are allows yet like it'll bebetter at abstention they'll always
+ remember there was a pothole in the road that humans keep forgetting aboutthey'll remember that this set of roads
+ how these weirdo lines on it the computers figured out once andespecially if they get updates so if
+ somebody changes a given like that Akita robots and stuff somebody said is tomaximize two Givens
+ okay right so though having a robot pick up this bottle cap is ways you put a reddot on the top because then you have to
+ figure out you know if you want to do a certain thing with it you know maximizethe Givens is the thing and autonomous
+ systems are happily maximizing the Givens like humans when you drivesomeplace new you remember it because
+ you're processing it the whole time and after the 50th time you drove to workyou get to work you don't know how you
+ got there right you're on autopilot right autonomous cars are always onautopilot but the cars have no theories
+ about why they got cut off or why they're in traffic so they'll never stoppaying attention right so I tend to
+
+
+1:09:25
+Speaker 1 :believe you do have deaf theories mental
+ models of other people especially pedestrians cyclists but also with othercars everything you said is like is
+ actually essential to driving driving is a lot more complicated than peoplerealize I think so sort of to push back
+ slightly but cut into traffic right yeah
+
+1:09:45
+Speaker 0 :you can't just wait for a gap you have
+ to be somewhat aggressive you'd be surprised how simple a calculation forthat is I may be on that particular
+
+
+1:09:54
+Speaker 1 :point but there's a that it may be asked
+ you to push back I would be surprised you know what yeah I'll just say where Istand I would be very surprised but I
+ think it's you might be surprised how complicated it is that I'd say that I
+
+1:10:09
+Speaker 0 :tell people's like progress disappoints
+ in the short run the surprises in the long run it's very possible yeah I
+
+1:10:14
+Speaker 1 :
+
+1:10:16
+Speaker 0 :suspect in 10 years it'll be just like
+ taken for granted yeah but you're
+
+1:10:19
+Speaker 1 :probably right now look like it's gonna
+
+
+1:10:22
+Speaker 0 :be a $50 solution that nobody cares
+ about like GPS is like wow GPS is we have satellites in space that tell youwhere your location is it was a really
+ big deal now everything is the GPS I
+
+1:10:33
+Speaker 1 :mean yeah it's true but I do think that
+ systems that involve human behavior are more complicated than we give themcredit for so we can do incredible
+ things with technology that don't involve humans but when you look humans
+
+1:10:46
+Speaker 0 :are less complicated than people you
+ know frequently obscure I've maybe I stand off right out of large numbers ofpatterns and just keep doing it over
+
+
+1:10:56
+Speaker 1 :but I can't trust you because you're a
+ human that's something something a human would say but I might my hope was on thepoint you've made is even if no matter
+ who is right Eve there I'm hoping that there's a lot of things that humansaren't good at that machines are
+ definitely good I like you said attention and things like that wellthey'll be so much better that the
+ overall picture of safety in autonomy will be obviously cars will be safereven if they're not as good I'm a big
+
+
+1:11:25
+Speaker 0 :believer in safety I mean there are
+ already the current safety systems like cruise control that doesn't let you runinto people and lane-keeping there are
+ so many features that you just look at the pareto of accidents and knocking offlike 80% of them you know super doable
+
+
+1:11:43
+Speaker 1 :just a wing guard on the autopilot team
+ and the efforts there the it seems to be that there's a very intense scrutiny bythe media and the public in terms of
+ safety the pressure the bar but before autonomous vehicles what are your sortof as a person they're working on the
+ hardware and trying to build a system that builds a safe vehicle and so onwhat was your sense about that pressure
+ is it unfair is it expected of new
+
+1:12:12
+Speaker 0 :technology it seems reasonable I was
+ interested I talked to both American and European regulators and I was worriedthat the regulations would write into
+ the rules technology solutions like modern brake systems imply hydraulicbrakes so if you'll read the regulations
+ to meet the letter of the law for brakes it sort of has to be hydraulic right andthe regulator said there they're
+ interested in the use cases like a head-on crash an offset crash don't hitpedestrians don't run into people don't
+ leave the road don't run a red light or a stop light they were very much intothe scenarios and you know and they had
+ they had all the data about which scenarios injured or killed to mostpeople and for the most part those
+ conversations were like what's the right thing to do to take the next stepnow elan is very interested also in the
+ benefits of autonomous driving or freeing people's time and attention aswell as safety and I think that's also
+ an interesting thing but you know building an autonomous system so they'resafe and safer and people seemed since
+ the goals to be tannic seifer's and people having the bar to be safer thanpeople and scrutinizing accidents seems
+ philosophically you know correct so I think that's a good thing
+
+1:13:42
+Speaker 1 :what R is is different than the things
+ you've worked at new Intel AMD apple with autopilot chip design and hardwaredesign what are interesting or
+ challenging aspects of building this specialized kind of competing system inthe automotive space I mean there's two
+
+
+1:14:00
+Speaker 0 :tricks to building like an automotive
+ computer one is to software our team the machine learning team is developingalgorithms that are changing fast
+ so as you're building the the accelerator you have this you know worryor intuition that the algorithms will
+ change enough that the accelerator will be the wrong one right and there's thegeneric thing which is if you build a
+ really good general-purpose computers hey it's performance is one and then GPUguys will deliver about 5x to
+ performance for the same amount of silicon because instead of discoveringparallelism you're given parallelism and
+ then special accelerators get another two to five X on top of a GPU becauseyou say I know the math is always 8-bit
+ integers and two 32-bit accumulators and the operations are the subsets ofmathematical possibilities so although
+ you know AI accelerators have a claimed performance benefit over GPUs because inthe narrow math space you're nailing the
+ algorithm now you still try to make it programmable but the AI field ischanging really fast so there's a you
+ know there's little creative tension era of I want the acceleration afforded byspecialization without being over
+ specialized so that the new algorithm is so muchmore effective that you'd have been
+ better off on a GPU so there's attention there to build a good computer for anapplication like automotive there's all
+ kinds of sensor inputs and safety processors and a bunch of stuff so oneof loans goal is to make it super
+ affordable so every car gets an autopilot computer so some of the recentstartups you look at and they have a
+ server in the trunk because they're saying I'm going to build this autopilotcomputer replaces the driver so their
+ cost budgets ten or twenty thousand dollars and eelain's constraint was I'mgonna put one every in every car whether
+ people buy autonomous driving or not so the cost constraint he had in mind wasgreat right and to hit that you had to
+ think about the system design that's complicated it's it's fun you know it'slike it's like it's craftsmen's work
+ like a violin maker right you could say Stradivarius is this incredible thingthe musicians are incredible but the guy
+ making the violin you know picked wood and sanded it and then he cut it youknow and he glued it and you know and he
+ waited for the right day so that when you put the finish on it didn't you knowdo something dumb
+ that's craftsmen's work right you may be a genius craftsman because you have thebest techniques and you discover a new
+ one but most engineers craftsmen's work and humans really like to do that youknow smart humans oh no everybody oh I
+ know I used to I dug ditches when I was in college I got really good at itsatisfying yeah so digging ditches is
+
+
+1:16:53
+Speaker 1 :also craft malware yeah of course
+
+
+1:16:55
+Speaker 0 :so so there's an expression called
+ complex mastery behavior so when you're learning something that's fun becauseyou're learning something when you do
+ something that's wrote and simple it's not that satisfying but if the stepsthat you have to do or complicate it and
+ you're good at them it's satisfying to do them and then if you're intrigued byit all as you're doing them you
+ sometimes learn new things that you can raise your game but Christmas work isgood
+ in engineers like engineering is complicated enough that you have tolearn a lot of skills and then a lot of
+ what you do is then craftsmen's work which is fun autonomous driving building
+
+1:17:33
+Speaker 1 :a very
+ a resource-constrained computer so computer has to be cheap enough that putin every single car that's essentially
+ boils down to craftsmen's work it's saying genius so there's thoughtful
+
+1:17:47
+Speaker 0 :decisions and problems to solve and
+ trade-offs to make do you need 10 Cameron ports or 8 you know you'rebuilding for the current car or the next
+ one you know how do you do the safety stuff you know there's there's a wholebunch of details but it's fun but it's
+ not like I'm building a new type and they're all networked which has a newmathematics and a new computer at work
+ do you know that that's like there's a there's more invention than that but therejection to practice once you picked
+ the architecture you look inside and what do you seeadders and multipliers and memories and
+ you know the basics so computers is always just this weird set ofabstraction layers of ideas and thinking
+ that reduction to practice is transistors and wires and you knowpretty basic stuff and that's an
+ interesting phenomena by the way that like factory work like lots of peoplethink factory work is Road assembly
+ stuff I've been on the assembly line like the people work that really likedit it's a really great job it's really
+ complicated putting cars together is hard right and in the cars moving andthe parts are moving and sometimes the
+ parts are damaged and you have to coordinate putting all the stufftogether and people are good at it
+ they're good at it and I remember one day I went to work and the line was shutdown for some reason and then some of
+ the guys sitting around were really bummed because they they had reorganizeda bunch of stuff and they were gonna hit
+ a new record for the number of cars built that day and they were all gung hoto do it and these were big tough
+ buggers yeah you know but what they did was complicated and you couldn't do ityeah and I mean well after a while you
+
+
+1:19:21
+Speaker 1 :
+
+1:19:22
+Speaker 0 :could but you'd have to work your way up
+ cuz you know like putting a bright what's called the bright stuff at thetrim on a car
+ on a moving assembly line where it has to be attached 25 places in a minute anda half is unbelievably complicated and
+ and and human beings can do it's really goodI think that's harder than driving a car
+ by the way putting together working
+
+1:19:45
+Speaker 1 :
+
+1:19:47
+Speaker 0 :working on the factory to smart
+
+
+1:19:49
+Speaker 1 :people can disagree yeah I think drive
+ driving a car will get you in the
+
+1:19:54
+Speaker 0 :factory something will see you're not
+
+
+1:19:58
+Speaker 1 :for us humans driving a car is easy I'm
+ saying building a machine that drives a car is not easyok ok driving a car is easy for humans
+ because we've been evolving for billions of years
+
+1:20:11
+Speaker 0 :drive cars yeah no juice the pail if the
+ cars are super cool no now you join the
+
+1:20:16
+Speaker 1 :rest of the internet and mocking me ok
+
+
+1:20:20
+Speaker 0 :yeah yeah intrigued by your you know
+ your anthropology yeah it says we have
+
+1:20:28
+Speaker 1 :to go dig into that there's some
+ inaccuracies there yes ok but in general what have you learned in terms ofthinking about passion craftsmanship
+ tension chaos you know the whole mess of it or what have you learned have takenaway from your time working with Elon
+ Musk working at Tesla which is known to be a place of chaos innovationcraftsmanship and I really like the way
+
+
+1:21:04
+Speaker 0 :he thought like you think you have an
+ understanding about what first principles of something is and then youtalk to you alone about it and you you
+ didn't scratch the surface you know he has a deep belief that no matter whatyou do is a local maximum right
+ I had a friend he invented a better electric motor and it was like a lotbetter than what we were using and one
+ day he came by he said you know I'm a little disappointed cuz you know this isreally great and you didn't seem that
+ impressed and I said you know and the super intelligent aliens come are theygonna be looking for you like where is
+ he the guy you built the motor yeah probably not you know like like the butdoing interesting work that's both
+ innovative and let's say craftsmen's work on the current thing it's reallysatisfying it's good and and that's cool
+ and then Elon was good taking everything apart and like what's the deep firstprinciple oh no what's really
+ what's really you know you know you know that that you know ability to look at itwithout assumptions and and how
+ constraints is super wild you know we build rocket ship and using the same car
+
+1:22:17
+Speaker 1 :
+
+1:22:18
+Speaker 0 :you know everything and that's super fun
+ and he's into it too like when they first landed to SpaceX Rockets at Teslawe had a video projector in the big room
+ and like five hundred people came down and when they landed everybody cheeredand some people cried it was so cool
+ alright but how did you do that well it was super hard and then people say wellit's chaotic really to get out of all
+ your assumptions you think that's not going to be unbelievably painful andthere's Elon tough yeah probably the
+ people look back on it and say boy I'm really happy I had that experience to gotake apart that many layers of
+ assumptions sometimes super fun sometimes painful soit could be emotionally and
+
+
+1:23:06
+Speaker 1 :intellectually painful that whole
+ process just stripping away assumptions
+
+1:23:10
+Speaker 0 :yeah I imagine 99% of your thought
+ process is protecting your self conception and 98% of that's wrong yeahnow you got there math right no you
+ think your feeling when you get back into that one bit that's useful and nowyou're open and you have the ability to
+ do something different I don't know if I got the math right it might be ninetynine point nine but in 850 imagining it
+
+
+1:23:39
+Speaker 1 :the 50% is hard enough yeah now for a
+
+
+1:23:43
+Speaker 0 :long time I've suspected you could get
+ better look you can think better you can think more clearly you can take thingsapart and there's lots of examples of
+ that people who do that so any line is
+
+1:23:59
+Speaker 1 :an example of that parent or an example
+
+
+1:24:03
+Speaker 0 :says you know if I am I'm fun to talk to
+ certainly I've learned a lot of stuff right well here's the other thing it'slike I talk like like I read books and
+ people think oh you read books well no I brought a couple booksawake for 55 years
+ well maybe 50 cuz I didn't read learned read tall as H or something and and itturns out when people write books they
+ often take 20 years of their life where they passionately did something reduceit to to 200 pages that's kind of fun
+ and then the goat you go online and you can find out who wrote the best booksand who like you know that's kind of
+ Alda so there's this wild selection process and then you can read it and forthe most part to understand it and then
+ you can go apply it like I went to one company and I thought I haven't managedmuch before so I read 20 management
+ books and I started talking to him basically compared to all the VP'srunning around I'd run night read 19
+ more management books than anybody else was it even that hardyeah and a half the stuff worked like
+ first time it wasn't even rocket science but at the core of that is questioning
+
+1:25:14
+Speaker 1 :the assumptions okay sort of entering
+ the thinking first principles thinking sort of looking at the reality of thesituation and using it using that
+ knowledge applying that knowledge so
+
+1:25:29
+Speaker 0 :mean yes so I would say my brain has
+ this idea that you can question first assumptions and but I can go days at atime and forget that and you have to
+ kind of like circle back data observation because it is because part
+
+1:25:43
+Speaker 1 :Allen gene well it's hard to keep it
+
+
+1:25:45
+Speaker 0 :front and center because you know you're
+ you operate on so many levels all the time and you know getting this donetakes priority or you know being happy
+ takes priority or you know screwing around takes priority like like like howyou go through life it's complicated
+ yeah and then you remember oh yeah I could really I think first principles somuch that's that's tiring you know
+ what you do for a while that's kind of
+
+1:26:12
+Speaker 1 :cool so just as the last question your
+ sense from the big picture from the first principles do you think you kindof answered already but do you think
+ autonomous driving something we can solve on a timeline of years soone two three five ten years as opposed
+
+
+1:26:34
+Speaker 0 :to a century yeah definitely just to
+
+
+1:26:35
+Speaker 1 :linger and a little longer
+ where's the confidence coming from is it the fundamentals of the problem thefundamentals of building a hardware and
+
+
+1:26:46
+Speaker 0 :the software as a computational problem
+ understanding ballistics roles topography it seems pretty solvable Imean and you can see this you know like
+ like speech recognition for a long time people are doing you know frequency anddomain analysis and and all kinds of
+ stuff and that didn't work for at all right and then they did deep learningabout it and it worked great and it took
+ multiple iterations and you know time is driving his way past the frequencyanalysis point you know use radar don't
+ run into things and the data gathering is going up in the computations going upand the algorithm understanding is going
+ up and there's a whole bunch of problems getting solved like that the data side
+
+1:27:32
+Speaker 1 :is really powerful but I disagree with
+ both you and you and I'll tell you and once again as I did before that thatwhen you add human beings into the
+ picture the it's no longer a ballistics problem it's something more complicatedbut I could be very well proven cars are
+
+
+1:27:51
+Speaker 0 :hardly damped in terms are ready to
+ change like the steering and the steering systems really slow compared toa computer the acceleration of the
+ acceleration is really slow yeah on a
+
+1:28:01
+Speaker 1 :certain time scale on a ballistics time
+ scale but human behavior I don't know it yeah I shouldn't say it beans are really
+
+1:28:08
+Speaker 0 :slow to weed weirdly we operate
+ you know half a second behind reality nobody really understands that oneeither it's pretty funny
+ yeah yeah so no I will be with very well
+
+1:28:21
+Speaker 1 :could be surprised and I think with the
+ rate of improvement in all aspects I'm both the computed in the the thesoftware and the hardware there's gonna
+ be pleasant surprises all over the place
+
+1:28:33
+Speaker 0 :
+
+1:28:35
+Speaker 1 :speaking of unpleasant surprises many
+ people have worries about a singularity in the development of AIforgive me for such questions you know
+
+
+1:28:43
+Speaker 0 :what when AI improves exponentially and
+
+
+1:28:45
+Speaker 1 :reaches a point of superhuman level
+ general intelligence you know beyond the point there's no looking back do youshare this worry of existential threats
+ from artificial intelligence from computers becoming superhuman levelintelligent no not really
+
+
+1:29:02
+Speaker 0 :you know like we already have a very
+ stratified society and then if you look at the whole animal kingdom ofcapabilities and abilities and interests
+ and you know smart people have their niche and you know normal people havetheir niche and craftsmen's have their
+ niche and you know animals have their niche I suspect that the domains ofinterest for things that you know
+ astronomically different like the whole something got 10 times smarter than usand wanted to track us all down because
+ what we like to have coffee at Starbucks like it doesn't seem plausible no isthere an existential problem that how do
+ you live in a world where there's something way smarter than you and youyou based your kind of self-esteem on
+ being the smartest local person well there's what 0.1% of the population whothinks that because the rest of the
+ populations been dealing with it since they were bornso the the breadth of possible
+ experience that can be interesting is really big and you know superintelligence seems likely although we
+ still don't know if we're magical but I suspect we're not and it seems likelythat'll create possibilities that are
+ interesting for us and it's its interests will be interesting for thatfor whatever it is it's not obvious why
+ it's interest would somehow want to fight over some square foot of dirt oryou know whatever then you know the
+ usual fears are about so you don't think
+
+1:30:38
+Speaker 1 :you'll inherit some of the darker
+ aspects of human nature depends on how
+
+1:30:42
+Speaker 0 :you think reality is constructed so for
+ for whatever reasons human beings are and that's a creative tension inopposition with both are good and
+ bad forces like there's lots of philosophical understandings of thatright I don't know why that would be
+ different so you think the evils is
+
+1:31:03
+Speaker 1 :necessary for the good I mean the
+ tension I don't know about evil but like
+
+1:31:09
+Speaker 0 :we live in a competitive world where
+ your good is somebody else's you know evil you know there's there's themalignant part of it but that seems to
+ be self-limiting although occasionally it's it's super horrible but yeah look
+
+1:31:27
+Speaker 1 :there's a debate over ideas and some
+ people have different beliefs and that that debate itself is a process so theat arriving at something you know I
+
+
+1:31:37
+Speaker 0 :wouldn't continue yeah just you but you
+
+
+1:31:41
+Speaker 1 :don't think that whole process will
+ leave humans behind in a way that's painfulan emotionally painful yes for the one
+ for the point one percent they'll be
+
+1:31:51
+Speaker 0 :there why isn't it already painful for a
+ large percentage of the population and it is I mean Society does have a lot ofstress in it about the 1% and the bath
+ of this and about to that but you know everybody has a lot of stress in theirlife about what they find satisfying and
+ and you know know yourself seems to be the proper dictum and pursue somethingthat makes your life meaningful seems
+ proper and there's so many avenues on that like there's so much unexploredspace at every single level
+ you know I'm somewhat of my nephew called me a jaded optimist you know soit's there's a beautiful tension that in
+
+
+1:32:34
+Speaker 1 :that label but if you were to look back
+ at your life and could relive a moment a set of moments because there were thehappiest times in your life outside of
+ family what would that be I don't want
+
+1:32:53
+Speaker 0 :to relive any moments I like that I like
+ that situation where you have some amount of optimism and thenthe anxiety of the unknown so you love
+
+
+1:33:06
+Speaker 1 :the unknown do you the mystery of it I
+ don't know about the mystery it sure
+
+1:33:10
+Speaker 0 :gets your blood pumping what do you
+
+
+1:33:14
+Speaker 1 :think is the meaning of this whole thing
+ of life on this pale blue dot it seems
+
+1:33:21
+Speaker 0 :to be what it does like the universe for
+ whatever reason makes atoms which makes us which we do stuff and we figure outthings and we explore things and that's
+
+
+1:33:38
+Speaker 1 :just what it is
+
+
+1:33:40
+Speaker 0 :it's not just yeah it is you know Jim I
+
+
+1:33:42
+Speaker 1 :don't think there's a better place to
+ end it it's a huge honor and well super fun thank you so much for talking todayall right great
+
+
+1:33:53
+Speaker 0 :thanks for listening to this
+
+
+1:33:54
+Speaker 1 :conversation and thank you to our
+ presenting sponsor cash app downloaded use code Lex podcasts you'll get ten
+
+1:34:02
+Speaker 0 :dollars and ten dollars will go to first
+
+
+1:34:03
+Speaker 1 :
+
+1:34:04
+Speaker 0 :a stem education nonprofit that inspires
+
+
+1:34:07
+Speaker 1 :hundreds of thousands of young minds to
+ become future leaders and innovators if you enjoy this podcast subscribe onYouTube
+ give it five stars an apple podcast follow on Spotify supported on patreonor simply connect with me on Twitter and
+
+
+1:34:21
+Speaker 0 :
+
+1:34:23
+Speaker 1 :now let me leave you with some words of
+ wisdom from Gordon Moore for everything you try works you aren't trying hardenough
+
+

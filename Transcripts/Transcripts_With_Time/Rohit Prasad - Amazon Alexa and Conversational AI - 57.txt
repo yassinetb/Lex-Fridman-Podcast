@@ -1,0 +1,1365 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ raha Prasad he's the vice president and head scientist of Amazon Alexa and oneof its original creators the Alexa team
+ embodies some of the most challenging incredible impactful and inspiring workthat is done in a high today the team
+ has to both solve problems at the cutting edge of natural languageprocessing and provide a trustworthy
+ secure and enjoyable experience to millions of people this is wherestate-of-the-art methods in computer
+ science meet the challenges of real-world engineering in many waysAlexa and the other voice assistants are
+ the voices of artificial intelligence to millions of people and an introductionto AI for people who have only
+ encountered it in science fiction this is an important and exciting opportunityso the work that Rohit and the Alexa
+ team are doing is an inspiration to me and to many researchers and engineers inthe AI community this is the artificial
+ intelligence podcast if you enjoy it subscribe on YouTube give it five starsan apple podcast supported on patreon or
+ simply connect with me on Twitter Alex Friedman spelled Fri D ma n if you leavea review on an apple podcast especially
+ but also cast box or comment on youtube consider mentioning topics people ideasquestions quotes in science tech or
+ philosophy that you find interesting and I'll read them on this podcast I won'tcall out names but I love comments with
+ kindness and thoughtfulness in them so I thought I'd share them someone onYouTube highlighted a quote from the
+ conversation with Ray Dalio where he said that you have toappreciate all the different ways that
+ people can be a player's this connected me to on teams of engineers it's easy tothink that raw productivity is the
+ measure of excellence but there are others I've worked with people whobrought a smile to my face every time I
+ got to work in the morning their contribution to the team is immeasurableI recently started doing podcast ads at
+ the end of the introduction I'll do one or two minutes after introducing theepisode and never any ads in the middle
+ that break the flow of the conversation I hope that works for you it doesn'thurt the listening experience this show
+ is presented by cash app the number one finance app in the App Store Ipersonally use cash app to send money to
+ friends but you can also use it to buy sell and deposit a big coin in justseconds cash app also has a new
+ investing feature you can buy fractions of a stock say $1 worth no matter whatthe stock price is brokerage services
+ are provided by cash up investing a subsidiary of square and member at CIBCI'm excited to be working with cash app
+ to support one of my favorite organizations called first best knownfor their first robotics and Lego
+ competitions they educate and inspire hundreds of thousands of students inover 110 countries and have a perfect
+ rating at Charity Navigator which means the donated money is used to maximumeffectiveness when you get cash app from
+ the App Store Google Play and use code Lex podcast you'll get $10 and cash appwill also donate $10 to 1st which again
+ is an organization that I've personally seen inspire girls and boys the dream ofengineering better world this podcast is
+ also supported by a zip recruiter hiring great people is hard and to me is one ofthe most important elements of
+ successful mission driven team I've been fortunate to be a part of and leadseveral great engineering teams the
+ hiring I've done in the past was mostly through tools we built ourselves butreinventing the wheel was painful sip
+ recruiters a tool that's already available for you it seeks to makehiring simple fast and smart
+ for example codable co-founder gretchen [ __ ] nner use zip recruiter to find anew game artist to join our education
+ tech company by using sip recruiters screening questions to filter candidatesGretchen found it easier to focus on the
+ best candidates and finally hiring the perfect person for the role in less thantwo weeks from start to finish
+ zip recruiter the smartest way to hire CY zip recruiters effective forbusinesses of all sizes by signing up as
+ I did for free at zip recruiter comm / Lexpod that
+ zipper Kirkham / Lex pod and now here's my conversation with Rohit Prasad in themovie her I'm not sure if you ever seen
+ a human falls in love with a voice of an AI system let's start at the highestphilosophical level before we get too
+ deep learning and some of the fun things do you think this what the movie hershows is within our reach
+
+
+0:04:50
+Speaker 0 :I think not specifically about her but I
+ think what we are seeing is a massive increase in adoption of AI assistantsRai and all parts of our social fabric
+ and I think it's what I do believe is that the utility these areas providesome of the functionalities that are
+ shown are absolutely within reach so the
+
+0:05:19
+Speaker 1 :some of the functionality in terms of
+ the interactive elements but in terms of the deep connection that's purely voicebased do you think such a close
+ connection as possible with voice alone
+
+0:05:31
+Speaker 0 :it's been a while since I saw her but I
+ would say in terms of the in terms of interactions which are both human-likeand in these AI assistants you have to
+ value what is also super human we as humans can be in only one placeAI assistance can be in multiple places
+ at the same time one with you on your mobile device one at your home one atwork so you have to respect these
+ superhuman capabilities to Plus as humans we have certain attributes we arevery good at where you're at reasoning
+ AI assistance not yet there but in Terrell mauve AI assistance what they'regreat at is computation memory it's
+ infinite and pure these are the attributes you have to start respectingso I think the comparison with
+ human-like versus the other aspect which is also super human has to be taken intoconsideration so I think we need to
+ elevate the discussion to not just human
+
+0:06:28
+Speaker 1 :like so there's certainly elements we
+ just mentioned Alexa's everywhere computation isspeaking so this is a much bigger
+ infrastructure than just the thing that sits therein the room with you but it certainly
+ feels to us mere humans that there's just another little creature there whenyou're interacting with it you're not
+ interacting with the entirety of the infrastructure you're interacting withthe device the feeling is okay sure we
+ anthropomorphize things but that feeling is still there so what do you think weas humans the purity of the interaction
+ with a smart assistant what do you think we look for in that interaction I think
+
+0:07:09
+Speaker 0 :in the certain interactions I think will
+ be very much where it does feel like a human because it has a persona of itsown and in certain ones it wouldn't be
+ so I think a simple example to think of it is if you're walking through thehouse and you just want to turn on your
+ lights on and off and you're issuing a command that's not very much like ahuman-like interaction and that's where
+ the AI shouldn't come back and have a conversation with you just it shouldsimply complete that command so those I
+ think the blend of we have to think about this is not human human alone itis a human machine interaction and
+ certain aspects of humans are needed and certain aspects are in situations demand
+
+0:07:50
+Speaker 1 :it to be like a machine so I told you
+ it's gonna be full soft cause in parts what was the difference between humanand machine in that interaction when we
+ interact to humans especially those our friends and loved ones versus you and amachine that you also are close with I
+
+
+0:08:09
+Speaker 0 :think they you have to think about the
+ roles the AI plays right so and it differs from different customer tocustomer different situation to
+ situation especially I can speak from Alexis perspective it is a companion afriend at times an assistant an advisor
+ down the line so I think most a eyes will have this kind of attributes and itwill be very situational in nature so
+ where is the boundary I think the boundary depends on exact context inwhich you are interacting what they are
+
+
+0:08:38
+Speaker 1 :so the depth and the richness of natural
+ language conversation is been by Alan Turing being used to try to define whatit means to be intelligent you know
+ there's a lot of criticism of that kind ofbut what do you think it's a good test
+ of intelligence in your view in the context of the Turing test and Alexa orthe elect surprise this whole realm do
+ you think about this human intelligence what it means to define it what it means
+
+0:09:09
+Speaker 0 :to reach that level I do think the
+ ability to converse is an sign of an ultimate intelligence I think that is noquestion about it so if you think about
+ all aspects of humans there are sensors we have and those are basically a datacollection mechanism and based on that
+ we make some decisions with our sensory brains right and from that perspective Ithink that there are elements we have to
+ talk about how we sense the world and then how we act based on what we sensethose elements clearly machines have but
+ then there's the other aspects of computation that is way better I alsomentioned about memory again in terms of
+ being near infinite depending on the storage capacity you have and theretrieval can be extremely fast and pure
+ in terms of like there's no ambiguity of who did I see when right I mean if yourmachine scan remember that quite well so
+ it again on a philosophical level I do subscribe to the fact that to can beable to converse and as part of that to
+ be able to reason based on the world knowledge you've acquired and thesensory knowledge that is there is
+ definitely very much the essence of indulgence but indulgence can go beyondhuman level intelligence based on what
+ machines are getting capable of so what
+
+0:10:30
+Speaker 1 :do you think maybe stepping outside of
+ Alexa broadly as an AI field what do you think is a good test of intelligence putit another way outside of Alexa because
+ so much of Alexa is a product is an experience for the customer on theresearch side what would impress the
+ heck out of you if you saw you know what is the test what he said wow this thingis now starting to encroach into the
+ realm of what we loosely think of as
+
+0:11:00
+Speaker 0 :human intelligence so well we think of
+ it as a GI and human intelligence all together right so in some sense and Ithink we are quite
+ far from that I think an unbiased view I have is that the Alexus intelligencecapability is a great test I think of it
+ as there are many other proof points like self-driving cars game playing likego or chess let's take those two for as
+ an exemption clearly requires a lot of data-driven learning and intelligencebut it's not as hard a problem as
+ conversing with as an AI is with it humans to accomplish certain tasks oropen domain chat as you mentioned like a
+ surprise in those settings the key difference is that the end goal is notdefined
+ unlike game playing you also do not know exactly what state you are in in aparticular goal completion scenario in
+ certain times sometimes you can if it is a simple goal but if you're even certainexamples like planning a weekend or you
+ can imagine how many things change along the way you look for whether you makechange your mind and you you change
+ their destination or you want to catch a particular event and then you decide noI want this other event I want to go to
+ so these dimensions of how many different steps are possible when you'reconversing as a human with a machine
+ makes it an extremely daunting problem and I think it is the ultimate test for
+
+0:12:31
+Speaker 1 :intelligence and don't you think the
+ natural language is enough to prove that conversation your conversation from a
+
+0:12:40
+Speaker 0 :scientific standpoint natural language
+ is a great test but I would go beyond I don't want to limit it to as naturallanguage as simply understanding an
+ intent or parsing for entities and so forth we are really talking aboutdialogue
+ so so I would say human machine dialogue is definitely one of the best tests ofintelligence
+
+
+0:13:02
+Speaker 1 :so can you briefly speak to the Alexa
+ prize for people who are not familiar with it and and also just maybe werethings stand and what have you learned
+ what's surprising what have you seen the surprising from this incredible
+
+0:13:17
+Speaker 0 :competition absolutely it's a very
+ competition like surprise is essentially Grand Challenge in conversationalartificial intelligence where we threw
+ the gauntlet to the universities who do active research in the field to say canyou build what we call a social board
+ that can converse with you coherently and engagingly for 20 minutes that is anextremely hard challenge talking to
+ someone in a who you're meeting for the first time or even if you're you've metthem quite often to speak at 20 minutes
+ on any topic an evolving nature of topics is super hard we have completedtwo successful years of the competition
+ the first was one with the industry of Washington's second industry ofCalifornia we are in our third instance
+ we have an extremely strong team of 10 cohorts and the third instance of the ofthe lexer prizes underway now and we are
+ seeing a constant evolution first year was definitely learning it was a lot ofthings to be put together we had to
+ build a lot of infrastructure to enable these you know STIs to be able to buildmagical experiences and and do high
+
+
+0:14:31
+Speaker 1 :quality research just a few quick
+ questions sorry for the interruption what is failure look like in the20-minute session so what does it mean
+ to fail not to reach the twenty minimum
+
+0:14:39
+Speaker 0 :awesome question so there are one first
+ of all I forgot to mention one more detail it's not just 20 minutes but thequality of the conversation too that
+ matters and the beauty of this competition before I answer thatquestion on what failure means is first
+ that you actually converse with millions and millions of customers as thesesocial BOTS so during the judging phases
+ there are multiple phases before we get to the finals which is a very controlledjudging in a situation where we have we
+ bring in judges and we have interactors who interact with these social BOTS thatis a much more controlled setting but
+ till the point we get to the finals all the judging is essentially by thecustomers of Alexa and there you
+ basically rate on a simple question how good your experience was so that's wherewe are not testing for a 20 minute
+ boundary being claw across because you do wantto be very much like a clear-cut winner
+ be chosen and and it's an absolute bar so did you really break that 20-minutebarrier is why we have to test it in a
+ more controlled setting with actors essentially in tractors and see how theconversation goes so this is why it's a
+ subtle difference between how it's being tested in the field with real customersversus in the lab to award the prize so
+ on the latter one what it means is that essentially the that there are threejudges and two of them have to say this
+ conversation is stalled essentially got
+
+0:16:12
+Speaker 1 :it and the judges the human experts
+ judges or human experts okay great so this is in the third year so what's beenthe evolution how far it's in the DARPA
+ challenge in the first year the autonomous vehicles nobody finished inthe second year a few more finished in
+ the desert so how far along within this I would say much harder challenge are we
+
+0:16:35
+Speaker 0 :this challenge has come a long way do
+ they extend that we've definitely not close to the 20-minute barrier beingwith coherence and engaging conversation
+ I think we are still five to ten years away in that horizon to complete thatbut the progress is immense like what
+ you're finding is the accuracy in what kind of responses these social BOTSgenerate is getting better and better
+ what's even amazing to see that now there's humor coming in the bots arequite you know you're talking about
+ ultimate science of intial and signs of intelligence I think humor is a veryhigh bar in terms of what it takes to
+ create humor and I don't mean just being goofy I really mean good sense of humoris also a sign of intelligence in my
+ mind and something very hard to do so these social BOTS are now exploring notonly what we think of natural language
+ abilities but also personality attributes and aspects of when to injectan appropriate joke went to when you
+ don't know the question the domain how you come back with something moreintelligible so that you can continue
+ the conversation if if you and I are talking about AI and we are domainexperts we can speak to it but if you
+ suddenly switch the topic to that I don't know how do I change theconversation so you're starting to
+ notice these elements as well and that's coming from partly by by the nature ofthe 20 minute challenge that people are
+ getting quite clever on how to really converse andessentially masks some of the
+ understanding defects if they exist so
+
+0:18:09
+Speaker 1 :some of this this is not a Lex of the
+ products this is somewhat for fun for research for innovation and so on I havea question sort of in this modern era
+ there's a lot of you look at Twitter and Facebook and so on there's there'sdiscourse public discourse going on and
+ some things are a little bit too edgy people get blocked and so on I'm justout of curiosity are people in this
+ context pushing the limits is anyone using the f-word is anyone sort ofpushing back sort of you know arguing I
+ guess I should say in as part of the dialogue to really draw people in first
+
+0:18:48
+Speaker 0 :of all let me just back up a bit in
+ terms of why we're doing this right so you said it's fun I think fun is morepart of the engaging part for customers
+ it is one of the most used skills as well in our skill store but up thatapart the real goal was essentially what
+ was happening is with lot of AI research moving to industry we felt that academiahas the risk of not being able to have
+ the same resources at disposal that we have which is loss of beta massivecomputing power and a clear ways to test
+ these AI advances with real customer benefits so we brought all these threetogether in the like surprise that's why
+ it's one of my favorite projects and Amazon and with that the secondary factis yes it has become engaging for our
+ customers as well we're not there in terms of where we want to it to be rightbut it's a huge progress but coming back
+ to your question on how do the conversations evolve yes there is somenatural attributes of what you said in
+ terms of argument and some amount of swearing the way we take care of that isthat there is a sensitive filter we have
+ built that show you see words and so it's more than keywords a little more interms of of course there's key word base
+ to but there's more in terms of these words can be very contextual as you cansee and also the topic can be something
+ that you don't want a conversation to happen because this is a criminal deviceas well a lot of people use these
+ devices so we have put lot of guardrails for the conversationto be more useful for advancing AI and
+ not so much of these these other issues you attributed what's happening in there
+
+0:20:32
+Speaker 1 :I feel as well right so this is actually
+ a serious opportunity I didn't use the right word fun I think it's an openopportunity to do some some of the best
+ innovation in conversational agents in in the world absolutely why just
+
+0:20:48
+Speaker 0 :universities why just you know streets
+ because as I said I really felt young minds young minds it's also - if youthink about the other aspect of where
+ the whole industry is moving with AI there's a dearth of talent in in giventhe demands so you do want the
+ universities to have a clear place where they can invent and research and notfall behind with that they can't
+ motivate students imagine all grad students left - to industry like us oror faculty members which has happened -
+ so this is in a way that if you're so passionate about the field where youfeel industry and academia need to work
+ well this is a great example and a great way for universities to participate so
+
+0:21:35
+Speaker 1 :what do you think it takes to build a
+ system that wins the allow surprise I
+
+0:21:39
+Speaker 0 :think you have to start focusing on
+ aspects of reasoning that it is there are still more lookups of what intensecustomers asking for and responding to
+ those are rather than really reasoning about the elements of the of theconversation for instance if you have if
+ you're playing if the conversation is about games and it's about a recentsports event there's so much context in
+ war and you have to understand the entities that are being mentioned sothat the conversation is coherent rather
+ than you suddenly just switch to knowing some fact about a sports entity andyou're just relating that rather than
+ understanding the true context of the game like you if you just said I learnedthis fun fact about
+ Tom Brady rather than really say how he played the game the previous night thenthe conversation is not really that
+ intelligent so you have to go to more reasoning elements of understanding thecontext of the dialogue and giving more
+ appropriate responses which tells you that we are still quite far because alot of times it's more facts being
+ looked after and something that's close enough as an answer but not really theanswer so that is where the research
+ needs to go more an actual true understanding and reasoning and that'swhy I feel it's a great way to do it
+ because you have an engaged set of users working to make help these AI advanceshappen in this case item actually
+
+
+0:23:17
+Speaker 1 :customers they're there quite a bit and
+ there's a skill what is the experience for the for the user that is helping sojust to clarify this isn't as far as I
+ understand the Alexa so this skill is to stand alone for the art surprise I meanit's focused on the elect surprise it's
+ not you ordering certain things and I was on the comet trait checking theweather or you're playing Spotify right
+ separate skills directly and so you're focused on helping not well I don't knowhow do people how do customers think of
+ it are they having fun are they helping teach the system what's the experience
+
+0:23:52
+Speaker 0 :like I think it's both actually and let
+ me tell you how they how you invoke this skill so you all you have to say Alexalet's chat and then the first time you
+ say Alexa let's chat it comes back with a clear message that you're interactingwith one of those you know three social
+ BOTS and there's a fear so he's know exactly how you interact right and thatis why it's very transparent you are
+ being asked to help right and and we have lot of mechanisms where as the weare in the first phase of feedback phase
+ then you send a lot of emails to our customers and then this they know thatthis the team needs a lot of
+ interactions to improve the accuracy of the system so we know we have lot ofcustomers who really want to help be
+ zeros to bots and they are conversing with that and some are just having funwith just saying Alexa let's chat and
+ also some adversarial behavior to see whetherhow much do you understand as a social
+ bot so I think we have a good healthy mix of all three situations so what is
+
+0:24:54
+Speaker 1 :the if we talk about solving the Alexa
+ challenge they like surprise what's the data set of really engaging pleasantconversations look like is if we think
+ of this as a supervised learning problem I don't know if it has to be but if itdoes maybe you can comment on that do
+ you think there needs to be a data set of what it means to be an engagingsuccessful fulfilling copy that's part
+
+
+0:25:22
+Speaker 0 :of the research question here this was I
+ think it's we at least got the first part right which is have a way foruniversities to build and test in a
+ real-world setting now you're asking in terms of the next phase of questionswhich we are still we're also asking by
+ the way what does success look like from a optimization function that's whatyou're asking in terms of we as
+ researchers are used to having a great corpus of annotated data and then makinga Rob then you know sort of tune our
+ algorithms on those right and fortunately and unfortunately in thisworld of a lexer prize that is not the
+ way we are going after it so you have to focus more on learning based on livefeedback that is another element that's
+ unique we're just not I started with giving you how you ingress andexperience this capability as a customer
+ what happens when you're done so they ask you a simple question on a scale ofone to five how likely are you to
+ interact with this social bot again that is a good feedback and customers canalso leave more open-ended feedback and
+ I think partly that to me is one part of the question you're asking which I'msaying is a mental model shift that as
+ researchers also you have to change your mindset that this is not a dart byevaluation or NSF funded study and you
+ have a nice corpus this is where it's real world you have real data the scale
+
+0:26:58
+Speaker 1 :is amazing is this
+ beautiful thing then and then the customer the user can quit the
+
+0:27:05
+Speaker 0 :conversation in exactly the user game
+ that is also a signal for how good you
+
+0:27:11
+Speaker 1 :were at that point so and then on a
+ scale of one to five one two three do they say how likely are you or is itjust a binary Allah one two five one two
+ five Wow okay that's such a beautifully constructed challenge okay you said theonly way to make a smart assistant
+ really smart to give it eyes and let explore the world I'm not sure he mightbeen taken out of context but can you a
+ comment and I can you elaborate and that idea is that I personally also find thatideas super exciting from a social
+ robotics personal robotics perspective
+
+0:27:45
+Speaker 0 :yeah a lot of things do get taken out of
+ context my this particular one was just as philosophically discussion we werehaving on terms of what does
+ intelligence look like and the context was in terms of learning I think just wesaid we as humans are empowered with
+ many different sensory abilities I do believe that eyes are an importantaspect of it in terms of if you think
+ about how we as humans learn it is quite complex and it's also not unimodal thatyou are fed a ton of text or audio and
+ you just learn that way no you are you learn by experience you learn by seeingyou're taught by humans and we're very
+ efficient and how we learn machines on the contrary are very inefficient on howthey learn especially these AI is I
+ think the next wave of research is going to be with less data not just less humannot just with less label data but also
+ with a lot of week supervision and where you can increase the learning rate Idon't mean less data in terms of not
+ having a lot of data to learn from that we are generating so much data but it ismore about from a aspect of how fast can
+
+
+0:29:04
+Speaker 1 :you learn so improving the quality of
+ the data that's the quality data and learning process I think more on the
+
+0:29:09
+Speaker 0 :learning process I think we have to we
+ as humans learn with a lot of noisy data right and and I think that'sthe part that I don't think should
+ change what should change is how we learn right so if you look at youmentioned supervised learning we have
+ making transformative shifts from moving to more unsupervised more weeksupervision those are the key aspects of
+ how to learn and I think in that setting you I hope you agree with me that havingother senses is very crucial in terms of
+
+
+0:29:43
+Speaker 1 :how you learn so absolutely and from a
+ machine learning perspective which I hope we get a chance to talk to a fewaspects that are fascinating there but
+ just stick on the point a sort of a body you know an embodiment so Alexa has abody is a very minimalistic beautiful
+ interface or there's a ring and so on I mean I'm not sure of all the flavors ofthe devices that Alyssa lives on but
+ there's a minimalistic basic interface and nevertheless we humans so I have aRoomba of all kinds of robots and all
+ over everywhere so what do you think the Alexa the future looks like if it beginsto shift what his body looks like what
+ uh what may be beyond the Alexa what do you think are the different devices inthe home as they start to embody their
+ intelligence more and more what do you think that looks like philosophically afuture what do you think that looks I
+
+
+0:30:40
+Speaker 0 :think let's look at what's happening
+ today you mentioned I think all our devices as an Amazon devices we alsowanted to point out Alexa is already
+ integrated a lot of third-party devices which also come in lots of forms andshapes some in robots right some and
+ microwaves some in appliances of that you use in everyday life so I think itis it's not just the shape Alexa takes
+ in terms of form factors but it's also where all it's available it's getting incars it's getting in different
+ appliances in homes even toothbrushes right so I think you have to think aboutit is not a physical assistant it will
+ be in some embodiment as you said we already have these nicedevices but I think it's also important
+ to think of it it is a virtual assistant it does superhuman in the sense that itis in multiple places at the same time
+ so I think the the actual embodiment in some sense to me doesn't matter I thinkyou have to think of it as not as
+ human-like and more of what its capabilities are that derive a lot ofbenefit for customers and how there are
+ different ways to delighted and delight customers and different experiences andI think I am a big fan of it not being
+ in just human like it should be human-like in certain situations AlexaFrye social bot in terms of conversation
+ is a great way to look at it but there are other scenarios where human like Ithink is underselling the abilities of
+
+
+0:32:22
+Speaker 1 :this AI so if I could trivialize what
+ we're talking about so if you look at the way Steve Jobs thought about theinteraction with the device that Apple
+ produced there was a extreme focus on controlling the experience by makingsure there's only the Apple produced
+ devices you see the voice of Alexa being taking all kinds of forms depending onwhat the customers want and that means
+ that means it could be anywhere from the microwave to a vacuum cleaner to thehome and so on the voice is the
+ essential elrom to the interaction I
+
+0:32:57
+Speaker 0 :think voice is an essence it's not all
+ but it's a key aspect I think to your question in terms of you should be ableto recognize Alexa and that's a huge
+ problem I think in terms of a huge scientific problem I should say likewhat are the traits what makes it look
+ like Alexa especially in different settings and especially if it'sprimarily voice what it is but LX is not
+ just voice either right I mean we have devices with a screen now you're seeingjust other behaviors of Alexa so I think
+ they're in very early stages of what that means and this will be an importantprofit for the following years but I do
+ believe that being able to recognize and tell when it's Alexa versus it's not asgoing to be important from an Alexa
+ perspective I'm not speaking for the entire AI Thank You Marie but from but Ithink attribution and as we go into more
+ of understanding who did what that identity of the AI is crucial in the
+
+0:33:58
+Speaker 1 :coming world I think from the broad AI
+ community perspective that's also a fascinating problem so basically if Iclose my eyes and listen to the voice
+ what would it take for me to recognize that this is Alexa exactly or at leastthe Alexa that I've come to known from
+ my personal experience in my home through my interactions that Korea and
+
+0:34:14
+Speaker 0 :the Alexa here in the u.s. is very
+ different the Alexa and UK and Alexa India even though they are all speakingEnglish or the Australian version so
+ again we're so now think about when you go into a different culture differentcommunity but you travel there
+ what do you recognize Alexa I think these are super hard questions actually
+
+0:34:34
+Speaker 1 :so there's a Tina works on personality
+ so if we talk about those different flavours or what it means culturallyspeaking India UK u.s. what does it mean
+ to add so the problem that we just stated which is fascinating how do wemake it purely recognizable that it's
+ Alexa assuming that the qualities of the voice are not sufficient it it's alsothe content of what is being said how do
+ how do we do that how does the personality kind of come into playwhat's what's that researching would
+ look like it's such a fascinating we
+
+0:35:08
+Speaker 0 :have some very fascinating folks who
+ from both the UX background and human factors are looking at these aspects andthese exact questions but I'll
+ definitely say it's not just how it sounds the choice of words the tone notjust I mean the voice identity of it but
+ the tone matters the speed matters how you speak how you enunciate words howwhat choice of words are using how tours
+ are you or how lending in your explanations you are all of these arefactors and you also you mentioned
+ something crucial that it's may have you may have personalized it Alexa to someextent in your homes or in the devices
+ you are interacting with so you as your individual how you preferAlexa sounds can be different than how I
+ prefer and we may and the amount of customizability you want to give is alsoa key debate we always have but I do
+ want to point out it's more than the voice actor that recorded and you'dsounds like that actor it is more about
+ the choices of words the attributes of tonality the volume in terms of how youraise your pitch and so forth all of
+
+
+0:36:23
+Speaker 1 :that matters this is a fascinating
+ problem from a product perspective I could see those debates just happeninginside of the Alexa team of how much
+ personalization do you do for the specific customer because you're takinga risk if you over personalized because
+ you don't I if you create a personality for amillion people you can test that better
+ you can create a rich fulfilling experience that will do well but if themore you personalize it the less you can
+ test it the less you can know that it's it's a great experience so how muchpersonalization what's the right balance
+
+
+0:36:59
+Speaker 0 :I think the right balance depends on the
+ customer give them the control so I'd say I think the more control you givecustomers the better it is for everyone
+ and I'll give you some key personalization features I think we havea feature called remember this which is
+ where you can tell Alexa to remember something there you have an explicitsort of control in customers hand
+ because they have to say like I remember XYZ what kind of things would that be
+
+0:37:26
+Speaker 1 :used for so you can respond or something
+
+
+0:37:28
+Speaker 0 :I have stored my tire specs for my car
+ nice because it's so hard to go and find and see what it is right when you'rehaving some issues I store my mileage
+ plan numbers for all the frequent-flyer ones where sometimes just looking at itand it's not handy so and so those are
+ my own personal choices army for Alexa to remember something on my behalf rightso again I think the choice was be
+ explicit about how you provide that to a customer as a control so I think theseare the aspects of what you do like
+ think about where we can use speaker recognitioncapabilities that it's if you taught
+ Alexa that you are Lex and this person you're householders person to then youcan personalize the experiences again
+ these are very in this and the CX customer experience patterns are veryclear about and transparent when a
+ personalization action is happening and then you have other ways like you gothrough explicit control right now
+ through your app that your multiple service providers let's say for musicwhich one is your preferred one so when
+ you say place ting depend on your whether you have preferred Spotify orAmazon music or Apple music that the
+ decision is made where to play it from
+
+0:38:49
+Speaker 1 :so what's Alexis backstory from her
+ perspective this is there I remember just asking as probably a lot of us arejust the basic questions about love and
+ so on of Alexa just to see what the answer would be just as a it feels likethere's a little bit of a back like
+ there's a feels like there's a little bit of personality but not too much isAlexa have a metaphysical presence in
+ this human universe we live in or is it something more ambiguous is there a pastis there birth is there family kind of
+ idea even for joking purposes and so on
+
+0:39:30
+Speaker 0 :I think well it does tell you if I think
+ you should double-check this but if you said when were you born I think we dorespond I need to double check that but
+ I'm pretty positive about it I think you
+
+0:39:42
+Speaker 1 :do it because I think I've too soon but
+ that's like that's like hell like I was born in your brand of champagne andwhatever the year good thing yeah so in
+
+
+0:39:51
+Speaker 0 :terms of the metaphysical I think it's
+ early does it have the historic knowledge about herselfto be able to do that maybe have we
+ crossed that boundary not yet right in terms of being thank you have youthought about it quite a bit but I
+ wouldn't say that we have come to a clear decision in terms of what itshould look like but you can imagine
+ though and I bring this back to the Alexa prize social BOTS onethere you will start seeing some of that
+ like you these bots have their identity and in terms of that you may find youknow this is such a great research topic
+ that some academia team may think of these problems and start solving them -
+
+0:40:35
+Speaker 1 :so let me ask a question it's kind of
+ difficult I think but it feels fascinating to me because I'm fascinatedwith psychology it feels that the more
+ personality you have the more dangerous it is in terms of a customer perspectiveof products if you want to create a
+ product that's useful by dangerous I mean creating an experience that upsetsme and so what how do you get that right
+ because if you look at the relationships maybe I'm just a screwed-up Russian butif you look at the real human to human
+ relationship some of our deepest relationships have fights have tensionhave the push and pull have a little
+ flavor in them do you want to have such flavor in an interaction with Alexa howdo you think about that so there's one
+
+
+0:41:30
+Speaker 0 :other common thing that you didn't say
+ but is we think of it as paramount for any deep relationship that's trust trustyeah so I think if you trust every
+ attribute you said mm-hmm a fight some tension yeah is or healthy but thewaters sort of unknowable in this
+ instance is trust and I think the bar to earn customer trust for AI is very highin some sense more than a human it's
+ it's not just about personal information or your data it's also about youractions on a daily basis how trustworthy
+ are you in terms of consistency in terms of how accurate are you in understandingme like if if you're talking to a person
+ on the phone if you have a problem with your let's say your internet orsomething if the person is not
+ understanding you lose trust right away you don't want to talk to that personthat whole example gets amplified by a
+ factor of 10 because as when you're a human interacting with an AI you have acertain expectation either you expect it
+ to be very intelligent and then you get upsetwhy is it behaving this way more you
+ expect it to be not so intelligent and when it surprises you're like reallyyou're trying to be too small so I think
+ we grapple with these hard questions as well but I think the key is actions needto be trustworthy from these a is not
+ just about data protection your personal information protection but also from howaccurate it accomplishes all commands
+ are all interactions well it's tough to
+
+0:43:00
+Speaker 1 :hear because Trust you're absolutely
+ right but Trust is such a high bar with AI systems because people and I see thisbecause I work with autonomous vehicles
+ I mean the bar this placed on AI system is unreasonably high yeah that is going
+
+0:43:14
+Speaker 0 :to be as I agree with you and I think of
+ it is it's it's a challenge and it's also keeps my job so from thatperspective that I totally I think of it
+ at both sides as a customer and as a researcher I think as a researcher yesoccasionally it will frustrate me that
+ why is the bar so high for these AIS and as a customer then I say absolutely ithas to be that high right so I think
+ that's the trade-off we have to balance but doesn't change the fundamentals thattrust has to be own and the question
+ then becomes is are we holding the AIS to a different bar and accuracy andmistakes then we hold humans that's
+ going to be a great societal questions for years to come I think for us well
+
+0:44:01
+Speaker 1 :one of the questions that we grapple as
+ a society now that I think about a lot I think a lot of people know I think abouta lot and Alexis taking on head-on is
+ privacy is the reality is us giving over data to any AI system can be used toenrich our lives in in in profound ways
+ so if maybe basically any product that does anything awesome for you would themore data has the more awesome things it
+ can do and yet at the other side people imagine the worst case possible scenarioof what can you possibly do with that
+ data people it's it goes down to trust as yousaid
+ for there's a fundamental distrust of in certain groups of governments and so onand depending on the government
+ depending on who is in power depending on all these kinds of factors and sohere's the lux in the middle of all of
+ it in the home trying to do good things for the customers so how do you thinkabout privacy in this context the smart
+ assistants in the home how do you maintain how do you earn trust
+
+0:45:08
+Speaker 0 :absolutely so as you said Trust is the
+ key here so you start with trust and then privacy is a key aspect of it ithas to be designed from very beginning
+ about that and we believe in two fundamental principles one istransparency and second is control so if
+ by transparency I mean when we build what is now called smart speaker or thefirst echo we were quite judicious about
+ making these right trade-offs on customers behalf that it is pretty clearwhen when the audio is being sent the
+ cloud the light ring comes on when it has heard you say the word wake word andthen the streaming happens right so and
+ the light ring comes up we also had we put a physical mute button on it just soyou're if you didn't want it to be
+ listening even for the weak word then you turn the power button on the mutebutton on and that disables the
+ microphones that's just the first decision on essentially transparency andcontrol over then even when we launched
+ we gave the control in the hands of the customers that you can go and look atany of your individual utterances that
+ is recorded and delete them anytime and we have cut to true to that promiseright so and that is super again a great
+ instance of showing how you have the control then we made it even easier youcan say lecture delete what I said today
+ so that is now making it even just just more control in your hands with what'smost convenient about this technology is
+ voice you delete it with your voice now so these are the types of decisions wecontinually make we just recently
+ launched this feature called what we think of it as if you wanted humans notto review your data because smile you
+ mentioned supervised so you in supervised learning humanshave to give some annotation and that
+ also is now a feature where you can essentially if you selected that flagyour data will not be reviewed by a
+ human so these are the types of controls that we have to constantly offer with
+
+0:47:18
+Speaker 1 :customers so why do you think about as
+ people so much that so that so everything you just said is reallypowerful to the control the ability to
+ leak because we collect we have studies here running at MIT that collects hugeamounts of data and people consent and
+ so on the ability to delete that data is really empowering and almost nobody everasked to delete it but the ability to
+ have that control is really powerful but still you know there's these popularanecdotes anecdotal evidence that people
+ say they like to tell that them and a friend were talking about something Idon't know sweaters for cats and all
+ sudden they'll have advertisements for cat sweaters on Amazon there's thatthat's a popular anecdote as if
+ something is always listening what can you explain that anecdote thatexperience that people have what's the
+ psychology of that what's that experience and can you you've answeredit but let me just ask is Alexa
+
+
+0:48:18
+Speaker 0 :listening no Alexa listens only for the
+ wake word on the device right and awake
+
+0:48:22
+Speaker 1 :
+
+0:48:23
+Speaker 0 :word is the words like Alexa Amazon echo
+ and you but do you only choose one at a time so you choose one and it listensonly for that on our devices so that's
+ first from a listening perspective we have to be very clear that it's just thewake word so you said why is there this
+ anxiety if you make yeah it's because there's a lot of confusion what itreally listens to right and you and I
+ think it's partly on us to keep educating our customers and the generalmedia more in terms of like how what
+ really happens and we've done a lot of it and with our pages on information areclear but still people have to have more
+ there's always a hunger for information and clarity and will constantly look athow best to communicate if you go back
+ and read everything yes it states exactly thatand then people could still question it
+ and I think that's absolutely okay to question what we have to make sure isthat we are because our fundamental
+ philosophy is customer first customer obsession is our leadership principle ifyou put as researchers I put myself in
+ the shoes of the customer and all decisions in Amazon are made with thatand I throw and Trust has to be earned
+ and we have to keep earning the trust of our customers in this setting and toyour other point on like is there
+ something showing up based on your conversations no I think the answer islike you a lot of times when those
+ experiences happen you have to also be know that okay maybe a winter seasonpeople are looking for sweaters right
+ and it shows up on your amazon.com because it is popular so there are manyof these you mentioned that personality
+ or personalization turns out we are not that unique either right so those thingswe we as humans start thinking oh must
+ be because something was heard and that's why this other thing showed upthe answer is no probably it is just the
+ season for sweaters I'm not gonna ask
+
+0:50:22
+Speaker 1 :you this question because it's just cuz
+ your doll so because people have so much paranoia but for Milan as you say frommy perspective I hope there's a day when
+ customer can ask Alexa to listen all the time to improve the experience toimprove because I personally don't see
+ the negative because if you have the control and if you have the trustthere's no reason why I shouldn't be
+ listening all the time to the conversations to learn more about youbecause ultimately as long as you have
+ control and Trust every data you provide to the device that the device wants isgoing to be useful and that's it
+ to me I as a machine learning person I think it worries me how sensitive peopleare about their data relative to how
+ empowering it could be for the devices around them how enriching it could befor their own life to improve
+ the product so I just it's something I think about sort of a lot how do we makethat devices obviously Lux that thinks
+ about it a lot as well I don't know if you want to comment on that sort of okayhave you seen them in the form of a
+ question okay I have have you seen an evolution in the way people think abouttheir private data in the previous
+ several years so as we as a society a more more comfortable to the benefits weget by sharing more data first let me
+
+
+0:51:53
+Speaker 0 :answer that part and then I'll want to
+ go back to the other aspect you were mentioning so as a society on a generalwe are getting more comfortable as a
+ society doesn't mean that everyone is and I think we have to respect thatI don't think one-size-fits-all is
+ always gonna be the answer for all right by definition so I think that's issomething to keep in mind in these going
+ back to your on what more magical experiences can be launched in thesekind of AI settings I think again if you
+ give the control we it's possible certain parts of it so if you have afeature called follow-up mode where you
+ if you turn it on and Alexa after you've spoken to it will open the mics againthinking you lanced something again yeah
+ like if you're adding lists to your shopping items so right or a shoppinglist or to-do list
+ you're not done you want to keep so in that setting it's awesome that it opensthe mic for you to say eggs and milk and
+ then bread right so these are the kind of things which you can empower so I andthen another feature we have which is
+ called Alexa guard I said it only listens for the wake word all right butif you have a let's say you're going to
+ say Lex you leave your home and you want a lexer to listen for a couple of soundevents like smoke alarm going off or
+ someone breaking your glass right so it's like just to keep your peace ofmind so you can say Alexa on guard or
+ I'm away or and then it can be listening for these sound events and when you'rehome it you come out of that mode right
+ so this is another one where you again gave controls in the hands of the useror the custom
+ and to enable some experience that is you higher utility and maybe even moredelightful in the certain settings like
+ follow up more and so forth again this general principle is the samecontrol in the hands of the Castro so I
+
+
+0:53:52
+Speaker 1 :know we kind of started with a lot of
+ philosophy and a lot of interesting topics and we'll just jumping all overthe place but really some of the
+ fascinating things at the alexa team and Amazon's doings in the the algorithmside the data side the technology at the
+ deep learning machine learning and and so on so can you give a brief history ofAlexa from the perspective of just
+ innovation the algorithms the data of how I was born how it came to be how isgrown where it is today yeah start with
+
+
+0:54:22
+Speaker 0 :in Amazon everything starts with the
+ customer and we have a process called working backwards Alexa and morespecifically then the product echo there
+ was a working backwards document essentially that reflected what it wouldbe started with a very simple vision
+ statement for instance that morphed into a full-fledged document along the waychanged into what all it can do right
+ you can but the inspiration was the Star Trek computer so when you think of itthat way you know everything is possible
+ but when you launch a product you have to start with someplace and when Ijoined we the product was already in
+ conception and we started working on the far field speech recognition becausethat was the first thing to solve by
+ that we mean that you should be able to speak to the device from a distance andin those days that wasn't a common
+ practice and even in the previous research world I was in was consideredto an unsolvable problem then in terms
+ of whether you can converse from a length and here I'm still talking aboutthe first part of the problem where you
+ say get the attention of the device as in by saying what we call the wake wordwhich means the word Alexa has to be
+ detected with a very high accuracy because it is a very common word it hassound units that map with words like I
+ like you or Alec Alex right so it's a undoubtably hard problemto detect the right mentions of Alexa's
+ address to the device versus I like Alexa you have to pick up that signal
+
+0:56:03
+Speaker 1 :when there's a lot of noise not only
+
+
+0:56:06
+Speaker 0 :noise north conversation they are in the
+ house while you remember on the device you are simply listening for the wakeword Alexa and there's a lot of words
+ being spoken in the house how do you know it's Alexa and directed at Alexabecause I could say I love my Alexa I
+ hate my Alex I want a lecture to do this and in all these three sentences I saidAlexa I didn't want it to wake up yeah
+
+
+0:56:31
+Speaker 1 :so can I just pause on a second what
+ would be your device that I should probably in the introduction of thisconversation give to people in terms of
+ with them turning off their Lutz a device if they're listening to thispodcast conversation out loud like
+ what's the probability that an Alexa device will go off because we mentionAlexa like a million times so it will we
+
+
+0:56:55
+Speaker 0 :have done a lot of different things
+ where we can figure out that there is the device the speech is coming from ahuman versus over there also I mean in
+ terms of like also it is think about ads or so we have also launched a technologyfor watermarking kind of approaches in
+ terms of filtering it out but yes if this kind of a podcast is happening it'spossible your device will wake up a few
+ times it's an unsolved problem but it is definitely something we care very much
+
+0:57:31
+Speaker 1 :about but the idea is you wanna detect
+
+
+0:57:34
+Speaker 0 :Alex were meant for the device or just
+
+
+0:57:35
+Speaker 1 :even hearing Alexa versus I like yeah
+ something I mean that's the fascinating part so that was the first relief that'sthe first of the world's best detector
+ of course
+
+0:57:45
+Speaker 0 :yeah the FIR world's best wait word
+ detector yeah in the far field setting not like something where the phone issitting on the table this is like people
+ have devices 40 feet away like in my house or 20 feet away and you still getan answer so that was the first part the
+ next is you're speaking to the device of courseyou're gonna issue many different
+ requests some may be simple some may be extremely hard but it's a largevocabulary speech recognition problem
+ essentially where the audio is now not coming on to your phone or a handheldmic like this or close talking my but
+ it's from 20 feet away where if you're in a busy household your son may belistening to music your daughter may be
+ running around with something and asking your mom something and so forthright so this is like a common household
+ setting where the words you're speaking to Alexaneed to be recognized with very high
+ accuracy yes right now we are still just in the recognition problem you haven'tyet come to the understanding one writes
+
+
+0:58:48
+Speaker 1 :in if a possum so I once again what year
+ was this is this before neural networks began to start to seriously provethemselves in audio space yeah this is
+
+
+0:59:00
+Speaker 0 :around so I joined in 2013 in April
+ right so the early research in neural networks coming back and showing somepromising results in speech recognition
+ space had started happening but it was very early yeah but we just took nowbuild on that on the very first thing we
+ did when when I join and we with the team and remember it was a very smudgeof a start-up environment which is great
+ about Amazon and we double down on deep learning right away and we we knew willhave to improve accuracy fast and
+ because of that we worked on and the scale of data once you have a devicelike this if it is successful will
+ improve big time like you'll suddenly have large volumes of data to learn fromto make the customer experience better
+ so how do you scale deep learning so we did are one of the first works in intraining with distributed GPUs and where
+ the training time was you know was linear in terms of like in the amount ofdata so that was quite important work
+ where it was algorithmic improvements as well as a lot of engineeringimprovements to be able to train on
+ thousands and thousand of speech and that was an important factor so the ifyou ask me like
+ back in 2013 and 2014 when we launched echo the combination of large scale datadeep learning progress near infinite GPX
+ we had available on AWS even then was all came together for us to be able tosolve the far field speech recognition
+ to the extent it could be useful to the customers it still not solved like Imean it's not that we are perfect at
+ recognizing speech but we are great at it in terms of the settings that are inhomes right so and that was important
+ even in the early stages the first even
+
+1:00:51
+Speaker 1 :I'm trying to look back at that time if
+ I remember correctly that it was it seems like the task will be prettydaunting so like so we kind of take it
+ for granted that it works now yes right
+
+1:01:06
+Speaker 0 :
+
+1:01:08
+Speaker 1 :so let me like how first time you
+ mentioned startup I wasn't familiar how big the team was I kind of because Iknow there's a lot of really smart
+ people working on looks and I was very very large team how big was the team howlikely were you to fail in the highs of
+
+
+1:01:24
+Speaker 0 :everyone else like what I'll give you a
+ very interesting anecdote on that when I joined the team the speech recognitionteam was six people my first meeting and
+ we had hired a few more people it was 10 people 9 out of 10 people thought itcan't be done who was the one the one
+ was me and actually I should say and one was say my optimistic yeah and and 8thwe're trying to convince let's go to the
+ management and say let's not work on this problem let's work on some otherproblem like either telephony speech for
+ customer service calls and so forth but this was the kind of belief you musthave and I had experience with far-field
+ speech recognition and I my eyes lit up and I saw a problem like that sayingokay we have been in speech recognition
+ always looking for that killer app and this was a killer use case to bringsomething delightful in the hands of
+
+
+1:02:29
+Speaker 1 :customers you mentioned you the way kind
+ of think of the product way in the future have apress release and an FAQ and you think
+ backwards that's did you have that the team have the echo and mindso this far-field speech recognition
+ actually putting a thing in the home that works it's able to interact withwas that the press release what was the
+
+
+1:02:49
+Speaker 0 :way close I would say in terms of the as
+ I said the vision was started computer right or the inspiration and from thereI can't divulge all the exact
+ specifications but one of the first things that was magical on a lexer wasmusic it brought me to back to music
+ because my taste was still and when I was an undergrad right so I still listento those songs and I it was too hard for
+ me to be a music fan with a phone right so I and I don't I hate things in myears so from that perspective it was
+ quite hard and and and music was part of the at least the documents I have seenright so so from that perspective I
+ think yes in terms of our how far are we from the original vision I can't revealthat words that's why I have done a fun
+ at work because every day we go in and thinking like these are the new set ofchallenges to solve yeah that's a great
+
+
+1:03:49
+Speaker 1 :way to do great engineering is you think
+ of the product press release I like that ideamaybe we'll talk about it a bit later
+ was just a super nice way to have focused I'll tell you this you're a
+
+1:03:59
+Speaker 0 :scientist and a lot of my scientists
+ have adopted that they they have now they love it as a process because it wasvery a scientist you're trained to write
+ great papers but they are all after you've done the research or you'reproven lie and your PhD dissertation
+ proposal is something that comes closest or a DARPA proposal or NSF proposal isthe closest that comes to a press
+ release but that process is now ingrained in our scientists which islike delightful for me to see you write
+
+
+1:04:31
+Speaker 1 :the paper first then make it happen
+ that's right in fact that's not state-of-the-art results or you leave
+
+1:04:36
+Speaker 0 :the results section open well you have a
+ thesis about here's what I expect right and here's what it will changeYeah right so I think it is a great
+ thing it works for researchers as well
+
+1:04:48
+Speaker 1 :they're so far field recognition yeah
+ what was the big leap what what were the breakthroughs and yeah what was thatjourney liked it today yeah I think the
+
+
+1:04:58
+Speaker 0 :as you said first there was a lot of
+ skepticism on whether far-field speech recognition will ever work to be goodenough right and what we first did was
+ got a lot of training data in a far field setting and that was extremelyhard to get because none of it existed
+ so how do you collect data in far field set up right with no customer bases
+
+1:05:20
+Speaker 1 :
+
+1:05:21
+Speaker 0 :there's no customer base right so that
+ was first innovation and once we had that the next thing was ok you if youhave the data first of all we didn't
+ talk about like what would magical mean in this kind of a setting what is goodenough for customers right that's always
+ since you've never done this before what would be magical so so it wasn't just aresearch problem you had to put some in
+ terms of accuracy and customer experience features some stakes on theground saying here is where I think
+ should it should get to so you established a bar and then how do youmeasure progress toward is given you
+ have no customer right now so from that perspective we went so first was thedata without customers second was
+ doubling down on deep learning as a way to learn and I can just tell you thatthe combination of the two cut our error
+ rates by a factor of five from where we were when I started to within six monthsof having that data we at that point and
+ I got the conviction that this will work right so because that was magical interms of when it started working and
+
+
+1:06:35
+Speaker 1 :that reached them who came close to the
+
+
+1:06:38
+Speaker 0 :magical bar back to the bar right that
+ we felt would be where people will use it that was critical because you youreally have one chance at this if we had
+ launched in November 2014 years when we launched and if it was below the bar Idon't think this category exists if you
+ don't need the bar
+
+1:06:58
+Speaker 1 :yeah and just having looked at
+ voice-based interactions like in the car or earlier systems it's a source of hugefrustration for people in fact we use
+ voice based interaction for collecting data on subjects to measure frustrationso as a training set for computer vision
+ for face data so we can get a data set of frustrated people that's the best wayto get frustrated people is having them
+ interact with a voice based system in the car so this is that bar I imagineit's pretty high it was very high and we
+
+
+1:07:28
+Speaker 0 :talked about how also errors are
+ perceived from a eyes versus errors by humans but we are not done with theproblems that ended up we had to solve
+ to get it to launch so do you want the next one so the next one was what Ithink of as multi-domain
+ natural language understanding it's very I wouldn't say easy but it is duringthose days solving it understanding in
+ one domain and narrow domain was doable but for these multiple domains likemusic like information other kinds of
+ household productivity alarms time errors even though it wasn't as big asit is in terms of the number of skills
+ alexa has and the confusion space has like grown by three orders of magnitudeit was still daunting even those days
+ and again no customer base here again no
+
+1:08:25
+Speaker 1 :
+
+1:08:26
+Speaker 0 :customer base so now you're looking at
+ meaning understanding and intent understanding and taking actions onbehalf of customers based on their
+ request and that is the next hard problem even if you have gotten thewords recognized how do you make sense
+ of them in those days there was still a lot of emphasis on rule-based systemsfor writing grammar patterns to
+ understand the intent but we had a statistical first approach even thenwhere for a language understanding we
+ had in even those starting days and an entity recognizer and an intentclassifier which was all trained
+ statistically in fact we had to build thedeterministic matching as follow-up to
+ fix bugs that statistical models have right so it was just a different mindsetwhere we focused on data-driven
+ statistical understanding wins in the
+
+1:09:22
+Speaker 1 :end if you have a huge dataset yes it is
+
+
+1:09:24
+Speaker 0 :contingent on that and that's why it
+ came back to how do you get the data before customers the fact that this iswhy data becomes crucial to get a to the
+ point that you have the understanding system built in build up and notice thatfor here we were talking about human
+ machine dialogue even those early days even it was very much transactional doone thing one shot a transition great
+ way there was a lot of debate on how much should Alex our talk back in termsof if you misunderstood you or you said
+ play songs by the stones and let's say it doesn't know you know early daysknowledge can be sparse who were the
+ stones right I the Rolling Stones right so our and you don't want them match tobe Stone Temple Pilots or Rolling Stones
+ right so you don't know which one it is so these kind of other signals to knowthere we had great assets right from
+ Amazon in terms of you acts like what is
+
+1:10:27
+Speaker 1 :it what kind of yeah hurry solve that
+ problem in terms of what we think of it
+
+1:10:31
+Speaker 0 :as an entity resolution problem right so
+ is one is it right I mean the even if you figured out the stones is an entityyou have to resolve it to whether it's
+ the stones or the temple violence or some other stones maybe I misunderstood
+
+1:10:45
+Speaker 1 :is the resolution the job of the
+ algorithm or is the job of UX communicating with the human to help
+
+1:10:53
+Speaker 0 :there as well there is both right it is
+ law you want 90 percent or high 90s to be done without any further questioningor UX right so but that it's absolutely
+ okay just like as humans we asked the question I didn't understand your likesyeah it's fine for a lecture to
+ occasionally say I did not understand you right and and that's a important wayto learn and I'll talk about where we
+ have come with more self learning with these kind of feedback signalsbut in those days just solving the
+ ability of understanding the intent and resolving to an action where actioncould be play a particular artist or a
+ particular song was super hot again - the bar was high as as you're talkingabout right so while we launched it in
+ sort of 13 big domains I would say in terms of or thing we think of it as 13the big skills we had like music is a
+ massive one when we launched it and now we have 90,000 plus skills on Alexa so
+
+1:11:52
+Speaker 1 :what are the big skills can you just go
+ is the only thing I use it for is music weather and shopping haha so we think of
+
+1:11:59
+Speaker 0 :it as music information right so it's
+ all whether it's a part of information right so then we launched we didn't havesmart home but within spikes bottom I
+ mean you connect your smart devices you control them with watch if you haven'tdone it it's worth it will change your
+ signing on the lights yeah you like to do anything that'sconnected and has a it's just what your
+
+
+1:12:22
+Speaker 1 :favorite smart device for you and now
+
+
+1:12:24
+Speaker 0 :you've the smart plug with and you don't
+ we also have this echo plug which is oh yeah and now you can turn on that one on
+
+1:12:33
+Speaker 1 :and off this conversation motivation in
+
+
+1:12:36
+Speaker 0 :Kevin's garage door you can check your
+ status of the garage door and things like and we have gone may collect somemore and more proactive where it even
+ have a hunt has on chores now that all those hunches like you left your lighton or let's say you've gone to your bed
+ and you left the garage light on so yeah it will help you out in these settings
+
+1:12:57
+Speaker 1 :right so that smart devices right
+ information smart devices said music
+
+1:13:01
+Speaker 0 :yeah so I don't remember everything we
+ had big ones like that was you know the timers were very popular right awaymusic also like you could play song
+ artist album everything and so that was like a clear win in terms of thecustomer experience so that's again this
+ is language understanding now things have evolved right so where we want alecture definitely to be more accurate
+ competent and trustworthy based on how well it does these core things but wehave
+ in many different dimensions first is what I think of her doing moreconversational for high-utility not just
+ for chat right and there we a tree Mars this year which is our AI conference welaunched what is called Alexa
+ conversations that is providing the ability for developers to authormulti-tone experiences on Alexa with no
+ code essentially in terms of the code dialogue code initially it was like youknow all these IVR systems you have to
+ fully author if the customer says this do that right so the whole dialogue flowis hand author and with Alexa
+ conversations the way it is that you just provide a sample interaction datawith your service or an API let's say
+ you're Adam take its that provides a service for buying movie tickets youprovide a few examples of how your
+ customers will interact with your api's and then the dialogue flow isautomatically constructed using a
+ recurrent neural network a train on that beta so that simplifies the developerexperience we just launched our preview
+ for the developers to try this capability out and then the second partof it which shows even increased utility
+ for customers is you and I when we interact with Alexa or any customer as Icoming back to our initial part of the
+ conversation the goal is often unclear or unknown to the AI if I say Alexa whatmovies are playing nearby am i trying to
+ just buy movie tickets am I actually even do you think I'm looking for justmovies for curiosity whether the
+ Avengers are still in theater or when it's maybe it's gone and maybe it willcome on my mr. so I may watch it on
+ prime which happened to me so so from that perspective now you're looking intowhat is my goal and let's say I now
+ complete the movie ticket purchase maybe I would like to get dinner nearby sowhat is really the goal here is it night
+ out or is it movies as and just go watch a movie here the answer is we don't knowso can Alexa now figure we have the
+ intelligence that I think this metal goal is really night or at least say tothe customer when you have completed the
+ purchase of movie tickets from Adam tickets or Fandango or picture anyonethen the next thing is do you want to
+ get to get an uber to the theater right or do you want to book a restaurant nextto it and and then not ask the same
+ information over and over again what time what how many people in your partyright so so this is where you shift the
+ cognitive burden from the customer to the AI where it's thinking the of whatis your it anticipates your goal and
+ takes the next best action to complete it now that's the machine learningproblem but essentially you're the way
+ we solve this first instance and we have a long way to go to make it scale toeverything possible in the world but at
+ least for this situation it is from at every instance Alexa is making thedetermination whether it should stick
+ with the experience with Adam tickets or offer or you based on what you saywhether either you have completed the
+ interaction or you said no get me an uber now so it will shift context intoanother experience or skill on another
+ service so that's a dynamic decision-making that's making Alexa youcan say more conversational for the
+ benefit of the customer rather than simply complete transactions which arewell thought through if you as a
+ customer has fully specified what you want to be accomplished itsaccomplishing that so it's kind of as I
+
+
+1:17:31
+Speaker 1 :would do this with pedestrians like
+ intent modeling is predicting what your possible goals are most likely going andswitching that depending on the things
+ you say so my question is there it seems maybe it's a dumb question but it wouldhelp a lot of elects remembered me what
+ I said previously right it is it's trying to use some memory for
+
+1:17:57
+Speaker 0 :the custom year it is using a lot of
+ memory within that so right now not so much in terms of okay which restaurantdo you prefer right that is a more
+ long-term memory but within the short-term memory within the session itis remembering how many people did you
+ so if you said buy four tickets not has made an implicit assumption that youwere gonna have you need for at least
+ four seats at a restaurant right so these are the kind of context itspreserving between these skills but
+ within that session what are you asking the right question in terms of for it tobe more and more useful it has to have
+ more long-term memory and that's also an open question and again this is stillearly days so for me I mean everybody is
+
+
+1:18:39
+Speaker 1 :different but yeah I'm definitely not
+ representative of the general population the sense that I do the same thing everyday like I eat the same that I do
+ everything the same the same thing we're the same thing clearly this or the blackshirt so it's frustrating when it looks
+ it doesn't get what I'm saying because I had to correct her every time the exactsame way this has to do with certain
+ songs like she doesn't know certain weird songs only and doesn't know I'vecomplained to Spotify about this talked
+ to the Rd head of our idea Spotify stairway to heaven I have to correct itevery time it really doesn't play Led
+ Zeppelin correctly so I should figure
+
+1:19:20
+Speaker 0 :you should send me or next time it fails
+ the seat for you to send it to me we'll take care of it okay well let's Apple itis one of my favorite it works for me so
+ I'm like shocked it doesn't work for you this is an official public port I'll put
+
+1:19:35
+Speaker 1 :it I'll make it public retweet it we're
+ gonna fix this there would have impairmentanyway but the point is you know I'm
+ pretty boring and do the same thing but I'm sure most people do the same set ofthings do you see Alexa sort of
+ utilizing that in the future for improving the experience yes and not
+
+1:19:52
+Speaker 0 :only utilizing it's already doing some
+ of it we call it where Alexa is becoming more self learning so Alexa is now autocorrecting millions and millions of car
+ trances in US without any human supervisionthe way desert is let's take an example
+ of a particular song didn't work for you what do you do next you eitherit played the wrong song and you said
+ Alexa no that's not the song I want or you say likes a play that you try itagain
+ and that is a signal to Alexa that she may have done something wrong and fromthat perspective we can learn if there's
+ that failure pattern or that action of song a was played when song B wasrequested yes it's very common with
+ station names because play NPR you can have n be confused as an M and then youfor a certain accent like mine
+ people confuse my n and M all the time and because I will Indian accent thereconfusable to humans it is for Alexa too
+ and in that part but it starts auto correcting and we collect we correct alot of these automatically without a
+ human looking at the failures so the one
+
+1:21:13
+Speaker 1 :of the things that's for me missing in
+ Alessa I don't know from a representative customer but every time Icorrect it it would be nice to know that
+ that made a difference yes you know I mean like that yeah sort of like I Iheard you like some acknowledgement of
+
+
+1:21:31
+Speaker 0 :that we worked a lot with with Tesla
+
+
+1:21:34
+Speaker 1 :study the autopilot and so on and a
+ large amount of the customers they used Tesla autopilot they feel like they'realways teaching the system uh-huh
+ they're almost excited by the possibility teaching I don't know ifAlexa customers generally think of it as
+ they're teaching to improve the system I think and that's a really powerful thing
+
+1:21:53
+Speaker 0 :against I would say it's a spectrum some
+ customers do think that way and some would be annoyed by Alexa acknowledgingthat or so there's a again no one you
+ know while there are certain patterns not everyone is the same in this way butwe believe that again customers helping
+ Alexa is a tenet for us in terms of improving it dancing more self learningis by again this is like fully
+ unsupervised right there is no you in the loop and no labeling happeningand based on your actions as a customer
+ Alexa becomes smarter again it's early days but I think this whole area ofteachable AI is gonna get bigger and
+ bigger in the whole space especially in the AI assistant space so that's thesecond part where I mentioned more
+ conversational this is more self learning the third is more natural andthe way I think of more natural is we
+ talked about how Alexa sounds and there are and we have done lot of advances inour text to speech by using again neural
+ network technology for it to sound very human like an individual texture the
+
+1:23:03
+Speaker 1 :sound to the the the timing the tonality
+ tone of everything
+
+1:23:09
+Speaker 0 :I would think in terms of there's a lot
+ of controls in each of the places for how I mean the speed of the voice theprosthetic patterns the the actual
+ smoothness of how it sounds all of those are factored and we do ton of listeningtests to make sure is that what
+ naturalness how it sounds should be very natural how it understands requests isalso very important like and in terms of
+ like we have 95,000 skills or and if we have imagined that and many of theseskills you have to remember the skin
+ Ling and say Alexa asked they're tied skill to tell me X right or now if youhave to remove the skill name that means
+ the discovery and the interaction is unnatural and we're trying to solve thatby what we think of as again this was
+ you don't have to have the app metaphor here these are not individual apps righteven though they're so you cut you're
+ not sort of opening one at a time and interacting so yeah it should beseamless because it's voice and when
+ it's voice you have to be able to understand these requests independent ofthe specificity like a scale name and to
+ do that what we have done is again built a deep learning based capability wherewe shot list a bunch of skills when you
+ say Alexa get me a car and then we figure it out okay it may it's meant fora nubile skill versus a left or they
+ on your preferences and then you can rank the responses from the scale andthen choose the best response for the
+ customer so that's on the more natural other examples of more natural is likewe were talking about lists for instance
+ and you wanna you don't want to say Alexa add milk likes to add eggs Alexahired cookies you know Alexa add cookies
+ milk and eggs and that in one shot right so that works that helps with thenaturalness we talked about memory like
+ if you said you can say like so remember I have to go to Mom's house or you mayhave entered a calendar event through
+ your calendar that's linked or like so you don't remember whether it's in mycalendar or did I tell you how to
+ remember something or some other reminder right so you have to nowindependent of how customers create
+ these events it should just say Alexa when do I have to go to Mom's house andit tells you when you have to go to
+ Mom's house that's the fascinating
+
+1:25:33
+Speaker 1 :problem who's that problem on so the
+ these people create skills uh-huh who's who's tasked with integrating all ofthat knowledge together so if the skills
+ becomes seamless is it the creators of the skills sewer system theinfrastructure that Alexa provides
+ problem it's both I think the large
+
+1:25:51
+Speaker 0 :problem in terms of making sure your
+ skill quality is high we that has to be done by our tools because it's just sothese skills just to put the context
+ they are built through Alexa skill scale which is a self-serve way of building anexperience on Alexa this is like any
+ developer in the world could go to Alexa scale skate and build an experience onAlex like if you're a dominoes you can
+ build a domino skills for instance that does pizza ordering when you've authoredthat you do want to now if people say
+ like so open Domino's or Alexa ask dominoes dominoes to get a particulartype of pizza that will work but the
+ discovery is harder you can't just say like so get me a pizza and then Alexafigures out what to do that latter part
+ is definitely our responsibility in terms of when the request is not Felizhow do you figure out what's the best
+ skill or a service that can fulfill the customer's request and it can keepevolving imagine going to the situation
+ I said which was the night out planning that it the goal could be more than thatindividual request that came a Pizza
+ ordering could mean a night in event with your kids in the house and your sothis is welcome to the world of
+ conversational yeah this is this is
+
+1:27:17
+Speaker 1 :super exciting because it's not the
+ academic problem of NLP of natural language processing understandingdialogue this is like real world the
+ stakes are high in a sense that customers get frustrated quickly peopleget frustrated quickly so you have to
+ get it right if to get that interaction right so it's I love it but so from thatperspective what what are the challenges
+ today what what are the problems that really need to be solved and yes here's
+
+1:27:46
+Speaker 0 :I think first and foremost as I
+ mentioned that get the basics right are still true basically even the one-shotrequests which we think of as
+ transactional requests needs to work magically no question about that lee ifit doesn't turn your light on and off
+ you'll be super frustrated even if I can complete the night out for you and notdo that that is unacceptable for as a
+ customer right so that you have to get the foundational understanding goingvery well the second aspect when I said
+ more conversational is as you imagine is more about reasoning it is really aboutfiguring out what the latent goal is of
+ the customer based on what I have the information now and the history andwhat's the next best thing to do so
+ that's a complete reasoning and decision-making problem just like yourself-driving car but the goal is still
+ more finite here it Evos your environment is super hard andself-driving and the cost of a mistake
+ is huge here but there are certain similarities but if you think about howmany decisions Alexa is making or
+ evaluating at any given time it's a huge hypothesis space and we're only talkedabout so far about what I think of
+ reactive to in terms of you asked for something andAlexis reacting to it if you bring the
+ proactive part which is Alexa having hunches so any given instance then yourit's really a decision at any given
+ point based on the information Alexa has to determine what's the best thing itneeds to do so these are the ultimate AI
+ problem well decisions based on the information you have do you think my
+
+1:29:26
+Speaker 1 :prospectus a lot I work a lot with
+ sensing of the human face do you think they'll and we touch this topic a littlebit earlier but do you think it'll be a
+ day soon when Alexa can also look at you to help improve the quality of the hunchit has or at least detect frustration or
+ detects you know improve the quality of its perception of what you what you'retrying to do I mean let me again bring
+
+
+1:29:54
+Speaker 0 :back to what it already does we talked
+ about how based on you bargain over Alexa clearly it's a very highprobability it must have done something
+ wrong that's why you understand the next extension of whether frustration is asignal or not of course is a natural
+ thought in terms of how that should be in a signal to egg you can get that from
+
+1:30:19
+Speaker 1 :voice you can get from voice but it's
+
+
+1:30:20
+Speaker 0 :very hard like I mean a frustration as a
+ signal historically if you think about emotions of different kinds you knowthere's a whole field of affective
+ computing something that MIT has also done a lot of research and is super hotand you are now talking about a far
+ field device as in you're talking to a distance noisy environment and in thatenvironment it needs to have a good
+ sense for your emotions this is a very very hard problem very hard problem but
+
+1:30:50
+Speaker 1 :you haven't shadow voice from hard
+ problems well you know so deep learning has been at the core of a lot of thistechnology are you optimistic about the
+ current deep learning approaches to solving the hardest aspects of whatwe're talking about or do you think
+ there will come a time where new ideas need to for this you know if you look atreasoning so opening eye deep mind a lot
+ of folks are now starting to work in reasoning trying to see how can makeneural networks a reason do you see that
+ new approaches need to be invented to take the next big leap absolutely I
+
+1:31:23
+Speaker 0 :think there has to be a lot more
+ investment and I think in many different ways and there are these I would saynuggets of research forming in a good
+ way like learning with less data or like zero short learning one-shot learningand the active learning stuff you've
+
+
+1:31:40
+Speaker 1 :talked about is yes incredible since so
+
+
+1:31:43
+Speaker 0 :transfer learning is also super critical
+ especially when you're thinking about applying knowledge from one task toanother or one language to another right
+ it's really ripe so these are great pieces deep learning has been useful tooand now we are sort of marrying deep
+ learning with with transfer learning an active learning of course that's morestraightforward in terms of applying
+ deep learning and an active learning set up but but I do think in terms of nowlooking into more reasoning based
+ approaches is going to be key for our next wave of the technology but there isa good news the good news is that I
+ think for keeping on to delight customers that a lot of it can be doneby prediction tasks yes so and so we
+ haven't exhausted that so we don't need to give up on the deep learningapproaches for that so that's just I
+ wanted sort of the query on our rich
+
+1:32:40
+Speaker 1 :fulfilling amazing experience that makes
+ Amazon a lot of money and a lot of everybody a lot of money because it doesawesome things deep learning is enough
+ the the point the point I don't think I
+
+1:32:51
+Speaker 0 :would say deep learning is enough I
+ think for the purposes of Alexa accomplish the task for customers I'msaying there are still a lot of things
+ we can do with prediction based approaches that do not reason right I'mnot saying that
+ and we haven't exhausted those but for the kind of high utility experiencesthat I'm personally passionate about of
+ what Alexa needs to do reasoning has to be solved today to the same extent asyou can think of
+ naturally understanding and a speech recognition to the extent ofunderstanding intents has been how
+ accurate it has become but reasoning we are very very early days the nest
+
+1:33:33
+Speaker 1 :another way how hard of a problem do you
+ think that is hardest of them I would
+
+1:33:37
+Speaker 0 :say hardest of them because again the
+ hypothesis space of is really really large and when you go back in time likeyou were saying I wanna I want Alexei to
+ remember more things that once you go beyond a session of interaction which ismy session I mean a a time span which is
+ today two versus remembering which restaurant I like and then when I'mplanning a night out to say do you want
+ to go to the same restaurant now you're up the steaks big time and and this iswhere the reasoning dimension also goes
+ very very big so you think the space
+
+1:34:15
+Speaker 1 :will be elaborating that a little bit
+ just philosophically speaking do you think when you reason about trying tomodel what the goal of a person is in
+ the context of interacting with Alexa you think that space is huge it's huge
+
+1:34:32
+Speaker 0 :absolutely you think so like another a
+
+
+1:34:34
+Speaker 1 :devil's advocate would be that we human
+ beings are really simple and we all want like just a small set of things andthey're so do you think you think it's
+ possible cuz we're not talking about a fulfilling general conversation perhapsactually the Alexa prize is a little bit
+ after that creating a customer like there's so many of the interactions itfeels like are clustered in groups that
+ are don't require general reasoning I
+
+1:35:07
+Speaker 0 :think you're you right in terms of the
+ head of the distribution of all the possible things customers may want toaccomplish but the tail is long and it's
+ diverse right so from many many long tails from that perspective I think youhave to solve that problem otherwise and
+ everyone's very different like I mean we see this already in terms of the skillsright I mean if you if you're an average
+ surfer which I am now right but somebody is asking Alexa aboutsurfing conditions right and there's a
+ skill that is there for them to get to right that tells you that the tail ismassive like in terms of like what kind
+ of skills people have created it's humongous in terms of it and which meansthere are these diverse needs and and
+ when you start looking at the combinations of these right even if yourpairs of skills and and 90000 choose two
+ it's still a big concept of combination so I'm saying there's a huge to do herenow and I think customers are you know
+ wonderfully frustrated with things and then I'm gonna keep getting to do betterthings for that so and they're not known
+
+
+1:36:22
+Speaker 1 :to be super patient so you have to do it
+ fast you have to do it fast yeah so you've mentioned the idea of a pressrelease the research and development
+ Amazon Alexa and Amazon in general you kind of think of what the future productwill look like and you kind of make it
+ happen you work backwards so can you draft for me you probablyhave one paquimé makeup on for 10 20 30
+ 40 years out that you see the Alexa team putting out just in broad strokessomething that you dream about I think
+
+
+1:36:56
+Speaker 0 :let's start with the five years first
+ okay so and I'll get to the Fortius through in broad strokes this term I
+
+1:37:08
+Speaker 1 :think the five year is where I mean I
+
+
+1:37:11
+Speaker 0 :think of in these spaces it's hard
+ especially if you're in thick of things to think beyond the five year spacebecause a lot of things change right I
+ mean if you ask me five years back will Alexa will be here I wouldn't have Ithink it has surpassed my imagination of
+ that time right so I think then from the next five years perspective from a AIperspective what we're gonna see is that
+ notion which you said goal-oriented dialogues and open domain like Alecsurprised I think that bridge is gonna
+ get closed they won't be different and I'll give you why that's the caseyou mentioned shop
+ how do you shop do you shop in in one shot sure your double-a batteries papertowels yes how much how long does it
+ take for you to buy a camera you do ton of research yeah then you make adecision so is there is that a goal
+ oriented a lot dialogue when I like somebody says Alexa find me a camera isit simply in cue sitive ness right so
+ even in this something that you think of it as shopping which you said youyourself use a lot off if you go beyond
+ where it's reorders or items where you sort of not brand conscious and so forththat was just in shock just to comment
+
+
+1:38:35
+Speaker 1 :quickly I've never bought in you think
+ through Alexa there haven't bought before on Amazon on a desktop after Iclicked in a bunch you read a much
+ reviews that kind of stuff so it's repurchase so now you think in even for
+
+1:38:46
+Speaker 0 :something that you felt like is is a
+ finite goal I think the space is huge because even products the attributes aremany like and you want to look at
+ reviews some on Amazon some outside some you want to look at what Zenit is sayingor another consumer forum is saying
+ about even a product for instance right so that's just that's just shoppingwhere you could you could argue the
+ ultimate goal is sort of known and we haven't talked about Alexa what's theweather in Cape Cod this weekend right
+ so why am I asking that weather question right so I think I think of it as how doyou complete goals with minimum steps
+ for our customers right and when you think of it that way the distinctionbetween goal-oriented and conversations
+ for open domain say goes away I may want to know what happened in thepresidential debate right and is it I'm
+ seeking just information on I'm looking at who's winning winning the debatesright so these are all quite hard
+ problems so even the five-year horizon problem I'm like I sure hope we'll solvethese new year you're optimistic because
+
+
+1:40:01
+Speaker 1 :that's the hard problem
+
+
+1:40:04
+Speaker 0 :which part the reasoning you know enough
+
+
+1:40:05
+Speaker 1 :to be able to help explore complex goals
+ that are beyond something simplistic that feels like it could be well fiveyears is a nice it's a nice bar form
+
+
+1:40:17
+Speaker 0 :right I think you will
+ it's a like nice ambition and do we have press releases for that absolutely can Itell you what specifically the roadmap
+ will be no right and what and will be solve all of it in the five-year spacenow this is we will work on this forever
+ actually if we this is the hardest of the eye problems and I don't see if thatbeing solved even in a 40 year horizon
+ because even if you limit to the human intelligence we know we are quite farfrom that in fact every aspects of our
+ sensing to do neural processing to how brain stores information and how itprocesses it we don't yet know how to
+ represent knowledge all right so we're and still in those are early stages so Iwanted to start that's why at the
+ five-year yeah because the five-year success would look like that and solvingthese complex goals and the forty year
+ would be where it's just natural to talk to these in terms of more of thesecomplex goals right now we've already
+ come to the point where these transactions you mentioned of asking forweather or reordering something or
+ listening to your favorite tune it's natural for you to actually say it'sit's now unnatural to pick up your phone
+ right and that I think is the first five-year transformation the next fiveyour transformation would be okay I can
+ plan my weekend with Alexa or I can plan my next meal with Alexa or my next nightout with seamless effort so just to
+
+
+1:41:48
+Speaker 1 :pause and look back at the big picture
+ of it all it's a you're part of a large teamthat's creating a system that's in the
+ home that's not human that gets to interact with human beingsso we human beings we these descendants
+ of apes have created an artificial intelligence system that's able to haveconversations I mean that that to me the
+ two most transformative robots of this century Ithink will be autonomous vehicles but
+ they're a little bit transforming from a more boring way it's like a tool I thinkconversational agents in the home is I
+ can experience how does that make you feel the year at the center of creatingthat as its do you sit back and awe
+ sometimes what what it what is your what is your feeling about the whole mess ofit can you even believe that we're able
+ to create something like this I think
+
+1:42:51
+Speaker 0 :it's a privilege I'm so fortunate like
+ where where I ended up right and and it's been a long journey like I've beenin this space for a long time in
+ Cambridge right and it's it's so heartwarming to see the kind of adoptionconversational agents are having now
+ five years back it was almost like should I move out of this because we areunable to find this killer application
+ that customers would love that would not simply be good to have thing in researchlabs and it's so fulfilling to see it
+ make a difference to millions and billions of people a worldwide the goodthing is they're still very early so I
+ have another 20 years of job security doing what I love like so I think fromthat perspective I feel I tell every
+ researcher this that joins or every member of my team this is a uniqueprivilege like I think and we have and I
+ would say not just launching a lecture in 2014 which was first of its kindalong the way we have when we launch a
+ lecture skills get it become became democratizing AI when before that therewas no good evidence often SDK for
+ speech and language now we are coming to this very you and I'm having thisconversation where I'm not saying Oh
+ legs planning a night out with an AI agent impossible I'm saying it's in therealm of possibility and not only
+ possible we will be launching this right so some elements of that every and itwill keep getting better we know that is
+ a universal truth once you have these kind of agents out there beinguse they get better for your customers
+ and I think that's where I think the amount of research topics we arethrowing out at our budding researchers
+ is just gonna be exponentially hard and the great thing is you can now getimmense satisfaction by having costumers
+ use it not just a paper and new reps or another conference I think everyone
+
+1:44:51
+Speaker 1 :myself included are deeply excited about
+ that future so that I don't think there's a better place to and Rohitthank you thank you so much this was fun
+
+
+1:45:01
+Speaker 0 :thank you same here thanks for listening
+
+
+1:45:03
+Speaker 1 :to this conversation with rohit prasad
+ and thank you to our presenting sponsor cash app downloaded use coal export castyou'll get ten dollars and $10 will go
+ to first stem education nonprofit and inspires hundreds of thousands of youngminds to learn and to dream of
+ engineering our future if you enjoy this podcast subscribe on youtube give itfive stars an apple podcast supported on
+ patreon or connect with me on twitter and now let me leave you with some wordsof wisdom from the great alan turing
+ sometimes is the people no one can imagine anything of who do the things noone can imagine thank you for listening
+
+

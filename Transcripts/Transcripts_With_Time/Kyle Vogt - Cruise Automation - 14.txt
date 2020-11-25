@@ -1,0 +1,854 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ convoked he is the president and the CTO of Cruz Automation leading an effort tosolve one of the biggest robotics
+ challenges of our time vehicle automation he's a co-founder of twosuccessful companies twitch and crews
+ that have each sold for a billion dollars and he's a great example of theinnovative spirit that flourishes in
+ Silicon Valley and now is facing an interesting and exciting challenge ofmatching that spirit with the mass
+ production and the safety centric culture of a major automaker likeGeneral Motors this conversation is part
+ of the MIT artificial general intelligence series and the artificialintelligence podcast if you enjoy it
+ please subscribe on youtube itunes or simply connect with me on twitter at LexFriedman spelled Fri D and now here's my
+
+
+0:00:52
+Speaker 0 :conversation with Kyle vote
+
+
+0:00:53
+Speaker 1 :
+
+0:00:55
+Speaker 0 :grew up in Kansas right yeah and I just
+ saw that picture you had you know there's them a little bit a little bit
+
+0:01:00
+Speaker 1 :worried about that yeah so in high
+ school in Kansas City you joined Shawnee Mission North High School Robotics teamyeah now that wasn't your high school
+
+
+0:01:08
+Speaker 0 :that's right that was that was the only
+ high school in the area that had a like a teacher who was willing to sponsor a
+
+0:01:16
+Speaker 1 :FIRST Robotics team I was gonna troll
+ you a little bit jog your mess
+
+0:01:19
+Speaker 0 :trying to look super cool and intense
+ because you know this was BattleBots it's a serious businessso we're standing there with a welded
+
+
+0:01:29
+Speaker 1 :steel frame and looking tough so go back
+ there what is that jury to robotics well
+
+0:01:33
+Speaker 0 :I think I've been trying to figure this
+ out for a while but I've always liked building things with Legos and when Iwas really really young I wanted the
+ Legos I had motors and other things and then you know Lego Mindstorms came outand for the first time you could program
+ Lego contraptions and I think things just sort of snowballed from that but Iremember seeing you know the battle bots
+ TV show on Comedy Central and thinking that is the coolest thing in the world Iwant to be a part of that and not
+ knowing a whole lot about how to build these 200-pound fighting robots so Isort of obsessively pored over the
+ internet forums where all the creator's for battle bots would sort of hang outand talk about you know document their
+ build progress and everything and I think I read I must have read like youknow tens of thousands of forum posts
+ from from basically everything that was out there on what these people weredoing and eventually like sort of
+ triangulated how to how to put some of these things together and and ended updoing battle bots which was you know I
+ was like 13 or 14 which is pretty
+
+0:02:35
+Speaker 1 :awesome I'm not sure if the show is
+ still running but the battle bots is there's not an artificial intelligencecomponent it's remotely controlled and
+ yeah it's an almost like a mechanical generic challenge yeah I think thingsthat can be broken they're
+
+
+0:02:49
+Speaker 0 :radio-controlled so and I think that
+ they allowed some limited form of autonomy but you know in a two-minutematch you're in and the way these things
+ ran you're really doing yourself a disservice by trying to automate itversus just you know do the practical
+ thing which is drive it yourself
+
+0:03:04
+Speaker 1 :the entertainment aspect just going on
+ YouTube there's like and some of them wield an axe some of them I mean there'sthat fun so what drew you to that aspect
+ it wasn't the mechanical engineering was it the dream to create like Frankensteinand sentient being I was just like the
+ Lego you like tinkering with stuff I
+
+0:03:23
+Speaker 0 :mean that that was just building
+ something I think the the idea of you know this this radio-controlled machinethat that can do various things if it
+ has like a weapon or something was pretty interesting I agree it doesn'thave the same appeal as you know
+ autonomous robots which I which I you know sort of gravitated towards later onbut it was definitely an engineering
+ challenge because everything you did in in that competition was pushingcomponents to their limits so we would
+ buy like these $40 DC motors that came out of a winch like on the front of apickup truck or something and we'd power
+ the car with those and we'd run them at like double or triple their ratedvoltage so they immediately start
+ overheating but for that 2-minute match you can get you know a significantincrease in the power output of those
+ motors before they burn out and so you're doing the same thing for yourbattery packs all the materials in the
+ system and I think there was something something intrinsically interestingabout just seeing like where things
+
+
+0:04:19
+Speaker 1 :break and did you all fly and see where
+ they break did you take it to the testing point like how did you know twominutes or was there a reckless let's
+ just go with it and see we weren't very
+
+0:04:29
+Speaker 0 :good at BattleBots we lost all of our
+ matches that woody first round like the one I built first both of them werethese wedge-shaped robots because a
+ wedge even though it's sort of boring to look at is extremely effective you drivetowards another robot and the front edge
+ of it gets under him and then they sort of flip over kind of like a door stopperand the first one had a pneumatic
+ polished stainless steel spike on the front that would shoot out about eightinches the purpose of which is what
+ pretty pretty ineffective actually but it looks cool and was it helpful to liftno it was it was just to try to poke
+ holes in the other robot and then the second time I did it which is thefollowing I think maybe 18 months later
+ we had well a titanium axe with a with a hardened steel tip on it that waspowered by a hydraulic cylinder which we
+ were activating with liquid co2 which was hadits own set of problems so great so
+
+
+0:05:23
+Speaker 1 :that's kind of on the hardware side I
+ mean at a certain point there must have been born a fascination on the softwareside so what was the first piece of coal
+ you've written go back there see what language was it what what was that was aEmacs vim was it a more respectable
+ modern ID do you remember any of this
+
+0:05:45
+Speaker 0 :yeah well I remember I think maybe when
+ I was in third or fourth grade school I was at elementary school had a bunch ofApple 2 computers and we'd play games on
+ those and I remember every once in a while something mood would would crashit wouldn't start up correctly and it
+ would dump you out to what I later learned was like sort of a commandprompt and my teacher would come over
+ and type actually remember this to this day for some reason like PR number sixor PR pound six which is peripheral 6
+ which is the disk drive which would fire up the disk and load the program and Ijust remember thinking wow she's like a
+ hacker like teach me these these codes these error codes what I called him atthe time but she had no interest in that
+ so it wasn't until I think about fifth grade that I had a school where youcould actually go on these Apple twos
+ and learn to program and so it's all in basic you know where every line you knowthe line numbers are all number that
+ every line is numbered and you have to like leave enough space between thenumbers so that if you want to tweak
+ your code you go back and the first line was 10 and the second line is 20 now youhave to go back and insert and 15 and if
+ you need to add code in front of that you know 11 or 12 and you hope you don'trun out of line numbers and have to redo
+ the whole thing
+
+0:06:51
+Speaker 1 :there's go-to statements yeah go to and
+
+
+0:06:52
+Speaker 0 :it's very basic maybe it's a name but a
+ lot of fun and that was like that was you know it's fun that's when you knowwhen your first program you see the
+ magic of it it's like it just just like this world opens up with you knowendless possibilities for the things you
+ could build or or accomplish with that
+
+0:07:10
+Speaker 1 :computer so you got the bug then so even
+ starting with basic and then what C++ throughout what did you it was acomputer program in computer science
+
+
+0:07:19
+Speaker 0 :classes in high school not not where I
+ went so it was a self-taught but I did a lot of programming the thing thatyou know sort of pushed me in the path
+ of eventually working on self-driving cars is actually one of these reallylong trips driving from my house in
+ Kansas to I think Las Vegas where we did the Battle Watts competition and I hadjust gotten my I think my learner's
+ permit or early driver's permit and so I was driving this you know 10 hourstretch across western Kansas where it's
+ just you're going straight on a highway and it is mind-numbing ly boring and Iremember thinking even then with my sort
+ of mediocre programming background that this is something that a computer can doright let's take a picture of the road
+ let's find the yellow lane markers and you know steer the wheel and you knowlater I've come to realize this had been
+ done you know since since the 80s or the 70sor even earlier but I still wanted to do
+ it and sort of immediately after that trip switched from sort of BattleBotswhich is more radio-controlled
+ machines to thinking about building you know autonomous vehicles of some scalestart off with really small electric
+ ones and then you know progress to what we're doing now so what was your view of
+
+0:08:28
+Speaker 1 :artificial intelligence at that point
+ what did you think so this is uh before there's been ways in artificialintelligence right the the current wave
+ with deep learning makes people believe that you can solve in a really rich deepway the computer vision perception
+ problem but like in before the deep learning craze you know how do you thinkabout how would you even go about
+ building a thing that perceives itself in the world local as itself in theworld moves around the world like when
+ you were younger and yeah as what was
+
+0:09:01
+Speaker 0 :your thinking about it well prior to
+ deep neural networks our convolutional neural as these modern techniques wehave or at least ones that are in use
+ today it was all heuristic space and so like old-school image processing and Ithink extracting you know yellow lane
+ markers out of an image of a road is one of the problems that lends itselfreasonably well to those heuristic based
+ methods you know like just do a threshold on the color yellow and thentry to fit some lines to that using a
+ Hough transform or something and then go from there
+
+0:09:32
+Speaker 1 :traffic like detection and then stop
+ signs detection red yellow green and I
+
+0:09:35
+Speaker 0 :think you can you could I mean if you
+ wanted to do a full I was just trying to makething that would stay in between the
+ lanes on a highway but if you wanted to do the full the full you know set ofcapabilities needed for a driverless car
+ I think you could and we done this at cruise you know in the very first daysyou can start off with a really simple
+ you know human written heuristic just to get the scaffolding in place for yoursystem traffic light detection probably
+ a really simple you know color threshold injustice system up and running beforeyou migrate to you know a deep learning
+ based technique or something else and you know back in when I was doing thismy first one it was on Pentium 203 233
+ megahertz computer in it and I I think I wrote the first version in basic whichis like an interpreted language it's
+ extremely slow because that's the thing I knew at the time and so there was nono chance at all of using there was no
+ computational power to do any sort of reasonable deep nets like you have todayso I don't know what kids these days are
+ doing our kids these days you know at age 13 using neural networks in theirgarage I mean I also I get emails all
+
+
+0:10:40
+Speaker 1 :the time from you know like 11 12 year
+ old saying I'm having you know I'm trying to follow this tensorflowtutorial and I'm having this problem
+ and their general approach in the deep learning community is of extremeoptimism of as opposed to you mentioned
+ like heuristics you can you can separate the autonomous driving problem intomodules and try to solve it sort of
+ rigorously or you just do it end to end and most people just kind of love theidea that you know us humans do a tenth
+ and we just perceive and act we should be able to use that do the same kind ofthing when you're on that's and that
+ that kind of thinking you don't want to criticize that kind of thinking becauseeventually they will be right yeah and
+ so it's exciting and especially when they're younger to explore that is areally exciting approach but yeah it's
+ it's changed the the language the kind of stuff you turned green with it it'skind of exciting to see when they
+
+
+0:11:40
+Speaker 0 :seniors grow up yeah I can only imagine
+ if you if your starting point is you know Python and tensorflow at age 13where you end up you know after 10 or 15
+ years of that that's that's pretty cool
+
+0:11:51
+Speaker 1 :because of github because this
+ they're tools for solving most of the major problems and artificialintelligence are within a few lines of
+ code for most kids and that's incredible to think about also on theentrepreneurial side and and and at that
+ point was there any thought about entrepreneurship before you came tocollege is sort of doing your building
+ this into a thing that impacts the world
+
+0:12:17
+Speaker 0 :on the large scale yeah I've always
+ wanted to start a company I think that's you know just a cool concept of creatingsomething and exchanging it for value or
+ creating value I guess so in high school I was I was so trying to build like youknow a servo motor drivers little
+ circuit boards and sell them online or other other things like that andcertainly knew at some point I wanted to
+ do a startup but it wasn't really I'd say until college until I felt like Ihad the
+ I guess the right combination of the environment the smart people around youand some free time and a lot of free
+ time at MIT so you came to MIT as an
+
+0:12:52
+Speaker 1 :undergrad 2004 that's right and that's
+ when the first DARPA Grand Challenge was happening yeah the the timing of that isbeautifully poetic so how did you get
+
+
+0:13:04
+Speaker 0 :yourself involved in that one originally
+ there wasn't a official entry yeah faculty sponsored thing and so a bunchof undergrads myself included I started
+ meeting and got together and tried to haggle together some sponsorships we gota vehicle donated a bunch of sensors and
+ tried to put something together and so we had our team was probably mostlyfreshmen and sophomores you know which
+ was not really a fair fair fight against maybe the you know postdoc andfaculty-led teams from other schools but
+ we we got something up and running we had our vehicle drive by a wire and youknow very very basic control and things
+ but on the day of the qualifying for pre qualifying round the one and onlysteering motor that we had purchased the
+ thing that we had you know retrofitted to turn the steering wheel on the truckdied and so our vehicle was just dead in
+ the water couldn't steer so we didn't
+
+0:13:59
+Speaker 1 :make it very far on the hardware side so
+ was there a software component was there like how did your view of autonomousvehicles in terms of artificial
+ intelligence evolve in this moment I mean you know like you said from the 80shas been autonomous vehicles but really
+ that was the birth of the modern wave the the thing that captivated everyone'simagination that we can actually do this
+ so what how were you captivated in that way so how did your view of autonomous
+
+0:14:28
+Speaker 0 :vehicles change at that point I'd say at
+ that point in time it was it was a the curiosity as in like is this reallypossible and I think that was generally
+ the spirit and the the purpose of that original DARPA Grand Challenge which wasto just get a whole bunch of really
+ brilliant people exploring the space and pushing the limits and and I think liketo this day that DARPA challenge with
+ its you know million dollar prize pool was probably one of the most effectiveyou know uses of taxpayer money dollar
+ for dollar that I've seen you know because that that small sort ofinitiative that DARPA put put out sort
+ of in my view was the catalyst or the tipping point for this this whole nextwave of autonomous vehicle development
+
+
+0:15:16
+Speaker 1 :so that was pretty cool so let me jump
+ around a little bit on that point they also did the urban challenge where I wasin the city but it was very artificial
+ and there's no pedestrians and there's very little human involvement except afew professional drivers yeah do you
+ think there's room and then there was the Robotics Challenge with humanoidrobots right so in your now role is
+ looking at this you're trying to solve one of the you know autonomous drivingone of the harder more difficult places
+ of San Francisco is there a role for DARPA to step in to also kind of helpout they challenge with new ideas
+ specifically a pedestrians and so on all these kinds of interesting things well I
+
+0:15:55
+Speaker 0 :haven't I haven't thought about it from
+ that perspective is there anything DARPA could do today to further acceleratethings and I would say my instinct is
+ that that's maybe not the highest and best use of their resources in timebecause like kick starting and spinning
+ up the flywheel is I think what what they did in this case for a very verylittle money but today this has become
+ this has become like commercially interesting to very large companies andthe amount of money going into it and
+ the amount of people like going through your class and learning about thesethings and developing these skills is
+ just you know orders of magnitude more than it was back then and so there'senough momentum and inertia and energy
+ and investment dollars into this space right now that I don't I don't I thinkthey're I think they're they can just
+ say mission accomplished and move on to the next area of technology that thatneeds help
+
+
+0:16:46
+Speaker 1 :so then stepping back to MIT you left on
+ my teaching a junior year what was that
+
+0:16:52
+Speaker 0 :decision like as I said I always wanted
+ to do a company in or start a company and this opportunity landed in my lapwhich was a couple guys from Yale we're
+ starting a new company and I googled them and found that they had started acompany previously and sold it actually
+ on eBay for about a quarter million bucks which was a pretty interestingstory but so I thought to myself these
+ guys are you know rock star entrepreneurs they've done this beforethey must be driving around in Ferraris
+ because they sold their company and you know I thought I could learn a lot fromthem so I teamed up with those guys and
+ you know went out during went out to California during IIP which is my teasemonth off on one on one way ticket and
+ basically never went back we were having so much fun we felt like we werebuilding something and creating
+ something and it was going to be interesting that you know I was just allin and got completely hooked and that
+ that business was justin.tv which is originally a reality show about a guynamed Justin
+ which morphed into a live video streaming platform which then morphedinto what is twitch today so that was
+ that was quite a an unexpected journey
+
+0:18:04
+Speaker 1 :so no regrets no looking back it was
+ just an obvious I mean one-way ticket I mean if we justpause on that for a second
+
+
+0:18:13
+Speaker 0 :
+
+0:18:14
+Speaker 1 :there was no how did you know these were
+ the right guys this is the right decision you didn't think it was justfollow the heart kind of thing well I
+
+
+0:18:22
+Speaker 0 :didn't know but you know just trying
+ something for a month during IEP he seems pretty little risk right right andthen you know well maybe I'll take a
+ semester off and my teas pretty flexible about that you can always go back rightand then after two or three cycles of
+ that I eventually threw in the towel but you know I think it'sI guess in that case I felt like I could
+ always hit the undo button if I had to
+
+0:18:45
+Speaker 1 :right but it never lasts from from when
+ you look in retrospect I mean it seems like a brave decision that you know it'sdifficult it would be difficult for a
+
+
+0:18:53
+Speaker 0 :lot of people to make it wasn't as
+ popular I'd say that the general you know flux of people out of MIT at thetime was mostly into you know financier
+ consulting jobs in Boston or New York and very few people were going toCalifornia to start companies but today
+ I'd say that's it's probably inverted which is just a sign of a sign of thetimes I guess yeah
+
+
+0:19:16
+Speaker 1 :so there's a story about midnight of
+ March 18 2007 where whether we're TechCrunch I guess and I was just in TVearlier than was supposed to a few hours
+
+
+0:19:27
+Speaker 0 :
+
+0:19:28
+Speaker 1 :the site didn't work I don't know if any
+ of this is true you can tell me and I you and one of the folks adjusted to eI'm a shear coated through the night can
+ you take me through that experience so let me let me say a few nice things thatthe article I read quoted Justin Kahn
+ said that you were known for mural coding through problems and being acreative quote creative genius so on
+
+
+0:19:55
+Speaker 0 :that night what was going through your
+
+
+0:19:57
+Speaker 1 :head or maybe I put another way how do
+ you solve these problems what's your approach to solving these kinds ofproblems were the line between success
+ and failure seems to be pretty thin
+
+0:20:09
+Speaker 0 :that's a good question well first of all
+ that's that's a nice of Justin to say that I think you know I would have beenmaybe twenty-one years old then and not
+ very experienced at programming but as with with everything in a start-upyou're sort of racing against the clock
+ and so our plan was the second we had this live streaming camera backpack upand running where Justin could wear it
+ and no matter where he went in a city it would be streaming live video and thisis even before the iPhones this is like
+ hard to do back then we would launch and so we thought we were there and and thebackpack was working and then we sent
+ out all the emails to launch the launch the company and do the press thing andthen you know we weren't quite actually
+ there and then we thought oh well you know they're not going to announce ituntil maybe 10 a.m. the next morning and
+ it's I don't know it's 5 p.m. now so how many hours do we have left what is thatlike you have 17 hours to go and and and
+ that was that was gonna be fine was the
+
+0:21:11
+Speaker 1 :problem obvious did you understand what
+ could possibly like how complicated was
+
+0:21:15
+Speaker 0 :the system at that point it was it was
+ pretty messy so to get a live video feed that looked decent working from anywherein San Francisco I put together the
+ system where we had like three or four cell phone data modems and they werelike we take the video stream and you
+ know sort of spray it across these three or four modems and then try to catch allthe packets on the other side you know
+ with unreliable cell phone networks
+
+0:21:40
+Speaker 1 :pretty low level networking yeah and and
+
+
+0:21:41
+Speaker 0 :putting his like you know sort of
+ protocols on top of all that to reassemble and reorder the packets andhave time buffers and error correction
+ and all that kind of stuff and the night before it was just staticky every oncein while the image would would go
+ staticky and there would be this horrible like screeching audio noisebecause the audio was also corrupted and
+ this would happen like every five to ten minutes or so and it was a really youknow off-putting to the viewers
+
+
+0:22:08
+Speaker 1 :how do you tackle that problem what was
+ the just freaking out behind a computer there's the word are there other otherfolks working on this problem like we
+ behind a whiteboard were you doing uh
+
+0:22:20
+Speaker 0 :yes a little hair coding it has a little
+ only because there's four of us working on the company and only two peoplereally wrote code and Emmett wrote the
+ website in the chat system and I wrote the software for this video streamingdevice and video server and so I you
+ know it's my sole responsibility to figure that out yeah and I think I thinkit's those you know setting setting
+ deadlines trying to move quickly and everything where you're in that momentof intense pressure that sometimes
+ people do their best and most interesting work and so even though thatwas a terrible moment I look back on it
+ fondly because that's like you know that's one of those character definingmoments I think
+
+
+0:22:54
+Speaker 1 :so in 2013 October you founded cruise
+ automation yeah so progressing forward another exception successful company wasacquired by GM in 16 for 1 billion
+ dollars but in October 2013 what was on your mind what was the plan how does oneseriously start to tackle one of the
+ hardest robotics most important impact for robotics
+
+0:23:24
+Speaker 0 :problems of our age after going through
+ twitch twitch was was and it is today pretty successful but the the work wasthe result was entertainment mostly like
+ the the better the product was the more we would entertain people and then youknow make money on them ad revenues and
+ other things and that was that was a good thing it felt felt good toentertain people but I figured like you
+ know what is really the point of becoming a really good engineer anddeveloping these skills other than you
+ know my own enjoyment and I realized I wanted something that scratched more ofan existential itch like something that
+ that truly matters and so I basically made this list of requirements for a newif I was going to do another company and
+ the one thing I knew in the back of my head that twitch took like eight yearsto become successful and so whatever I
+ do I better be willing to commit you know at least ten years to something andwhen you think about things from that
+ perspective you certainly I think raised the bar onweight you choose to work on so for me
+ the three things where it had to be something where the technology itselfdetermines the success of the product
+ like hard really juicy technology problems because that's what motivatesme and then it had to have a direct and
+ positive impact on society in some way so an example would be like you knowhealthcare self-driving cars because
+ they save lives other things where there's a clear connection to somehowimproving other people's lives and the
+ last one is it had to be a big business because for the positive impact tomatter it's got to be a large scale
+ scale yeah and I was thinking about that for a while and I made like I triedwriting a gmail clone and looked at some
+ other ideas and then it just sort of light bulb went off like self-drivingcars like that was the most fun I had
+ ever had in college working on that and like well what's the state of thetechnology has been ten years maybe
+ maybe times have changed and maybe now is the time to make this work and Ipoked around and looked at the only
+ other thing out there really at the time was the Google self-driving car projectand I thought surely there's a way to
+ you know have an entrepreneur mindset and sort of solve the Minimum ViableProduct here and so I just took the
+ plunge right then in there and said this this is something I know I can committen years to it's the probably the
+ greatest applied AI problem of our generation it's right and if it worksit's going to be both a huge business
+ and therefore like probably the most positive impact I can possibly have onthe world so after that light bulb went
+ off I went all in on crews immediately and got to work did you have an idea how
+
+0:25:45
+Speaker 1 :to solve this problem which aspect of
+ the problem to solve you know slow like what we just had Oliver for voyage hereslow-moving retirement communities urban
+ driving highway driving did you have like did you have a vision of the cityof the future or you know the
+ transportation is largely automated that kind of thing or was it sort of morefuzzy and gray area than that my
+
+
+0:26:12
+Speaker 0 :analysis of the situation is that Google
+ is putting a lot it had been putting a lot of money into that project that alot more resources and so
+ and they still hadn't cracked the fully driverless car you know this is 20 2013I guess so I thought what what can I do
+ to sort of go from zero to you know significant scale so I can actuallysolve the real problem which is the
+ driverless cars and I thought here's the strategy we'll start by doing a reallysimple problem or solving a really
+ simple problem that creates value for people so eventually ended up decidingon automating highway driving which is
+ relatively more straightforward as long as there's a backup driver there andI'll you know the go-to-market will be
+ able retrofit people's cars and just sell these products directly and theidea was we'll take all the revenue and
+ profits from that and use it to do the social reinvest that in research fordoing fully fabulous cars and that was
+ the plan the only thing that really changed alongthe way between then and now is we never
+ really launched the first product we had enough interest from investors in enoughof a signal that this was something that
+ we should be working on that after about a year of working on the highwayautopilot we had it working you know on
+ a prototype stage but we just completely abandoned that and said we're gonna goall in on driverless cars now is the
+ time can't think of anything that's more exciting and if it works more impactfulso we're just gonna go for it the idea
+
+
+0:27:41
+Speaker 1 :of retrofit is kind of interesting yeah
+ being able to it's how you achieve scale it's a really interesting idea is it'ssomething that's still in the in the
+ back of your mind as a possibility not
+
+0:27:52
+Speaker 0 :at all I've come full circle on that one
+ trying to build a retrofit product and I'll touch on some of the complexitiesof that and then also having been inside
+ in OEM and seeing how things work and how a vehicle is developed and validatedwhen it comes to something that has
+ safety critical implications like controlling the steering and the othercontrol inputs on your car it's pretty
+ hard to get there with with a retrofit or if you did even if you did it itcreates a whole bunch of new
+ complications around liability or how did you truly validate that or you knowsomething in the base vehicle fails and
+ causes your system to fail whose fault is itor if the cars anti-lock brake systems
+ or other things kick in or the software has been it's different in one versionof the car you retrofit versus another
+ and you don't know because the manufacturer has updated it behind thescenes there's basically an infinite
+ list of longtail issues that can get you and if you're dealing with a safetycritical product that's not really
+ acceptable that's a really convincing
+
+0:28:49
+Speaker 1 :summary of why it's really challenging
+
+
+0:28:53
+Speaker 0 :but I didn't at the time so we tried it
+ anyway but it's a pitch also at the time
+
+0:28:56
+Speaker 1 :it's a really strong one yes that's how
+ you achieve scale and that's how you beat the current the the leader at thetime of Google or the only one in the
+
+
+0:29:04
+Speaker 0 :market the other big problem we ran into
+ which is perhaps the biggest problem from a business model perspective is wehad kind of assumed that we'd we started
+ with an Audi s4 as the vehicle we retrofitted with his highway drivingcapability and we had kind of assumed
+ that if we just knock out like three make and models of vehicle that'll coverlike eighty percent of a San Francisco
+ market doesn't everyone there drive I don't know a BMW or a Honda Civic or oneof these three cars and then we surveyed
+ our users we found out that it's all over the place we would to get even adecent number of units sold we'd have to
+ support like you know 20 or 50 different models and each one is a littlebutterfly that takes time and effort to
+ maintain you know that retrofit integration and custom hardware and allthis so is it there's a tough business
+
+
+0:29:49
+Speaker 1 :so GM manufactures and sells over nine
+ million cars a year and what you with crews are trying to do some of the mostcutting-edge innovation in terms of
+ applying AI and so hot out of those you've talked about a little bit beforebut it's also just fascinating to me
+ we'll work a lot of automakers you know the difference between the gap betweenDetroit and Silicon Valley
+ let's say just to be sort of poetic about it I guess what how do you closethat gap how do you take GM into the
+ future where a large part of the fleet would be autonomous perhaps I want to
+
+0:30:24
+Speaker 0 :start by acknowledging that that GM is
+ made up of you know tens of thousands of really brilliant motivated people whowant to be a part of the future and so
+ it's pretty fun to work within the attitude inside a car company like thatis you know embracing this this
+ transformation and change rather than fearing it and Ithink that's a testament to the
+ leadership at GM and that's flown all the way through to to everyone you talkto even the people in this in blue
+ plants working on these cars so that's really great so that starting from thatposition makes a lot easier so then when
+ the the people in San Francisco at Cruz interact with the people at GM at leastwe have this common set of values which
+ is that we really want this stuff to work because we think it's important andwe think it's the future
+ not to say you know those two cultures don't clash they absolutely do there'sdifferent different sort of value
+ systems like in a car company the thing that gets you promoted and so the rewardsystem is following the processes
+ delivering the the program on-time and on-budget so any sort of risk-taking isdiscouraged in many ways because if a
+ program is late or if you shut down the plant for a day it's you know you cancount the millions of dollars that burn
+ by pretty quickly whereas I think you know most Silicon Valley companies andcrews in the methodology we were
+ employing especially around the time of the acquisition the reward structure isabout trying to solve these complex
+ problems in any way shape or form or coming up with crazy ideas that you know90% of them won't work and and so so
+ meshing that culture of sort of continuous improvement andexperimentation with one where
+ everything needs to be you know rigorously defined upfront so that younever slip a deadline or miss a budget
+ was a pretty big challenge and that we're over three years in now after theacquisition and I'd say like you know
+ the investment we made in figuring out how to work together successfully andwho should do what and how we bridge the
+ gaps between these very different systems and way of doing engineeringwork is now one of our greatest assets
+ because I think we have this really powerful thing but for a while it wasboth both GM and crews were very steep
+ on the learning curve yes I'm sure it
+
+0:32:38
+Speaker 1 :was very stressful it's really important
+ work because that's that's how to revolutionize the transportation itreally to revolutionize any system you
+ know you look at the healthcare system or you look at the legal system I havepeople like lawyers come up to me all
+ the time like everything they're working on can easily be automated but thenthat's not a good feeling yeah that was
+
+
+0:32:57
+Speaker 0 :
+
+0:32:58
+Speaker 1 :it's not a good feeling but also there's
+ no way to automate because the the the entire infrastructure is really you knowbased is older and it moves very slowly
+ and so how do you close the gap between I haven't how can I replace of courselawyers don't wanna be replaced with an
+ app but you could replace a lot of aspect when most of the data is still onpaper
+ and so the same thing was with automotive I mean it's fundamentallysoftware so it's is basically hiring
+ software engineers it's thinking a software world I mean I'm pretty surenobody in Silicon Valley's ever hit a
+ deadline so and then it's probably true yeah and GSI is probably the oppositeyeah so that's that culture gap is
+ really fascinating so you're optimistic about the future of that yeah I mean
+
+0:33:45
+Speaker 0 :from what I've seen it's impressive and
+ I think like especially in Silicon Valley it's easy to write off buildingcars because you know people have been
+ doing that for over a hundred years now in this country and so it seems likethat's a solved problem but that doesn't
+ mean it's an easy problem and I think it would be easy to sort of overlook thatand think that you know we're Silicon
+ Valley engineers we can solve any problem you know building a car it'sbeen done therefore it's you know it's
+ it's it's not it's not a real engineering challenge but after havingseen just the sheer scale and magnitude
+ and industrialization that occurs inside of an automotive assembly plant that isa lot of work that I am very glad that
+ we don't have to reinvent to make self-driving cars work and so to haveyou know partners who have done that for
+ a hundred years now these great processes and this huge infrastructureand supply base that we can tap into is
+ just remarkable because the scope in surface area of the problem of deployingfleets of self-driving cars is so large
+ that we're constantly looking for ways to do less so we can focus on the thingsthat really matter more and if we had to
+ figure out how to build an assemble in you know test and build the carsthemselves I mean we work closely with
+ Jim on that but if we had to develop all that capability in-house as well youknow that that would just make make the
+ problem really intractable I think mmm
+
+0:35:10
+Speaker 1 :so yeah just like your first entry mit
+ DARPA challenge when there was what the motor that failed and somebody thatknows what they're doing with the motor
+ did it that would have been nice if you
+
+0:35:20
+Speaker 0 :focus on the software and not the
+ hardware platform yeah right so from
+
+0:35:25
+Speaker 1 :your perspective now you know there's so
+ many ways that autonomous vehicles can impact Society in the next year fiveyears ten years what do you think is the
+ biggest opportunity to make money in autonomous driving sort of make it afinancially viable thing in the
+ near-term what do you think would be the biggest impact there well the things
+
+0:35:48
+Speaker 0 :that that drive the economics for fleets
+ of self-driving cars or they're sort of a handful of variables one is you knowthe cost to build the vehicle itself so
+ the material cost how many you know what's the cost of all your sensors plusthe cost of the vehicle and every all
+ the other components on it another one is the lifetime of the vehicle it's verydifferent if your vehicle drives one
+ hundred thousand miles and then it falls apart versus you know two millionand then you know if you have a fleet
+ it's kind of like an airplane where or airline where once you produce thevehicle you want it to be in operation
+ as many hours a day as possible producing revenue and then a you knowthe other piece of that is how are you
+ generating revenue I think that's kind what you're asking and I think theobvious things today are you know the
+ ride-sharing business because that's pretty clear that there's demand forthat there's existing markets you can
+ tap into and larger urban areas that
+
+0:36:47
+Speaker 1 :kind of thing yeah yeah and and and I
+
+
+0:36:48
+Speaker 0 :think that there are some real benefits
+ to having cars without drivers compared to through the status quo for people whouse ride share services today you know
+ you get privacy consistency hopefully significant improve safety allthese benefits versus the current
+ product but it's it's a crowded market and then other opportunities whichyou've seen a lot of activity in the
+ last really in last six to twelve months is you know delivery whether that'sparcels and packages food or or
+ groceries those are all sort of I think opportunities that are that are prettyripe for these you know once you have
+ this core technology which is the fleet of autonomous vehicles there's all sortsof different business opportunities you
+ can build on top of that but I think the important thing of course is thatthere's zero monetization opportunity
+ until you actually have that fleet of very capable driverless cars that arethat are as good or better than humans
+ and that's sort of where the entire industry is sort of in this holdingpattern right now yeah the trend
+
+
+0:37:47
+Speaker 1 :achieved that baseline so but you said
+ sort of rely not reliability consistency it's kind of interesting I think I heardyou say somewhere I'm not sure if that's
+ what you meant but you know I can imagine a situation where you would getan autonomous vehicle and you know when
+ you get into an uber or lyft you don't get to choose the driver in asense that you don't get to choose the
+ personality of the driving do you think there's a there's room to define thepersonality of the car the way drives
+ you in terms of aggressiveness for example in terms of sort of pushing thebomb the one of the biggest challenges
+ in Toms driving is the is a trade-off between sort of safety andand do you think there's any room for
+ the human to take a role in that decision to accept the liability I guess
+
+0:38:37
+Speaker 0 :we III wouldn't it no I'd say within
+ reasonable bounds as in we're not gonna I think it'd be highly unlikely we didexpose any nob that would let you you
+ know significantly increase safety risk I think that's that's just not somethingwe'd be willing to do but I think
+ driving style or like you know are you gonna relax the comfort constraintsslightly or things like that all of
+ those things make sense and are plausible I see all those is you knownice optimizations once again we get the
+ core problem solved and these fleets out there but the other thing we've sort ofobserved is that you have this intuition
+ that if you sort of slam your foot on the gas right after the light turnsgreen and aggressively accelerate you're
+ gonna get there faster but the actual impact of doing that is pretty small youfeel like you're getting there faster
+ but so that so the same would be true for ABS even if they don't slam thereyou know the pedal to the floor when the
+ light turns green they're gonna get you they're within you know if it's a15-minute trip within 30 seconds of what
+ you would have done otherwise if you were going really aggressively so Ithink there's this sort of
+ self-deception that that my aggressive driving style is getting me there fasterwell so that's you know some of the
+
+
+0:39:44
+Speaker 1 :things I study some things I'm
+ fascinated by the psychology of that I don't think it matters that it doesn'tget you there faster it's it's the
+ emotional release driving is is a place being inside or a car somebody said it'slike the real world version of being a
+ troll so you have this protection this mental protection you're able to sort ofyell at the world like release your
+ anger whatever is but so there's an element of that that I think autonomousvehicles would also have to you know
+ have giving an outlet to people but it doesn't have to be through throughthrough driving or honking or so on
+ there might be other outlets but I think to just sort of even just put that asidethe baseline is really you know that's
+ the focus that's the thing you need to solve and then the fun human things canbe solved after but so from the baseline
+ of just solving autonomous driving and you're working in San Francisco one ofthe more difficult cities to operate in
+ what what is what is the any of you currentlythe hardest aspect of autonomous driving
+ and negotiated with pedestrians is that edge cases of perception is it planningis there a mechanical engineering is it
+ data fleet stuff like what are your thoughtson the challenge the more challenging
+ aspects there that's a good that's a
+
+0:41:01
+Speaker 0 :good question I think before before we
+ go to that though I just wanted I like what you said about the psychologyaspect of this because I think one
+ observation I made is I think I read somewhere that I think it's maybeAmericans on average spend you know over
+ an hour a day on social media like staring at Facebook and so that's justyou know 60 minutes of your life you're
+ not getting back and it's probably not super productive and so that's 3,600seconds right and that's that's time you
+ know it's a lot of time you're giving up and if you compare that to people beingon the road if another vehicle whether
+ it's a human driver or autonomous vehicle delays them by even threeseconds they're laying in on the horn
+ you know even though that's that's you know one one thousandth of the time theywaste looking at Facebook every day so
+ there's there's definitely some you know psychology aspects of this I think thatare pre interesting road rage in general
+ and then the question of course is if everyone is in self-driving cars do theyeven notice these three-second delays
+ anymore because they're doing other things or reading or working or justtalking to each other so it'll be
+ interesting to see where that goes in a certain aspect people people need
+
+0:42:04
+Speaker 1 :to be distracted by something
+ entertaining something useful inside the car so they don't pay attention to theexternal world and then and then and it
+ can take whatever psychology and bring it back to Twitter and then focus onthat as opposed to sort of interacting
+ sort of putting the emotion out there into the world so it's a it's aninteresting problem but baseline
+ autonomy I guess you could say
+
+0:42:27
+Speaker 0 :self-driving cars you know at scale will
+ lower the collective blood pressure of society probably by a couple points yeahwithout all that road rage and stress so
+ that's a good good externality so back to your question about the technology inthe the I guess the biggest problems and
+ I have a hard time answering that question because you know we've been atthis
+ like specifically focusing on driverless cars and all the technology needed toenable that for a little over four and a
+ half years now and even a year or two in I felt like we hadcompleted the functionality needed to
+ get someone from point A to point B as in if we need to do a left turn maneuveror if we need to drive around a you know
+ a double parked vehicle into oncoming trafficor navigate through construction zones
+ the the scaffolding and the building blocks where it was there pretty earlyon and so the challenge is not any one
+ scenario or situation for which you know we fail at 100% of those it's more youknow we're benchmarking against a pretty
+ good or pretty high standard which is human driving all things consideredhumans are excellent at handling the
+ edge cases and unexpected scenarios whereas computers the opposite and sobeating that that baseline set by humans
+ is the challenge and so what we've been doing for quite some time now isbasically
+ it's this continuous improvement process where we find sort of the the most youknow uncomfortable or the things that
+ that could lead to a safety issue other things all these events and then we sortof categorize them and rework parts of
+ our system to make incremental improvements and do that over and overand over again and we just see sort of
+ the overall performance of the system you know actually increasing in a prettysteady clip but there's no one thing
+ there's actually like thousands of little things and just like polishingfunctionality and making sure that it
+ handles you know every version impossible permutation of a situation byeither applying more deep learning
+ systems or just by you know adding more tests coverage or new scenarios thatthat we develop against and just
+ grinding on that it's we're sort of in the the unsexy phase of developmentright now which is doing the real
+ engineering work that it takes to go from prototype to productionyou're basically scaling the the
+
+
+0:44:45
+Speaker 1 :grinding so has sort of taking seriously
+ that the process of all those edge cases both with human experts and machinelearning methods to cover to cover all
+ those situations yeah and the exciting
+
+0:44:59
+Speaker 0 :thing for me is I don't think that
+ grinding ever stops right because there's a moment in time where you youcross that threshold of human
+ performance and become superhuman but there's no reason there's no firstprinciples reason that AV capability
+ will tap out anywhere near humans like there's no reason it couldn't be 20times better whether that's you know
+ just better driving or safer driving a more comfortable driving or even athousand times better given enough time
+ and we intend to basically chase that you know forever to build the bestpossible product better and better and
+
+
+0:45:33
+Speaker 1 :better and always new educators come up
+ and you experiences so and you want to automate that process as much aspossible mhm so what do you think in
+ general in society when do you think we may have hundreds of thousands of fullyautonomous vehicles driving around so
+ first of all predictions nobody knows the future you're a part of the leadingpeople trying to define that future but
+ even then you still don't know but if you think about a hundreds of thousandsof heat
+ so a significant fraction of vehicles in major cities are autonomous do you thinkI would Rodney Brooks who is 2050 and
+ beyond are you more with Elon Musk who is we should have had that two years ago
+
+0:46:20
+Speaker 0 :well I mean I don't want me to have it
+ two years ago but we're not there yet so I guess the the way I would think aboutthat is let's let's flip that question
+ around so what would prevent you to reach hundreds of thousands of vehiclesand that's a goodness a good rephrasing
+
+
+0:46:37
+Speaker 1 :
+
+0:46:38
+Speaker 0 :yeah so the
+ I'd say the it seems the consensus among thepeople developing self-driving cars
+ today is to sort of start with some form of an easier environment whether itmeans you know lacking inclement weather
+ or you know mostly sunny or whatever it is and then add add capability for morecomplex situations over time and so if
+ you're only able to deploy in areas that that meet sort of your criteria or thatthe current domain you know operating
+ domain of the software you developed that may put a cap on how many citiesyou could deploy in
+ but then as those restrictions start to fall away like maybe you add you knowcapability to drive really well and and
+ safely in heavy rain or snow you know that that probably opens up the marketby - two or three fold in terms of the
+ cities you can expand into and so on and so the real question is you know I Iknow today if we wanted to we could
+ produce that that many autonomous vehicles but we wouldn't be able to makeuse of all of them yet because we would
+ sort of saturate the demand in the cities in which we would want to operateinitially so if I were to guess like
+ what the timeline is for those things falling away and reaching hundreds ofthousands of vehicles maybe a range is
+ but I would I would say less than five
+
+0:47:58
+Speaker 1 :years that's in five years yeah and of
+ course you're working hard to make that happenso you started two companies that were
+ eventually acquired for each for a billion dollars so you're pretty goodperson to ask what does it take to build
+ a successful startup mmm-hmm I think
+
+0:48:14
+Speaker 0 :there's there sort of survivor bias here
+ a little bit but I can try to find some common threads for the the things thatworked for me which is
+ you know in in both of these companies it was really passionate about the coretechnology I actually like you know lay
+ awake at night thinking about these problems and how to solve them and Ithink that's helpful because when you
+ start a business there are like to this day they're they're these crazy ups anddowns like one day you think the
+ business is just on you're just on top of the world and unstoppable and thenext day you think okay this is all
+ gonna and you know it's it's just it's just going south and it's gonna be overtomorrow and and so I think like having
+ a true passion that you can fall back on and knowing that you would be doing iteven if you weren't getting paid for it
+ helps you whether those those tough times so that's one thing I think theother one is
+ really good people so I've always been surrounded by really good co-foundersthat are logical thinkers are always
+ pushing their limits and have very high levels of integrity so that's Dan Khanin my current company and actually his
+ brother and a couple other guys for Justin TV and twitch and then I thinkthe last thing is
+ just uh I guess persistence or perseverance like and and that that canapply to sticking to sort of a or having
+ conviction around the original premise of your idea and and sticking around todo all the you know the unsexy work to
+ actually make it come to fruition including dealing with you know whateverit is that that you're not passionate
+ about whether that's finance or or HR or or operations or those things as long asyou are grinding away in working towards
+ you know that North Star for your business whatever it is and you don'tgive up and you're making progress every
+ day it seems like eventually you'll end up in a good place and the only thingsthat can slow you down are you know
+ running out of money or I suppose your competitors destroying you but I thinkmost of the time it's people giving up
+ or or somehow destroying things themselves rather than being beaten bytheir competition or running out of
+ money yeah if you never quit eventually
+
+0:50:12
+Speaker 1 :you'll arrive
+
+
+0:50:15
+Speaker 0 :so working size version of what I was
+ trying to say yeah so you want the Y
+
+0:50:18
+Speaker 1 :Combinator out twice yeah what do you
+ think in a quick question do you think is the best way to raise funds in theearly days or not just funds but just
+ community develop your idea and so on can you do it solo or maybe with aco-founder with like self-funded do you
+ think Y Combinator is good it's good to do VC route is there no right answer wasthere for the Y Combinator experience
+ something that you could take away that that was the right path to take there's
+
+0:50:49
+Speaker 0 :no one-size-fits-all answer but if your
+ ambition I think is to you know see how big you can make something or or orrapidly expand and capture market or
+ solve a problem or whatever it is then then you know going to venture backroute is probably a good approach so
+ that so that capital doesn't become your primary constraint Y Combinator I lovebecause it puts you in this sort of
+ competitive environment while you're where you're surrounded by you know thetop maybe one percent of other really
+ highly motivated you know peers who are in the same same place and that thatenvironment I think just breeds
+ breed success right if you're surrounded by really brilliant hard-working peopleyou're gonna feel you know sort of
+ compelled or inspired to try to emulate them and/or beat them and so even thoughI had done it once before and I felt
+ like yeah I'm pretty self-motivated I thought like I look this is gonna be ahard problem I can use all the help I
+ can get so surrounding myself with other entrepreneurs is gonna make me work alittle bit harder or push a little
+ harder than it's worth it when Saba white why I did it you know for examplea second time let's let's go
+
+
+0:51:55
+Speaker 1 :philosophical existential if you'd go
+ back and do something differently in your life starting in high school thanMIT leaving MIT you could have gone the
+ PG route doing startup I'm gonna see about a start-up in California and youthor maybe some aspects of fundraising is
+ there something you'll regret something you need not necessarily grabbut if you go back it could do
+ differently I think I've made a lot of
+
+0:52:22
+Speaker 0 :mistakes like you know pretty much
+ everything you can screw up I think I've screwed up at least once but I you knowI don't regret those things I think it's
+ hard to hard to look back on things even if they didn't go well and call it aregret because hopefully took away some
+ new knowledge or learning from that so I would say there was a period yeah theclosest I can I can come to us is
+ there's a period in in justin.tv I think after seven years wherethat the company was going one direction
+ which is sorts twitch in video gaming and I'm not a video gamer I don't reallyeven use twitch at all and I was still
+ working on the core technology there but my heart was no longer in it because thebusiness that we were creating was not
+ something that I was personally passionate about it didn't meet your bar
+
+0:53:11
+Speaker 1 :of existential impact yeah and I'd say
+
+
+0:53:13
+Speaker 0 :III probably spent an extra year or two
+ working on that and and I'd say like I would have just tried to do somethingdifferent sooner because those are those
+ were two years where I felt like you know from this philosophical orexistential thing I I just I just felt
+ something was missing and so I would have I would have if I could look backnow and tell myself it's like I would
+ have said exactly that like you're not getting any meaning out of your workpersonally right now you should you
+ should find a way to change that and that's part of the pitch I use tobasically everyone who joins crews today
+ it's like hey you've got that now by coming herewell maybe you needed the two years of
+
+
+0:53:49
+Speaker 1 :that existential dread to develop the
+ feeling that ultimately was the fire that created crews so you never know youcan be good theory yeah so last question
+ what does 2019 hold for crews after this
+
+0:54:02
+Speaker 0 :I guess we're gonna go and I'll talk to
+ your class but one of the big things is going from prototype to production forautonomous cars and what does that mean
+ once that look like in 2019 for us is the year that we try to cross over thatthreshold and reach
+ you know superhuman level of performance to some degree with the software andhave all the other of the thousands of
+ little building blocks in place to launch you know our first commercialproduct so that's that's what's in score
+ for us are in store for us and we've got a lot of work to do we've got a lot ofbrilliant people working on it so it's
+ it's all up to us now yeah from Charlie
+
+0:54:38
+Speaker 1 :Miller and Chris fells like the people I
+ have crossed paths with if you know it sounds like you have an amazing team soI'm like I said it's one of the most I
+ think one of the most important problems in artificial intelligence of thecentury you'll be one of the most
+ defining the super exciting that you work on it and the best of luck in 2019I'm really excited to see what Cruz
+ comes up with thank you thanks for
+

@@ -1,0 +1,5364 @@
+0:00:00
+Speaker 1 :- The following is a conversation
+with Vladimir Vapnik,
+ part two, the second time
+we spoke on the podcast. He's the co inventor of
+support vector machines,support vector clustering, VC theory
+ and many foundational ideas
+in statistical learning. He was born in the Soviet Union,worked at the Institute of
+Control Sciences in Moscow,
+ then in the U.S., worked at ATT&T, NEC Labs, Facebook AI Research,and now is a professor
+at Columbia University.
+ His work has been cited
+over 200,000 times. The first time we spoke on the podcastwas just over a year ago,
+one of the early episodes.
+ This time we spoke after
+a lecture he gave titled: "Complete Statistical Theory of Learning,"as part of the MIT series
+of lectures on Deep Learning
+ and AI that I organized. I'll release the video of the
+lecture in the next few days.This podcast and the lecture
+are independent from each other
+ so you don't need one
+to understand the other. The lecture is quite
+technical and math heavy.So if you do watch both,
+I recommend listening
+ to this podcast first, since
+the podcast is probably a bit more accessible.This is The Artificial
+Intelligence Podcast.
+ If you enjoy it, subscribe on YouTube, give it five starts on Apple PodCast,support it on Patreon, or simply
+connect with me on Twitter
+ @LexFridman, spelled: F-R-I-D-M-A-N. As usual, I'll do one or
+two minutes of ads now,and never any ads in the
+middle that can break
+ the flow of the conversation. I hope that works for you and doesn't hurtthe listening experience.
+ This show is presented by Cash App, the number one finance
+app on the App Store.When you get it, use code: LexPodcast.
+ Cash App lets you send money to friends by BitCoin and invest in the stock marketwith as little as $1.
+ Broker services are provided
+by Cash App Investing, a subsidiary of Square,
+and member S.I.P.C..Since Cash App allows you
+to send and receive money
+ digitally peer to peer,
+and security in all digital transaction is very
+important, let me mentionthat PCI data security standard.
+ PCI DSS Level One, that
+Cash App is complaint with. I'm a big fan of standards
+for safety and securityand PCI DSS is a good example of that.
+ Where a bunch of competitors got together and agreed that there needs
+to be a global standardaround the security of transactions.
+ Now we just need to do the
+same for autonomous vehicles and A.I. systems in general.So again, if you get Cash
+App from the App Store
+ or Google Play, and use
+the code: LexPodcast, you get $10, and Cash App
+will also donate $10 to FIRST,one of my favorite
+organizations that is helping
+ to advance robotics and STEM education for young people around the world.And now, here's my conversation
+with Vladimir Vapnik.
+ You and I talked about
+Alan Turing yesterday, a little bit.
+- Yes.- And that he, as the father
+of artificial intelligence
+ may have instilled in our
+field an ethic of engineering in that science.Seeking more to build intelligence
+ rather than to understand it. What do you think is the
+difference between these two pathsof engineering intelligence and
+the science of intelligence?
+
+
+0:03:20
+Speaker 2 :- It's a completely different story.
+
+
+0:03:23
+Speaker 0 :Engineering is imitation
+of human activity.
+
+
+0:03:26
+Speaker 2 :
+
+0:03:27
+Speaker 0 :
+
+0:03:28
+Speaker 2 :You have to make
+
+
+0:03:30
+Speaker 0 :a device which behaves as a human behaves.
+
+
+0:03:33
+Speaker 2 :
+
+0:03:36
+Speaker 0 :You have all the functions of human.
+
+
+0:03:40
+Speaker 2 :It does not matter how you do it.
+
+
+0:03:41
+Speaker 0 :But to understand what
+is intelligence about,
+
+
+0:03:44
+Speaker 2 :is quite different problem.
+
+
+0:03:48
+Speaker 0 :
+
+0:03:50
+Speaker 2 :So I think, I believe,
+
+
+0:03:51
+Speaker 0 :
+
+0:03:54
+Speaker 2 :that it's somehow related to
+predicated talk yesterday.
+ Because, look atVladimir Propp's idea.
+ He just found such a one here, predicates. He called it units.
+
+0:04:15
+Speaker 0 :Which can explain human behavior,
+ at least in Russian tales. You look at the Russian
+tales and derive from that.And then people realize that they're more
+ violent in Russian tales. It is in TV, in movie
+serials and so on and so on.
+
+0:04:33
+Speaker 1 :- So you're talking about
+ Vladimir Propp, who in
+1928 published a book, "Morphology of the Folk Tale."
+- Exactly.- Describing 31 predicates that
+ have this kind of sequential structure that a lot of the
+stories' narratives followin Russian folklore and in other content.
+ We'll talk about it; I'd
+like to talk about predicates in a focused way, but let
+me, if you'll allow me,to stay zoomed out on
+our friend Allen Touring.
+ And you know, he inspired a generation with the imitation game.
+- Yes.
+
+0:05:09
+Speaker 2 :
+
+0:05:11
+Speaker 1 :- Do you think, if we can linger
+on that a little bit longer
+ do you think we can learn? Do you think learning
+to imitate intelligencecan get us closer to
+understanding intelligence?
+ Why do you think imitation
+is so far from understanding?
+
+0:05:31
+Speaker 0 :- I think that it is different
+
+
+0:05:35
+Speaker 2 :between you have different goals.
+
+
+0:05:39
+Speaker 0 :Your goal is to create
+something, something useful.
+ And that is great,
+
+0:05:47
+Speaker 2 :and you can see how much things was done
+
+
+0:05:48
+Speaker 0 :
+
+0:05:51
+Speaker 2 :and I believe that it
+will be done even more.
+
+
+0:05:52
+Speaker 0 :Self-driving cars and all
+sorts of this business.
+
+
+0:05:59
+Speaker 2 :It is great, and it was
+inspired by Turing's vision.
+
+
+0:06:02
+Speaker 0 :But understanding is very difficult.
+ It's more or less a
+philosophical category.
+
+0:06:09
+Speaker 2 :What means understandable?
+
+
+0:06:11
+Speaker 0 :I believe in things
+which start from Plato.
+ That there exists world of ideas. I believe that intelligence,
+it is world of ideas.But it is world of pure ideas.
+
+
+0:06:25
+Speaker 2 :And when you
+
+
+0:06:29
+Speaker 0 :
+
+0:06:31
+Speaker 2 :combine that with reality things,
+
+
+0:06:32
+Speaker 0 :it creates as in my case, in the variants,
+ which is very specific.
+
+0:06:39
+Speaker 2 :And that I believe, the combination
+
+
+0:06:45
+Speaker 0 :of ideas and a way to
+constructing the variant
+ is intelligence, but
+first of all a predicate.
+
+0:06:52
+Speaker 2 :
+
+0:06:53
+Speaker 0 :If you know predicate, and hope for this
+
+
+0:06:56
+Speaker 2 :
+
+0:06:57
+Speaker 0 :is not too much predicate exists.
+ For example, sort of
+unpredicted for human behavior
+
+0:07:05
+Speaker 1 :is not a lot.
+- Vladimir Propp used
+ 31 (sighs) you could even call
+'em predicates, 31 predicates to describe stories, narratives.Do you think human behavior,
+ how much of human behavior,
+how much of our world, our universe, all the things
+that matter in our existencecan be summarized in predicates
+ of the kind that Propp was working with?
+
+0:07:32
+Speaker 2 :- I think that we have
+
+
+0:07:35
+Speaker 0 :a lot of forms of behavior.
+ But I think the predicate is much less. Because even in these examples
+which I gave you yesterday,
+
+0:07:43
+Speaker 2 :you saw
+
+
+0:07:47
+Speaker 0 :
+
+0:07:48
+Speaker 2 :that predicate can be,
+
+
+0:07:51
+Speaker 0 :one, predicate can construct
+many different invariants,
+ depending on your data. They're applying to different dataand they give different invariants.
+
+
+0:08:06
+Speaker 2 :But pure ideas,
+
+
+0:08:07
+Speaker 0 :
+
+0:08:08
+Speaker 1 :maybe not so much.
+- Not so many.
+
+
+0:08:09
+Speaker 0 :- I don't know about that.
+ But my guess, I hope,
+
+0:08:14
+Speaker 2 :
+
+0:08:15
+Speaker 0 :that's my challenge
+about digit recognition,
+
+
+0:08:16
+Speaker 2 :how much you need.
+
+
+0:08:19
+Speaker 1 :- I think we'll talk about computer vision
+ and 2-D images a little
+bit in your challenge.
+
+0:08:24
+Speaker 0 :
+
+0:08:26
+Speaker 1 :- [Vladimir] That's
+exact about intelligence.
+ - That's exactly about, no, that hopes to be exactly about
+the spirit of intelligencein the simplest possible way.
+- Yeah, absolutely.
+
+
+0:08:36
+Speaker 0 :You should start the simplest way,
+ otherwise you will not be able to do it.
+
+0:08:42
+Speaker 1 :- There's an open question whether
+ starting at the MNIST digit recognition is a step towards intelligence
+or it's an entirely
+
+0:08:52
+Speaker 0 :different thing.
+- I think that to build
+
+
+0:08:53
+Speaker 2 :
+
+0:08:55
+Speaker 0 :records using say, 100,
+200 times less examples,
+
+
+0:08:59
+Speaker 1 :you need intelligence.
+- You need intelligence.
+ So let's, because you use this term, and it would be nice,
+I'd like to ask simple,maybe even dumb questions.
+ Let's start with a predicate. In terms of terms and
+how you think about it,
+
+0:09:16
+Speaker 2 :what is a predicate?
+
+
+0:09:17
+Speaker 0 :- I don't know.
+ (laughs)
+I have a feeling,
+
+0:09:21
+Speaker 2 :formally they exist.
+
+
+0:09:24
+Speaker 0 :
+
+0:09:27
+Speaker 2 :I believe that predicate for 2-D images.
+ One of them is symmetry.
+
+0:09:31
+Speaker 1 :- Hold on a second.
+ Sorry, sorry to interrupt
+and pull you back. At the simplest level, we're
+not being profound currently.A predicate is a statement
+of something that is true.
+
+
+0:09:43
+Speaker 2 :- [Vladimir] Yes.
+
+
+0:09:46
+Speaker 1 :- Do you think of predicates
+as somehow probabilistic
+ in nature or is this binary? This is truly constraints
+of logical statements
+
+0:10:00
+Speaker 0 :about the world.
+- In my definition,
+ the simplest predicate is function.
+
+0:10:03
+Speaker 2 :
+
+0:10:03
+Speaker 0 :Function and you can use this function
+ to make inner product, that is predicate.
+
+0:10:10
+Speaker 1 :- What's the input and what's
+the output of the function?
+
+
+0:10:13
+Speaker 0 :- Input is X, something
+which is input in reality.
+ Say, if you considered digit
+recognition, in pixel space.
+
+0:10:26
+Speaker 2 :But it is function which in pixel space.
+
+
+0:10:27
+Speaker 0 :
+
+0:10:31
+Speaker 2 :But it can be any function, pixel space.
+
+
+0:10:35
+Speaker 0 :And you choose, and I believe
+ that there are several functions, which is important for
+understanding of images.
+
+0:10:44
+Speaker 2 :
+
+0:10:46
+Speaker 0 :One of them is symmetry, it's
+not so simple construction,
+ as I described is the
+derivative, it's all this stuff.
+
+0:10:54
+Speaker 2 :
+
+0:10:56
+Speaker 0 :But another I believe,
+I don't know how many,
+
+
+0:11:00
+Speaker 2 :is how well-structurized is picture.
+
+
+0:11:03
+Speaker 1 :- Structurized?
+- Yeah.
+ - What do you mean by structurized?
+
+0:11:06
+Speaker 0 :- It is formal definition, say,
+ something heavy on the left corner, not so heavy in the middle and so on.You describe in general,
+concept of what you assume.
+
+
+0:11:21
+Speaker 1 :- Concepts, some kind
+of universal concepts.
+
+
+0:11:24
+Speaker 2 :- Yeah.
+
+
+0:11:26
+Speaker 0 :But I don't know how to formalize this.
+
+
+0:11:28
+Speaker 1 :- This is the thing,
+there's a million ways
+ we can talk about this,
+I'll keep bringing it up. We humans have such concepts,when we look at digits.
+ But it's hard to put them,
+just like you're saying now, it's hard to put them into words.
+
+0:11:45
+Speaker 0 :- You know, that is example.
+
+
+0:11:47
+Speaker 2 :When critics
+
+
+0:11:52
+Speaker 0 :in music, trying to describe music,
+
+
+0:11:55
+Speaker 2 :they use predicate.
+
+
+0:11:57
+Speaker 0 :And not too many predicate
+but in different combination.
+ But they have some special
+words for describing music.
+
+0:12:06
+Speaker 2 :
+
+0:12:10
+Speaker 0 :And the same should be for images.
+ But maybe there are critics who understand
+
+0:12:15
+Speaker 2 :
+
+0:12:17
+Speaker 0 :
+
+0:12:17
+Speaker 2 :essence of what this image is about.
+
+
+0:12:20
+Speaker 1 :- Do you think there
+exists critics who can
+ summarize the essence
+of images, human beings?
+
+0:12:29
+Speaker 0 :- [Vladimir] I hope that, yes.
+
+
+0:12:32
+Speaker 1 :
+
+0:12:34
+Speaker 2 :- Explicitly state them on paper?
+
+
+0:12:36
+Speaker 1 :The fundamental question I'm asking
+ is do you (chuckles) do
+you think there exists a small set of predicates
+that will summarize images?It feels to our mind like it does
+ that the concept of what
+makes a two and a three and a four--
+- No, no, no.
+
+0:12:55
+Speaker 0 :
+
+0:12:58
+Speaker 2 :It's not only on this level.
+
+
+0:13:01
+Speaker 0 :It should not describe two, three, four.
+ It describes some
+construction which allows you
+
+0:13:10
+Speaker 2 :to create an invariants.
+
+
+0:13:11
+Speaker 1 :- And invariants, sorry to stick on this,
+
+
+0:13:15
+Speaker 2 :but terminology.
+- Invariants, it is,
+ it is projection of your image.Say,
+
+
+0:13:26
+Speaker 0 :I can say, looking at my image,
+ it is more or less symmetric
+
+0:13:33
+Speaker 2 :and I can give you a variable of symmetry.
+
+
+0:13:35
+Speaker 0 :Say, level of symmetry using this function
+
+
+0:13:41
+Speaker 2 :which I gave yesterday.
+
+
+0:13:43
+Speaker 0 :
+
+0:13:44
+Speaker 2 :Then you can describe
+ that your image
+
+0:13:49
+Speaker 0 :has these characteristics
+exactly in the way
+
+
+0:13:55
+Speaker 2 :how musical critics describe music.
+
+
+0:13:58
+Speaker 0 :But this is invariant
+applied to specific data,
+
+
+0:14:01
+Speaker 2 :
+
+0:14:02
+Speaker 0 :
+
+0:14:05
+Speaker 2 :to specific music, to something.
+
+
+0:14:07
+Speaker 0 :I strongly believe in
+ this Plato idea, that exists world of
+predicate and world of realityand predicate and reality
+are somehow connected
+
+
+0:14:20
+Speaker 2 :and you have to figure out that.
+
+
+0:14:21
+Speaker 1 :- Let's talk about Plato a little bit.
+ So you draw a line from Plato to Hegel to Wigner to today.
+- Yes.- So Plato has forms.
+ The theory of forms;
+there's a world of ideas and a world of things, as you talk about.And there's a connection,
+and presumably the world
+ of ideas is very small,
+and the world of things is arbitrarily big, but they're all,what Plato calls them like,
+ it's a shadow, the real world is a shadow
+
+0:14:55
+Speaker 0 :from the world of form.
+- Yeah and you have projection
+ - Projection.
+- Of a world of idea.
+
+0:14:58
+Speaker 2 :
+
+0:14:59
+Speaker 0 :- Yeah, very poetic.
+- And in reality you can,
+ realize this projection
+using these invariants because it is a projection
+for only specific exampleswhich create specific
+features of specific objects.
+
+
+0:15:15
+Speaker 2 :
+
+0:15:17
+Speaker 1 :- So the essence of intelligence is,
+ while only being able to
+observe the world of things, try to come up with a world of ideas.
+
+0:15:26
+Speaker 0 :- Exactly, like in this music story.
+ Intelligent musical
+critics knows this world and have a feeling about them.
+- I feel like
+
+0:15:34
+Speaker 1 :that's a contradiction;
+intelligent music critics.
+
+
+0:15:42
+Speaker 2 :I think music is to be...
+
+
+0:15:44
+Speaker 1 :enjoyed in all its forms.
+ The notion of critic, like a food critic.
+
+0:15:49
+Speaker 0 :- [Vladimir] No, I don't
+want attach emotion.
+
+
+0:15:52
+Speaker 1 :- That's an interesting question.
+ Does emotion, there's certain elements of the human psychology,
+of the human experiencewhich seem to almost contradict
+intelligence and reason.
+ Like emotion, like fear. Like love, all of those things.Are those not connected in
+any way to the space of ideas?
+
+
+0:16:16
+Speaker 0 :
+
+0:16:18
+Speaker 2 :- This I don't know.
+
+
+0:16:19
+Speaker 0 :
+
+0:16:21
+Speaker 2 :I just want
+
+
+0:16:22
+Speaker 0 :to be concentrating on very simple story.
+ On digit recognition.
+
+0:16:27
+Speaker 1 :- So you don't think you have to love
+ and fear death in order
+to recognize digits?
+
+0:16:32
+Speaker 2 :
+
+0:16:32
+Speaker 0 :- I don't know because
+it's so complicated.
+ It involves a lot of stuff
+which I never considered. But I know about digit recognition.
+
+0:16:43
+Speaker 2 :And I know that for digit recognition
+
+
+0:16:52
+Speaker 0 :to get the records from small
+numbers of observations,
+
+
+0:16:57
+Speaker 2 :you need predicate but
+not special predicate
+
+
+0:16:59
+Speaker 0 :
+
+0:17:02
+Speaker 2 :for this problem.
+
+
+0:17:03
+Speaker 0 :But universal predicate which understand
+ world of images. - Of visual information.
+- Visual, yeah.But on the first step, they understand
+
+
+0:17:15
+Speaker 2 :
+
+0:17:16
+Speaker 0 :say, a world of 100 digits
+ or characters or something simple.
+
+0:17:21
+Speaker 1 :- [Lex] So like you said,
+symmetry is an interesting one.
+
+
+0:17:22
+Speaker 0 :- No, that's what I think
+one of the predicate
+ is related to symmetry,
+the level of symmetry.
+
+0:17:30
+Speaker 1 :- Okay, degree of symmetry.
+- Yeah.
+ - So you think symmetry at the bottom is a universal notion and there's,there's degrees of a
+single kind of symmetry?
+ Or is there many kinds of symmetries?
+
+0:17:43
+Speaker 2 :
+
+0:17:44
+Speaker 0 :- Many kinds of symmetries.
+ There is a symmetry/anti-symmetry
+say, letter S.
+
+0:17:49
+Speaker 2 :
+
+0:17:52
+Speaker 0 :So it has vertical anti-symmetry.
+
+
+0:17:56
+Speaker 2 :
+
+0:17:59
+Speaker 0 :It could be diagonal
+symmetry, vertical symmetry.
+
+
+0:18:02
+Speaker 1 :- So when you cut
+vertically the letter S--
+
+
+0:18:07
+Speaker 2 :- Yeah, and then
+ the upper part and lower part
+are in different directions.
+
+0:18:13
+Speaker 0 :
+
+0:18:14
+Speaker 2 :
+
+0:18:16
+Speaker 1 :- Inverted along the Y-axis.
+ But that's just like, one
+example of symmetry right?
+
+0:18:22
+Speaker 0 :Isn't there like--
+- Right, but there
+ is a degree of symmetry.
+
+0:18:25
+Speaker 2 :
+
+0:18:26
+Speaker 0 :If you play all this lineated stuff
+
+
+0:18:29
+Speaker 2 :
+
+0:18:33
+Speaker 0 :to do tangent distance,
+ whatever I described, you can have a degree of symmetry.And that is what is
+describing reason of image.
+
+
+0:18:44
+Speaker 2 :
+
+0:18:45
+Speaker 0 :It is the same as you will describe
+
+
+0:18:49
+Speaker 2 :this image
+
+
+0:18:53
+Speaker 0 :saying about digit S
+ has anti-symmetry, digit three is symmetric more/less.
+
+0:18:59
+Speaker 2 :
+
+0:19:00
+Speaker 0 :
+
+0:19:03
+Speaker 2 :Look for symmetry.
+
+
+0:19:03
+Speaker 1 :- Do you think such concepts
+like symmetry predicates,
+ like symmetry, is it a
+hierarchical set of concepts? Or are theseindependent, distinct predicates
+ that we want to discover a subset of?
+
+0:19:23
+Speaker 0 :- There is a degree of symmetry.
+ And this idea of symmetry made
+
+0:19:30
+Speaker 2 :
+
+0:19:34
+Speaker 0 :very general, like degree of symmetry,
+ the degree of symmetry can
+be zero, no symmetry at all. Or degree of symmetry of let's say,
+
+0:19:44
+Speaker 2 :more or less symmetrical.
+ But you have one of these descriptions,
+
+0:19:49
+Speaker 0 :and symmetry can be different.
+ As I told, horizontal, vertical, diagonal. Anti-symmetry also is
+a concept of symmetry.
+
+0:20:01
+Speaker 1 :- What about shape in general?
+ I mean, symmetry is a fascinating notion,
+
+0:20:06
+Speaker 0 :but it--
+- No, no, I'm talking about
+ digits, I would like to concentrate on all I would like to know
+predicate for digit recognition.
+
+0:20:13
+Speaker 1 :- Yes, but symmetry is not
+enough for digit recognition,
+
+
+0:20:18
+Speaker 2 :
+
+0:20:19
+Speaker 0 :right?
+- It is not necessarily
+
+
+0:20:21
+Speaker 2 :for digit recognition; it helps
+
+
+0:20:25
+Speaker 0 :
+
+0:20:27
+Speaker 2 :to create invariant,
+
+
+0:20:29
+Speaker 0 :which you can use when
+you will have examples
+
+
+0:20:32
+Speaker 2 :
+
+0:20:33
+Speaker 0 :for digit recognition.
+ You have regular problem
+of digit recognition. You have examples of the
+first class and second class.Plus you know that there exists
+this concept of symmetry.
+ And you apply when you're
+looking for decision rule,
+
+0:20:50
+Speaker 2 :you will apply
+
+
+0:20:53
+Speaker 0 :concept of symmetry,
+ of this level of symmetry
+which you estimate from. Everything is,
+
+0:21:03
+Speaker 2 :
+
+0:21:03
+Speaker 0 :comes from weak convergence.
+
+
+0:21:05
+Speaker 2 :
+
+0:21:06
+Speaker 1 :- What is convergence?
+ What is weak convergence? What is strong convergence?I'm sorry I'm gonna do this to you.
+ What are we converging from and to?
+
+0:21:15
+Speaker 2 :- You're converging, you
+would like to have a function.
+
+
+0:21:18
+Speaker 0 :The function which say, indicate
+a function which indicate
+
+
+0:21:26
+Speaker 2 :your digit
+
+
+0:21:29
+Speaker 1 :five, for example.
+- A classification/task--
+
+
+0:21:31
+Speaker 0 :- Let's talk only about
+classification task.
+
+
+0:21:33
+Speaker 1 :- So classification means you will say
+ whether this is a five or not, or say which of the 10 digits it is.
+
+0:21:40
+Speaker 0 :- Right, right, I would like
+
+
+0:21:44
+Speaker 2 :to have these functions.
+ Then, I have some examples.
+
+0:21:55
+Speaker 0 :I can consider property of these examples.
+
+
+0:21:58
+Speaker 2 :
+
+0:22:02
+Speaker 0 :Say, symmetry, and I can
+measure level of symmetry
+
+
+0:22:05
+Speaker 2 :for every digit.
+
+
+0:22:07
+Speaker 0 :
+
+0:22:10
+Speaker 2 :And then I can take average
+
+
+0:22:13
+Speaker 0 :from my training data.
+
+
+0:22:18
+Speaker 2 :And I will consider only functions
+
+
+0:22:22
+Speaker 0 :of conditional probability,
+which I'm looking
+
+
+0:22:25
+Speaker 2 :for in my decision level.
+ Which applying to
+
+0:22:36
+Speaker 0 :the digits will give me the same average
+
+
+0:22:39
+Speaker 2 :as I observed on training data.
+
+
+0:22:41
+Speaker 0 :So actually this is different level
+ of description of what you want. You want,not just, you show not one digit.
+ You show this predicate,
+show general property
+
+0:22:57
+Speaker 2 :of all digits which you have in mind.
+
+
+0:23:03
+Speaker 0 :If you have in mind digit three,
+
+
+0:23:05
+Speaker 2 :
+
+0:23:07
+Speaker 0 :it gives you property of digit three
+ and you select as
+admissible set of functions,
+
+0:23:14
+Speaker 2 :only function which keeps this property.
+
+
+0:23:17
+Speaker 0 :You will not consider the other functions.
+
+
+0:23:19
+Speaker 2 :
+
+0:23:20
+Speaker 0 :So you're immediately
+looking for smaller subset
+ of functions.
+- That's what you mean
+
+0:23:24
+Speaker 1 :by an admissible function.
+- And admissible function.
+
+
+0:23:27
+Speaker 0 :
+
+0:23:28
+Speaker 1 :Exactly.
+- Which is still
+ a pretty large, for the number three,
+
+0:23:32
+Speaker 0 :that's a large--
+- It's large but,
+ if you have one predicate. But according to,there is a strong and weak convergence.
+ Strong convergence if
+convergence in function.
+
+0:23:44
+Speaker 2 :
+
+0:23:46
+Speaker 0 :You're looking for the
+function, on one function,
+ and you're looking on another function.
+
+0:23:54
+Speaker 2 :And square difference
+ from them should be small.
+
+0:23:59
+Speaker 0 :If you take difference at any points,
+ make a square, make an integral,
+and it should be small. That is convergence in function.
+
+0:24:09
+Speaker 2 :Suppose you had some
+function, any function.
+
+
+0:24:10
+Speaker 0 :So I would say, I say that some function
+
+
+0:24:16
+Speaker 2 :converged to this function.
+
+
+0:24:18
+Speaker 0 :If integral from square
+difference between them is small--
+
+
+0:24:22
+Speaker 1 :- That's the definition
+of strong convergence.
+
+
+0:24:25
+Speaker 0 :- That's the definition of--
+- Two functions,
+
+
+0:24:25
+Speaker 1 :the integral of the difference
+
+
+0:24:28
+Speaker 0 :is small.
+- Yeah, it is convergence
+ in functions.
+- Yeah.
+
+0:24:31
+Speaker 2 :
+
+0:24:31
+Speaker 0 :- But you have different
+convergence in functions.
+ You take any function,
+you take some function Fe
+
+0:24:39
+Speaker 2 :
+
+0:24:41
+Speaker 0 :
+
+0:24:43
+Speaker 2 :and take inner product this
+function, this F function.
+
+
+0:24:45
+Speaker 0 :
+
+0:24:48
+Speaker 2 :F zero function which you want to find,
+
+
+0:24:48
+Speaker 0 :and that gives you some value.
+
+
+0:24:51
+Speaker 2 :
+
+0:24:53
+Speaker 0 :
+
+0:24:54
+Speaker 2 :So you say that a set of functions
+
+
+0:25:00
+Speaker 0 :converge in inner product to this function
+
+
+0:25:04
+Speaker 2 :
+
+0:25:05
+Speaker 0 :if this value of inner product
+converge to value F zero.
+
+
+0:25:08
+Speaker 2 :
+
+0:25:10
+Speaker 0 :That is for one Fe.
+ But three converges requires
+
+0:25:16
+Speaker 2 :that it converges for any
+function of field of space.
+
+
+0:25:20
+Speaker 0 :If it converge for any
+function of field of space,
+ then you will say that
+this is a weak convergence.
+
+0:25:29
+Speaker 2 :You can think that when you take integral,
+
+
+0:25:30
+Speaker 0 :that is property, integral
+property of function.
+ For example, if you will
+take sine or cosine, it is coefficient of say, free expansion.
+
+0:25:43
+Speaker 2 :
+
+0:25:45
+Speaker 0 :
+
+0:25:46
+Speaker 2 :If it converged
+
+
+0:25:49
+Speaker 0 :for all coefficients or free expansion,
+ so under some condition it converged to function you're looking for.
+
+0:26:00
+Speaker 2 :But weak convergence means any property.
+
+
+0:26:03
+Speaker 0 :Not convergence, not point-wise.
+
+
+0:26:04
+Speaker 2 :
+
+0:26:05
+Speaker 0 :But integral property of function.
+
+
+0:26:08
+Speaker 2 :
+
+0:26:09
+Speaker 0 :So weak convergence means
+integral property of functions.
+ When I'm talking about
+predicate, I would like to
+
+0:26:16
+Speaker 2 :
+
+0:26:21
+Speaker 0 :formulate which integral properties
+
+
+0:26:22
+Speaker 2 :I would like to have for convergence.
+
+
+0:26:28
+Speaker 0 :And if I will take one predicate,
+ predicate its function
+which I measure property.
+
+0:26:35
+Speaker 2 :
+
+0:26:37
+Speaker 0 :If I will use one predicate and say,
+ I will consider only
+function which give me the same value as this
+predicate, I select a set
+
+0:26:50
+Speaker 2 :of functions from functions
+which is admissible,
+
+
+0:26:52
+Speaker 0 :in the sense that
+function which I'm looking
+ for in this set of functions.
+
+0:27:01
+Speaker 2 :
+
+0:27:02
+Speaker 0 :Because I'm checking in training data,
+
+
+0:27:03
+Speaker 2 :it gives the same.
+
+
+0:27:08
+Speaker 1 :- [Lex] Yeah, so it
+always has to be connected
+ to the training data in terms of--
+
+0:27:12
+Speaker 0 :- Yeah, but property,
+ you can know independent of training data.
+
+0:27:19
+Speaker 2 :And this guy, Propp,
+
+
+0:27:22
+Speaker 0 :says that there is formal property.
+ 31 property and if you--
+- A fairy tale,
+
+0:27:26
+Speaker 1 :the Russian fairy tale.
+- Right.
+
+
+0:27:27
+Speaker 0 :But the Russian fairy tale
+is not so interesting.
+ It's more interesting
+that people applied this to movies, to theater,to different things and the same works.
+
+
+0:27:39
+Speaker 2 :They're universal.
+
+
+0:27:42
+Speaker 1 :- So I would argue that
+there's a little bit
+ of a difference between the kinds of things that would apply to,which are essentially stories
+and digit recognition.
+
+
+0:27:53
+Speaker 2 :
+
+0:27:54
+Speaker 0 :- [Vladimir] It is the same story.
+
+
+0:27:56
+Speaker 1 :- You're saying digits, there's
+a story within the digit?
+
+
+0:27:59
+Speaker 0 :- Yeah.
+(laughing)
+ So but my point is, well, I hope that it's
+possible to beat a record.
+
+0:28:06
+Speaker 2 :
+
+0:28:08
+Speaker 0 :Using not 60,000
+ but say, 100 times less. Because instead you will give predicates.
+
+0:28:16
+Speaker 2 :
+
+0:28:18
+Speaker 0 :And you will select your decision not
+ from right set of functions. But from set of function
+which gives this predicate.But predicate is not related
+just to digit recognition.
+
+
+0:28:32
+Speaker 2 :
+
+0:28:33
+Speaker 0 :- Right, so--
+- Like in Plato's case.
+
+
+0:28:36
+Speaker 1 :- (laughs) Do you think it's possible
+ to automatically discover the predicates? So, you basically saidthat the essence of intelligence
+ is the discovery of good predicates.
+
+0:28:49
+Speaker 2 :- [Vladimir] Yeah.
+
+
+0:28:50
+Speaker 1 :- Now the natural question is,
+ you know, that's what Einstein
+was good at doing in physics. Can we make machines do these kindsof discovery of good predicates?
+ Or is this ultimately a human endeavor?
+
+0:29:06
+Speaker 2 :
+
+0:29:07
+Speaker 0 :- That I don't know.
+ I don't think that much it can do.
+
+0:29:11
+Speaker 2 :Because,
+
+
+0:29:14
+Speaker 0 :according to theory
+about weak convergence,
+
+
+0:29:17
+Speaker 2 :
+
+0:29:18
+Speaker 0 :any function from Hilbert
+Space can be predicate.
+
+
+0:29:21
+Speaker 2 :
+
+0:29:23
+Speaker 0 :So you have infinite number
+of predicate in upper.
+ And before you don't know which
+predicate is good in which.
+
+0:29:33
+Speaker 2 :But whatever
+
+
+0:29:36
+Speaker 0 :Propp showed, and why
+people call it breakthrough,
+
+
+0:29:41
+Speaker 2 :that there is not too many predicate
+
+
+0:29:46
+Speaker 0 :which cover most of situation
+that happen in the world.
+
+
+0:29:48
+Speaker 2 :
+
+0:29:50
+Speaker 1 :- So there's a sea of predicates.
+ Only a small amount are
+useful for the kinds of things
+
+0:30:00
+Speaker 2 :that happen in the world?
+ - I think that, I would say only a small part
+
+0:30:04
+Speaker 0 :
+
+0:30:05
+Speaker 2 :
+
+0:30:06
+Speaker 0 :of predicates very useful.
+ Useful, all of them.
+- Only a very few
+
+0:30:10
+Speaker 1 :are what we should, let's
+call them good predicates.
+ - Very good predicates.
+- Very good predicates. Can we linger on it,
+what's your intuition?Why is it
+ hard for a machine to
+discover good predicates?
+
+0:30:27
+Speaker 0 :- Even in my talk described
+how to do a predicate.
+ How to find new predicates, I'm not sure that it is very good predicate.
+
+0:30:35
+Speaker 1 :- [Lex] What did you propose in your talk?
+
+
+0:30:37
+Speaker 0 :- In my talk I gave example for diabetes.
+ - Diabetes, yeah.
+- When we achieve some percent so then we're looking from area,
+
+0:30:48
+Speaker 2 :
+
+0:30:50
+Speaker 0 :where some sort of predicate
+which I formulated,
+
+
+0:30:55
+Speaker 2 :does not...
+ keep invariant.
+
+0:31:03
+Speaker 0 :So if it doesn't keep, I retrain my data.
+ I select only functions
+which keep this invariant.
+
+0:31:10
+Speaker 2 :In the way I did it, I
+improved my performance.
+
+
+0:31:13
+Speaker 0 :I came looking for this predicate.
+ I know technically how to do that. You can of coursedo it using a machine, but I'm not sure
+ that we will construct
+the smartest predicate.
+
+0:31:30
+Speaker 2 :
+
+0:31:30
+Speaker 1 :- Well this is the,
+allow me to linger on it.
+ Because that's the essence,
+that's the challenge. That is artificial, that's
+the human-level intelligencethat we seek, is the discovery
+of these good predicates.
+ You've talked about deep
+learning as a way to, the predicates they use and
+the functions are mediocre.Or you can find better ones.
+
+
+0:31:54
+Speaker 0 :- Let's talk about deep learning.
+ - Sure, let's do it.
+- I know only Jans LaComb,
+
+0:32:02
+Speaker 2 :convolutional network, and what else?
+
+
+0:32:04
+Speaker 0 :And it's very simple convergence.
+
+
+0:32:08
+Speaker 1 :- [Lex] There's not much else to know.
+ - To fix it left and right.
+- Yes.
+
+0:32:10
+Speaker 0 :- I can do it like that
+with one predicate.
+
+
+0:32:14
+Speaker 1 :- [Lex] Convolution is a single predicate.
+
+
+0:32:17
+Speaker 0 :- It's single,
+ it's single predicate.
+- Yes, but-- - You know exactly,
+you take the derivativefor translational, and
+predicate should be kept.
+
+
+0:32:29
+Speaker 2 :
+
+0:32:31
+Speaker 1 :- So that's a single predicate,
+but humans discovered
+ that one or at least--
+- Not that that is the least
+
+0:32:35
+Speaker 0 :not too many predicates.
+ And that is big story because
+Jan did it 25 years ago, and nothing so clear was
+uttered to deep network.
+
+0:32:47
+Speaker 2 :
+
+0:32:51
+Speaker 0 :And then I don't understand
+ why we should talk about deep network instead of talking about
+piece-wise linear functionswhich keeps this predicate.
+
+
+0:33:02
+Speaker 1 :- You know, a counter argument is,
+ that maybe the amount
+of predicates necessary to solve general intelligence,
+say in the space of images,doing efficient recognition
+of handwritten digits
+ is very small. So we shouldn't be so
+obsessed about finding,we'll find other good predicates
+ like convolution, for example. There has been other advancements like,if you look at the work with attention,
+ there's attentional mechanisms, especially used in natural languagefocusing the network's ability to,
+ to learn at which part
+of the input to look at. The thing is, there's other
+things besides predicatesthat are important for the
+actual engineering mechanism
+ of showing how much you can really do, given such these predicates.I mean, that's essentially
+the work of deep learning
+ is constructing
+architectures that are able to be given the training data
+to be able to converge towards
+
+0:34:15
+Speaker 2 :
+
+0:34:16
+Speaker 1 :a function that can approximate,
+ that can generalize well.
+
+0:34:24
+Speaker 0 :It's an engineering problem.
+- Yeah, I understand.
+ But let's talk not on an emotional level,
+but on a mathematical level.
+
+0:34:31
+Speaker 2 :
+
+0:34:32
+Speaker 0 :You have set of piece-wise
+linear functions,
+
+
+0:34:35
+Speaker 2 :
+
+0:34:37
+Speaker 0 :
+
+0:34:38
+Speaker 2 :it is all possible neural networks.
+
+
+0:34:42
+Speaker 0 :It's just piece-wise linear functions.
+ It's many, many pieces.
+- Large, large number
+
+0:34:45
+Speaker 1 :
+
+0:34:47
+Speaker 0 :of piece-wise linear function.
+- Exactly.
+ - Very large.
+- Very large. - [Lex] Almost, feels like too large.- It's still simpler
+than say, convolution,
+ which is reproducing Hilbert's Space and we have a Hilbert's set of functions.
+
+0:35:00
+Speaker 1 :- What's Hilbert Space?
+
+
+0:35:02
+Speaker 2 :
+
+0:35:04
+Speaker 0 :- It's space with infinite
+number of coordinates.
+
+
+0:35:08
+Speaker 2 :A function for expansion,
+something like that.
+ So it's much richer.
+
+0:35:14
+Speaker 0 :And when I'm talking about
+closed-form solution,
+ I'm talking about this set of functions.
+
+0:35:20
+Speaker 2 :
+
+0:35:22
+Speaker 0 :Not piece-wise linear set,
+which is particular case
+
+
+0:35:24
+Speaker 2 :
+
+0:35:27
+Speaker 0 :
+
+0:35:28
+Speaker 2 :of (chuckles) it is small part of it.
+
+
+0:35:28
+Speaker 0 :
+
+0:35:30
+Speaker 1 :- So neural networks is a small part
+ of the space you're, of
+functions you're talking about?
+
+0:35:35
+Speaker 0 :- Small set of functions.
+- Yeah.
+
+
+0:35:38
+Speaker 2 :- Let me take it that.
+
+
+0:35:40
+Speaker 0 :But it is fine, it is fine.
+ I don't want to discuss the
+small or big we take and what. So you have some set of functions.
+
+0:35:49
+Speaker 2 :
+
+0:35:51
+Speaker 0 :So now when you're trying
+to create architecture,
+
+
+0:35:54
+Speaker 2 :
+
+0:35:55
+Speaker 0 :you would like to create
+admissible set of functions,
+
+
+0:36:00
+Speaker 2 :which all your tricks,
+to use not all functions,
+
+
+0:36:01
+Speaker 0 :
+
+0:36:02
+Speaker 2 :
+
+0:36:03
+Speaker 0 :
+
+0:36:05
+Speaker 2 :but some subset of this set of functions.
+
+
+0:36:06
+Speaker 0 :Say when you're introducing
+convolutional network.
+
+
+0:36:09
+Speaker 2 :It is a way to
+
+
+0:36:12
+Speaker 0 :make this subset useful for you.
+ But from my point of view, convolutional, it is something, you want
+to keep some invariance.
+
+0:36:25
+Speaker 2 :Say, translation invariance.
+ But now if you understand this, and you cannot explain
+
+0:36:35
+Speaker 0 :on the level of ideas
+what neural network does,
+
+
+0:36:39
+Speaker 2 :
+
+0:36:41
+Speaker 0 :you should agree
+ that it is much better to
+have a set of functions. As I say, this set of
+functions should be admissible,it must keep this
+invariant, this invariant,
+ and that invariant. You know that as soon as you
+incorporate new invariants,set of functions becomes
+smaller and smaller and smaller.
+
+
+0:37:01
+Speaker 1 :- [Lex] But all the invariants
+ are specified by you the human.
+
+0:37:06
+Speaker 2 :
+
+0:37:07
+Speaker 0 :- Yeah, but what I am hope,
+ that there is a standard
+predicate like, Propp showed.
+
+0:37:12
+Speaker 2 :
+
+0:37:16
+Speaker 0 :That's what I want to find
+for digit recognition.
+ If we start, it is completely new area of what is intelligence
+about on the level,starting from Plato's idea.
+
+
+0:37:30
+Speaker 2 :What is the world of ideas?
+
+
+0:37:32
+Speaker 0 :And I believe there is not too many.
+
+
+0:37:34
+Speaker 2 :
+
+0:37:37
+Speaker 0 :But you know, it is
+amusing that mathematicians
+ are doing something with neural
+network in general function. But people from literature, from art,
+
+0:37:46
+Speaker 2 :
+
+0:37:48
+Speaker 0 :they use this all the time.
+ - That's right.
+- Invariants. Say, it is great how
+people describe music.We should learn from that.
+ Something on this level. So why, Vladimir Propp
+who was just theoretical.Who studied theoretical
+literature, he found that.
+
+
+0:38:11
+Speaker 2 :
+
+0:38:13
+Speaker 1 :- You know what, let me
+throw that right back at you.
+ Because there's a little bit of a, that's less mathematical
+and more emotional,philosophical Vladimir Propp.
+ I mean, he wasn't doing math.
+- No.
+
+0:38:25
+Speaker 2 :
+
+0:38:26
+Speaker 1 :- And you just said another
+emotional statement,
+ which is you believe that this Plato world of ideas is small.
+
+0:38:35
+Speaker 2 :- I hope.
+- I hope.
+
+
+0:38:38
+Speaker 1 :Do (chuckles), do you,
+ what's your intuition, though,
+if we can linger on it?
+
+0:38:44
+Speaker 2 :
+
+0:38:45
+Speaker 0 :That bothers me.
+- You know, because not
+ just small or big. I know exactly.
+
+0:38:53
+Speaker 2 :That when I'm introducing
+
+
+0:38:55
+Speaker 0 :
+
+0:38:56
+Speaker 2 :
+
+0:38:56
+Speaker 0 :some predicate, I
+decrease set of functions.
+
+
+0:38:58
+Speaker 2 :
+
+0:38:59
+Speaker 0 :But my goal to decrease
+set of functions much.
+
+
+0:39:02
+Speaker 2 :
+
+0:39:03
+Speaker 1 :
+
+0:39:05
+Speaker 0 :- By as much as possible.
+- By as much as possible.
+
+
+0:39:06
+Speaker 2 :
+
+0:39:07
+Speaker 0 :Good predicate which does this,
+ then I should choose next
+predicate which does this, which decreases set as much as possible.So, set of good predicates,
+
+
+0:39:19
+Speaker 2 :
+
+0:39:21
+Speaker 0 :it is such that the decrease,
+
+
+0:39:23
+Speaker 2 :
+
+0:39:26
+Speaker 0 :amount of admissible functions--
+
+
+0:39:28
+Speaker 1 :- So if each good predicate
+significantly reduces
+ the set of admissible functions that there naturally should
+not be that many predicates.
+
+0:39:35
+Speaker 0 :
+
+0:39:36
+Speaker 2 :- No, but,
+
+
+0:39:39
+Speaker 0 :
+
+0:39:40
+Speaker 2 :if you reduce very well the
+VC dimension of the function
+
+
+0:39:41
+Speaker 0 :of admissible set of
+functions, it's small.
+ And you need not too much
+training data to do well.
+
+0:39:50
+Speaker 2 :
+
+0:39:53
+Speaker 1 :- [Lex] And VC dimension, by the way,
+ is some measure of capacity
+of this set of functions.
+
+0:39:58
+Speaker 0 :- Right, roughly speaking,
+how many function in this set.
+ So you're decreasing, decreasing, and it makes it easier for you
+
+0:40:07
+Speaker 2 :to find the function you're looking for.
+
+
+0:40:10
+Speaker 0 :But the most important part,
+ to create a good admissible
+set of functions.
+
+0:40:17
+Speaker 2 :And it probably is that
+there are many ways but,
+
+
+0:40:21
+Speaker 0 :a good predicate is such
+that it can do that.
+
+
+0:40:25
+Speaker 2 :
+
+0:40:26
+Speaker 0 :For this duck,
+ you should know a little bit about duck.
+
+0:40:31
+Speaker 1 :- What are the three
+fundamental laws of ducks?
+
+
+0:40:35
+Speaker 0 :- Looks like a duck, swims like a duck,
+ and quacks like a duck.
+- And quacks.
+
+0:40:38
+Speaker 1 :You should know something about ducks
+
+
+0:40:40
+Speaker 0 :to be able to--
+- Not necessarily.
+ Looks like say, horse. It's also good.
+
+0:40:47
+Speaker 1 :- [Lex] So it's not (chuckles),
+ it generalize from ducks.
+- Yes, and talk like it,
+
+0:40:49
+Speaker 0 :and make sound like horse or something.
+ And run like horse and moves like horse. It is general, it is general predicatethat this applies to duck.
+ But for duck you can say,
+play chess like duck.
+
+0:41:07
+Speaker 2 :
+
+0:41:10
+Speaker 1 :- [Lex] You cannot say,
+play chess like a duck.
+ - Why not?
+- So you're saying you can but that that would not be a good--
+
+0:41:16
+Speaker 0 :- [Vladimir] No, you will
+not reduce that function.
+
+
+0:41:18
+Speaker 1 :- Yeah, you would not
+reduce the set of functions.
+
+
+0:41:21
+Speaker 0 :- So you can, the story is formal story
+ and it's a magical story
+is that you can use any function you want as a predicate.
+
+0:41:30
+Speaker 2 :
+
+0:41:30
+Speaker 0 :But some of them are good,
+some of them are not.
+ Because some of them
+reduce a lot of functions.
+
+0:41:36
+Speaker 2 :
+
+0:41:37
+Speaker 0 :The admissible set, some of them (mumbles)
+
+
+0:41:39
+Speaker 1 :- So the question is, and
+I'll probably keep asking
+ this question, but how do
+we find such predicates? What's your intuition?Handwritten recognition, how do we find
+ the answer to your challenge?
+
+0:41:52
+Speaker 0 :- Yeah, I understand it like that.
+
+
+0:41:55
+Speaker 2 :I understand what.
+
+
+0:41:57
+Speaker 0 :- What defined?
+- What that means,
+ a new predicate.
+- Yeah.
+
+0:42:01
+Speaker 2 :
+
+0:42:02
+Speaker 0 :- Like, guy who understands music
+ can say these words he describes when he listens to music.
+
+0:42:08
+Speaker 2 :He understands music, he'll
+use not too many different.
+
+
+0:42:12
+Speaker 0 :Or you can do it like Propp.
+
+
+0:42:17
+Speaker 2 :You can make collection, what
+you're talking about music.
+
+
+0:42:17
+Speaker 0 :About this, about that.
+ It's not too many different
+situations you describe.
+
+0:42:23
+Speaker 2 :
+
+0:42:24
+Speaker 1 :- Because we mentioned
+Vladimir Propp a bunch,
+ let me just mention, so
+there's a sequence of 31 structural notions that
+are common in stories.And I think--
+- They're called units.
+ - Units, and I think they resonate. It starts, just to give an example,Absention: a member of
+the hero's community
+ or family leaves the security
+of the home environment, then goes through the interdiction,a forbidding edict or command
+that's passed upon the hero.
+ Don't go there; don't do this. The hero's warned against some action.Then step three:
+Violation of interdiction.
+ You know, break the rules,
+break out on your own. Then reconnaissance, the
+villain makes an effortto attain knowledge needed
+to fulfill their plot, so on.
+ It goes on like this. Ends in a wedding, number
+31, happily every after.
+
+0:43:21
+Speaker 0 :- He just gave description
+of all situations.
+
+
+0:43:24
+Speaker 2 :
+
+0:43:25
+Speaker 0 :He understands his world--
+- Of folk tales.
+ - Yeah, not folk--
+- Stories. - Stories, and these stories
+not just in folk tales.These stories in
+detective serials as well.
+
+
+0:43:40
+Speaker 1 :- [Lex] And probably in our lives.
+
+
+0:43:44
+Speaker 0 :We probably live--
+- Read this.
+ They're all,
+
+0:43:51
+Speaker 2 :this predicate is good
+for different situations.
+
+
+0:43:52
+Speaker 0 :
+
+0:43:53
+Speaker 2 :
+
+0:43:55
+Speaker 0 :For movie, for theater.
+- By the way,
+
+
+0:43:58
+Speaker 1 :there's also criticism, right?
+ There's another way to
+interpret narratives. From...
+
+0:44:05
+Speaker 2 :
+
+0:44:08
+Speaker 1 :Claude Levi Strauss.
+- I am not in this business.
+
+
+0:44:10
+Speaker 0 :- I know, that's theoretical literature,
+
+
+0:44:13
+Speaker 1 :but it's looking at paradigms behind them.
+
+
+0:44:16
+Speaker 0 :- [Vladimir] It's
+always, this discussion--
+ - Philosophers argue.
+- Yeah. - Yeah.
+- But at least there is units.It's not too many units that can describe.
+ But describe probably
+gives the other units. Or another way for description.
+
+0:44:31
+Speaker 1 :- Exactly, another set of units.
+ - [Vladimir] Another
+set of predicates, yes.
+
+0:44:35
+Speaker 0 :It doesn't matter how,
+but they exist probably.
+
+
+0:44:39
+Speaker 2 :
+
+0:44:42
+Speaker 1 :- My question is, whether
+given those units,
+ whether without our human
+brains to interpret these units, they would still hold as
+much power as they have.Meaning, are those units
+enough when we give them
+ to the alien species?
+
+0:44:58
+Speaker 0 :- Let me ask you, do you understand
+
+
+0:45:03
+Speaker 2 :digit images?
+
+
+0:45:05
+Speaker 1 :- No, I don't understand.
+- No, no, no.
+
+
+0:45:08
+Speaker 0 :When you can recognize these digit images,
+ it means that you understand. - Yes, I understand.
+- You understand
+
+0:45:18
+Speaker 1 :characters, you understand.
+- Nope, nope, nope, nope.
+
+
+0:45:21
+Speaker 2 :
+
+0:45:22
+Speaker 1 :It's the imitation versus
+understanding question.
+ Because I don't understand the mechanism by which I understand--
+- No, no.
+
+0:45:29
+Speaker 0 :I'm not talking about, I'm
+talking about predicates.
+ You understand that it involves symmetry, maybe structure, maybe something else.I cannot formulate, I just was able
+ to find symmetries, or
+degree of symmetries.
+
+0:45:42
+Speaker 1 :- So this is a good line.
+ I feel like I understand
+the basic elements of what makes a good hand
+recognition system my own.Like, symmetry connects with me.
+ It seems like that's a
+very powerful predicate. My question is, is there
+a lot more going onthat we're not able to introspect?
+ Maybe I need to be able to understand a huge amount in the world of ideas.Thousands of predicates,
+millions of predicates
+ in order to do hand recognition.
+
+0:46:20
+Speaker 2 :- [Vladimir] I don't think so.
+
+
+0:46:23
+Speaker 1 :- Both your hope and your intuition
+ are such that very few--
+- No, no, let me explain.
+
+0:46:28
+Speaker 0 :
+
+0:46:29
+Speaker 2 :You're using digits.
+
+
+0:46:31
+Speaker 0 :You're using examples as well.
+
+
+0:46:34
+Speaker 2 :
+
+0:46:35
+Speaker 0 :Theory says that if you will use
+
+
+0:46:37
+Speaker 2 :all possible functions from Hilbert Space,
+
+
+0:46:44
+Speaker 0 :all possible predicates, you
+don't need training data.
+
+
+0:46:48
+Speaker 2 :You just will have
+admissible set of functions
+
+
+0:46:52
+Speaker 0 :
+
+0:46:55
+Speaker 2 :which contain one function.
+- Yes.
+
+
+0:46:56
+Speaker 1 :So the trade off is, when
+you're not using all predicates,
+ you're only using a few good predicates, that you need to have some training data.- Yes, exactly.
+- The more good predicates
+ you have, the less training data you need.
+- Exactly.
+
+0:47:10
+Speaker 0 :That is intelligent learning.
+
+
+0:47:12
+Speaker 1 :- Okay, I'm gonna keep asking
+the same dumb question,
+ handwritten recognition,
+to solve the challenge, you kind of propose a challenge that sayswe should be able to get state
+of the art MNIST error rates
+ by using very few, 60 maybe
+few examples per digit. What kind of predicates
+do you think you'll--
+
+0:47:36
+Speaker 0 :- [Vladimir] That is the challenge.
+ (laughs) So people who will solve this problem.- They will answer.
+- They will answer it.
+
+
+0:47:42
+Speaker 1 :- Do you think they'll
+be able to answer it
+ in a human explainable way?
+
+0:47:47
+Speaker 2 :
+
+0:47:48
+Speaker 0 :- They just need the
+right function, that's it.
+
+
+0:47:50
+Speaker 1 :- But so, can that
+function be written I guess
+ by an automated reasoning system? Whether we're talking
+about a neural networklearning a particular
+function, or another mechanism.
+
+
+0:48:05
+Speaker 0 :- No, I'm not against neural network.
+ I am against admissible set of function which creates neural network.You did it by hand.
+
+
+0:48:15
+Speaker 2 :
+
+0:48:16
+Speaker 0 :You don't do it by invariants,
+ by predicate, by reason.
+
+0:48:23
+Speaker 2 :
+
+0:48:24
+Speaker 1 :- But neural networks can then reverse,
+ to the reverse step of
+helping you find a function. The task of a neural network is to finddisentangled representation,
+for example is what they call,
+ is to fine that one predicate function that's really captures
+some kind of essence.Not the entire essence,
+but one very useful essence
+ of this particular visual space. Do you think that's possible?Listen, I'm grasping, hoping
+there's an automated way
+ to find good predicates, right? So the question is,
+what are the mechanismsof finding good predicates, ideas,
+ that you think we should pursue? A young grad student listening right now.
+
+0:49:10
+Speaker 0 :- I gave example.
+
+
+0:49:14
+Speaker 2 :So find situation where
+ predicate, which you're suggesting, don't create invariant.
+
+0:49:28
+Speaker 0 :It's like in physics, find situation
+ where existing theory cannot explain it.
+
+0:49:34
+Speaker 2 :
+
+0:49:37
+Speaker 1 :- [Lex] Find a situation
+where the existing theory
+ can't explain it.
+- Cannot explain this. - [Lex] So you're finding contradictions.
+
+0:49:43
+Speaker 0 :- Find contradiction, and then
+remove this contradiction.
+ But in my case, what means contradiction,
+
+0:49:50
+Speaker 2 :you find function which, if
+you will use this function,
+
+
+0:49:52
+Speaker 0 :you're not keeping invariants.
+
+
+0:49:55
+Speaker 2 :
+
+0:49:57
+Speaker 1 :- [Lex] So really the process
+ of discovering contradictions.
+
+0:50:00
+Speaker 2 :- Yeah.
+ It is like in physics.
+
+0:50:07
+Speaker 0 :Find situation where
+you have contradiction
+ for one of the property,
+
+0:50:11
+Speaker 2 :for one of the predicate,
+
+
+0:50:15
+Speaker 0 :then include this predicate
+making invariants.
+ And solve, again, this problem, now you don't have contradiction.
+
+0:50:22
+Speaker 2 :
+
+0:50:23
+Speaker 0 :
+
+0:50:25
+Speaker 2 :But it is not
+
+
+0:50:27
+Speaker 0 :the best way probably, I don't know,
+ to looking for predicate.
+- That's just one way.
+
+0:50:32
+Speaker 1 :
+
+0:50:33
+Speaker 0 :Okay.
+- That, no, no.
+ It is brute force way.
+- The brute force way.
+
+0:50:36
+Speaker 1 :What about
+ the ideas of what, big
+umbrella term of symbolic AI? In the '80s with Xper Systems,sort of logic, reasoning-based systems.
+ Is there hope there to find some, through sort of, deductive reasoning,to find good predicates?
+
+
+0:51:04
+Speaker 2 :- [Vladimir] I don't think so.
+
+
+0:51:09
+Speaker 0 :I think that just logic is not enough.
+
+
+0:51:11
+Speaker 1 :- Kind of a compelling notion, though.
+ That when smart people sit in a room and reason through things,
+it seems compelling.And making our machines do
+the same is also compelling.
+
+
+0:51:24
+Speaker 2 :
+
+0:51:27
+Speaker 0 :
+
+0:51:27
+Speaker 2 :- Everything is very simple
+
+
+0:51:30
+Speaker 0 :when you have infinite
+number of predicate.
+
+
+0:51:32
+Speaker 2 :You can choose
+
+
+0:51:37
+Speaker 0 :the function you want.
+ You have invariants and you
+choose the function you want.
+
+0:51:41
+Speaker 2 :But you have to have
+ not too many invariants to solve the problem.
+
+0:51:57
+Speaker 0 :And how from infinite number function
+
+
+0:52:01
+Speaker 2 :to select finite number
+
+
+0:52:04
+Speaker 0 :and hopefully small finite
+number of functions.
+
+
+0:52:07
+Speaker 2 :Which is good enough
+
+
+0:52:13
+Speaker 0 :to extract some small set
+of admissible functions.
+
+
+0:52:17
+Speaker 2 :
+
+0:52:18
+Speaker 0 :So they will be admissible, it's for sure,
+ because every function just
+decrease set of function and leaving it admissible.But it will be small.
+
+
+0:52:28
+Speaker 1 :- But why do you think
+logic-based systems can't help?
+ Intuition, not--
+- Because you should
+
+0:52:35
+Speaker 0 :
+
+0:52:37
+Speaker 2 :know reality, you should know life.
+ This guy like Propp, he knows something
+
+0:52:43
+Speaker 0 :and he tried to put in
+invariants his understanding.
+
+
+0:52:49
+Speaker 1 :- So but that's the human, yeah, yeah.
+ But see, you're putting too much value into Vladimir Propp's knowing something.
+
+0:52:58
+Speaker 0 :- No, it is--
+- Am I being misunderstanding?
+
+
+0:53:02
+Speaker 2 :- What means you know life?
+
+
+0:53:04
+Speaker 1 :What it mean?
+- You know common sense.
+
+
+0:53:07
+Speaker 2 :
+
+0:53:08
+Speaker 0 :- No, no, you know something.
+ Common sense, it is some rules.
+
+0:53:13
+Speaker 2 :- You think so?
+
+
+0:53:14
+Speaker 1 :Common sense is simply rules?
+ Common sense is every, it's mortality, it's fear of death,it's love, it's spirituality,
+ it's happiness and sadness. All of it is tied up into
+understanding gravitywhich is what we think of as common sense.
+
+
+0:53:37
+Speaker 0 :- I don't credit or discuss of that.
+ I want to discuss understand
+digit recognition. - Any time I bring up love and death
+
+0:53:46
+Speaker 1 :you bring it back to digit recognition.
+
+
+0:53:51
+Speaker 0 :I like it. (laughs)
+- No, you know,
+ it is doable because there is a challenge.
+
+0:53:55
+Speaker 2 :- Yeah.
+- Which I still have
+
+
+0:53:58
+Speaker 0 :to solve it; if I will
+have a student concentrate
+ on this work, I will
+suggest something or so.
+
+0:54:05
+Speaker 1 :- You mean handwritten recognition?
+ Yeah, it's a beautifully simple, elegant, and yet--
+- I think that I know
+
+0:54:11
+Speaker 0 :invariants which will solve this.
+ - You do?
+- I think that, I think that.
+
+0:54:16
+Speaker 2 :But it is not universal.
+
+
+0:54:20
+Speaker 0 :I want some universal
+invariants which are good
+
+
+0:54:27
+Speaker 2 :not only for digit recognition,
+for image understanding.
+
+
+0:54:30
+Speaker 1 :- So let me ask, how hard do you think
+ is 2-D image understanding? If we can kind of intuit
+handwritten recognition,how big of a step, leap,
+journey is it from that?
+ If I gave you good, if
+I solved your challenge for handwritten recognition,
+how long would my journeythen be from that to
+understanding more general,
+ natural images?
+- Immediately.
+
+0:54:59
+Speaker 0 :You will understand it as soon
+as you will make a record.
+
+
+0:55:04
+Speaker 2 :
+
+0:55:06
+Speaker 0 :- You think so?
+- Because it is not for free.
+ As soon as you will
+create several invariants
+
+0:55:10
+Speaker 2 :
+
+0:55:12
+Speaker 0 :which will help you
+
+
+0:55:14
+Speaker 2 :to get the same
+
+
+0:55:20
+Speaker 0 :performance that the best neural net did
+ using more than 100 times less examples. You have to have something
+smart to do that.
+
+0:55:31
+Speaker 1 :- And you're saying?
+- That's not an invariant.
+
+
+0:55:32
+Speaker 0 :It is predicate because
+you should put some idea
+ how to do that.
+
+0:55:39
+Speaker 2 :
+
+0:55:39
+Speaker 1 :- But okay.
+ Let me just pause, maybe it's
+a trivial point, maybe not, but handwritten recognition
+feels like a 2-D,two-dimensional problem.
+ And it seems, like how much complicated is the fact that most
+images are a projectionof a three-dimensional
+world onto a 2-D plane?
+ It feels like for a
+three-dimensional world, we need to start
+understanding common sensein order to understand an image.
+ It's no longer visual shape and symmetry. It's having to start to
+understand concepts of,understand life.
+- Yeah.
+
+
+0:56:22
+Speaker 2 :
+
+0:56:23
+Speaker 0 :You're talking that there
+are different invariant,
+ different predicate, yeah.
+
+0:56:29
+Speaker 1 :- [Lex] And potentially
+much larger number.
+
+
+0:56:32
+Speaker 0 :- You know, maybe, but
+let's start from simple.
+
+
+0:56:37
+Speaker 1 :- [Lex] But you said that
+it would be immediate.
+
+
+0:56:38
+Speaker 0 :- No, you know, I cannot
+think about things
+ which I don't understand yet. This I understand.But I'm sure that I don't
+understand everything there.
+
+
+0:56:48
+Speaker 2 :
+
+0:56:49
+Speaker 0 :- [Lex] Yeah, that's the difference--
+ - It's like they say, do as simple as possible, but not simpler,and that is exact case.
+ - With handwritten rec--
+- With handwritten.
+
+0:56:59
+Speaker 1 :- Yeah, but that's the
+difference between you and I.
+ (laughs) I welcome and enjoy thinking about things that I
+completely don't understand.Because to me it's a natural extension,
+ without having solved
+handwritten recognition to wonder how,how difficult is the next
+step of understanding
+ 2-D and 3-D images, because ultimately, while the science of
+intelligence is fascinating,it's also fascinating to see how
+ that maps to the
+engineering of intelligence. And recognizing handwritten digits is not,doesn't help you, it might, it may not,
+ help you with the problem
+of general intelligence. We don't know; it'll
+help you a little bit.We don't know how much.
+- It is unclear.
+
+
+0:57:49
+Speaker 0 :- It's unclear.
+- Yeah.
+ - It might very much.
+- But I would like to make a remark: I start not from very
+
+0:57:56
+Speaker 2 :primitive problem like,
+
+
+0:57:59
+Speaker 0 :
+
+0:57:59
+Speaker 2 :
+
+0:58:03
+Speaker 0 :challenge problem; I start
+with very general problem,
+
+
+0:58:06
+Speaker 2 :
+
+0:58:07
+Speaker 0 :with Plato, so you understand.
+ And it comes from Plato,
+digit recognition.
+
+0:58:14
+Speaker 1 :- So you basically took Plato
+ and the world of forms and ideas, and mapped, and projected
+it into the clearest,simplest formulation of that big world
+ into handwritten recognition.
+
+0:58:27
+Speaker 0 :- I will say that I did
+not understand Plato until
+ recently, and until I considered weak convergence
+and then predicate
+
+0:58:42
+Speaker 2 :and then, oh, this is what Plato thought.
+
+
+0:58:45
+Speaker 1 :- Can you linger on that?
+ How do you think about this world of ideas and world of things and Plato?
+
+0:58:53
+Speaker 0 :- It is a metaphor.
+- It's a metaphor for sure.
+
+
+0:58:55
+Speaker 1 :It's a compelling, it's a
+poetic and a beautiful metaphor.
+ But what can you--
+- But it is a way how
+
+0:59:00
+Speaker 0 :you should try to understand
+ how a duck ideas in the world. So from my point of view,it is very clear, but it
+is a line all the time
+ people looking for that. Say, Plato then Hegel,
+
+0:59:20
+Speaker 2 :
+
+0:59:23
+Speaker 0 :whatever reasonable it exists,
+ whatever exists it is reasonable. I don't know what he
+have in mind, reasonable.
+
+0:59:29
+Speaker 2 :
+
+0:59:30
+Speaker 1 :- [Lex] Right, these philosophers again.
+
+
+0:59:32
+Speaker 0 :- No, no, no, no, no, no, it is,
+ it is next stop of Wilner. That which we might understand
+something of reality.He did the same Plato line.
+ And then it comes suddenly
+to Vladimir Propp.
+
+0:59:47
+Speaker 2 :
+
+0:59:49
+Speaker 0 :Look, 31 ideas, 31 units,
+and describes everything.
+
+
+0:59:53
+Speaker 2 :
+
+0:59:54
+Speaker 1 :- There's abstractions, ideas
+that represent our world,
+ and we should always
+try to reach into that.
+
+1:00:03
+Speaker 0 :- Yeah, but what you
+should make a projection
+ on the reality, but understanding is, it is abstract ideas.
+
+1:00:10
+Speaker 2 :You have in your mind
+several abstract ideas
+
+
+1:00:14
+Speaker 0 :which you can apply to reality.
+
+
+1:00:17
+Speaker 1 :- And reality in this case so
+if we look at machine learning
+ is data.
+- This example, data. - Data.Okay, let me put this on you,
+ because I'm an emotional creature. I'm not a mathematical creature like you.I find compelling the
+idea, forget the space,
+ this sea of functions. There's also a sea of data in the world.And I find compelling that there might be,
+ like you said, teacher, small examples of data
+that are most usefulfor discovering good,
+whether it's predicates
+ or good functions, that
+the selection of data may be a powerful journey,
+a useful mechanism.You know, coming up with
+a mechanism for selecting
+ good data might be useful, too. Do you find this idea of
+finding the right data setinteresting at all?
+ Or do you kinda take
+the data set as a given?
+
+1:01:17
+Speaker 2 :
+
+1:01:18
+Speaker 0 :- I think that it is, you know,
+ my thing is very simple. You have huge set of functions.
+
+1:01:24
+Speaker 2 :
+
+1:01:27
+Speaker 0 :If you will apply, and you
+have not too many data.
+ If you pick up function
+which describes this data,
+
+1:01:37
+Speaker 2 :
+
+1:01:38
+Speaker 0 :you will do not very well.
+
+
+1:01:40
+Speaker 2 :
+
+1:01:41
+Speaker 1 :
+
+1:01:42
+Speaker 0 :- Like randomly pick?
+- Yeah (mumbles)
+ It will be irritating.
+
+1:01:47
+Speaker 2 :So you should decrease set of function
+
+
+1:01:48
+Speaker 0 :from which you're picking out one.
+
+
+1:01:53
+Speaker 2 :
+
+1:01:54
+Speaker 0 :So you should go somehow to
+admissible set of functions.
+
+
+1:01:58
+Speaker 2 :
+
+1:02:01
+Speaker 0 :And this, what about weak convergence?
+
+
+1:02:02
+Speaker 2 :From another point of view,
+ to make
+
+1:02:12
+Speaker 0 :admissible set of function,
+you need just the deal,
+ just function which you
+will take an inner product.
+
+1:02:19
+Speaker 2 :Which you will measure
+
+
+1:02:24
+Speaker 0 :
+
+1:02:24
+Speaker 2 :property of your function.
+ That is how it works.
+
+1:02:30
+Speaker 0 :- [Lex] No, I get it, I get it.
+
+
+1:02:31
+Speaker 1 :I understand it but do you,
+ the reality is--
+- But let's discuss,
+
+1:02:35
+Speaker 0 :let's think about examples.
+
+
+1:02:39
+Speaker 2 :
+
+1:02:40
+Speaker 0 :You have huge set of function
+and you have several examples.
+
+
+1:02:44
+Speaker 2 :If you just trying to
+
+
+1:02:47
+Speaker 0 :
+
+1:02:48
+Speaker 2 :
+
+1:02:49
+Speaker 0 :keep, take function which
+satisfies these examples,
+
+
+1:02:52
+Speaker 2 :you still will not have it.
+ You need decrease, you need
+admissible set of functions.
+
+1:02:58
+Speaker 0 :
+
+1:02:59
+Speaker 1 :- Absolutely, but what, say you have
+ more data than functions. I mean, maybe not more
+data than functions,'cause that's--
+- That's impossible.
+ - Impossible, I was trying
+to be poetic for a second. I mean, you have a huge amount of data,a huge amount of examples.
+
+
+1:03:19
+Speaker 2 :
+
+1:03:20
+Speaker 0 :- But amount of function can be
+ even bigger.
+- Even bigger, I understand. - Everything is (chuckles)
+
+1:03:25
+Speaker 1 :- [Lex] There's always a bigger boat.
+ - Whole Hilbert Space of functions.
+
+1:03:28
+Speaker 0 :
+
+1:03:29
+Speaker 1 :- I got you, but okay.
+ But you don't, you don't
+find the world of data to be an interesting optimization space?Like, the optimization should
+be in the space of functions.
+
+
+1:03:42
+Speaker 2 :
+
+1:03:45
+Speaker 0 :- In creating admissible set of functions.
+ - [Lex] Admissible set of functions. - You know, even from the
+classical, this is so.
+
+1:03:52
+Speaker 2 :
+
+1:03:55
+Speaker 0 :From structured reasoning,
+you should organize
+
+
+1:03:59
+Speaker 2 :
+
+1:04:01
+Speaker 0 :function in the way
+
+
+1:04:02
+Speaker 2 :they will be useful for you.
+- Right.
+ - And that is admissible step.
+
+1:04:08
+Speaker 0 :
+
+1:04:09
+Speaker 1 :- But the way you're thinking about useful
+ is you're given a small set of examples.
+
+1:04:17
+Speaker 0 :- Small set of functions which contain
+ functions by looking for it.
+
+1:04:22
+Speaker 2 :
+
+1:04:22
+Speaker 1 :- Yeah, but as looking for
+it based on the empirical set
+ of small examples.
+- Yeah.
+
+1:04:28
+Speaker 0 :But that is another
+story, I don't touch it.
+ Because I believe that
+these small examples, it's not too small.Say 65%, law of large numbers works.
+ I don't need uniform law. The story is that in
+statistics there are two laws.
+
+1:04:47
+Speaker 2 :
+
+1:04:48
+Speaker 0 :Law of large numbers and
+uniform law of large numbers.
+ So I want a situation where
+I use law of large numbers but not uniform law of large numbers.
+
+1:04:58
+Speaker 1 :- [Lex] Right, so 60 is law of large.
+ It's large enough.
+- I hope, I hope.
+
+1:05:02
+Speaker 0 :It still needs some evaluation,
+ some balance, et cetera. What I did is the following that,
+
+1:05:11
+Speaker 2 :
+
+1:05:12
+Speaker 0 :if you trust that
+
+
+1:05:14
+Speaker 2 :
+
+1:05:16
+Speaker 0 :say, this average gives
+you something close
+ to expectation so you can talk about that,
+
+1:05:25
+Speaker 2 :about this predicate.
+- Yeah.
+
+
+1:05:28
+Speaker 0 :- [Vladimir] And that is
+basis of human intelligence.
+
+
+1:05:30
+Speaker 1 :- Good predicates, the
+discovery of good predicates
+ is the basis of human intelligence.
+
+1:05:35
+Speaker 0 :- No, no, it is discovery
+ of your understanding of world. Of your total logic of
+understanding the world.
+
+1:05:44
+Speaker 2 :
+
+1:05:45
+Speaker 0 :Because you have several functions
+ which you will apply to reality.
+
+1:05:49
+Speaker 2 :
+
+1:05:51
+Speaker 1 :- Can you say that again?
+ So you're--
+- You have several functions,
+
+1:05:55
+Speaker 0 :
+
+1:05:56
+Speaker 2 :predicates, but they're abstract.
+
+
+1:06:01
+Speaker 0 :Then you will apply them
+to reality, to your data,
+ and you will create in
+this weak predicate,
+
+1:06:06
+Speaker 2 :which is useful for your task.
+ But predicate are not related specifically
+
+1:06:16
+Speaker 0 :to your task, to this here task.
+ It is abstract functions,
+which being applied,
+
+1:06:20
+Speaker 2 :
+
+1:06:21
+Speaker 0 :applied to--
+- Many tasks that you might
+
+
+1:06:24
+Speaker 1 :be interested in.
+- It might be many tasks.
+
+
+1:06:26
+Speaker 0 :I don't know.
+
+
+1:06:27
+Speaker 2 :Different tasks.
+
+
+1:06:30
+Speaker 1 :- [Lex] Well they should be many tasks.
+
+
+1:06:32
+Speaker 0 :Right?
+- Yeah, I believe.
+ Like in Propp case. It was for fairy tales, but
+it's happened everywhere.
+
+1:06:39
+Speaker 2 :
+
+1:06:40
+Speaker 1 :- Okay, we talked about
+images a little bit but,
+ can we talk about Noam
+Chomsky for a second?
+
+1:06:49
+Speaker 0 :(laughing)
+ - I don't know him very well.
+
+1:06:54
+Speaker 1 :- Personally?
+- Not personally I don't know.
+
+
+1:06:56
+Speaker 0 :- His ideas.
+- His ideas.
+
+
+1:06:58
+Speaker 1 :- Well let me just say,
+do you think language,
+ human language is essential
+to expressing ideas, as Noam Chomsky believes?So like, language is at the core
+ of our formation of predicates. Human language.
+
+1:07:16
+Speaker 0 :- In all the story of
+language is very complicated.
+ I don't understand this
+and I thought about-- - Nobody does.
+- I'm not readyto work on that because it's so huge.
+ It is not for me, and I
+believe not for our century.
+
+1:07:34
+Speaker 2 :
+
+1:07:36
+Speaker 1 :- The 21st century.
+- Not for 21st century.
+
+
+1:07:38
+Speaker 0 :We should learn something, a lot of stuff
+ from simple tasks like digit recognition.
+
+1:07:46
+Speaker 1 :- So you think digital recognition,
+ 2-D image, how would you more abstractly define it, digit recognition?It's 2-D image,
+ symbol recognition essentially?
+
+1:08:03
+Speaker 2 :
+
+1:08:06
+Speaker 1 :I'm trying to get a sense,
+sort of thinking about it now,
+ having worked with MNIST forever, how small of a subset is
+this of the general visionrecognition problem and the
+general intelligence problem?
+ Is it?
+
+1:08:23
+Speaker 2 :
+
+1:08:24
+Speaker 1 :Is it a giant subset, is it not?
+ And how far away is language?
+
+1:08:30
+Speaker 0 :- You know, let me refer to Einstein.
+
+
+1:08:33
+Speaker 2 :
+
+1:08:35
+Speaker 0 :Take the simplest problem,
+as simple as possible,
+ but not simpler, and this is
+challenge, is simple problem.
+
+1:08:43
+Speaker 2 :
+
+1:08:45
+Speaker 0 :But it's simple by idea,
+but not simple to get it.
+
+
+1:08:50
+Speaker 2 :
+
+1:08:51
+Speaker 0 :When you will do this,
+
+
+1:08:53
+Speaker 2 :
+
+1:08:55
+Speaker 0 :you will find some
+predicate which helps it.
+
+
+1:08:57
+Speaker 1 :- Yeah, with Einstein you can,
+ you look at General Relativity, but that doesn't help you
+with quantum mechanics.
+
+1:09:07
+Speaker 0 :- And that's another story.
+ You don't have any universal instrument.
+
+1:09:12
+Speaker 1 :- Yeah, so I'm trying to wonder
+ if which space we're in. Whether handwritten recognition
+is like General Relativityand then language is
+like, quantum mechanics,
+ are you still gonna
+have to do a lot of mess to universalize it but,
+
+1:09:30
+Speaker 2 :
+
+1:09:32
+Speaker 1 :I'm trying to see.
+ What's your intuition why
+handwritten recognition is easier than language?Just, I think a lot of
+people would agree with that,
+ but if you could elucidate sort of, the intuition of why.
+
+1:09:50
+Speaker 2 :- I don't know, no,
+
+
+1:09:54
+Speaker 0 :I don't think in this direction.
+ I just think in the direction
+that this is problem,
+
+1:10:00
+Speaker 2 :which if you will
+ solve it well, we will create
+
+1:10:13
+Speaker 0 :some abstract understanding of images.
+
+
+1:10:15
+Speaker 2 :
+
+1:10:18
+Speaker 0 :Maybe not all images.
+ I would like talk to guys who doing in real images in Columbia University.- What kind of images?
+
+
+1:10:27
+Speaker 1 :Unreal you said?
+ - Real images.
+- Real images.
+
+1:10:29
+Speaker 0 :- Yeah, what their idea is,
+ there are predicate what can be predicate. I say symmetry will play a
+role in real-life images.In any real-life images, 2-D images,
+ let's talk about 2-D images.
+
+1:10:46
+Speaker 2 :Because...
+ that's what we know.
+
+1:10:53
+Speaker 0 :And neural network was
+created for 2-D images.
+
+
+1:10:56
+Speaker 1 :- So the people I know in
+vision science, for example,
+ for people who study human vision, that they usually go
+to the world of symbolsand like, handwritten
+recognition but not really.
+ It's other kinds of symbols to study our visual perception system.As far as I know, not much
+predicate-type of thinking
+ is understood about our vision system.
+
+1:11:17
+Speaker 0 :- [Vladimir] They did not
+think in this direction.
+
+
+1:11:20
+Speaker 1 :- They don't, yeah, but
+how do you even begin
+ to think in that direction?
+
+1:11:24
+Speaker 0 :- That is, I would like to discuss this.
+ Because if you'll be
+able to show that it is
+
+1:11:34
+Speaker 2 :what's working,
+
+
+1:11:37
+Speaker 0 :and theoretical thing, it's not so bad.
+
+
+1:11:40
+Speaker 2 :
+
+1:11:41
+Speaker 1 :- So if we compare it to language,
+ language has like letters,
+a finite set of letters and a finite set of ways
+that you can put togetherthose letters so it feels more
+amenable to kind of analysis.
+ With natural images,
+there is so many pixels--
+
+1:11:58
+Speaker 0 :- No, no, no, letter,
+
+
+1:12:01
+Speaker 2 :
+
+1:12:01
+Speaker 0 :language is much, much more complicated.
+ It involves a lot of different stuff.
+
+1:12:08
+Speaker 2 :
+
+1:12:08
+Speaker 0 :It's not just understanding of
+ simple class of tasks.
+
+1:12:14
+Speaker 2 :
+
+1:12:16
+Speaker 0 :I would like to see list of task
+ where language is involved.
+- Yes.
+
+1:12:20
+Speaker 1 :So there's a lot of nice benchmarks now
+ in natural language processing,
+from the very trivial, like, understanding the
+elements of a sentence,to question/answering,
+so much more complicated
+ where you talk about open domain dialogue. The natural question is,
+will handwritten recognition,it's really the first step
+ of understanding visual information.
+
+1:12:44
+Speaker 2 :- Right.
+
+
+1:12:47
+Speaker 0 :But even our records
+
+
+1:12:51
+Speaker 2 :
+
+1:12:51
+Speaker 0 :show that we're going wrong direction.
+ Because we need 60,000 digits.
+
+1:12:57
+Speaker 1 :- So even this first step, so forget about
+ talking about the full journey. This first step should be
+taking in the right direction.
+
+1:13:04
+Speaker 0 :- No, no, in wrong direction
+because 60,000 is unacceptable.
+
+
+1:13:08
+Speaker 1 :- No, I'm saying it should be
+taken in the right direction
+ because 60,000 is not acceptable.
+
+1:13:14
+Speaker 0 :- You can talk, it's great
+we have 1/2 percent of error.
+
+
+1:13:18
+Speaker 1 :- And hopefully the step from
+ doing hand recognition
+using very few examples, a step towards what
+babies do when they crawland they understand their
+physical environment.
+ - I don't know what baby do.
+- I know you don't know
+
+1:13:31
+Speaker 0 :about babies, but--
+- If you will do from very
+
+
+1:13:35
+Speaker 2 :small examples, you will find principals
+ which are different.
+- That will apply to babies.
+
+1:13:39
+Speaker 0 :
+
+1:13:40
+Speaker 2 :
+
+1:13:41
+Speaker 0 :- From what we're using now.
+
+
+1:13:43
+Speaker 2 :
+
+1:13:46
+Speaker 0 :Theoretical it's more or less clear.
+ That means you will use weak convergence, not just strong convergence.
+
+1:13:55
+Speaker 1 :- Do you think these principals are,
+ will naturally be human interpretable?
+
+1:14:02
+Speaker 2 :- [Vladimir] Oh yeah.
+ - So we'll be able to explain them
+
+1:14:03
+Speaker 1 :and have a nice presentation to show
+ what those principals are? Or are they very,going to be very kind of,
+abstract kinds of functions?
+
+
+1:14:15
+Speaker 0 :- For example, I talk
+yesterday about symmetry.
+
+
+1:14:17
+Speaker 2 :And I gave very simple examples.
+
+
+1:14:19
+Speaker 0 :The same will be like that.
+
+
+1:14:22
+Speaker 1 :- You gave like, a
+predicate of a basic for--
+ - For symmetries.
+- Yes. For different symmetries
+and you have for--
+
+1:14:29
+Speaker 0 :- For degree of symmetries.
+ That is important, not just symmetry exist and does not exist;
+degree of symmetry.
+
+1:14:36
+Speaker 2 :
+
+1:14:38
+Speaker 1 :- [Lex] Yeah, for handwritten recognition.
+
+
+1:14:42
+Speaker 0 :- It's not for handwritten,
+it's for any images.
+ But I would like to
+apply it to handwritten.
+
+1:14:48
+Speaker 1 :- Right, in theory it's more general.
+ Okay, okay.
+
+1:14:52
+Speaker 2 :
+
+1:14:55
+Speaker 1 :So a lot of the things
+we've been talking about
+ falls, we've been talking
+about philosophy a little bit, but also about mathematics and statistics.A lot of it falls into this idea,
+ a universal idea of
+statistical theory of learning. What is the most beautiful and sort of,powerful or essential idea
+that you've come across,
+ even for yourself just personally, in the world of statistics or
+statistic theory of learning?
+
+1:15:25
+Speaker 2 :
+
+1:15:26
+Speaker 0 :- Probably uniform convergence
+which we do with (mumbles).
+
+
+1:15:29
+Speaker 2 :
+
+1:15:33
+Speaker 1 :- [Lex] Can you describe
+universal convergence?
+
+
+1:15:35
+Speaker 2 :
+
+1:15:37
+Speaker 0 :- You have law of large numbers.
+ So for any function,
+expectation of function, average of function converged expectation.But if you have a set of functions,
+ for any function it is true. But it should converge similar to anywhere
+
+1:15:57
+Speaker 2 :therefore all set of functions.
+ For learning, you need
+
+1:16:06
+Speaker 0 :uniform convergence; just
+convergence is not enough.
+
+
+1:16:09
+Speaker 2 :
+
+1:16:12
+Speaker 0 :
+
+1:16:14
+Speaker 2 :Because when you pick up
+one which gives minimum,
+
+
+1:16:18
+Speaker 0 :
+
+1:16:19
+Speaker 2 :you can pick up one function
+
+
+1:16:21
+Speaker 0 :
+
+1:16:23
+Speaker 2 :which does not converge and it
+will give you the best answer
+ for this function.
+
+1:16:32
+Speaker 0 :So you need the uniform
+convergence to guarantee learning.
+ Learning does not really enter
+your law of large numbers,
+
+1:16:42
+Speaker 2 :really universal.
+
+
+1:16:46
+Speaker 0 :The idea of universal
+convergence exists in statistics
+
+
+1:16:50
+Speaker 2 :for a long time.
+ It is interesting that
+
+1:16:59
+Speaker 0 :as I think about myself,
+ how stupid I was for 50 years,
+
+1:17:05
+Speaker 2 :
+
+1:17:06
+Speaker 0 :I did not see weak convergence.
+
+
+1:17:07
+Speaker 2 :I work only on strong convergence.
+
+
+1:17:12
+Speaker 0 :But now I think that most
+powerful is weak convergence
+ because it makes admissible
+set of functions. And even in old proverbs,when people tried to understand
+recognition about duck law,
+
+
+1:17:26
+Speaker 2 :
+
+1:17:26
+Speaker 0 :looks like a duck and so on,
+ they used weak convergence.
+
+1:17:33
+Speaker 2 :People in language they understand this.
+
+
+1:17:36
+Speaker 0 :But when we're trying to
+create artificial intelligence
+
+
+1:17:39
+Speaker 2 :
+
+1:17:43
+Speaker 0 :if we want invent in different way.
+
+
+1:17:46
+Speaker 2 :
+
+1:17:47
+Speaker 0 :Just consider strong convergence,
+artificial intelligence.
+
+
+1:17:49
+Speaker 2 :
+
+1:17:50
+Speaker 1 :- So reducing the set
+of admissible functions
+ you think there should be effort put into
+understanding the propertiesof weak convergence?
+- You know,
+
+
+1:18:02
+Speaker 2 :in classical mathematics,
+in Hilbert Space,
+
+
+1:18:07
+Speaker 0 :there are only two forms of
+convergence, strong and weak.
+
+
+1:18:12
+Speaker 2 :Now we can use both.
+
+
+1:18:18
+Speaker 0 :That means that we did everything.
+
+
+1:18:20
+Speaker 2 :And it so happened,
+
+
+1:18:26
+Speaker 0 :
+
+1:18:26
+Speaker 2 :that when we used Hilbert
+Space, which is very rich space,
+
+
+1:18:30
+Speaker 0 :
+
+1:18:32
+Speaker 2 :space of continuous functions
+
+
+1:18:36
+Speaker 0 :which has an integral and square.
+
+
+1:18:37
+Speaker 2 :
+
+1:18:39
+Speaker 0 :So we can apply weak and
+strong convergence for learning
+ and have closed-form solution.
+
+1:18:44
+Speaker 2 :
+
+1:18:46
+Speaker 0 :So for computation it is simple.
+ For me it is sign that it is right way.
+
+1:18:51
+Speaker 2 :
+
+1:18:53
+Speaker 0 :Because you don't need any this theory.
+ Yes, do whatever you want.
+
+1:18:58
+Speaker 2 :
+
+1:19:00
+Speaker 0 :But now the only way left
+ is the concept of what is predicate? - Of predicate.
+- But it is not statistics.
+
+1:19:08
+Speaker 1 :- By the way, I like
+the fact that you think
+ that heuristics are a mess
+that should be removed from the system, so closed-form solutionis the ultimate goal.
+- No it so happens
+
+
+1:19:19
+Speaker 0 :
+
+1:19:20
+Speaker 2 :that when you're using
+ right instrument, you
+have closed-form solution.
+
+1:19:29
+Speaker 1 :- Do you think intelligence,
+human-level intelligence,
+ when we create it will, will have something like
+a closed-form solution?
+
+1:19:42
+Speaker 2 :
+
+1:19:44
+Speaker 0 :- Now I'm looking on bounds,
+
+
+1:19:46
+Speaker 2 :which I gave bounds for convergence.
+ And when I'm looking for bounds, I'm thinking,
+
+1:19:57
+Speaker 0 :what is the most appropriate
+kernel of this bound would be.
+
+
+1:20:00
+Speaker 2 :
+
+1:20:03
+Speaker 0 :So we know that in say,
+
+
+1:20:05
+Speaker 2 :
+
+1:20:07
+Speaker 0 :all our businesses we use
+radial basis function.
+
+
+1:20:10
+Speaker 2 :
+
+1:20:12
+Speaker 0 :But looking for the bound I think
+ that I start to understand
+that maybe we need to make corrections to
+radial basis function,
+
+1:20:22
+Speaker 2 :to be closer
+
+
+1:20:26
+Speaker 0 :to what's better for these bounds.
+
+
+1:20:27
+Speaker 2 :
+
+1:20:29
+Speaker 0 :So I'm again trying to
+understand what type of kernel
+
+
+1:20:32
+Speaker 2 :have best
+
+
+1:20:37
+Speaker 0 :approximation, not an approximation,
+
+
+1:20:40
+Speaker 2 :best fit to these bounds.
+
+
+1:20:44
+Speaker 1 :- Sure, so there's a
+lot of interesting work
+ that could be done in
+discovering better function than the radial basis functions
+
+1:20:51
+Speaker 2 :for the kinds of bounds you would find.
+
+
+1:20:51
+Speaker 0 :
+
+1:20:52
+Speaker 2 :- It still comes from,
+
+
+1:20:57
+Speaker 0 :you're looking to match
+and trying to understand.
+
+
+1:21:00
+Speaker 2 :
+
+1:21:01
+Speaker 1 :- From your own mind looking at the--
+ - Yeah but--
+- I don't know.
+
+1:21:03
+Speaker 0 :- Then I'm trying to understand
+
+
+1:21:06
+Speaker 2 :
+
+1:21:09
+Speaker 0 :what will be good for that.
+
+
+1:21:11
+Speaker 2 :
+
+1:21:11
+Speaker 1 :- Yeah, but to me there's still a beauty,
+ again, maybe I'm descending
+value toward heuristics. To me, ultimately intelligence
+will be a mess of heuristics.And that's the engineering answer,
+ I guess.
+- Absolutely.
+
+1:21:27
+Speaker 0 :When you're doing say, self-driving cars,
+
+
+1:21:31
+Speaker 2 :the great guy who will do this.
+
+
+1:21:34
+Speaker 0 :
+
+1:21:37
+Speaker 2 :It doesn't matter what theory behind that.
+
+
+1:21:41
+Speaker 0 :Who has a better theory have to apply.
+
+
+1:21:45
+Speaker 2 :It is the same story about predicate
+
+
+1:21:48
+Speaker 0 :
+
+1:21:49
+Speaker 2 :
+
+1:21:51
+Speaker 0 :because you cannot create
+rule for, situation is much
+
+
+1:21:57
+Speaker 2 :more than you have rule for that.
+ Maybe you can have more abstract rules,
+
+1:22:03
+Speaker 0 :
+
+1:22:04
+Speaker 2 :then it will be less literal.
+
+
+1:22:09
+Speaker 0 :It is the same story about ideas
+ and ideas applied to specific cases.
+
+1:22:15
+Speaker 2 :
+
+1:22:17
+Speaker 1 :- But still you should--
+- You cannot avoid this.
+
+
+1:22:18
+Speaker 0 :
+
+1:22:19
+Speaker 1 :- [Lex] Yes of course,
+but you should still reach
+ for the ideas to understand the science.
+- Yeah, yeah.- Let me kind of ask,
+ do you think neural networks or functions can be made to reason?What do you think, we've been
+talking about intelligence,
+ but this idea of reasoning. There's an element of
+sequentially disassembling,interpreting the images.
+ When you think of handwritten recognition, we kind of think that
+there will be a single,there's an input and an output;
+there's not a recurrence.
+
+
+1:22:59
+Speaker 2 :- Yeah.
+- What do you think about,
+
+
+1:23:01
+Speaker 1 :sort of, the idea of recurrence?
+ Of going back to memory
+and thinking through this sort of, sequentially,mangling the different
+representations over and over
+ until you arrive at a conclusion?
+
+1:23:18
+Speaker 2 :
+
+1:23:20
+Speaker 1 :Or is ultimately all of
+that can be wrapped up
+ in a function? (chuckles)
+
+1:23:24
+Speaker 0 :- You're suggesting,
+
+
+1:23:25
+Speaker 2 :
+
+1:23:27
+Speaker 0 :that let us use this type of algorithm.
+ When I started thinking, I first of all,
+
+1:23:32
+Speaker 2 :
+
+1:23:33
+Speaker 0 :starting to understand what I want.
+
+
+1:23:35
+Speaker 2 :Can I write down what I want?
+ And then I try to formalize.
+
+1:23:43
+Speaker 0 :
+
+1:23:45
+Speaker 2 :
+
+1:23:48
+Speaker 0 :
+
+1:23:50
+Speaker 2 :And when I do that, I'm thinking
+how to solve this problem.
+
+
+1:23:59
+Speaker 0 :Till now I did not see situation where--
+ - Where you need recurrence.
+- Recurrent.
+
+1:24:03
+Speaker 1 :- But do you observe human beings?
+ - Yeah.
+- Do you try to, it's the imitation question, right?It seems that human beings reason,
+ this kind of sequentially,
+
+1:24:18
+Speaker 2 :
+
+1:24:19
+Speaker 1 :sort of, does that
+inspire in you a thought
+ that we need to add that into our
+
+1:24:26
+Speaker 2 :
+
+1:24:28
+Speaker 1 :intelligence systems?
+
+
+1:24:30
+Speaker 2 :
+
+1:24:31
+Speaker 1 :You're saying, okay,
+ you've kind of answered saying, until now I haven't seen a need for it.And so because of that,
+you don't see a reason
+ to think about it?
+
+1:24:42
+Speaker 2 :
+
+1:24:43
+Speaker 0 :- You know, most of
+things I don't understand.
+
+
+1:24:45
+Speaker 2 :In reasoning, in humans,
+
+
+1:24:49
+Speaker 0 :it is for me too complicated.
+
+
+1:24:51
+Speaker 2 :
+
+1:24:55
+Speaker 0 :For me, the most difficult part is
+
+
+1:24:55
+Speaker 2 :to ask questions,
+ good questions. How it works, how people asking questions.I don't know this.
+
+
+1:25:12
+Speaker 1 :- You said that machine
+learning's not only
+ about technical things,
+speaking of questions, but it's also about philosophy.
+
+1:25:19
+Speaker 2 :
+
+1:25:20
+Speaker 1 :What role does philosophy
+play in machine learning?
+ We talked about Plato,
+but generally thinking in this philosophical way,how does philosophy and math
+fit together in your mind?
+
+
+1:25:36
+Speaker 2 :
+
+1:25:38
+Speaker 0 :- Just ideas, and then
+their implementation.
+ It's like predicate,
+
+1:25:42
+Speaker 2 :
+
+1:25:46
+Speaker 0 :say, admissible set of functions.
+
+
+1:25:48
+Speaker 2 :
+
+1:25:49
+Speaker 0 :It comes together, everything.
+
+
+1:25:52
+Speaker 2 :Because,
+
+
+1:25:56
+Speaker 0 :the first declaration of
+theory was done 50 years ago,
+ all that necessary, so everything there. If you have data you can, and you,in your set of functions
+
+
+1:26:09
+Speaker 2 :
+
+1:26:11
+Speaker 0 :has not big capacity.
+ So law of inter-dimension,
+you can do that. You can make structuralist
+minimization, control capacity.
+
+1:26:21
+Speaker 2 :But
+ there was not table to make
+admissible set of function with.
+
+1:26:26
+Speaker 0 :
+
+1:26:29
+Speaker 2 :Now when suddenly we realize that
+
+
+1:26:31
+Speaker 0 :we did not use another idea
+of convergence, which we can,
+
+
+1:26:36
+Speaker 2 :everything comes together.
+
+
+1:26:41
+Speaker 0 :
+
+1:26:42
+Speaker 1 :- But those are mathematical notions.
+ Philosophy plays a role of simply saying that we should be swimming
+in the space of ideas.
+
+1:26:53
+Speaker 0 :- Let's talk, what is philosophy?
+
+
+1:26:54
+Speaker 2 :
+
+1:26:55
+Speaker 0 :Philosophy means understanding of life.
+
+
+1:26:57
+Speaker 2 :
+
+1:26:59
+Speaker 0 :Understanding of life,
+say people like Plato,
+ they understand on very
+high, abstract level of life.
+
+1:27:07
+Speaker 2 :And whatever I'm doing,
+
+
+1:27:13
+Speaker 0 :it's just implementation of
+my understanding of life.
+
+
+1:27:16
+Speaker 2 :
+
+1:27:17
+Speaker 0 :But every new step,
+
+
+1:27:19
+Speaker 2 :that is very difficult.
+ For example,
+
+1:27:27
+Speaker 0 :to find this idea that we need
+
+
+1:27:30
+Speaker 2 :weak convergence,
+ was not simple for me.
+
+1:27:41
+Speaker 1 :- So that required thinking
+about life a little bit.
+ Hard to trace, but there
+was some thought process.
+
+1:27:50
+Speaker 0 :- You know, when I'm thinking
+about the same problem
+ for 50 years now,
+
+1:27:55
+Speaker 2 :
+
+1:27:58
+Speaker 0 :and again and again and again,
+
+
+1:28:00
+Speaker 2 :
+
+1:28:00
+Speaker 0 :I'm trying to understand
+that, this is very important,
+ not to be very enthusiastic. But concentrate on whatever
+that was not able to achieve.- Patient.
+- Yeah.
+
+
+1:28:11
+Speaker 2 :And understand why.
+
+
+1:28:15
+Speaker 0 :And now I understand that,
+ because I believe in math, I believe that,
+
+1:28:20
+Speaker 2 :in this idea.
+ But now when I see that there are
+
+1:28:27
+Speaker 0 :only two ways of convergence,
+and we're using loss.
+
+
+1:28:30
+Speaker 2 :
+
+1:28:33
+Speaker 0 :
+
+1:28:36
+Speaker 2 :That means that we must
+as well as people do it.
+
+
+1:28:41
+Speaker 0 :But now, exactly in
+philosophy and what we know
+ about predicate, how we
+understand life can be described as a predicate.
+
+1:28:50
+Speaker 2 :I thought about that.
+
+
+1:28:56
+Speaker 0 :And that is more or less
+obvious level of symmetry.
+
+
+1:28:58
+Speaker 2 :But next,
+ I have a feeling it's
+something about structures.
+
+1:29:10
+Speaker 0 :But I don't know how to formulate,
+ how to measure and measure a
+structure and all this stuff. The guy who will
+
+1:29:19
+Speaker 2 :solve this challenge problem,
+
+
+1:29:23
+Speaker 0 :then when they will look at how he did it,
+
+
+1:29:26
+Speaker 2 :
+
+1:29:29
+Speaker 0 :probably just only symmetry is not enough.
+
+
+1:29:30
+Speaker 2 :
+
+1:29:32
+Speaker 1 :- [Lex] But something like
+symmetry will be there.
+ Structures of that kind.
+- Oh yeah, absolutely.
+
+1:29:35
+Speaker 0 :Symmetry will be there.
+ A level of symmetry will be there.
+
+1:29:40
+Speaker 2 :And level of symmetry, anti-symmetry,
+
+
+1:29:42
+Speaker 0 :diagonal, vertical, I even don't know
+ how you can use in different direction the degree of symmetry;
+that's very general.But it will be there.
+
+
+1:29:54
+Speaker 2 :I think that people are very sensitive
+
+
+1:29:56
+Speaker 0 :to the idea of symmetry.
+
+
+1:30:00
+Speaker 2 :But there are several ideas like symmetry.
+ As I would like to learn.
+
+1:30:06
+Speaker 0 :
+
+1:30:07
+Speaker 2 :But you cannot learn
+just thinking about that.
+
+
+1:30:10
+Speaker 0 :
+
+1:30:11
+Speaker 2 :You should do challenging problems
+
+
+1:30:14
+Speaker 0 :and then analyze them.
+
+
+1:30:16
+Speaker 2 :
+
+1:30:17
+Speaker 0 :Why it was able to solve them.
+
+
+1:30:20
+Speaker 2 :And then you will see.
+ Very simple things, it's not easy to find.
+
+1:30:24
+Speaker 0 :
+
+1:30:26
+Speaker 2 :(Lex laughs)
+Even talking about this,
+
+
+1:30:29
+Speaker 0 :every time.
+- Yes.
+ - I was surprised, I tried to understand, these people describe in language
+
+1:30:39
+Speaker 2 :strong convergence mechanism for learning.
+
+
+1:30:42
+Speaker 0 :
+
+1:30:44
+Speaker 2 :I did not see it, I don't know.
+
+
+1:30:46
+Speaker 0 :But weak convergence, the duck story
+
+
+1:30:49
+Speaker 2 :
+
+1:30:51
+Speaker 0 :and story like that when you will explain,
+
+
+1:30:54
+Speaker 2 :
+
+1:30:55
+Speaker 0 :you will use weak convergence argument.
+ It looks like a (mumbles)
+
+1:31:01
+Speaker 2 :
+
+1:31:02
+Speaker 0 :but when you try to formalize,
+
+
+1:31:04
+Speaker 2 :you're just ignoring this.
+ Why? Why 50 years? From start of machine learning.
+
+1:31:10
+Speaker 0 :- [Lex] And that's the role of philosophy,
+
+
+1:31:11
+Speaker 1 :
+
+1:31:13
+Speaker 0 :thinking about life.
+- I think that might be.
+
+
+1:31:14
+Speaker 2 :I don't know.
+ Maybe this is theory also,
+
+1:31:20
+Speaker 0 :
+
+1:31:21
+Speaker 2 :
+
+1:31:23
+Speaker 0 :we should blame for that because
+empirical risk minimization
+ and now just starting, if
+you read now textbooks,
+
+1:31:29
+Speaker 2 :
+
+1:31:31
+Speaker 0 :they just about bound about
+empirical risk minimization.
+
+
+1:31:36
+Speaker 2 :They don't look for another
+problem like admissible set.
+
+
+1:31:38
+Speaker 0 :
+
+1:31:40
+Speaker 2 :
+
+1:31:42
+Speaker 1 :- But on the topic of life,
+ perhaps we, you, could talk
+in Russian for a little bit. What's your favorite
+memory from childhood?Okay, I want you to be
+my (speaks in Russian)
+
+
+1:31:57
+Speaker 2 :- Music.
+
+
+1:32:00
+Speaker 1 :- How about, can you try
+and answer in Russian?
+
+
+1:32:03
+Speaker 2 :(speaking in Russian)
+
+
+1:32:06
+Speaker 0 :
+
+1:32:08
+Speaker 2 :
+
+1:32:08
+Speaker 1 :What kind of musica?
+
+
+1:32:10
+Speaker 2 :
+
+1:32:13
+Speaker 1 :
+
+1:32:14
+Speaker 2 :
+
+1:32:14
+Speaker 0 :
+
+1:32:16
+Speaker 2 :
+
+1:32:18
+Speaker 0 :
+
+1:32:21
+Speaker 2 :
+
+1:32:24
+Speaker 0 :
+
+1:32:37
+Speaker 2 :(speaking in Russian)
+
+
+1:32:38
+Speaker 0 :
+
+1:32:39
+Speaker 2 :
+
+1:32:41
+Speaker 0 :
+
+1:32:45
+Speaker 2 :
+
+1:32:47
+Speaker 0 :
+
+1:32:48
+Speaker 2 :
+
+1:32:53
+Speaker 0 :
+
+1:33:05
+Speaker 2 :
+
+1:33:06
+Speaker 1 :(speaking in Russian)
+
+
+1:33:09
+Speaker 2 :
+
+1:33:11
+Speaker 1 :Now that we're talking about Bach,
+ let's switch back to English, 'cause I like Beethoven and Chopin so.
+
+1:33:19
+Speaker 0 :- [Vladimir] Chopin is
+another amusing story.
+ I was--
+- But Bach, if we talk
+
+1:33:22
+Speaker 1 :about predicates, Bach probably
+ has the most sort of, well defined
+predicates that underlie it.- You know, it is very interesting to read
+
+
+1:33:33
+Speaker 0 :
+
+1:33:35
+Speaker 2 :what critics writing about Bach,
+
+
+1:33:37
+Speaker 0 :which words they're using, they're trying
+ to describe predicates.
+- Yeah.
+
+1:33:44
+Speaker 2 :- And then Chopin.
+ It is very different vocabulary. Very different predicate.
+
+1:33:56
+Speaker 0 :And I think that,
+
+
+1:33:57
+Speaker 2 :if you will make collection of that.
+
+
+1:34:03
+Speaker 0 :So maybe from this you can describe
+ predicate for digit recognition.
+
+1:34:08
+Speaker 2 :- [Lex] From Bach and Chopin.
+
+
+1:34:09
+Speaker 1 :
+
+1:34:11
+Speaker 0 :- No, no, no, not from Bach and Chopin.
+ - [Lex] From the the critic interpretation
+
+1:34:13
+Speaker 1 :of the music, yeah.
+- They're trying to explain
+
+
+1:34:16
+Speaker 0 :
+
+1:34:19
+Speaker 2 :you music, what they use this?
+
+
+1:34:23
+Speaker 0 :They describe high-level
+ideas of Plato's ideas
+ behind this music.
+- That's brilliant.
+
+1:34:29
+Speaker 1 :Art is not self-explanatory in some sense.
+ So you have to try to
+convert it into ideas. - It is insulate problems.
+
+1:34:40
+Speaker 0 :When you go from ideas to,
+ to the representation. It is easy way, but when
+you're trying to go back,it is you will pose problems but,
+ nevertheless, I believe when
+you're looking from that,
+
+1:34:54
+Speaker 2 :
+
+1:34:55
+Speaker 0 :
+
+1:34:57
+Speaker 2 :even from art, you will be able
+
+
+1:35:00
+Speaker 0 :to find predicate for digit recognition.
+
+
+1:35:02
+Speaker 2 :
+
+1:35:04
+Speaker 1 :- That's such a fascinating
+and powerful notion.
+ Do you ponder your own mortality? Do you think about it? Do you fear it?Do you draw insight from it?
+
+
+1:35:16
+Speaker 2 :- About mortality?
+ Oh yeah.
+
+1:35:22
+Speaker 1 :- [Lex] Are you afraid of death?
+
+
+1:35:24
+Speaker 2 :- Not too much, not too much.
+ It is pity that I will not be able
+
+1:35:31
+Speaker 0 :to do something which I think
+
+
+1:35:35
+Speaker 2 :I was a feeling to do that.
+ For example, I will be very happy to work with guys,take tradition from music.
+ To write this collection of description,
+
+1:35:52
+Speaker 0 :how they describe music,
+how they use a predicate.
+ And from art as well.
+
+1:35:59
+Speaker 2 :
+
+1:36:01
+Speaker 0 :Then take what's in common,
+ and try to understand predicate which is absolute for everything.- [Lex] For visual recognition
+
+
+1:36:09
+Speaker 1 :and see that there is a connection.
+ - Yeah, yeah, exactly. - [Lex] There's still
+time; we've got time.(laughing)
+
+
+1:36:19
+Speaker 0 :We've got time.
+
+
+1:36:21
+Speaker 2 :- It takes years and years
+
+
+1:36:23
+Speaker 0 :and years.
+- You think so?
+ - It's a long way.
+
+1:36:27
+Speaker 1 :- See, you've got the
+patient mathematician's mind.
+ I think it could be done very quickly and very beautifully.I think it's a really elegant idea.
+ Some of many.
+- Yeah, you know,
+
+1:36:39
+Speaker 0 :the most time it is not
+to make this collection,
+
+
+1:36:43
+Speaker 2 :to understand what is in common,
+
+
+1:36:46
+Speaker 0 :to think about that once again and again
+ and again.
+- Again and again and again.
+
+1:36:50
+Speaker 1 :But I think sometimes,
+especially when you just say
+ this idea now, even just
+putting together the collection and looking at the different sets of data.Language, trying to interpret
+music, criticize music,
+ and images, I think there will be sparks of ideas that will come.Of course, again and again you'll come up
+ with better ideas but
+even just that notion
+
+1:37:17
+Speaker 0 :is a beautiful notion.
+- I even have some example.
+
+
+1:37:20
+Speaker 2 :So I have friend,
+ who was
+
+1:37:29
+Speaker 0 :specialized in Russian poetry.
+
+
+1:37:30
+Speaker 2 :
+
+1:37:33
+Speaker 0 :She is professor of Russian poetry.
+
+
+1:37:36
+Speaker 2 :She did not write poems,
+ but she know a lot of stuff.She make
+ books, several books and one of them
+
+1:37:48
+Speaker 0 :is a collection of Russian poetry.
+
+
+1:37:53
+Speaker 2 :She has images of Russian poetry.
+
+
+1:37:56
+Speaker 0 :She collected all images
+of Russian poetry.
+
+
+1:38:02
+Speaker 2 :And I asked her to do following.
+ You have Nip's digit recognition. And we get 100 digits,
+
+1:38:15
+Speaker 0 :less than 100, I don't
+remember, maybe 50 digits.
+
+
+1:38:17
+Speaker 2 :And try from practical point of view,
+
+
+1:38:20
+Speaker 0 :describe every image you see,
+
+
+1:38:24
+Speaker 2 :
+
+1:38:26
+Speaker 0 :
+
+1:38:27
+Speaker 2 :using only words of
+images of Russian poetry.
+
+
+1:38:29
+Speaker 0 :
+
+1:38:30
+Speaker 2 :And she did it.
+
+
+1:38:36
+Speaker 0 :
+
+1:38:37
+Speaker 2 :And then we tried to,
+ I call it learning using
+privileged information.
+
+1:38:43
+Speaker 0 :I call it privileged information.
+ You have on two languages.
+
+1:38:48
+Speaker 2 :One language is just image of digit.
+
+
+1:38:53
+Speaker 0 :And another language by it
+a description of this image.
+
+
+1:38:57
+Speaker 2 :
+
+1:38:59
+Speaker 0 :And this is privileged information.
+
+
+1:39:00
+Speaker 2 :And there is an algorithm
+when we are working
+
+
+1:39:03
+Speaker 0 :with privileged information,
+you're doing well.
+ Better, much better.
+
+1:39:08
+Speaker 2 :- So there's something there.
+- Something there.
+
+
+1:39:10
+Speaker 1 :
+
+1:39:13
+Speaker 0 :And there is
+
+
+1:39:15
+Speaker 2 :and the thing,
+ she unfortunately died. The collection of digits
+
+1:39:26
+Speaker 0 :and poetic descriptions of those digits.
+
+
+1:39:28
+Speaker 2 :- [Lex] So there's something there
+
+
+1:39:30
+Speaker 1 :in that poetic description.
+
+
+1:39:34
+Speaker 2 :- I think that
+
+
+1:39:37
+Speaker 0 :there is an abstract ideas on the Plato
+ level of ideas.
+- Yeah, that are there,
+
+1:39:41
+Speaker 1 :that could be discovered, and music seems
+ to be a good entry point.
+
+1:39:46
+Speaker 0 :- But as soon as we start this,
+ here's this challenge problem.
+
+1:39:51
+Speaker 1 :- The challenge problem--
+- It immediately connected
+
+
+1:39:53
+Speaker 0 :to all this stuff.
+
+
+1:39:56
+Speaker 1 :- Especially with your
+talk and this podcast,
+ I'll do whatever I can to advertise. Such a clean, beautiful,
+Einstein-like formulationof the challenge before us.
+- Right.
+
+
+1:40:06
+Speaker 2 :
+
+1:40:07
+Speaker 1 :- Let me ask another absurd question.
+ We talked about mortality,
+we talked about philosophy of life; what do you think
+is the meaning of life?What's the predicate
+ for mysterious existence here on Earth?
+
+1:40:25
+Speaker 2 :- I don't know.
+ It's very interesting how we have, in Russia, I don't know if you know
+
+1:40:39
+Speaker 0 :the guy Strogatski?
+
+
+1:40:43
+Speaker 2 :They're writing futures
+they're thinking about,
+ Hume, what's going on.
+
+1:40:50
+Speaker 0 :
+
+1:40:51
+Speaker 2 :
+
+1:40:53
+Speaker 0 :And they have an idea
+
+
+1:40:54
+Speaker 2 :that there are developing
+ two type of people: Common
+people and very smart people.
+
+1:41:04
+Speaker 0 :They just started.
+
+
+1:41:07
+Speaker 2 :
+
+1:41:08
+Speaker 0 :And these two branches of people will go
+ in different directions very soon.
+
+1:41:13
+Speaker 2 :
+
+1:41:14
+Speaker 0 :So that's what they're
+thinking about next.
+
+
+1:41:18
+Speaker 1 :- (laughs) So the purpose of life
+ is to create two (chuckles) two paths. - Two paths.
+- As human societies.Yeah.
+- Yes, simple people
+
+
+1:41:28
+Speaker 0 :and more complicated people.
+
+
+1:41:30
+Speaker 2 :- Which do you like best?
+
+
+1:41:31
+Speaker 1 :The simple people or the complicated ones?
+
+
+1:41:35
+Speaker 0 :- I don't know, Strogatski,
+ he's just, he's fantasy but you know,
+
+1:41:42
+Speaker 2 :every week we have guy who is just
+ writer, and also Soletskoff literature.
+
+1:41:49
+Speaker 0 :
+
+1:41:51
+Speaker 2 :And he explained how he
+understands literature
+
+
+1:41:55
+Speaker 0 :and human relationship.
+
+
+1:41:58
+Speaker 2 :How he sees life.
+
+
+1:42:04
+Speaker 0 :And I understood that I'm just
+small kid comparing to him.
+
+
+1:42:06
+Speaker 2 :He is very smart guy
+in understanding life.
+
+
+1:42:11
+Speaker 0 :
+
+1:42:12
+Speaker 2 :
+
+1:42:15
+Speaker 0 :He knows this predicate, he
+knows big blocks of life.
+
+
+1:42:17
+Speaker 2 :
+
+1:42:20
+Speaker 0 :I'm amused every time I listen to him.
+
+
+1:42:24
+Speaker 2 :And he's just talking about literature.
+
+
+1:42:26
+Speaker 0 :
+
+1:42:28
+Speaker 2 :And I think that I was surprised.
+
+
+1:42:34
+Speaker 0 :So the
+
+
+1:42:35
+Speaker 2 :managers in big companies,
+ most of them are
+
+1:42:46
+Speaker 0 :guys who study English language
+
+
+1:42:48
+Speaker 2 :and English literature.
+ So why? Because they understand life.They understand models.
+ And among them, maybe
+many talented creatures, which are just analyzing this.
+
+1:43:08
+Speaker 0 :And this is big science like Propp did.
+
+
+1:43:09
+Speaker 2 :This is his blocks.
+ Yes, very smart.
+
+1:43:18
+Speaker 1 :- It amazes me that you are and continue
+ to be humbled by the brilliance of others. - I'm very modest about myself.
+
+1:43:25
+Speaker 0 :I see so smart guys around.
+ - Well let me immodest for you.
+
+1:43:30
+Speaker 1 :You're one of the greatest
+mathematicians/statisticians
+ of our time, it's truly an honor. Thank you for talking.
+- No, no, no, okay, okay.- And let's talk.
+- (laughs) It is not.
+
+
+1:43:41
+Speaker 0 :- Yeah, let's talk.
+- I know my limits.
+
+
+1:43:46
+Speaker 1 :- [Lex] Let's talk again when
+your challenge is taken on
+ and solved by a grad student. - Let's talk again.
+- Especially when--
+
+1:43:54
+Speaker 0 :
+
+1:43:55
+Speaker 1 :- [Vladimir] I hope that this happens.
+ - Maybe music will be involved. Vladimir, thank you so much.It's been an honor.
+- Thank you very much.
+
+
+1:44:02
+Speaker 2 :- Thanks for listening
+to this conversation
+
+
+1:44:03
+Speaker 1 :with Vladimir Vapnik.
+ And thank you to our
+presenting sponsor Cash App. Download it, use code: LexPodcast.You'll get $10 and $10 will go to FIRST,
+ an organization that inspires and educates young mind to become
+science and technologyinnovators of tomorrow.
+ If you enjoyed this podcast,
+subscribe on YouTube, give it five stars on Apple
+PodCast, support it on Patreon,or simply connect with me
+on Twitter @LexFridman.
+ And now let me leave you with some words from Vladimir Vapnik."When solving a problem of interest,
+ "do not solve a more general problem "as an intermediate step."Thank you for listening.
+
+

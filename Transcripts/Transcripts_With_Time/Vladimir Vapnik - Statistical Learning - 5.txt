@@ -1,0 +1,2776 @@
+0:00:00
+Speaker 1 :The following is a conversation with Vladimir Vapnik.
+
+
+0:00:03
+Speaker 0 :
+
+0:00:05
+Speaker 1 :He is the co-inventor of support vector machines,
+support vector clustering, VC theory, and
+ many foundational ideas in statistical learning. He was born in the Soviet Union and worked
+at the Institute of Control Sciences in Moscow.Then in the United States, he worked at AT&T,
+NEC Labs, Facebook Research, and now
+ is a professor at Columbia University. His work has been cited over 170,000 times.He has some very interesting ideas about artificial
+intelligence and the nature of learning, especially
+ especially, on the limits of our current approaches
+and the open problems in the field.
+
+0:00:38
+Speaker 0 :
+
+0:00:40
+Speaker 1 :This conversation is part of the MIT course
+on Artificial General Intelligence
+ and the Artificial Intelligence Podcast. If you enjoy it, please subscribe on YouTube or
+rate it on iTunes or your podcast provider of choiceor simply connect with me on Twitter
+or other social networks at Lex Fridman,
+ spelled F-R-I-D.
+
+0:01:01
+Speaker 0 :
+
+0:01:02
+Speaker 2 :And now, here's my conversation with Vladimir Vapnik.
+
+
+0:01:03
+Speaker 0 :Lex: Einstein famously said that God
+doesn't play dice.
+
+
+0:01:08
+Speaker 2 :Vladimir: Yeah.
+
+
+0:01:09
+Speaker 0 :Lex: You have studied the world through the eyes
+of statistics, so let me ask you in terms
+ of the nature of reality--fundamental
+nature of reality.
+
+0:01:20
+Speaker 2 :Does God play dice?
+ Vladimir: We don't know some factors.
+
+0:01:25
+Speaker 1 :
+
+0:01:27
+Speaker 2 :And because we don't know some factors, which could be important, it looks like God plays dice,
+
+
+0:01:36
+Speaker 1 :but you should describe.
+ In philosophy, they distinguish between two
+positions: positions of instrumentalism,
+
+0:01:43
+Speaker 2 :
+
+0:01:45
+Speaker 1 :
+
+0:01:46
+Speaker 2 :where you're creating theories of prediction
+ and position of realism, where you're trying to
+
+0:01:50
+Speaker 1 :
+
+0:01:52
+Speaker 2 :understand what God did.
+
+
+0:01:54
+Speaker 0 :Lex: Can you describe instrumentalism
+and realism a little bit?
+
+
+0:01:57
+Speaker 2 :
+
+0:01:58
+Speaker 1 :
+
+0:02:00
+Speaker 2 :For example, if you have some mechanical laws,
+ what is that? Is it law which is true always and everywhere
+
+0:02:10
+Speaker 1 :or is it a law which allows you to predict a position
+
+
+0:02:14
+Speaker 2 :of moving elements?
+
+
+0:02:20
+Speaker 1 :What do you believe?
+
+
+0:02:24
+Speaker 2 :
+
+0:02:26
+Speaker 1 :Do you believe that it is God's law, that
+God created the world which is this
+
+
+0:02:27
+Speaker 2 :
+
+0:02:31
+Speaker 1 :physical law, or is it just law for predictions?
+
+
+0:02:35
+Speaker 0 :
+
+0:02:37
+Speaker 2 :Lex: And which one is instrumentalism?
+ For predictions. If you believe that this is the law of God
+and it is always true everywhere,that means that you're a realist.
+
+
+0:02:50
+Speaker 1 :You're trying to understand God's thought.
+
+
+0:02:54
+Speaker 0 :Lex: So the way you see the world is as an instrumentalist?
+
+
+0:02:58
+Speaker 2 :Vladimir: You know I'm working from some models--
+ Models of Machine Learning.
+
+0:03:07
+Speaker 1 :
+
+0:03:07
+Speaker 2 :So in this model, you can see settings
+
+
+0:03:12
+Speaker 1 :
+
+0:03:14
+Speaker 2 :and you try to resolve the problem.
+
+
+0:03:15
+Speaker 1 :
+
+0:03:17
+Speaker 2 :
+
+0:03:17
+Speaker 1 :And you can do it in two different ways from
+the point of view of the instrumentalist,
+
+
+0:03:22
+Speaker 2 :
+
+0:03:24
+Speaker 1 :
+
+0:03:25
+Speaker 2 :and that's what everybody does now because
+the goal of machine learning
+
+
+0:03:27
+Speaker 1 :
+
+0:03:31
+Speaker 2 :is to find the rule for classification.
+
+
+0:03:34
+Speaker 1 :
+
+0:03:34
+Speaker 2 :That is true, but it is an
+instrument for prediction.
+
+
+0:03:40
+Speaker 1 :
+
+0:03:42
+Speaker 2 :
+
+0:03:44
+Speaker 1 :But I can say, the goal of machine learning
+is to learn about conditional probability,
+
+
+0:03:49
+Speaker 2 :so how God play and use.
+
+
+0:03:53
+Speaker 1 :Does he play what is the probability for one
+and what is the probability for another
+ in a given situation?
+
+0:03:58
+Speaker 2 :
+
+0:03:59
+Speaker 1 :But for prediction, I don't need this.
+
+
+0:04:01
+Speaker 2 :I need the rule.
+
+
+0:04:04
+Speaker 1 :
+
+0:04:04
+Speaker 2 :But for understanding, I need conditional probability.
+
+
+0:04:06
+Speaker 1 :
+
+0:04:08
+Speaker 0 :Lex: So let me just step back a little bit first
+to talk about, you mentioned which I read
+ last night the parts of the 1960 paper by
+Eugene Wigner, Unreasonable Effectiveness of Mathematicsin the Natural Sciences.
+
+
+0:04:26
+Speaker 2 :
+
+0:04:27
+Speaker 0 :It's such a beautiful paper, by the way.
+ To be honest, to confess my own work in the
+past two years on deep learning heavily applied, it made me feel that I was missing out on
+some of the beauty of nature in the way thatmath can uncover.
+ So let me just step away from the poetry of
+that for a second. How do you see the role of math in your life?Is it a tool?
+ Is it poetry? Where does it sit?And does math, for you, have limits?
+
+
+0:05:01
+Speaker 1 :
+
+0:05:04
+Speaker 2 :Vladimir: Some people are saying that Math
+is language which use god.
+
+
+0:05:08
+Speaker 1 :
+
+0:05:10
+Speaker 0 :Lex: Speak to god or use god?
+ - Use God.
+
+0:05:12
+Speaker 2 :Lex: Use God
+ Vladimir: I believe that this article
+
+0:05:24
+Speaker 1 :
+
+0:05:26
+Speaker 2 :about Unreasonable Effectiveness
+of Math is that if you look
+
+
+0:05:29
+Speaker 1 :
+
+0:05:31
+Speaker 2 :at mathematical structures,
+ they know something about reality. And most scientists from Natural Science,
+they look at an equationin trying to understand reality,
+ so the same with machine learning.
+
+0:05:54
+Speaker 1 :If you try to very carefully look on all the
+equations which define conditional probability,
+
+
+0:05:55
+Speaker 2 :
+
+0:05:58
+Speaker 1 :
+
+0:05:59
+Speaker 2 :
+
+0:06:00
+Speaker 1 :
+
+0:06:01
+Speaker 2 :you can understand something about reality
+more than from your fantasy.
+
+
+0:06:05
+Speaker 1 :
+
+0:06:07
+Speaker 0 :Lex: So math can reveal the simple underlying
+principles of reality, perhaps.
+
+
+0:06:13
+Speaker 1 :
+
+0:06:14
+Speaker 2 :
+
+0:06:16
+Speaker 1 :Vladimir: You know, what may seem simple, it is very
+hard to discover them.
+
+
+0:06:18
+Speaker 2 :
+
+0:06:20
+Speaker 1 :
+
+0:06:22
+Speaker 2 :But then, when you discover them and look
+at them, you see how beautiful they are.
+
+
+0:06:24
+Speaker 1 :
+
+0:06:25
+Speaker 2 :
+
+0:06:27
+Speaker 1 :
+
+0:06:29
+Speaker 2 :And it is surprising why people did not see
+that before when you look at an equation and
+
+
+0:06:33
+Speaker 1 :
+
+0:06:35
+Speaker 2 :derive it from the equations.
+ For example, I talked yesterday about the
+Least Squares Method and people had a lot
+
+0:06:42
+Speaker 1 :of fantasies about improving
+least squares method.
+
+
+0:06:46
+Speaker 2 :
+
+0:06:48
+Speaker 1 :
+
+0:06:51
+Speaker 2 :
+
+0:06:52
+Speaker 1 :But if you look, going step by step by solving
+some equations, you suddenly will get some terms
+
+
+0:06:54
+Speaker 2 :which after thinking; you understand it,
+the described position of an observation point.
+
+
+0:07:05
+Speaker 1 :Least squares method, they throw out a lot
+of information.
+ You don't look at the composition of point
+of observations.
+
+0:07:12
+Speaker 2 :We're looking only on the details.
+
+
+0:07:14
+Speaker 1 :But, when you understood that very simple
+idea, which is not too simple to understand
+
+
+0:07:18
+Speaker 2 :
+
+0:07:19
+Speaker 1 :
+
+0:07:21
+Speaker 2 :
+
+0:07:22
+Speaker 1 :and you can derive this just from equations.
+
+
+0:07:25
+Speaker 0 :Lex: So some simple Algebra, so a few steps will
+take you to something surprising that when
+ you think about--
+
+0:07:32
+Speaker 1 :Vladimir: Absolutely, yes.
+
+
+0:07:35
+Speaker 2 :And that is proof that human intuition is not too rich
+
+
+0:07:42
+Speaker 1 :and very primitive, and it does not see
+
+
+0:07:43
+Speaker 2 :very simple situations.
+
+
+0:07:48
+Speaker 0 :Lex:  So let me take a step back, in general, yes.
+ What about human ingenuity as opposed to intuition,
+the moments of brilliance? Do you have to be so hard on human intuition?Are there moments of brilliance on human intuition
+that can leap ahead of math,
+
+
+0:08:16
+Speaker 2 :and then the math will catch up?
+ Vladimir: I don't think so.
+
+0:08:19
+Speaker 1 :I think the best human intuition, it is putting
+in axioms, then it is technical
+
+
+0:08:24
+Speaker 2 :
+
+0:08:26
+Speaker 1 :
+
+0:08:28
+Speaker 0 :where you have to arrive.
+ Lex: See where the axioms take you.
+
+0:08:30
+Speaker 1 :Vladimir: Yeah.
+
+
+0:08:33
+Speaker 2 :But if they correctly take axioms.
+
+
+0:08:36
+Speaker 1 :
+
+0:08:37
+Speaker 2 :Axioms are polished during generations of
+scientists and this is integral wisdom.
+
+
+0:08:44
+Speaker 0 :Lex: That's beautifully put.
+ When you think of Einstein and especially,
+relativity, what is the role of imagination coming first there in the moment of
+discovery of an idea?So, that's obviously a mix of math and out
+of the box imagination there.
+
+
+0:09:09
+Speaker 2 :Vladimir: That, I don't know.
+ Whatever I did, I exclude any imagination
+because whatever I saw in machine learning
+
+0:09:18
+Speaker 1 :that come from imagination, like features,
+like deep learning, they're not really one
+
+
+0:09:27
+Speaker 2 :to the problem.
+
+
+0:09:30
+Speaker 1 :When you're looking very clearly from a mathematical
+equation, you'd arrive in very simple story
+ which goes far beyond, theoretically, than
+whatever people can imagine because it is
+
+0:09:40
+Speaker 2 :
+
+0:09:41
+Speaker 1 :not good fantasies.
+ It is just interpretation.
+
+0:09:48
+Speaker 2 :It is just fantasy, but it is not what you need.
+
+
+0:09:50
+Speaker 1 :
+
+0:09:53
+Speaker 2 :You don't need any imagination to derive mind
+principle of machine learning.
+
+
+0:09:56
+Speaker 1 :
+
+0:09:57
+Speaker 2 :
+
+0:09:59
+Speaker 0 :Lex: When you think about learning and intelligence,
+maybe thinking about the human brain in trying
+ to describe mathematically the process of
+learning that is something like what happens in the human brain, do you think we have the
+tools, currently?
+
+0:10:15
+Speaker 2 :
+
+0:10:17
+Speaker 0 :Do you think we will ever have the tools to
+try to describe that process of learning?
+
+
+0:10:20
+Speaker 2 :
+
+0:10:22
+Speaker 1 :Vladimir: It is not description what's going on.
+ It is interpretation.
+
+0:10:27
+Speaker 2 :It is your interpretation.
+ Your vision can be wrong.
+
+0:10:31
+Speaker 1 :You know, when the guy who invented the microscope,
+Leeuwenhoek, for the first time,
+
+
+0:10:36
+Speaker 2 :
+
+0:10:37
+Speaker 1 :only he got this instrument and he kept it secret.
+
+
+0:10:42
+Speaker 2 :
+
+0:10:44
+Speaker 1 :But he wrote a report in
+the London Academy of Science.
+ In his report, when he's looking on the blood,
+he looked everywhere--on the water, on the
+
+0:10:58
+Speaker 2 :blood on those film, but he described blood
+like a fight between queens and kings.
+
+
+0:11:06
+Speaker 1 :So he saw blood cells, red cells and he imagines
+it is like an army fighting each other.
+
+
+0:11:10
+Speaker 2 :
+
+0:11:12
+Speaker 1 :
+
+0:11:14
+Speaker 2 :And it was his interpretation of the situation.
+
+
+0:11:17
+Speaker 1 :And he sent it as a report in the Academy
+of Science.
+ They very carefully looked because they believe
+that he is right. He saw something, but he gave a wrong interpretation.
+
+0:11:27
+Speaker 2 :And I believe the same can happen with the brain.
+
+
+0:11:32
+Speaker 1 :The most important part, you know, I believe
+in human language.
+
+
+0:11:36
+Speaker 2 :In some proverbs, there's so much wisdom.
+ For example, people say that it is better
+than a thousand days of diligent study
+
+0:11:47
+Speaker 1 :is one day with a great teacher.
+
+
+0:11:56
+Speaker 2 :But if you'll ask what the teacher does,
+nobody knows.
+
+
+0:12:00
+Speaker 1 :And that is intelligence.
+
+
+0:12:02
+Speaker 2 :
+
+0:12:04
+Speaker 1 :But we know from history, and now
+from machine learning
+
+
+0:12:08
+Speaker 2 :is that a teacher can do a lot.
+
+
+0:12:12
+Speaker 0 :Lex: So what from a mathematical
+point of view is a great teacher?
+
+
+0:12:15
+Speaker 2 :
+
+0:12:17
+Speaker 1 :Vladimir: I don't know, but we can say
+what a teacher can do.
+
+
+0:12:21
+Speaker 2 :
+
+0:12:27
+Speaker 1 :He can introduce some invariants, some predicate
+for creating invariants.
+
+
+0:12:31
+Speaker 2 :
+
+0:12:32
+Speaker 1 :How is he doing it, I don't know, because
+a teacher knows reality and can describe from
+ his reality a predicate and invariants.
+
+0:12:39
+Speaker 2 :
+
+0:12:41
+Speaker 1 :But we know when you're using invariant, you
+can decrease the number of observations
+
+
+0:12:46
+Speaker 2 :a hundred times.
+
+
+0:12:49
+Speaker 0 :Lex: Maybe try to pull that apart a little bit,
+but I think you mentioned that like a piano
+ teacher saying to the student,
+"Play like a butterfly." I played piano.I played the guitar for a long time
+ and maybe it's romantic
+and poetic, but it feels like there's a lot of truth in that statement,
+like there's a lot of instruction to that statement.Can you pull that apart?
+ What is that? The language itself may not contain this information.
+
+0:13:22
+Speaker 1 :Vladimir: It's not blah, blah, blah
+because it affects you.
+
+
+0:13:25
+Speaker 2 :
+
+0:13:27
+Speaker 1 :It's what?
+ Affects you, affects your playing.
+
+0:13:29
+Speaker 0 :Lex: Yes it does,
+ but what is the information being exchanged there? What is the nature of information?What is the representation in that information?
+
+
+0:13:41
+Speaker 1 :Vladimir: I believe that it is a sort of predicate,
+but I don't know.
+ That is exactly what intelligence in machine
+learning should be
+
+0:13:48
+Speaker 2 :
+
+0:13:49
+Speaker 1 :because the rest is just mathematical technique.
+ I think that what was discovered recently
+is that there are two mechanisms of learning.
+
+0:14:01
+Speaker 2 :
+
+0:14:03
+Speaker 1 :One is called strong convergence mechanism
+and big convergence mechanism.
+ Before, people used only one convergence. In big convergence, you can use predicate.
+
+0:14:14
+Speaker 2 :
+
+0:14:18
+Speaker 1 :That's what "fly like butterfly" is and if
+you immediately effect your plan.
+ You know there is an English proverb which
+is "If it looks like a duck, sleeps like a duck,
+
+0:14:29
+Speaker 2 :
+
+0:14:31
+Speaker 1 :and quack like a duck, then it is
+probably a duck."
+
+
+0:14:35
+Speaker 2 :
+
+0:14:35
+Speaker 1 :But this is exact about predicate.
+
+
+0:14:38
+Speaker 2 :
+
+0:14:41
+Speaker 1 :It looks like a duck, what does it mean?
+
+
+0:14:43
+Speaker 2 :So, you saw many ducks--that's your training data.
+
+
+0:14:45
+Speaker 1 :
+
+0:14:48
+Speaker 2 :You have a description that looks like ducks.
+
+
+0:14:55
+Speaker 1 :
+
+0:14:56
+Speaker 0 :Lex: Yeah, the visual characteristics of a duck, yeah.
+
+
+0:14:58
+Speaker 1 :
+
+0:15:01
+Speaker 2 :Vladimir: Yeah, and you have a model
+for recognizing ducks.
+
+
+0:15:04
+Speaker 1 :
+
+0:15:06
+Speaker 2 :So you would like that theoretical description
+from the model to coincide.
+ There's empirical description which you saw.
+
+0:15:13
+Speaker 1 :So, about "it looks like a duck," it is general.
+
+
+0:15:16
+Speaker 2 :But, what about swims like a duck?
+ You should know that ducks swim.
+
+0:15:22
+Speaker 1 :You can't say it plays chess like a duck.
+ Okay, ducks doesn't play chess.
+
+0:15:29
+Speaker 2 :
+
+0:15:31
+Speaker 1 :It's a completely legal predicate but it is
+useless.
+
+
+0:15:33
+Speaker 2 :
+
+0:15:38
+Speaker 1 :So, how can a teacher recognize a non-useless
+predicate?
+
+
+0:15:39
+Speaker 2 :
+
+0:15:41
+Speaker 1 :
+
+0:15:43
+Speaker 2 :So, up to now, we don't use this predicate
+in existing machine learning,
+
+
+0:15:44
+Speaker 1 :so why do we need zillions of data?
+ But this English proverb say use only three
+predicates--looks like a duck,
+
+0:15:57
+Speaker 2 :swims like a duck and quack like a duck.
+
+
+0:15:59
+Speaker 0 :Lex: So you can't deny the fact that swims like
+a duck and quacks like a duck has humor
+ in it, has ambiguity?
+
+0:16:07
+Speaker 2 :
+
+0:16:09
+Speaker 1 :
+
+0:16:09
+Speaker 2 :Vladimir: Let's talk about "swims like a duck."
+
+
+0:16:12
+Speaker 1 :
+
+0:16:14
+Speaker 2 :It does not say jumps like a duck, why?
+
+
+0:16:18
+Speaker 0 :Lex: It's not relevant.
+
+
+0:16:19
+Speaker 1 :
+
+0:16:22
+Speaker 2 :Vladimir: It means that you know ducks and you know
+different birds.
+
+
+0:16:24
+Speaker 1 :You know animals and you derived from this
+that it is relevant to say "swim like a duck."
+
+
+0:16:31
+Speaker 2 :
+
+0:16:32
+Speaker 0 :Lex: So in order for us to understand "swims like
+a duck," it feels like we need to know
+ millions of other little pieces of information
+we pick up along the way. You don't think so?That doesn't need to be this knowledge-based,
+in those statements, carry some rich information
+ that helps us understand the essence of duck?
+
+0:16:55
+Speaker 2 :Vladimir: Yeah.
+
+
+0:16:56
+Speaker 0 :Lex: How far are we from integrating predicates?
+
+
+0:17:01
+Speaker 1 :Vladimir: You know that when you can see the
+complete story of machine learning, so what it does,
+
+
+0:17:10
+Speaker 2 :you have a lot of functions,
+
+
+0:17:12
+Speaker 1 :
+
+0:17:14
+Speaker 2 :and then you're talking it looks like a duck.
+ You see your training data.
+
+0:17:21
+Speaker 1 :
+
+0:17:22
+Speaker 2 :From the training data, you recognize what
+the expected duck should look like.
+
+
+0:17:30
+Speaker 1 :
+
+0:17:33
+Speaker 2 :Then, you remove all functions which do not
+look like what you think it should look from
+ the training data.
+
+0:17:41
+Speaker 1 :So, you decrease the amount of function from
+which you pick up one.
+
+
+0:17:44
+Speaker 2 :
+
+0:17:46
+Speaker 1 :Then, you give a second predicate and again,
+they create a set of functions.
+ And after that, you pick up
+the best function you can.
+
+0:17:54
+Speaker 2 :
+
+0:17:56
+Speaker 1 :It is standard machine learning.
+
+
+0:17:59
+Speaker 2 :So, why do you need not too many examples?
+
+
+0:18:03
+Speaker 0 :Lex: Because your predicates are very good.
+
+
+0:18:06
+Speaker 1 :
+
+0:18:07
+Speaker 2 :
+
+0:18:09
+Speaker 1 :Vladimir: Yeah, that's exactly basic predicate because
+every predicate is invented to decrease the
+
+
+0:18:12
+Speaker 2 :admissible set of functions.
+
+
+0:18:17
+Speaker 0 :Lex: So you talk about admissible set of functions
+and you talk about good functions.
+ So what makes a good function?
+
+0:18:23
+Speaker 1 :
+
+0:18:27
+Speaker 2 :Vladimir: So admissible set of function is a set of
+function which has a small capacity or small
+
+
+0:18:30
+Speaker 1 :
+
+0:18:33
+Speaker 2 :diversity, a small dimension, which contains
+good functions inside.
+
+
+0:18:35
+Speaker 1 :
+
+0:18:36
+Speaker 0 :Lex: By the way, for people who don't know VC,
+you're the V in the VC.
+ So how would you describe to a lay person
+what VC theories are? How would you describe VC?
+
+0:18:52
+Speaker 1 :
+
+0:18:53
+Speaker 2 :Vladimir: When you have a machine,
+ a machine capable to pick up one function
+
+0:18:56
+Speaker 1 :
+
+0:19:00
+Speaker 2 :from the admissible set of function.
+
+
+0:19:03
+Speaker 1 :
+
+0:19:05
+Speaker 2 :But the set of admissible functions can be big.
+
+
+0:19:08
+Speaker 1 :They contain all continuous functions and
+theories.
+ You don't have so many examples to pick up
+functions.
+
+0:19:13
+Speaker 2 :But it can be small--
+
+
+0:19:20
+Speaker 1 :what we call capacity, but maybe diversity--
+so not very different functions in the settings,
+ an infinite set of functions but not very diverse. So, if it's a small VC dimension and when
+the VC dimension is small,
+
+0:19:36
+Speaker 2 :
+
+0:19:37
+Speaker 1 :you need a small amount of training data.
+
+
+0:19:40
+Speaker 2 :
+
+0:19:44
+Speaker 1 :So the goal is to create admissible set of
+functions which have small VC dimension
+
+
+0:19:47
+Speaker 2 :
+
+0:19:49
+Speaker 1 :and contains good functions.
+
+
+0:19:52
+Speaker 2 :
+
+0:19:53
+Speaker 1 :
+
+0:19:57
+Speaker 2 :Then, you'll be able to pick up the function
+using a small amount of observations.
+
+
+0:19:58
+Speaker 1 :
+
+0:19:59
+Speaker 2 :
+
+0:20:01
+Speaker 0 :Lex: So that is the task of learning is creating
+a set of admissible functions
+ that has a small VC dimension and then you figure out a clever
+way of picking up the good.
+
+0:20:16
+Speaker 2 :
+
+0:20:17
+Speaker 1 :Vladimir: That is the goal of learning
+which I formulated yesterday.
+
+
+0:20:24
+Speaker 2 :Statistical learning theory does not involve
+creating admissible set of functions.
+
+
+0:20:27
+Speaker 1 :In classical learning theory everywhere, in
+100% of textbooks, the admissible set of functions
+ is given, but this is telling us about nothing
+because the most difficult problem is to create
+
+0:20:45
+Speaker 2 :admissible set of functions given, say,
+
+
+0:20:50
+Speaker 1 :a lot of functions, a continuous set of functions.
+ Create admissible set of functions, that means
+that the finite VC dimension, small VC dimension and contains good functions.
+
+0:21:01
+Speaker 2 :So, this was out of consideration.
+
+
+0:21:04
+Speaker 1 :
+
+0:21:05
+Speaker 0 :Lex: So what's the process of doing that,
+I mean, that's fascinating?
+ What is the process of creating this admissible
+set of functions?
+
+0:21:13
+Speaker 1 :
+
+0:21:14
+Speaker 2 :Vladimir: That is invariance.
+
+
+0:21:14
+Speaker 0 :Lex: That's invariance.
+ Can you describe invariance?
+
+0:21:17
+Speaker 1 :Vladimir: Yeah.
+
+
+0:21:21
+Speaker 2 :You have to think of properties of the training
+data and properties means they have some function
+
+
+0:21:27
+Speaker 1 :
+
+0:21:28
+Speaker 2 :
+
+0:21:31
+Speaker 1 :
+
+0:21:31
+Speaker 2 :and you just count what is the average value
+of function of training data.
+
+
+0:21:34
+Speaker 1 :
+
+0:21:38
+Speaker 2 :
+
+0:21:41
+Speaker 1 :You have a model and what is the expectation
+of this function on the model
+ and they should coincide. So, the problem is about how to pick up functions.
+
+0:21:51
+Speaker 2 :It can be any function.
+
+
+0:21:55
+Speaker 1 :In fact, it is true for all functions,
+
+
+0:21:59
+Speaker 2 :
+
+0:22:03
+Speaker 1 :but when I say a duck doesn't jump, so you don't
+
+
+0:22:10
+Speaker 2 :ask a question on "jumps like a duck"
+because it is trivial.
+
+
+0:22:12
+Speaker 1 :It does not jump, so it does not help you at all.
+
+
+0:22:17
+Speaker 2 :But you know something on which questions
+to ask like when you ask "swims like a duck."
+
+
+0:22:21
+Speaker 1 :
+
+0:22:22
+Speaker 2 :
+
+0:22:24
+Speaker 1 :But "looks like a duck," it is a general situation.
+
+
+0:22:26
+Speaker 2 :But, looks like, say, a guy who has this illness,
+this disease, it is legal.
+
+
+0:22:39
+Speaker 1 :So, there is a general type of predicate,
+"It looks like," and a special type of predicate
+ which is related to this specific problem.
+
+0:22:49
+Speaker 2 :
+
+0:22:51
+Speaker 1 :And that is the intelligence part of this
+business and that is where a teacher is involved.
+
+
+0:22:56
+Speaker 0 :Lex: Incorporating the specialized predicates.
+
+
+0:22:59
+Speaker 2 :Vladimir: Yes.
+
+
+0:23:00
+Speaker 0 :Lex: Okay.
+ What do you think about deep learning
+as neural networks, these architectures, as helping accomplish some of the tasks
+you're thinking about?Their effectiveness or lack thereof,
+ what are the weaknesses and what are the possible strengths?
+
+0:23:19
+Speaker 2 :
+
+0:23:20
+Speaker 1 :
+
+0:23:22
+Speaker 2 :Vladimir: You know, I think that this is fantasy,
+everything like deep learning, like features.
+
+
+0:23:25
+Speaker 1 :
+
+0:23:27
+Speaker 2 :Let me give you this example.
+
+
+0:23:34
+Speaker 1 :One of the greatest books is Churchill's book
+about the history of the Second World War.
+
+
+0:23:40
+Speaker 2 :
+
+0:23:41
+Speaker 1 :
+
+0:23:43
+Speaker 2 :He starts in his book describing that in the
+old times when a war is over,
+ the great kings,
+
+0:23:53
+Speaker 1 :they gather together--and most of them are
+relatives--and they discuss what should be
+
+
+0:24:02
+Speaker 2 :done to create peace and they come to an agreement.
+
+
+0:24:03
+Speaker 1 :
+
+0:24:07
+Speaker 2 :And what happens in the First World War?
+ The general public came in power. They were so greedy that robbed Germany.
+
+0:24:18
+Speaker 1 :It was clear for everybody that it is not
+peace, that peace will only last for 20 years
+
+
+0:24:23
+Speaker 2 :
+
+0:24:25
+Speaker 1 :because they were not professionals.
+ I see the same in machine logic. There are mathematicians looking for the problem
+from a very deep mathematical point of view
+
+0:24:36
+Speaker 2 :
+
+0:24:39
+Speaker 1 :and there are computer scientists that mostly
+do not know mathematics.
+ They just have interpretations of that and
+they invented a lot of blah, blah interpretations like deep learning.Why did you do deep learning?
+ Mathematics does not know deep learning.
+
+0:24:59
+Speaker 2 :Mathematics does not know neurons; it is just
+functions.
+
+
+0:25:00
+Speaker 1 :If you like to say piecewise linear function, say that
+
+
+0:25:05
+Speaker 2 :
+
+0:25:07
+Speaker 1 :and do it in a class of piecewise linear function.
+
+
+0:25:10
+Speaker 2 :
+
+0:25:12
+Speaker 1 :But they invented something and then they
+tried to prove the advantage of that
+ through interpretations, which was mostly wrong.
+
+0:25:20
+Speaker 2 :
+
+0:25:22
+Speaker 1 :And when it is not enough, they appeal to
+the brain and they say they know nothing about that.
+
+
+0:25:28
+Speaker 2 :Nobody knows what's going in the brain.
+
+
+0:25:30
+Speaker 1 :
+
+0:25:32
+Speaker 2 :So, I think it is more reliable to work on math.
+
+
+0:25:34
+Speaker 1 :This is a mathematical problem, do your best
+to solve this problem.
+
+
+0:25:37
+Speaker 2 :
+
+0:25:39
+Speaker 1 :Try to understand that there is not only one
+way of convergence,
+
+
+0:25:43
+Speaker 2 :
+
+0:25:44
+Speaker 1 :which is the strong way of convergence.
+ There is a big way of convergence
+which requires predicates.
+
+0:25:52
+Speaker 2 :And if you will go through all this stuff,
+you will see that you don't need deep learning.
+
+
+0:25:53
+Speaker 1 :
+
+0:25:55
+Speaker 2 :
+
+0:25:58
+Speaker 1 :Even more, I would say one of the theorems,
+which is called Representer theorem,
+
+
+0:26:00
+Speaker 2 :
+
+0:26:01
+Speaker 1 :
+
+0:26:02
+Speaker 2 :
+
+0:26:04
+Speaker 1 :
+
+0:26:06
+Speaker 2 :it says that optimal solution of mathematical problems,
+
+
+0:26:09
+Speaker 1 :
+
+0:26:10
+Speaker 2 :
+
+0:26:12
+Speaker 1 :which describe learning, is on a shallow network,
+
+
+0:26:15
+Speaker 2 :not on deep learning.
+
+
+0:26:21
+Speaker 0 :Lex: On a shallow network.
+ Yeah, the problem is there. Absolutely. So, in the end, what you're saying
+is exactly right.The question is, you have no value for throwing
+something on the table, playing with it--not math.
+ It's like a neural network where you said
+throwing something in the bucket or the biological example in looking at kings and queens or
+the cells on the microscope, you don't seevalue in imagining the cells or the kings
+and queens and using that as inspiration,
+ an imagination for where the math
+will eventually lead you? Do you think that interpretation basically
+deceives you in a way that's not productive?
+
+0:27:05
+Speaker 2 :
+
+0:27:06
+Speaker 1 :
+
+0:27:09
+Speaker 2 :Vladimir: I think that if you're trying to analyze this
+business of learning
+
+
+0:27:11
+Speaker 1 :and especially, the discussion about deep learning,
+ it is a discussion about
+interpretations and not about things,
+
+0:27:22
+Speaker 2 :
+
+0:27:23
+Speaker 1 :about what you can say about things.
+
+
+0:27:26
+Speaker 0 :Lex: That's right.
+ But, aren't you surprised by the beauty of it,
+not mathematical beauty but the fact that it works at all?Or, are you criticizing that very beauty,
+our human desire to interpret,
+ to find our silly interpretations in these constructs?
+
+0:27:51
+Speaker 2 :Like, let me ask you this, are you surprised
+or does it inspire you, how do you feel about
+
+
+0:27:53
+Speaker 0 :the success of a system like AlphaGo at beating
+the game of Go
+ using neural networks to estimate the quality of a board?
+
+0:28:11
+Speaker 1 :Vladimir: That is your interpretation--quality of the board.
+
+
+0:28:14
+Speaker 2 :
+
+0:28:15
+Speaker 0 :Lex: Yes.
+ It is not our interpretation. The fact is a neural network system--it doesn't
+matter--a learning systemthat we don't, I think, mathematically, understand that well, beats the best human player,
+ that's something that was thought impossible.
+
+0:28:31
+Speaker 1 :Vladimir: That means it's not a very difficult problem. That's it.
+
+
+0:28:34
+Speaker 0 :Lex: So we've empirically have discovered that
+this is not a very difficult problem.
+ That's true. I can't argue.
+
+0:28:50
+Speaker 1 :
+
+0:28:51
+Speaker 2 :
+
+0:28:53
+Speaker 1 :
+
+0:28:53
+Speaker 2 :Vladimir: Even more, I would say, if they used deep
+learning, it is not the most effective way
+
+
+0:28:55
+Speaker 1 :
+
+0:28:57
+Speaker 2 :of learning theory.
+
+
+0:29:00
+Speaker 1 :
+
+0:29:03
+Speaker 2 :And usually, when people use deep learning,
+they're using zillions of training data,
+ but you don't need this.
+
+0:29:13
+Speaker 1 :So when I describe a challenge, can we do
+some problems that you did well
+
+
+0:29:18
+Speaker 2 :with deep learning method, with deepnet,
+
+
+0:29:24
+Speaker 1 :using a hundred times less training data?
+
+
+0:29:26
+Speaker 2 :
+
+0:29:29
+Speaker 1 :
+
+0:29:30
+Speaker 2 :Even more, there are some problems that deep
+learning cannot solve because it's not necessarily
+
+
+0:29:37
+Speaker 1 :that they created admissible set of functions.
+ To create deep architecture means to create
+admissible set of functions. You cannot say that you're creating good admissible
+set of functions.
+
+0:29:48
+Speaker 2 :
+
+0:29:50
+Speaker 1 :It's your fantasy.
+ It does not come from us.
+
+0:29:54
+Speaker 2 :
+
+0:29:54
+Speaker 1 :But, it is possible to create admissible set
+of functions because you have your training data
+
+
+0:30:00
+Speaker 2 :
+
+0:30:02
+Speaker 1 :Actually, for mathematicians, when you
+consider a variant,
+
+
+0:30:06
+Speaker 2 :you need to use the law of large numbers.
+
+
+0:30:13
+Speaker 1 :
+
+0:30:14
+Speaker 2 :When you make a training in existing algorithms,
+you need a uniform law of large numbers,
+
+
+0:30:17
+Speaker 1 :which is much more difficult.
+ It requires VC dimension and all that stuff.
+
+0:30:27
+Speaker 2 :But nevertheless, if you use both big and
+strong way of convergence, you can decrease
+
+
+0:30:31
+Speaker 1 :a lot of training data.
+
+
+0:30:34
+Speaker 0 :Lex: Yeah, you could do the three--that swims like
+a duck and quacks like a duck.
+ So let's step back and think about
+human intelligence in general. And clearly, that has evolvedin a non-mathematical way.
+ Lex: As far as we know, God or whoever didn't come
+up with a model and placed in our brain of admissible functions; it kind of evolved.I don't know your view on this but Alan Turing
+in the 50's in his paper asked and interjected
+ the question: Can machines think? It's not a very useful question, but can you
+briefly entertain this useless question"Can machines think?"
+ So, talk about intelligence and your view of it.
+
+0:31:28
+Speaker 1 :Vladimir: I don't know that.
+
+
+0:31:33
+Speaker 2 :I know that Turing described imitation--if
+a computer can imitate a human being.
+
+
+0:31:35
+Speaker 1 :
+
+0:31:38
+Speaker 2 :
+
+0:31:40
+Speaker 1 :
+
+0:31:41
+Speaker 2 :Let's call it intelligence and he understands
+that it is not a thinking computer.
+
+
+0:31:43
+Speaker 1 :He completely understands what he was doing,
+but he set up a problem of imitation.
+
+
+0:31:52
+Speaker 2 :
+
+0:31:54
+Speaker 1 :So now we understand it as a problem of not
+an imitation.
+
+
+0:31:57
+Speaker 2 :I'm not sure that intelligence is just inside of us.
+
+
+0:32:01
+Speaker 1 :
+
+0:32:03
+Speaker 2 :
+
+0:32:05
+Speaker 1 :It may also be outside of us.
+ I have several observations,
+
+0:32:08
+Speaker 2 :
+
+0:32:11
+Speaker 1 :so when I prove some theorems,
+it's very difficult theorems.
+
+
+0:32:13
+Speaker 2 :
+
+0:32:17
+Speaker 1 :
+
+0:32:18
+Speaker 2 :In a couple of years, in several places, people
+will prove the same theorem, say,
+
+
+0:32:20
+Speaker 1 :
+
+0:32:22
+Speaker 2 :saw a dilemma after ours was done,
+
+
+0:32:25
+Speaker 1 :then another guy proves
+the same theorem.
+ In the history of science, it has happened
+all the time. For example, geometry, it happens simultaneously.First is Lobachevsky and then Gauss and Bolyai
+and then other guys, and approximately,
+ in a ten-year period of time, and I saw a lot of examples like that.And when a mathematician thinks it, when they
+develop something, they develop something
+ in general which affects everybody.
+
+0:33:00
+Speaker 2 :
+
+0:33:02
+Speaker 1 :So, maybe our model of intelligence is only
+inside of us is incorrect.
+
+
+0:33:07
+Speaker 0 :Lex: It's our interpretation. Yeah.
+
+
+0:33:09
+Speaker 1 :
+
+0:33:12
+Speaker 2 :Vladimir: It may be that they exist with some
+connection with world intelligence.
+
+
+0:33:15
+Speaker 1 :I don't know that.
+
+
+0:33:17
+Speaker 0 :Lex: You're almost like plugging in into...
+ Vladimir: Yeah, exactly.
+
+0:33:20
+Speaker 1 :
+
+0:33:21
+Speaker 0 :Lex: ...and contributing to this.
+ Vladimir: ...into a big network.
+
+0:33:23
+Speaker 1 :
+
+0:33:24
+Speaker 0 :Lex: Into a big, maybe a neural network.
+ On the flip side of that, maybe you can comment
+on the big O complexity and how you see classifying algorithms by worst-case running time
+in relation to their input.So, that way of thinking about functions,
+do you think P equals un-P?
+ Do you think that's an interesting question?
+
+0:33:49
+Speaker 1 :Vladimir: Yeah, it is an interesting question.
+
+
+0:33:53
+Speaker 2 :But let me talk about complexity and about
+worst-case scenario.
+
+
+0:33:56
+Speaker 1 :
+
+0:33:59
+Speaker 2 :
+
+0:34:02
+Speaker 1 :There is a mathematical setting.
+ When I came to the United States in 1991,
+people did not know this. They did not know statistical learning theorem.In Russia, it was published in our monographs,
+but in America, they did not know,
+ and then, they learned it.
+
+0:34:22
+Speaker 2 :
+
+0:34:23
+Speaker 1 :Somebody told me that it was worst-case theory
+and they will create real-case theory,
+ but until now, they haven't.
+
+0:34:33
+Speaker 2 :Because it is a mathematical tool, you can
+do only what you can do using mathematics,
+
+
+0:34:35
+Speaker 1 :
+
+0:34:38
+Speaker 2 :
+
+0:34:39
+Speaker 1 :which is clear understanding and clear description.
+
+
+0:34:42
+Speaker 2 :
+
+0:34:47
+Speaker 1 :
+
+0:34:50
+Speaker 2 :For this reason, we introduced complexity.
+
+
+0:34:59
+Speaker 1 :In VC dimension you can prove some theorems.
+
+
+0:35:07
+Speaker 2 :But we also create theory for cases when you
+know probability measure
+
+
+0:35:12
+Speaker 1 :and that is the best case it can happen.
+
+
+0:35:16
+Speaker 2 :
+
+0:35:18
+Speaker 1 :So from a mathematical point of view, you
+know the best possible case
+ is the worst possible case.
+
+0:35:24
+Speaker 2 :
+
+0:35:25
+Speaker 1 :You can derive different models in the middle,
+but it's not so interesting.
+
+
+0:35:30
+Speaker 0 :Lex: Do you think the edges are interesting?
+
+
+0:35:32
+Speaker 1 :
+
+0:35:35
+Speaker 2 :Vladimir: The edges are interesting because it is not
+so easy to get the exact bounds.
+
+
+0:35:42
+Speaker 1 :It's not, in many cases where you have the
+bounds are not exact, but interesting principles
+
+
+0:35:51
+Speaker 2 :
+
+0:35:53
+Speaker 1 :are discovered the most.
+
+
+0:35:55
+Speaker 0 :Lex: Do you think it's interesting because it's
+challenging and reveals interesting principles
+ that allow you to get those bounds or do you
+think it's interesting because it's actually very useful for understanding the essence
+of a function of an algorithm?So, it's like me judging your life as a human
+being by the worst thing you did and the best
+ thing you did versus all the stuff in the middle. It seems not productive.
+
+0:36:24
+Speaker 2 :
+
+0:36:26
+Speaker 1 :Vladimir: I don't think so because you cannot describe
+situations in the middle or it will not be general.
+
+
+0:36:30
+Speaker 2 :
+
+0:36:32
+Speaker 1 :
+
+0:36:33
+Speaker 2 :
+
+0:36:39
+Speaker 1 :So you can describe edge cases and it is
+clear it has some models, but you cannot describe
+ a model for every new case.
+
+0:36:46
+Speaker 2 :
+
+0:36:48
+Speaker 1 :So, you'll never be accurate when you're using models.
+
+
+0:36:51
+Speaker 2 :
+
+0:36:53
+Speaker 1 :
+
+0:36:53
+Speaker 0 :Lex: But, from a statistical point of view, the
+way you studied functions
+ and the nature of learning and the world, don't you think that the real world
+has a very long tailthat the edge cases are very far away from the mean,
+ the stuff in the middle, or no?
+
+0:37:17
+Speaker 2 :Vladimir: I don't know that.
+
+
+0:37:21
+Speaker 1 :
+
+0:37:22
+Speaker 2 :I think that from my point of view,
+ if youwill use formal statistics,
+
+0:37:37
+Speaker 1 :you need uniform law of large numbers,
+
+
+0:37:37
+Speaker 2 :if you will use this invariance business,
+ you don't need just law of large numbers.
+
+0:37:51
+Speaker 1 :And there's a huge difference between uniform
+law of large numbers and large numbers.
+
+
+0:37:57
+Speaker 0 :Lex: Is it useful to describe that a little more
+or shall we just take it at...
+
+
+0:38:01
+Speaker 1 :Vladimir: No. For example, when I'm talking about ducks,
+I get three predicates and that was enough.
+
+
+0:38:07
+Speaker 2 :
+
+0:38:10
+Speaker 1 :But, if you will try to do formally distinguish,
+
+
+0:38:13
+Speaker 2 :
+
+0:38:15
+Speaker 1 :you will need a lot of observations.
+ So that means that information about "looks
+like a duck" contained a lot of bit of information
+
+0:38:23
+Speaker 2 :
+
+0:38:25
+Speaker 1 :formal bits of information.
+ So we don't know how much bit of information
+is contained from intelligence and that is a subject of analysis.
+
+0:38:42
+Speaker 2 :Until now,
+
+
+0:38:48
+Speaker 1 :on business, I don't have people
+consider artificial intelligence.
+ They consider it as some codes which imitate
+activities of human beings.
+
+0:38:59
+Speaker 2 :
+
+0:39:01
+Speaker 1 :It is not science.
+ It is applications. You would like to imitate Go.Okay, it's very useful and a good problem,
+
+
+0:39:10
+Speaker 2 :but you need to learn something more
+
+
+0:39:13
+Speaker 1 :
+
+0:39:14
+Speaker 2 :
+
+0:39:17
+Speaker 1 :on how people came to develop, say,
+
+
+0:39:22
+Speaker 2 :predicates "sleeps like a duck" or "fly like a butterfly"
+
+
+0:39:24
+Speaker 1 :
+
+0:39:27
+Speaker 2 :or something like that.
+
+
+0:39:29
+Speaker 1 :
+
+0:39:32
+Speaker 2 :It's not that the teacher tells you how it
+came to his mind, how he chooses the image.
+
+
+0:39:37
+Speaker 1 :That is a problem of intelligence.
+
+
+0:39:39
+Speaker 0 :Lex: That is the problem of intelligence.
+ And you see that connected to the problem
+of learning? Are they?
+
+0:39:46
+Speaker 1 :Vladimir: Absolutely, because you immediately give
+this predicate like specific predicates
+ "swims like a duck" or "quacks like a duck."
+
+0:39:53
+Speaker 2 :It was chosen somehow.
+
+
+0:39:57
+Speaker 0 :Lex: So what is the line of work, would you say,
+if you were to formulate as a set of open problems
+
+
+0:40:04
+Speaker 2 :
+
+0:40:05
+Speaker 0 :that will take us there, to fly like
+a butterfly, we'll get a system to be able to?
+
+
+0:40:12
+Speaker 1 :Vladimir: Let's separate two stories--one mathematical
+story that if you have predicates
+ you can do something,
+
+0:40:19
+Speaker 2 :
+
+0:40:21
+Speaker 1 :and another story on how to
+get predicates.
+
+
+0:40:22
+Speaker 2 :
+
+0:40:24
+Speaker 1 :
+
+0:40:26
+Speaker 2 :It is an intelligence problem and people even
+did not start understanding intelligence.
+
+
+0:40:28
+Speaker 1 :
+
+0:40:31
+Speaker 2 :
+
+0:40:32
+Speaker 1 :Because to understand intelligence, first of all,
+try to understand what they will teach us,
+
+
+0:40:37
+Speaker 2 :
+
+0:40:41
+Speaker 1 :how a teacher teach, why one teacher is
+better than another one.
+
+
+0:40:43
+Speaker 2 :
+
+0:40:44
+Speaker 0 :Lex: Yeah. And so, do you think we really even haven't
+started on the journey of generating the predicates?
+
+
+0:40:51
+Speaker 1 :Vladimir: No. We don't understand.
+
+
+0:40:54
+Speaker 2 :We even don't understand that this problem exists.
+
+
+0:40:57
+Speaker 1 :
+
+0:40:58
+Speaker 0 :Lex:  You do.
+
+
+0:41:00
+Speaker 1 :Vladimir: No. I just know a name.
+
+
+0:41:01
+Speaker 2 :
+
+0:41:02
+Speaker 1 :I won't understand why one teacher
+is better than another
+
+
+0:41:07
+Speaker 2 :and how the teacher affects the student.
+
+
+0:41:14
+Speaker 1 :It is not because he is repeating the problem
+which is in the textbooks.
+
+
+0:41:18
+Speaker 2 :He makes some remarks.
+
+
+0:41:21
+Speaker 1 :He makes some philosophy of reasoning.
+
+
+0:41:23
+Speaker 2 :
+
+0:41:24
+Speaker 0 :Lex: Yeah, that's beautiful.
+ It is a formulation of a question 
+that is the open problem: Why is one teacher better than another?
+
+0:41:34
+Speaker 2 :Vladimir: Right.
+ What he does about it.
+
+0:41:38
+Speaker 0 :Lex: "Why" at every level.
+
+
+0:41:42
+Speaker 2 :
+
+0:41:43
+Speaker 0 :How did they get better?
+ What does it mean to be better?
+
+0:41:48
+Speaker 1 :Vladimir: Yeah. From whatever model I have,
+
+
+0:41:53
+Speaker 2 :
+
+0:41:55
+Speaker 1 :one teacher can give
+a very good predicate.
+ One teacher can say "swims like a duck" and
+another can say "jumps like a duck."
+
+0:42:01
+Speaker 2 :
+
+0:42:05
+Speaker 1 :And jumps like a duck carries zero information.
+
+
+0:42:06
+Speaker 2 :
+
+0:42:08
+Speaker 0 :Lex: So what is the most exciting problem in statistical
+learning you ever worked on or are working on now?
+
+
+0:42:15
+Speaker 2 :Vladimir: I just finished this invariance story
+ and I'm happy that I believe that
+
+0:42:24
+Speaker 1 :it is an ultimate learning story.
+
+
+0:42:28
+Speaker 2 :
+
+0:42:29
+Speaker 1 :At least, I can show that there are no other
+mechanisms.
+
+
+0:42:33
+Speaker 2 :
+
+0:42:35
+Speaker 1 :
+
+0:42:36
+Speaker 2 :
+
+0:42:38
+Speaker 1 :There are only two mechanisms but they separate
+statistical parts from intelligence parts
+
+
+0:42:42
+Speaker 2 :
+
+0:42:45
+Speaker 1 :and I know nothing about the intelligence part.
+
+
+0:42:47
+Speaker 2 :
+
+0:42:49
+Speaker 1 :
+
+0:42:51
+Speaker 2 :And if you will know there's the intelligence
+part, it will help us a lot in teaching
+
+
+0:42:53
+Speaker 1 :
+
+0:42:54
+Speaker 2 :
+
+0:42:58
+Speaker 1 :and in learning.
+
+
+0:43:00
+Speaker 0 :Lex: And we'll know it when we see it?
+
+
+0:43:02
+Speaker 2 :
+
+0:43:03
+Speaker 1 :So for example, in my talk, in the last slide
+was a challenge.
+ So you have a NIST digit recognition problem
+
+0:43:10
+Speaker 2 :
+
+0:43:12
+Speaker 1 :and deep learning claims that they did it very well
+
+
+0:43:15
+Speaker 2 :
+
+0:43:16
+Speaker 1 :
+
+0:43:19
+Speaker 2 :say 99.5% correct answers,
+
+
+0:43:22
+Speaker 1 :but they used 60,000 observations.
+ Can you do the same using a hundred times
+less but incorporating invariants,
+
+0:43:28
+Speaker 2 :
+
+0:43:29
+Speaker 1 :what it means, you know, digit 1, 2, 3?
+
+
+0:43:35
+Speaker 2 :
+
+0:43:38
+Speaker 1 :
+
+0:43:39
+Speaker 2 :Just looking on that, explain the vision variant
+I should keep, to use a hundred times less
+
+
+0:43:41
+Speaker 1 :examples, to do the same job.
+
+
+0:43:46
+Speaker 2 :
+
+0:43:48
+Speaker 0 :Lex: Yeah, that last slide, unfortunately, your
+talk ended quickly, but that last slide was
+ a powerful open challenge and a formulation
+of the essence there.
+
+0:44:02
+Speaker 1 :
+
+0:44:05
+Speaker 2 :Vladimir: That is the exact problem of intelligence
+because everybody, when machine learning started
+
+
+0:44:09
+Speaker 1 :and it was developed by mathematicians, they
+immediately recognized that they use much
+
+
+0:44:17
+Speaker 2 :
+
+0:44:19
+Speaker 1 :more training data than humans needed.
+
+
+0:44:21
+Speaker 2 :
+
+0:44:23
+Speaker 1 :But now, again, we came to the same story
+of how to decrease.
+
+
+0:44:25
+Speaker 2 :
+
+0:44:27
+Speaker 1 :That is a problem of learning.
+ It is not like in deep learning, they use
+zillions of training data
+
+0:44:35
+Speaker 2 :
+
+0:44:36
+Speaker 1 :because maybe zillions are not enough
+ if you have a good invariance.
+
+0:44:42
+Speaker 2 :Maybe, you'll never collect
+some number of observations.
+
+
+0:44:46
+Speaker 1 :But now, it is a question of intelligence
+on how to do that
+
+
+0:44:52
+Speaker 2 :
+
+0:44:56
+Speaker 1 :because the statistical part is ready.
+ As soon as you supply us this predicate,
+we can do a good job
+
+0:45:01
+Speaker 2 :
+
+0:45:03
+Speaker 1 :with the small amount of observations
+ and the very first challenges of a long
+digital cognition and you know digits
+
+0:45:11
+Speaker 2 :and 12 invariants.
+
+
+0:45:15
+Speaker 1 :I'm thinking about that and I can say for
+digit 3, I would introduce the concept
+
+
+0:45:25
+Speaker 2 :
+
+0:45:26
+Speaker 1 :of horizontal symmetry, so digit 3 has horizontal
+symmetry more than digit 2 or something like that.
+
+
+0:45:33
+Speaker 2 :
+
+0:45:35
+Speaker 1 :But as soon as I get the horizontal symmetry,
+I can mathematically invent a lot of measure
+ of horizontal symmetry or the vertical symmetry
+or the diagonal symmetry, whatever, if I have the ideal symmetry.
+
+0:45:49
+Speaker 2 :What would it tell us?
+
+
+0:45:53
+Speaker 1 :
+
+0:45:57
+Speaker 2 :Looking on digits, I see that it is a meta-predicate
+which is not shaped into something like symmetry,
+
+
+0:46:05
+Speaker 1 :like how dark is the whole picture, something like that,
+
+
+0:46:12
+Speaker 2 :which can certify as a predicate.
+
+
+0:46:14
+Speaker 1 :
+
+0:46:16
+Speaker 0 :
+
+0:46:20
+Speaker 2 :
+
+0:46:20
+Speaker 0 :
+
+0:46:21
+Speaker 2 :Lex: Do you think such a predicate could rise out
+of something that's not general,
+
+
+0:46:22
+Speaker 0 :
+
+0:46:28
+Speaker 2 :
+
+0:46:30
+Speaker 0 :meaning, it feels like for me to be able to understand
+the difference between the two and the three,
+ I would need to have had a childhood of 10
+to 15 years playing with kids, going to school, being yelled at by parents,all of that, walking, jumping, looking at ducks.
+ And now, then, I would be able to generate
+the right predicate for telling the difference between a two and a three, or do you think
+there's a more efficient way?
+
+0:47:06
+Speaker 1 :Vladimir:I don't know.
+ I know for sure that you must know something
+more than digits.
+
+0:47:12
+Speaker 2 :
+
+0:47:13
+Speaker 0 :Lex: Yes, and that's a powerful statement.
+
+
+0:47:15
+Speaker 1 :Vladimir: Yeah, but maybe there are several languages
+of description around these elements of digits.
+
+
+0:47:20
+Speaker 2 :
+
+0:47:22
+Speaker 1 :So, I'm talking about symmetry, about some
+properties of geometry.
+ I'm talking about something abstract.
+
+0:47:33
+Speaker 2 :I don't know about that, but it is a problem
+of intelligence.
+
+
+0:47:36
+Speaker 1 :
+
+0:47:38
+Speaker 2 :
+
+0:47:39
+Speaker 1 :So in one of our articles, it is trivial to
+show that every example can carry not more
+
+
+0:47:44
+Speaker 2 :
+
+0:47:47
+Speaker 1 :
+
+0:47:50
+Speaker 2 :than one bit of information because when you
+show an example and you say, this is a one,
+
+
+0:47:53
+Speaker 1 :you can remove functions which
+doesn't tell you one.
+ The best strategy if you can do it perfectly
+is to remove half of that.
+
+0:48:12
+Speaker 2 :But when you use one predicate which is "looks
+like a duck," you can remove
+
+
+0:48:16
+Speaker 1 :much more functions in half,
+
+
+0:48:17
+Speaker 2 :
+
+0:48:19
+Speaker 1 :and that means it contains a lot of bit
+of information from a formal point of view.
+
+
+0:48:22
+Speaker 2 :But, when you have a general picture,
+
+
+0:48:32
+Speaker 1 :on whatyou want to recognize
+ and a general picture of the world,
+
+0:48:35
+Speaker 2 :
+
+0:48:37
+Speaker 1 :can you invent this predicate?
+
+
+0:48:39
+Speaker 2 :
+
+0:48:41
+Speaker 1 :
+
+0:48:43
+Speaker 2 :And, that predicate carries a lot of information.
+ Lex: Beautifully put.
+
+0:48:47
+Speaker 0 :Maybe it's just me, but in all the math you
+show in your work, which is some of the most
+ profound mathematical work in the field of
+learning AI and just math, in general, I hear a lot of poetry and philosophy.You really kind of talk about philosophy of science.
+ There's a poetry in music to a lot of the
+work you're doing and the way you're thinking about it, so where does that come from?Do you escape to poetry?
+ Do you escape to music?
+
+0:49:22
+Speaker 1 :Vladimir: I think that there exists ground truths
+
+
+0:49:24
+Speaker 0 :
+
+0:49:25
+Speaker 1 :and that can be seen everywhere.
+
+
+0:49:29
+Speaker 2 :
+
+0:49:31
+Speaker 1 :The smart guy philosopher, sometimes
+I'm surprised how they see deeply.
+
+
+0:49:36
+Speaker 2 :
+
+0:49:39
+Speaker 1 :Sometimes I see that some of them are
+completely out of subject.
+
+
+0:49:41
+Speaker 2 :But the ground truths, I see in music.
+ Lex: Music are the ground truth? Vladimir: Yeah.
+
+0:49:54
+Speaker 1 :
+
+0:49:57
+Speaker 2 :And in poetry, many poetry, they believe
+that they take dictation.
+
+
+0:50:00
+Speaker 1 :
+
+0:50:01
+Speaker 0 :Lex: So what piece of music as a piece of empirical
+evidence gave you a sense that they are touching
+ something in the ground truth?
+
+0:50:14
+Speaker 1 :Vladimir: It is structure.
+
+
+0:50:15
+Speaker 2 :Lex: The structure, the math of music.
+
+
+0:50:18
+Speaker 1 :Vladimir: Because when you're listening to Bach,
+you see the structure--very clear, very classic,
+ very simple. And the same it was when you have axioms in
+geometry, you have the same feeling.And in poetry, sometimes, this is the same.
+
+
+0:50:36
+Speaker 0 :Lex: Yeah.
+ And if you look back to your childhood, 
+you grew up in Russia. You maybe were born as a researcher in Russia,
+you developed as a researcher in Russia.You came to the United States and a few places.
+ If you look back, what were some of your happiest
+moments as a research? Some of the most profound moments,not in terms of their impact on society,
+ but in terms of their impact on how damn good you feel that day and you remember that moment?
+
+0:51:15
+Speaker 2 :
+
+0:51:16
+Speaker 1 :
+
+0:51:17
+Speaker 2 :Vladimir: You know, every time when you found something,
+ it is the greatest moments in life, every simple thing.
+
+0:51:26
+Speaker 1 :But, my general feelings most of the time
+was wrong.
+ You should go again and again and again and
+try to be honest in front of yourself,
+
+0:51:36
+Speaker 2 :
+
+0:51:38
+Speaker 1 :not to my interpretation, but try to understand
+that it is related to ground rules
+
+
+0:51:48
+Speaker 2 :and it is not my blah, blah, blah
+interpretation or something like that.
+
+
+0:51:49
+Speaker 1 :
+
+0:51:52
+Speaker 0 :Lex: But, you're allowed to get excited at the
+possibility of discovery.
+ Vladimir: Oh, yeah. Lex:  You have to double check it.
+
+0:52:01
+Speaker 1 :Vladimir: No, but how it's relates to the ground rules.
+ Is it just temporary or is it forever? You know, you always have a feeling when you
+found something.
+
+0:52:18
+Speaker 2 :How big is that?
+
+
+0:52:20
+Speaker 1 :So 20 years ago, when we discovered statistical
+learning theory, nobody believed
+ except for one guy, Dudley from MIT.
+
+0:52:29
+Speaker 2 :
+
+0:52:33
+Speaker 1 :
+
+0:52:35
+Speaker 2 :
+
+0:52:36
+Speaker 1 :And then, in 20 years, it became in fashion,
+and the same with Support Vector Machines.
+
+
+0:52:39
+Speaker 2 :
+
+0:52:40
+Speaker 1 :
+
+0:52:42
+Speaker 0 :Lex: So, with support vector machines and learning
+theory, when you were working on it,
+ you had a sense, a sense of the profundity of it, how this
+seems to be right, this seems to be powerful?
+
+0:53:01
+Speaker 1 :Vladimir: Right. Absolutely. Immediately.
+ I recognized that it will last forever.
+
+0:53:07
+Speaker 2 :
+
+0:53:09
+Speaker 1 :
+
+0:53:11
+Speaker 2 :And now, when I found this invariant story,
+
+
+0:53:15
+Speaker 1 :
+
+0:53:16
+Speaker 2 :
+
+0:53:18
+Speaker 1 :I have a feeling that this is complete learning
+ because I have proved that there are
+no different mechanisms. You can have some cosmetic improvements that
+you can do, but in terms of invariants,you need more invariants in statistical learning
+organization work together.
+ But, also, I'm happy that you can formulate
+what is intelligence from that
+
+0:53:47
+Speaker 2 :
+
+0:53:52
+Speaker 1 :and to separate from the technical point.
+
+
+0:53:54
+Speaker 2 :That is completely different.
+ Lex: Absolutely.
+

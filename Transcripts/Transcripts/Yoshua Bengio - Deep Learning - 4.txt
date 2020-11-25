@@ -1,0 +1,494 @@
+Speaker 1 :what difference between biological
+ neural networks and artificial neural networks is most mysterious captivating
+
+Speaker 0 :and profound for you first of all
+ there's so much we don't know about biological neural networks and that'svery mysterious and captivating because
+ maybe it holds the key to improving our differential neural networks one of thethings I studied recently something that
+ we don't know how biological neural networks do but would be really usefulfor artificial ones is the ability to do
+ credit assignment through very long time spans there are things that we can inprinciple do with artificial neural nets
+ but it's not very convenient and it's not biologically plausible and thismismatch I think this kind of mismatch
+ may be an interesting thing to study to a understand better how brains might dothese things because we don't have good
+ corresponding theories with artificial neural Nets and B maybe provide newideas that we could explore about things
+ that brain do differently and that we could incorporate in artificial neural
+
+Speaker 1 :Nets so let's break created assignment
+ up a little bit yeah what it's a beautifully technical term but it couldincorporate so many things so is it more
+ on the RNN memory side that thinking like that or is it something aboutknowledge building up common sense
+ knowledge over time or is it more in the reinforcement learning sense that you'repicking up rewards over time for a
+ particular to achieve certain kind of
+
+Speaker 0 :goals so I was thinking more about the
+ first two meanings whereby we store all kinds of memories episodic memories inour brain which we can access later in
+ order to help us both infer causes of things that we are observing nowand assign credit to decisions or
+ interpretations we came up with a while ago when you know those memories werestored and then we can change the way we
+ would have reacted or interpreted things in the past and now that's creditassignment used for learning so in which
+
+
+Speaker 1 :way do you think artificial neural
+ networks the current LS TM the current architectures are not able to capturethe presumably you're thinking of very
+
+
+Speaker 0 :long term yes so current recurrent Nets
+ are doing a fairly good jobs for sequences with dozens or say hundreds oftime stamps and then it gets harder and
+ harder and depending on what you have to remember and so on as you considerlonger durations whereas humans seem to
+ be able to do credit assignment through essentially arbitrary times like I couldremember something I did last year and
+ then now because I see some new evidence I'm gonna change my mind about the way Iwas thinking last year and hopefully not
+ do the same mistake again I think a big
+
+Speaker 1 :part of that is probably forgetting
+ you're only remembering the really important things it's very efficient
+
+Speaker 0 :forgetting yes so there's a selection of
+ what we remember and I think there are really cool connection to higher-levelcognition here regarding consciousness
+ deciding and and emotions like sort of deciding what comes to consciousness andwhat gets stored in memory which which
+ are not trivial either so you've been at
+
+Speaker 1 :the forefront there all along showing
+ some of the amazing things that neural networks deep neural networks can do inthe field of artificial intelligence is
+ just broadly in all kinds of applications but we can talk about thatforever but what in your view because
+ we're thinking towards the future is the weakest aspect of the way deep neuralnetworks represent the world what is
+ that what is in your view is missing so
+
+Speaker 0 :currently current state-of-the-art
+ neural nets trained on large quantities of images or texts have some level ofunderstanding of you know what explains
+ those datasets but it's very basic it's it's very low-level and it's not nearlyas robust and abstract in general as our
+ understanding okay so that doesn't tell us how to fix things but I think itencourages us to think about how we can
+ maybe train our neural nets differently so that they would focus for example oncausal explanations something that we
+ don't do currently with neural net training also one thing I'll talk aboutin my talk this afternoon is instead of
+ learning separately from images and videos on one hand and from text on theother hand we need to do a better job of
+ jointly learning about language and about the world to which it refers sothat you know both sides can help each
+ other we need to have good world models in our neural nets for them to reallyunderstand sentences which talk about
+ what's going on in the world and I think we need language input to help provideclues about what high-level concepts
+ like semantic concepts should be represented at the top levels of theseneural nets in fact there is evidence
+ that the purely unsupervised learning of representations doesn't give rise tohigh level representations that are as
+ powerful as the ones we are getting from supervised learningand so the the clues we're getting just
+ with the labels not even sentences is already very powerful do you think
+
+Speaker 1 :that's an architecture challenge or is
+
+
+Speaker 0 :it a data set challenge neither I'm
+
+
+Speaker 1 :tempted to just end it there in your
+
+
+Speaker 0 :library of course data sets and
+ architectures are something you want to always play with but but I think thecrucial thing is more the training
+ objectives the training frameworks for example going from passive observationof data to more active agents which
+ learn by intervening in the world the relationships between causes and effectsthe sort of objective functions which
+ could be important to allow the the highest level explanations to to to risefrom from the learning which I don't
+ think we have now the kinds of objective functions which could be used to rewardexploration the right kind of
+ exploration so these kinds of questions are neither in the dataset nor in thearchitecture but more in how we learn
+ under what objectives and so on yeah
+
+Speaker 1 :that's a afraid you mentioned in several
+ contexts the idea is sort of the way children learn they interact withobjects of the world and it seems
+ fascinating because it's some sense except with some cases in reinforcementlearning that idea is not part of the
+ learning process in artificial neural network so it's almost like do youenvision something like an objective
+ function saying you know what if you poke this object in this kind of waywould be really helpful for me to
+ further yes further learn right right sort ofalmost guiding some aspect of learning
+
+
+Speaker 0 :right right so I was talking to Rebecca
+ Saxe just an hour ago and she was talking about lots and lots of evidencefor
+ infants seem to clearly take what interest them in a directed way and sothey're not passive learners they they
+ focus their attention on aspects of the world which are most interestingsurprising in in a non-trivial way that
+ makes them change their theories of the
+
+Speaker 1 :world so that's a fascinating view of
+ the future progress but Anna the more maybe boring a question do you thinkgoing deeper and large so do you think
+ just increasing the size of the things that have been increasing a lot in thepast few years will will also make
+ significant progress so some of the representational issues that youmentioned that is they're kind of
+ shallow in some sense Oh higher in a
+
+Speaker 0 :sense of abstraction up straight in a
+
+
+Speaker 1 :sense of abstraction they're not getting
+
+
+Speaker 0 :some I don't think that having more more
+ depth in the network in the sense of instead of a hundred layers we have tenthousand is going to solve our problem
+ you don't think so is that obvious to
+
+Speaker 1 :
+
+Speaker 0 :you yes what is clear to me is that
+ engineers and companies and labs grad students will continue to tunearchitectures and explore all kinds of
+ tweaks to make the current state of the Arts that he ever slightly better but Idon't think that's gonna be nearly
+ enough I think we need some fairly drastic changes in the way that we'reconsidering learning to achieve the goal
+ that these learners actually understand in a deep way the environment in whichthey are you know observing and acting
+
+
+Speaker 1 :but I guess I was trying to ask a
+ question is more interesting than just more layers is basically once you figureout a way to learn through interacting
+ how many parameters does it take to store that information soI think our brain is quite bigger than
+ most neural networks right right oh I
+
+Speaker 0 :see what you mean oh I I'm with you
+ there so I agree that in order to build neural nets with the kind of broadknowledge of the world that typical
+ adult humans have probably the kind of computing power we have now is going tobe insufficient so well the good news is
+ there are hardware companies building neural net chips and so it's gonna getbetter however the good news in a way
+ which is also a bad news is that even our state-of-the-art deep learningmethods fail to learn models that
+ understand even very simple environments like some Grid worlds that we have builteven these fairly simple environments I
+ mean of course if you train them with enough examples eventually they get itbut it's just like instead of what
+ instead of what humans might need just dozens of examples these things willneed millions right for very very very
+ simple tasks and so I think there's an opportunity for academics who don't havethe kind of computing power that say
+ Google has to do really important and exciting research to advance thestate-of-the-art in training frameworks
+ learning models agent learning in even simple environments that are syntheticthat seem trivial but yet current
+ machine learning fails on we've talked
+
+Speaker 1 :about priors and common-sense knowledge
+ it seems like we humans take a lot of knowledge for granted so what what's
+
+Speaker 0 :
+
+Speaker 1 :your view of these priors of forming
+ this broad view of the world this accumulation of information and how wecan teach a neural networks or learning
+ systems to pick that knowledge up so knowledge you know for a while theartificial intelligence what's maybe in
+ the 80 there's a time or knowledge representation knowledgeacquisition expert systems I mean though
+ the symbolic AI was was a view was an interesting problem set to solve and itwas kind of put on hold a little bit it
+ seems like because it doesn't work it doesn't work that's right but that's
+
+Speaker 0 :
+
+Speaker 1 :right but the goals of that remain
+
+
+Speaker 0 :
+
+Speaker 1 :important yes remain important kind of
+ how do you think those goals can be
+
+Speaker 0 :addressed right so first of all I
+ believe that one reason why the classical expert systems approach failedis because a lot of the knowledge we
+ have so you talked about common sense intuition there's a lot of knowledgelike this which is not consciously
+ accessible the lots of decisions we're taking that we can't really explain evenif sometimes we make up a story and that
+ knowledge is also necessary for machines to take good decisions and thatknowledge is hard to codify in expert
+ systems rule-based systems and you know Costco EAJA formalism and there areother issues of course with the old AI
+ like not really good ways of handling uncertainty I would say something moresubtle which we understand better now
+ but I think still isn't enough in the minds of people there is somethingreally powerful that comes from
+ distributed representations the thing that really makes neural Nets work sowell and it's hard to replicate that
+ kind of power in a symbolic world the knowledge in in expert systems and so onis nicely decomposed into like a bunch
+ of rules whereas if you think about a neural net it's the opposite you havethis big blob of parameters which work
+ intensely together to represent everything the network knows and it'snot sufficiently factorized and so I
+ think this is one of the weaknesses of current neural nets that we have to takelessons from classically I
+ in order to bring in another kind of compositionality which is common inlanguage for example and in these rules
+ but that isn't so native to New Ulm Ed's
+
+Speaker 1 :and on that line of thinking
+ disentangled representations yes so so
+
+Speaker 0 :let me connect with disentangled
+ representations if you might if don't mind yes exactly so for many years I'vethought and I still believe that it's
+ really important that we come up with learning algorithms either unsupervisedor supervised but or enforcement
+ whatever that build representations in which the important factors hopefullycausal factors are nicely separated and
+ easy to pick up from the representation so that's the idea of disentanglerepresentations it says transform the
+ data into a space where everything becomes easy we can maybe just learnwith linear models about the things we
+ care about and and I still think this is important but I think this is missingout on a very important ingredient which
+ classically AI systems can remind us of so let's say we have these designtechnologies invation
+ you still need to learn about the the relationships between the variablesthose high-level semantic variables
+ they're not going to be independent I mean this is like too much of anassumption they're gonna have some
+ interesting relationships that allow to predict things in the future to explainwhat happened in the past the kind of
+ knowledge about those relationships in a classically AI system is encoded in therules like a rule is just like a little
+ piece of knowledge that says oh I have these two three four variables that arelinked in this interesting way then I
+ can say something about one or two of them given a couple of others right inaddition to disentangling the the
+ elements of the representation which are like the variables in rule-based systemyou also need to disentangle the the
+ mechanisms that relate those variables to each other so like the rules so therules are neatly separated like each
+ rule is you know living on its own and when I change a rule because I'mlearning
+ it doesn't need to break other rules whereas current your Mets for exampleare very sensitive to what's called
+ catastrophic forgetting where after I've learned some things and then I learn newthings they can destroy the old things
+ that I had learned right if the knowledge was better factorized and andseparated disentangled then you would
+ avoid a lot of that now you can't do this in the sensory domain but a decentokay like an pixel space but but my idea
+ is that when you project the data in the right semantic space it becomes possibleto now represent this extra knowledge
+ beyond the transformation from input to representations which is howrepresentations act on each other and
+ predict the future and so on in a way that can be neatly disentangled so nowit's the rules or disentangle from each
+ other and not just the variables that are disentangled from each other and you
+
+Speaker 1 :draw a distinction between semantic
+ space and pixel like yes there need to be an architectural difference or well
+
+Speaker 0 :yeah so there's the sensory space like
+ pixels which where everything is untangled the the information like thevariables are completely interdependent
+ in very complicated ways and also computation like the it's not justvariables it's also how they are related
+ to each other is is all intertwined but but I I'm hypothesizing that in theright high-level representation space
+ both the variables and how they relate to each other can be disentangled andthat will provide a lot of
+ generalization power generalization
+
+Speaker 1 :power yes distribution of the test set
+ he assumed to be the same as a distribution of the training set right
+
+Speaker 0 :this is where current machine learning
+ is too weak it doesn't tell us anything is not able to tell us anything abouthow are you let's say our gonna
+ generalize to a new distribution and and you know people may think well butthere's nothing we can say if we don't
+ know what the new distribution will be the truth is humans are able togeneralize to new distributions how are
+
+
+Speaker 1 :we able to do that so yeah because
+
+
+Speaker 0 :something these new distributions even
+ though they could look very different from the training solutions they havethings in common so let me give you a
+ concrete example you read a science fiction novel the science fiction novelmaybe you know brings you in some other
+ planet where things look very different on the surface but it's still the samelaws of physics all right and so you can
+ read the book and you understand what's going onso the distribution is very different
+ but because you can transport a lot of the knowledge you had from Earth aboutthe underlying cause and effect
+ relationships and physical mechanisms and all that and maybe even socialinteractions you can now make sense of
+ what is going on on this planet where like visually for example things aretotally different
+
+
+Speaker 1 :taking that analogy further and
+ distorting it let's enter a sign science fiction world to say Space Odyssey 2001with hell yeah or or maybe which is
+ probably one of my favourite AI movies and then then - and then there's anotherone that a lot of people love that it
+ may be a little bit outside of the AI community is ex machina right I don'tknow if you've seen it yes yes but what
+ are your views on that movie alright does it does are you able to wear things
+
+Speaker 0 :I like and things I hate so maybe you
+
+
+Speaker 1 :could talk about that in the context of
+ a question I want to ask which is uh there's quite a large community ofpeople from different backgrounds often
+ outside of AI who are concerned about existential threat of artificialintelligence right you've seen now this
+ community develop over time you've seen you have a perspective so what do youthink is the best way to talk about a a
+ safety to think about it to have this course about it within AI community andoutside and grounded in the fact that ex
+ machina is one of the main sources of information for the general public about
+
+Speaker 0 :AI so I think I think you're putting it
+ right there's a big difference between the sort of discussion we oughta havewithin the AG community and the sort of
+ discussion that really matter in the general publicso I think the the picture of terminator
+ and you know AI lose and killing people and super intelligence that's gonnadestroy us whatever we try isn't really
+ so useful for the public discussion because for the public discussion thatthings I believe really matter are the
+ short-term and mini term very likely negative impacts of AI on societywhether it's from security like you know
+ Big Brother scenarios with face recognition or killer robots or theimpact on the job market or
+ concentration of power and discrimination all kinds of socialissues which could actually some of them
+ could really threaten democracy for example just to clarify when you said
+
+Speaker 1 :killer robots you mean autonomous
+ weapons yes weapon systems yes I do not terminator that's right
+
+Speaker 0 :so I think these these short and
+ medium-term concerns should be important parts of the public debate nowexistential risk for me is a very
+ unlikely consideration but still worth academic investigation in the same waythat you could say should we study what
+ could happen if meteorite you know came to earth and destroyed it so I thinkit's very unlikely that this is gonna
+ happen and or happen it in a reasonable future it's it's very the the sort ofscenario of an AI getting loose goes
+ against my understanding of at least current machine learning and currentneural nets and so on it's not plausible
+ to me but of course I don't have a crystal ball and who knows what a I willbe in fifty years from now so I think it
+ is worth at scientists study those problems it's just not a pressingquestion as far as I'm concerned so
+
+
+Speaker 1 :before continuing down the line a few
+ questions there but what what do you like and not like about ex machina as amovie because I I actually watch it for
+ the second time and enjoyed it I hated it the first time and I enjoyed it quitea bit more the second time when I sort
+ of learned to accept certain pieces of it CC is the conceptmovie hi what was your experience
+ wouldn't Laura your thoughts so the
+
+Speaker 0 :negative is the picture it paints of
+ science is totally wrong science in general and AI in particular science isnot happening in some hidden place by
+ some you know really smart guy one person one personthis is totally unrealistic this is not
+ how it happens even a team of people in some isolatedplace will not make it
+ science moved by small steps thanks to the collaboration and community of alarge number of people interacting and
+ [Music] all the scientists who are expert intheir field Canon Oh what is going on
+ even in the industrial labs its information flows and leaks and so onand and and the spirit of it is very
+ different from the way science is painted in this movie yeah let me let me
+
+Speaker 1 :ask on that on that point it's been the
+ case to this point yeah that kind of even if the research happens insideGoogle or Facebook inside companies it
+ still kind of comes out like yes come on absolutely think that will always be thecase so there I is is it possible to
+ bottle ideas to the point where there's a set of breakthrough the go completelyundiscovered by the general research
+ community do you think that's even possible it's possible but it's unlikely
+
+Speaker 0 :unlikely it's not how it is done now
+ it's not how I can foresee it in in the foreseeable future but of course I don'thave a crystal ball and so who knows
+ this is science fiction after all but but usually the ominous that the lights
+
+Speaker 1 :went off during during that discussion
+
+
+Speaker 0 :so the problem again there's a you know
+ one thing is the movie and you could imagine all kinds of science fiction theproblem wouldn't for me may be similar
+ to the question about existential risk is that this kind of movie painsuch a wrong picture of what is actual
+ you know the actual science and how it's going on that that it can haveunfortunate effects on people's
+ understanding of current science and and so that's kind of sad is it an importantprinciple in research which is diversity
+ so in other words research is exploration resources explosion in thespace of ideas and different people will
+ focus on different directions and this is not just good it's essential so I'mtotally fine with people exploring
+ directions that are contrary to mine or look orthogonal to mine it's I I am morethan fine I think it's important I and
+ my friends don't claim we have universal truth about what well especially aboutwhat will happen in the future now that
+ being said we have our intuitions and then we act accordingly according towhere we think we can be most useful and
+ where society has the most gain or to lose we should have those debates andand and and not end up in a society
+ where there's only one voice and one way of thinking in research money is spread
+
+Speaker 1 :out so disagreement is a sign of good
+
+
+Speaker 0 :research good science so yes the idea of
+
+
+Speaker 1 :bias in in the human sense of bias yeah
+ how do you think about instilling in machine learning something that'saligned with human values in terms of
+ bias we and intuitively human beings have a concept of what bias means ofwhat fundamental respect for other human
+ beings means but how do we instill that into machine learning systems do you
+
+Speaker 0 :think so I think there are short-term
+ things that are already happening and then there are long-term things that weneed to do and the short term there are
+ techniques that have been proposed and I think will continue to be improved andmaybe alternatives will come up to take
+ datasets in which we know there is bias we can measure it pretty much any dataset where humans are you know being
+ observed taking decisions will have some sort of bias discrimination againstparticular groups and so on and we can
+ use machine learning techniques to try to build predictors classifiers that aregoing to be less biased we can do it for
+ example using adversarial methods to make our systems less sensitive to thesevariables we should not be sensitive to
+ so these are clear well-defined ways of trying to address the problem maybe theyhave weaknesses and you know more
+ research is needed and so on but I think in fact they are sufficiently maturethat governments should start regulating
+ companies where it matters say like insurance companies so that they usethose techniques because those
+ techniques will produce the bias but at a costs for example maybe theirpredictions will be less accurate and so
+ companies will not do it until you force them all right so this is short termlong term I'm really interested in
+ thinking of how we can instill moral values into computers obviously this isnot something we'll achieve in the next
+ five or ten years how can we you know there's already work in detectingemotions for example in images and
+ sounds and texts and also studying how different agents interacting indifferent ways may correspond to
+ patterns of say injustice which could trigger anger so these are things we cando in in the medium term and eventually
+ train computers to model for example how humans react emotionally I would say thesimplest thing is unfair situations
+ which trigger anger this is one of the most basic emotions that we share withother animals I think it's quite
+ feasible within the next few years so we can build systems that cantake these kind of things to the extent
+ unfortunately that they understand enough about the world around us whichis a long time away but maybe we can
+ initially do this in virtual environments so you can imagine like avideo game we're agents interact in in
+ some ways and then some situations trigger an emotion I think we couldtrain machines to detect those
+ situations and predict that the particular emotion you know will likelybe felt if a human was playing one of
+ the characters you have shown excitement
+
+Speaker 1 :and done a lot of excellent work with
+ supervised learning but on a superbug you know there's been a lot of successon the supervised learning yes yes and
+ one of the things I'm really passionate about is how humans and robots worktogether and in the context of
+ supervised learning that means the process of annotation do you think aboutthe problem of annotation of put in a
+ more interesting way is humans teaching machines yes is there yes I think it's
+
+Speaker 0 :an important subject reducing it to
+ annotation may be useful for somebody building a system tomorrow butlonger-term the process of teaching I
+ think is something that deserves a lot more attention from the machine learningcommunity so there are people have
+ coined the term machine teaching so what are good strategies for teaching alearning agent and can we design train a
+ system that gonna be is gonna be a good teacher so so in my group we have aproject called the baby I or baby I game
+ where there is a game or scenario where there's a learning agent and a teachingagent presumably the teaching agent
+ would eventually be a human but we're not there yet and the the role of theteacher is to use its knowledge of the
+ environment which it can acquire using whatever way brute force to help thelearner learn as quickly as possible so
+ the learner is going to try to learn by itof maybe be using some exploration and
+ whatever but the teacher can choose can can can have an influence on theinteraction with the learner so as to
+ guide the learner maybe teach it the things that the learner has most troublewith or just at the boundary between
+ what it knows and doesn't know and so on so this is there's a tradition of thesekind of ideas from other fields and like
+ tutorial systems for example and they I and and of course people in thehumanities have been thinking about
+ these questions but I think it's time that machine learning people look atthis because in the future we'll have
+ more and more human machine interaction with a human in the loop and I thinkunderstanding how to make this work
+ better all the problems around that are
+
+Speaker 1 :very interesting and not sufficiently
+ addressed you've done a lot of work with language to what aspect of thetraditionally formulated Turing test a
+ test of natural language understanding a generation in your eyes is the mostdifficult of conversation but in your
+ eyes is the hardest part of conversation to solve for machines so I would say
+
+Speaker 0 :it's everything having to do with the
+ non linguistic knowledge which implicitly you need in order to makesense of sentences things like the
+ Winograd schemas so these sentences that are semantically ambiguous in otherwords you need to understand enough
+ about the world in order to really interpret probably those sentences Ithink these are interesting challenges
+ for our machine learning because they point in the direction of buildingsystems that both understand how the
+ world works and it's causal relationships in the world and associatethat knowledge with how to express it in
+ language either for reading or writing you speak French yes it's my mothertongue it's one of the Romance languages
+
+
+Speaker 1 :do you think passing the Turing test and
+ all the underlying challenges we just mentioned depend on language do youthink it might be easier in front
+ that is in English now is independent of language mmm
+
+Speaker 0 :I think it's independent of language I I
+ would like to build systems that can use the same principles the same learningmechanisms to learn from human agents
+ whatever their language well certainly
+
+Speaker 1 :us humans can talk more beautifully and
+ smoothly in poetry some Russian originally I know poetry and Russian is
+
+Speaker 0 :maybe easier to convey complex ideas
+
+
+Speaker 1 :than it is in English but maybe I'm
+ showing my bias and some people could say that about front half French but ofcourse the goal ultimately is our human
+ brain is able to utilize any kind of those languages to use them as tools toconvey meaning you know of course there
+
+
+Speaker 0 :are differences between languages and
+ maybe some are slightly better at some things but in the grand scheme of thingswhere we're trying to understand how the
+ brain works and language and so on I think these differences are a minut soyou've lived perhaps through an AI
+
+
+Speaker 1 :winter of sorts yes how did you stay
+
+
+Speaker 0 :
+
+Speaker 1 :warm and continue and you're resurfacing
+
+
+Speaker 0 :stay warm with friends and with friends
+ okay so it's important to have friends
+
+Speaker 1 :and what have you learned from the
+ experience listen to your inner voice
+
+Speaker 0 :don't you know be trying to just please
+ the crowds and the fashion and if you have a strong intuition about somethingthat is not contradicted by actual
+ evidence go for it I mean it could be contradicted by people but not your own
+
+Speaker 1 :instinct of based on everything you know
+
+
+Speaker 0 :of course of course you have to adapt
+ your beliefs when your experiments contradict those beliefs but but youhave to stick to your beliefs otherwise
+ it's it's it's what allowed me to go through those years it's what allowed meto
+ persist in directions that you know took time whatever all the people think tooktime to mature and you bring fruits so
+
+
+Speaker 1 :history of AI is marked with these of
+ course it's mark with technical breakthroughs but it's also marked withthese seminal events that capture the
+ imagination of the community most recent I would say alphago beating the worldchampion human go player was one of
+ those moments what do you think the next such moment might be okay surface first
+
+Speaker 0 :of all I think that these so-called
+ seminal events are overrated as I said science really moves by small steps nowwhat happens is you make one more small
+ step and it's like the the drop that you know allows to that fills the bucket andand and then you have drastic
+ consequences because now you're able to do something you were not able to dobefore or now say the cost of building
+ some device or solving a problem becomes cheaper than what existed and you have anew market that opens up right so so
+ especially in the world of Commerce and applications the impact of a smallscientific progress could be huge but in
+ the science itself I think it's very very gradual and where these steps being
+
+Speaker 1 :taken now so there's supervised right so
+
+
+Speaker 0 :if I look at one trend that I like in in
+ in my community so for example in at me lie in my Institute what are the twohottest topics Gans and rain for
+ spurning even though in the montreal in particular like reinforcement learningwas something pretty much absent just
+ two or three years ago so it is really a big interest from students and there's abig interest from people like me
+ so I would say this is something where are we gonna see more progress eventhough it hasn't yet provided much in
+ terms of actual industrial fallout like even though there's alphago there's nolike Google is not making money on this
+ right now but I think over the long term this is really really important for manyreasons so in other words agent I would
+ say reinforcement learning baby more generally agent learning because itdoesn't have to be with rewards it could
+ be in all kinds of ways that an agent is learning about its environment nowreinforced learning you're excited about
+
+
+Speaker 1 :do you think do you think Gans could
+ provide something yes some moment in in
+
+Speaker 0 :a well Gans or other generative models I
+ believe will be crucial ingredients in building agents that can understand theworld a lot of the successes in
+ reinforcement learning in the past has been with policy gradient where youyou'll just learn a policy you don't
+ actually learn a model of the world but there are lots of issues with that andwe don't know how to do model-based our
+ rel right now but I think this is where we have to go in order to build modelsthat can generalize faster and better
+ like to new distributions that capture to some extent at least the underlyingcausal mechanisms in in the world last
+
+
+Speaker 1 :question what made you fall in love with
+ artificial intelligence if you look back what was the first moment in your lifewhen he's when you were fascinated by
+ either the human mind or the artificial mind you know when I wasn't at the
+
+Speaker 0 :lesson I was reading a lot and then I I
+ started reading science fiction there you go but I got that's that's it thatthat's that's where I got hooked and
+ then and then you know I had one of the first personal computers and I gothooked in programming and so it just you
+ know start with fiction and then make it
+
+Speaker 1 :a reality that's right
+ Yoshio thank you so much for talking to
+

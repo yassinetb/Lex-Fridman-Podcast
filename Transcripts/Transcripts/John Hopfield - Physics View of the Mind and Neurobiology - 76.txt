@@ -1,0 +1,874 @@
+Speaker 0 :the following is a conversation with
+ john hopfield professor Princeton whose life's work weave beautifully throughbiology chemistry neuroscience and
+ physics most crucially he saw the messy world of biology through the piercingeyes of a physicist he's perhaps best
+ known for his work on associative neural networks now known as hopfield networksthat were one of the early ideas that
+ catalyzed the development of the modern field of deep learning as his 2019Franklin medal in physics award States
+ he applied concepts of theoretical physics to provide new insights andimportant biological questions in a
+ variety of areas including genetics and neuroscience was significant impact onmachine learning and as John says in his
+ 2018 article titled now what his accomplishments have often come about byasking that very question now what and
+ often responding by a major change of directionthis is the artificial intelligence
+ podcast if you enjoy it subscribe on YouTube give it five stars an applepodcast supported on patreon or simply
+ connect with me on Twitter and Lex Friedman spelled Fri D ma M as usualI'll do one or two minutes of ads now
+ and never any ads in the middle that can break the flow of the conversation Ihope that works for you and doesn't hurt
+ the listening experience this show is presented by cash app the number onefinance app in the App Store when you
+ get it use colex podcast cash app lets you send money to friends buy Bitcoinand invest in the stock market with as
+ little as $1 since cash app does fractional share trading let me mentionthat the order execution algorithm that
+ works behind the scenes to create the abstraction of fractional orders is tome an algorithmic marvel so big props to
+ the cash app engineers for solving a heart problem that in the end providesan easy interface that takes a step up
+ the next layer of abstraction over the stock market making trading moreaccessible for new investors and
+ diversification much easier so again if you get cash up from the App Store orGoogle Play and use collects podcast
+ you'll get ten dollars in cash app will also donate ten dollars the first one ofmy favorite organizations that is
+ helping advanced robotics and STEM education for young people around theworld and now here's my conversation
+ with john hopfield biological neural networks andartificial neural networks is most
+
+
+Speaker 1 :captivating and profound to you at the
+
+
+Speaker 0 :higher philosophical level let's not get
+
+
+Speaker 1 :technical just yet one of the things
+ very much intrigues me is the fact that neurons have all kinds of componentsproperties to them and evolutionary
+ biology if you have some little quirk and I even how a molecule works or howit still works and it can may mean use
+ of evolution will sharpen it up and make it into a useful feature rather than aglitch and so you expect in neurobiology
+ for evolution to have captured all kinds of possibilities of getting neurons ofhow you get neurons to do things for you
+ and that aspect has been completely suppressed in artificial neural networks
+
+Speaker 0 :so the glitches become features in them
+ in the biological neural network they
+
+Speaker 1 :they can look let me take one of the
+ things that I used to do research on if you take things which oscillate theirrhythms which are sort of close to each
+ other under some circumstances these things will have a phase transition andsuddenly is the rhythm will everybody
+ will fall into step there was a marvelous physical example of that inthe millenium bridge across the Thames
+ River about Bill about 2001 and pedestrians walking across pedestriansdon't walk synchronized they don't walk
+ and lock lockstep but they're all walking about the same frequency and thebridge could say at that frequency in
+ the slight sway made pedestrians tend a little bit to lock in the step masterwell the bridge was oscillating back and
+ forth and the pedestrians were walking in step to it you could seewe made it at the bridge and the
+ engineers made a simple-minded a mistake they had a feeling when you walk it'sstep step step and it's back at forth
+ motion but when you walk it's also right foot left foot side to side motion andthe side to side motion for which the
+ bridge was strong enough but it wasn't it wasn't stiff enough and as a resultyou would feel the motion and you'd fall
+ under step with it and people were very uncomfortable with it they closed thebridge for two years really fully built
+ stiffening for it no nerves look nerve cells loose action potentials you have abunch of cells which are loosely coupled
+ together perusing action potentials of the same rate there'll be somecircumstances under which these things
+ can lock together other circumstances which they won'twell they fire together you can be sure
+ the other cells are going to notice it so you could make a computationalfeature out of this and you're in an
+ evolving brain most artificial neural networks don't even have actionpotentials let alone have the Potala
+ bility for synchronizing them and you
+
+Speaker 0 :mentioned the evolutionary process so
+ they're the evolutionary process that builds on top of biological systemsleverage is that the the weird mess of
+ it somehow so how do you make sense of that ability to leverage all thedifferent kinds of complexities in the
+
+
+Speaker 1 :biological brain well look in the part
+ of the biological molecule level you have a piece of DNA which included anencode for a particular protein you
+ could duplicate that piece of DNA and now one part of itencode for that protein but the other
+ one could itself change a little bit and the start coding for a molecule which isjust slightly different now is that
+ molecule was just slightly different had it in a function which helped any oldchemical reaction was as important to
+ the cell you would go ahead and let that e try anevolution of slowly and improve that
+ function and so you have the possibility of duplicating and then having thingsdrift apart one of them retain the old
+ function the other one do something new for youand there's evolutionary pressure to
+ improve look there isn't computers to adjust improvement has to do withclosing some companies openings others
+ the evolutionary process looks a little different yeah oh similar timescale
+
+Speaker 0 :
+
+Speaker 1 :perhaps well or shorter in times to kill
+
+
+Speaker 0 :companies close yeah go bankrupt and are
+ born yeah shorter but not much shorter some some company lasts the century acouple but yeah you're right I mean if
+ you think of companies a single organism that builds and you all know yeah it's afascinating dual correspondence there
+
+
+Speaker 1 :between biological and companies have
+ difficulty having a new product competing with an old fraud large yeahand when IBM built this first PC you
+ probably read the dread the book they made a little isolated internal unit tomake the PC and for the first time in
+ IBM's history they didn't insist that you build it out of IBM components butthey understood that they could get into
+ this market which is a very different thing by completely changing theirculture and biology finds other markets
+ in a more adaptive way he adds better at
+
+Speaker 0 :it it's better at that kind of
+ integration so maybe you've already said it but what to use the most beautiful
+
+Speaker 1 :aspect or mechanism of the human mind
+
+
+Speaker 0 :is it the adaptive the ability to adapt
+ as you've described there's there some other little quirk that you particularly
+
+Speaker 1 :like adaptation is everything when you
+ get down to it but the difference there are differences between adaptation whereyour learning goes on on the over
+ generation that over evolutionary time or your learning goes on at thetimescale of one individual who must
+ learn from the environment during that individuals lifetime and biology hasboth kinds of learning in it and the
+ thing which makes neurobiology hard is that a mathematical systems that werebuilt on this other kind of evolutionary
+
+
+Speaker 0 :system what do you mean by mathematical
+ system where where's the math in the
+
+Speaker 1 :biology well when you talk to a computer
+ scientist about neural networks it's all math the fact that biology actually cameabout from evolution the thing and the
+ fact that biology is about a system which you can build in three dimensionsif you look at computer chips computer
+ chips are basically two dimensional structures a 2.1 dimensions but theyreally have difficulty doing
+ three-dimensional wiring biology biology is the neocortex is actually alsosheet-like and it sits on top of the
+ white matter which is about ten times the volume of the gray matter andcontains all what you might call the
+ wires but there's a huge the the effect the effect of computer structure on whatis easy and what is hard is immense
+ so and biology does makes some things easy that are very difficult tounderstand how to do computationally on
+ the other hand you can't do simple floating-point arithmetic because thoughit's awfully stupid yeah
+
+
+Speaker 0 :and you're saying this kind of three
+ dimensional complicated structure makes it's still math it still doing math thekind of math is doing enables you to
+ solve problems of a very different kind
+
+Speaker 1 :that's right that's right
+
+
+Speaker 0 :so you mentioned two kinds of adaptation
+ the evolutionary adaptation at the end the adaptation are learning at the scaleof a single human life which do you are
+ which is particularly beautiful to you and interesting from a research and fromjust a human perspective and which is
+ more powerful
+
+Speaker 1 :I find things most interesting that I
+ begin to see how to get into the edges edges of them and tease them apart alittle bit see how they work and since I
+ can't see the evolutionary process going on I am in awe of it but I find it justa black hole as far as trying to
+ understand what to do and so in a certain sense I'm a doll but I couldn'tbe interested in working on it
+
+
+Speaker 0 :the human life timescale is however
+ thing you can tease apart and study yeah
+
+Speaker 1 :you can do there's developmental
+ neurobiology which understands all of these connections and now the structureevolves from a combination of what the
+ genetics is like and the real the fact that this is you're building a system inthree dimensions in just days and months
+
+
+Speaker 0 :those early early days of human life are
+
+
+Speaker 1 :really interesting they are and of
+ course there are times of immense still multiplication there are also times ofthe craziest cell death in the brain is
+
+
+Speaker 0 :during infancy it's turnover so what is
+
+
+Speaker 1 :what what what is not effective which is
+ not wired well enough to use the moment
+
+Speaker 0 :throw it out it's a mysterious process
+ from let me ask from what field do you think the biggest breakthroughs inunderstanding the mind will come in the
+ next decades is it neural science computer scienceneurobiology psychology physics maybe
+ math maybe literature [Laughter]
+
+Speaker 1 :well of course I see the world always
+ through a lens of physics I grew up in physicsand the way I pick problems is very
+ characteristic of physics and of an intellectual background which is notpsychology which is not chemistry and so
+ on and so on
+
+Speaker 0 :at both the air parents of physicists
+
+
+Speaker 1 :both of our parents were physicists and
+ the real thing I gathered that was a feeling that the world is anunderstandable place and if you do
+ enough experiments and think about what they mean and structure things that youcan do the mathematics of the relevant
+ of the experiments you also be able to understand how things work but that was
+
+Speaker 0 :that was a few years ago did you change
+ your mind at all through many decades of trying to understand the mind ofstudying in different kinds of ways not
+ even the minds just biological systems you still have hope the physics that you
+
+Speaker 1 :can understand there's the question of
+ what do you mean by understand of course when I taught freshman physics I used tosay I wanted to get physics to
+ understand the subject to understand new this laws I didn't want them simply tomemorize a set of examples to which they
+ knew the equations to write down to generate the answers I had this nebulousidea of understanding so the if you
+ looked at a situation you can say oh I expect the bowl to make that trajectoryall right I expect so I'm into a notion
+ of understanding and I don't know how to express that very well I've never knownhow to express it well and you run smack
+ up against it well you choose these look at these simple neural Nets feed-forwardneural Nets which do amazing things and
+ yet you know contain nothing of the essence of what I would have felt wasunderstanding attending is more than
+ just an enormous lookup table let's
+
+Speaker 0 :linger on that how sure you are of that
+ what if the table gets read Liebig so i'm he asks another way thesefeed-forward neural networks do you
+ think they'll ever understand
+
+Speaker 1 :good answer that in two ways I think if
+ you look at real systems feedback is an essential aspect of how these realsystems compute on the other hand if I
+ have a mathematical system with feedback I know I can unlaid this and do it apart of it but but I have an exponential
+ expansion and the amount of stuff I have to build if I could resolve the problem
+
+Speaker 0 :that way so feedback is essential so we
+ can talk even about recurrent recurrence but do you think all the pieces arethere to achieve understanding through
+ these simple mechanisms like back to our original question what is thefundamental is there a fundamental
+ difference between artificial neural networks and biological or is it just a
+
+Speaker 1 :bunch of surface stuff suppose you ask a
+ neurosurgeon when does somebody did yeah it'll probably go back to saying well Ican look at the brain rhythms and tell
+ you this is a brain which has never could have functioned again this is oneanother but this other one is one which
+ if we treat it well is still recoverable and then just do that by so manyelectrodes looking at simple like
+ electrical patterns just don't look in any detail at all or what individualneurons are doing these rhythms are
+ already absent from anything which goes on in Google
+
+Speaker 0 :yeah but the rhythms but the rhythms
+
+
+Speaker 1 :
+
+Speaker 0 :would so well that's like comparing okay
+ I'll tell you it's like you're comparing the the greatest classical musician inthe world to child first learning to
+ play the question I'm at but they're still both playing the piano I'm askingis there will it ever go on at Google do
+ you have a hope because you're one of the seminal figures in both launchingboth disciplines both sides of the of
+
+
+Speaker 1 :the river I think it's going to go on
+ generation after generation the way it has where what you might call the AIcomputer science community says let's
+ take the following this is our model of Neurobiology at the moment let's pretendit's good enough and do everything we
+ can with it and it does interesting things and after the while sort ofgrinds into the sand and you say Oh
+ something else is needed from neurobiology and some other grand thingcomes in and enables you to go a lot
+ further according to the sandakan everything it could be generations ofthis evolution I don't know how many of
+ them and each one is going to get you further into what a brain does whateverthen in some sense passed the Turing
+ test longer and more broad aspects and how many of these are good there aregoing to have to be before you say I've
+ made something I've made a human I don't
+
+Speaker 0 :know but your sense is it might be a
+
+
+Speaker 1 :couple my senses might be a couple more
+ yeah and going back to my brain waves of the word yesfrom the AI point of view if they would
+ say ah maybe these are heavy phenomena and not important at all the first car Ihad no record of 1936 dodge Kobo 45
+ miles an hour in the wheels was Jimmy
+
+Speaker 0 :
+
+Speaker 1 :yeah good good speedometer that
+ now don't be designed at the car that way the cars malfunctioning to have thatbut in biology if you if it were useful
+ to know when are you going more than 45 miles an hour you just capture that andyou wouldn't worry about where it came
+ from yeah it'll be a long time before thatkind of thing which can take place in
+ large complex networks of things is actually used in the computationlook-the how many transistors are there
+ at your laptop these days actually I
+
+Speaker 0 :don't know the number it's it's on a
+
+
+Speaker 1 :scale of 10 to the 10 I can't remember
+ the number yeah and all the transistors aresomewhat similar and most physical
+ systems with that many parts all of which are selfs or have collectiveproperties yes soundly is an error
+ Earthquakes what have you have collective properties wither there areno collective properties used in
+ artificial neural networks in AI yeah
+
+Speaker 0 :it's very
+
+
+Speaker 1 :if biology uses them it's gonna take us
+ two more generations of things to be the perfect people to actually dig in andsee how they are used what they mean see
+
+
+Speaker 0 :you're very right might have to return
+ several times to neurobiology and try to
+
+Speaker 1 :make our transistors more messy yo-yo at
+ the same time the simple ones whole concert will conquer big aspectsand I think one of the most biggest
+ surprises to me was how well learning systems buzzer manifestingnon-biological how important they can be
+ actually and you how important how useful they can be in a high so if we
+
+Speaker 0 :can just take a stroll to some of your
+ work that is incredibly surprising that it works as well as it does thatlaunched a lot of the recent work with
+ neural networks if we go to what are now called hopfield networks can you tell mewhat is associative memory in the mind
+ for the human side let's explore memory for a bit okay what
+
+Speaker 1 :do you mean by associative memory is oh
+ you have a memory of each of your friends your friend has all kinds ofproperties from what they look like is
+ whether voice sounds like to where they went to college where you met them go onand on what what science papers they've
+ written if I start talking about a five foot ten wirycognitive scientist that's got a very
+ bad back it doesn't take very long for you to say are you talking about geoffhinton
+ I never been I never mentioned the name or anything very particular but somehowa few facts are associated with this
+ with a particular person enables you to get a hold of the rest of the facts yeahearned or not the dress that was another
+ subset of them and is this the ability to link things together linkedexperiences together which goes under
+ the general name of associative memory and a large part of intelligent behavioris actually just large associative
+ memories at work as far as I can see
+
+Speaker 0 :what do you think
+ is the mechanism of how it works in the mind is it is it a mystery to you stilldo you have Inklings of how this
+ essential thing for cognition works what
+
+Speaker 1 :I made 35 years ago was of course a
+ crude physics model to show the kayak Chua Li enable you to understand my oldsense of understanding as a physicist
+ because you could say ah I understand why this goes to stable Statesit's like things going down downhill
+ right and that gives you something with which to think in physical terms ratherthan only in mathematical terms so
+
+
+Speaker 0 :you've created these associative
+ artificial well that warp those right
+
+Speaker 1 :and now if you if you look at what I did
+ I didn't did all describe a system which gracefully learns I described as asystem in which you could understand how
+ things how learning could link things together how very crudely it might learnone of the things which intrigues me as
+ I reinvestigate that system now to some extent is look I see you I'll see youevery second for the next hour or what
+ have you each each look at you is a little bitdifferent I don't store all those
+ second-by-second images I don't store 3,000 images I somehow compact thisinformation so now I have a view of you
+ which can which I can use it doesn't slavishly remember anything inparticular but it could PACs the
+ information in those useful chunks which are somehow it's these chunks which arenot just activities of neurons from
+ bigger things than that which are the real energies which are which are usefulwhich are useful to you
+
+
+Speaker 0 :useful distal to you to describe to
+ compress this information present in
+
+Speaker 1 :such a way that if I get the information
+ comes in just like this again I don't bother about their to rewrite it orefforts to rewrite it simply do not
+ yield anything because those things are already written and that needs to be notlook this up has ever started somewhere
+ already therapies not something which is much more automatic in the machine
+
+Speaker 0 :hardware right so in the human mind how
+ complicated is that process do you think so you've created feels weird to besitting with john hopfield calling them
+ hot field networks but it is weird
+
+Speaker 1 :yeah but nevertheless that's what
+
+
+Speaker 0 :everyone calls them so here we are so
+ that's a simplification that's what a physicists would do you and richardfineman sat down and talked about
+ associative memory now if you as a if you look at the mind or you can't quitesimplify so perfectly do you let me
+
+
+Speaker 1 :backtrack just a little bit yep biology
+ is about dynamical systems computers are dynamical systems you can have if youwant to math the bottle biology bottle
+ neurobiology what is the time scale there's a dynamical system in which youhave a fairly fast timescale in which
+ you goes eight the synopsis don't change much during this computation so I'llthink of the synapses fixed and just do
+ the dynamics of the activity or you can say the synapses are changing fastenough that I have to have the synaptic
+ dynamics working at the same time as the system dynamics in order to understandthe biology
+ most artists if you look at the feed-forward art revisional their ownads they're all done as learning is
+ first of all I spent some time learning and not performing and I turned offlearning and I perform right that's not
+ biology and so he is there look more deeply at neurobiology even asassociative memory I've got to face the
+ fact that the dynamics of a synapse change is going on all the time and Ican't just get by by thing I'll do the
+ academics of activity with fixed synapses so the the synaptic the
+
+Speaker 0 :dynamics of the synapses is actually
+ fundamental to the whole system yum yum
+
+Speaker 1 :and there's no there's no there's
+ nothing necessarily separating the time skills where the time skills can beseparate and it's neat for the
+ physicists of the mathematicians point of view but it's not necessarily true inneurobiology New York you're kind of
+
+
+Speaker 0 :dancing beautifully between showing a
+ lot of respect to physics and then also saying that physics cannot quite reachthe the complexity of biology so where
+ do you land or do you continuously dance between the two I continuously dance
+
+Speaker 1 :between them because my whole notion of
+ understanding is it you can describe to somebody else how something works inways which are honest and believable and
+ still not described all the nuts and bolts in detail whether I can describewhether as ten to the 32 molecules
+ colliding in the atmosphere I can stimulate whether that way or I pickenough machine I'll simulate it
+ accurately it's no good for understanding but I just want tounderstand things I want to understand
+ things in terms of wind patterns hurricanes pressure differentials and soon all things is there
+ negative and the physicists physicists in me always hopes that biology willhave some things which can be said about
+ it was are both true and for which you don't need all the molecular details ofthe molecules colliding that's what I
+ mean from the roots of physics by
+
+Speaker 0 :understanding so what did again sorry
+ but hopfield networks help you understand what insight to give us aboutmemory about learning
+
+
+Speaker 1 :they didn't give insights about learning
+ they gave insights about how things having learned could be expressed howhaving learned a picture of a picture of
+ you reminds me of your name that would put it describe a reasonable way ofactually doing the learning or only said
+ if he had previously learned the connections of this kind of patternwould now be able to behave in a
+ physical way with the day off I put the part of the pattern in here the otherpattern of the pet part of the pattern
+ will complete over here I can understand that physics if the right learning stuffhad already been put in and you couldn't
+ understand why then putting in a picture of somebody else would generatesomething else over here but it didn't
+ out under did not have a reasonable description of the learning process but
+
+Speaker 0 :even to forget learning I mean that's
+ just a powerful concept that sort of forming representations that are usefulto be robust you know for error
+ correction kind of thing so this is kind of what the biology does we're talking
+
+Speaker 1 :about what my paper did was simply
+ enable you there long there are lots of ways of being robust if you think of ita dividend amical system here you think
+ of a system where a path is going on and in time and if you think for a computeris a computational path which is going
+ out in a huge dimensional space of ones and zeros and an error-correcting systemis a system which if you get a little
+ bit off that trajectory will push you back onto that trajectory again till youget to the same answer in spite of the
+ fact that there were things though that the computation wasn't being ideallydone all the way along a line and there
+ are lots of models for error correction but one of the models for errorcorrection is to say there's a family
+ that you're following flowing down and if you push a little bit off the valleyit's just like water being pushed a
+ little bit by a rock gets back and follows the course of the river and thenbasically the analog in the in the
+ physical system went to enable to just say oh yes error free computation and anassociative memory are very much like
+ like things that I can understand from the point of view of a physical systemthe physical system is can be under some
+ circumstances an accurate metaphor it's not the only metaphor there are errorcorrection schemes which don't have a
+ valley and energy behind them but those are correction schemes such amathematician may be able to understand
+
+
+Speaker 0 :but I don't so there's a the physical
+ metaphor that seems to a it seems to
+
+Speaker 1 :work here that's right that's right so
+
+
+Speaker 0 :these kinds of networks actually led to
+ a lot of the work that is going on now and you're on that works artificialneural network so the follow-on work
+ with restrictive Boltzmann machines and deep belief Netsfollowed on from the from these ideas of
+ the hopfield network so what what do you think about this continued progress ofthat work towards now ree-ree vigor ated
+ exploration of feed-forward neural networks and recurrent neural networksin convolutional neural networks and
+ kinds of networks that are helping solve image recognition natural languageprocessing all that kind of stuff it's
+
+
+Speaker 1 :always intrigued me one of the most
+ long-lived all the learning systems is theBoltzmann machine which is intrinsically
+ a feedback network and was the brilliance of inand Sadowski to understand how to do
+ learning in that and it's still a useful way to understand learning andunderstand and the learning that you
+ understand and that has something to do with the way that feed-forward systemswork but it's not always exactly simple
+ to express that intuition but it always amuses me as he Hinton going back to thewill yet again on a form of the
+ Boltzmann machine because really that which has feedback and interestingprobabilities in it this is a lovely
+ encapsulation of something in computational something computational
+
+Speaker 0 :
+
+Speaker 1 :something both computational and
+ physical computational and they very much related to feed-forward networksphysical in that Boltzmann machine
+ learning is really learning a set of parameters for physics Hamiltonian orenergy function what do you think about
+
+
+Speaker 0 :learning in this whole domain do you do
+ you think the aforementioned guy Geoff Hinton all the work there withbackpropagation all the kind of learning
+ that goes on in these networks how do you if we compared to learning in thebrain for example is there echoes of the
+ same kind of power that back propagation reveals about these kinds of recurrentnetworks or is it something
+ fundamentally different going on in the
+
+Speaker 1 :brain I don't think the brain is as deep
+ as the deepest networks go the deepest computer science networks and I dowonder where they're part of that depth
+ of the computer science networks is necessitated by the fact that the onlylearning is easily done on a machine is
+ his feed-forward and so there's the question of to what extent as thebiology which has some feed-forward some
+ feedback been captured by something which is it got many more neurons butmuch more depth to the neurons
+
+
+Speaker 0 :you know so party you wonders if the
+ feedback is actually more essential than the number of neurons or the depth thethe dynamics of the feedback doesn't
+
+
+Speaker 1 :ever have the feedback look if you don't
+ have if you don't have feedback it's a little bit like a building a bigcomputer and having running up through
+ one clock cycle and then you can't do anything do you put you reload somethingcoming in how do you use the fact that
+ there are multiple clocks like how do I use the fact that you can close youreyes stop listening to me and think
+ about a chessboard for two minutes without any input whatsoever yeah that
+
+Speaker 0 :memory thing that's fundamentally a
+ feedback kind of mechanism you're going back to something yes it's hard it's
+
+Speaker 1 :
+
+Speaker 0 :hard it's hard to understand so I don't
+ respect let alone consciousness oh is
+
+Speaker 1 :that a little own consciousness yes
+
+
+Speaker 0 :because that's tied up in there too you
+ can't just put that on another shelf
+
+Speaker 1 :every once in a while like I interested
+ in consciousness and then I go and I've done that for years and ask one of mybetters as it were their view on
+ consciousness there's been interest in
+
+Speaker 0 :
+
+Speaker 1 :collecting them what let's try to take a
+
+
+Speaker 0 :brief step into that room well that's
+
+
+Speaker 1 :Marvin Minsky does you want to
+ consciousness and Marvin said consciousness is basically overratedit may be an epiphenomenon after all all
+ the things your brain does but your as they're actually hard computationsyou do not consciously and there's so
+ much evidence that even the things the simple things you do you can makedecisions you can make committed
+ decisions about them the neurobiology can say he's now committed he's going tomove the hand left before you know it so
+
+
+Speaker 0 :his view that consciousness is not
+ that's just like little icing on the cake the real cake is in the
+
+Speaker 1 :subconscious yo-yo subconscious non
+ conscious non-conscious that's the
+
+Speaker 0 :
+
+Speaker 1 :better word sir there's the it's only
+ the Freud captured the other word yeah
+
+Speaker 0 :it's that's a confusing word
+
+
+Speaker 1 :subconscious Nicholas Chater wrote an
+ interesting book I think the saw delivers the mind is flat flat and in aneural net sense you might have to be a
+ flat is something which is of very broad they're all know without earlier thanthe layers in depth or as a deep brain
+ would be many layers and not so broad in the same sense that if you push Minskyhard enough he would talk V of said
+ consciousness is your effort to explain to yourself that would you have already
+
+Speaker 0 :done yeah it's the weaving of the
+ narrative around the things that already been computed for you that's right and
+
+Speaker 1 :then so much of what we do for our
+ memories of events for example if there's some traumatic event you witnessyou will have a few facts about it
+ correctly done if somebody asks you about it you will weave a narrativewhich is actually much more rich in
+ detail than that based on some anchor points you have of correct things andand pulling together general knowledge
+ on the other but you will have a narrative and once you generate thatnarrative if you are very likely to
+ repeat that narrative and claim that all the thingsyou have hidden are actually the correct
+ things there was a marvelous example of that inthe Watergate / impeachment era of John
+ Dean John Dean you're too young to know had been the personal lawyer of Dicksonand so John Dean was involved in the
+ cover-up and John Dean ultimately realized the only way to keep himselfout of jail for a long time was actually
+ to tell some of the truths about Nixon and John Dean was a tremendous witnesshe would remember these conversations in
+ great detail and very convincingly tail and long afterward some of the some ofthe tapes the secret cases were for
+ which these Don was Jean was recalling these conversations were published andone found out that John Dean had a good
+ but not exceptional memory what he had was an ability to paint vividly and insome sense accurately the tone of what
+ was going on by the way that's a
+
+Speaker 0 :beautiful description of consciousness
+ [Music] do you mean like where do you stand inyour today so perhaps has changed his
+ day to day but where do you stand on the importance of consciousness in our whole
+
+Speaker 1 :big mess of cognition is it just a
+
+
+Speaker 0 :little narrative maker or is it actually
+ fundamental to intelligence that's our
+
+Speaker 1 :that's a very hard one but I asked
+ Francis Crick about consciousness he launched forward a long monologue abouthandling the peas
+ yeah and how Mendel knew that there was something and how biologists understoodthere was something in inherit
+ which was just very very different and he is the effect that inherited traitsdidn't just wash out into a grey but
+ it's this or this and propagated that that was absolutely fundamentals ofbiology and it took generations of
+ biologists to understand that there was genetic and it took another generationor two to understand that genetics came
+ from DNA but there but but but very shortly after Mendel thinking biologistsdid realize that there was a deep
+ problem about inheritance any Francis blood of life would like to have saidand that's why I'm we're working
+ unconsciousness but of course he didn't have any smoking gun in the sense ofMendel and that's the weakness of his
+ physician that he read his his book but you wrote with Corey bank
+
+Speaker 0 :yeah Christophe go on I find it
+
+
+Speaker 1 :unconvincing for this first poking gun
+ reason start going on and collecting views without actually having taken avery strong one myself because I haven't
+ seen the entry point not seeing the smoking gun and the point of view ofphysics I don't see the entry point
+ whereas whereas the neurobiology once they understood the idea of a collectivea and evolution of dynamics which could
+ be described as a clock a collective phenomenon I thought ah there's a pointwhere what I know about physics is so
+ different from any neurobiologist that I have something that I might be able tocontribute and right now there's no way
+
+
+Speaker 0 :to grasp at consciousness from a physics
+
+
+Speaker 1 :perspective from my point of view that's
+ correct and of course people this is like everybody else do you think verybut early about things you have the
+ closely is related question about freewill do you believe your freewillphysicists will give an offhand answer
+ and then backtrack backtrack backtrack where they realized that the answer theygave must fundamentally contradict the
+ laws of physics that natura answering
+
+Speaker 0 :questions of freewill and consciousness
+ naturally lead to contradictions from a physics perspective because iteventually ends up with quantum
+ mechanics and then you get into that whole mess of trying to understand howmuch from a physics perspective how much
+ is determined already predetermined much is already deterministic about ouruniverse there's lots of difference and
+
+
+Speaker 1 :if you don't push quite that far you can
+ say essentially all of Neurobiology which is relevant it can be captured byclassical equations of motion right
+ because in my view of the mysteries of the brain are not the mysteries ofquantum mechanics for the mysteries of
+ what can happen when you have a dynamical system driven system with 10to the 14 parts the bare complexity is
+ something which is if the physical complex systems is at least as badlyunderstood as the physics of phase
+ coherence and quantum mechanics can we
+
+Speaker 0 :go there for a second you've talked
+ about attractor networks and just maybe you could say what our attractornetworks and more broadly what are
+ interesting network dynamics that emerge in these or other complex systems you
+
+Speaker 1 :have to be willing to think in a huge
+ number of dimensions because there's a huge number of dimensions the behaviorof a system can be thought of as just
+ the motion of the point over time in those huge number of adventures rightand an attractor network is simply a
+ network where there is a line and other lines converge on it in time that's theessence of an attractor Network that's
+
+
+Speaker 0 :how you need a highly highly dimensional
+ space
+
+Speaker 1 :and the easiest way to get that is to do
+ it in a high dimensional space where some of these dimensions provide thedissipation which base which a kind of a
+ physical system trajectories can dig our contract everywhere they have to gettracked in some places and expand in
+ others there was a fundamental classical theorem most statistical mechanics whichgoes under the name of liouville's
+ theorem which says you can't contract everywhere after country if you contractsomewhere you were expand somewhere else
+ do you and is in interesting physical systems you get driven systems where youhave a small subsystem which is the
+ interesting part and the rest of the contraction of an expansion thephysicists say it's the entropy flow in
+ this other part of the system but but basically attract your networks ourdynamics funneling downs of you can't be
+ any so if you start somewhere in the dynamical system you will soon findyourself on a pretty well determined
+ pathway which goes somewhere you start somewhere else you'll wind up on adifferent pathway but you don't have
+ just all possible things you have some defined pathways which are allowed andonto which you will converge and that's
+ the way you make a stable computer and that's the way you make a stablebehavior so in general looking at the
+
+
+Speaker 0 :physics of the emergent stability in
+ these not--when networks what are some interesting characteristics that whatare some interesting insights from
+ studying the dynamics of such high dimensional systems most dynamical
+
+Speaker 1 :systems supposed I'm done driven
+ dynamical systems I driven there are couples I'm out to an energy source andso their dynamics keeps going because
+ it's coupling to the energy source most of them it's very difficult as all tounderstand it all with the devil
+ the dynamical behavior is going to be
+
+Speaker 0 :you have to run it out you have to
+
+
+Speaker 1 :running there's this there's a subset of
+ systems which has what was a clean tone to the mathematicians as as the Alpen offunction and those systems you can
+ understand convergent dynamics by saying you're going downhill on something orother and that's what I found without
+ ever knowing what the alpha naught functions were in the simple model Imade in the early eighties was an energy
+ function so you could understand how you get this channeling I'm as underpathways without having to follow the
+ dynamics in an infinite detail you started rolling a ball as off of amountain that's gonna wind up at the
+ bottom of a valley you know that it's true without actually watching the ballfall roll down there's certain
+
+
+Speaker 0 :properties of the system that when you
+ can know that that's right and not all
+
+Speaker 1 :systems behave that way most don't
+
+
+Speaker 0 :
+
+Speaker 1 :probably both don't but it provides you
+ with the metaphor for thinking about systems which are stable in the whoo tohave these attractors behave even if you
+ can't find the idly up and a function behind them or an energy function behindthem it gives you a metaphor for thought
+
+
+Speaker 0 :speaking of thought if I had a glint in
+ my eye with excitement and said you know I'm really excited about this somethingcalled deep learning and neural networks
+ and I would like to create an intelligence system and came to you asan adviser what would you recommend
+ is it a hopeless pursuit she's knew all networks that she thought is it whatkind of mechanism should we explore what
+ kind of ideas should we explore well you
+
+Speaker 1 :look at this as the simple net worth for
+ everyone networks they don't support multiplehypotheses very well as I have tried to
+ work with very simple systems which do something which you might consider to bethinking thought has to do with the
+ ability to do mental exploration before you make it take a physical action
+
+Speaker 0 :almost they like we were mentioning
+ playing chess visualizing simulating inside your head different outcomes
+
+Speaker 1 :yellow young and now you could do that
+ as a feed-forward Network because you've pre calculated all kinds of things but Ithink the way neurobiology does it
+ hasn't pre calculated everything exactly as parts of a dynamical system in whichyou're doing exploration in a way which
+ is there's a creative element like
+
+Speaker 0 :there's an there's that there's there's
+
+
+Speaker 1 :a creative element and in a
+ simple-minded neural net you ever a constellation of instances from whichyou've learned and if you are within
+ that space you know if a new fan new question is the question within thisspace you can actually rely on that
+ system pretty well to come up with a good suggestion for what to do if on theother hand the query comes from outside
+ the space you have no way of knowing how the system is going to behave there areno limitations on what could happen and
+ so with the artificial neural network is always very much I have a a populationof examples the test set must be drawn
+ from the equivalent population as the test as examples which are from apopulation which is completely different
+ there's no way that you could expect to get the answer right
+
+Speaker 0 :Meowth and so what they saw outside the
+ distribution that's right that's right
+
+Speaker 1 :and so if you see a ball rolling across
+ the streets and dusk if there wasn't in your your trainingset the idea that a child may be coming
+ close behind that is not going to occur with the neural lab and it is to our
+
+Speaker 0 :there's something in your biology that
+ allows that yeah there's there's
+
+Speaker 1 :something in the way of what it means to
+ be outside of the of the population of the training said the probability isthat the training set isn't just sort of
+ the set of examples it's there's more to it than that and it gets back to my ownquestion of where's is it to understand
+ something yeah you know is in a small
+
+Speaker 0 :tangent you've talked about the value of
+ thinking of deductive reasoning in science versus large data collection sosort of thinking about the problem but I
+ suppose it's the physics side of you of going back to first principles andthinking but what do you think is the
+ value of deductive reasoning in in a scientific process
+
+Speaker 1 :well look there obviously scientific
+ questions in which the route to the answer to it come through the analysisof one hell of a lot of data right
+
+
+Speaker 0 :cosmology at honest and that that's
+
+
+Speaker 1 :never written the kind of problem in
+ which I've had any particular insight though I would say if you look atcosmology is was one of those if you
+ look at the actual things that Jim Peebles one of this year's don't goprized for the vision physics ones from
+ a local physics department the kinds of things he's done he's never crunchedlarge data never never never
+ he's used the encapsulation of the work of others in this regard but I
+
+Speaker 0 :ultimately boil down to thinking through
+ the problem like what are the principles under which a particular phenomena
+
+Speaker 1 :operates yeah and look physics is always
+ going to look for ways in which you can describe the system and which risesabove the rises above the details and to
+ the hard died the world biologists biology works because of the details andphysics to the physicists we want an
+ explanation which is right in spite of the details and they will leavequestions which we cannot answer as
+ physicists because the answer cannot be found that way there's a met sure if
+
+Speaker 0 :you're familiar with the entire field of
+ brain-computer interfaces has become more and more intensely researched anddeveloped recently especially with
+ companies like neural link what Elon Musk you know I know they've always been
+
+Speaker 1 :the endres both in things like getting
+ the eyes to be able to control things or getting the thought patterns to be ableto move what had been a they connected
+ limb which is now connected through a
+
+Speaker 0 :computer that's right so in the case of
+ neural they're doing thousand-plus connectionswhere they're able to do two-way
+ activate and read spikes in your annual spikes do you have hope for that kind ofcomputer brain interaction in the near
+ or maybe even far future of being able to expand the ability of the mind ofcognition or understand the mind as this
+
+
+Speaker 1 :was watching things go when I first
+ became interested in neurobiology most of the practitioners thought you wouldbe able to understand neurobiology by
+ techniques which allowed you to record only one cell at a time once out yeahpeople like David Hoople very strongly
+ reflected that point of view and that's been taken over by a generation a coupleof generations later
+ a set of people who says not until we can record from 10 to the 4 or 10 to the5 at a time who we actually be able to
+ understand how the brain actually works and in a general sense I think that'sright you have to look you have to begin
+ to be able to look for the collective modes of the collective operations ofthings it doesn't rely on this action
+ potential or death cell it relies on the collective properties of this set ofcells connected to this kind of patterns
+ so on and you're not going to see did the thing what those collectiveactivities are without recording many
+ cells at once and the question is how
+
+Speaker 0 :many at once what's the threshold and
+
+
+Speaker 1 :that's the that's the no and and because
+ we pursued hard in the motor cortex the motor cortex does something which iscomplex and yet with the problem you're
+ trying to address is very it's really simplenow neurobiology does it in ways the
+ different from the way an engineer would do it an engineer would put in sixhighly accurate stepping motors are
+ controlling a limb rather than 2,000 muscle fibers each of which has to beindividually controlled so understanding
+ how to do things in a way which is much more forgiving and much more neural Ithink would benefit the engineering
+ world the engineering world touch that's where their pressure sensor or to letvery them an array of of a gazillion
+ pressure pressure sensors none of what you're accurate all of which areperpetually recalibrating themselves so
+
+
+Speaker 0 :you're saying your hope is your advice
+ for the engineers of the future is to the embrace the large chaos of a messyerror-prone system like those of the
+ biological systems like that's probably the way to solve some of these I think
+
+Speaker 1 :you'll be able to make better compete
+ computations last robotics that way than by trying to force things into a into arobotics for joint motors are powerful
+ and stepping motors are accurate but
+
+Speaker 0 :then the physicists the physicists in
+ you will be lost forever in such systems because there's no simple fundamentalsto exploring systems that are so large
+
+
+Speaker 1 :and we also you see that yep there's a
+ lot of physics and the navier-stokes equations the equations of nonlinearhydrodynamics huge amount of physics in
+ them all the physics of atoms and molecules has been lost but it's beenreplaced or this other set of equations
+ which is just as true as the equations of the bottle though those thoseequations are going to be harder to find
+ in general biology but the physicist of me says there are probably someequations of there
+ sort they're out there there they're out there and the physics is going tocontribute anything it may contribute to
+ trying to find out what those equations are and how to capture them from thembiology would you say that's one of the
+
+
+Speaker 0 :main open problems of our age is to
+ discover those equations yeah if you
+
+Speaker 1 :look at theirs molecules
+ there's psychological behavior these two are somehow relatedthere are layers of detail they're
+ layers of collectiveness and to capture this to capture that at some vague waitseveral stages on the way up to see how
+ these things that can actually be linked together so it seems in our universe
+
+Speaker 0 :there's a lot of a lot of elegant
+ equations that can describe the fundamental way that things behave whichis a surprise I mean it's compressible
+ into equations it's simple and beautiful but there isn't it's still an openquestion whether that link is equally
+ between molecules and the brain is equally compressible into elegantequations but your ear sounds some well
+ you're both a physicist and a dreamer you have a sense that yes I can although
+
+Speaker 1 :I can only dream physics dreams physics
+ shapes there was an interesting book called Einsteins dreams Forge alternatesbetween chapters on his life and
+ descriptions of the way time might have been but isn't as linking between thesebeing of course the ideas that Einstein
+ might have had to think about the essence of time as he was thinking abouttime so speaking of the essence of time
+
+
+Speaker 0 :in neurobiology you're one human famous
+ impactful human but just one human with a brain living the human conditionbut you're ultimately mortal like all of
+ us has studying the mind as a mechanism change the way you think about your own
+
+Speaker 1 :mortality it has really because as
+ particularly as you get older in the body comes apart in various ways Ibecame much more aware of the fact that
+ what is somebody is contained in the brain and out in the body that you worryabout burying and it is to a certain
+ extent true that for people who write things down equations dreams notepadsDiaries fractions of their thought does
+ continue to live after they're dead and gone after their body is dead and goneand there's a sea change in there going
+ on in my lifetime between what if my father died when except for the thingsthat you're actually ridden by hymns
+ that were very few facts about him will have ever been recorded and the numberof facts which are recorded about each
+ and every one of us forever now as far as I can see in the digital world and sothe whole question of what is death may
+ be different for people a generation to go in a generation or through ahead
+
+Speaker 0 :maybe we have become immortal under some
+
+
+Speaker 1 :definitions yeah yeah last easy question
+
+
+Speaker 0 :what is the meaning of life looking back
+
+
+Speaker 1 :
+
+Speaker 0 :studied the mind a weird descendants of
+ apes what's the meaning of our existence on this little earth Oh word meeting is
+
+Speaker 1 :as slippery as the word understand
+
+
+Speaker 0 :interconnected somehow perhaps is there
+
+
+Speaker 1 :
+
+Speaker 0 :it's slippery but is there something you
+ despite being slippery can hold long enough to express all I've been amazed
+
+Speaker 1 :at how hard it is to define the things
+ in a living system in the sense that what a hydrogen atom is pretty much likeanother
+ one bacterium is not so much like another like another bacterium even ofthe same nominal species in fact the
+ whole notion of what as the species gets a little bit fuzzy and do species existsin the absence of certain classes of
+ environments and pretty soon one winds up with with the biology which the wholething is living but whether there's
+ actually any element of it which by itself would be said to be living isbecomes a little bit vague in my mind so
+
+
+Speaker 0 :in a sense the idea of meaning is
+ something that's possessed by an individual like a conscious creature andyou're saying that it's all
+ interconnected in some kind of way that there might not even be an individualwe're all kind of this complicated mess
+ of biological systems at all different levels where the human starts and whenthe human ends is unclear you know yeah
+
+
+Speaker 1 :and we're the neurobiology where the oh
+ you say that the your cortex does the thinking but there's lots of things thatare done in the spinal cord and so we
+ say where's the essence of thought it's just going to be neocortexcan't be campy yeah maybe to understand
+
+
+Speaker 0 :and to build thought you have to build
+ the universe along with the the neocortex it's all interlinked throughthe spinal cord John is a huge honor
+ talking today thank you so much for your timeI really appreciate it well thank you
+
+
+Speaker 1 :for the challenge of talking with you
+ and the interesting to see whether you can win a 5 in 5 minutes out of thatjust coherent sense to anywhere
+
+
+Speaker 0 :beautiful thanks for listening to this
+ conversation with john hopfield and thank you to our presenting sponsor cashapp downloaded used coal export cast
+ you'll get ten dollars and ten dollars will go to first an organization thatinspires and educates young minds to
+ become science and technology innovators of tomorrow if you enjoy this podcastsubscribe I need to give it five stars
+ an Apple podcast supported on patreon or simply connect with me on Twitter at LexFriedman and now let me leave you with
+ some words of wisdom from john hopfield in his article titled now what choosingproblems is the primary determinant of
+ what one accomplishes in science i have generally had a relatively shortattention span and science problems thus
+ i have always been on the lookout for more interesting questions either as mypresent ones get worked out or as it get
+ classified by me as intractable give him my particular talents he then goes on tosay what I have done in science relies
+ entirely on experimental and theoretical studies by experts I have a greatrespect for them especially for those
+ who are willing to attempt communication with soin who is not an expert in thefield I would only add that experts are
+ good at answering questions if you're brash enough ask your owntoo much about how you found them
+ for listening and hope to see you next
+

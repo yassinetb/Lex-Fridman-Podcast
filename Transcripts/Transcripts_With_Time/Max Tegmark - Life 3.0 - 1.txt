@@ -1,0 +1,3390 @@
+0:00:00
+Speaker 1 :as part of MIT course six as $0.99
+ artificial general intelligence I've gotten the chance to sit down with maxtegmark he is a professor here at MIT is
+ a physicist spent a large part of his career studying the mysteries of ourcosmological universe but he's also
+ studied and delved into the beneficial possibilities and the existential risksof artificial intelligence amongst many
+ other things he's the co-founder of the
+
+0:00:29
+Speaker 0 :
+
+0:00:30
+Speaker 1 :future of life Institute author of two
+ books both of which I highly recommend first our Mathematica universesecond is life 3.0 he's truly an
+ out-of-the-box thinker and fun personality so I really enjoyed talkingto him if you would like to see more of
+ these videos in the future please subscribe and also click the little bellicon to make sure you don't miss any
+ videos also Twitter linked in AGI that MIT that I do if you want to watch otherlectures or conversations like this one
+ better yet go read Max's book life 3.0 chapter 7 on goals is my favorite it'sreally where philosophy and engineer and
+ come together and it opens with a quote by dusty s key the mystery of humanexistence lies not and just stayin alive
+ but in finding something to live for lastly I believe that every failurerewards us with an opportunity to learn
+ in that sense I've been very fortunate to fail in so many new and exciting waysand this conversation was no different
+ I've learned about something called radio frequency interference or RFI lookit up
+ apparently music and conversations from local radio stations can bleed into theaudio that you're recording in such a
+ way that almost completely ruins that audio it's an exceptionally difficult
+
+0:01:51
+Speaker 0 :sound source to remove so I've gotten
+
+
+0:01:53
+Speaker 1 :
+
+0:01:55
+Speaker 0 :the opportunity to learn how to avoid
+
+
+0:01:57
+Speaker 1 :RFI in the future during recording
+ sessions of also gotten the opportunity to learn how to use Adobe Auditionand isotope rx6 to do some noise some
+
+
+0:02:07
+Speaker 0 :audio repair
+
+
+0:02:10
+Speaker 1 :of course this is exceptionally
+ difficult noise to remove I am an engineer I'm not an audio engineerneither is anybody else in our group but
+ we did our best nevertheless I thank you for yourpatience and I hope you're still able to
+
+
+0:02:27
+Speaker 2 :enjoy this conversation do you think
+ there's intelligent life out there in the universelet's open up with an easy question I
+
+
+0:02:32
+Speaker 0 :have a lien minority of you here
+
+
+0:02:34
+Speaker 1 :actually when I give public lectures
+ Alfred asked for show of hands who thinks there's intelligent life outthere somewhere else and almost everyone
+ put their hands up and when I ask why they'll be like oh there's so many
+
+0:02:50
+Speaker 0 :galaxies out there there's gonna be but
+
+
+0:02:51
+Speaker 1 :I'm a numbers nerd right so when you
+ look more carefully at it it's not so clear at all if we when we talk aboutour universe first of all we don't mean
+ all of space did we actually mean I don't you can throw me in the universeif she wants behind you there it's we
+ simply mean the spherical region of
+
+0:03:11
+Speaker 0 :space from which light has a time to
+
+
+0:03:13
+Speaker 1 :reach us so far during the fourteen
+ point eight billion year 13.8 billion years since our Big Bang there's morespace here but this is what we call a
+ universe because that's all we have access to mm-hmm so is there intelligentlife here that's gotten to the point of
+
+
+0:03:28
+Speaker 0 :building telescopes and computers my
+
+
+0:03:31
+Speaker 1 :guess is no actually no the probability
+
+
+0:03:37
+Speaker 0 :of it happening on any given planet is
+
+
+0:03:39
+Speaker 1 :
+
+0:03:41
+Speaker 0 :some number we don't know what it is and
+
+
+0:03:44
+Speaker 1 :what we do know is that the number can't
+ be super-high because there's over a billion earth-like planets in the MilkyWay galaxy alone many of which are
+
+
+0:03:54
+Speaker 0 :billions of years older than Earth and
+
+
+0:03:56
+Speaker 1 :aside from some UFO believers in other
+ reason is much evidence that any super 20 civilization has come here at all andso that's the famous Fermi paradox right
+ and then if you if you work the numbers what you find is that if you have noclue what the probability is of getting
+
+
+0:04:15
+Speaker 0 :life on a given planet
+
+
+0:04:16
+Speaker 1 :could be 10 to the minus 10 and the
+ minus 20 or 10 minus to any power tensor equally likely if you want to be reallyopen-minded that translates into it
+ being equally likely that our nearest neighbor is 10 to the 16 meters away 10
+
+0:04:33
+Speaker 0 :to the 17 meters away 10 to the 18 now
+ by the time he gets much less than than
+
+0:04:38
+Speaker 1 :10 to the 16 already we pretty much know
+
+
+0:04:42
+Speaker 0 :there is nothing else that's close and
+
+
+0:04:44
+Speaker 1 :
+
+0:04:46
+Speaker 2 :when you get the other would have
+
+
+0:04:48
+Speaker 1 :discovered us they yeah they would have
+ been discovered as long or if they're really close we would have probably knowthat some engineering projects that
+ they're doing and if it's beyond 10 to the 26 meters that's already outside ofhere so my guess is actually that there
+
+
+0:05:01
+Speaker 0 :
+
+0:05:04
+Speaker 1 :are we are the only life in here they've
+ gotten the point of building advanced
+
+0:05:08
+Speaker 0 :
+
+0:05:09
+Speaker 1 :
+
+0:05:10
+Speaker 0 :tech which i think is very um puts a lot
+
+
+0:05:12
+Speaker 1 :of responsibility on our shoulders not
+ screw up you know I think people who take for granted that it's okay for usto screw up have an accident in a
+ nuclear war or go extinct somehow because there's a star trek-likesituation out there with some other life
+ forms are gonna come and bail us out and doesn't matters what I think they'relulling us into a false sense of
+ security I think it's much more prudent to say you know let's be really gratefulfor this amazing opportunity we've had
+
+
+0:05:38
+Speaker 0 :
+
+0:05:38
+Speaker 1 :and make the best of it just in case it
+
+
+0:05:43
+Speaker 2 :is down to us so from a physics
+ perspective do you think intelligent life so it's unique from a sort ofstatistical view of the size of the
+ universe but from the basic matter of the universe how difficult is it forintelligent life to come about the kind
+ of advanced tech building life I in is implied in your statement that is reallydifficult to create something like a
+
+
+0:06:07
+Speaker 1 :human species well I think I think what
+ we know is that going from no life to having life that can do ARCA a level oftech there's some sort of - going beyond
+ that than actually settling our whole universe with life there is some road
+
+0:06:21
+Speaker 0 :major roadblock there which is
+
+
+0:06:26
+Speaker 1 :great filter as that's sometimes called
+ which which tough to get through it's either that roadblock is either beefbehind us or in front of us I'm hoping
+ very much that it's behind us I'm super excited every time we get a new reportfrom NASA saying they failed to find any
+ life on Mars like just awesome because that suggeststhat the hard part maybe what maybe he
+ was getting the first ribosome or or
+
+0:06:55
+Speaker 0 :some some very low-level kind of
+
+
+0:06:58
+Speaker 1 :stepping stone so they were home free
+ cuz if that's true then the future is really only limited by our ownimagination it'd be much luckier if it
+
+
+0:07:07
+Speaker 0 :turns out that this level of life is
+
+
+0:07:08
+Speaker 1 :kind of a dime a dozen but maybe there
+ is some other problem like as soon as a civilization gets advanced technologywithin a hundred years they get into
+ some stupid fight with themselves and poof yeah no that would be a bummer
+
+0:07:20
+Speaker 0 :
+
+0:07:21
+Speaker 2 :yeah so you've explored the mysteries of
+ the universe the cosmological universe the one that's sitting between us todayI think you've also begun to explore the
+ other universe which is sort of the mystery the mysterious universe of themind of intelligence of intelligent life
+ so is there a common thread between your interest or in the way you think aboutspace and intelligence oh yeah when I
+
+
+0:07:48
+Speaker 1 :
+
+0:07:50
+Speaker 0 :was a teenager yeah I was already very
+
+
+0:07:52
+Speaker 1 :fascinated by the biggest questions and
+ I felt that the two biggest quite mysteries of all in science where ouruniverse out there and our universe in
+ here yeah so it's quite natural after
+
+0:08:06
+Speaker 0 :having spent a quarter of a century on
+
+
+0:08:09
+Speaker 1 :my career thinking a lot about this one
+ I'm now indulging in the luxury of doing research on this one it's just so cool I
+
+0:08:18
+Speaker 0 :feel the time is right now for you
+
+
+0:08:21
+Speaker 1 :Trane's greatly deepening our
+
+
+0:08:24
+Speaker 2 :understanding of this just start
+ exploring this one yeah because I think
+
+0:08:26
+Speaker 1 :I think a lot of people view
+
+
+0:08:29
+Speaker 0 :intelligence as something mysterious
+
+
+0:08:31
+Speaker 1 :that can only exist and biological
+ organisms like us and therefore dismiss all talk about artificial generalintelligence is science fiction
+ but from my perspective as a physicist you know I am a blob of quarks andelectrons moving around in a certain
+ pattern and processing information in certain ways and this is also a blob ofquarks and electrons
+ I am NOT smarter than the water bottle because I'm made of different kind ofworks I'm made of up quarks and down
+ quarks exact same kind as this it's a
+
+0:09:01
+Speaker 0 :
+
+0:09:02
+Speaker 1 :there's no secret sauce I think in me
+ it's all about the pattern of the
+
+0:09:08
+Speaker 0 :information processing and this means
+
+
+0:09:10
+Speaker 1 :that there's no law of physics saying
+ the way that we can't create technology
+
+0:09:14
+Speaker 0 :which can have helped us by being
+
+
+0:09:17
+Speaker 1 :incredibly intelligent and helped us
+ crack mysteries that we couldn't in other words I think we really only seenthe tip of the intelligence iceberg so
+
+
+0:09:26
+Speaker 2 :far yeah so the perceptron ium yeah so
+ you can't go in this amazing term it's a hypothetical state of matter sort ofthinking from a physics perspective what
+ is the kind of matter that can help as you're saying a subjective experienceemerged consciousness emerge so how do
+ you think about consciousness from this
+
+0:09:47
+Speaker 0 :physics perspective very good question
+ so again I think many people have underestimated our ability to makeprogress on this and by convincing
+
+
+0:10:02
+Speaker 1 :themselves it's hopeless because somehow
+
+
+0:10:06
+Speaker 0 :we're missing some ingredient that we
+
+
+0:10:06
+Speaker 1 :need or some new consciousness particle
+
+
+0:10:11
+Speaker 0 :
+
+0:10:12
+Speaker 1 :or whatever I happen to think that we're
+ not missing anything and and that it's or not the interesting thing aboutconsciousness that gives us this amazing
+ subjective experience of colors and
+
+0:10:26
+Speaker 0 :sounds and emotions and so on is rather
+
+
+0:10:27
+Speaker 1 :something at the higher level about the
+ patterns of information processing
+
+0:10:32
+Speaker 0 :that's why that's why I am like to think
+
+
+0:10:35
+Speaker 1 :about this idea of perceptron Neum what
+ does it mean for an arbitrary physical system to be conscious in terms of whatits particles are doing or its
+ information is doing I don't think I don't hate carbon chauvinism you knowthis attitude you have to be made of
+ carbon atoms to be smart or conscious
+
+0:10:53
+Speaker 2 :something about the information
+ processing yes kind of matter performs
+
+0:10:58
+Speaker 1 :yeah and you know yeah I have my
+ favorite equations here describing various fundamental aspects of the worldI feel that I think one day maybe
+ someone who's watching this will come up with the equations that informationprocessing has to satisfy to be
+ conscious I'm quite convinced there is big discovery to be made there yeah
+
+0:11:16
+Speaker 0 :because let's face it sumit we know that
+
+
+0:11:19
+Speaker 1 :some information processing is conscious
+
+
+0:11:21
+Speaker 0 :because we are yeah conscious but we
+
+
+0:11:24
+Speaker 1 :also know that a lot of information
+ processing is not conscious like most of the information processing happening inyour brain right now is not conscious
+ there is like 10 megabytes per second coming in and even just through yourvisual system you are not conscious
+ about your heartbeat regulation or or most things by even even like if I justask you to like read what it says here
+ you look at it and then oh now you know what it said but you don't aware of howthe computation actually happened you're
+ like the your consciousness is like the CEO that got an email at the end we
+
+0:11:56
+Speaker 0 :leave with a final answer so what is it
+
+
+0:11:59
+Speaker 1 :that makes the difference I think that's
+ a both of us great science mystery we're actually starting it a little bit in mylab here at MIT but I also I think it's
+ just a really urgent question the answer for started I mean if you're anemergency room doctor and you have an
+ unresponsive patient coming in and wouldn't it be great if in addition to
+
+0:12:19
+Speaker 0 :having a CT scan
+
+
+0:12:21
+Speaker 1 :you had a consciousness scanner mm-hmm
+ that could figure out whether this person is actually having locked-insyndrome or is actually comatose and in
+ the future imagine if we build the
+
+0:12:36
+Speaker 0 :
+
+0:12:37
+Speaker 1 :robots or the machine that we can have
+
+
+0:12:37
+Speaker 0 :
+
+0:12:40
+Speaker 1 :really good conversations which I think
+ it's mostly very likely to happen right wouldn't you want to know like if yourhome helped a robot is actually
+ experiencing anything or just like a zombie I mean would you prefer whatwould you prefer would you prefer that
+ it's actually unconscious so that you don't have to feel guilty aboutswitching it off or giving me boring
+
+
+0:13:00
+Speaker 0 :chores or would you prefer
+
+
+0:13:01
+Speaker 2 :well the certainly would we would prefer
+ I would prefer the appearance of consciousnessbut the question is whether the
+ appearance of consciousness is different than cost consciousness itself and sortof ask that as a question yeah do you
+ think we need to you know understand what consciousness is solve the hardproblem of consciousness in order to
+ build something like an a GI system no I
+
+0:13:28
+Speaker 1 :
+
+0:13:30
+Speaker 0 :don't think that and I think we we will
+
+
+0:13:32
+Speaker 1 :probably be able to build things even if
+ we don't answer that question but if we want to make sure that what happens is agood thing we better solve it first so
+ it's a wonderful controversy you're raising there there where you havebasically three points of view about the
+
+
+0:13:48
+Speaker 0 :heart problem sir there are two
+
+
+0:13:51
+Speaker 1 :different points of view that both
+ conclude that the hard problem of
+
+0:13:55
+Speaker 0 :consciousness is BS you're on one hand
+
+
+0:13:56
+Speaker 1 :you have some people like Daniel Dennett
+ who say this is our consciousness is just BS because consciousness is thesame thing as intelligence there's no
+ difference so anything which acts
+
+0:14:07
+Speaker 0 :conscious is conscious just like like we
+
+
+0:14:10
+Speaker 1 :are and then there are also a lot of
+ people including many top AI researchers I know you say all conscience is just because of course machines
+ should never be conscious tonight they're always gonna is gonna be zombiesnever have to feel guilty about how you
+
+
+0:14:26
+Speaker 0 :treat them and then there's a third
+
+
+0:14:30
+Speaker 1 :group of people including Giulio Tononi
+ for example and and another just of chakana brothersI would put myself Falls on this middle
+ camp who say that actually some information processing is conscious andin some is not so let's find the
+ equation which can be used to determine
+
+0:14:47
+Speaker 0 :which it is and I think we've just been
+
+
+0:14:51
+Speaker 1 :a little bit lazy kind of running away
+ from this problem for a long time it's been almost taboo would even mention thec-word a lot of circles because look but
+
+
+0:15:00
+Speaker 0 :
+
+0:15:01
+Speaker 1 :we should stop making excuses this is a
+ science question and we can the rock
+
+0:15:07
+Speaker 0 :there are ways we can even test test any
+
+
+0:15:08
+Speaker 1 :theory that makes predictions for this
+ and coming back to this helper robot I mean so you said you'd want to help arobot to certainly act conscious and
+ treat you like to have conversations with us I think so wouldn't you wouldyou feel would you feel a little bit
+ creeped out if you realize that it was just glossed up the tape recorder theyknow there was just Sambi and there's
+ some faking emotion would you prefer that it actually had an experience orwill you prefer that it's actually not
+ experiencing anything so you feel you don't have to feel guilty about what you
+
+0:15:41
+Speaker 2 :do to it it's such a difficult question
+ because you know it's like when you're in a relationship and you say well Ilove you and the other person I love you
+ back it's like asking well do they really love you back or are they justsaying they love you back
+ do you don't you really want them to actually love you I it's hard to it'shard to really know the difference
+ between everything seeming like there's consciousness present there'sintelligence present there's affection
+ passion love and and actually being there I'm not sure do you have a
+
+0:16:17
+Speaker 1 :question let's just like to make it a
+ bit more pointed so Mass General Hospital is right across the river rightyes suppose suppose you're going in for
+
+
+0:16:25
+Speaker 0 :a medical procedure and they're like you
+
+
+0:16:27
+Speaker 1 :know
+ furnish the agent what we're gonna do is we're gonna give you a muscle relaxantso you won't be able to move and you're
+ gonna feel excruciating pain during the whole surgery but you won't be able todo anything about it but then we're
+ gonna give you this drug that erases
+
+0:16:40
+Speaker 0 :your memory of it would you be cool
+ about that no what
+
+0:16:44
+Speaker 1 :difference that you're conscious about
+
+
+0:16:47
+Speaker 0 :
+
+0:16:48
+Speaker 1 :it or not if there's no behavioral
+
+
+0:16:51
+Speaker 2 :change right right that's a really
+ that's a really clear way to put it that's yeah it feels like in that senseexperiencing it is a valuable quality so
+ actually being able to have subjective experiences at least in that cases is
+
+0:17:07
+Speaker 0 :valuable and I think we humans have a
+
+
+0:17:10
+Speaker 1 :little bit of a bad track record also of
+ making these self-serving arguments that other entities aren't conscious you knowpeople often say oh these animals can't
+ feel pain right it's okay to boil lobsters because we asked them if ithurt and they didn't say anything and
+ now there was just the paper out saying lobsters did do feel pain when you boilthem and they're banning it in
+ Switzerland it and and we did this with slaves too often and say oh they don'tmind they don't maybe or aren't
+
+
+0:17:36
+Speaker 0 :
+
+0:17:38
+Speaker 1 :conscious or women don't have souls or
+ whatever I'm a little bit nervous when I hear people just take as an axiom that
+
+0:17:44
+Speaker 0 :
+
+0:17:45
+Speaker 1 :machines can't have experience ever I
+ think this is just this really fascinating science question is what itis
+ let's research it and try to figure out what it is it makes the differencebetween
+ unconscious intelligent behavior and conscious intelligent behavior so in
+
+0:18:00
+Speaker 2 :terms of so if you think of a Boston
+ Dynamics human robot being sort of with a broom being pushed around the itsstarts it starts pushing on his
+ consciousness question so let me ask do you think an AGI system like a fewneuroscientists believe needs to have a
+ physical embodiment needs to have a body
+
+0:18:25
+Speaker 0 :or something like a body no I don't
+
+
+0:18:26
+Speaker 1 :think so you mean to have to have a
+ conscious experience to have
+
+0:18:30
+Speaker 2 :
+
+0:18:31
+Speaker 0 :consciousness I do think it helps a lot
+
+
+0:18:33
+Speaker 1 :to have a physical embodiment learn the
+ kind of things about the world that
+
+0:18:39
+Speaker 0 :they're important to us humans for sure
+ but I don't think
+
+0:18:43
+Speaker 1 :bah diamond is necessary after you've
+ learned it just have the experience think about when you're dreaming right
+
+0:18:49
+Speaker 0 :
+
+0:18:51
+Speaker 1 :your eyes are closed you're not getting
+ any sensory input you're not behaving or moving in any way but there's still an
+
+0:18:57
+Speaker 0 :experience there right and so there's
+
+
+0:18:58
+Speaker 1 :clearly the experience that you have
+ when you see something tool in your dreams isn't coming from your eyes it'sjust the information processing itself
+
+
+0:19:06
+Speaker 0 :in your brain which is that experience
+
+
+0:19:08
+Speaker 1 :
+
+0:19:09
+Speaker 0 :
+
+0:19:10
+Speaker 2 :right but if I put another way I'll say
+ because it comes from neuroscience is the reason you want to have a body and aphysical something like a physical like
+ a you know a physical system is because you want to be able to preservesomething in order to have a self you
+
+
+0:19:29
+Speaker 0 :
+
+0:19:29
+Speaker 2 :could argue would you you need to have
+ some kind of embodiment of self to want
+
+0:19:37
+Speaker 0 :to preserve well now we're getting a
+
+
+0:19:39
+Speaker 1 :little bit on Drop amorphic that's inter
+ and super more fising things miss Mamie tossing like self-preservation instinctsI mean we are evolved organisms right
+
+
+0:19:49
+Speaker 0 :
+
+0:19:50
+Speaker 1 :right so Darwinian evolution endowed us
+ and other involve all organism with the self-preservation instinct as those thatdidn't have those self-preservation
+ genes are clean out of the gene pool right right but if you build anartificial general intelligence the mind
+ space that you can design is much much larger than just a specific subset ofminds that can evolve that happen so
+ they CERN a GI mind doesn't necessarily have to have any self-preservationinstinct it also doesn't necessarily
+ have to be so individualistic as I'd like imagine if you could just first ofall it or we're also very afraid of
+ death you know I suppose you could back yourself up every five minutes and thenyour airplane is about to crash you like
+ shucks I'm just counted I'm gonna lose
+
+0:20:34
+Speaker 0 :
+
+0:20:35
+Speaker 1 :the last five minutes of experiences
+ it's my last cloud backup you're dying you know it's not this big a deal or ifwe could just copy experiences between
+ our minds easily like me which we could easily do if we were silicon based right
+
+0:20:49
+Speaker 0 :then
+ maybe we would feel a little bit more
+
+0:20:52
+Speaker 1 :like a hive mind actually but maybe is
+ he so so there's a so I don't think we should take for granted at all that AG I
+
+0:21:02
+Speaker 0 :will have to have any of those sort of
+
+
+0:21:04
+Speaker 1 :competitive as alpha male instincts
+
+
+0:21:07
+Speaker 0 :right on the other hand you know this is
+
+
+0:21:08
+Speaker 1 :
+
+0:21:10
+Speaker 0 :really interesting because I think some
+
+
+0:21:11
+Speaker 1 :people go too far and say oh of course
+ we don't have to have any concerns
+
+0:21:16
+Speaker 0 :either that advanced AI will have those
+
+
+0:21:19
+Speaker 1 :instincts because we can build anything
+ you want that there's there's a very nice set of arguments going back toSteve Omohundro and Nick Bostrom and
+
+
+0:21:29
+Speaker 0 :others just pointing out that when we
+ build machines we normally build them
+
+0:21:32
+Speaker 1 :with some kind of goal you know win this
+ chess game drive this car safely or whatever and as soon as you put in agoal into machine especially if it's
+ kind of open-ended goal and the machine is very intelligent it'll break that
+
+0:21:46
+Speaker 0 :down into a bunch of sub goals and one
+
+
+0:21:49
+Speaker 1 :of those gold will almost always be
+ self-preservation because if it breaks or dies in the process it's not gonnaaccomplish the goal right like suppose
+ you just build a little you have a little robot and you tell it to go downthe Starmark get here and and and get
+ you some food make your cookin Italian dinner you know and then someone mugs itand tries to break it down the way that
+ robot has an incentive to not destroy it and defend itself or run away becauseotherwise it's gonna fail and cooking
+ you dinner it's not afraid of death but
+
+0:22:18
+Speaker 0 :it really wants to complete the dinner
+
+
+0:22:21
+Speaker 1 :cooking gold so it will have a
+ self-preservation instinct continue
+
+0:22:24
+Speaker 2 :
+
+0:22:26
+Speaker 1 :being a functional Asian yeah and and
+
+
+0:22:28
+Speaker 0 :
+
+0:22:30
+Speaker 1 :similarly if you give any kind of warm
+ and they she's go to an AGI it's very likely they want to acquiremore resources so it can do that better
+ and it's exactly from those sort of sub goals that we might not have intendedthat but some of the concerns about AGI
+ safety come you give it some goal which
+
+0:22:49
+Speaker 0 :seems completely harmless and then
+ before you realize it it's also trying
+
+0:22:53
+Speaker 1 :to do these other things which you
+ didn't want it to do and it's moment be smarter than us so so lastly and let me
+
+0:23:00
+Speaker 2 :pause just because I
+ in a very kind of human centric way see fear of death is a valuable motivatorhaha so you don't think do you think
+
+
+0:23:13
+Speaker 0 :
+
+0:23:13
+Speaker 2 :that's an artifact of evolution so
+ that's the kind of mind space evolution created they were sort of almostobsessed about self-preservation kind of
+ genetic well you don't think that's
+
+0:23:26
+Speaker 0 :necessary to be afraid of death so not
+
+
+0:23:27
+Speaker 2 :just a kind of sub goal of
+ self-preservation just so you can keep doing the thing but more fundamentallysort of have the finite thing like this
+ ends for you at some point the
+
+0:23:42
+Speaker 1 :interesting do I think it's necessary
+ before what precisely for intelligence
+
+0:23:47
+Speaker 2 :but also for consciousness so for those
+ for both do you think really like a finite death and the fear of it is
+
+0:23:59
+Speaker 0 :important so before I can answer well
+
+
+0:24:02
+Speaker 1 :before we can agree on whether it's
+ necessary for intelligence or for consciousness we should be clear or howwe define those two words because share
+ a lot of really smart people to find them in very different ways I was inthis on this panel and with AI experts
+ and they couldn't they couldn't agree on how to define intelligence even so Idefine intelligence simply as the
+ ability to accomplish complex goals I like your broad definition becauseagain I don't want to be a carbon
+
+
+0:24:28
+Speaker 0 :chauvinist right and in that case no it
+
+
+0:24:32
+Speaker 1 :certainly certainly doesn't require fear
+ of death I would say alpha go alpha zero is quite intelligentI don't think alpha zero has any fear of
+ being turned off because it doesn't understand the concept of that even andand similarly consciousness I mean you
+ could certainly imagine very simple kind of experience if you know if certainplants have any kind of experience I
+ don't think they were afraid of dying if there's nothing they can do about itanyway much so there wasn't that much
+
+
+0:25:02
+Speaker 0 :
+
+0:25:03
+Speaker 1 :value and but more seriously I think if
+
+
+0:25:04
+Speaker 0 :
+
+0:25:06
+Speaker 1 :you ask not just about being conscious
+
+
+0:25:10
+Speaker 0 :but maybe having what you would
+
+
+0:25:12
+Speaker 1 :we might call an exciting life for you
+ feel passion and I didn't really
+
+0:25:17
+Speaker 0 :appreciate the little things maybe there
+
+
+0:25:20
+Speaker 1 :but somehow maybe there perhaps it does
+ help having having my backdrop today it's finite you know let's let's makethe most of this this live to the
+ fullest so if you if you knew you were gonna slip forever if you think you
+
+0:25:36
+Speaker 0 :would change your yeah in some
+
+
+0:25:37
+Speaker 2 :perspective it would be an incredibly
+ boring life living forever so in the sort of loose subjective terms that yousaid of something exciting and something
+ in this that other humans would understand I think is yeah it seems thatthe the finiteness of it is important
+
+
+0:25:56
+Speaker 1 :well the good news I have for you then
+ is based on what we understand about
+
+0:26:01
+Speaker 0 :cosmology everything is in our universe
+ is Pro ultimately probably finite alone
+
+0:26:05
+Speaker 1 :
+
+0:26:07
+Speaker 2 :although pay crunch or bit or big what's
+ to expand anything yeah we couldn't have
+
+0:26:11
+Speaker 1 :a Big Chill or a Big Crunch or a big rip
+ or that's the big snap or death bubbles all over more than a billion years awayso we should we certainly have vastly
+ more time than our ancestors thought but
+
+0:26:25
+Speaker 0 :there is still it's still pretty hard to
+
+
+0:26:28
+Speaker 1 :squeeze in an infinite number of compute
+
+
+0:26:34
+Speaker 0 :cycles even though there are some
+
+
+0:26:36
+Speaker 1 :loophole let's just might be possible
+
+
+0:26:38
+Speaker 0 :but I think I you know some people like
+
+
+0:26:40
+Speaker 1 :to say that you should live as if you're
+ about you're gonna die in five years or something that sort of optimal maybe
+
+0:26:47
+Speaker 0 :
+
+0:26:49
+Speaker 1 :it's a good it subs we should build our
+ civilization as if it's all finite to be
+
+0:26:56
+Speaker 2 :on the safe side right exactly so you
+ mentioned in defining intelligence as the ability solve complex goals wherewould you draw a line how would you try
+ to define human level intelligence and superhuman level intelligence where thisconsciousness part of that definition no
+
+
+0:27:13
+Speaker 1 :consciousness does not come into this
+ definition so so I think your intelligence is it's a spectrum butthere are very many different kinds of
+ goals you can have you can have a goal to be a good chess player a good goalplayer a good car driver
+
+
+0:27:25
+Speaker 0 :a good investor good poet etc so
+
+
+0:27:31
+Speaker 1 :intelligence that bind by its very
+ nature isn't something you can measure but it's one number overall goodness nono there are some people who are more
+ better at this some people are better than that um right now we have machinesthat are much better than us at some
+
+
+0:27:45
+Speaker 0 :very narrow tasks like multiplying large
+
+
+0:27:47
+Speaker 1 :numbers fast memorizing large databases
+ playing chess playing go and soon driving cars but there's still nomachine that can match a human child in
+ general intelligence but but artificial general intelligence AGI in the name of
+
+0:28:08
+Speaker 0 :your course of course that is by its
+
+
+0:28:10
+Speaker 1 :very definition the the quests the build
+ a mission in seen that can do everything as well as we can up to the old holygrail of AI from from back to its
+ inception and then 60s if that ever happens of course I think it's gonna bethe biggest transition in the history of
+ life on earth but it but it doesn't
+
+0:28:30
+Speaker 0 :necessarily have to wait the big impact
+
+
+0:28:31
+Speaker 1 :about until machines are better than us
+ at knitting the really big change
+
+0:28:36
+Speaker 0 :
+
+0:28:37
+Speaker 1 :doesn't come exactly the moment they're
+ better than us at everything
+
+0:28:41
+Speaker 0 :
+
+0:28:41
+Speaker 1 :the really big change comes first there
+ big changes when they start becoming better at us at doing most of the jobsthat we do because that's it can takes
+ away much of the demand for human labor and then the really whopping changecomes when they become better than us at
+
+
+0:28:57
+Speaker 0 :AI research right right because right
+
+
+0:29:00
+Speaker 1 :now the timescale of AI researcher is
+
+
+0:29:04
+Speaker 0 :limited by the human research and
+
+
+0:29:06
+Speaker 1 :development cycle of years typically at
+ all along the tape from one release of some software or iPhone or whatever to
+
+0:29:15
+Speaker 0 :
+
+0:29:15
+Speaker 1 :the next but once once we have once
+ Google can replace 40,000 engineers by
+
+0:29:22
+Speaker 0 :40,000 equivalent pieces of software or
+
+
+0:29:24
+Speaker 1 :
+
+0:29:26
+Speaker 0 :whatever right then that doesn't there's
+
+
+0:29:27
+Speaker 1 :no reason that has to be years it can be
+ in principle much faster and the timescale of future progress in AI andalso all of science and technology will
+ will be driven by machines not
+
+0:29:42
+Speaker 0 :so it's this point simple point which
+
+
+0:29:45
+Speaker 1 :lives right this incredibly fun
+ controversy about whether it can be an intelligence explosion so-calledsingularities Vernor Vinge called it
+ that the idea is articulated by IJ good obviously way back fifties but you cansee Alan Turing and others thought about
+
+
+0:30:02
+Speaker 0 :it even earlier not did you ask me what
+
+
+0:30:07
+Speaker 1 :
+
+0:30:10
+Speaker 0 :exactly what I define England's yeah so
+
+
+0:30:12
+Speaker 1 :this the the glib answer is it to say
+ something which is better than us at all cognitive tasks will look better thanany human and all cognitive tasks but
+ the really interesting bar I think goes a little bit lower than that actuallyit's when they can when they're better
+ than us it AI programming and can a general learning so that they can can if
+
+0:30:33
+Speaker 0 :
+
+0:30:34
+Speaker 1 :they want to get better than I said
+ anything by just studying so they're
+
+0:30:37
+Speaker 2 :better is a keyword and better as
+ towards this kind of spectrum of the complexity of goals it's able toaccomplish yeah so another way to so no
+ and that's certainly a very clear definition of human law so there's it'salmost like a sea that's rising you
+ could do more and more and more things as a graphic that you show it's reallynice way to put it so there's some Peaks
+ that and there's an ocean level elevating and you saw more and moreproblems but you know just kind of to
+ take a pause and we took a bunch of questions and a lot of social networksand a bunch of people asked a sort of a
+ slightly different direction on creativity and and things like that
+
+0:31:19
+Speaker 0 :perhaps aren't a peak the it's you know
+
+
+0:31:21
+Speaker 2 :human beings are flawed and perhaps
+ better means having being a having contradiction being fought in some wayso let me sort of yeah
+ start and start easy first of all so you have a lot of cool equations let me askwhat's your favorite equation first of
+ all I know they're all like your children but like which one is that it's
+
+0:31:43
+Speaker 1 :the master key of
+ want the mechanics of the microworld this equation to protect you likeeverything to do with atoms molecules
+
+
+0:31:56
+Speaker 0 :
+
+0:31:56
+Speaker 1 :and all that we have yeah so okay it's a
+
+
+0:31:57
+Speaker 2 :quantum mechanics is certainly a
+ beautiful mysterious formulation of our world so I'd like to sort of ask youjust as an example it perhaps doesn't
+ have the same beauty as physics does but in mathematics abstract the Andrew Wileswho proved the firm as last theta so he
+ just saw this recently and it kind of caught my eye a little bit this is threehundred fifty eight years after it was
+ conjectured so this very simple formulation everybody tried to prove iteverybody failed and say here's this guy
+ comes along and eventually it proves it and then fails to prove it and proves itagain in 94 and he said like the moment
+ when everything connected into place the in an interview said it was soindescribably beautiful that moment when
+ you finally realized the connecting piece of two conjectures he said it wasso indescribably beautiful it was so
+ simple and so elegant I couldn't understand how I'd missed it and I juststared at it in disbelief for twenty
+ minutes then then during the day I walked around the department and atKeamy keep coming back to my desk
+ looking to see if it was still there it was still there I couldn't containmyself I was so excited it was the most
+ important moment on my working life nothing I ever do again will mean asmuch so that particular moment and it
+ kind of made me think of what would it take and I think we have all been thereat small levels maybe let me ask have
+ you had a moment like that in your life where you just had an ideas like wow yes
+
+0:33:36
+Speaker 0 :I wouldn't
+
+
+0:33:39
+Speaker 1 :self and the same breath as Andrew wilds
+
+
+0:33:44
+Speaker 0 :but I've certainly had a number of um
+ aha moments mo when I realized something
+
+0:33:51
+Speaker 1 :very cool about physics just as
+
+
+0:33:53
+Speaker 0 :
+
+0:33:54
+Speaker 1 :completely made my head explode in fact
+ some of my favorite discoveries I made later I later realize if they had beendiscovered earlier someone who sometimes
+ got quite famous for it so I find this too late for me to even publish it butthat doesn't diminish in any way an
+ emotional experience you have when you
+
+0:34:10
+Speaker 2 :realize it like yeah Wow yeah
+ so what would it take and at that moment that wow that was yours in a moment sowhat do you think it takes for an
+ intelligent system and a GI system an AI system to have a moment like that that's
+
+0:34:24
+Speaker 0 :a tricky question because there are
+
+
+0:34:27
+Speaker 1 :actually two parts to it right one of
+
+
+0:34:30
+Speaker 0 :them is cannot accomplish that proof it
+
+
+0:34:33
+Speaker 1 :cannot prove that you can never write a
+
+
+0:34:35
+Speaker 0 :
+
+0:34:36
+Speaker 1 :to the N plus B to the N equals 3/2 that
+ equals e to the N for all integers well
+
+0:34:45
+Speaker 0 :etc etc when when n is bigger than 2 the
+
+
+0:34:49
+Speaker 1 :simply in any question about
+ intelligence can you build machines that
+
+0:34:53
+Speaker 0 :are that intelligent and I think by the
+
+
+0:34:56
+Speaker 1 :
+
+0:34:57
+Speaker 0 :time we get a machine that can
+ independently come up with that level of
+
+0:34:59
+Speaker 1 :proofs probably quite close to AGI the
+ second question is a question about
+
+0:35:07
+Speaker 0 :consciousness when will we will willins
+ how likely is it that such a machine
+
+0:35:10
+Speaker 1 :will actually have any experience at all
+ as opposed to just being like a zombie
+
+0:35:16
+Speaker 0 :and would we expect it to have some sort
+
+
+0:35:17
+Speaker 1 :of emotional response to this or
+
+
+0:35:22
+Speaker 0 :anything at all I can to human emotion
+
+
+0:35:23
+Speaker 1 :
+
+0:35:24
+Speaker 0 :
+
+0:35:25
+Speaker 1 :work no but when it accomplishes its
+ machine goal it did the views it to somehow it's something very positive and
+
+0:35:33
+Speaker 0 :right and and sublime and and and and
+
+
+0:35:34
+Speaker 1 :
+
+0:35:36
+Speaker 0 :deeply meaningful I would certainly hope
+
+
+0:35:39
+Speaker 1 :that if in the future we do create
+
+
+0:35:43
+Speaker 0 :machines that are our peers or even our
+
+
+0:35:47
+Speaker 1 :dis
+ since yeah I would certainly hope that they do have this sort of sublime
+
+0:35:54
+Speaker 0 :sublime appreciation of life in a way my
+
+
+0:35:55
+Speaker 1 :
+
+0:35:57
+Speaker 0 :absolutely worst nightmare would be that
+
+
+0:36:02
+Speaker 1 :
+
+0:36:03
+Speaker 0 :in at some point in the future the
+
+
+0:36:05
+Speaker 1 :distant future maybe I cost much as
+ teeming with all this post biological life doing all the seemingly cool stuff
+
+0:36:12
+Speaker 0 :and maybe the fun last humans or the
+
+
+0:36:14
+Speaker 1 :
+
+0:36:17
+Speaker 0 :time era our species eventually fizzles
+
+
+0:36:20
+Speaker 1 :out we'll be like well that's ok because
+ we're so proud of our descendants here
+
+0:36:24
+Speaker 0 :and look what I like my most nightmare
+
+
+0:36:26
+Speaker 1 :is that we haven't solved the
+ consciousness problem and we haven't realized that these are all the zombiesthey're not aware of anything anymore
+ than the tape recorders it has an any kind of experience so the whole thinghas just become a play for empty benches
+ that would be like the ultimate zombie apocalypse me III would much rather in
+
+0:36:47
+Speaker 0 :that case that we have these beings
+
+
+0:36:50
+Speaker 1 :which just really appreciate how how
+
+
+0:36:53
+Speaker 0 :amazing it is
+
+
+0:36:57
+Speaker 1 :
+
+0:36:57
+Speaker 2 :and in that picture what would be the
+ role of creativity we had a few people ask about creativity do you think whenyou think about intelligence I mean
+ certainly the the story told the beginning of your book involved you knowcreating movies and so on yeah sort of
+ making making money you know you can make a lot of money in our modern worldwith music and movies so if you are
+ intelligent system you may want to get good at that yeah but that's notnecessarily what I mean by creativity is
+ it important on that complex goals where the sea is rising for there to besomething creative creative or am I
+ being very human centric and thinking creativity somehow special
+
+0:37:41
+Speaker 0 :relative to intelligence my hunch is
+ that we should think your creativity
+
+0:37:45
+Speaker 1 :simply as an aspect of intelligence and
+
+
+0:37:49
+Speaker 0 :[Music]
+ we we have to be very careful with withhuman vanity we had we have this
+
+
+0:37:57
+Speaker 1 :tendency to very often one and say as
+ soon as machines can do something we try to diminish it that's a long but that'snot like real intelligence you know
+ you're the night trader or there were or
+
+0:38:08
+Speaker 0 :this or that or the other thing maybe if
+
+
+0:38:11
+Speaker 1 :we ask ourselves to write down a
+ definition of what we actually mean by
+
+0:38:14
+Speaker 0 :being creative what we mean by Andrew
+
+
+0:38:17
+Speaker 1 :Wiles what he did there for example
+ don't we often mean that someone takes
+
+0:38:21
+Speaker 0 :you very unexpected leap mm-hmm it's not
+
+
+0:38:25
+Speaker 1 :like taking feet 573 and multiplying in
+ my 224 by justice step of
+
+0:38:31
+Speaker 0 :
+
+0:38:32
+Speaker 1 :straightforward cookbook like rules
+
+
+0:38:34
+Speaker 0 :right if this you may be making you even
+
+
+0:38:37
+Speaker 1 :make a connection between two things
+ that people have never thought was connect very surprising or something
+
+0:38:43
+Speaker 0 :like that I think I think this is an
+
+
+0:38:45
+Speaker 1 :aspect of intelligence and this is some
+ actually one of the most important
+
+0:38:51
+Speaker 0 :aspect of it maybe the reason we humans
+
+
+0:38:53
+Speaker 1 :are tend to be better at it than
+ traditional computers is because it's something that comes more naturally ifyou're a neural network then if you're a
+ traditional logic gate based computer machineyou know we physically have all these
+
+
+0:39:07
+Speaker 0 :connections and you activate here
+
+
+0:39:10
+Speaker 1 :
+
+0:39:11
+Speaker 0 :activator here activate here ping you
+
+
+0:39:14
+Speaker 1 :know I my hunch is that if we ever build
+
+
+0:39:18
+Speaker 0 :a machine where you could just give it
+
+
+0:39:20
+Speaker 1 :
+
+0:39:23
+Speaker 0 :the task hey hey you say hey you know I
+
+
+0:39:25
+Speaker 1 :
+
+0:39:26
+Speaker 0 :just realized that I have I want to
+
+
+0:39:30
+Speaker 1 :travel around the world instead this
+ months can you teach my eight a GI course for me and it's like ok I'll doit and it does everything that you would
+ have done and they provides us and so yeah that that would in my mind involve
+
+0:39:42
+Speaker 2 :a lot of creativity yeah so I had such a
+ beautiful way to put it I think we do try to grab grasp at the you know thedefinition of intelligence is everything
+ we don't understand how how to build so like so we as humans try to find thingswell that we have on machines don't
+ happen maybe creativity is just one of the things one of the words we use todescribe that that's really interesting
+
+
+0:40:06
+Speaker 1 :where to put it out
+ think we need to be that defensive I don't think anything good comes out ofsaying oh we're somehow special you know
+
+
+0:40:15
+Speaker 0 :I it's contrariwise there are many
+
+
+0:40:18
+Speaker 1 :
+
+0:40:21
+Speaker 0 :examples in history of we're trying to
+ pretend that were somehow superior to
+
+0:40:27
+Speaker 1 :
+
+0:40:28
+Speaker 0 :all other intelligent beings has led the
+
+
+0:40:31
+Speaker 1 :
+
+0:40:32
+Speaker 0 :pretty bad results right
+
+
+0:40:35
+Speaker 1 :Nazi Germany they said that they were
+ somehow superior to other people today we still do a lot of cruelty to animalsby saying that we're social superiors
+ and how and the other they can't feel painslavery was justified by the same kind
+ of really weak weak arguments and and I
+
+0:40:52
+Speaker 0 :
+
+0:40:53
+Speaker 1 :don't think if we actually go ahead and
+ build artificial general intelligence it can do things better than us I don'tthink we should try to found our
+
+
+0:41:04
+Speaker 0 :self-worth on some sort of bogus claims
+
+
+0:41:05
+Speaker 1 :of superiority in in terms of our
+
+
+0:41:10
+Speaker 0 :intelligence I think it's we shouldn't
+
+
+0:41:12
+Speaker 1 :
+
+0:41:14
+Speaker 0 :stand Joe find our calling and then the
+
+
+0:41:18
+Speaker 1 :meaning of life from from experiences
+ that we have right you know I can have I
+
+0:41:23
+Speaker 0 :
+
+0:41:25
+Speaker 1 :can have very meaningful experiences
+
+
+0:41:27
+Speaker 0 :even if there are other people who are
+
+
+0:41:29
+Speaker 1 :
+
+0:41:30
+Speaker 0 :smarter than me you know when I go to
+
+
+0:41:32
+Speaker 1 :faculty meeting here and I was talking
+ about something that I certainly realize oh boy he has a Nobel Prize he has aNobel Prize he has no pride I don't have
+ what does that make me enjoy life any less or would enjoy talking those people
+
+0:41:48
+Speaker 0 :less of course not see my and the
+
+
+0:41:50
+Speaker 1 :contrariwise I I feel very honored and
+ privileged to get to interact with with
+
+0:41:55
+Speaker 0 :
+
+0:41:56
+Speaker 1 :other very intelligent beings that are
+ better than me a lot of stuff so I don't think there's any reason why we can'thave the same approach with with
+ intelligent machines that's a really
+
+0:42:05
+Speaker 2 :interesting so people don't often think
+ about that they think about when there's going if there's machines that are moreintelligent you naturally think that
+ that's not going to be a beneficial type of intelligence you don't realise itcould be
+ you know like peers of Nobel Prizes that that would be just fun to talk with andthey might be clever about certain
+ topics and you can have fun having a few
+
+0:42:32
+Speaker 1 :drinks with them so well another example
+ is we can all relate to it why it doesn't have to be a terrible thing tobe impressed the friends of people are
+ even smarter than us all around is when when you and I were both two years old Imean our parents were much more
+ intelligent than us right here worked out okay yeah because their goals were
+
+0:42:52
+Speaker 0 :aligned with our goals
+ yeah and that I think is really the
+
+0:42:54
+Speaker 1 :
+
+0:42:56
+Speaker 0 :number one T issue we have to solve its
+
+
+0:42:58
+Speaker 1 :value align the value alignment problem
+ exactly because people who see too many Hollywood movies with lousy sciencefiction plot lines they worry about the
+
+
+0:43:10
+Speaker 0 :
+
+0:43:11
+Speaker 1 :wrong thing right they worry about some
+
+
+0:43:14
+Speaker 0 :machines only turning evil it's not
+ malice they wish that the issue probably
+
+0:43:19
+Speaker 1 :
+
+0:43:22
+Speaker 0 :concerned its competence by definition
+ intelligent makes you makes you very
+
+0:43:26
+Speaker 1 :competent if you have a more intelligent
+
+
+0:43:30
+Speaker 0 :goal playing mr. computer playing as the
+
+
+0:43:31
+Speaker 1 :less intelligent one and when we define
+ intelligence is the ability to accomplish go winning right it's gonnabe the more intelligent one that wins my
+
+
+0:43:41
+Speaker 0 :and if you have a human and then you
+
+
+0:43:44
+Speaker 1 :have an AGI and that's more intelligent
+ in all ways and they have different goals guess who's gonna get their wayright so I was just reading about I was
+ just reading about this particular rhinoceros species that was drivenextinct just a few years ago bummer is
+ looking at this cute picture mommy run
+
+0:44:03
+Speaker 0 :oestrus with it's it's child you know
+ and why did we humans private extinction
+
+0:44:09
+Speaker 1 :wasn't because we were evil Rhino haters
+ right as a whole it was just because we our goals weren't aligned with those ofthe rhinoceros and it didn't work out so
+ well for the rhinoceros because we were more intelligent right so I think it'sjust so important that if we ever do
+
+
+0:44:23
+Speaker 0 :build AGI before we
+
+
+0:44:26
+Speaker 1 :
+
+0:44:27
+Speaker 0 :we have to make sure that it it learns
+
+
+0:44:31
+Speaker 1 :
+
+0:44:33
+Speaker 0 :to understand our goals that it adopts
+ our goals and it retains those goals so
+
+0:44:36
+Speaker 1 :
+
+0:44:38
+Speaker 2 :the cool interesting problem there is
+ being able us as human beings trying to formulate our values so you know youcould think of the United States
+ Constitution as a as a way that people sat down at the time a bunch of whitemen but which is a good example I should
+ we should say they formulated the goals for this country and a lot of peopleagree that those goals actually hold up
+ pretty well that's an interesting formulation of values and failedmiserably in other ways so for the value
+ alignment problem and a solution to it we have to be able to put on paper or inin in a program human values how
+
+
+0:45:21
+Speaker 1 :
+
+0:45:22
+Speaker 0 :difficult do you think that is very but
+
+
+0:45:24
+Speaker 1 :it's so important we really have to give
+ it our best and it's difficult for two separate reasons there's the technical
+
+0:45:31
+Speaker 0 :value alignment problem of figuring out
+
+
+0:45:33
+Speaker 1 :
+
+0:45:34
+Speaker 0 :just how to make machines understand our
+
+
+0:45:37
+Speaker 1 :goals adopt them and retain them and
+
+
+0:45:41
+Speaker 0 :then there's a separate part of it the
+
+
+0:45:42
+Speaker 1 :philosophical part whose values anyway
+
+
+0:45:44
+Speaker 0 :
+
+0:45:46
+Speaker 1 :and since we it's not like we have any
+ great consensus on this planet on values how what mechanism should we create themto aggregate and decide okay what's a
+
+
+0:45:55
+Speaker 0 :good compromise right at that second
+
+
+0:45:56
+Speaker 1 :discussion can't this be left the tech
+ nerds like myself right that's right and
+
+0:46:03
+Speaker 0 :if we refuse to talk about it and then
+
+
+0:46:04
+Speaker 1 :AGI gets built who's gonna be actually
+ making the decision about whose values it's gonna be a bunch of dudes and sometech company yeah yeah and are they
+
+
+0:46:14
+Speaker 0 :necessarily - it's it's so
+
+
+0:46:15
+Speaker 1 :representative of all humankind that we
+ want to just entrusted to them or they even is uniquely qualified to speak thefuture human happiness just because
+ they're good at programming any I I'd much rather have this be a reallyinclusive conversation but do you think
+
+
+0:46:30
+Speaker 2 :it's possible sort of so you create a
+ beautiful vision that includes so the diversity cultural diversity and variousspecs on discussing rights freedoms
+ human dignity but how hard is it to come to that consensus do you think it'scertainly a really important thing that
+ we should all try to do but do you think
+
+0:46:53
+Speaker 0 :it's feasible I I think there's no
+
+
+0:46:57
+Speaker 1 :better way to guarantee failure than to
+ try to refuse to talk about it or or refuse to try and I also think it's areally bad strategy to say okay let's
+
+
+0:47:06
+Speaker 0 :
+
+0:47:07
+Speaker 1 :first have a discussion for a long time
+ and then once we reach complete consensus then we'll try to load it intothe Machine know it we shouldn't let
+
+
+0:47:16
+Speaker 0 :perfect be the enemy of good instead we
+
+
+0:47:18
+Speaker 1 :should start with the kindergarten
+ ethics - pretty much everybody agrees on and put that into our machines now we'renot doing that even look at the you know
+ anyone who builds this passenger
+
+0:47:29
+Speaker 0 :aircraft wants it to never under any
+
+
+0:47:30
+Speaker 1 :circumstances fly into a building or
+ mountain right yet the September 11 hijackers were able to do that and evenmore embarrassingly you know and that he
+ has Lubitz this depressed Germanwings pilot when he flew hispassenger jet into the Alps killing over
+
+
+0:47:47
+Speaker 0 :a hundred people he just told the
+
+
+0:47:48
+Speaker 1 :autopilot to do it he told the freaking
+ computer to change the altitude 200 meters and even though it had the GPS
+
+0:47:54
+Speaker 0 :maps everything the computer was like
+
+
+0:47:57
+Speaker 1 :okay no so which we should take those
+
+
+0:48:03
+Speaker 0 :very basic values though where the
+
+
+0:48:04
+Speaker 1 :problem is not that we don't agree that
+
+
+0:48:07
+Speaker 0 :
+
+0:48:07
+Speaker 1 :maybe the problem is just we've been too
+ lazy to try to put it into our machines and make sure but from now on air
+
+0:48:12
+Speaker 0 :airplanes will just which all have
+
+
+0:48:15
+Speaker 1 :computers in them but we'll just never
+ just refuse to do something like that go into safe modemaybe lock the cockpit door or than here
+
+
+0:48:23
+Speaker 0 :at the airport and and there's so much
+
+
+0:48:25
+Speaker 1 :other technology in our world as well
+ now where it's really quite becoming quite timely to put in some sort of verybasic values like this even in cars we
+
+
+0:48:35
+Speaker 0 :were have enough vehicle terrorism
+
+
+0:48:37
+Speaker 1 :attacks by now of you love different
+
+
+0:48:40
+Speaker 0 :trucks and bands into pedestrians that
+
+
+0:48:41
+Speaker 1 :it's not at all a crazy idea to just
+
+
+0:48:46
+Speaker 0 :have that hardwired into the car just
+
+
+0:48:47
+Speaker 1 :yeah there are a lot of there's always
+ gonna be people who for some reason want to harm othersmost of those people don't have the
+ technical expertise to figure out how to work around something like that so if
+
+0:48:59
+Speaker 0 :the car just won't do it
+
+
+0:49:01
+Speaker 1 :it helps it let's start there so there's
+
+
+0:49:02
+Speaker 2 :a lot of that's a great point so not not
+ chasing perfect there's a lot of things that a lot that most of the world agreeson yeah and this look there let's start
+
+
+0:49:11
+Speaker 1 :there and and then once we start there
+ we'll also get into the habit of having these kind of conversations about okaywhat else should we put in here and I
+ have these discussions this should be a
+
+0:49:24
+Speaker 2 :gradual process then great so but that
+ also means describing these things and describing it to a machineso one thing we had a few conversation
+ was Stephen Wolfram I'm not sure if you're familiar with Stephen but yeah I
+
+0:49:37
+Speaker 1 :
+
+0:49:38
+Speaker 2 :know quite well so he is you know he
+ played you know works with a bunch of things but you know cellular automataare these simple computable things these
+ computation systems and he kind of mentioned that you know we probably havealready within these systems already
+ something that's AGI meaning like we just don't know it because we can't talkto it so if you give me this chance to
+ try to try to release form a question out of this is I think it's aninteresting idea to think that we can
+ have intelligent systems but we don't know how to describe something to themand they can't communicate with us I
+ know you're doing a little bit work an explainable AI trying to get AI toexplain itself so what are your thoughts
+ of natural language processing or some kind of other communication how how doesthe AI explain something to us how do we
+ explain something to it to machines or you think of it differently so there are
+
+0:50:35
+Speaker 0 :two separate parts to your question
+ there are them one of them has to do
+
+0:50:41
+Speaker 1 :with communication which is super
+ interesting you don't get that insect the other is whether we already have AGIbut we just haven't noticed it yeah
+
+
+0:50:49
+Speaker 0 :right there I beg to differ right and
+
+
+0:50:54
+Speaker 1 :don't think there's anything in any
+ cellular automaton or anything or the
+
+0:50:59
+Speaker 0 :internet itself or whatever that has
+
+
+0:51:01
+Speaker 1 :artificial
+ it didn't really do exactly everything we humans can do better I think today ifthe day that happens when that happens
+ we will very soon notice we will probably notice even before andifbecause in a very very big way but for
+
+
+0:51:19
+Speaker 2 :the second part though sorry so the
+ because you you have this beautiful way to formulating consciousness as as a youknow as information processing you can
+ think of intelligence and information processing and this you can think of theentire universe there's these particles
+ and these systems roaming around that have this information processing poweryou don't you don't think there is
+ something with the power to process information in the way that we human
+
+0:51:50
+Speaker 0 :beings do that's out there that that
+
+
+0:51:52
+Speaker 2 :needs to be sort of connected to it
+ seems a little bit philosophical perhaps but there's something compelling to theidea that the power is already there
+ would you know yes the focus should be more on these I'm being able to
+
+0:52:06
+Speaker 0 :communicate with it mhm well I agree
+ that that and some in a certain sense
+
+0:52:11
+Speaker 1 :the hardware processing power is already
+
+
+0:52:13
+Speaker 0 :out there because our universe itself
+ can think of it as being a computer
+
+0:52:18
+Speaker 1 :already right it's constantly computing
+
+
+0:52:22
+Speaker 0 :what water waves have evolved the water
+
+
+0:52:24
+Speaker 1 :waves and the river Charles and how to
+ move the air molecules around that s Lloyd has pointed out my colleague herethat you can even in a very rigorous way
+ think of our entire universe as being a quantum computer it's pretty clear thatour universe supports this amazing
+ processing power because you can even the within this physics computer that welive in right we can even build actually
+ laptops and stuff so clearly the power is there it's just that most of thecompute power that nature has it's in my
+ opinion kind of wasting on boring stuff like simulating yet another ocean wavesomewhere where no one is even looking
+ right so in a sense of what life does what we are doing when we buildcomputers is where we channeling all
+
+
+0:53:02
+Speaker 0 :
+
+0:53:04
+Speaker 1 :this compute that nature is doing anyway
+ into doing things that are more interesting than just yet another oceanwave you know and let's do something
+ cool here so the raw hardware power
+
+0:53:16
+Speaker 0 :and sherbet and then and even just like
+
+
+0:53:19
+Speaker 1 :computing what's gonna happen for the
+ next five seconds in this water ball you know it takes in a ridiculous amount ofcompute if you do it on a human computer
+ in yeah this water ball was did it but that doesnot mean this water bottle has AGI and
+
+
+0:53:33
+Speaker 0 :
+
+0:53:34
+Speaker 1 :because AGI means it should also be able
+ to like have written my book during his interview yes and I don't think it'sjust communication problems as far as
+ you know don't think it can do it and
+
+0:53:47
+Speaker 2 :other Buddhists say when they watch the
+ water and that there is some beauty that there's some depth and being sure thatthey can communicate with communication
+
+
+0:53:55
+Speaker 1 :that's also very important here because
+ I mean look part of my job is being a
+
+0:54:00
+Speaker 0 :teacher and I know some very intelligent
+
+
+0:54:02
+Speaker 1 :
+
+0:54:04
+Speaker 0 :professors even who just have a better
+
+
+0:54:08
+Speaker 1 :hard time communicating they come up
+ with all these brilliant ideas but but to communicate with somebody else youhave to also be able to simulate their
+ own mind yes and pettite build well enough and understand model of theirmind that you can say things that they
+
+
+0:54:23
+Speaker 0 :will understand and that's quite
+
+
+0:54:25
+Speaker 1 :difficult and that's why today it's so
+ frustrating if you have a computer that makes some cancer diagnosis and you askit well why are you saying I should have
+ a surgery if it and if they don't know can only reply or I was trained on fiveterabytes of data and this is my
+
+
+0:54:42
+Speaker 0 :
+
+0:54:42
+Speaker 1 :diagnosis boop boop beep beep yeah I
+ didn't doesn't really instill a lot of confidence right right so I think wehave a lot of work do one on
+ communication there so what kind of what
+
+0:54:54
+Speaker 2 :kind of I think you're doing a little
+ bit work and explainable eh uh yeah what do you think are the most promisingavenues is it mostly about sort of the
+ Alexa problem of natural language processing of being able to actually usehuman interpretable methods of
+ communication so being able to talk to a system and talk back to you or is theresome more fundamental problems to be
+
+
+0:55:19
+Speaker 1 :solved I think it's all of above human
+ the natural language processing is obviously important but they're also
+
+0:55:23
+Speaker 0 :more nerdy
+
+
+0:55:26
+Speaker 1 :fundamental problems like if you if you
+
+
+0:55:28
+Speaker 0 :take you play chess
+
+
+0:55:30
+Speaker 1 :
+
+0:55:32
+Speaker 2 :mmm I have to give this Paris key when
+
+
+0:55:36
+Speaker 1 :did you learn Russian nobody watching
+ papyrus key I talk after the back more people can you teach yourself Russian toTao what amalgam of bills of sim through
+ dinner Wow but I would see languages do you
+
+0:55:50
+Speaker 2 :know
+ wow that's really impressive I've had
+
+0:55:53
+Speaker 1 :some contact base but my point was if
+ you play chess but you have you looked at the alpha zero games there are the
+
+0:56:00
+Speaker 2 :actual games now just checking out some
+
+
+0:56:02
+Speaker 1 :of them are just mind-blowing really
+
+
+0:56:05
+Speaker 0 :beautiful and if you ask how did it do
+ that you got that talk to them is hassabis I
+
+0:56:14
+Speaker 1 :
+
+0:56:16
+Speaker 0 :know others from beef mine all they will
+
+
+0:56:19
+Speaker 1 :ultimately be able to give you is big
+
+
+0:56:21
+Speaker 0 :
+
+0:56:22
+Speaker 1 :tables of numbers matrices that define
+ the neural networking and you can stare at these know people's numbers till yourface turned blue and it's you know I can
+
+
+0:56:30
+Speaker 0 :
+
+0:56:30
+Speaker 1 :understand much about why it made that
+ move and even if you have a natural language processing that can tell you inhuman language about all five seven
+ points to eight still not gonna really
+
+0:56:43
+Speaker 0 :help so I think think there's a whole
+
+
+0:56:45
+Speaker 1 :spectrum of a fun challenge they're
+
+
+0:56:47
+Speaker 0 :
+
+0:56:48
+Speaker 1 :involved in and taking a computation
+ that does intelligent things and
+
+0:56:53
+Speaker 0 :transforming me into something equally
+
+
+0:56:56
+Speaker 1 :good equally intelligent but it's more
+ understandable and I think that's really
+
+0:57:03
+Speaker 0 :valuable because I think as we put
+
+
+0:57:06
+Speaker 1 :machines in charge of evermore
+ infrastructure in our world the power
+
+0:57:10
+Speaker 0 :grid the trading on the stock market
+ weapons systems and so on it's absolutely crucial that we can
+
+0:57:17
+Speaker 1 :trust these a is a do or I want and
+ trust really comes from understanding
+
+0:57:21
+Speaker 0 :all right in a very fundamental way and
+
+
+0:57:25
+Speaker 1 :that's why I'm that's why I'm working on
+ this because I think the more if we're gonna have some hope of ensuring thatmachines have adopted our goals and that
+
+
+0:57:34
+Speaker 0 :they're gonna retain them that kind of
+ trust and
+
+0:57:38
+Speaker 1 :thank you needs to be based on things
+ you can actually understand preferably even make it perfectly to improvetheorems on even with a self-driving car
+
+
+0:57:45
+Speaker 0 :right if someone just tells you it's
+
+
+0:57:47
+Speaker 1 :been trained on tons of data and I never
+ crashed it's it's less reassuring than if someone actually has a proof maybeit's a computer verified proof but still
+ it says that under no circumstances is this car just gonna swerve into oncomingtraffic and that kind of information
+
+
+0:58:02
+Speaker 2 :helps will build trust and build the
+ alignment the alignment of goals the at least awareness that your goals your
+
+0:58:11
+Speaker 1 :values are aligned and I think even a
+ very short term if you look at her you know that today right this absolutelypathetic state of cybersecurity that we
+ have when it's or is it three billion
+
+0:58:21
+Speaker 0 :
+
+0:58:24
+Speaker 1 :
+
+0:58:25
+Speaker 0 :yahoo accounts which are packed almost
+
+
+0:58:29
+Speaker 1 :every American's credit card and so on
+ you know it's why is this happening it's ultimately happening because we havesoftware took nobody fully understood
+
+
+0:58:39
+Speaker 0 :how it worked that's why the bugs hadn't
+
+
+0:58:42
+Speaker 1 :been found right now and I think AI can
+ be used very effectively for offense for hacking but it can also be used for
+
+0:58:51
+Speaker 0 :defense know hopefully automating
+
+
+0:58:53
+Speaker 1 :verifiability and creating is systems
+
+
+0:58:56
+Speaker 0 :that are built in different
+
+
+0:59:00
+Speaker 1 :so you can actually prove things about
+ them right and it's it's important
+
+0:59:04
+Speaker 2 :so speaking of software that nobody
+ understands how it works of course a bunch of people asked by your paperabout your thoughts of why does deep and
+ cheap learning work so well that's the paper but what what are your thoughts ondeep learning these kind of simplified
+ models of our own brains have been able to do some successful perception workpattern recognition work and now with
+ alpha zero and so on do some some clever things what are your thoughts about thepromise limitations of this piece great
+
+
+0:59:35
+Speaker 0 :I think there are a number of very
+
+
+0:59:40
+Speaker 1 :
+
+0:59:41
+Speaker 0 :important insights very important
+
+
+0:59:43
+Speaker 1 :lessons we can already draw from these
+
+
+0:59:46
+Speaker 0 :kind of successes one of them is when
+
+
+0:59:47
+Speaker 1 :you look at the human brain you see it's
+ very complicated a tenth of eleven neurons and there are all thesedifferent kinds of neurons and
+ yadda-yadda and there's been a long debate about whether the fact that wehave dozens of different kinds is
+ actually necessary for intelligence
+
+1:00:00
+Speaker 0 :
+
+1:00:01
+Speaker 1 :which a now I think quite convincingly
+ answer that question no it's enough to
+
+1:00:04
+Speaker 0 :
+
+1:00:06
+Speaker 1 :have just one kind if you look under the
+ hood of alpha zero there's only one kind of neuron and it's ridiculously simple asimple mathematical thing so it's it's
+ not the it's just like in physics it's not the D if you have a gas with wavesin it it's not the detailed nature of
+
+
+1:00:22
+Speaker 0 :the molecule the matter it's the
+
+
+1:00:24
+Speaker 1 :collective behavior or somehow it
+
+
+1:00:27
+Speaker 0 :similarly it's it's it's this
+
+
+1:00:28
+Speaker 1 :higher-level structure of the network
+ that matters not that you have twenty guys I think whom our brain is such acomplicated mess because it wasn't
+
+
+1:00:38
+Speaker 0 :devolved just to be intelligent it was
+
+
+1:00:40
+Speaker 1 :
+
+1:00:42
+Speaker 0 :evolved to also be self assembling right
+
+
+1:00:47
+Speaker 1 :
+
+1:00:48
+Speaker 0 :and self repairing right and
+
+
+1:00:51
+Speaker 1 :evolutionarily attainable matches and so
+
+
+1:00:51
+Speaker 2 :
+
+1:00:53
+Speaker 1 :on yeah so I think it's pretty my my
+ hunch is that we're gonna understand how to build a GI before we fully understandhow our brains work just like we we
+ understood how to build flying machines long before we were able to build a
+
+1:01:07
+Speaker 2 :mechanical work bird yes are you going
+ names you're given that the example exactly of mechanical birds andairplanes
+ yeah my plans do a pretty good job of flying without really mimicking bird
+
+1:01:18
+Speaker 1 :flight and even now after 100 is 100
+ years later did you see the TED talk with a mr. mechanical bird you mentionedit's amazing but even after that right
+ we still don't fly in mechanical birds because it turned out the way we came up
+
+1:01:31
+Speaker 0 :with but simpler and it's better for our
+
+
+1:01:32
+Speaker 1 :purposes and I think it might be the
+ same there that's one lesson and another
+
+1:01:39
+Speaker 0 :lesson it is one what did when our paper
+ was about
+
+1:01:42
+Speaker 1 :well first we wife is a physicist
+ thought it was fascinating how there is a very closed mathematical relationshipactually between our artificial neural
+ networks and a lot of things that we've
+
+1:01:52
+Speaker 0 :studied for in physics go by nerdy names
+
+
+1:01:55
+Speaker 1 :like the renormalization group equation
+ and napoleons and yada yada yada and
+
+1:02:00
+Speaker 0 :when you look a little more closely at
+ this you have you at first there was a
+
+1:02:11
+Speaker 1 :well there's something crazy here that
+
+
+1:02:14
+Speaker 0 :doesn't make sense because we know that
+
+
+1:02:18
+Speaker 1 :if you even want to build a super simple
+ neural network with hell that part cat
+
+1:02:21
+Speaker 0 :
+
+1:02:22
+Speaker 1 :pictures and dog pictures right that you
+
+
+1:02:25
+Speaker 0 :can do that very very well now but if
+
+
+1:02:28
+Speaker 1 :you think about it a little bit you
+ convince yourself it must be impossible
+
+1:02:30
+Speaker 0 :because if I have one megapixel even if
+
+
+1:02:34
+Speaker 1 :each pixel is just black or white
+ there's 2 to the power 1 million possible images which is way more thanthere are atoms in our universe right so
+
+
+1:02:41
+Speaker 0 :in order to and then for each one of
+
+
+1:02:44
+Speaker 1 :those I have to assign a number which is
+ the probability that it's a dog right so
+
+1:02:50
+Speaker 0 :an arbitrary function of images is a
+ list of more numbers than there are
+
+1:02:55
+Speaker 1 :atoms in our universe so clearly I can't
+ store that under the hood of my my GPU or maybe my computer yet somehow works
+
+1:03:01
+Speaker 0 :
+
+1:03:02
+Speaker 1 :so what does that mean well it means
+ that the out of all of the problems that
+
+1:03:06
+Speaker 0 :you could all try to solve with a neural
+ network almost all of them are impossible to
+
+1:03:14
+Speaker 1 :solve with a reasonably sized one but
+
+
+1:03:16
+Speaker 0 :
+
+1:03:18
+Speaker 1 :then what we should show it in our paper
+
+
+1:03:19
+Speaker 0 :was was that they the fraks the kind of
+ problems the fraction of all the problems that you could possibly
+
+1:03:28
+Speaker 1 :pose that there that we actually care
+ about given the laws of physics is also
+
+1:03:31
+Speaker 0 :
+
+1:03:32
+Speaker 1 :an infinitesimally tiny little part and
+ amazingly they're basically the same part yeah it's almost such that our
+
+1:03:38
+Speaker 2 :world was created for I mean they kind
+
+
+1:03:41
+Speaker 1 :of come together yeah but you could say
+ maybe where the world created the world that the world was created for us but Ihave a more modest interpretation which
+ is that instead evolution in downest but
+
+1:03:48
+Speaker 0 :
+
+1:03:49
+Speaker 1 :neural networks precisely for that
+ reason because this particular architecture as opposed to the one in
+
+1:03:56
+Speaker 0 :your laptop is very very well adapted
+
+
+1:04:00
+Speaker 1 :solving the kind of problems of nature
+ kept presenting it our ancestors will read so it makes sense that why do wehave a brain in the first place it's to
+ be able to make predictions about the future mm-hm and so on so if we had asucky system which could never solve it
+ wouldn't have a logic so but it's so
+
+1:04:19
+Speaker 0 :this is this is a I think you're very
+ beautiful fact yeah we also we also
+
+1:04:23
+Speaker 1 :
+
+1:04:25
+Speaker 0 :realize that there's there that we
+
+
+1:04:28
+Speaker 1 :they've been it's been earlier work on
+
+
+1:04:29
+Speaker 0 :
+
+1:04:30
+Speaker 1 :on why deeper networks are good but we
+ were able to show an additional cool
+
+1:04:35
+Speaker 0 :fact there which is that them even
+
+
+1:04:35
+Speaker 1 :incredibly simple problems like suppose
+ I gave you it I found the numbers and asked you to multiply them together inre you can write it's the few lines of
+ code boom done trivial if you just try to do that with a neural network that
+
+1:04:48
+Speaker 0 :has only one single hidden layer in it
+ you can do it but you're gonna need two
+
+1:04:55
+Speaker 1 :to the power a thousand neurons and to
+ multiply a thousand numbers which is again more neurons than their atoms inour universe okay that's nothing but if
+
+
+1:05:04
+Speaker 0 :
+
+1:05:05
+Speaker 1 :you're allowed if you love yourself
+
+
+1:05:08
+Speaker 0 :
+
+1:05:09
+Speaker 1 :make it a deep network with many layers
+ you only need four thousand neurons it's
+
+1:05:14
+Speaker 0 :perfectly feasible so that's really
+
+
+1:05:16
+Speaker 1 :
+
+1:05:16
+Speaker 2 :interesting there yeah yeah so on
+ another architecture type I mean you mentioned Schrodinger's equation andwhat what are your thoughts about
+ quantum computing and the role of this kind of computational unit in creatingan intelligent system in some Hollywood
+
+
+1:05:34
+Speaker 0 :movies that are a lot mentioned my name
+
+
+1:05:39
+Speaker 1 :you don't want to spoil them
+ the the NAD is building a quantum computerlist yes because the word quantum sounds
+
+
+1:05:47
+Speaker 0 :cool and so it's right mines first of
+ all I think we don't need quantum
+
+1:05:52
+Speaker 1 :
+
+1:05:53
+Speaker 0 :computers they build a GI I suspect your
+ brain is not quantum computer and then
+
+1:05:59
+Speaker 1 :they found sense so you don't even wrote
+ a paper about that what many years ago would excite Chocula the decoherenceso-called B coherence time that how long
+ it takes until the quantum computer nosov what your neurons are doing gets
+
+1:06:11
+Speaker 0 :erased mm-hmm why just random noise from
+
+
+1:06:16
+Speaker 1 :the environment and then it's about 10
+ to the minus 21 seconds so as cool as it
+
+1:06:21
+Speaker 0 :
+
+1:06:23
+Speaker 1 :would be to have a quantum computer in
+ my head I don't think that fast
+
+1:06:27
+Speaker 0 :yeah on the other hand there are very
+ cool things you could do with quantum
+
+1:06:33
+Speaker 1 :
+
+1:06:33
+Speaker 0 :computers though I think we'll be able
+ to do soon when we get big what bigger ones that might actually help machine
+
+1:06:39
+Speaker 1 :learning do even better than the brain
+
+
+1:06:42
+Speaker 0 :mm-hmm though for example one this is
+ moonshot but hey you know learning is very much same thing is search mm-hmm if
+
+1:06:59
+Speaker 1 :you have if you try to train a neural
+
+
+1:07:03
+Speaker 0 :network to get really learn to do
+ something really well you'd have some
+
+1:07:06
+Speaker 1 :lost function you have some you have a
+
+
+1:07:07
+Speaker 0 :
+
+1:07:09
+Speaker 1 :bunch of knobs you can turn represented
+ by a bunch of numbers and you're trying
+
+1:07:12
+Speaker 0 :
+
+1:07:13
+Speaker 1 :to tweak them so that it become as good
+ as possible at this thing so if you
+
+1:07:15
+Speaker 0 :think of a landscape with some Valley
+ where each dimension of the landscape
+
+1:07:21
+Speaker 1 :corresponds to some number you can
+ change you're trying to find the minimum
+
+1:07:24
+Speaker 0 :and it's well-known that if you have a
+
+
+1:07:26
+Speaker 1 :very high dimensional landscape
+ complicated things super hard to find
+
+1:07:31
+Speaker 0 :the minimum later quantum mechanics is
+
+
+1:07:33
+Speaker 1 :amazingly good at this right if I want
+ to know what's the lowest energy state
+
+1:07:40
+Speaker 0 :this water can possibly have incredibly
+
+
+1:07:43
+Speaker 1 :hard to compute but we can but nature
+ will happily figure this out for you if you just cool it down and make you very
+
+1:07:47
+Speaker 0 :very cold if you put a ball somewhere
+
+
+1:07:51
+Speaker 1 :it'll roll down to its minimum and this
+ happens metaphorically
+
+1:07:54
+Speaker 0 :and the energy landscape too and quantum
+
+
+1:07:57
+Speaker 1 :mechanics even used as a mode some
+ clever tricks which today is machine learning systems don't like if you'retrying to find the minimum and you get
+ stuck in a little local minima here in quantum mechanics you can actuallytunnel through the barrier and get
+
+
+1:08:10
+Speaker 0 :unstuck in Yemen and that's really
+
+
+1:08:13
+Speaker 1 :interesting yeah so it may be for
+ example it will one day use quantum
+
+1:08:18
+Speaker 0 :computers that help train neural
+
+
+1:08:23
+Speaker 1 :networks better that's really
+
+
+1:08:23
+Speaker 2 :interesting okay so as a component of
+ kind of the learning process for example yeah
+
+1:08:29
+Speaker 0 :let me ask sort of wrapping up here a
+
+
+1:08:31
+Speaker 2 :little bit let me let me return to the
+ questions of our human nature and and love as I mentioned so do you think you
+
+1:08:41
+Speaker 0 :
+
+1:08:44
+Speaker 2 :mentioned sort of a helper robot you can
+ think of also personal robots do you think the way we human beings fall inlove and get connected to each other
+ it's possible to achieve in an AI system and human-level AI intelligence systemdo you think we would ever see that kind
+ of connection or you know in all this discussion about solving complex goalsyeah as this kind of human social
+ connection do you think that's one of the goals and the peaks and valleys thatwith the raising sea levels that we'll
+ be able to achieve or do you think that's something that's ultimately or atleast in the short term relative to
+ other goals is not achievable I think
+
+1:09:23
+Speaker 1 :it's all possible and I mean in in
+
+
+1:09:26
+Speaker 0 :recent there's that there's a very wide
+
+
+1:09:29
+Speaker 1 :range of guesses as you know among AI
+ researchers when we're gonna get a GI
+
+1:09:33
+Speaker 0 :
+
+1:09:35
+Speaker 1 :some people you know like your friend
+ Rodney Brooks says it's gonna be hundred hundreds of years least and then thereare many others I think it's gonna
+ happen relative much sooner and recent
+
+1:09:44
+Speaker 0 :polls and be half or so or AI
+
+
+1:09:47
+Speaker 1 :researchers think it's we're gonna get
+
+
+1:09:50
+Speaker 0 :AGI within decades so if that happens of
+
+
+1:09:52
+Speaker 1 :course then I think these things are all
+ possible but in terms of whether it will
+
+1:09:56
+Speaker 0 :happen I don't I think we shouldn't
+
+
+1:10:00
+Speaker 1 :spend so much time asking what do we
+ think will happen in the future as if we are just some sort of pathetic yourpassive bystanders you know waiting for
+ the future
+
+1:10:10
+Speaker 0 :happen to us hey we're the ones creating
+ this future right so we should be proactive about it and ask us of what
+
+1:10:17
+Speaker 1 :sort of future we would like to have
+ happen that's right trying to make it like that well what I
+
+1:10:20
+Speaker 0 :
+
+1:10:22
+Speaker 1 :prefer it to some sort of incredibly
+ boring zombie like future where there's all these mechanical things happen it isno fashion no emotion no experience
+
+
+1:10:29
+Speaker 0 :maybe even no I would of course much
+
+
+1:10:31
+Speaker 1 :
+
+1:10:32
+Speaker 0 :rather prefer it if all the things that
+
+
+1:10:34
+Speaker 1 :
+
+1:10:36
+Speaker 0 :we find that we value the most about
+ humanity our subjective experience
+
+1:10:43
+Speaker 1 :passion inspiration you love you know if
+
+
+1:10:45
+Speaker 0 :we can create a future where those are
+
+
+1:10:49
+Speaker 1 :those things do exist no I think
+
+
+1:10:51
+Speaker 0 :ultimately it's not our universe giving
+
+
+1:10:54
+Speaker 1 :meaning to us just us giving me the
+
+
+1:10:57
+Speaker 0 :universe and if we build more advanced
+
+
+1:11:01
+Speaker 1 :intelligence let's let's make sure we're
+
+
+1:11:03
+Speaker 0 :building in such a way that meaning
+ these but it's part of it I want a lot
+
+1:11:08
+Speaker 2 :of people that seriously study this
+ problem and think of it from different angles have trouble and the majority ofcases if they think through that happen
+ you know are the ones that are not beneficial to humanity right and so yeahso what what are your thoughts was an
+
+
+1:11:25
+Speaker 1 :
+
+1:11:26
+Speaker 2 :engine what's what should people you
+ know I really don't like people to be terrifiedyou should what's a way for people to
+ think about it in a way that instead you know we can solve it okay to make it
+
+1:11:38
+Speaker 1 :better yeah no I don't think panicking
+
+
+1:11:40
+Speaker 0 :is gonna help in any way it's not
+
+
+1:11:43
+Speaker 1 :increase chances of things going well
+ either even if you are in a situation where there is a real threatdoes it help if everybody just freaks
+ out right no of course of course not I
+
+1:11:54
+Speaker 0 :think yeah there are of course ways in
+
+
+1:11:55
+Speaker 1 :which things can go horribly wrong first
+
+
+1:11:58
+Speaker 0 :of all it's important when we think
+
+
+1:12:01
+Speaker 1 :about this thing this about the problems
+ and risks that also remember how huge the upsides can be if we get it right Ihad everything everything we love about
+ society and civilization of the product of intelligence so if we can amplify ourintelligence or machine intelligence and
+ not anymore lose our loved one to what we're told as an uncurable disease andthings like this of
+
+
+1:12:22
+Speaker 0 :we should aspire to that so that can be
+
+
+1:12:24
+Speaker 1 :a motivator I think reminding ourselves
+ that the reason we try to solve problems
+
+1:12:30
+Speaker 0 :is not just because we're trying to
+
+
+1:12:32
+Speaker 1 :avoid gloom but because we're trying to
+ do something great but then in terms of
+
+1:12:38
+Speaker 0 :the risks I think um the entry the
+
+
+1:12:41
+Speaker 1 :important question is to ask what can we
+ do today they will actually help yes how
+
+1:12:45
+Speaker 0 :come good may in it and dismissing the
+
+
+1:12:48
+Speaker 1 :risk is not one of them you know it I
+
+
+1:12:50
+Speaker 0 :
+
+1:12:51
+Speaker 1 :find it quite funny often when I'm in on
+ discussion panels about these things how
+
+1:12:55
+Speaker 0 :the people who work for come for
+
+
+1:13:00
+Speaker 1 :companies lobbies they're always like oh
+ nothing to worry about nothing to worry about nothing to worry aboutand the it's always all it's only
+ academics sometimes it's expressed concerns that's not surprising at all if
+
+1:13:11
+Speaker 0 :you think about it Upton Sinclair
+ quipped right that it's hard to make
+
+1:13:15
+Speaker 1 :your man believe in something when you
+ think some the fans are not believing in
+
+1:13:21
+Speaker 0 :it and and frankly we know a lot of
+
+
+1:13:21
+Speaker 1 :these people in companies and that
+ they're just as concerned as anyone else but if you're the CEO of a companythat's not something you want to go on
+ record saying when you have silly journalists so we're gonna put a pictureof a Terminator robot when they quote
+
+
+1:13:36
+Speaker 0 :you so so the issues are real and the
+
+
+1:13:38
+Speaker 1 :way I am the way I think about what the
+
+
+1:13:42
+Speaker 0 :issue is it is basically you know but
+ the real choice we have is first of all
+
+1:13:48
+Speaker 1 :are we gonna stir this dismiss this the
+ risks and say well you know let's just
+
+1:13:52
+Speaker 0 :go ahead and build machines that can do
+
+
+1:13:55
+Speaker 1 :everything we can do better and cheaper
+ you know let's just make yourselves obsolete as fast as possible or whatcould possibly go wrong right that's one
+
+
+1:14:02
+Speaker 0 :attitude the opposite attitude that I
+
+
+1:14:04
+Speaker 1 :
+
+1:14:05
+Speaker 0 :think is to say is incredible potential
+ you know let's think about what kind of future we're really really excited about
+
+1:14:12
+Speaker 1 :
+
+1:14:13
+Speaker 0 :what are the shared goals that we can
+
+
+1:14:17
+Speaker 1 :really aspire towards and then let's
+ think really hard on how about how we can actually get there as it's a start
+
+1:14:22
+Speaker 0 :
+
+1:14:22
+Speaker 1 :with it no don't start thinking about
+ the risk start thinking about the goals
+
+1:14:25
+Speaker 0 :goals yeah and then when you do that
+
+
+1:14:28
+Speaker 1 :then you can think about the obstacles
+ you want to avoid well they often get students coming in right here into myoffice for career advising always ask
+ them this very question where you want to be in the future man if all shecan say is oh maybe I'll have cancer
+ maybe I'll run over by a tortoise and
+
+1:14:42
+Speaker 2 :obstacles instead of the bill he's just
+
+
+1:14:44
+Speaker 1 :gonna end up a hypochondriac paranoid
+ yeah whereas if she comes in and fire in her eyes and it's like I want to bethere and then we can talk about the
+ obstacles and see how we can circumvent them that's I think a much much
+
+1:14:58
+Speaker 0 :healthier attitude and um that's really
+
+
+1:15:00
+Speaker 1 :well plan and I I feel it's it's very
+
+
+1:15:02
+Speaker 0 :
+
+1:15:04
+Speaker 1 :challenging to come up with a vision for
+
+
+1:15:06
+Speaker 0 :the future which we wish we are
+
+
+1:15:09
+Speaker 1 :unequivocally excited about I'm not just
+ talking now in the vague terms like yeah let's cure cancer fine I'm talking aboutwhat kind of society do we want to
+ create what do we want it to mean you
+
+1:15:20
+Speaker 0 :know to be human in the Age of AI in the
+
+
+1:15:22
+Speaker 1 :
+
+1:15:23
+Speaker 0 :age of AGI so if we can have this
+
+
+1:15:25
+Speaker 1 :
+
+1:15:26
+Speaker 0 :conversation broad inclusive
+
+
+1:15:28
+Speaker 1 :
+
+1:15:29
+Speaker 0 :conversation and gradually start
+ converging towards some some future that
+
+1:15:35
+Speaker 1 :with some direction at least that we
+ want to steer towards right then then no
+
+1:15:38
+Speaker 0 :we'll be much more motivated to
+
+
+1:15:39
+Speaker 1 :constructively take on the obstacles and
+
+
+1:15:42
+Speaker 0 :I think if I had if I had the I think if
+
+
+1:15:44
+Speaker 1 :you make if I try to wrap this up in a
+
+
+1:15:49
+Speaker 0 :more sixteenth way I think I think we
+ can all agree already now that we should aspire to build AGI but doesn't
+
+1:16:01
+Speaker 1 :overpower us but that empowers us and
+
+
+1:16:03
+Speaker 0 :
+
+1:16:05
+Speaker 2 :think of the many various ways that can
+ do that whether that's from my side of the world of autonomous vehicles I I'mpersonally actually from the camp that
+ believes there's human level intelligence is required to to achievesomething like vehicles that would
+ actually be something we would enjoy using and being part of so that's oneexample and certainly there's a lot of
+ other types of robots in medicine and so on so focusing on those and then andthen coming up with the obstacles coming
+ up with the ways that that can go wrong and solving those one at a time and just
+
+1:16:38
+Speaker 0 :
+
+1:16:39
+Speaker 1 :because you can build an autonomous
+
+
+1:16:39
+Speaker 0 :vehicle even if you could build one that
+
+
+1:16:42
+Speaker 1 :would drive this finalize you know maybe
+
+
+1:16:44
+Speaker 0 :
+
+1:16:46
+Speaker 1 :there are some things in life that we
+ would actually want to do ourselves that's right my
+
+1:16:49
+Speaker 0 :like for example if you think of our
+
+
+1:16:52
+Speaker 1 :society as a whole there's something
+
+
+1:16:54
+Speaker 0 :that we find very meaningful to do and
+ that doesn't mean we have to stop doing
+
+1:16:59
+Speaker 1 :them just because machines can do them
+ better you know I'm not gonna stop playing tennis just the base of my builda tennis robot yeah beat me people are
+
+
+1:17:07
+Speaker 2 :still playing chess and even go yeah and
+
+
+1:17:09
+Speaker 1 :
+
+1:17:11
+Speaker 0 :I in this in the very near term even
+
+
+1:17:14
+Speaker 1 :some people are advocating basic income
+
+
+1:17:16
+Speaker 0 :replace jobs but if you if the
+
+
+1:17:19
+Speaker 1 :government is gonna be willing to just
+
+
+1:17:21
+Speaker 0 :hand out cash to people for doing
+ nothing then one should also seriously
+
+1:17:24
+Speaker 1 :consider whether the government should
+ also just hire a lot more teachers and
+
+1:17:29
+Speaker 0 :nurses and the kind of jobs which people
+ often find great fulfillment in doing
+
+1:17:33
+Speaker 1 :
+
+1:17:33
+Speaker 0 :right I get very tired of hearing
+ politicians saying oh we can't afford hiring more teachers but we're going to
+
+1:17:39
+Speaker 1 :maybe have basic income if we can have
+ more serious research and thought into what gives meaning to our lives and thejobs give so much more than income right
+
+
+1:17:49
+Speaker 0 :mm-hm and then think about in the future
+ well what are the role of the yeah what are the roles that we want to havepeople feeling empowered by machines and
+
+
+1:18:03
+Speaker 1 :
+
+1:18:03
+Speaker 2 :I think sort of I come from the Russia
+ from the Soviet Union and I think for a lot of people in the 20th century goingto the moon going to space was an
+ inspiring thing I feel like the the the universe of the mind so AI understandingcreating intelligence is that for the
+ 21st century so it's really surprising and I've heard you mention this it'sreally surprising to me both on the
+ research funding side that it's not funded as greatly as it could be butmost importantly on the politicians side
+ that it's not part of the public discourse except in the kilobotsTerminator kind of view that people are
+ not yet I think perhaps excited by the possible positive future that we canbuild together certainly should be
+
+
+1:18:49
+Speaker 1 :
+
+1:18:50
+Speaker 0 :because politicians usually just focus
+
+
+1:18:50
+Speaker 1 :
+
+1:18:53
+Speaker 0 :on the next election cycle right the
+
+
+1:18:55
+Speaker 1 :single most important thing I feel we
+ humans have learned and the entire
+
+1:18:58
+Speaker 0 :history of science is there were the
+
+
+1:19:00
+Speaker 1 :Masters of underestimation we
+ underestimated
+
+1:19:03
+Speaker 0 :the science of our cosmos
+
+
+1:19:06
+Speaker 1 :again and again realizing of everything
+ we thought existed was just a small part of something grander right planet solar
+
+1:19:14
+Speaker 0 :system the galaxy clusters of guises
+ universe so and we now know that we but the future has just so much morepotential than our ancestors could ever
+ have dreamt of this cosmos well imagine if all of Earth was completely devoid oflife except for Cambridge Massachusetts
+
+
+1:19:37
+Speaker 1 :
+
+1:19:38
+Speaker 0 :that would wouldn't it be kind of lame
+ if all we ever aspired to it to stay in
+
+1:19:42
+Speaker 1 :Cambridge Massachusetts forever and then
+
+
+1:19:44
+Speaker 0 :
+
+1:19:46
+Speaker 1 :go extinct in one week
+ even though Earth was gonna continue on for longer that that sort of attitude I
+
+1:19:50
+Speaker 0 :think we have now on the cosmic scale we
+ can fluid life can flourish on earth not
+
+1:19:57
+Speaker 1 :foreign for four years but for billions
+ of years yes I can even tell you about how to move it out of harm's way when
+
+1:20:04
+Speaker 0 :its own Sun gets too hot and and then we
+
+
+1:20:07
+Speaker 1 :have so much more resources out here
+
+
+1:20:08
+Speaker 0 :which today yeah maybe there are a lot
+ of other planets with bacteria or a cow like life on them but I most of this allthis opportunity seems as far as we can
+
+
+1:20:20
+Speaker 1 :
+
+1:20:21
+Speaker 0 :fail to be largely dead like the Sahara
+ Desert and yet we have the opportunity but to helplife flourish promise there are billions
+
+
+1:20:28
+Speaker 1 :
+
+1:20:30
+Speaker 0 :of year and so like let's quit
+ squabbling about when some little border
+
+1:20:34
+Speaker 1 :should be drawn one-fifth one mile to
+ the left to right and realize hey you
+
+1:20:41
+Speaker 0 :know we can do such incredible things
+
+
+1:20:43
+Speaker 1 :
+
+1:20:44
+Speaker 2 :yeah and that's I think why it's really
+ exciting that yeah you and others are connected with some of the working lamosque is doing because he's literally
+ going out into that space we're exploring our universe and it's
+
+1:20:57
+Speaker 1 :wonderful that is exactly why Elon Musk
+
+
+1:21:00
+Speaker 0 :is so it misunderstood right misconstrue
+
+
+1:21:02
+Speaker 1 :him is some kind of pessimistic dooms
+ there the reason he cares so much about the I safety is because he more than
+
+1:21:08
+Speaker 0 :almost anyone else appreciates these
+
+
+1:21:12
+Speaker 1 :amazing opportunities they will squander
+ if we wipe out out here on earth and we're not just gonna wipe out the
+
+1:21:17
+Speaker 0 :
+
+1:21:19
+Speaker 1 :next generation but all generations and
+
+
+1:21:20
+Speaker 0 :this incredible opportunity that's out
+
+
+1:21:22
+Speaker 1 :there that would be really a waste and
+
+
+1:21:25
+Speaker 0 :AI for people who think that we better
+
+
+1:21:28
+Speaker 1 :
+
+1:21:30
+Speaker 0 :to do without technology well let me
+ just mention that if we don't improve
+
+1:21:35
+Speaker 1 :our technology the question isn't
+ whether humanity is gonna go extinct question is just whether we're gonna gettaken out by the next big asteroid or
+ the next supervolcano or something else dumb that we could easily prevent with
+
+1:21:48
+Speaker 0 :more tech right and if we want life to
+
+
+1:21:51
+Speaker 1 :flourish throughout the cosmos AI is the
+
+
+1:21:54
+Speaker 0 :key to it as I mentioned a lot of detail
+
+
+1:21:56
+Speaker 1 :
+
+1:21:59
+Speaker 0 :in my book right there even many of the
+ most inspired sci-fi writers I feel have
+
+1:22:04
+Speaker 1 :totally underestimated the opportunities
+
+
+1:22:07
+Speaker 0 :
+
+1:22:08
+Speaker 1 :for space travel especially to other
+ galaxies because they weren't thinking about the possibility of AGI which just
+
+1:22:16
+Speaker 0 :makes it so much easier right yeah so
+
+
+1:22:17
+Speaker 2 :that goes to your view of AGI that
+ enables our progress that enables a better life so that's a beautiful that'sa beautiful way to put it and then
+ something to strive for so max thank you so much thank you for your time todayit's been awesome thank you so much
+
+
+1:22:34
+Speaker 1 :
+

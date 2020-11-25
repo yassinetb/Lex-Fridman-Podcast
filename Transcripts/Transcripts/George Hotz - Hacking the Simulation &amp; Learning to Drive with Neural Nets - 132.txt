@@ -1,0 +1,3514 @@
+Speaker 0 :the following is a conversation with
+ george hotz a.k.a geohot his second time on the podcasthe's the founder of comma ai an
+ autonomous and semi-autonomous vehicle technology companythat seeks to be to tesla autopilot what
+ android is to the ios they sell thecomma two device for one thousand
+ dollars that when installed in many of their supported cars can keepthe vehicle centered in the lane
+ even when there are no lane markings it includesdriver sensing that ensures that the
+ driver's eyes are on the road as you may know i'm a big fan of driversensing i do believe tesla autopilot and
+ others should definitely include it in theirsensor suite also
+ i'm a fan of android and a big fan of george for many reasonsincluding his non-linear out of the box
+ brilliance and the fact that he's a superstarprogrammer
+ of a very different style than myself styles makefights and styles make conversations so
+ i really enjoyed this chat i'm sure we'lltalk many more times on this podcast
+ quick mention of each sponsor followed by some thoughts related to the episodefirst is four sigmatic the maker of
+ delicious mushroom coffee second is the codingdigital
+ a podcast on tech and entrepreneurship that i listen toand enjoy and finally expressvpn
+ the vpn i've used for many years to protect my privacy on the internetplease check out the sponsors in the
+ description to get a discount and to support this podcast as a sidenote
+ let me say that my work at mit on autonomous and semiautonomous vehiclesled me to study the human side of
+ autonomy enough to understand that it's a beautifullycomplicated and interesting problem
+ space much richer than what can be studied inthe lab
+ in that sense the data that comma ai tesla autopilotand perhaps others like cadillac super
+ crews are collecting gives us a chance to understand how wecan design safe
+ semiautonomous vehicles for real human beingsin real world conditions i think this
+ requires bold innovation and a serious exploration of the firstprinciples of the driving task
+ itself if you enjoy this thing subscribe on youtubereview it with five stars and up a
+ podcast follow on spotify support on patreon or connect with me ontwitter at lex friedman
+ and now here's my conversation with georgehotz so last time we started talking
+ about the simulation this time let me ask you do you thinkthere's intelligent life out there in
+
+
+Speaker 1 :the universe
+ i've always maintained my answer to the fermi paradox i think therehas been intelligent life elsewhere in
+
+
+Speaker 0 :the universe
+ so the intelligent civilizations existed but they've blown themselves up so yourgeneral intuition is that intelligent
+ civilizations quickly like there's that parameterin in the drake equation your senses
+ they don't last very long yeah how are we doing on that like havewe lasted pretty
+
+
+Speaker 1 :pretty good i don't know we do oh yeah
+ i mean not quite yet well what telly has your caskey the iqrequired to destroy the world falls by
+ one point every year
+
+Speaker 0 :okay so technology democratizes
+ the destruction of the world when can a
+
+Speaker 1 :meme destroy the world
+
+
+Speaker 0 :
+
+Speaker 1 :it kind of is already right somewhat
+ i don't think i don't think we've seen anywhere near the worst of it yetworld's going to get weird well maybe a
+
+
+Speaker 0 :mu can save the world
+ you thought about that the meme lord elon musk fighting on the side of goodversus the uh the meme lord of the
+ darkness which is uh not saying anything bad about donald trumpbut he is the the lord of the meme on
+ the dark side he's a darth vader of memes
+
+Speaker 1 :i think in every fairy tale
+ they always end it with and they lived happily ever after and i'm like pleasetell me more about this happily ever
+ after i've heard 50 percent of marriages end in divorceuh why doesn't your marriage end up
+ there you can't just say happily ever after soit's the thing about destruction is it's
+ over after the destruction um we have to do everything right inorder to avoid it
+ and uh one thing wrong i mean actually that's what i really like aboutcryptography
+ cryptography it seems like we live in a world where the defense winsum versus like nuclear weapons the
+ opposite is true it is much easier to build a warheadthat splits into 100 little warheads
+ than to build something that can you know take out 100 little warheads uhthe offense has the advantage there
+ um so maybe our future is in crypto but
+
+Speaker 0 :uh so cryptography right the goliath is
+ the the defense and then all the differenthackers
+ are the uh are the davids and that equation is flipped for nuclear warbecause there's so many like one nuclear
+ weapon destroys everything
+
+Speaker 1 :essentially yeah and it is much easier
+ to uh attack with a nuclear weapon than it isto like the technology required to
+ intercept and destroy a rocket is much more complicated thanthe technology required to just you know
+ orbital trajectory send a rocket to
+
+Speaker 0 :somebody
+ so okay your intuition that the there were intelligentcivilizations out there but it's very
+ possible that they're no longer there that's kind of a sad
+
+Speaker 1 :picture they
+ enter some steady state they all wirehead themselveswhat's wirehead um stimulate stimulate
+ their pleasure centers uh and just you know live forever inthis kind of stasis
+ they become well i mean i think the reason i believe this is because whereare they
+ if there's some reason they stopped expandingbecause otherwise they would have taken
+ over the universe the universe isn't that big or at least you knowlet's just talk about the galaxy right
+ 70 000 light years across uh i took that number from star trekvoyager i don't know how true it is but
+ um uh yeah that's not big right 70
+
+Speaker 0 :000 light years is nothing for some
+ possible technology that you can imagine that could leverage like wormholes orsomething like that
+
+
+Speaker 1 :you don't even need wormholes just a von
+ neumann probe is enough a von neumann probe and a million years ofsublight travel and you'd have taken
+ over the whole universe that clearly uh didn't happen sosomething stopped it
+
+
+Speaker 0 :so you mean if you right for for like a
+ few million years if you sent out probes that travel closewhat's sublight
+ meaning close to the speed of light let's it just spreadsinteresting actually that's an
+ interesting calculation huh so what makes you think that wouldbe able to uh communicate with them
+ like uh yeah what what's why do you think we would able to beable to comprehend
+ intelligent lives that are out there likeeven if they were among us kind of thing
+ like or even just flying around well
+
+Speaker 1 :i mean that's possible it's possible
+ that there is some sort of prime directiveuh that'd be a really cool universe to
+ live in um and there's some reason they're not making themselves visible tous
+ but it makes sense that they would use the samewell at least the same entropy well
+
+
+Speaker 0 :you're implying the same laws of physics
+ i don't know what you mean by entropy
+
+Speaker 1 :in this case oh yeah i mean if entropy
+ is the scarce resource in the universe
+
+Speaker 0 :so what do you think about like stephen
+ wolfram and everything is a computation and then what if they are travelingthrough this world of computation so
+ if you think of the universe as just information processingthen uh what you're referring to with
+ with entropy and then these these pockets ofinteresting complex computations
+ swimming around how do we know they're not already herehow do we know that this like all the
+ different amazing things that are full of mysteryon earth
+ are just like little footprints of intelligence from
+
+Speaker 1 :light years away maybe i mean
+ i tend to think that as civilizations expand they use more and more energyuh and you can never overcome the
+ problem of waste heat so where is their
+
+Speaker 0 :waste heat
+ so we'd be able to with our crude methods be able to see like there's awhole lot of
+ energy here but it could be something we're not i mean we don't understanddark energy right dark matter
+ it could be just stuff we don't understand at all or they could have afundamentally different physics
+ you know like that that we just don't
+
+Speaker 1 :even compromise well i think
+ okay i mean it depends how far out you want to go i don't think physics is verydifferent on the other side of the
+ galaxy i would suspect that they have i mean ifthey're in our
+ universe they have the same physics well
+
+Speaker 0 :yeah that's the assumption we have
+ but there could be like super trippy things likelike our cognition
+ only gets to a slice oh and all the possible instruments that we can designonly get to a particular slice of the
+ universe and there's something much
+
+Speaker 1 :like weirder maybe we can try a thought
+ experiment um would people from the pastbe able to detect the remnants of our
+ uh we would be able to detect our modern civilization i think the answer isobviously yes
+
+
+Speaker 0 :you mean past from 100 years ago well
+
+
+Speaker 1 :let's even go back further let's go to a
+ million years ago right the humans who were lying aroundin the desert probably didn't even have
+ maybe they just barely had fire uh they would understand if a 747 flew
+
+Speaker 0 :overhead
+ in in in this vicinity but not um if the if a 747 flew on marsbecause they wouldn't be able to see far
+ because we're not actually communicating that wellwith the rest of the universe we're
+ doing okay we're just sending out random like50s tracks of music true
+
+
+Speaker 1 :and yeah i mean they'd have to you know
+ the we've only been broadcasting radio waves forum 150 years and well there's your light
+ cone
+
+Speaker 0 :so yeah okay what do you make about all
+ the i recently came across this uh havingtalked to
+ david fravor i don't know if you caught what thethe videos that pentagon released and
+ uh the new york times reporting of the ufo sightingsso i kind of looked into it quote
+ unquote and there's actually been likehundreds of thousands of ufo sightings
+ right and a lot of it you can explain away indifferent kinds of ways
+ so one is it could be interesting physical phenomenatwo it could be people wanting to
+ believe and therefore they conjure up a lot ofdifferent things that just you know when
+ you see different kinds of lights some basic physics phenomenaand then you just conjure up ideas of
+ possible out there mysterious worlds but you knowit's also possible like you have a case
+ of david fravor who is a navy pilotwho's you know as legit as a guest in
+ terms of humans who are able to perceivethings in the environment and make
+ conclusions whether those things are a threat or notand he and several other pilots saw
+ a thing i don't know if you followed this but they saw a thing that they'vesince then called tick tock that moved
+ in all kinds of weird ways they don't know what it is it could betechnology developed by by the united
+ states and they're just not aware of it and thesurface level from the navy right it
+ could be different kind of lighting technology ordrone technology all that kind of stuff
+ it could be the russians and then chinese all that kind of stuffand of course their mind our mind
+ can also venture into the possibility that it's from another worldhave you looked into this at all what do
+
+
+Speaker 1 :you think about it
+ i think all the news is a psyop i think that the most closing is realyeah i listened to the uh i think it was
+ bob lazar um on joe rogan and like i believeeverything this guy is saying and then i
+ think that it's probably just some like mk ultra kind of thing you know
+
+Speaker 0 :
+
+Speaker 1 :uh what do you mean like they they uh
+ you know they made some weird thing and they called it an alien spaceship youknow maybe it was just to like
+ stimulate young physicist minds we'll tell them it's alien technology andwe'll see what they come up with right
+
+
+Speaker 0 :do you find any conspiracy theories
+ compelling like have you pulled at the string of the of the richcomplex world of conspiracy theories
+ that's out there
+
+Speaker 1 :i think that uh i've heard a conspiracy
+ theory that conspiracy theories were invented by the ciain the 60s to discredit true things yeah
+ um so you know you can go to ridiculous conspiracy theories like flat earth andpizzagate
+ and uh you know these things are almost to hide likeconspiracy theories that like you know
+ remember when the chinese like locked up the doctors who discovered coronaviruslike i tell people this and i'm like
+ no no that's not a conspiracy theory that actually happeneddo you remember the time that the money
+ used to be backed by gold and now it's backed by nothing this is not aconspiracy theory this actually
+
+
+Speaker 0 :happened that's one of my worries
+ today with the idea of fake news is that when nothing is realthen like you dilute the possibility of
+ anything being true by conjuring up all kinds of conspiracytheories and then you don't know what to
+ believe and then like the idea of truth of objectivity islost completely
+ everybody has their own truth so you
+
+Speaker 1 :used to control information by censoring
+ it then the internet happened andgovernments are like oh we can't
+ censor things anymore i know what we'll do you know it's theold story
+ of uh the story of like tying a flag where the leprechaun tells you the goldis buried
+ and you tie one flag and you make the leprechaun swear to not remove the flagand you come back to the field later
+ with a shovel and there's flags
+
+Speaker 0 :everywhere
+ that's one way to maintain privacy right is likein order to protect the contents of this
+ conversation for example we could just generate like millions of deep fakeconversations where you and i talk
+ and say random things yeah so this is just one of them and nobody knows whichone was the real one
+ this this could be fake right now
+
+Speaker 1 :classic steganography technique
+
+
+Speaker 0 :okay another absurd question about
+ intelligent life because uh you know you're you're an incredibleprogrammer outside of everything else
+ we'll talk about just as a programmer uh do you think intelligent beings outthere the civilizations that were out
+ there had computers and programmingdid they do we naturally have to develop
+ something where we engineer machines and are able to encode bothknowledge into those machines and
+ instructions that process that knowledge process thatinformation to to make decisions and
+ actions and so on and with those programming languages ifyou think they exist
+ be at all similar to anything we've developed
+
+Speaker 1 :so i don't see that much of a difference
+ between quote-unquote natural languages and
+
+Speaker 0 :programming languages
+
+
+Speaker 1 :um yeah i think there's so many
+ similarities so when asked the question what do alienlanguages look like
+ i imagine they're not all that dissimilar from oursand i think translating in and out of
+ them uh wouldn't be that crazy well it's
+
+Speaker 0 :difficult to compile
+ like dna to python and then to see i mean there is a little bit of a gap inin the kind of languages we use for
+ for uh touring machines and the kind of languagesnature seems to use a little bit maybe
+ that's just we just haven't cr we haven't understoodthe kind of language that nature uses
+ well
+
+Speaker 1 :yet dna is a cad model
+ it's not quite a programming language it has no sort ofserial execution it's not quite a
+ yeah it's a cad model um so i think in that sensewe actually completely understand it the
+ problem is um you know well simulating on these cad models iplayed with it a bit this year
+ is super uh computationally intensive if you want to go down to like themolecular level
+ um where you need to go to see a lot of these phenomena like protein foldingum so yeah it's not that it's it's not
+ it's not that we don't understand it it just requires a whole lot of compute tokind of
+
+
+Speaker 0 :compile it for our human minds it's
+ inefficient both for the pro for the data representation and for the
+
+Speaker 1 :programming yeah it runs well on raw
+ nature it runs well in raw nature and when wetry to build uh emulators or simulators
+ for that uh well then manslaughter and i've tried
+
+Speaker 0 :it
+ it runs in yeah you've commented elsewherei don't remember where that uh
+ one of the problems is simulating nature is toughand if you want to sort of deploy a
+ prototype i forgot how you you put it but it mademe laugh but animals or humans would
+ need to be involved in order to in order to try to run someprototype code on um
+ like if we're talking about covid and viruses and so on yeahif you were trying to engineer some kind
+ of defense mechanisms like a vaccine uh against coven orall that kind of stuff that doing any
+ kind of experimentation like you can with like autonomous vehicles would bevery
+ technically cost technically and
+
+Speaker 1 :ethically costly i'm not sure about that
+ i think you can do tons of uh crazy biology and in test tubes ithink
+ my bigger complaint is more all the tools are so bad
+
+Speaker 0 :like literally you mean like like i'm
+
+
+Speaker 1 :not libraries and i'm not pipetting
+ like you're handing me a i gotta no no no no there has to be some
+
+Speaker 0 :like automating stuff and like the
+ yeah but human biology is messy like it
+
+Speaker 1 :seems like
+ look at those toronto's videos they were a joke it's like it's like a littlegantry it's like a little xy gantry high
+ school science project with the pipette i'm like
+
+Speaker 0 :
+
+Speaker 1 :really gotta be something better you
+ can't build like nice microfluidics and i can program the you knowcomputation to bio interface i mean this
+ is going to happen but like right now if you are asking meto pipette
+ 50 milliliters of solution amount
+
+Speaker 0 :this is so crude yeah okay
+ let's get all the crazy out of the way uh so a bunch of people ask mesince we talked about the simulation
+ last time we talked about hacking the simulationdo you have any updates any insights
+ about how we might be able to go about hacking simulation if we indeed do livein a simulation
+
+
+Speaker 1 :i think a lot of people misinterpreted
+ the point of that south by talk the point of the south by talk was notliterally to hack the simulation
+ uh i think that this we this is this is an idea is literallyjust i think theoretical physics i think
+ that's the whole you know the whole goalright you want your grand unified theory
+ but then okay build a brand new five theory search for exploitsright i think we're nowhere near
+ actually there yet my hope with that was just more to likelike are you people kidding me with the
+ things you spend time thinking about do you understand like kind of how smallyou are
+ you are you are bites and god's computer really and the things that people getworked up about and
+
+
+Speaker 0 :you know so basically it was more
+ a message of uh we should humble ourselvesthat we we get to uh like what
+ what are we humans in this bite code
+
+Speaker 1 :yeah
+ and not just just humble ourselves but like like i'm not trying to like makeyou feel guilty or anything like that
+ i'm trying to say like literally look at what you are spending time on
+
+Speaker 0 :right what are you referring to you're
+ referring to the kardashians what are we talking about
+
+Speaker 1 :from twitter to no the kardashians see
+ everyone knows that's kind of fun i'm referring more to like theeconomy
+ you know this idea that
+
+Speaker 0 :we gotta up our stock price like
+
+
+Speaker 1 :or or what is what is the goal function
+ of humanity
+
+Speaker 0 :you don't like the game of capitalism
+ like you don't like the games we've constructed for ourselves as humans
+
+Speaker 1 :i'm a big fan of of capitalism i don't
+ think that's really the game we're playing right now i think we're playinga
+ a different game where the rules are
+
+Speaker 0 :rigged
+ look at which games are interesting to you that we humans have constructed andwhich aren't
+ which are productive and which
+
+Speaker 1 :are not actually maybe that's the real
+ point of the of the talk it's like stop playing thesefake human games there's a real game
+ here we can play the real game the real gameis you know nature wrote the rules
+ this is a real game there still is a game to play
+
+Speaker 0 :but if you look at sergeant drop i don't
+ know if you've seen the instagram account nature is metalthe game that nature seems to be playing
+ is a lot a lot more cruel than we humans want toput up with or
+ at least we see it as cool it's like the biggerthing eats the smaller thing and uh
+ does it to impress another big thing so it can mate with that thing andthat's it that
+ seems to be the entirety of it well there's no art there's no music there'sno
+ comma ai there's no comma one no comma two no georgehotz with his brilliant talks at south
+ by southwest
+
+Speaker 1 :see i disagree though i disagree that
+ this is what nature is i think nature just provided basically a uhopen world and mmorpg and um
+ you know here it's open world i mean if that's the game you want to play you canplay that game but
+
+
+Speaker 0 :isn't that isn't that beautiful i know
+ if you play diablo they used to have uh i think cow levelwhere it's
+ so everybody will go just they figured out this like the best way to gainlike experience points is to just
+ slaughter cows over and over and over and uh so they figured out this littlesub game within the bigger game that
+ this is the most efficient way to get experience points and everybodysomehow agreed that getting experience
+ points in rpg context where you always want to begetting more stuff
+ more skills more levels keep advancing that seems to be goodso might as well spend sacrifice
+ actual enjoyment of playing a game exploring a worldand spending like hundreds of hours of
+ your time in cow level i mean the number of hours i spent in cow leveli'm not like the most impressive person
+ because people have probably thousands of hours there but it's ridiculousso that's a little absurd game that
+ brought me joy in some weird dopamine drug kind of wayyeah so you you don't like those games
+ you don't you don't think that's us humans failingthe the yeah nature i think so
+ and that was the point of the talk yeah so how do we hack it then
+
+Speaker 1 :well i want to live forever and wait
+ i want to live forever and this is like the goal well that's a game againstnature
+
+
+Speaker 0 :yeah immortality is the good objective
+
+
+Speaker 1 :function to you
+ i mean start there and then you can do whatever else you want cause you got a
+
+Speaker 0 :long time
+ what if mortality makes the game just totally not funi mean like why do you assume
+ immortality is uh somehow uh it's nota good objective function it's not
+
+
+Speaker 1 :immortality that i want a true
+ immortality where i could not die i would prefer what we have right now umbut i want to choose my own death of
+ course i don't want nature to decide when i diei'm going to win i'm going to be you
+
+
+Speaker 0 :and then at some point if you choose
+ commit suicide like how long you think you'd live
+
+Speaker 1 :
+
+Speaker 0 :until i get bored see i don't think
+ people like in like brilliant people like youthat really
+ ponder living a long time are really considering howhow meaningless life becomes well i want
+
+
+Speaker 1 :to know everything and then i'm ready
+ to die
+
+Speaker 0 :as long as why do you want isn't it
+ possible that you want to know everything becauseit's finite like the reason you want to
+ know quote unquote everything is because you don't have enough time to knoweverything
+ and once you have unlimited time then you realize likewhy do anything like why learn anything
+
+
+Speaker 1 :i want to know everything and i'm ready
+
+
+Speaker 0 :to die so you have yeah
+
+
+Speaker 1 :well it's not it's not a like it's a
+ terminal value it's not it's not in service of anything else i'm
+
+Speaker 0 :conscious of the possibility this is not
+ a certainty but the possibility is of that engine ofcuriosity that you're speaking to
+ is actually a a symptom of uh the finiteness of lifelike
+ without that finiteness your curiosity would vanish like like alike a morning fog
+ all right cool then you talked about
+
+Speaker 1 :love like that then um
+ let me solve immortality let me change the thing in my brain that reminds me ofthe fact that i'm immortal tells me that
+ life is finite maybe i'll have it tell me that life ends next weekright i'm okay with some self
+ manipulation like that i'm okay with with deceiving oh change
+
+Speaker 0 :oh rico changing the code if that's the
+
+
+Speaker 1 :problem right if the problem is that i
+ will no longer have that that curiosity i'd like to have backupcopies of myself
+ uh which yeah well which i check in with occasionally to make sure they're okaywith the trajectory and they can kind of
+ override it maybe a nice like i think of like thosewavenets those like logarithmic go back
+
+
+Speaker 0 :to the copies yeah but sometimes it's
+ not reversible like uh sure i've done this with video gameswhen once you figure out the cheat code
+ or like you look up how to cheat old school like singleplayer
+
+
+Speaker 1 :it ruins the game for you absolutely i
+ know that feeling but again that just means our brain manipulationtechnology is not good enough yet remove
+ that cheat code from your brain
+
+Speaker 0 :what if we all so it's also possible
+ that if we figure out immortality that all of us will kill ourselvesbefore we advance
+ far enough to uh to be able to revert to change
+
+Speaker 1 :i'm not killing myself till i know
+ everything so
+
+Speaker 0 :that's what you say now because your
+
+
+Speaker 1 :life is finite
+ you know i think yes self-modifying systems getscomes up with all these hairy
+ complexities and can i promise that i'll do it perfectly no but i think i can putgood safety structures in place
+
+
+Speaker 0 :so that talk in your thinking here is
+ not literally referring to uh a simulation in that ourour universe is a kind of computer
+ program running in a computer that's more of a thought experiment umdo you also think of the potential of
+ the sort of uh bostrom elon muskand others that talk about an actual
+ program that simulates our universe oh i don't
+
+Speaker 1 :doubt that we're in a simulation i just
+ think that it's not quite that important i mean i'minterested only in simulation theory as
+ far as like it gives me power over nature uh if it's totallyunfalsifiable then
+
+
+Speaker 0 :who cares i mean what do you think that
+ experiment would look like like somebody uhon twitter asked ask george what signs
+ we would look for to know whether or not we're in the simulationwhich is exactly what you're asking is
+ like the step that precedes the step ofknowing how to get more power
+ from this knowledge is to get an indication that there is some power tobe gained so
+ get an indication that there you can discoverand exploit cracks in the simulation or
+ it doesn't you know in the physics of the universe
+
+Speaker 1 :yeah
+ show me i mean like a memory leak would be coollike some scrying technology you know
+ what what kind of technology scrying what's that oh that's a weird uhthis crying is the
+ is the uh paranormal ability to uh like like remote viewing like being ableto see somewhere where you're not
+ um so you know i don't think you can do it by chanting in a room but umif we could find as a memory leak
+ basically
+
+Speaker 0 :yeah you're able to access parts you're
+ not supposed to yeah yeah yeah and thereby discover shortcut
+
+Speaker 1 :yeah maybe memory leak means the other
+ thing as well but i mean like yeah like an ability to read arbitrary memoryyeah right and that one's not that
+ horrifying right the the right ones start to be horrifying
+
+Speaker 0 :read right so the the reading is not the
+ problem yeah
+
+Speaker 1 :it's like heartbleed for the universe oh
+
+
+Speaker 0 :boy the writing is a big big problem
+ it's a big problem it's the moment you can write anything even if it's justrandom noise that's terrifying
+
+
+Speaker 1 :i mean even without even without that
+ like even some of the you know the nanotech stuff that's coming i think is
+
+Speaker 0 :i don't know if you're paying attention
+ but actually eric weinstein came out with the theory of everythingi mean that came out he's been working
+ on a theory of everything in the physics worldcalled geometric community and then for
+ me from computer science person like you stephen wolfram's theory ofeverything of like hypographs is super
+ interesting and beautiful but not from a physics perspective butfrom a computational perspective i don't
+ know have you paid attention
+
+Speaker 1 :to any of that so again like what would
+ make me pay attention and like why like i hate string theory is okay make atestable prediction
+ right i'm only interested in i'm not interested in theories for theirintrinsic beauty i'm interested in
+ theories that give me power over the universeso if these theories do i'm very
+ interested um can i just say how
+
+Speaker 0 :beautiful that
+ is because a lot of physicists say i'm interested in experimental validationand they skip out the part
+ where they say to give me more power in the universei just love the um yo i want i want i
+
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :want the clarity of that
+ i want 100 gigahertz processors i want transistors that are smaller than atomsi want like
+
+
+Speaker 0 :power
+ that's uh that's true and that's where peoplefrom aliens to this kind of technology
+ where people are worried that governments like who owns that poweris it george hearts is it thousands of
+ distributed hackers across the world is it governments you know is it markzuckerberg
+ there's a lot of people that uh i don't know if anyone trusts any oneindividual with power so they're always
+ worried
+
+Speaker 1 :it's the beauty of blockchains that's
+
+
+Speaker 0 :the beauty of blockchains
+ which we'll talk about on twitter somebody pointed me to a story uha bunch of people pointed me to a story
+ a few months ago where you went into a restaurant in newyork and you can correct me fame this is
+ wrong and ran into a bunch of folks from acompany in a
+ crypto company who are trying to scale up ethereumand they had a technical deadline
+ related to a solidity to ovm compiler so these are all ethereum technologiesso
+ you stepped in they recognized you uh pulled you aside explained their problemand you stepped in and helped them solve
+ the problem uh thereby creating legend statusstory so uh can you uh
+ tell me the story the little more detail it seems kind of incrediblethis did this happen yeah yeah it's a
+
+
+Speaker 1 :true story it's a true story i mean they
+ wrote a very flattering account of it um theyso optimism is the spin the company's
+ called optimism spin-off of plasma they're trying tobuild l2 solutions on ethereum
+ so right now uh every ethereum node has to run everytransaction
+ on the ethereum network um and this kind of doesn't scale right because if youhave n computers
+ well you know if that becomes two n computers you actually still get thesame amount of compute
+ right this is this is like like o of one scalingum because they all have to run it okay
+ fine you get more blockchain security but like theblockchain's already so secure
+ can we trade some of that off for speed uh so that's kind of what these l2solutions are
+ they built this thing which kind of um kind of sandboxuh for ethereum contracts so they can
+ run it in this l2 world and it can't do certain things in l world
+
+Speaker 0 :in l1 i can ask you for some definitions
+ what's l2
+
+Speaker 1 :oh l2 is layer 2. so l1 is like the base
+ ethereum chain and then layer two is like acomputational layer that runs
+ um elsewhere but still is kind of secured by layer one
+
+Speaker 0 :and i'm sure a lot of people know but
+ ethereum is a cryptocurrency probably one of the most popular cryptocurrenciessecond to bitcoin
+ and a lot of interesting technological innovations theremaybe you can also slip in
+ whenever you talk about this any things that are exciting to you in theethereum space and why ethereum well i
+
+
+Speaker 1 :mean
+ bitcoin uh is not turn complete well ethereum is not technically aterrain complete with a gas limit but
+ close enough
+
+Speaker 0 :well the gas limit what's the gas limit
+
+
+Speaker 1 :resources
+ yeah i mean no computers actually turn complete right rightyou're fine at ram you know what if i
+
+
+Speaker 0 :can actually solve this gas limit you
+ just have so many brilliant words i'm not even gonna ask but that's
+
+Speaker 1 :what that's no that's not my word that's
+ ethereum's word gasoline ethereum you have to spend gasper instruction
+ so like different op codes use different amounts of gas and youbuy gas with ether to prevent people
+ from basically ddosing the network
+
+Speaker 0 :so uh bitcoin is proof of work and then
+
+
+Speaker 1 :what's ethereum it's also proof of work
+ uh they're working on some proof-of-stake ethereum 2.0 stuff butright now it's
+ it's proof of work usually a different hash function from bitcoin that's moreasic resistance because you need ram
+
+
+Speaker 0 :so we're all talking about ethereum 1.0
+ yeah so what uh what were they trying to do to scalethis whole process so they were like
+
+
+Speaker 1 :well
+ if we could run contracts elsewhere um and then only save the results of thatcomputation
+ uh you know well we don't actually have to do the computer on the chain we cando the compute off chain and just post
+ what the results are now the problem with that is wellsomebody could lie about what the
+ results are so you need a resolution mechanism andthe resolution mechanism can be really
+ expensive uh because you know you just have tomake sure that like
+ the person who is saying look i swear that this is the real computationi'm staking ten thousand dollars on that
+ fact and if you prove it wrong yeah it might costyou three thousand dollars in gas fees
+ to prove wrong but you'll get the ten thousand dollarbounty so you can secure
+ using those kind of systems um so it's effectively a sandbox which runscontracts
+ uh and like just like any kind of normal sandbox you have to like replacesyscalls with um you know calls into the
+ hypervisor
+
+Speaker 0 :uh sandbox this calls hypervisor what do
+ these things mean uh as long as it's interesting to talk
+
+Speaker 1 :about yeah i mean you can take like the
+ chrome is maybe the one to think about right sothe chrome process that's doing a
+ rendering uh can't for example read a file fromthe file system yeah
+ it has if it tries to make an open syscall in linux the open systemyou can't make it open says call no no
+ no uh you have to request from the kind of uh hypervisor processor
+ like i don't know what's called in chrome but umthe canoe hey could you open this file
+ for me and then it does all these checks and then it passes the file handle backin if it's approved
+ um so that's yeah uh so what's the in
+
+Speaker 0 :the context of ethereum
+ what are the boundaries of the sandbox
+
+Speaker 1 :that we're talking about um well like
+ one of the calls that you actually reading and uh writing anystate to the ethereum contract
+ to the ethereum blockchain um writing state is one of those calls thatyou're going to have to sandbox
+ in layer two because if you let layer two justarbitrarily right to the ethereum
+ blockchain um
+
+Speaker 0 :so layer two is except is really sitting
+ on top of layer one so you're gonna have a lot ofdifferent kinds of ideas that you can
+ play with yeah and they're all they're notfundamentally changing
+ the source code level of ethereum
+
+Speaker 1 :well you have to replace a bunch of
+ calls with calls into the hypervisor soinstead of doing the syscall directly
+ you you replace it with a call to the hypervisorso originally they were doing this by
+ first running the so solidity is the language that most ethereum contractsare written in
+ it compiles to a byte code and then they wrote this thing they called thetranspiler and the transpiler took the
+ byte code and it transpiled it into ovm safebytecode
+ basically bytecode that didn't make any of those restricted syscalls and addedthe calls to the hypervisor
+ this transpiler was a 3000 line mess and it's hard to do it's hard to do ifyou're trying to do it like that because
+ you have to kind of like deconstruct the byte codechange things about it and then
+ reconstruct it and i mean as soon as i hear this i'mlike why don't you just change the
+ compiler right why not the first place you buildthe bytecode just do it in the compiler
+ uh so yeah you know i asked them how much they wanted ituh of course measured in dollars and i'm
+ like well okay
+
+Speaker 0 :um and yeah and you wrote the compiler
+
+
+Speaker 1 :yeah i modified i wrote a 300 line diff
+ to the compiler uh it's open source you can look at it
+
+Speaker 0 :yeah it's yeah i looked at the code last
+ night [Laughter]yeah exactly cute good is a good word
+ for it uh and it's um c plus plus
+
+Speaker 1 :
+
+Speaker 0 :see if it's lost yeah so when
+ asked how you were able to do it you saidyou just gotta think and then do it
+ right so can you break that apart a little bitwhat's what's your process of uh
+ one thinking and two doing it right
+
+Speaker 1 :you know they they the people i was
+ working for are amused that i said that it doesn't really mean anything
+
+Speaker 0 :okay i mean is there some
+ deep profound insights to draw from like how you problem solve from that because
+
+Speaker 1 :this is always what i say i'm like do
+ you want to be a good programmer do it for 20 years
+
+Speaker 0 :yeah there's no shortcuts yeah
+ what are your thoughts on crypto in general so wouldwhat what parts technically or
+ philosophically do you find especially beautiful maybe
+
+Speaker 1 :oh i'm extremely bullish on crypto long
+ term not any specific crypto project but this idea ofwell two ideas one um
+ the nakamoto consensus algorithm is i think one of the greatest innovationsof the 21st century
+ this idea that people can reach consensus you can reach a groupconsensus
+ using a relatively straightforward algorithmum is wild and
+ like you know satoshi nakamoto people always ask me who i look up to it's like
+
+Speaker 0 :whoever that is who do you think it is i
+ mean
+
+Speaker 1 :elon musk is it you it is definitely not
+ me and i do not think it's elon musk but yeah this idea of uhgroups reaching consensus in a
+ decentralized yet formulaic way is one extremely powerful idea fromcrypto
+ maybe the second idea is this idea of smart contractswhen you write a contract between two
+ parties any contract um this contractif there are disputes it's interpreted
+ by lawyers lawyers are just really shitty overpaidinterpreters
+ imagine you had let's talk about them in terms of a in terms of like let'scompare a lawyer to python
+ right so lawyer well okay that's really
+
+Speaker 0 :oh i never thought of it that way it's
+ hilarious
+
+Speaker 1 :so python i'm paying i'm paying um
+ you know even 10 cents an hour i'll use the nice azure machine i can run pythonfor 10 cents an hour
+ lawyers cost a thousand dollars an hour so python is is is10 000 x uh better on that axis um
+ lawyers don't always return the same answerum python almost always does
+ uh cost yeah i mean just just cost reliabilityeverything about python is so much
+ better than lawyers um so if you can make smart contractsthis whole concept of code is law
+ i i love and i would love to live in a world where everybody accepted that fact
+
+Speaker 0 :so so maybe uh you can talk about what
+ smart contracts
+
+Speaker 1 :are so let's say um
+ let's say you know we have a uh even something as simple as a safetydeposit box
+ right safety deposit box that holds a million dollarsi have a contract with the bank that
+ says two out of these three parties uh must uh be present to open the safetydeposit box and get the money out
+ so that's a contract for the bank and it's only as good as the bank and thelawyers right
+ let's say you know somebody dies and now oh we're going to go through a big legaldispute about whether oh well was it in
+ the will was it not in the well what like it's just so messy and thecost
+ to determine truth is so expensive versus a smart contract which just usescryptography to check if two out of
+ three keys are present well i can look at that and i can havecertainty
+ in the answer that it's going to return that's what all businesses wantcertainty you know they say businesses
+ don't care viacom youtube youtube's like look we don't care whichway this lawsuit goes
+ just please tell us so we can have
+
+Speaker 0 :certainty yeah i wonder how many
+ agreements in this world because we're talking about financial transactionsonly in this case correct the smart the
+
+
+Speaker 1 :smart contracts oh you can go to you can
+ go to anything you can go you could put a prenup in thetheorem blockchain
+
+
+Speaker 0 :a married smart contract sorry divorce
+
+
+Speaker 1 :lawyers sorry you're going gonna be
+ replaced by
+
+Speaker 0 :python uh
+ okay so that's uh so that's that's another beautiful ideado you think
+ there's something that's appealing to you about any one specificimplementation
+ so if you look 10 20 50 years down the linedo you see any like bitcoin ethereum
+ any of the other hundreds of cryptocurrencies winning out is therelike what's your intuition about the
+ space are you just sitting back and watching the chaos and look who careswhat emerges
+
+
+Speaker 1 :oh i don't i don't speculate i don't
+ really care i don't really care which one of these projects winsi'm kind of in the bitcoin as a meme
+ coin camp i mean why does bitcoin have valueit's technically kind of you know
+ what yeah not great like the block size debate orwhen i found out what the block size
+ debate was i'm like are you guys
+
+Speaker 0 :kidding what's the block size debate
+
+
+Speaker 1 :you know what it's really it's too
+ stupid to even talk about people people people can look it up but i'mlike wow you know ethereum seems the
+ governance of ethereum seems much better um i've come around i've been on proofof stake ideas
+ uh you know very smart people thinking
+
+Speaker 0 :about some things yeah
+ you know governance is interesting it does feel like uhvitalik it could just feel like an
+ open in even in these distributed systems leaders andare helpful because they kind of
+ help you drive the mission and the visionand they put a face to a project it's a
+ weird thing about us humans
+
+Speaker 1 :geniuses are helpful like mattel right
+
+
+Speaker 0 :yeah
+ brilliant
+
+Speaker 1 :
+
+Speaker 0 :leaders are not necessarily yeah
+ so you think the reason he's uh he's the faceof a theorem is because he's a genius
+ that's interesting i mean that was umit's interesting to think about that we
+ need to create systems in which uh the quote unquote leadersthat emerge
+ are the geniuses in the system i mean that'sarguably why the current state of
+ democracy is broken is the people who areemerging as the leaders are not the most
+ competent are not the superstars of the systemand it seems like at least for now in
+ the crypto world oftentimes
+
+Speaker 1 :the leaders are the superstars imagine
+ at the debate they asked what's the sixth amendment what are thefour fundamental forces in the universe
+ right what's the integral of two to the xyeah i i'd love to see those questions
+ asked and that's what i want as our leaderit's it's a little bit of a bayes rule
+
+
+Speaker 0 :yeah i mean even oh wow you're hurting
+ my brain it's that my standard was even lower buti would have loved to see just this
+ basic brilliance like i've talked tohistorians there's just these
+ they're not even like they don't have a phd or even education history they justlike a dan carlin type character who
+ just like holy how did all this informationget into your head
+ they're able to just connect uh genghis khan tothe entirety of the history of the 20th
+ century they they know everything about every singlebattle that happened
+ and they know the the the like the game of thrones of the of thedifferent power plays and all that
+ happened there and they know like the individuals theyknow all the documents involved
+ and it's and that they integrate that into their regular life it's not likethey're ultra history nerds they're just
+ they know this information that's what competence looks like yeahbecause i've seen that with programmers
+ too right that's what great programmers dobut yeah it would be uh it's really
+ unfortunate that those kinds of people aren't emerging as as our leaders butfor
+ now at least in the crypto world that seems to be the casei don't know if that always uh you could
+ imagine that in a hundred years that's
+
+Speaker 1 :not the case right the crypto world has
+ one very powerful idea going for it and that's the idea of forksright i mean
+ you know imagine uh we'll use a less controversial exampleum this was actually in my joke
+ uh app in 2012 i was like barack obama mitt romney let's let him both bepresident right like imagine we could
+ fork america and just let them both be president andthen the americas could compete
+ and you know people could invest in one pull their liquidity out of one put itin the other
+ you have this in the crypto world ethereum forks into ethereum andethereum classic
+ and you can pull your liquidity out of one and put it in anotherand people vote with their dollars um
+ which forks companies should be able to forki'd love to fork nvidia you know
+
+
+Speaker 0 :yeah like different business strategies
+ and yeah and then try them out and see see what works like even take uhuh yeah take comedy i that closes its
+ source and then take one that's open source andsee what works
+ take one that's purchased by gm and one that remainsandroid renegade and all these different
+ versions and see the beauty of comma ai
+
+Speaker 1 :is someone could actually do that
+ yeah please take come ai and fork it
+
+Speaker 0 :that's right
+ that's the beauty of open source so you're i meanwe'll talk about autonomous vehicle
+ space but it does seem that you're really knowledgeable abouta lot of different topics so the natural
+ question a bunch of people ask this which isuh how do you keep learning new things
+ do you have like practical advice if you were tointrospect
+ like taking notes allocate time or do you just mess around and justallow your curiosity to drive i'll write
+
+
+Speaker 1 :these people a self-help book and i'll
+ charge 67 for it and i will i will write i willwrite chapter one i will write on the
+ cover of the self-help book all of this advice is completelymeaningless you're gonna be a sucker and
+ buy this book anyway yeah and the one lesson that i hope theytake away from the book
+ is that i can't give you a meaningful
+
+Speaker 0 :answer to that
+ that's interesting let me translate that is you haven't really thought about whatit is you do
+ systematically because you could reduce it and there's some people i mean i'vemet
+ brilliant people that this is really clear with athletessome are just you know the best in the
+ world that's something and they they have zero interest inwriting like a self-help book
+ but or how to master this game and then there'ssome athletes who become great coaches
+ and they love the analysis perhaps the over analysis and you rightnow at least at your age
+ which isn't interesting you're in the middle of the battle you're like thewarriors that have zero interest in
+ writing books uh so you're in the middle of the battleso you have yeah
+
+
+Speaker 1 :this is this is a fair point i do think
+ i have a certain aversion to um this kind of deliberateintentional way of living life
+
+
+Speaker 0 :here eventually the hilarity of this
+ especially since this is recordedit will reveal beautifully the absurdity
+ when you finally do publish this book and i guarantee you you will the storyof comma ai
+ would be maybe it'll be a biography written about youthey'll be they'll be better i guess and
+
+
+Speaker 1 :you might be able to learn some cute
+ lessons if you're starting a company like comma ai from that bookbut if you're asking generic questions
+ like how do i be good at things dude i don't know well learn i mean the
+
+Speaker 0 :interesting do them a lot
+ i do them a lot but the interesting thing here islearning things outside
+ of your current trajectory which is what it feels like from an outsider'sperspective i mean that
+ uh you know that i don't know if there's an advice on thatbut it is an interesting curiosity when
+ you become really busy
+
+Speaker 1 :you're running a company
+
+
+Speaker 0 :part time yeah
+ but like there's a natural inclination andtrend like just the the the momentum of
+ life carries you into a particular directionof wanting to focus and this kind of
+ dispersion that curiosity can lead to gets harder and harder with time becauseyou're
+ you get really good at certain things and it suckstrying things that you're not good at
+ like trying to figure them out you do this with your live streamsyou're on the
+ fly figuring stuff out you don't mind looking dumbyou just figured out figure it out
+
+
+Speaker 1 :pretty quickly sometimes i try things
+ and i don't figure them out my chest rating is like a 1400 despiteputting like
+ a couple hundred hours in it's pathetic i mean to be fair i know that i could doit better if i did it better like don't
+ play you know don't play five-minute games play 15-minute games at least likei know these things but it just doesn't
+ it doesn't stick nicely in my knowledge
+
+Speaker 0 :tree
+ all right let's talk about comma ai what's the mission of the companylet's like look at the biggest picture
+
+
+Speaker 1 :oh i have an exact statement
+ solve self-driving cars while delivering shippable intermediaries
+
+Speaker 0 :so long-term vision is have
+ fully autonomous vehicles and make sure you're making money along the way
+
+Speaker 1 :i think it doesn't really speak to money
+ but i can talk i can talk about what solve self-driving cars meanssolve self-driving cars of course means
+ um you're not building a new car you'rebuilding a person replacement
+ uh that person can sit in the driver's seat and drive you anywhere a person candrive
+ with a human or better level of safety speed quality comfort
+
+Speaker 0 :and what's the second part of that
+
+
+Speaker 1 :delivering shippable intermediaries
+ um is well it's a way to fund the company that's true but it's also a wayto keep us honest
+ uh if you don't have that it is very easywith this technology to think you're
+ making progress when you're not i've heard it best described on hackernews as
+ you can set any arbitrary milestone meet that milestone and still beinfinitely far away from solving
+ self-driving cars
+
+Speaker 0 :so it's hard to have like real deadlines
+ when you're like cruz or waymowhen uh you don't have uh revenue
+ is that i mean is revenue essentially the thing we're talking about here
+
+Speaker 1 :revenue is
+ is capitalism is based around consent capitalism the way that you get revenueis kind of
+ real capitalism commas in the real capital is in camp there's definitelyscams out there but
+ real capitalism is based around consent it's based around this idea that like ifwe're getting revenue
+ it's because we're providing at least that much value another person whensomeone buys a thousand dollar comment
+ two from us we're providing them at least a thousanddollars of value where they wouldn't buy
+ it brilliant
+
+Speaker 0 :so can you give a whirlwind overview of
+ the products that come i provides like uh throughout its historyand today
+
+
+Speaker 1 :i mean yeah the past ones aren't really
+ that interesting it's kind of just been refinement of the same idea uhthe real only product we sell today is
+ the comma two which is a piece of
+
+Speaker 0 :hardware
+
+
+Speaker 1 :with cameras um so the comet to
+ i mean you can think about it kind of like a person uh you know when futurehardware will probably be even more and
+ more person-like um so it has uh you know eyesears a mouth a brain
+ uh and a way to interface with the car
+
+Speaker 0 :does it have consciousness
+ just kidding that was a trick question because i don't have consciousness
+
+Speaker 1 :either
+ me and the common two are the same they're the same i have a little morecompute than it
+ it only has like the same computer interesting b
+
+Speaker 0 :uh you know you're more efficient energy
+ wise
+
+Speaker 1 :for the compute you're doing far more
+ efficient energy-wise huh 20 paid flaps 20 watts crazy you
+
+Speaker 0 :lack consciousness
+ sure do you fear death you do you want immortalitydoes comey i fear death i don't think so
+
+
+Speaker 1 :of course it does it very much fears
+ while it fears negative loss oh yeah okay
+
+Speaker 0 :so come a comma two when did that come
+ out that that was a year ago
+
+Speaker 1 :no two uh early this year
+
+
+Speaker 0 :wow time it feels like yeah
+ 2020 feels like uh it's taken 10 years to get to the end it's a long yearit's a long year so um
+ what uh what's the sexiest thing about commatoo feature-wise so i mean maybe you can
+ also link on like what is it like what's its purposebecause there's a hardware there's a
+ software component you've mentioned the sensors but alsolike what is of its features and
+ capabilities
+
+Speaker 1 :i think our slogan summarizes it well uh
+ comma slogan is make driving chill
+
+Speaker 0 :
+
+Speaker 1 :i love it okay yeah i mean it is
+ you know if you like cruise control imagine cruise control but much much
+
+Speaker 0 :more
+ so it can uh do adaptive cruise control things which is like slow down for carsin front of it maintain a certain speed
+ and you can also do lane keeping so staying in the laneand doing it better and better and
+ better over time that's very much machine learning basedso this camera is there's a driver
+ facing camera too that'sum what else is there what am i thinking
+ so the hardware versus software so open pilot versus the actual hardware ofthe device
+ what's can you draw that distinction what's one what's the other i mean the
+
+Speaker 1 :hardware is pretty much
+ a cell phone with a few additions a cell phone with a cooling systemand with a car interface connecting to
+ it
+
+Speaker 0 :and as by cell phone you mean uh like
+ qualcomm snapdragon
+
+Speaker 1 :uh yeah the current hardware is a
+ snapdragon 821 uh it has wi-fi radio it has an lteradio it has a screen
+ uh we use every part of the cell phone
+
+Speaker 0 :and then the interface of the car is
+ specific to the car so you keep supporting more and more cars
+
+Speaker 1 :um yeah so the interface to the car i
+ mean the device itself just has four can buseshas four cam interfaces on it that are
+ connected through the usb port to the phoneum and then yeah on those four can buses
+ uh you connect it to the car and there's a little harness to do thiscars are actually surprisingly similar
+
+
+Speaker 0 :so can is the the protocol by which cars
+ communicate and then you're able to read stuff andwrite stuff to be able to control the
+ car depending on the car so what's thesoftware side what's open pilot
+
+
+Speaker 1 :um so i mean open pilot is the hardware
+ is pretty simple compared to open pilot open pilot isuh well
+ so you have a machine learning model which it's an open pilot it's ayou know it's a blob it's just a blob of
+ weights it's not like people are like oh it's closed source i'm like it's a blobof weights what do you expect
+ um you know primarily neural network
+
+Speaker 0 :based
+
+
+Speaker 1 :ul open pilot is all the software kind
+ of around that neural network that if you have a neural network that sayshere's where you want to send the car
+ openpilot actually goes and executes all
+
+Speaker 0 :of that
+ it cleans up the input to the neural network it cleans up the output andexecutes on it so it connects
+ it's the glue that connects everything
+
+Speaker 1 :together runs the sensors does a bunch
+ of calibration for the neural network does you know deals with like you knowif the car is on a banked road
+ uh you have to counter steer against that and the neural network can'tnecessarily know that by looking at the
+ picture so you do that with with other sensorsinfusion and localizer
+ openpilot also is responsible for sending the data up to our servers so wecan learn from it
+ logging it recording it running the cameras thermally managing the devicemanaging the disk space on the device
+ managing all the resources of the device
+
+Speaker 0 :so what um since we last spoke i don't
+ remember when maybe a year ago maybe a little bit longerhow uh has open pilot improved we did
+
+
+Speaker 1 :exactly what i promised you
+ i promised you that by the end of the year you'd be able to remove the lanesum the lateral policy is now
+ uh almost completely end to end you can turn the lanes off and it will drivedrive slightly worse on the highway if
+ you turn the lanes off but you can turn the lanes off and it will drivewell trained completely end to end on
+ user data um and this year we hope to do the same
+
+Speaker 0 :for the longitudinal policy so that's
+ the interesting thing is you're not doing you don't appear tobe you can correct me you don't appear
+ to be doing lean detection or lane marking detection orkind of the segmentation task or
+ any kind of object detection task you're doing what'straditionally more called like
+ end-to-end learning so and trained on actual behavior ofdrivers
+ when they're driving the car manually
+
+Speaker 1 :and this is hard to do you know it's not
+ supervised learning
+
+Speaker 0 :yeah but uh so the nice thing is there's
+ a lot of data so it's hard and easy right it's uh we have a lot of high
+
+Speaker 1 :quality data yeah
+
+
+Speaker 0 :like more than you need in the senate
+
+
+Speaker 1 :well we way more than we do we have way
+ more data than we need
+
+Speaker 0 :i mean it's it's an interesting question
+ actually because in terms of amount you have more thanyou need
+ but the you know driving is full of edge cases so how do youselect the data you train on
+ i i think this is an interesting open question like what'swhat's the cleverest way to select data
+ that's the question tesla is probably working onuh that's i mean the entirety of machine
+ learning can be they don't seem to really care they just kind of selectdata but i feel like that
+ if you want to solve if you want to create intelligent systems you have topick data well
+ right and so would you have any hints ideas of how to do it well
+
+Speaker 1 :so in some ways that is the definition i
+ like of reinforcement learning versus supervised learningin supervised learning the weights
+ depend on the data right um and this is obviously true butthe
+ uh in reinforcement learning the data depends on the weightsyeah right and actually both ways that's
+
+
+Speaker 0 :that's poetry
+ so it's brilliant how does it know what
+
+Speaker 1 :data to turn on well let it pick
+ we're not there yet but that's the
+
+Speaker 0 :eventual so you're thinking this
+ almost like a reinforcement learning
+
+Speaker 1 :framework we're going to do rl on the
+ world every time a car makes a mistake userdisengages we
+ train on that and do our all in the world ship out a new model that's anepoch right
+
+
+Speaker 0 :and uh for now you're not
+ doing the elon style promising that it's going to be fully autonomous you reallyare sticking to level two
+ and like it's supposed to be supervised
+
+Speaker 1 :oh it is definitely supposed to be
+ supervising reinforced the fact that it's supervisedum we look at our rate of improvement
+ in disengagements um open pilot now has an unplanned engagement about every 100miles
+ this is up from 10 miles like maybe maybe uhmaybe a year ago yeah so maybe we've
+ seen 10x improvement in a year but a hundred miles is still a far cry fromthe hundred thousand you're going to
+ need so you're going to somehow need to getum
+ three more 10xs in there and your
+
+Speaker 0 :what's your intuition uh you're
+ basically hoping that there's exponential improvement built into thebaked into the cake somewhere well
+
+
+Speaker 1 :that's even like i mean 10x improvement
+ that's already assuming exponential right there's definitely exponentialimprovement and i think when elon talks
+ about exponential like these things these systems are going toexponentially improve
+ just exponential doesn't mean you're getting 100 gigahertz processorstomorrow
+ right like it's going to still take a while because the gapbetween even our best system and humans
+ is still large
+
+Speaker 0 :so that's an interesting distinction to
+ draw so if you look at the way tesla's approaching the problemand the way you're approaching the
+ problem which is very different than the rest of theself-driving car world so let's put them
+ aside is you're treating most the driving taskis a machine learning problem
+ and the way tesla is approaching it is with the multi-task learningwhere you break the task of driving into
+ hundreds of different desks and you have this multi-headed neuralnetwork that's very good at
+ performing each task and there there's presumably something on top that'sstitching stuff together in order to uh
+ make controlled decisions policy decisions about how you move the carbut what that allows you there's a
+ brilliance to this because it allows you toum master each task like
+ lane detection uh stop sign detection traffic light detection uh drivable areasegmentation
+ uh you know vehicle bicycle pedestrian detectionuh there's some localization tasks in
+ there also predicting oflike yeah predicting how the the
+ entities in the scene are going to move like everything is basically a machinelearning task well there's a
+ classification segmentation prediction andit's nice because you can have this
+ entire engine data engine that's mining for edge casesfor each one of these tasks and you can
+ have people like engineers that are basically masters of that tasklike becoming the best person in the
+ world that uh as you talk about the cone guyfor uh for for waymo the good old phone
+ guy the the becoming the best person in theworld at uh at uh
+ at cone detection i i so that's a compelling notion from a supervisedlearning perspective
+ automating much of the process of educates discovery and retraining neuralnetwork for each of the individual
+ perception tasks and then you're looking at the machine learningin a more holistic way basically doing
+ end-to-end learning on the driving task supervised trainedon the data of the actual
+ driving of people that use comma ai like actual human drivers do manualcontrol plus the
+ moments of disengagement that uh maybe with some labeling could indicatethe failure of the system so you have
+ the you have a huge amount of data forpositive
+ control of the vehicle like successful control of the vehicleboth maintaining the lane as as i think
+ you're also working on longitudinal control of the vehicle andthen failure cases where the vehicle
+ does something wrong that needs disengagementso like what why do you think you're
+ right and tesla is wrong on this and do you think do you thinkyou'll come around the tesla way do you
+ think tesla will come around
+
+Speaker 1 :to your way if you were to start a chess
+ engine company would you hire a bishop guy see we have
+
+Speaker 0 :uh this is monday morning quarterbacking
+ as uh yes probably [Laughter]
+
+Speaker 1 :so oh oh our rook guy oh we stole the
+ rook guy from that company oh we're gonna have real good
+
+Speaker 0 :rooks well there's not many pieces right
+ you can uh yeah there's not many guys and gals to hire you just have afew that work on the bishop a few that
+ work in the rook
+
+Speaker 1 :but is that not ludicrous today to think
+ about in in the world of alpha zero
+
+Speaker 0 :but alpha zero is jessica so the the
+ fundamental question is how hard is driving compared to chessbecause so long term end to end
+ will be the right solution the question is how many years away is that
+
+Speaker 1 :end-to-end is going to be the only
+
+
+Speaker 0 :solution for level five for the only way
+ we can
+
+Speaker 1 :of course and of course tesla's gonna
+ come around to my way and if you're a rook guy out there i'm sorry
+
+Speaker 0 :the cone guy i don't know we're gonna
+
+
+Speaker 1 :specialize each task we're gonna really
+ understand rook placement yeah i understand the
+
+Speaker 0 :intuition you have
+ i mean that that uh is very compelling notion thatwe can learn the task and to end
+ like the same compelling notion you might have for natural languageconversation
+ i'm not sure because one thing you sneaked in thereis the assertion that
+ it's impossible to get to level five without this kind of approachi don't know if that's obvious i don't
+
+
+Speaker 1 :know if that's obvious either i don't
+ actually uh mean that i think that it is much easierto get to level five with an end-to-end
+ approach i think that the other approach isdoable but the magnitude of the
+ engineering challenge may exceed what humanity is capable of
+
+Speaker 0 :so but what do you think of the tesla
+ data engine approach which to me is an active learning task is kind offascinating
+ is breaking it down into these multiple tasks andmining their data constantly for like
+ edge cases for these different tasks but the tasks
+
+Speaker 1 :themselves are not being learned this is
+ feature engineering
+
+Speaker 0 :yeah i mean it's it's a it's a higher
+ abstraction level of feature engineering for the different tasksit's task engineering in a sense it's
+
+
+Speaker 1 :slightly better feature engineering but
+ it still fundamentally is feature engineeringand anything about the history of ai has
+ taught us anything it's that feature engineering approacheswill always be replaced and lose
+ to end to end now to be fair i cannot really make promises on timelinesbut i can say that when you look at the
+ code for stockfish and the code for alpha zeroone is a lot shorter than the other a
+ lot more elegant required a lot less programmer hours to write
+
+Speaker 0 :yeah but there was a lot more murder
+ of bad uh agents on the uh alpha zero sideby murder i mean uh agents that played a
+ game and failed miserably yeah oh in simulation that failure isless costly yeah in in real world it's
+
+
+Speaker 1 :wait do you mean in practice like alpha
+ zero has lost games miserably
+
+Speaker 0 :no well i haven't seen that no but i
+ know but the the the the requirement for alpha zero is asimulator
+ to be able to like evolution human evolutionnot human evolution biological evolution
+ of life on earth from the origin of life has murdered trillions upon trillions oforganisms
+ on the path to us humans yeah so the question is cancan we uh stitch together a human-like
+ object without having to go through the entirety process of evolution
+
+Speaker 1 :well no but do the evolution in
+
+
+Speaker 0 :simulation yeah that's the question can
+ we simulate so do you have a sense that's possible to simulate some
+
+Speaker 1 :mu zero is exactly this mu zero is
+ is the solution to this mu zero i think is going to look be looked backas the canonical paper and i don't think
+ deep learning is everything i think that there's still a bunch of things missingto get there
+ but mu zero i think is going to be looked back as the kind of cornerstonepaper
+ um of this whole deep learning era and mu zero is the solution toself-driving cars you have to make a few
+ tweaks to it but mu0 does effectively that it doesthose roll outs
+ and those murdering in in a learned simulator in a learned dynamics model
+
+Speaker 0 :it's interesting it doesn't get enough
+ love i was blown away when i i was blown
+
+Speaker 1 :away when i read that paper i'm like
+ you know okay i've always had a comma i'm gonna sit and i'm gonna wait for thesolution to self-driving cars to come
+ along
+
+Speaker 0 :this year i saw it it's me zero yeah
+
+
+Speaker 1 :so uh sit back and let the winning roll
+
+
+Speaker 0 :in
+ so your sense just to elaborate a little bitto link on the topic your senses in your
+ networks will solve driving yes like we don't need anything else i
+
+Speaker 1 :think the same way chess was maybe the
+ chess and maybe google are the pinnacle of likesearch algorithms and things that look
+ kind of like a star um the pinnacle ofthis era is going to be self-driving
+ cars
+
+Speaker 0 :but on the path of that you have to
+ deliver products and it's possible that the path to fullself-driving cars
+
+
+Speaker 1 :will take decades i doubt it so how long
+
+
+Speaker 0 :would you put on it
+ like what what are we you're chasing it tesla's chasing it what are we talkingabout five years 10 years
+
+
+Speaker 1 :50 years in the 2020s in the 2020s
+ the later part of the 2020s
+
+Speaker 0 :with the neural network well that would
+ be nice to see and on the path to that you're delivering productswhich is a nice l2 system that's what
+ tesla's doing a nice l2 system i'm just
+
+Speaker 1 :going to do better every time
+ l2 the only difference between l2 and the other levels is who takes liabilityand
+ i'm not a liability guy i want to take liability level 2 forever
+
+Speaker 0 :now on that little transition i mean
+ how do you make the transition work is uh is this where driver sensingcomes in like how do you make the
+ because you said 100 miles like is is there somesort of human factor psychology thing
+ where people start to over trust the system all those kinds ofeffects once it gets better and better
+ and better and better they get lazier and lazier and lazieris that like how do you get that
+
+
+Speaker 1 :transition right first off our
+ monitoring is already adaptive our monitoring is already seen adaptive
+
+Speaker 0 :driver monitoring
+ is this the camera that's looking at the driver you have an infrared camera
+
+Speaker 1 :in the our policy for
+ how we enforce the driver monitoring is scene adaptive what's that meanwell for example in one of the extreme
+ cases um if you uh if the car is not moving we donot
+ uh actively enforce driver monitor right um if you are going through auh like a 45 mile an hour road with
+ lights um and stop signs and potentiallypedestrians we enforce a very tight
+ driver monitoring policy if you are alone on a perfectly straighthighway
+ um and this is it's all machine learning none of that is hand codedactually the stop is hand coded but so
+
+
+Speaker 0 :there's some kind of machine learning
+ estimation of risk yes yeah i mean i've always been a huge fan of that thatthat's uh because it's difficult to do
+ every step into that direction is a worthwhile step to take it might bedifficult to do really well like us
+ humans are able to estimate risk pretty damn well whateverthe hell that is
+ that feels like one of the nice features of us humansuh because like we humans are really
+ good drivers when we're really like tuned in and we're good at estimatingrisk like when are we supposed to be
+ tuned in
+
+Speaker 1 :yeah and you know people are like oh
+ well you know why would you ever make the driver monitoring policyless aggressive why would you always not
+ keep it at its most aggressive because then people are just going to
+
+Speaker 0 :get fatigued from it yes when they get
+ annoyed you want them yeah you they want youwant the experience to be pleasant
+
+
+Speaker 1 :obviously i want the experience to be
+ pleasant but even just from a straight up safety perspectiveif you alert people when they look
+ around and they're like why is this thing alerting me there'snothing i could possibly hit right now
+ people will just learn to tune it out people will just learn to tune it out toput weights on the steering wheel to do
+ whatever to overcome it and remember that you're always part ofthis adaptive system so
+ all i can really say about you know how this scale is going forward is yeahsomething we have to monitor for
+ we don't know this is a great psychology experiment at scale like we'll see
+
+Speaker 0 :yeah it's fascinating track it and
+
+
+Speaker 1 :making sure you have a good
+ understanding of attention is a very key part of that psychology problem
+
+Speaker 0 :yeah i think i mean you and i probably
+ have a different come to it differently but to meit's an it's a fascinating psychology
+ problem to explore something much deeper than just drivingit's a it's such a nice way to explore
+ human attention and human behaviorwhich is why again we've probably both
+ criticized mr elon musk on this one topic fromdifferent
+ avenues uh so both offline and online i had little chats with elon andlike i love human beings as a as a
+ as a computer vision problem as an ai problem it's fascinatinghe wasn't so much interested in that
+ problem it's like in order to solve driving thewhole point is you want to remove the
+ human from the picture and it seems like you can't do thatquite yet eventually yes but
+ you can't quite do that yet so this is the moment where and you can'tyet say
+ i told you so uh to tesla but it's getting there because i don'tknow if you've seen this there's some
+ reporting that they're in fact starting to dodrive them off yeah they ship the model
+
+
+Speaker 1 :in shadow mode
+
+
+Speaker 0 :uh without uh i believe only a visible
+ light camera it might even be fisheye uh it's like a low resolution low
+
+Speaker 1 :resolution visible light
+ i mean to be fair that's what we have in the eon as well our last generationproduct
+ this is the one area where i can say our hardware's ahead of tesla the rest ofour hardware way way behind but our
+ driver monitoring camera
+
+Speaker 0 :do you think uh i think on the
+ third row tesla podcast or somewhere else i've heard you say thatobviously eventually they're gonna have
+ driver monitoring
+
+Speaker 1 :i think what i've said is elon will
+ definitely ship driver monitoring before he ships level five the beautiful leveland i'm willing to about 10 grand on
+
+
+Speaker 0 :that and you better ground on that
+
+
+Speaker 1 :uh i mean now i want to take the bet but
+ before maybe someone would have i should have got my money
+
+Speaker 0 :yeah that's an interesting bet i think i
+ i think you're right i'm actually on a human level because he's beenhe's made the decision like he said that
+ driver monitoring is the wrong way to go but like you have to think of as a humanas a ceo
+ i think that's the right thing to say when likesometimes you have to say things
+ publicly they're different than when you actually believebecause when you're producing a large
+ number of vehicles and the decision was made not to includethe camera like what are you supposed to
+ say yeah like our cars don't have the thingthat i think is right to have
+ uh it's an interesting thing but like on the other side as a ceo i mean somethingyou could probably speak to
+ as a leader i think about me as a human to publicly change your mind onsomething how hard is that
+ well especially when like george haas say i told you so
+
+Speaker 1 :all i will say is i am not a leader and
+ i am happy to change my mind um and i think elon willyeah i do i think he'll come up with a
+ good way to make it psychologically okay for him
+
+Speaker 0 :well
+ it's such an important thing man especially for a first principlesthinker because he made a decision
+ that uh driver monitoring is not the right way to go and i could see thatdecision
+ and i i could even make that decision like i was on the fencetoo like i'm not driving monitoring
+ is such an obvious simple solution to the problem of attentionit's not obvious to me that just by
+ putting a camera there you solve things you have to create anincredible compelling experience just
+ like you're you're talking about and i don't know if it's easy to do thatit's not at all easy to do that in fact
+ i think so as a creator of a car that's tryingto
+ create a product that people love which is what tesla tries to do rightit's not obvious to me that uh you know
+ as a design decision whether adding a camerais a good idea from a safety perspective
+ either like in the human factors community everybodysays
+ that like you should obviously have driver sensing driving monitoringbut like that
+ that's like saying it's obvious as parents you shouldn't let your kids goout at night
+ but okay but like they're still gonna find ways to dodrugs
+ yeah you have to also be good parents so like it's it's much more complicatedthan just like
+ you need to have drive and monitoring i
+
+Speaker 1 :totally disagree on
+ okay if you have a camera there and the camera's watching the personbut never throws an alert they'll never
+ think about it right the the driver monitoring policythat you choose to how you choose to
+ communicate with the user is entirely separate from the datacollection perspective right
+ right so you know like there's one thing to say like you knowtell your teenager they can't do
+ something there's another thing to like you knowgather the data so you can
+
+
+Speaker 0 :make informed decisions that's really
+ interesting but you have to make that that's the interesting thing about carsuh but even true with com ai
+ like you don't have to manufacture the thing into the caris you have to make a decision that
+ anticipates the right strategy long term so like youhave to start collecting the data
+ and start making decisions starter date
+
+Speaker 1 :started it three years ago
+ i believe that we have the best driver monitoring solution in the worldum i think that when you compare it to
+ well supercruise is the only other one that i really know that shipped
+
+Speaker 0 :and ours is better what uh
+ what do you like and not like about
+
+Speaker 1 :super coos um i mean i had a few
+ super crews uh the sun would be shining through the windowwould blind the camera and it would say
+ i wasn't paying attention when i was looking completely straighti couldn't reset the attention with a
+ steering wheel touch and supercrews would disengagelike i was communicating to the car i'm
+ like look i'm here i'm paying attention why are you really gonna force me todisengage and
+ it did um so it's it's a constant conversation with the user and yeahthere's no way to ship a system like
+ this if you can ota right we're shipping a new one everymonth sometimes we we
+ balance it with our users on discord like when sometimes we make the drivermonitoring a little more aggressive and
+ people complain sometimes they don't you know we want itto be as aggressive as possible where
+ people don't complain it doesn't feel intrusive
+
+Speaker 0 :so being able to update the system over
+ the air is an essential component i mean that's probably to me youmentioned uh
+ i mean to me that is the biggest innovation of teslathat it it made it people realize that
+ over-the-air updates is essential yeah i mean
+
+Speaker 1 :yeah was that not obvious from the
+ iphone the iphone was the first real product that ota'ed i think
+
+Speaker 0 :was it actually that's that's brilliant
+
+
+Speaker 1 :you're right i mean the game consoles
+ used to not right the game consoles are maybe the secondthing that did well i didn't really
+
+
+Speaker 0 :think about
+ one of the amazing features of a smartphoneisn't just like the touchscreen isn't
+ the thing it's the ability to constantly update
+
+Speaker 1 :yeah
+
+
+Speaker 0 :get better it gets better
+
+
+Speaker 1 :i love my ios 14. uh
+
+
+Speaker 0 :one thing that i probably disagree with
+ you on on driving monitoring is you've said that it's easy like imean you you tend to say stuff is easy
+ the uh i guess you said it's easy relative to theexternal perception problem
+ can you elaborate why you think it's
+
+Speaker 1 :easy feature engineering works
+ for driver monitoring feature engineering does not work for theexternal
+
+
+Speaker 0 :so human faces are not
+ human faces and the movement of human faces and headand body is not as variable as the
+ external environment
+
+Speaker 1 :is your intuition um yes and there's
+ another big difference as well um your reliability of a driver monitoringsystem
+ doesn't actually need to be that high the uncertaintyif you have something that's detecting
+ whether the human is paying attention it only works 92of the time you're still getting almost
+ all the benefit of that because the human like you're training the humanyeah right you're you're dealing with a
+ system that's really helping you out it's aconversation it's not
+ like the external thing where guess what if you swerve into a tree you swerveinto a tree
+ right like you get no margin for error
+
+Speaker 0 :yeah i think that's really well put i
+ i i think that's the right exactly the placewhere um where comparing to the external
+ perception the control problem driver monitoring is easier because youknow the bar for success is much lower
+ yeah but i i still think like the human faceis more complicated actually than the
+ external environment but for driving you don't give a damn
+
+Speaker 1 :i don't need you i don't need something
+ i don't need something that complicated to to to have to communicate the ideato the human that i want to communicate
+ which is yo system might mess up here you got to payattention
+
+
+Speaker 0 :yeah see that's that's my love and
+ fascination is the the human face and it feels like this isa nice place to um create products that
+ create an experience in the car so like it feels like there should bemore richer experiences
+ in the car you know like that's an opportunity forlike something like my eye or just any
+ kind of system like a tesla or any of the autonomous vehicle companiesis because software's and there's much
+ more sensors and so much is running on software andyou're doing machine learning anyway
+ there's an opportunity to create totally new experiencesthat we're not even anticipating you
+ don't think so no you think it's a box that gets youfrom a to b and you want to do it
+
+
+Speaker 1 :chill yeah i mean i think as soon as we
+ get to level three on highways okay enjoy your candy crushenjoy your hulu enjoy your
+ you know whatever whatever sure you get this you can look at screens basicallyversus right now what do you have music
+
+
+Speaker 0 :and audio books so level three is where
+ you can kind of disengage in in stretches of time[Music]
+ [Applause] well you think level three is possiblelike on the highway going for 100 miles
+ and you can just go to sleep oh yeah
+
+Speaker 1 :uh sleep so again
+ i think it's really all on a spectrum i think thatbeing able to use your phone while
+ you're on the highway and like this all being okay and beingaware that the car might alert you and
+ you have five seconds to basically
+
+Speaker 0 :so the five second thing that you think
+ is possible yeah i think it is oh yeah
+
+Speaker 1 :not not in all scenarios right some
+ scenarios it's not
+
+Speaker 0 :it's the whole risk thing that you
+ mentioned is nice is to be able to estimate likehow risky is this situation exactly
+ that's really important to understand one other thing you mentioned comparingcomma and
+ autopilot is that um something about the haptic feel of theway combo controls the car
+ when things are uncertain like it behaves a little bit more uncertain whenthings are uncertain
+ that's kind of an interesting point and then autopilot is much more confidentalways even when it's uncertain until it
+ runs into trouble yeah that's that's a funny thing iactually mentioned that to elon i think
+ and then the first time we talked he wasn't bitingis like communicating uncertainty i
+ guess comet doesn't really communicate uncertainty explicitly communicates itthrough haptic feel
+ like what what's the role of communicating uncertainty do you think
+
+Speaker 1 :oh we do some stuff explicitly like we
+ do detect the lanes when you're on the highway and we'll show you how manylanes we're using to drive with
+ you can look at where it thinks the lanes are you can look at umthe path and yeah we want to be better
+ about this we're actually hiring i want to hire some new ui people ui
+
+Speaker 0 :people you mentioned this because it's
+ such an it's a ui problem too right it's we're
+
+Speaker 1 :we have a great designer now
+ but you know we need people who are just gonna like build this and debug theseuis
+ qt people and okay is that what the ui
+
+Speaker 0 :has done with this key
+
+
+Speaker 1 :we're moving the new ui is in qt c plus
+
+
+Speaker 0 :plus qt
+
+
+Speaker 1 :uses it yeah we had some react stuff in
+ there
+
+Speaker 0 :react js would just react react is his
+ own language right
+
+Speaker 1 :react native reaction react to the
+ javascript framework yeah it's all it's all based onjavascript but it's
+ you know i like c plus plus
+
+Speaker 0 :what do you think about uh dojo with
+ tesla and their foray into what appears to bespecialized hardware for uh training
+ neonets i guess it's something maybe you cancorrect me from my
+ shallow looking at it it seems like something like google did with tpus butspecialized
+ for uh driving data i don't think it's
+
+Speaker 1 :specialized for driving data
+
+
+Speaker 0 :it's just legit just tpu they want to
+ inter go the apple way basically everything required in the chain is done
+
+Speaker 1 :in-house well so you have a problem
+ right now and this is one of my one of my concerns ireally would like to see
+ somebody deal with this if anyone out there is doing it i'd like to help themif i can
+ um you basically have two options right now to trainyour options are nvidia or google
+ so google is not even an option their tpus are only available in googlecloud
+ google has absolutely onerous terms of service restrictionsuh they may have changed it but back in
+ google's terms of service it said explicitly you are not allowed to usegoogle cloud ml
+ for training autonomous vehicles or for doing anything that competes with googlewithout google's prior written
+ permission well okay i mean google is not aplatform company
+ uh i wouldn't i wouldn't touch tpus with a 10-foot poleso that leaves you with the monopoly uh
+ nvidia and video
+
+Speaker 0 :so i mean that you're not a fan of well
+
+
+Speaker 1 :look i was a huge fan of in 2016 nvidia
+ jensen came sat in the car um cool guy when the stock was 30 a shareuh nvidia stock has skyrocketed i
+ witnessed a real change in who was in management overthere in like 2018
+ and now they are let's exploit let's take every dollar we possibly can out ofthis ecosystem
+ let's charge ten thousand dollars for a100s because we know we got the best in the game
+ and let's charge ten thousand dollars for an a100when it's really not that different from
+ 3080 which is 699. um the margins that they are making offof those high-end chips are
+ so high that i mean i think they're shooting themselves in the foot justfrom a business perspective
+ because there's a lot of people talking like me now who are like somebody's gottaken video down
+
+
+Speaker 0 :
+
+Speaker 1 :yeah where they could dominate it nvidia
+ could be the new intel
+
+Speaker 0 :yeah to be in inside everything
+ essentially and and yet the winners in in certainspaces like
+ autonomous driving the winners only the people who are likedesperately falling back and trying to
+ catch up and have a ton of money like the big automakers are the onesinterested in partnering with nvidia
+
+
+Speaker 1 :oh and then i think a lot of those
+ things are going to fall through if i were nvidiasell chips sell chips at a reasonable
+ markup
+
+Speaker 0 :to everybody to everybody without any
+
+
+Speaker 1 :restrictions without any restrictions
+ intel did this look at intel they had a great long runnvidia is trying to turn their they're
+ like trying to productize their chips way too much they're trying to extractway more value than they can sustainably
+ sure you can do it tomorrow is it going to up your share price sure if you'reone of those ceos
+ like how much can i strip mine this company and you know and that's what'sweird about it too
+ like the ceo is the founder it's the same guy yeah i mean i still thinkjensen's a great guy that's great why do
+ this you have a choice you have a choiceright now are you trying to cash out are
+ you trying to buy a yacht if you are fine but if you're trying tobe
+ the next huge semiconductor company sell chips
+
+Speaker 0 :well the the interesting thing about
+ jensen is he is a big vision guy so he hasa plan like for 50 years down the road
+ so it makes me wonder like how does
+
+Speaker 1 :price gouging fit into it yeah how does
+
+
+Speaker 0 :that
+ like it's it doesn't seem to make sense to plan
+
+Speaker 1 :i worry that he's listening to the wrong
+
+
+Speaker 0 :people yeah that that's the sense i have
+ too sometimes because i despite everythingi think nvidia is an incredible company
+ well one sort of i'm deeply grateful to nvidiafor the products they've created me to
+ pass right
+
+Speaker 1 :and so the 1080 ti was a great gpu still
+ have a lot of them
+
+Speaker 0 :it was yeah but
+ at the same time it just feels like feels like you don't want to put allyour stock in nvidia and so like elon
+ is doing um what tesla is doing with autopilot and dojois the apple way is because they're not
+ going to share dojo with uh george hotz uh
+
+Speaker 1 :i i know they should sell that chip
+ oh they should sell their even their their accelerator the accelerator that'sin all the cars the 30 watt one
+
+
+Speaker 0 :sell it why not so open it up
+ make me why does this have to be a car company
+
+Speaker 1 :well if you sell the chip here's what
+ you get yeah make some money off the chips it doesn'ttake away from your chip
+ you're going to make some money free money and alsothe world is going to build an ecosystem
+ of tooling for you right you're not going to have to fixthe bug in your tanh layer
+ someone else already did well the
+
+Speaker 0 :question that's an interesting question
+ i mean that's the question steve jobs asked that's thequestion elon musk is
+ uh perhaps asking is uh do you want tesla stuff inside othervehicles in
+ inside potentially inside like uh irobot vacuum cleaner
+
+Speaker 1 :yeah i think you should decide where
+ your advantages are i'm not saying tesla should startselling battery packs to automakers
+ because battery packs to automakers they are straight up in competition with youif i were tesla i'd keep the battery
+ technology totally yeah ssr's we make batteriesbut the thing about the tesla tpu um
+ is anybody can build that it's just a question of you knoware you willing to spend the you know
+
+
+Speaker 0 :the money it could be a huge source of
+ revenue potentially
+
+Speaker 1 :are you willing to spend 100 million
+ dollars right anyone can build it and someone will and a bunch ofcompanies now are starting trying to
+ build ai accelerators somebody's going to get the idea rightand yeah hopefully they don't get greedy
+ because they'll just lose to the next guy who finally and then eventually thechinese are going to make knock off and
+ video chips and that's
+
+Speaker 0 :from your perspective i don't know if
+ you're also paying attention to stan tesla for a momentall dave elon musk has talked about a
+ complete rewrite of uh the neural net that they're usingthat seems to
+ again i'm half paying attention but it seems to involvebasically a kind of integration of all
+ the sensors to where it's a four dimensional view you knowyou have a 3d
+ model of the world over time and then you can i think it's doneboth for the for actually you know
+ so the neural network is able to in a more holistic way deal with the worldand make predictions and so on
+ but also to make the annotation task more uhyou know easier like you can annotate
+ the world in one place and then kind of distributeitself across the sensors and
+ across a different like the hundreds of tasks that are involvedin the hydronet what are your thoughts
+ about this rewrite is it just like some detailsthat are kind of obvious there are steps
+ that should be taken or is there something fundamentalthat could challenge your idea that end
+ to end is the right solution
+
+Speaker 1 :uh we're in the middle of a bakery right
+ now as well we haven't shipped a new model in a bitof what kind uh we're going from 2d to
+ 3d right now all our stuff like for examplewhen the car pitches back the lane lines
+ also pitch back uh because we're assuming the flat roflat world hypothesis
+ uh the new models do not do this the new models output everything in 3d
+
+Speaker 0 :um so this but there's still no
+ annotation so the 3d is it's more about the opposite yeah uh
+
+Speaker 1 :we have we have disease and everything
+ uh we've disease
+
+Speaker 0 :yeah we had a disease we had a disease
+
+
+Speaker 1 :um we unified
+ a lot of stuff as well uh we switched from tensorflow to pi torchyes uh my understanding
+ of what tesla's thing is is that their annotator now annotates across the timedimension
+ uh i mean cute why are you building an annotator i i
+
+Speaker 0 :find their entire pipeline
+ i find your vision i mean the vision event to endvery compelling but i also like the
+ engineering of the data engine that they've createdin terms of supervised learning
+ pipelines that thing is damn impressive you'rebasically the
+ the idea is that you have hundreds of thousands of people that are doing datacollection for you by doing their
+ experience so that's kind of similar to the common ai modeland you're able to
+ mine that data based on the kind of edge cases you needi i think it's harder to do in the end
+ to end learning the mining of the right edge cases likethat's where feature engineering
+ is actually really powerful because like us humans are able to do this kindof mining a little better but but
+ yeah there's obvious as we as we know there's obvious constraints andlimitations to that
+
+
+Speaker 1 :idea uh carpathi just tweeted he's like
+ um you get really interesting insights ifyou saw if you sort your validation set
+ by loss and look at the highest loss examplesyeah
+ uh so yeah i mean you can do we we have we have a little data engine like thingwe're training a segment uh
+ it's not fancy it's just like okay train the new segmentrun it on 100 000 images and now take
+ the thousand with highest loss select 100 of those by human put thoseget those ones labeled
+ retrain do it again right so it's a much less well-written data engine and yeahyou can you can take these things really
+ far and it is impressive engineering and if you trulyneed supervised data for a problem
+ yeah things like data engine are the high end of thewhat is attention is a human paying
+ attention i mean we're going to probably build something that looks like dataengine to push our driver monitoring
+ further um but for driving itself you have itall annotated beautifully
+ by what the human does so yeah that's
+
+Speaker 0 :interesting i mean that applies to
+ driver attention as well do you want to detectthe eyes do you want to detect blinking
+ and pupil movement do you want to detect all the like facealignments the landmark detection and so
+ on and then doing kind of reasoning basedon that or do you want to take the
+ entirety of the face over time and do and i mean it's obvious that overeventually you have to do end to end
+ with some calibration with some fixes and so onbut it's uh like i don't know when
+ that's the right move
+
+Speaker 1 :even if it's end to end there actually
+ is there is no kind of um you have to supervise thatwith humans
+ whether a human is paying attention or not is a completely subjective judgmentum like you can try to like
+ automatically do it with some stuff but you don'thave if i record a video of a human i
+ don't have true annotations anywhere in that videothe only way to get them
+ is with you know other humans labeling it really
+
+Speaker 0 :well i don't know uh you you so
+ if you think deeply about it you could you might be able to just depending onthe task maybe you'll discover
+ self-annotating things like you know you can look at like steeringwheel reversal or something like that
+ you can discover little moments of lapse of attention yeahi mean that's that's where psychology
+ comes in is there indicate because you have so somuch data to look at
+ so you might be able to find moments when there's like justinattention that even with smartphone if
+ you want to detect smartphone use yeah you can start to zoom in i meanthat's the gold mine
+ sort of the comma ai i mean tesla's doing this too right is there they'redoing
+ annotation based on it's like uh self-supervisedlearning too it's just a small part of
+ the entire picture it's that's kind of the challengeof solving a problem in machine learning
+ if you can discover self-annotating parts of the problem
+
+Speaker 1 :right our driver monitoring team is half
+ a person right now i have a problem you know once we have skill to full once
+
+Speaker 0 :
+
+Speaker 1 :we have two people once we have two
+ three people on that team i definitely want to look atself-annotating stuff or yeah for
+ attention
+
+Speaker 0 :let's go back for a sec to uh to a comma
+ and how what you know for people who are curious to try it outhow do you install a comma in say a 2020
+ toyota corolla or like what are the cars that aresupported what are the cars that you
+ recommend and what does it take you have a fewvideos out but maybe through words can
+ you explain what's it take to actually install a
+
+Speaker 1 :thing so we support uh i think it's 91
+ cars 91 makes models um we get to 100 thisyear
+
+
+Speaker 0 :
+
+Speaker 1 :nice the yeah the
+ 2020 corolla great choice the um 2020 sonata uh it's using thestock longitudinal it's using just our
+ lateral control but it's a very refined car theirlongitudinal control is not
+ bad at all um so yeah corolla sonata or if you're willing to get yourhands a little dirty and look in the
+ right places on the internet the honda civic is greatuh but you're going to have to install a
+ modified eps firmware in order to get a little bit more torqueand i can't help you with that comma
+ does not officially endorse that um but we have been doing it we didn'tever release it
+ uh we waited for someone else to discover it and then you know
+
+Speaker 0 :and you have a discord server where
+ people there's a very active developer community yeah as opposed toso
+ depending on the level of experimentation you're willing toto do that's the community if you
+
+
+Speaker 1 :if you just want to buy it and you have
+ a supported car yeah it's 10 minutes to install there's youtubevideos it's
+ ikea furniture level if you can set up a table from ikeayou can install a comma 2 in your
+ supported car and it will just work now you're like oh but i want thishigh-end feature or i want to fix this
+ bug okay well welcome to the developer
+
+Speaker 0 :community uh
+ so what if i wanted to this is something i asked you offlineor like a few months ago if i wanted to
+ run my own code to um so use comma as aplatform and try to run something like
+ open pilot what does it take to do that um so
+
+Speaker 1 :there's a toggle in the settings called
+ enable ssh and if you toggle that you can ssh intoyour device you can modify the code you
+ can upload whatever code you want to it um there's a whole lot of people soabout 60 of people are running stock
+ comma about 40 percent of people are runningforks and there's a community
+ of there's a bunch of people who maintain these forks and these forkssupport
+ different cars or they have you know uh different toggleswe try to keep away from the toggles
+ that are like disabled driver monitoring butyou know there's some people might want
+ that kind of thing and like you know yeah you can it's your car it's youri'm not here to tell you you know
+ uh we we have some you know we ban if you're trying to subvert safetyfeatures you're banned from our discord
+ i don't want anything to do with you but there's some forks doing that you
+
+Speaker 0 :got it
+ so you encourage responsible uh forking
+
+Speaker 1 :yeah yeah some people you know yeah some
+ people uh like like there's forks that will doum some people just like having a lot of
+ uh readouts on the ui like a lot of like flashing numbers so there's forks thatdo that
+ uh some people don't like the fact that it disengages when you press the gaspedal there's forks that disable that
+
+
+Speaker 0 :got it now the the stock experience is
+ is what like so it does both lane keeping andlongitudinal control
+ all together so it's not separate like it is an autopilot
+
+Speaker 1 :no so okay um some cars we use the stock
+ longitudinal control we don't do the longitudinal control on all the carsuh some cars the acc's are pretty good
+ in the cars it's the lane keep that's atrocious in anything except forautopilot super cruise
+
+
+Speaker 0 :but you know you just turn it on and it
+ it works what does this engagement look
+
+Speaker 1 :like yeah so we have i mean i'm very
+ concerned about mode confusion i've experienced it on supercruise andand autopilot where
+ like autopilot like autopilot disengages i don't realize that the acc is still onthe lead car moves slightly over and
+ then the tesla accelerates to like whatever my set speed is super fast andlike
+ what's going on here um we have engaged and disengaged and this issimilar to my understanding i'm not a
+ pilot but my understanding is either the pilotis in control or the co-pilot is in
+ control and we have the same kind of transitionsystem either open pilot is engaged or
+ open pilot is disengaged engage with cruise control disengagewith either gas break or cancel
+
+
+Speaker 0 :let's talk about money what's uh the
+ business strategy for comma profitable well it's you're goodso congratulations yeah uh what uh
+ so basically selling so we should say combo cost uh
+
+Speaker 1 :a thousand bucks comment 200 for the
+ interface to the car as well it's 1200 all said done
+
+Speaker 0 :nobody's usually up front like this yeah
+
+
+Speaker 1 :you got it you got to have the tac
+
+
+Speaker 0 :on right yeah i love it this side i'm
+
+
+Speaker 1 :not going to lie to you
+ trust me it will add 1200 value to your life yes
+
+Speaker 0 :
+
+Speaker 1 :it's still super cheap 30 days no
+ questions asked money back guarantee and prices are only going up you know ifthere ever is future hardware
+ it could cost a lot more than twelve
+
+Speaker 0 :hundred dollars so comma three is in the
+ works
+
+Speaker 1 :so it could be all i will say is future
+ hardware is going to cost a lot more than the current hardware
+
+Speaker 0 :yeah like i mean the people that use uh
+ the people i've spoken with that use commause open pilot they first of all they
+ use it a lot so people that use it they they fall in
+
+Speaker 1 :love with oh our retention rate is
+ insane
+
+Speaker 0 :this is a good sign yeah it's a really
+ good sign um
+
+Speaker 1 :70 of comma 2 buyers are daily active
+ users
+
+Speaker 0 :yeah it's amazing
+
+
+Speaker 1 :um oh also we don't plan on stopping
+ selling the comma too like like it's you know so whatever you
+
+Speaker 0 :create that's beyond comma two
+ it would be uh it would be potentially a phase shiftlike it's you it's so much better that
+ like you could use comma two and you can usecomma depends what you want it's three
+ point four one kind of 42
+
+Speaker 1 :yeah you know autopilot hardware one
+ versus hardware two yeah the comma two is kind of like hardware one got it gotit
+
+
+Speaker 0 :got it got it i think i heard you talk
+ about retention rate with the vr headsets that the average is justonce yeah which is fast i mean it's such
+ a fascinating way to think about technologyand this is a really really good sign
+ and the other thing that people say about comm is like they can't believethey're getting this for a thousand
+ bucks right it's it seems it seems like a somekind of steal
+ so but in terms of like long-term business strategies it basically toput so it's currently in like a thousand
+ plus cars
+
+Speaker 1 :1200 more uh
+ so yeah dailies is about uh dailies is about 2 000 weekly is about 2500. monthlies is over 3 000.
+ wow we've grown a lot since we've stopped
+
+Speaker 0 :is the goal like can we talk crazy for a
+ second i mean what's the goal to overtake tesla let's talkokay so i mean android did overtake ios
+ yeah that's exactly it right so yeah they did it i actually don't knowthe timeline of that one
+ they but let let's talk uh because everything is in alpha now theautopilot you could argue is in alpha in
+ terms of towards the big mission of autonomousdriving right and so
+ what yes your goal to overtake into millions of carsessentially of course where would it
+
+
+Speaker 1 :stop
+ like it's open source software it might not be millions of cars with a piece ofcomma hardware but yeah
+ i think open pilot at some point will cross over autopilot in in usersjust like android crossed over ios
+
+
+Speaker 0 :how does google make money from android
+ uh it's it's complicated their own devices make money
+
+Speaker 1 :google google makes money by just kind
+ of having you on the internet uh yes google search is built in gmailis built in
+ android is just a shill for the rest of
+
+Speaker 0 :google's ecosystem yeah but the problem
+ is android is not is a brilliant thing imean
+ android arguably changed the world so there you go that'syou can you can feel good ethically
+ speaking but as a business strategy it's questionable i'll sell hardware so
+
+Speaker 1 :hardware i mean it took google a long
+ time to come around to it but they are now making money on the pixel
+
+Speaker 0 :you're not about money you're more about
+
+
+Speaker 1 :winning yeah of course
+ but if only if only 10 percent of open pilot devicescome from comma ai we still make a lot
+ that is still yes that is a ton of money
+
+Speaker 0 :for our company but can't somebody
+ create a better comma using open pilot oryou're basically saying well i'll
+ compete well i'll compete
+
+Speaker 1 :is can you create a better android phone
+ than the google pixel right i mean you can but like i love that so
+
+Speaker 0 :you're confident
+ like you know what the hell you're doing yeah it'sit's uh confidence in merit i mean our
+
+
+Speaker 1 :money yeah our money comes from we're a
+ consumer electronics company yeah and put it this way so we sold wesold like three thousand company's
+ um i'm 2500 right now uh and likeokay we're probably going to sell 10 000
+ units next year right 10 000 units even just a thousand dollars a unit okaywe're 10 million in uh
+ in in in in revenue um get that up to a hundred thousandmaybe double the price of the unit now
+ we're talking like 200 million in revenue yeah
+
+Speaker 0 :actually making money uh one of the rare
+ semi-autonomous or autonomous vehicle companies that are actually makingmoney yeah yeah you know
+
+
+Speaker 1 :if you have if you look at a model when
+ we were just talking about this yesterday if you look at a modeland like you're testing like you're a b
+ testing your model and if you're you're you'reone branch of the a b test the losses go
+ down very fast in the first five epochs yeahthat model is probably going to converge
+ to something considerably better than the one where the losses are going downslower
+ why do people think this is going to stop why do people think one day there'sgoing to be a great like
+ well waymo's eventually going to surpass you guys
+
+Speaker 0 :no they're not you see like a world
+ where like a tesla or a car like a tesla would beable to
+ basically press a button and you like switch to open pilotyou know you know they load in i don't
+
+
+Speaker 1 :know so
+ i think so first off i think that we may surpass teslain terms of users uh i do not think
+ we're gonna surpass tesla ever in terms of revenuei think tesla can capture a lot more
+ revenue per user than we can um but this mimics the android ios modelexactly
+ there may be more android devices but you know there's a lot more iphones thangoogle pixels
+ so i think there'll be a lot more tesla cars sold than pieces of comma hardwareum and then as far as a
+ tesla owner being able to switch to open pilotuh does ios does iphones run android
+
+
+Speaker 0 :no but you can if you really want to do
+
+
+Speaker 1 :it but it doesn't really make sense like
+ it's not
+
+Speaker 0 :it doesn't make sense who cares what
+ about if uh a large company like automakers 4g m toyota came to georgehotz or
+ on the tech space amazon facebook google came with a large pile of cashwould would you consider being
+ purchased do you see that as a one possible not
+
+Speaker 1 :seriously now
+ um i would probably uh see how much uh they'll entertainfor me
+ um and if they're willing to like jump through a bunch of my hoops then maybebut like no not the way that m a works
+ today i mean we've been approached and i laugh in these people's faces i'mlike are you kidding me
+
+
+Speaker 0 :
+
+Speaker 1 :yeah you know because you're so it's so
+ it's so demeaning the m a people are so demeaning to companies they treat thestartup world
+ as their innovation ecosystem and they think that i'm cool with going alongwith that
+ so i can have some of their scam fake fed dollars you know fedcoin i don'twhat am i gonna do with more fedcoin you
+ know i had coin fat coin man
+
+Speaker 0 :i love that so that's the cool thing
+ about podcasting actually is uh people criticize i don't know if you'refamiliar with the spotify
+ uh giving joe rogan a hundred million
+
+Speaker 1 :and something about that
+
+
+Speaker 0 :and you know they respect
+ despite all the that people are talking about spotifypeople understand that podcasters like
+ joe rogan know what the hell they're doing yeah sothey give them money
+ and say just do what you do and like the equivalent for you would belike
+ george do what the hell you do because you're good at it try not to murder toomany people
+ like try like there's some kind of common sense things likejust don't go on a weird rampage of
+
+
+Speaker 1 :yeah it comes down to what companies i
+ could respect right um you know could i respect gmnever
+ um no i couldn't i mean could i respect likea hyundai more so right that's that's a
+ lot closer toyota what's your nah nah it's korean is theway
+ i think i think that you know the japanese the germans the us they're alltoo
+ they're all too you know they all think
+
+Speaker 0 :they're too great what about the tech
+ companies
+
+Speaker 1 :apple apple is of the tech companies
+ that i could respect apple's the closest yeah i mean i could never subscribe it
+
+Speaker 0 :would be ironic
+ oh if uh if common ai is acquired by apple
+
+Speaker 1 :i mean facebook look i quit facebook 10
+ years ago because i didn't respect the business modelum google has declined so fast in the
+ last five years
+
+Speaker 0 :what are your thoughts about waymo as
+ present and future so let me let me see let me start by saying something uh nicewhich is uh
+ i've visited them a few times and i've [Music]have ridden in their cars and
+ the engineering that they're doing both the research and the actualdevelopment and the engineering they're
+ doing and the scale they're actually achievingby doing it all themselves
+ is really impressive and the the balance of safety and innovationand like the cars work
+ really well for the routes they drive like they drivefast which was very surprising to me
+ like it drives like the speed limit or faster the speedlimit it goes
+ and it works really damn well and the interface is nice and chandler arizonayeah yeah yeah in challengers in a very
+ specific environment so it i you know it gives me enoughmaterial
+ in my mind to push back against the madman of the world likegeorge hotz to be like
+ like because you kind of imply there's zero probability they're going to win
+
+Speaker 1 :yeah and and after i've used
+
+
+Speaker 0 :after i've written in it to me it's not
+
+
+Speaker 1 :zero oh it's not for technology reasons
+ bureaucracy no it's worse than that it's actually for product reasons i think
+
+Speaker 0 :oh you think they're just not capable of
+ creating an amazing product uh
+
+Speaker 1 :no i think that the product that they're
+ building doesn't make sense um so a few things uh you say the weimosare fast
+ um benchmark away mo against a competent uber driverright right the uber driver is faster
+
+
+Speaker 0 :it's not even about speed it's the thing
+ you said it's about the experience of being stuckat a stop sign
+ because pedestrians are crossing non-stop
+
+Speaker 1 :i like when my uber driver doesn't come
+ to a full stop at the stop sign yeah you know and solet's say the waymo's are 20 slower than
+ than an uber right um you can argue they're going tobe cheaper
+ and i argue that users already have the choice to trade off money for speedit's called uberpool um i think it's
+ like 15 of rides or uber pools right users arenot willing to trade off
+ money for speed so the whole product that they're buildingis not going to be competitive with
+ traditional ride sharing networks right um like and alsowhether there's profit to be made
+ depends entirely on one company having a monopolyi think that the level for autonomous
+ ride sharing vehicles market is going to look a lot like thescooter market if even the technology
+ does come to exist which i question who's doing well in that market yeahit's a race to the bottom
+
+
+Speaker 0 :you know well they could be it could be
+ closer like an uber and a lyft where it's just a one or two playerswell
+
+
+Speaker 1 :the scooter people have given up trying
+ to market scooters as a practical means of transportationand they're just like
+ they're super fun to ride look at wheels i love those things and they're great onthat front
+ yeah but from an actual transportation product perspectivei do not think scooters are viable and i
+ do not think level 4 autonomous cars are viable
+
+Speaker 0 :if you uh let's play a fun experiment if
+ you ran let's do a tesla and let's do waymoif uh elon musk took a vacation for
+ a year he just said screw it i'm gonna go live on an islandno electronics and the board decides
+ that we need to find somebody to run the companyand they they decide that you should run
+ the company for a year how do you run tesla differently i
+
+Speaker 1 :wouldn't change much
+
+
+Speaker 0 :do you think they're on the right track
+
+
+Speaker 1 :i wouldn't change i mean i'd have some
+ minor changes but even even my debate with teslaabout you know end to end versus segnets
+ like that's just software who cares rightlike it's not gonna it's not like you're
+ doing something terrible with segnats you're probably building somethingthat's at least going to help you debug
+ the end-to-end system a lot right it's very easy to transition fromwhat they have
+ to like an end-to-end kind of thing
+
+Speaker 0 :and then i presume you would uh
+ in the model y or maybe in the model 3 start adding driver sensing with
+
+Speaker 1 :infrared yes i would add i would
+ i would add infrared camera infrared lightsright away to those cars um
+
+
+Speaker 0 :and start collecting that data and do
+ all that kind of stuff yeah
+
+Speaker 1 :very much i think they're already kind
+ of doing it it's it's an incredibly minor changeif i actually were ceo of tesla first
+ off i'd be horrified that i wouldn't be able to do a good job as elonand then i would try to you know
+ understand the way he's done things
+
+Speaker 0 :before he would also have to take over
+ his twitter so god i don't tweet yeah what's yourtwitter situation why
+ why why are you so quiet on twitter comma islike what what's your social network
+ presence like because you you on instagram you're you're you uh you dolive streams you're
+ you're you're um you understand the music of the internetbut you don't always fully engage into
+ it you're part-time i used to have a
+
+Speaker 1 :twitter
+ yeah i mean it's the pr instagram is a pretty placeinstagram is a beautiful place it
+ glorifies beauty i like i like instagram's values as a networkum twitter glorifies conflict glorifies
+ you know like like like like like you know justshots
+ taking shots at people and it's like you know wellyou know twitter and donald trump are
+
+
+Speaker 0 :perfectly
+ they're perfect for each other so tesla's on uh tesla's on the right trackin your view yeah
+ okay so let's try let's like really try this experiment if you ranway more let's say they're i don't know
+ if you agree but they seem to be at the head of the packof the kind of
+ uh what would you call that approach like it's not necessarily lighter basedbecause it's not about lighter but
+ before robot taxi level four robot taxi all in before anybefore making your revenue
+ uh so they're probably at the head of the pack if you weresaid hey george can you please run this
+ company for a year how would you
+
+Speaker 1 :change it uh i would go i would get
+ anthony levandowski out of jail and i would put him in charge of the
+
+Speaker 0 :company
+ um let's try to break that apart why do you do you want to make do youwant to destroy the company by doing
+ that or do you mean or do you mean uh you likerenegade style thinking that uh pushes
+ that that like throws away bureaucracy and goes to first principle thinkingwhat
+ what do you mean by that um i think
+
+Speaker 1 :anthony lewandowski is a genius
+ and i think he would come up with a much better idea of what to do with waymothan me
+
+
+Speaker 0 :so you mean that unironically he is a
+ genius oh yes oh absolutely
+
+Speaker 1 :without a doubt i mean i'm not saying
+ there's no shortcomings but in the interactions i've had withhim yeah
+ what um he's also willing to take like who knows what he would do with waymoi mean he's also out there like far more
+ out there than i am yeah there's big
+
+Speaker 0 :risks
+ yeah what do you make of him i was i was going to talk to him in this podcast andi was going back and forth
+ i'm i'm such a gullible naive human like i see the best in peopleand i slowly started to realize that
+ there might be some people out there that like have multiple faces to theworld
+ they're like deceiving and dishonest i stillrefuse to like i i just i trust people
+ and i don't care if i get hurt by it but likeyou know sometimes you have to be a
+ little bit careful especially platform wise andpodcast wise what do you what am i
+ supposed to think so you think you think he's a goodperson
+
+
+Speaker 1 :oh i don't know i don't really make
+ moral judgments
+
+Speaker 0 :and it's difficult to oh oh i mean this
+
+
+Speaker 1 :about the waymo actually i mean that
+ whole idea very non-ironically about what i would dothe problem with putting me in charge of
+ waymo is waymo is already 10 billion dollars in the hull rightwhatever idea waymo does look
+ com is profitable comes raised 8.1 million dollars that's smallyou know that's small money like i can
+ build a reasonable consumer electronics companyand succeed wildly at that and still
+ never be able to pay back weight most 10 billion
+
+Speaker 0 :so i i think the basic idea with women
+ well forget the 10 billion because they have some backing butyour basic thing is like what can we do
+ to stop making some money
+
+Speaker 1 :well no i mean my bigger idea is like
+ whatever the idea is that's going to save waymoi don't have it it's going to have to be
+ a big risk idea and i cannot think of a better person than anthony lewandowskito do it
+ so that is completely what i would do as ceo of waymo i call myself atransitionary ceo
+ do everything i can to fix that situation yeah
+
+Speaker 0 :
+
+Speaker 1 :uh yeah cause i can't i can't do it
+ right like i can't i can't oh i mean i can talk about how what ireally want to do is just apologize for
+ all those corny uh you know ad campaigns and be likehere's the real state of the technology
+
+
+Speaker 0 :yeah um like i have several criticism
+ i'm a little bit more bullish on waymo than than you seem to be butone criticism i have is it went into
+ corny mode too early like it's still a startup it hasn'tdelivered on anything so
+ it should be like more renegade and show off the engineering that they're doingwhich just can be impressive as opposed
+ to doing these weird commercials of like your friendly yeah your friendly carcompany
+
+
+Speaker 1 :i mean that's my biggest my biggest
+ snipe at waymo was always that guy's a paid actorthat guy's not a waymo user he's a paid
+ actor look here i found his call sheet
+
+Speaker 0 :do kind of like what spacex is doing
+ with uh the rocket launchers just get put the nerds up front put theengineers up front and just like
+ show failures too just i love i love
+
+Speaker 1 :spacex's
+
+
+Speaker 0 :yeah yeah the thing they're doing is
+ right and it just feels like the right but we're all so
+
+Speaker 1 :excited to see them succeed
+ yeah i can't wait to see when it won't fail you know like you lie to me i wantyou to fail
+ you tell me the truth you'll be honest with me i want you to succeed yeah
+
+Speaker 0 :uh yeah and that requires the uh the
+ renegade ceo right i'm with you i'm with you i stillhave a little bit of faith in waymo to
+ for for the renegade ceo to step forward but
+
+Speaker 1 :it's not it's not john krafter yeah
+
+
+Speaker 0 :it's uh you can't it's not chris
+
+
+Speaker 1 :holmstone
+ and those people may be very good at certain things yeahbut they're not renegades because these
+
+
+Speaker 0 :companies are fundamentally even though
+ we're talking about billion dollars all these crazy numbers they're stilllike early stage startups
+
+
+Speaker 1 :i mean i i just i if you are pre-revenue
+ and you've raised 10 billion dollars i have no idea likelike this just doesn't work no it's
+ against everything silicon valley where's your minimum viable productyou know where's your users what's your
+ growth numbers this is traditional silicon valley whydo you not apply it to what you think
+ you're too big to fail already
+
+Speaker 0 :like how do you think autonomous
+ driving will change society so the mission isfor comma to uh solve
+ self-driving do you have like a vision of the world of howit'll be different
+ is it as simple as a to b transportation or is there likebecause these are robots it's not about
+
+
+Speaker 1 :autonomous driving in and of itself it's
+ what the technology enables it's i think it's the coolest applied aiproblem i like it because it has a clear
+ path to monetary value um but as far as that being the thing thatchanges the world
+ i mean no like like there's cute things we're doing in common like who thoughtyou could stick a
+ phone on the windshield middle drive um but like really the product that you'rebuilding is not
+ something that people were not capable of imagining 50 years agoso no it doesn't change the world in
+ that front could people imagine the internet 50 years ago only truejunior genius visionaries yeah everyone
+ could have imagined autonomous cars 50 years agoit's like a core but i don't drive it
+
+
+Speaker 0 :see i i have this sense
+ and i told you like i'm my long-term dreamis robots with which you have deep
+ with whom you have deep connections rightand there's different trajectories
+ towards that and i've been thinking so i've beenthinking of launching a startup
+ i see autonomous vehicles as a potential trajectory to that thati'm that's not where the direction i
+ would like to go but i also see tesla or even kamehameha likepivoting into
+ into robotics broadly defined that's at some stage in the way likeyou're mentioning the internet didn't
+ expect
+
+Speaker 1 :let's solve you know when i say a comma
+ about this we could talk about this but let's solve self-driving cars firstgot to stay focused on the mission don't
+ don't don't you're not too big to fail for however much i think kama's winninglike no no
+ no you're winning when you solve level five self-driving cars and until thenyou haven't win and
+ one and you know again you want to be arrogant in the face of other peoplegreat you want to be arrogant in the
+ face of nature you're an idiot right
+
+Speaker 0 :stay mission focused brilliantly put uh
+ like i mentioned thinking of launching a startup i'vebeen considering actually before
+ cove i've been thinking of moving to san francisco oh
+
+Speaker 1 :oh i wouldn't go there so why is uh
+
+
+Speaker 0 :okay well and now i'm thinking about
+ potentially austin um and we're in san diego now san diegocome here
+ so why what um i mean you're such an interesting humanyou've launched so many successful
+ things what uh why san diego what do yourecommend why not san francisco
+ have you thought so for in your case san diego with qualcomm and snapdragon imean
+ that's an amazing combination but that wasn't really why
+
+Speaker 1 :that wasn't the why no i mean qualcomm
+ was an afterthought qualcomm was it was a nice thing to think about it's likeyou can have
+ a tech company here and a good one i mean you know i like qualcomm but
+
+Speaker 0 :no um what's the west san diego better
+ than stephanie why does san francisco suck
+
+Speaker 1 :well so okay so first off we all kind of
+ said like we want to stay in california people like the ocean you knowcalifornia
+ for for its flaws it's like a lot of the flaws of california are not necessarilycalifornia as a whole and they're much
+ more san francisco specific yeah um san francisco so i think firstyear cities in general
+ have stopped wanting growth uh well you have like in san francisco youknow the voting class always votes to
+ not build more houses because they own all the houses and they're like wellyou know once people have figured out
+ how to vote themselves more money they're going to do itit is so insanely corrupt um it is not
+ balanced at all like political party-wise you know it'sit's a one-party city and
+
+
+Speaker 0 :for all the discussion of diversity it's
+ has it's stops lacking real diversity of thought of background of uhapproaches to strategies of yeah ideas
+ it's it's kind of a strange place that it's the loudestpeople about diversity and the biggest
+ lack of diversity
+
+Speaker 1 :well i mean that's that's what they say
+ right it's the projection
+
+Speaker 0 :projection yeah yeah it's interesting
+ and even people in silicon valley tell me that's uhlike high up people but everybody is
+ like this is a terrible place it doesn't
+
+Speaker 1 :make i mean and coronavirus is really
+ what killed it yeah san francisco was the number one uhexodus
+
+
+Speaker 0 :during coronavirus we still think san
+ diego is a good place to be
+
+Speaker 1 :yeah yeah i mean we'll see
+ we'll see what happens with california a bit longer term yeah i like austriansand austin's an interesting choice i
+ wouldn't i wouldn't i don't have really anything bad to say about austineither except for the extreme heat in
+ the summer um which you know but that's like very on the surface right i thinkas far as like an ecosystem
+ goes it's it's cool i personally love coloradocolorado uh yeah i mean you have these
+ states that are you know like just way better runum california is you know it's
+ especially san francisco so it's high horse and like
+
+Speaker 0 :yeah can i ask you for advice
+ to me and to others about what's it take to build a successful
+
+Speaker 1 :startup oh i don't know i haven't done
+ that talk to someone who did that well you
+
+Speaker 0 :know
+ uh this is like another book of years that i'll buy for 67i suppose uh so there's um
+
+
+Speaker 1 :one of these days will sell out yeah
+ that's right jail breaks are going to be a dollar and books are going to be 67.
+
+Speaker 0 :how i uh how i joe broke the iphone by
+ george cotts that's right
+
+Speaker 1 :how i jailbroke the iphone and you can
+
+
+Speaker 0 :do it
+ that's right that's right oh god okay i can't wait butquite so you haven't introspected you
+ have built a very unique company i meannot not you but you and others
+ but i don't know um there's no there's nothing you have an interest butyou haven't really sat down and thought
+ about like well like if you and i we're having abunch of we're having some beers
+ and you're seeing that i'm depressed and whatever i'm strugglingthere's no advice you can give oh i mean
+
+
+Speaker 1 :more beer more beer
+ yeah i think it's all very like situation dependentum here's okay if i can give a generic
+ piece of advice it's the technology always wins thebetter technology
+ always wins and lying always loses build technologyand don't lie i'm with you i agree very
+
+
+Speaker 0 :much
+ the long run long run sure it's the long
+
+Speaker 1 :run you know what the market can remain
+ irrational longer than you can remain solventtrue fact well this is this is an
+
+
+Speaker 0 :interesting point because i
+ ethically and just as a human believe that umlike sm like hype and smoke and mirrors
+ is not at any stage of the company is a good strategyi mean there's some like you know pr
+ magic kind of like you know you want a new product yeah if
+
+Speaker 1 :there's a call to action
+ if there's like a call to action like buy my new gpu look at it it takes upthree slots and it's this big it's huge
+ buy my g for you yeah
+
+Speaker 0 :that's great if you look at you know
+ especially in that in the ai space broadly but autonomous vehicleslike you can raise a huge amount of
+ money on nothing and the question to me is like i'magainst that i'll never be
+ part of that i don't think i hope not willingly not but like is theresomething to be said
+ to uh essentially lying to raise money like fake it till you make it kindof thing
+
+
+Speaker 1 :i mean this is billy mcfarland the fire
+ festival like we all we all experienced uh you know what happenswith that no
+ no don't fake it till you make it be honestand hope you make it the whole way the
+
+
+Speaker 0 :technology wins
+
+
+Speaker 1 :right the technology wins and like there
+ is i'm not i use like the anti-hype you know that'sthat's a slava kpss reference but
+ um hype isn't necessarily bad i loved camping out for the iphonesum you know and as long as the hype is
+ backed by like substance as long as it's backed bysomething i can actually
+ buy and like it's real then hype is great and it's a greatfeeling it's when the hype is backed by
+ lies that it's a bad feeling
+
+Speaker 0 :i mean a lot of people call elon musk a
+ fraud how could he be a fraud i've noticed this this kind ofinteresting effect which is
+ he does tend to over promise and deliver what's what's the better wayto phrase it
+ promise a timeline that he doesn't deliver on he delivers muchlater on what do you think about that
+ because i do that i think that's a programmer thingyeah i do that as well you think that's
+ a really bad thing to do or is that okay i think that's again as
+
+Speaker 1 :long as like
+ you're working toward it and you're gonna deliver on itit's not too far off right
+ right like like you know the whole the wholeautonomous vehicle thing it's like i
+ mean i still think tesla's on track to beat us i stillthink even with their even with their
+ missteps they have advantages we don't have umyou know illness is better than me at
+ at like marshaling massive amounts of resourcesso you know i still think given the fact
+ they're maybe making some wrong decisionsthey'll end up winning and like
+ it's fine to hype it if you're actually gonna winright if elon says look we're gonna be
+ landing rockets back on earth in a year and it takes fourlike you know he landed a rocket back on
+ earth and he was working toward it the wholetime i think there's some amount of like
+ i think when it becomes wrong is if you know you're not gonna meet that deadlineif you're lying yeah that's brilliantly
+
+
+Speaker 0 :put like
+ this is what people don't understand i thinklike elon believes everything he says he
+ does
+
+Speaker 1 :as far as i can tell he does and i i
+
+
+Speaker 0 :detected that
+ in myself too like if i it's only  ifyou're like conscious of yourself lying
+ yeah i think so yeah you know you can't
+
+Speaker 1 :take that to such an extreme
+ right like in a way i think maybe billy mcfarland believed everything he saidtoo
+
+
+Speaker 0 :right that's how you started cult and
+ everybody uh kills themselves
+
+Speaker 1 :yeah yeah like it's you need you need if
+ there's like some factor on it it's fine and you need somepeople to like
+ you know keep you in check but like if you deliver on most of the things yousay and just the timelines are off
+
+
+Speaker 0 :yeah it does piss people off though i
+ wonder but who cares in the long arc of historythe people
+ everybody gets pissed off at the people who succeed which isone of the things that frustrates me
+ about this world is uh they don't celebratethe success of others like
+ there's so many people that want elon to failit's so fascinating to me like what
+ is wrong with you like so elon musk talks about like people shortlike they talk about financial
+ yeah but i think it's much bigger than the financials i've seen like the humanfactors community they
+ want they want other people to fail why why why like even people theharshest thing is like
+ you know even people that like seem to really hate donald trumpthey want him to fail yeah or like the
+ other president or they want barack obama to fail it's like
+
+Speaker 1 :we're almost involved it's weird but i
+
+
+Speaker 0 :i want that i would love to inspire that
+ part of the world to change because well damn it if the humanspecies is going to survive we should
+ celebrate success like it seems like the efficient thingto do in this objective function that
+ like we're all striving for is to celebrate the ones that likefigure out how to like do better
+ at that objective function as opposed to like dragging them downback into them into the mud i think
+
+
+Speaker 1 :there is
+ this is the speech i always give about the commenters on hacker newsum so first off something to remember
+ about the internet in general is commenters are not representative ofthe population
+ yeah i don't comment on anything i don't you knowcommenters are are representative of a
+ certain sliver of the population and on hacker news a common thing i'llsay is when you'll see something that's
+ like you know promises to be wild out thereand
+ in innovative there is some amount of you know checking them back to earth butthere's also some amount of
+ if this thing succeeds well i'm 36 and i've worked at large techcompanies my whole life
+ they can't succeed because if they succeed that would mean that i couldhave done something different with my
+ life but we know that i couldn't have we knowthat i couldn't have and and that's why
+ they're going to fail and they have to root for them to failto kind of maintain their world image
+
+
+Speaker 0 :so tune it out and they comment well
+ it's hard i uh so one of the things one of the things i'm consideringstartup wise is to change that
+ because i think the i think it's also a technology problem it's a platformproblem i agree it's like
+ because the thing you said most people don't commenti think most people want to comment
+ they just don't because it's all the  for commenting exactly i don't
+
+Speaker 1 :want to be grouped in with that or not
+
+
+Speaker 0 :you don't want to be in a at a party
+ where everyone is an yeah so they but that's a platformproblem that's
+
+
+Speaker 1 :i can't believe what reddit's become i
+ can't believe the group think in reddit comments
+
+Speaker 0 :there's a red is an interesting one
+ because they're subreddits and so you can still see especiallysmall subreddits
+ that like that are little like havens of likejoy and positivity and like deep
+ even disagreement but like nuanced discussion but it's only like smalllittle pockets
+ but that's uh that's emergent the platform's not helping that orhurting that so i guess naturally
+ something about the internet uh if you don't put in a lot of effort toencourage
+ nuance and positive good vibes it's naturally going to decline into chaos
+
+Speaker 1 :i would love to see someone do this well
+ yeah um i think it's yeah very doable this is uh i think
+
+Speaker 0 :actually so
+ i i feel like twitter could be
+
+Speaker 1 :overthrown joshua bach talked about how
+ like uh if you have like and retweet likethat's only positive wiring right
+ the only way to do anything like negative thereis um with a comment and
+ that's like that asymmetry is what gives you know twitter its particulartoxicness
+ whereas i find youtube comments to be much better because youtube commentshave a have a
+ of an up and a down and they don't show the downloads
+
+Speaker 0 :without getting into depth of this
+ particular discussion the point is to explore possibilitiesand get a lot of data on it because uh
+ i mean i could disagree with what you just said it's it's uh the point is it'sunclear
+ it's a it hasn't been explored in a really rich waylike the these questions of how to
+ create platforms that encourage positivity yeahi think it's a it's a technology problem
+ and i think we'll look back at twitter as it is now maybe it'll happen withintwitter
+ but most likely somebody overthrows them iswe'll look back at twitter and say we
+ can't believe we put up with this level of toxicity you need a different
+
+Speaker 1 :business model too
+ any any social network that fundamentally has advertising as abusiness model
+ this was in the social dilemma which i didn't watch but i liked it it's likeyou know there's always the you know
+ you're the product you're not the uh but they had a nuanced take on it that ireally liked and it said
+ the product being sold is influence over youthe product being sold is literally your
+ you know influence on you likethat can't be if that's your idea okay
+ well you know guess what it cannot be toxic
+
+Speaker 0 :yeah
+ maybe there's ways to spin it like with with uh givinga lot more control to the user and
+ transparency to see what is happening to them as opposed toin the shadows as possible but that
+ can't be the primary source of but the users aren't no one's going to
+
+Speaker 1 :use that it depends
+
+
+Speaker 0 :it depends it depends i think i think
+
+
+Speaker 1 :that the you're
+ you're not going to you can't depend on self-awareness of the users
+
+Speaker 0 :it's a it's another it's a longer
+ discussion because uh you can't depend on it butyou can reward self-awareness
+ like if for the ones who are willing to put in the work of self-awarenessyou can reward them and incentivize and
+ perhaps be pleasantly surprised how many peopleare are willing to be self-aware on the
+ internet like we are in real life like i'mputting a lot of effort with you right
+ now being self-aware about if i saysomething stupid or mean
+ sure i'll like look at your like body language like i'm putting in that effortit's costly for an introvert it's very
+ costly but on the internet itlike most people are like i don't care
+ if if this hurts somebody i don't care if this uhis not interesting or if this is yeah
+ the mean or whatever
+
+Speaker 1 :i think so much of the engagement today
+ on the internet is so disingenuous too yeah you're not doing this out of agenuine this is what you think you're
+ doing this just straight up to manipulate others whether you're in youjust became an ad okay
+
+
+Speaker 0 :okay let's talk about a fun topic which
+ is programming here's another book idea for you let mepitch uh what's your uh perfect
+ programming setup so like this by george hotz souh like what listen you're
+
+
+Speaker 1 :giving me give me a macbook air sitting
+ in a corner of a hotel room and you know
+
+Speaker 0 :i'll still have so you really don't care
+ you don't fetishize like multiple monitorskeyboard
+
+
+Speaker 1 :uh those things are nice and i'm not
+ going to say no to them but do they automatically unlock tons ofproductivity no not at all i have
+ definitely been more productive on a macbook air in a corner of a hotel room
+
+Speaker 0 :what about ide
+ so uh which operating system do you love what uh text editor do youuse
+ ide what um is there is there something thatis like the perfect if you could just
+ say the perfect productivity set up for george hawks doesn't matterit doesn't doesn't matter
+
+
+Speaker 1 :it really doesn't matter you know i
+ guess i code most of the time in vim like literally i'm using an editor fromthe 70s you know you didn't
+ make anything better okay vs code is nice for reading code there's a fewthings that are nice about
+ it uh i think that they're you can build much better toolshow like ida's xrefs work way better
+ than vx vs codes why
+
+Speaker 0 :yeah actually that's a good question
+ like why i i still use sorry emacs eat for most uhi've actually know i have to confess
+ something dark cause i've never used bim yeahit's i think maybe i'm just afraid
+ that my life has been a like a waste [Laughter]i'm so i'm not i'm not evangelical about
+ emacs i
+
+Speaker 1 :i think this this is how i feel about
+ tender flow versus pie torch yeah having just like we've switchedeverything to pie torch now put months
+ into the switch i have felt like i've wasted years ontensorflow i can't believe it
+ i can't believe how much better pie torch is yeahi've used emacs and them doesn't matter
+
+
+Speaker 0 :yeah still just my heart
+ somehow i fell in love with lisp i don't know why you can'tthe heart wants what the heart wants i
+ don't i don't understand it but it just connected with me maybe it's thefunctional language at first i connected
+ with maybe it's because so many of the aicourses before the deep learning
+ revolution were taught with lisp in mind i don't know i don'tknow what it is but i'm i'm
+ stuck with it but at the same time like why am i not using a modern id for someof these programming like i don't know
+
+
+Speaker 1 :they're not that much better i've used
+ modernity to use them but at the same
+
+Speaker 0 :time so
+ to just not to disagree with you but like i like multiple monitorslike i've i have to do work on a laptop
+ and it's a it's a pain in the ass and alsoi'm addicted to the
+ kinesis weird keyboard that you could you could seeuh yeah so you don't have any of that
+ you can just be in a macbook
+
+Speaker 1 :i mean look at work i have three 24-inch
+ monitors i have a happy hacking keyboard i have arazer death header mouse like but it's
+
+
+Speaker 0 :not essential for you no
+ let's go to a day in the life of george hotz what is theperfect day productivity-wise so we're
+ not talking about like hunter s thompson uh drugs yeah and uhlet's let's look at productivity like
+ what what's the day look like on like hour byhour is there any
+ irregularities that create a magical george hawks experience
+
+Speaker 1 :i can remember three days in my life and
+ i remember these days vividly when i've gone through kind ofradical transformations to the way i
+ think and what i would give i would pay ahundred thousand dollars if i could have
+ one of these days tomorrow um the days have been so impactful andone was first discovering eliezer
+ yukowski on the singularity and reading that stuff and like you knowmy mind was blown
+ um the next was discovering uh the hutter price and then ai is justcompression
+ like finally understanding aix i and what all that wasyou know i like read about it when i was
+ 18 19 i didn't understand it and then the fact that like lossless compressionimplies intelligence
+ the day that i was shown that and then the third one is controversialthe day i found a blog called
+ unqualified reservations and uh read that and i was like
+
+Speaker 0 :wait which one is that that's uh what's
+ the guy's name curtis garvin yeah so many people tell me i'm supposedto talk to him
+ yeah but he looks he sounds insane or brilliantbut insane or both i don't know the day
+
+
+Speaker 1 :i found that blog was another like this
+ was during like like gamergate and kind of the run-up to the2016 election and i'm like
+ wow okay the world makes sense now this this like i had a framework now tointerpret this just like i got the
+ framework for ai and a framework to interpret technological progress likethose days when i discovered these new
+ frameworks were oh interesting it's just
+
+Speaker 0 :not about
+ but what was special about those days how did those days come to beis it just you got lucky like sure i
+ like well you just encounter hutter prize onuh on hack news or something like that
+ um like what but you see i don't think
+
+Speaker 1 :it's just
+ see i don't think it's just that like i could have gotten lucky at any point ithink that in a way
+
+
+Speaker 0 :you were ready at that moment yeah
+ exactly to receive the information but is there some magic to the day todayof like
+ like eating breakfast and it's the mundane thingsnah nothing no i drift i drift through
+
+
+Speaker 1 :life
+
+
+Speaker 0 :
+
+Speaker 1 :without structure i drift through life
+ hoping and praying that i will get another day like those days
+
+Speaker 0 :and there's nothing in particular you do
+ to uh to be a receptacle for another for day number four
+
+Speaker 1 :no i didn't do anything to get the other
+ ones so i don't think i have to really do anything now i took a month-long tripto new york and
+ i mean the ethereum thing was the highlight of it but the rest of it waspretty terrible
+ i did a two-week road trip and i got i had to turn around i had to turn aroundi'm driving in uh
+ in gunnison colorado i passed through gunnison and uhthe snow starts coming down this path up
+ there called monarch pass in order to get through to denver you gotta get overthe rockies
+ and i had to turn my car around i couldn't i watchedi watched a f-150 go off the road i'm
+ like i gotta go back and like that day was meaningful becauselike like it was real like i actually
+ had to turn my car around um it's rare that anything even realhappens in my life even as
+ you know mundane is the fact that yeah there was snowi had to turn around stay in gunnison
+ and leave the next day something about
+
+Speaker 0 :that moment for
+ real okay so actually it's interesting to break apart the three moments youmentioned
+ if it's okay so uh i always have trouble pronouncing his name butallows yakowski yeah
+ so what how did your world view change in starting toconsider
+ the the exponential growth of ai and agi thathe thinks about and the the the threats
+ of artificial intelligence and all that kind of ideas likecan you is it j like can you maybe uh
+ break apart like what exactly was so magical to use atransformational experience
+
+
+Speaker 1 :today everyone knows him for threats and
+ ai safety um this was pre that stuff there was i don't think amention of ai safety on the page
+ um this is this is old yukowski stuff he'd probably denounce it all now he'dprobably be like that's exactly what i
+ didn't want to happen well sorry man
+
+Speaker 0 :is there something specific you can take
+ from his work that you can remember
+
+Speaker 1 :yeah uh it was this realization that
+ uh computers double in power every 18 monthsand humans do not and they haven't
+ crossed yet but if you have one thing that'sdoubling every 18 months and one thing
+ that's staying like this you know here's your log graph here'syour line
+ you know you calculate that
+
+Speaker 0 :and that did that open the door to the
+ exponential thinking like thinking that like you know whatwith technology we can actually
+ transformed the world
+
+Speaker 1 :it opened the door to human obsolescence
+ it opened the door to realize that in my lifetimehumans are going to be replaced
+
+
+Speaker 0 :and then the matching idea to that of
+ artificial intelligence with the hutter prizeyou know i'm torn i go back and forth on
+ what i think about it yeah but the the the basic thesisis it's nice to com it's a nice
+ compelling notion that we can reduce the task of creating anintelligent system a general
+ intelligence system into the task of compression so you canthink of all of intelligence in the
+ universe in fact as a kind of compressiondo you find that was that just at the
+ time you found that as a compelling idea do you still find that
+
+Speaker 1 :a compelling idea i still find that
+ compelling idea um i think that it's not that useful dayto day
+ but actually um one of maybe my quests before that was a search for thedefinition of the word intelligence
+ and i never had one and i definitely have a definition of the wordcompression
+ it's a very uh simple uh straightforward oneand uh you know what confession is you
+ know what lossless is lossless compassion not lossy losslesscompression
+ and that that is equivalent to intelligence which i believei'm not sure how useful that definition
+ is day to day but like i now have a framework to understand what it is
+
+Speaker 0 :and he just 10x 10xed the uh the prize
+ for that competition like recently a few months agoyou ever thought of taking a crack at
+
+
+Speaker 1 :that oh i did
+ oh i did i spent i spent the next after i found the prize i spent the nextsix months of my life trying it and uh
+ well that's when i started learning everything aboutai and then i worked vicarious for a bit
+ and then i learned read all the deep learning stuff and i'mlike okay now i like i'm called up to
+ modern ai wow and i had i had a really goodframework to put it all in from the
+ compression stuff right like some of the first uh some ofthe first deep learning models i played
+ with were uh like gpt basically but beforetransformers before it was still
+ uh rnn's to to do uh character prediction but by the way on
+
+Speaker 0 :the compression side
+ i mean the especially neural networks what do you make of the losslessrequirement with the hudder prize so
+ you know human intelligence and neural networks can probably compressstuff pretty well but it would be lossy
+ it's imperfect
+
+Speaker 1 :uh you can turn a lossy compressor into
+ a lossless compressor pretty easily using an arithmetic encoder right youcan take an arithmetic encoder
+ and you can just encode the noise with maximum efficiencyright so even if you can't predict
+ exactly what the next character is the better a probability distributionyou can put over the next character
+ you can then use an arithmetic encoder to uh right you don't have to knowwhether it's an e or an i
+ you just have to put good probabilities on them and then you know code thoseand if you have it's a bits of entropy
+ thing right
+
+Speaker 0 :so let me on that topic could be
+ interesting as a little side tour what are your thoughts in this yearabout gpt3
+ and these language models and these transformers is there somethinginteresting
+ to you as an ai researcher or is there something interesting to youas an autonomous vehicle developer nah i
+
+
+Speaker 1 :think uh
+ i think it's overhyped i mean it's not like it's cool it's cool for what it isbut no
+ we're not just going to be able to scale up to gpg 12 and getgeneral-purpose intelligence like your
+ loss function is literally just you know you knowcross-entropy loss on the character
+ right like that's not the loss function of general intelligence
+
+Speaker 0 :is that obvious to you yes can you
+ imagine that like to play devil's advocate onyourself is it
+ possible that you can the gpt-12 will achieve general intelligencewith something as dumb as this kind of
+ loss function
+
+Speaker 1 :i guess it depends what you mean by
+ general intelligence so there's another problem with the gptsand that's that they don't have
+ a uh they don't have long-term memory right right so like justgpt 12 a scaled up version of gpt two or
+ three i find it hard to believe
+
+Speaker 0 :well you can scale it in it's yeah so
+ it's a hardcore hard-coded length but you can make itwider and wider and wider yeah
+
+
+Speaker 1 :you're gonna get you're gonna get cool
+ things from those systems but i i don't think you're ever gonnaget something that can like
+ you know build me a rocket ship what
+
+Speaker 0 :about solve driving
+ so you know you can use transformer with video for exampleyou think is there something in there no
+
+
+Speaker 1 :because
+ hey look we use we as a group we use a group we could change that group out toa transformer
+ um i think driving is much more markovian than language
+
+Speaker 0 :so markov you mean like the memory which
+ which aspect of uh
+
+Speaker 1 :i mean that like most of the information
+ in the state at t minus one is also in the in is in statet yeah right and it kind of like drops
+ off nicely like this where sometime withlanguage you have to refer back to the
+ third paragraph on the second page i feel like there's not many like likeyou can say like speed limit signs but
+ there's really not many things in autonomous driving that look like that
+
+Speaker 0 :but if you look at uh to play devil's
+ advocate is uh the risk estimation thing thatyou've talked about it's kind of
+ interesting is uh it feels like there might be somelonger term
+ uh aggregation of context necessary to be able to figure out likethe context yeah i'm not even sure i'm
+ i'm believing my my own devil's we have
+
+Speaker 1 :a nice we have a nice like vision model
+ which outputs like a a one two four dimensional perceptionspace um
+ can i try transformers on it sure i probably willat some point we'll try transformers and
+ then we'll just see do they do better sure
+
+Speaker 0 :i'm well it might not be a game changer
+
+
+Speaker 1 :no well i'm not like like
+ might transformers work better than grooves for autonomous driving suremight we switch sure is this some
+ radical change no okay we use a slightly different youknow we switch from rnns to grooves
+ like okay maybe it's greased to transformers but no it's not
+
+Speaker 0 :yeah i well on the on the topic of
+ general intelligence i don't know how much i've talked to you about itlike what um
+ do you think will actually build an agi like if if you look at ray kurzweil witha singularity do
+ you have like an intuition about you're kind of saying driving is easyyeah and i
+ i tend to personally believe that solving drivingwill have really deep important
+ impacts on our ability to solve general intelligencelike i i think driving doesn't require
+ general intelligence but i think they're going to beneighbors in a way that it's like deeply
+ tied because it's so like driving is sodeeply connected to the human experience
+ that i think solving one will help solve the otherbut but so i don't see i don't see
+ driving is like easy and almost like separate thangeneral intelligence but like what's
+ your vision of a future with a singular doyou see there'll be a single moment like
+ a singularity where it'll be a phase shiftare we in the singularity now like what
+ do you have crazy ideas about the future in terms of
+
+Speaker 1 :agi we're definitely in the singularity
+ now um we are coolers of course look at the bandwidthbetween people the bandwidth between
+ people goes up all right um the singularity is just youknow when the bandwidth but
+
+
+Speaker 0 :what do you mean by the bandwidth of the
+
+
+Speaker 1 :people communications tools the whole
+ world is networked the whole world is networked and weraise the speed of that network right
+
+
+Speaker 0 :oh so you think the communication of
+ information in a distributed way is a empowering thingfor collective intelligence
+
+
+Speaker 1 :oh i didn't say it's necessarily a good
+ thing but i think that's like when i think of the definition of thesingularity yeah it seems kind of right
+
+
+Speaker 0 :i see like it's a change in the world
+ beyond which like the world be transformed in waysthat we can't possibly imagine no i mean
+
+
+Speaker 1 :i think we're in the singularity now in
+ the sense that there's like you know one world and a monoculture and it's alsolinked
+ yeah i mean i i kind of shared the
+
+Speaker 0 :intuition that
+ the the singularity will originate from the collective intelligenceof us ants versus the like some single
+ system agi type thing oh i totally agree with that
+
+Speaker 1 :yeah i don't i don't really believe in
+ like like a hard take off agi kind of thingum yeah i don't think i don't even think
+ ai is all that different in kind from what we've already beenbuilding
+ um with respect to driving i think driving is a subset of generalintelligence and i think it's a pretty
+ complete subset i think the tools we develop at commawill also be extremely helpful
+ to solving general intelligence and that's i think the real reason why i'mdoing it
+ i don't care about self-driving cars it's a cool problem to beat people at
+
+Speaker 0 :but yeah i mean yeah you're kind of
+ you're of two minds so one you do have to have a mission andyou want to focus and make sure you
+ get you get there you can't forget that butat the same time there is a thread
+ that's much bigger than uh the connects the entiretyof your effort that's much bigger than
+ just driving
+
+Speaker 1 :with ai and with general intelligence it
+ is so easy to delude yourself into thinking you've figured somethingout when you haven't if we build a level
+ 5 self-driving car we have indisputably built somethingyeah
+ is it general intelligence i'm not going to debate that i will say we've builtsomething
+ that provides huge financial value yeah
+
+Speaker 0 :beautifully put that's the engineering
+ credo like just just build the thing it's like that's why i'm with uh withthe with elon on uh
+ go to mars yeah that's a great one you can argue likewho the hell cares about going to mars
+ but the reality is set that as a mission get it done yeahand then you're going to crack some pro
+ problem that you've never even expected in the process of doing that yeah
+
+Speaker 1 :yeah i mean no i think if i had a choice
+ between humanity going to mars and solving self-driving cars i think goingto mars is uh
+ better but i don't know i'm more suited for self-driving cars i'm an informationguy i'm not a modernist i'm a
+ postmodernist
+
+Speaker 0 :post modernist all right beautifully put
+ let me let me drag you back to programming for a sec whatthree maybe three to five programming
+ languages should people learn do you think like if you look atyourself what did you get the most out
+ of from learning uh well so everybody
+
+Speaker 1 :should learn
+ c and assembly we'll start with those two right assemblyyeah if you can't code in assembly you
+ don't know what the computer's doing you don't understand like you don't haveto be great in assembly but you have to
+ code in it and then like you have to appreciate assembly in order toappreciate all the great things c
+ gets you and then you have to code and see in order to appreciate all the greatthings python gets you
+ so i'll just say assembly c and python we'll start with those three
+
+Speaker 0 :the memory allocation of of c and the
+ the the fact that so assemblies give you a sense of just how many levels ofabstraction
+ you get to work on in modern day programs yeah yeah graph coloring for
+
+Speaker 1 :assignment register assignment and
+ compilers yeah like you know you got to do you know the compiler your computeronly has a certain number of registers
+ you can have all the variables you want a cfunction you know so you get to start
+
+
+Speaker 0 :your build intuition about
+ compilation like what a compiler gets you
+
+Speaker 1 :what else um well then there's then
+ there's kind of uh so those are all very imperativeprogramming languages um
+ then there's two other paradigms for programming that everybody should befamiliar with
+ i'm one of them is functional uh you should learn haskell and take that allthe way through
+ learn a language with dependent types likelearn that whole space like the very pl
+ theory heavy languages and haskell is your
+
+Speaker 0 :favorite functional
+ what is that the go-to you would say
+
+Speaker 1 :yeah i'm not a great haskell programmer
+ i wrote a compiler in haskell once there'sanother paradigm and actually there's
+ one more paradigm that i'll even talk aboutafter that that i never used to talk
+ about when i would think about this but the next paradigm is learn verilog ofhdl
+ um understand this idea of all of the instructions execute at onceif i have a block in verilog and i write
+ stuff in it it's not sequential they all execute itonce
+ and then like think like that that's how hardware works
+
+Speaker 0 :to be so i guess assembly doesn't quite
+ get you that assembly's more about compilation andverilog is more about the hardware
+ like giving a sense of what actually is the hardware is doing
+
+Speaker 1 :assembly c python are straight like they
+ sit right on top of each other in fact c is well let's see it's kind of coded inc but you could imagine the first c was
+ coded in assembly and python is actually coded in cum so you know you can straight up go on
+ that
+
+Speaker 0 :got it and then verilog gives you that's
+ brilliant
+
+Speaker 1 :okay and then i think there's another
+ one now everyone should carpathi calls it programming 2.0which is learn a i'm not even gonna
+ don't learn tensorflow learn pi torch so
+
+Speaker 0 :machine learning
+ we've got to come up with a better term than programming 2.0 or um
+
+Speaker 1 :but yeah it's a programming language
+
+
+Speaker 0 :i wonder if it could be formalized a
+ little bit better which we feels like we're in the early daysof what that actually entails
+
+
+Speaker 1 :data-driven programming
+
+
+Speaker 0 :data-driven programming yeah but it's so
+ fundamentally different as a paradigm than the others uh like it almostrequires a different skill set
+ but you think it's still yeah and ply torch versus tensorflow pytorchwins it's the fourth paradigm it's the
+
+
+Speaker 1 :fourth paradigm that i've kind of seen
+ there's like this you know imperative functional hardware i don't know abetter word for it
+
+
+Speaker 0 :and then ml do you have advice
+ for people uh that want to you know get into programming want to learnprogramming you have a
+ a video uh what is programming new blessings exclamation pointand i think the top comment is like
+ warning this is not for noobs uh do you have a noob like uhtldw for that video but also uh
+ a new but friendly advice on how to get into programming you are
+
+Speaker 1 :never going to learn programming by
+ watching a video called learn programming the only way tolearn programming i think and the only
+ one is the only way everyone i've ever met who can programwell learned it all in the same way they
+ had something they wanted to do and then they tried to do it and thenthey were like
+ oh well okay this is kind of you know be nice if the computer could kind of dothis thing and then
+ you know that's how you learn you just keep pushing on a projectum so the only advice i have for
+ learning programming is go program
+
+Speaker 0 :somebody wrote to me a question like we
+ don't really they're looking to learn about recurringneural networks
+ he's saying like my company is thinking of doing recruit using recurring neuralnetworks for time series data
+ but we don't really have an idea of where to use it yetwe just want to like do you have any
+ advice on how to learn about these are these kind of general machinelearning questions and i think
+ the answer is like actually have a problem that you're trying tosolve and and just i see that stuff oh
+
+
+Speaker 1 :my god when people talk like that
+ they're like i heard machine learning's importantcould you help us integrate machine
+ learning with macaroni and cheese productionyou just i don't even you can't help
+ these people like who lets you run anything who lets that kind of personrun anything
+
+
+Speaker 0 :i think we're we're all um we're all
+ beginners at some point so it's not like they're a beginner it's
+
+Speaker 1 :it's like
+ my problem is not that they don't know about machine learning my problem isthat they think that
+ machine learning has something to say about macaroni and cheese productionor like i heard about this new
+ technology how can i use it for why like i don't know what it is but how cani use it for why
+
+
+Speaker 0 :that's true you have to build up an
+ intuition of how because you might be able to figure out a way butlike the prerequisites you should have a
+ macaroni and cheese problem to solve firstexactly and then two you should
+ have more traditional like in the learning process should involvemore traditionally applicable problems
+ in the space of whatever that is of machine learningand then see if it could be applied to
+
+
+Speaker 1 :background at least start with tell me
+ about a problem like if you have a problem you're likeyou know some of my boxes aren't getting
+ enough macaroni in them um can we use machine learning to solvethis problem that's
+ much much better than how do i apply machine learning to macaroni and cheese
+
+Speaker 0 :one big thing maybe this is me uh
+ talking to the audience a little bit because i get these daysso many messages a device on how to like
+ learn stuff okay my this this this is not me being mean ithink this is quite a profound actually
+ is you should google it oh yeah like one of the uhlike skills that you should really
+ acquire as an engineer as a researcher as a thinker like onethere's two
+ two complementary skills like one is with a blank sheet of paper with nointernet to think deeply
+ and then the other is to google the crap out of the questions you have likethat's actually a skill i
+ don't people often talk about but like doing research like pulling at thethread like looking up different words
+ going into like github repositories with two stars andlike looking how they did stuff like
+ looking at the code or going on twitter seeing like there's little pockets ofbrilliant people that are like having
+ discussions like if you're a neuroscientist go intosignal processing community if you're an
+ ai person going into the psychology community like like switchcommunities that keep searching
+ searching searching because it's so much betterto invest in like finding somebody else
+ who already solved your problem than than this to try to solve theproblem and because they've
+ often invested years of their life like entire communitiesare probably already out there who have
+ tried to solve your problem
+
+Speaker 1 :i think they're the same thing i think
+ you go try to solve the problem and then in trying to solve the problemif you're good at solving problems
+ you'll stumble upon the person who solved it already yeah
+
+Speaker 0 :but the stumbling is really important i
+ think that's a skill that people should really approach especially in undergradlike search if you ask me a question how
+ should i get started in deep learning like especiallylike that is just so google like
+ the whole point is you google that and you get a million pagesand just start looking at them yeah
+ start pulling at the thread start exploring start taking notes startgetting it
+ advice from a million people that already like spent theirlife answering that question actually oh
+
+
+Speaker 1 :well yeah i mean that's definitely also
+ yeah when people like ask me things like that i'm like trust me the top answer ongoogle is much much better than anything
+ i'm going to tell you
+
+Speaker 0 :right yeah people ask
+ it's an interesting question let me know if you have any recommendations whatthree books
+ technical or fiction or philosophical had an impacton your life or you would recommend
+ perhaps uh
+
+Speaker 1 :maybe we'll start with the least
+ controversial uh infinite jest um infinite jest is a
+
+Speaker 0 :david foster wallace yeah it's a book
+
+
+Speaker 1 :about wireheading really
+ very enjoyable to read very uh well-writtenyou know you will you will you will grow
+ as a person reading this book uh it's effort um and i'll set that upfor the second book which is pornography
+ it's called atlas shrugged um uh which um atlas drug is pornography
+
+Speaker 0 :
+
+Speaker 1 :i mean it is i will not i will not
+ defend the i will not say atlas shrugged is a well-written bookit is entertaining to read certainly
+ just like pornography the production value isn't great um youknow there's a 60-page
+ monologue in there that ann rand's editor really wanted to take outand she uh paid she paid out of her
+ pocket to keep that 60 page monologue in the bookum but it is a great book for a kind of
+ framework um of human relations and i know a lot of people are like yeahbut it's a terrible framework
+ yeah but it's a framework just for
+
+Speaker 0 :context
+ in a couple days i'm speaking with for uhprobably four plus hours with euron
+ brook who's the main living remaining objectivistsobjectivist interesting uh so
+ i've always found this philosophy quite interesting on many levels one of howrepulsive
+ some percent of large percent of the population find itwhich is always uh always funny to me
+ when people are like unable to even read aphilosophy
+ because uh of some i think that says more about their psychologicalperspective on it
+ yeah but but there is something about objectivism and iran's philosophy that'svery deeply connected to this idea of
+ capitalism of uh the ethical life is the productivelife
+ um that was always um compelling to me it didn't seem as likei didn't seem to interpret it in the
+ negative sense that some people do
+
+Speaker 1 :to be fair i read that book when i was
+ 19. so you had an impact at that point
+
+Speaker 0 :yeah
+
+
+Speaker 1 :yeah and the the bad guys in the book
+ have this slogan from each according to their ability to each according to theirneed
+ and i'm looking at this and i'm like these are the most cards this is teamrocket level cartoonishness
+ right no bad guy and then when i realized that was actually the slogan ofthe communist party
+ i'm like wait a second wait no no no no no just you're telling me this reallyhappened yeah it's interesting i mean
+
+
+Speaker 0 :one of the criticisms of her work is she
+ has a cartoonish view of good and evil likethat there's like the the reality isn't
+ jordan peterson says this is that each of us have the capacity forgood and evil in us as opposed to like
+ there's some characters who are purely evil and some characters are purely goodand that's in a way why it's
+
+
+Speaker 1 :pornographic
+
+
+Speaker 0 :the production value i love it well evil
+
+
+Speaker 1 :is punished and there's very clearly
+ you know there's no there's no you know uh just like porn doesn't have uh youknow like character growth well you know
+ neither does alex shrugged like
+
+Speaker 0 :brilliant well put but as a 19 year old
+ george cotts it was it was good enough yeah yeah what uhwhat's the third
+
+
+Speaker 1 :you have something um i i could give
+ these these two i'll just throw out uh there's sci-fi uh permutation cityum great things to start thinking about
+ copies of yourself and then um that is uh greg eganuh he's uh that might not be his real
+ name some australian guy might not be australiani don't know um and then this one's
+ online it's called the metamorphosis of prime intellectum it's a story set in a
+ post-singularity world it's interesting
+
+Speaker 0 :is there uh can you if either of the
+ worlds do you find something uh philosophy interesting in them that youcan comment on
+
+
+Speaker 1 :i mean it is clear to me that uh
+ metamorphosis prime intellect is like written byan engineer uh which is
+ it's very it's very almost a pragmatic take on a utopia in a way
+
+Speaker 0 :positive or negative well that's up to
+
+
+Speaker 1 :you to decide reading the book
+ and the ending of it is very interesting as well and i didn't realize what it wasi first read that when i was 15. i've
+ reread that book several times in my lifeand it's sure it's 50 pages everyone
+ should go read it
+
+Speaker 0 :what's uh sorry this is a little tangent
+ i've been working through the foundation i've been i've haven't read much sci-fimy whole life and i'm trying to fix that
+ the last few months that's been a little side projectwhat's uh to use the greatest sci-fi
+ novel uh that uh people should read or is thator
+
+
+Speaker 1 :i mean i would yeah i would i would say
+ like yeah permutation city metamorphosis environmental i got itum i don't know i i didn't like
+ foundation uh i thought it was way too modernist
+
+Speaker 0 :i feel like dune i've never read dune
+
+
+Speaker 1 :i've never read dune i have to read it
+ uh fire upon the deep is interesting uhokay i mean look everyone should read
+ everyone's reading romance everyone should read snow crashif you haven't read those like start
+ there um yeah i haven't read snow questionsyeah no it means very entertaining go to
+ lecture bach and if you want the controversial onebronze age mindset
+
+
+Speaker 0 :all right i'll look into that one those
+
+
+Speaker 1 :aren't sci-fi
+ but just to round out books so
+
+Speaker 0 :a bunch of people asked me on twitter
+ and read it and so on for advice so what advice would you give a youngperson today about life
+
+
+Speaker 1 :another way
+
+
+Speaker 0 :what uh yeah i mean looking back
+ especially when you're young younger you did and you continuedit
+ you've accomplished a lot of interesting thingsis there some advice from those
+
+
+Speaker 1 :
+
+Speaker 0 :i'm that life of yours that you can pass
+
+
+Speaker 1 :on if college ever opens again i would
+ love to give a graduation speech um at that point i will put a lot ofsomewhat satirical effort into this
+ question
+
+Speaker 0 :yeah at this you haven't written
+ anything at this point
+
+Speaker 1 :oh you know what always wear sunscreen
+ this is water
+
+Speaker 0 :like you're plagiarizing i mean you know
+
+
+Speaker 1 :but that's the that's the like clean
+ your room you know yeah you can play drugs fromfrom all this stuff and it's it's
+ there is no self-help books aren't designed to help you they're designed tomake you feel good
+ like whatever advice i could give you already knoweveryone already knows sorry it doesn't
+ feel good
+
+Speaker 0 :
+
+Speaker 1 :right like you know you know what what
+ if if i tell you that you should you knoweat well and and and read more and
+ it's not gonna do anything i think the whole like genre of those kind ofquestions is
+ is is meaningless i don't know if anythingit's don't worry so much about that
+ stuff don't be so caught up in your head
+
+Speaker 0 :right i mean you're yeah in the sense
+ that your whole life is your whole existence is like movingversion of that advice
+ i don't know yeah there's there's something i mean there'ssomething in you that resists that kind
+ of thinking and that in itself is it's just illustrative of uhwho you are and there's something to
+ learn from that i think you're you're clearly notoverthinking stuff
+
+
+Speaker 1 :yeah and you know it's a gut thing i
+ even when i talk about my advice i'm like my advice is only relevant to meit's not relevant to anybody else i'm
+ not saying you should go out if you're the kind of person who overthinks thingsto stop overthinking things it's not bad
+ it doesn't work for me maybe it works for you i you know i don't know
+
+Speaker 0 :let me ask you about love yeah
+ uh so i think last time we talked about the meaning of lifeand it was it was kind of about winning
+ of course uh i don't think i've talked to you aboutlove much whether romantic or just love
+ for the common humanity amongst us all whatrole has love played in your life in
+ this in this quest for winning where doeslove fit in
+
+
+Speaker 1 :well the word love i think means uh
+ several different things there's uh love in the sense of maybe i couldjust say there's like love in the sense
+ of opiates and love in the sense of uh oxytocin and then love in the senseof
+ maybe like a love for math i don't think fits into either those first twoparadigms
+
+
+Speaker 0 :uh so each of those have they uh
+ have they have they given something to youin your life i'm not that big of a fan
+
+
+Speaker 1 :of the first two
+ um what
+
+Speaker 0 :
+
+Speaker 1 :the same reason i'm not a fan of you
+ know the same reason i don't do opiates and don't take ecstasyright
+ and there were times look i've tried both umi like opiates way more than i liked
+ ecstasy uh but they're not the ethical life is the productive lifeso maybe that's
+ my problem with with those and then like yeah a sense ofi don't know like abstract love for
+ humanity i mean the abstract love for humanityi'm like yeah i've always
+ felt that and i guess it's hard for me to imagine not feeling it and maybethere's people who don't and
+
+
+Speaker 0 :i don't know but yeah that's just like a
+ background thing that's there i mean since we brought up uh drugs letme ask you
+ this is becoming more and more part of my life because i'm talking a fewresearchers that are working on
+ psychedelics i've eaten shrooms a couple times and itwas
+ fascinating to me that like the mind can golike it's fascinating the mine can go to
+ places i didn't imagine it could go and it wasvery friendly and and positive and
+ exciting and everything was kind of hilarious in thein the place wherever my mind went
+ that's where i went is uh what do you think aboutpsychedelics do you think they have
+ where do you think the mind goes have you done psychedelicswhere do you think the mind goes uh is
+ there something useful to learn about the places it goesonce you come back you know i find it
+
+
+Speaker 1 :interesting
+ that this idea that psychedelics have something to teachis almost unique to psychedelics right
+ people don't argue this about amphetamines and
+
+Speaker 0 :
+
+Speaker 1 :that's true and i'm not really sure why
+ yeah i think all of the drugs have lessons to teach ithink there's things to learn from
+ opiates i think there's things to learn from amphetamines i think there's thingsto learn from psychedelics things to
+ learn from marijuana um but also at the same timerecognize that i don't think you're
+ learning things about the world i think you're learning things about yourselfyes um and you know what's the
+ even though it might have even been uh might have been a timothy leary quote idon't want to miss about him but the
+ idea is basically like you know everybody should look behindthe door but then once you've seen
+ behind the door you don't need to keep going backum so i mean and that's my thoughts on
+ on all real drug use too except maybe for caffeine it's a it's a
+
+Speaker 0 :little experience
+ that uh it's good to have but oh yeah no
+
+Speaker 1 :i mean
+ yeah i guess yeah psychedelics are definitely um
+
+Speaker 0 :so you're a fan of new experiences i
+ suppose yes because they all contain a little especially the firstfew times it contains some lessons that
+ could be picked up
+
+Speaker 1 :yeah and i'll i'll revisit psychedelics
+ maybe once a year um usually small smaller dosesmaybe they turn up the learning rate of
+ your brain i've heard that
+
+Speaker 0 :i like that yeah that's cool big
+
+
+Speaker 1 :learning rates have pros and cons
+
+
+Speaker 0 :last question this is a little weird one
+ but you've called yourself crazy in the past uhfirst of all on a scale of one to ten
+ how crazy would you say
+
+Speaker 1 :are you oh i mean it depends how you you
+ know when you compare me to elon musk and anthony lewandowski not so crazy
+
+Speaker 0 :so like like a seven let's go with six
+
+
+Speaker 1 :
+
+Speaker 0 :six yes six what uh
+
+
+Speaker 1 :well like seven seven's a good number
+
+
+Speaker 0 :seven sorry well yeah i'm sure
+ day by day changes right so but you're in thatin that area what uh
+ in thinking about that what do you think is the role of madnessis that a feature or a bug if you were
+ to uh dissect your
+
+Speaker 1 :brain so okay from like a
+ like mental health lens on crazy i'm not sure i really believe in thati'm not sure i really believe in like
+ a lot of that stuff right this concept ofokay you know when you get over to like
+ like like like hardcore bipolar and schizophrenia thesethings are clearly
+ real somewhat biological and then over here on the spectrum you have likea dd and oppositional defiance disorder
+ and these things that are like wait this isnormal spectrum human behavior like this
+ isn't you know where's the the line here andwhy is this like a
+ problem so there's this whole this you know the neurodiversity of humanity ishuge like people think i'm always on
+ drugs people are saying this to me on my streams and like guys you know like i'mreal open with my drug use i'd tell you
+ if i was on drugs yeah i had like a cup of coffee thismorning but other than that this is just
+ me
+
+Speaker 0 :you're witnessing my brain and action
+ so so the word madness doesn't even uh make sense and then you're in the richneurodiversity of
+
+
+Speaker 1 :humans i think it makes sense but only
+ for like some insane extremes like if youare
+ actually like visibly hallucinating um you know that's okay but there is the
+
+Speaker 0 :kind of spectrum on which you stand out
+ like that that's uh like if i were to look you know at decorations on achristmas tree or something like that
+ like if you were a decoration out that would catch my eye likethat thing is sparkly
+ whatever the hell that thing is uh there's something to thatjust like refusing to be um
+ boring or maybe boring is the wrong word but to umyeah i mean be willing to sparkle
+
+
+Speaker 1 :you know it's it's like somewhat
+ constructed i mean i am who i choose to be uhi'm gonna say things as true as i can
+ see them i'm not gonna i'm not gonna
+
+Speaker 0 :lie and but that's a really important
+ feature in itself so like whatever the neurodiversity of yourwhatever your brain is not putting um
+ constraints on it that force it to to fit into the mold of what society islike
+ defines what you're supposed to be so you're one of the specimens thatthat doesn't mind being yourself
+
+
+Speaker 1 :being right is super important
+ except at the expense of being wrong
+
+Speaker 0 :without breaking that apart i think it's
+ a beautiful way to end it and george you're one of the most special humans iknow it's truly an honor to talk to you
+ thanks so much for doing it thank you
+
+Speaker 1 :for having me
+
+

@@ -1,0 +1,977 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ Rajat manga he's an engineering director of Google leading the tensorflow teamtensorflow
+ is an open source library at the center of much of the work going on in theworld and deep learning both the cutting
+ edge research and the large-scale application of learning based approachesbut is quickly becoming much more than a
+ software library it's now an ecosystem of tools for the deployment of machinelearning in the cloud on the phone in
+ the browser on both generic and specialized hardware tbu GPU and so onplus there's a big emphasis on growing a
+ passionate community of developers Raja Jeff Dean and a large team of engineers
+
+0:00:39
+Speaker 0 :
+
+0:00:40
+Speaker 1 :at Google brain are working to define
+ the future of machine learning with tensorflow2.0 which is now in alpha I think the
+ decision to open-source tensorflow is a definitive moment in the tech industryit showed that open innovation can be
+ successful and inspire many companies to open-source their code to publish and ingeneral engage in the open exchange of
+ ideas this conversation is part of the artificial intelligence podcast if youenjoy it
+ subscribe on youtube itunes or simply connect with me on Twitter at LexFriedman spelled Fri D and now here's my
+
+
+0:01:15
+Speaker 0 :conversation with Roger manga
+
+
+0:01:16
+Speaker 1 :you were involved with Google brain
+ since its start in 2011 with Jeff Dean it started with this belief theproprietary machine learning library and
+ turn into tensorflow in 2014 the open source library so what were the earlydays of Google brain like what were the
+ goals the missions how do you even proceed forward once there's so muchpossibilities before you
+
+
+0:01:47
+Speaker 0 :it was interesting back then you know
+ when I started or I needed you even just talking about it the idea of deeplearning was interesting and intriguing
+ in some ways it hadn't yet taken off but it held some promise that had shown somevery promising and early results
+ I think that the idea where Andrew and Jeff had started was what if we can takethis what people are doing in research
+ and scale it to what Google has in terms of the compute power and also put thatkind of data together what does it mean
+ and so far the results had been if you scale the compute scale the data it doesbetter and would that work and so that
+ that was the first year or two can we prove that outright and with disbeliefand we started the first year we got
+ some early wins which which is always great
+
+0:02:40
+Speaker 1 :what were the ones like what was the
+ ones where you were there's some problems to this this is gonna be good I
+
+0:02:46
+Speaker 0 :think they're too early wins were one
+ was speech that we collaborated very closely with the speech research teamwho was also getting interested in this
+ and the other one was on images where we you know the cat paper as we call itthat was covered by a lot of folks and
+
+
+0:03:02
+Speaker 1 :the birth of Google brain was around
+ neural networks that was so who was declaring from the very beginning thatthat was the whole mission so what would
+ in terms of scale what was the sort of dream of what this could become likewhat were there echoes of this
+ open-source tensorflow community that might be brought in was there a sense ofTP use was there a sense of like machine
+ learning is not going to be at the core the entire company is going to grow intothat direction
+
+
+0:03:35
+Speaker 0 :yeah I think so that was interesting in
+ like if I think back to 2012 or 2011 and first was can we scale it in in the yearor so we had started scaling it to
+ hundreds and thousands of machines in fact we had some runs even going to10,000 machines and all of those shows
+ great promise in terms of machine learning at CoCo the good thing wasGoogle's been doing machine learning for
+ a long time deep learning was new but as we scale this up pretty sure that yesthat was possible and it was going to
+ impact lots of things we started seeing real products wantingto use this again speech was the first
+ there were image things that photos came out of in many other products as well sothat was exciting as we went into with
+ that a couple of years externally also academia started to you know there waslots of push on okay deep learning is
+ interesting we should be doing more and so on and so by 2014 we were looking atokay this is a big thing it's gonna grow
+ and not just internally externally as well yes maybe Google's ahead of whereeverybody is but there's a lot to do so
+ I wanted this start to make sense and
+
+0:04:45
+Speaker 1 :come together so the decision to
+ open-source I was just chatting with the Chris flattener about this the decisiongo open-source with tons of flow I would
+ say so for me personally seems to be one of the big seminal moments and all thesoftware engineering ever I think that's
+ a when a large company like Google decides to take a large project thatmany lawyers might argue has a lot of IP
+ just decide to go open-source with it and in so doing lead the entire worldand saying you know what open innovation
+ is is is a pretty powerful thing and it's okay to do that that was I meanthat's an incredible incredible moment
+ in time so do you remember those discussions happening the other opensource should be happening what was that
+
+
+0:05:32
+Speaker 0 :like I would say I think so the initial
+ idea came from Jeff who was a big proponent of this I think it came off oftwo big things one was research by his
+ view at a research group we were putting all our research out there if you wantedto we were building on others research
+ and we wanted to push the state of the art forward and part of that was toshare the research that's how I think
+ deep learning and machine learning has really grown so fastso the next step was okay now word
+ software help with that and it seemed like they were existing a few librariesout there they are hoping one torch
+ being other and a few others but they were all done by academia and the levelwas was significantly different
+ the other one was from a software perspective Google had done lots ofsoftware or that we'd used internally
+ you know and we published papers often there was an open source project thatcame out of that that somebody else
+ picked up that paper and implemented and they were very successful back then itwas like okay there's Hadoop which has
+ come off of tech that we've built we know the tech we've built is verybetter for a number of different reasons
+ we've you know invested a lot of effort intact and turns out we have Googlecloud and we are now not really
+ providing our tech but we are saying okay we have BigTable which was thoughtis no thing we're going to now provide
+ HBase api's on top of that which isn't as good but that's what everybody's usedto so there's there's like can we make
+ something that is better and really just provide helps the community in lots ofways but it also helps push the write a
+
+
+0:07:17
+Speaker 1 :good standard forward so how does cloud
+ fit into that there's a tensorflow open source write library and how does thefact that you can use so many of the
+ resources that Google provides and the cloud fit into that strategy so tensile
+
+0:07:31
+Speaker 0 :flow itself is open and you can use it
+ anywhere right and we want to make sure that continues to be the case on Googlecloud we do make sure that there's lots
+ of integrations with everything else and we want to make sure that it worksreally really well there so you're
+
+
+0:07:46
+Speaker 1 :leaving the tensorflow effort you tell
+ me the history and the timeline of transfer flow project in terms of majordesign decisions so like the open source
+ decision but really you know what to include and not there's this incredibleecosystem that I'd like to talk about
+ there's all these parts but what if you just some sample moments that definedwhat tensorflow eventually became
+ through its I don't know if you were a lot to say history when it's justbut in deep learning everything moves so
+ fast in just a few years is already
+
+0:08:22
+Speaker 0 :history yes yes so looking back we were
+ building tensor flow I guess we open sourced it in 2015 November 2015 we started on it
+ in summer of 2014 I guess and somewhere like three to six late 2014 by then wehad decided that okay there's a high
+ likelihood we'll open source it so we started thinking about that and makingsure we're heading down that path
+ at that point by that point we had seen a few you know lots of different usecases at Google so there were things
+ like okay yes you want to run in a large scale in the data center yes we need tosupport different kind of hardware we
+ had GPUs at that point we had our first TPU at that point er was about to comeout you know roughly around that time so
+ the design sort of included those we had started to push on mobile so we wererunning models on mobile at that point
+ people were customizing chord so we wanted to make sure tensorflow couldsupport that as well so that that sort
+ of became part of that overall design
+
+0:09:35
+Speaker 1 :when you say mobile you mean like pretty
+ complicated algorithms running on the
+
+0:09:39
+Speaker 0 :phone that's correct so so then you have
+ a model that you deploy on the phone and
+
+0:09:44
+Speaker 1 :run it their authority at that time
+ there was the ideas of running machine learning on the phone that's correct we
+
+0:09:49
+Speaker 0 :already had a couple of products that
+ were doing that by then in those cases we had basically customized handcraftedcode or some internal libraries that
+
+
+0:09:59
+Speaker 1 :were using so I was actually at Google
+ during this time in a parallel I guess University but we were using piano andcafe yeah we did we was there some
+ degree to which you were bouncing I like trying to see what cafe was offeringpeople trying to see what Theano was
+ offering that you want to make sure you're delivering on whatever that isperhaps the Python part of thing maybe
+ did that influence any design decisions
+
+0:10:26
+Speaker 0 :um totally so when we built this belief
+ and some of that was in parallel with some of these libraries coming up I meanTheano itself is older but we were
+ building this belief focused on our internal thing because our systems werevery different by the time we got to
+ this we looked at a number of libraries that were out there Tiano there werefolks in the group who had experience
+ with torch with Lua there were folks here who had seen cafe I mean actuallyYangcheng was here as well
+ there's one other libraries I think we looked at a number of things might evenhave looked at China back then I'm
+ trying to remember if across there in fact the I we did discuss ideasaround okay should we have a graph or
+ not and they were so supporting all these together was definitely you knowthere were key decisions that we wanted
+ we we had seen limitations in our priors just believe things a few of them werejust in terms of research was moving so
+ fast we wanted the flexibility we want the hardware was changing fast weexpected to change that so that those
+ probably were two things and yeah I think the flexibility interms of being able to express all kinds
+ of crazy things was definitely a big one
+
+0:11:46
+Speaker 1 :then so what the the graph decisions
+ without with moving towards tensorflow 2.0 there's more by default will beeager execution so sort of hiding the
+ graph a little bit you know because it's less intuitive in terms of the waypeople develop and so on
+ what was that discussion like with in terms of using graphsit seemed its kind of the Theano way
+ they seemed the obvious choice so I
+
+0:12:11
+Speaker 0 :think where it came from was are like
+ this belief had a graph like thing as well a much more simple it wasn't ageneral graph it was more like a
+ straight line you know thing more like what you might think of cafe I guess inthat sense but the graph was and we
+ always were cared about the production stuff like even with disbelief we weredeploying a whole bunch of stuff in
+ production so graph did come from that when we thought of okay should we dothat in Python and we experiment with it
+ some ideas where it looked a lot simpler to use but not having a graph went okayhow do you deploy now so that was
+ probably what triggered the balance for us and eventually we ended up with a
+
+0:12:52
+Speaker 1 :graph and I guess the question there is
+ did you I mean the production seems to be the really good thing to focus on butdid you even anticipate the other side
+ of it where there could be what is it what are the numbers something crazy a
+
+0:13:08
+Speaker 0 :forty 1 million downloads yep I mean was
+
+
+0:13:10
+Speaker 1 :that even like a possibility in your
+ mind that there would be as popular as
+
+0:13:18
+Speaker 0 :it became so I think we did see a need
+ for this a lot from the research perspective and like early days of keeplearning in some is 41 million oh I
+ don't think I imagined this number then there it seemed like there's a potentialfuture where lots more people would be
+ doing this and how do we enable like I would say this kind of growthI probably started seeing somewhat after
+ the open-sourcing there was like okay you know deep learning is actuallygrowing way faster for a lot of
+ different reasons and we are in just the right place to push on that and leveragethat earned and delivered on a lot of
+
+
+0:14:06
+Speaker 1 :some things that people want so what
+ changed once the open source like how you know this incredible amount ofattention from a global population of
+ developers what how did the project start changingI don't you actually remember it during
+ those times I know looking now there's really good documentation there's anecosystem of tools there's a community
+ of law is a YouTube channel now yeah it's very very community driven backthen I guess 0.1 version is that the
+
+
+0:14:38
+Speaker 0 :version I think we called two point six
+
+
+0:14:42
+Speaker 1 :or five something like what changed
+ leading into 1.0 it's interesting you
+
+0:14:46
+Speaker 0 :know I think we've gone through a few
+ things there when we started our twin we first came out people love thedocumentation we have because it was
+ just a huge step up from everything else because all of those were academicprojects people doing you know we don't
+ think about documentation I think what that changed was instead of deeplearning being a research thing some
+ people who were just developers could now certainly take this out and do someinteresting things with it right who had
+ no clue what machine learning was before then and that I think really changed howthings started to scale up in some ways
+ and pushed on it over the next few months as we looked at you know how dowe stabilize things as we look at not
+ just researchers now we want stability people who aren't apply things that'show we started planning for minato and
+ there are certain needs for that perspective and so again documentationcomes up designs more kinds of things to
+ put that together and so that was exciting to get back toa stage where more and more enterprises
+ wanted to buy in and really get behind that and I think post one not oh and youknow with the next few releases that
+ enterprise adoption also started to take off I would say between the initialrelease and whatnot oh it was okay
+ researchers of course then a lot of hobby is an early interest peopleexcited about this who started to get on
+ board and then over the one knotek's
+
+0:16:18
+Speaker 1 :thing lots of enterprises i imagine
+ anything that's you know below 1.0 get some pressure to be and rise probablywant something that's stable exactly and
+ uh do you have a sense now the tensorflow misses day like it feels likethe deep learning in general is
+ extremely dynamic field as so much is changing do you have uh and doesn't fallit's been growing incredibly you have a
+ sense of stability at the helm of it I know you're in the midst of it but yeah
+
+0:16:48
+Speaker 0 :it's it's I think in the midst of it
+ it's often easy to forget what in enterprise wines and what some of thepeople on that side one they're still
+ people running models that are three years old four years old so inception isstill used by tons of people just even
+ last night fifty is what couple of years over now or more but tons of people whouse tag and they're fine they don't need
+ the last couple of bits of performance or quality they want some stability andthings that just work and so there is
+ value in providing that with that kind of stability and in making it reallysimpler because that allows a lot more
+ people to access it and then there's the research crowd which wants okay theywant to do these crazy things exactly
+ like you're saying right not just deep learning in the straight-up models thatused to be there they warned RN ends and
+ even are an enzyme a B or there are transformers now and now it needs tocombine with RL and Gans and so on so so
+ there's definitely that area that like the boundary that's shifting and pushingthe state of the art but I think there's
+ more and more of the past arts much more stable and even stuff that was two threeyears old
+ is very very usable by lots of people so that makes her that part makes it all
+
+0:18:06
+Speaker 1 :easier so I imagine maybe you can
+ correct me if I'm wrong one of the biggest use cases isessentially taking something like resna
+ 50 and doing some kind of transfer learning on a very particular problemthat you have
+ it's basically probably what majority of the world does and you want to make thatas easy as possible that's right so I
+
+
+0:18:26
+Speaker 0 :would say for the hobbyist perspective
+ that's the most common case right in fact the apps on phones and stuffthat you'll see the early ones that's
+ the most common case I would say there a couple of reasons for that one is thateverybody talks about that it looks
+ great on slides yeah that's a virtual presentation you know exactly whatenterprises wine is that is part of it
+ but that's not the big thing enterprises really have data that they want to makepredictions on this is often what they
+ used to do with the people who are doing M L was just regression models linearregression logistic regression linear
+ models or maybe gradient booster trees and so on some of them still benefitfrom deep learning but they weren't that
+ that that's the bread and butter like the structured data and so on sodepending on the audience you look at
+
+
+0:19:19
+Speaker 1 :their little bit different and they just
+ have I mean the best of enterprise probably just has a very large data setor deep learning can probably shine
+
+
+0:19:28
+Speaker 0 :that's correct right
+ and then they I think the other pieces that they weren't again it with 2.0 orthat developer summit we put together is
+ there the whole tensorflow extended piece which is the entire pipeline theycare about stability across doing their
+ entire thing they want simplicity across the entire thing I don't need to justtrain a model I need to do that every
+ day again over and over again I wonder
+
+0:19:50
+Speaker 1 :to which degree you have a role in I
+ don't know so I teach a course on deep learning and I have people like lawyerscome up to me and say you know say one
+ is machine learning gonna enter legal the legal around the same thing in allkinds of disciplines immigration
+ insurance often when I see what it boils down to isthese companies are often a little bit
+ old-school in the way they organize the day so the data is just not ready yetit's not digitized if you also find
+ yourself being in the role of an evangelist for like let's get organizedyour data folks and then you'll get the
+ big benefit of tensorflow do you get those have those conversations so yeah
+
+0:20:37
+Speaker 0 :yeah I you know I get all kinds of
+ questions there from okay what can I do what do I need to make this work right -do we really need deep learning I mean
+ they're all these things I already used this linear model why would this help Idon't have enough data or let's say you
+ know or I want to use machine learning but I have no clue where to start so I'dreally start to all the way to the
+ experts who wise but very specific things it's interesting is there a good
+
+0:21:08
+Speaker 1 :answer is it boils down to oftentimes
+ digitizing data so whatever you want automated though whatever date you wantto make prediction based on you have to
+ make sure that it's in an organized form you'd like with it within in the senseof like ecosystem there's now you're
+ providing more and more data sets and more pre training models are you findingyourself also the organizer of data sets
+
+
+0:21:32
+Speaker 0 :yes I think the tensorflow data sets
+ that we just released that's definitely come up people wantthese data sets can we organize them and
+ can we make that easier so that's that's definitely one important thing the otherrelated thing I would say is I often
+ tell people you know what don't think of the most fanciest thing that the newestmodel that you see make something very
+ basic work and then you can improve it there's just lots of things you can do
+
+0:21:58
+Speaker 1 :in there yeah I start with the basic
+ truth one of the big things that makes it makes tensorflow even more accessiblewas the appearance whenever that
+ happened of Karass the Cara standard sort of outside of tents of no I thinkit was Karis on top of the a no at first
+ only and then Karis became on top of tensorflowdo you know when Cara shows to also add
+ 10 Sefolosha back and who was the was it just the communitythat drove that initially do you know if
+ there was discussions conversations yeah
+
+0:22:36
+Speaker 0 :so Francis started the Charis project
+ before he was at Google and the first thing was Tiana would I don't rememberif that was after tensorflow was created
+ or way before and then at some point ray intense flow started becoming popularthere were enough similarities that he
+ decided to okay create this interface and input tense flows the back end Ibelieve that might still have been
+ before he joined Google so I you know we're not really talking about that hedecided on his own and thought that was
+ interesting and relevant to the community in fact I didn't find outabout him being at Google until a few
+ months after he was here he was working on some research ideas and doing Kerrison his nights and weekends project and
+
+
+0:23:23
+Speaker 1 :things so he wasn't like part of the
+ texture flow he didn't join in the joint
+
+0:23:29
+Speaker 0 :research and he's doing some amazing
+ here's some papers on that on research he's done he's a great researcher aswell and at some point we realized oh
+ he's he's doing this good stuff people seem to like the API and he's right hereso we talked to him and he said okay why
+ don't I come over to your team and work with you for a quarter and let's makethat integration happen and we talked to
+ his manager and he said sure my quarters fine and that quarter's been somethinglike two years now so Karis got
+
+
+0:24:04
+Speaker 1 :integrated into tensorflow like in a
+ deep way yeah and now with 2.0 tensorflow 2.0 sort of Karass is kind ofthe recommended way for a beginner to
+ interact with testify which makes that initial sort of transfer learning or thebasic use cases even for an enterprise
+ super simple right that's good that's right so what was that decision likethat seems like a I it's kind of a bold
+ decision as well we did spend a lot of
+
+0:24:37
+Speaker 0 :time thinking about that one we had a
+ bind of API somewhere by us there was aparallel layers API that we were
+ building and when we decided to do caris in parallel so they were like okay twothings that we are looking at and the
+ first thing we was trying to do is just have them look similar like be asintegrator as possible share all of that
+ stuff they were also like three other API is that others had built over timebecause we didn't have a standard one
+ but one of the messages that we keep kept hearing from the community okaywhich one do we use and they kept seeing
+ like okay here's a model in this one and here's a model in this one which shouldI pick so that that's sort of like okay
+ we had to address that straight on with 2.0 the whole idea is you need tosimplify you had to pick one based on
+ where we were we were like okay let's see what's what are the what do thepeople like and caris was clearly one
+ that lots of people loved there were lots of great things about it so wesettled on that organically that's kind
+
+
+0:25:44
+Speaker 1 :of the best way to do it which it was
+ great because it was surprising there were less to sort of bring in andoutside I mean there was a feeling like
+ Karis might be almost like a competitor and this is a certain kind of totensorflow and in a sense it became an
+ empowering element of tensorflow
+
+0:26:01
+Speaker 0 :that's right yeah it's interesting how
+ you can put two things together which don't which can align iron in this caseI think Francois the team and I you know
+ a bunch of us have chatted and I think we we all want to see the same kind ofthings we all care about making it
+ easier for the huge set of developers out there and that makes a difference so
+
+0:26:23
+Speaker 1 :python has grid over in Rossum who until
+ recently held the position of benevolent dictator for life right so there's ahuge successful open source project like
+ tensorflow need one person who makes a final decision so you did a prettysuccessful tensorflow dev summit just
+ now last couple of days there's clearly a lot of different new features beingincorporated and amazing ecosystem so on
+ who's a how are those design decisions made isthere is there a btfl intensive flow and
+ or is it more distributed in organic I
+
+0:27:05
+Speaker 0 :think it's it's some more different I
+ would say I've always been involved in the key design directions but there arelots of things that are distributed
+ where there number of people Martin Rick being one who is really driven a lot ofour open source stuff a lot of the api's
+ in there there a number of other people who have been you know pushed and beenresponsible for different parts of it we
+ do have regular design reviews over the last year we've really spent a lot oftime opening up to the community and
+ adding transparency we're setting more processes in place so RFC's specialinterest groups really grow that
+ community and and scale that I think that kind of scale that ecosystem is inI don't think we could scale with having
+ me as the saloon decision-maker yeah so
+
+0:28:01
+Speaker 1 :yeah the growth of that ecosystem maybe
+ you can talk about a little bit first of all when I started with Andre karpatiwhen he first had come that j/s the fact
+ that you can train in your network in the browser's in that JavaScript wasincredible
+ yep so now tensorflow jas is really making that a serious like a legit thinga way to operate whether it's in the
+ back end or the front end then there's the tensorflow extended like youmentioned there's a stencil for light
+ for mobile and all of it as far as I can tell it's really converging towardsbeing able to you know save models in
+ the same kind of way you can move around you can train on the desktop and thenmove it to mobile and so on thickness is
+ that cohesiveness so he may be give me whatever I missed a bigger overview ofthe mission of the ecosystem that's
+ trying to be built and where is it moving forward yeah
+
+0:29:02
+Speaker 0 :so in short the way I like to think of
+ this is our goals to enable machine learning and in a couple of ways youknow one is if you have lots of exciting
+ things going on in ml today we started with deep learning but we now support abunch of other algorithms too so so one
+ is to on the research side keep pushing on the state-of-the-art can we you knowhow do we enable researchers to build
+ the next amazing thing so Bert came out recently you know it's great that peopleare able to do new kinds of research and
+ there are lots of you know amazing research that happens across the worldso that's one direction the other is how
+ do you take that across all the people outside who want to take that researchand do some great things with it and
+ integrate it to build real products to have a real impact on people and so ifthat's the other axes in some ways you
+ know at a high level one way I think about it is there a crazy number ofcompute devices across the world and we
+ often used to think of ml and training and all of this as okay something you doeither in the work station or the data
+ center or cloud but we see things running on the phones we see thingsrunning on really tiny chips I mean we
+ had some demos at the developer summit and so the way I think about thisecosystem is how do we help get machine
+ learning on every device that has the compute capability and that continues togrow in and so in some ways this
+ ecosystem is looked at you know various aspects of tagged and grown over time tocover more of those and we continue to
+ push the boundaries in some areas we've built more tooling and things aroundthat to help you I mean the first tool
+ we started was ten support you wanted to learn just the training piece theeffects or tensorflow extended to really
+ do your entire ml pipelines if you're you know care about all that productionstuff but then going to the edge going
+ to different kinds of things and it's not just us now if you're a place wherethere are lots of libraries being built
+ on top so there are some for research may be things like pens flow agentcertain
+ the probability that started as research things or for researchers for focusingon certain kinds of algorithms but
+ they're also being deployed or produced by you know production folks and somehave come from within Google just teams
+ across Google who wanted to build these things others have come from just thecommunity because there are different
+ pieces that different parts of the community care about and I see our goalas enabling even that right it's not we
+ cannot and won't build every single thing that just doesn't make sense butif we can enable others to build the
+ things that they care about and there's a broader community that cares aboutthat and we can help encourage that and
+ that that's great that really helps the entire ecosystem not just those one ofthe big things about 2.0 that we're
+ pushing on is okay we have these so many different pieces right how do we helpmake all of them work well together
+ so there are few key pieces there that we're pushing on one being the coreformat in there and how we share the
+ models themselves through save model and Martin's flow hub and so on and you knowa few of the pieces that we really put
+
+
+0:32:33
+Speaker 1 :this together I was very skeptical that
+ that's you know intensive for j/s came out I didn't seem or deep-learning j/s
+
+0:32:39
+Speaker 0 :yeah it was the first it seems like
+
+
+0:32:41
+Speaker 1 :technically very difficult project as a
+ standalone it's not as difficult but as a thing that integrates into theecosystems is very difficult so yeah I
+ mean there's a lot of aspects of this you're making look easy but and thetechnical side how many challenges have
+ to be overcome here a lot and still have to be yes that's the other question here
+
+0:33:04
+Speaker 0 :too there are lots of steps to a
+ training leave iterated over the last few years so there's lot we've learned Iyeah often when things come together
+ well things look easy that's exactly the point it should beeasy for the end user but there are lots
+ of things that go behind that if I think about still challenges ahead there areyou know we have a lot more devices
+ coming on board for example from the hardware perspective how do we make itreally easy for these vendors to
+ integrate with something like tensorflow right so there's a lot of compiler stuffthat others are working on there things
+ we can do in terms of our API is and so on that we can do as we you knowtensorflow started as a very monolithic
+ system and to some extent it still is there are less lots of tools around itbut the core is still pretty large in
+ monolithic one of the key challenges for us to scale that out is how do we breakthat apart with clear interfaces it's
+ you know in some ways its software engineering 101 but for a system that'snow four years old I guess or more and
+ that's still rapidly evolving and that we're not slowing down with it's hard toyou know change and modify and really
+ break apart it's sort of like as people say right it's like changing the enginewith a car running or fake professor
+ that's exactly what we're trying to do
+
+0:34:35
+Speaker 1 :so there's a challenge here because the
+ downside of so many people being excited about tensorflow and becoming to rely onit in many of their applications is that
+ you're kind of responsible it's the technical debt you're responsible forprevious versions to some degree still
+ working so when you're trying to innovate I mean it's probably easier tojust start from scratch every few months
+
+
+0:35:04
+Speaker 0 :
+
+0:35:06
+Speaker 1 :absolutely so do you feel the pain of
+ that a 2.0 does break some back compatibility but not too much it seemslike the conversion is pretty
+ straightforward and do you think that's still important given how quickly deeplearning is changing
+ can you just the things that don't you've learned can you just start overor is there pressure to not it's it's a
+
+
+0:35:29
+Speaker 0 :tricky balance so if it was just a
+ researcher writing a paper who a year later will not look at that code againsure it doesn't matter
+ there are a lot of production systems that rely on tensor flow port at Googleand across the world
+ and people worry about this I mean they're these systems run for a longtime so it is important to keep that
+ compatibility and so on and yes it does come with a huge cost there's we have tothink about a lot of things as we do new
+ things and make new changes I think it's a trade-off right you can you might slowcertain kinds of things down but the
+ overall value you're bringing because of that is is much bigger because it's notjust about breaking the person yesterday
+ it's also about telling the person tomorrow that you know what this is howwe do things you're not going to break
+ you and you come on part because there are lots of new people who are alsogoing to come on board hey you know one
+ way I like to think about this and I always push the team to think about aswell when you want to do neat things you
+ want to start with a clean slate design with a clean slate in mind andthen we'll figure out how to make sure
+ all the other things work and yes we do make compromises occasionally but unlessyou've designed with the clean slate and
+ not worried about that you'll never get
+
+0:36:57
+Speaker 1 :to a good place I was brilliant so even
+ if you're do you are responsible when you're in an idea stage when you'rethinking of new it just put all that
+ behind you yeah that's right okay that's really really well put so I have to askthis because a lot of students
+ developers ask me how I feel about pie tours for successful so I've recentlycompletely switched my research group to
+ tensorflow I wish everybody would just use the samething and tensile force as close to that
+ I believe as we have but do you enjoy competition so testify was leading inmany ways on many dimensions in terms of
+ the ecosystem terms the number of users momentum power production level so onbut you know a lot of researchers and
+ now also using PI torch do you enjoy that kind of competition or do you justignore it and focus on making tencel
+
+
+0:37:51
+Speaker 0 :flow the best that it can be so just
+ like research or anything people are doing right it's great to getdifferent kinds of ideas and when we
+ started with tensorflow like I was saying earlier one it was very importantfor us to also have production in mind
+ we didn't want just research right and that's why we chose certain things nowpi torch came along and said you know
+ what I only care about research this is what I'm trying to do what's the bestthing I can do for this and it started
+ iterating and said okay I don't need to worry about drafts let me just runthings I don't care if it's not as fast
+ as it can be but let me just you know make this part easy and there are thingsyou can learn from that right they they
+ again had the benefit of seeing what had come before but also exploring certaindifferent kinds of spaces and they had
+ some good things there you know building on say things like chain and so onbefore that so competition is definitely
+ interesting it made us you know this is an area that we had thought about like Isaid you know very early on over time we
+ had revisited this a couple of times should we add this again at some pointwe said you know what here's it seems
+ like this can be done well so let's try it again and week that's how you know westarted pushing on eager execution how
+ do we combine those two together which has finally come very well together in2.0 but it took us a while to get all
+ the things together and so on so let me
+
+0:39:16
+Speaker 1 :I mean ask put another way I think eager
+ execution is a really powerful thing those at it you think he wouldn't havebeen
+ you know Muhammad Ali versus Frazier right you think it wouldn't have beenadded as quickly if pi torch wasn't
+
+
+0:39:33
+Speaker 0 :there it weight might have taken longer
+ no long yeah it was I mean we dried some radiance of that before so I'm sure itwould ever happen but it might have
+
+
+0:39:41
+Speaker 1 :taken longer I'm grateful that
+ tensorflow responds in the way they did it's doing some incredible work lastcouple years what are the things that we
+ didn't talk about are you looking forward in 2.0 that it comes to mind sowe talked about some of the ecosystem
+ stuff making it easily accessible to Karis Iker execution is there otherthings that we missed yeah I would say
+
+
+0:40:03
+Speaker 0 :one is just where 2.0 is and you know
+ with all the things that we've talked about I think as we think beyond thatthere are lots of other things that it
+ enables us to do and that we are excited about so what it's setting us up for okthe hair these really clean api's we've
+ cleaned up the surface for what the users warned what it does also allows usto do a whole bunch of stuff behind the
+ scenes once we've we are ready with 2.0 so for example intensive flow withgraphs and all the things you could do
+ you could always get a lot of good performance if you spent the time totune it right and we have clearly shown
+ that lots of people do that the 2.0 with these API is where we are we can giveyou a lot of performance just with
+ whatever you do you know if you're because we see pleaseit's much cleaner we know most people
+ are going to do things this way we can really optimize for that and get a lotof those things out of the box and it
+ really allows us you know both for single machine and distributed and so onreally explore other spaces behind the
+ scenes after you know 2.0 in the future versions as well so right now the teamis really excited about that that over
+ time I think we'll see that the other piece that I was talking about in termsof just restructuring the monolithic
+ thing into more pieces and making it more modular I think that's going to bereally important for a lot
+ the other people in the ecosystem are their organizations and so on thatwanted to build things can you elaborate
+
+
+0:41:44
+Speaker 1 :a little bit what you mean by making
+ tons of flow more ecosystem more modular
+
+0:41:50
+Speaker 0 :so the way it's organized today is
+ there's one there are lots of repositories in the tensorfloworganization at github the core one
+ where we have cleanser flow it has the execution engine it has you know the keybackends for CPUs and GPUs it has the
+ work to do distributed stuff and all of these just work together in a singlelibrary or binary there's no way to
+ split them apart easily when there are some interfaces but they're not veryclean in a perfect world you would have
+ clean interfaces where okay I want to run it on my fancy cluster with somecustom networking just implement this
+ and do that I mean we kind of support that but it's hard for people today Ithink as we are starting to see more
+ interesting things in some of these paces having that clean separation willreally start to help and and again going
+ to the large size of the ecosystem in the different groups involved they'reenabling people to evolve and push on
+ things more independently just allows it
+
+0:42:55
+Speaker 1 :to scale better and by people you mean
+ individual developers and I know organization and organizations that's sothe hope is that everybody sort of major
+ I don't know Pepsi or something uses like major corporations go to tensorflowdo this kind of yeah if you look at
+
+
+0:43:10
+Speaker 0 :enterprise like Pepsi or these I mean a
+ lot of them are already using tensorflow they are not the ones that do thedevelopment or changes in the core some
+ of them do but a lot of them don't I mean they cut small pieces there arelots of these some of them being let's
+ say hardware vendors who are building their custom hardware and they wanttheir own Vsauce or some of them being
+ bigger companies say IBM I mean they're involved in some of our special interestgroups and they see a lot of users who
+ want certain things and they want to optimize for that so folks like that
+
+0:43:43
+Speaker 1 :often a tourist vehicle companies
+
+
+0:43:46
+Speaker 0 :perhaps exactly yes so yeah like I
+
+
+0:43:47
+Speaker 1 :mentioned tensorflow has been downloaded
+ 41 million 50,000 commits almost 10,000 poolrequests and 1,800 contributors so I'm
+ not sure if you can explain it but Oh what does it take to build a communitylike that what if in retrospect what do
+ you think what is the critical thing that allowed for this growth to happenand how does that growth continue yeah
+
+
+0:44:14
+Speaker 0 :uh yeah that's a interesting question I
+ wish I had all the answers there I guess so you could replicate it I I thinkthere's a there number of things that
+ need to come together right a one you know just like any new thing it is aboutthere's a sweet spot of timing what's
+ needed you know does it grow with what's needed so in this case for exampletensa flow is not just grown because it
+ was a good tool it's also grown with the growth of deep learning itself so thosefactors come into play
+ other than that though I think just hearing listening to the community whatthey're - what they need being open to
+ like in terms of external contributions we've spent a lot of time in making surewe can accept those contributions well
+ we can help the contributors in in adding those putting the right processin place getting the right kind of
+ community welcoming them and so on like over the last year we've really pushedon transparency that that's important
+ for an open source project people want to know where things are going andthey're like okay here's a process where
+ you can do that here RFC's and so on so thinking through there are lots ofcommunity aspects that come into that
+ you can really work on as a small project it's may be easy to do becausethere's like two developers in and you
+ can do those as you grow putting more of these processes in place thinking aboutthe documentation thinking about what to
+ developers care about what kind of tools would they want to use one of these comeinto planting so one of the big things I
+
+
+0:45:57
+Speaker 1 :think that feeds the tensorflow fire is
+ people building something on tensorflow and you know someimplement a particular architecture that
+ does something cool useful and they put it at that and github and so it justfeeds this this growth these have a
+ sense that with 2.0 and 1.0 that there may be a little bit of a partitioninglike there's a Python two and three but
+ there'll be a code base and in the older versions of test fall there will not beas compatible easily or any pretty
+ confident that this kind of conversion it's pretty natural and easy to do so
+
+0:46:37
+Speaker 0 :we're definitely working on hard to make
+ that very easy to do there's lots of tooling that we talked about at thedeveloper summit this week and really
+ continue to invest in that tooling it's you know when you think of thesesignificant version changes that's
+ always a risk and we we are really pushing hard to make that transitionvery very smooth I I think so
+ so at some level people want to move and they see the value in the new thing theydon't want to move just because it's a
+ new thing and some people do it but most people want a really good thing and Ithink over the next few months as people
+ start to see the value will F&T see that shift happening so I'm pretty excitedand confident that we will see people
+ moving as you said earlier this field is also moving rapidly so that'll helpbecause we can do more things and you
+ know the new things will clearly happen into point X so people who have lots ofgood reasons to move so what do you
+
+
+0:47:32
+Speaker 1 :think that's the 43.0 looks like is that
+ is there it's everything's happening so crazilythat even at the end of this year seems
+ impossible to plan for or is it possible to plan for the next five years I I
+
+0:47:48
+Speaker 0 :think it's tricky there are some things
+ that we can expect in terms of okay change yes change is going to happen Iare there some good things going to
+ stick around and something's not going to stick around I would say that thebasics of deep learning the you know say
+ convolution models or the basic kind of things they'll probably be around insome form still in five years will rln
+ ganz stay very likely based on where they are we have newthings probably but those are hard to
+ predict and some directionally some things that we can see is you know andthings that we're starting to do right
+ with some of our projects right now is just 2.0 combining you could executionin in graphs where we starting to make
+ it more like just your natural programming language you're not tryingto program something else
+ similarly with surfer tensorflow we're taking that approach can you dosomething roundup right so some of those
+ ideas seem like okay that's the right direction in five years we expect to seemore in that area other things we don't
+ know is will hardware accelerators be the same will we be able to train withfour bits instead of 32 bits and I think
+
+
+0:49:08
+Speaker 1 :the TPU side of things is exploring that
+ I mean GPUs already on version three it seems that the evolution of TPU andtensorflow are sort of their Co evolving
+ almost in terms of both are learning from each other and from the communityand from the applications where the
+ biggest benefit is achieved that's right you've been trying to sort with with egowith carrots to make tensorflow as
+ accessible and easy to use as possible what do you think for beginners is thebiggest thing they struggle with have
+ you encountered that or is basically what Karis is solving is that eager likewe talked about yeah for for some of
+
+
+0:49:48
+Speaker 0 :them like you said right
+ beginners want to just be able to take some image model they don't care if it'sinception the rest net or something else
+ and do some training or transfer learning on the kind of model being ableto make that easy is important so I in
+ some ways if you do that by providing them simple models would say in hub orso on and they don't care about what's
+ inside that box but they want to be able to use it so we are pushing on I thinkdifferent levels if you look at just a
+ component that you get which has the layers already smushed in the beginnersprobably just want that then the next
+ step is okay look at building layers with players if you go out to researchthen they are probably writing custom
+ layers themselves they don't live so there's a wholespectrum there and then providing the
+
+
+0:50:36
+Speaker 1 :pre-trained models seems to really
+ decrease the time from are you trying to start so you could basically in a collabnotebook achieve what you need
+ so basically answering my own question because I think what tensorflowdelivered on recently is this trivial
+ for beginners so I was just wondering if there was other pain points you tried toease but I'm not sure there would know
+
+
+0:51:02
+Speaker 0 :that those are probably the big ones
+ every night I see high schoolers doing a whole bunch of things now it's pretty
+
+0:51:08
+Speaker 1 :amazing it's it's both amazing and
+ terrifying yes in a sense that when they grow up it's some incredible ideas willbe coming from them so there's certainly
+ a technical aspect to your work but you also have a management aspect to yourrole with tensorflow leading the project
+ large number of developers and people so what do you look for in a good team whatdo you think you know Google has been at
+ the forefront of exploring what it takes to build a good team and tensorflow isone of the most cutting-edge
+ technologies in the world so in this context what do you think makes for a
+
+0:51:49
+Speaker 0 :good team it's definitely something I
+ think a fair bit about I think in terms of you know the team being able todeliver something well one of the things
+ that's important is a cohesion across the team so being able to executetogether and doing things it's not an
+ end like at this scale an individual engineer can only do so much there's alot more that take they can do together
+ even though we have some amazing Superstars across Google and in the teambut there's you know often the way I see
+ it as the product of what the team generates is very larger than the wholeor you know the individual put together
+ and so how do we have all of them work together the culture of the team itselfhiring good people is important but part
+ of that is it's not just that okay we hire onesmart people and throw them together and
+ let them do things it's also people have to care about what they're buildingpeople have to be motivated for the
+ right kind of things that's often an important factor and you know finallyhow do you put that together with a
+ somewhat unified vision of where we want to go so are we all looking in the samedirection or what's going on over and
+ sometimes it's a mix Google's a very bottom-up organization in some sensealso research even more so and that's
+ how we started but as we've become this larger product and ecosystem I thinkit's also important to combine that well
+ with mix if ok here's the direction you want to go in there is exploration we'lldo around that but let's keep staying in
+ that direction not just all over the
+
+0:53:43
+Speaker 1 :place and is there a way you monitor the
+ health of the team sort of like is is there way you know you did a good job hewas good like I mean you're sort of
+ you're saying nice things but it's sometimes difficult to determine yeahhow aligned yes because it's not binary
+ it's nothing it's it's there's tensions and complexities and so on and the otherelement of visit the mesh is superstars
+ you know there's so much even at Google such a large percentage of work is doneby individual superstars too so there's
+ a yeah and sometimes those superstars could be against the dynamic of a teamand those those tensions and it was that
+ has the I mean I'm sure in telephone might be a little bit easier because themission of the project is so
+ mr. beautiful year at the cutting edge was exciting yeah when have you hadstruggle with that has there been
+ challenges there are always people
+
+0:54:38
+Speaker 0 :challenges in different kinds of fairs
+ that bad said I think we've been what's good about getting people who care andare you know have the same kind of
+ culture and that's Google in general to a large extent but also like you saidgiven that the project has had so many
+ exciting things to do there's been room for lots of people to do different kindsof things and grow which which does make
+ the problem a bit easier I guess yeah and it allows people depending on whatthey're doing if there's room around
+ them and that's fine but yes we do it we do care about whether superstar an artthat they need to work well with the
+
+
+0:55:22
+Speaker 1 :team across Google that's interesting to
+ hear so it's like superstar not the productivity broadly is about the team
+
+0:55:30
+Speaker 0 :yeah yeah yeah I mean they might add a
+ lot of value but if they're putting the team then that's a problem so in hiring
+
+0:55:35
+Speaker 1 :engineers it's so interesting right the
+ hiring process what do you look for how do you determine a good developer or agood member of her team from just a few
+ minutes or hours together again no magic answers I'm sure yeah yeah I mean Google
+
+0:55:52
+Speaker 0 :has a hiding process that we've refined
+ over the last 20 years I guess and that you've probably heard and seen a lotabout so we do work with the same hiring
+ process and that that's really helped for a mean particular I would say inaddition to the the core technical
+ skills what does matter is their motivation in what they want to dobecause if that doesn't align well with
+ their you want to go that's not going to lead to long-term success for eitherwith them or the team and I think that
+ becomes more important the more senior the person is but it's important atevery level like even the junior most
+ engineer if they're not motivated to do well at what they're trying to dohowever smart they are it's going to be
+ hard for them to succeed there's the
+
+0:56:40
+Speaker 1 :Google hiring process touch on that
+ passion so like trying to determine because I think as far as I understandmaybe you can speak to it that the
+ Google hiring process sort of helps in the initial like determines the skillset there is your puzzle solving ability
+ problem solving ability good but like I'm not sure but it seems that thedetermining whether the person is like
+ fire inside them yeah that burns to do anything really doesn't really matterit's just some cool stuff I'm going to
+ do it that I don't know is that something that ultimately ends up andwhen they have a conversation with you
+ or once it gets closer to the sales so
+
+0:57:23
+Speaker 0 :one of the things we do have as part of
+ the process is just a culture fit like part of the interview process itself inaddition to just the technical skills in
+ each engineer or whoever the interviewer is is supposed to rate the person on theculture and the culture fit with Google
+ and so on so that is definitely part of the process now there are various kindsof projects and different kinds of
+ things so there might be variants and if the kind of culture you want there andso on and yes that does vary so for
+ example tensorflow has always been a fast-moving project and we want peoplewho are comfortable with that but at the
+ same time now for example we are at a place where we are also veryfull-fledged product and we want to make
+ sure things that work really really work right you can't cut corners all the timeso that balancing that out in finding
+ the people who are the right fits for fit for those is important in anythingthose kind of things do vary a bit
+ across projects and teams and product areas across Google and soyou'll see some differences there in the
+ final checklist but a lot of the core culture it comes along with just theengineering excellence and so on
+
+
+0:58:34
+Speaker 1 :what is the hardest part of your job I
+
+
+0:58:37
+Speaker 0 :think you pick I guess it's it's fun I
+ would say right hard yes I mean lots of things at different times I think that
+
+0:58:48
+Speaker 1 :that does vary so let me clarify that
+ difficult things are fun yeah when you solve them right yes it's fun in that in
+
+0:58:57
+Speaker 0 :that sense I I think the key to a
+ successful thing across the board and you know in this case it's a largeecosystem now but even a small product
+ is striking that fine balance across different aspects of itsometimes that's how fast do you go
+ versus how perfect it is sometimes it's how do you involve this huge communitywho do you involve where you reside okay
+ now is not a good time to involve them because it's not the right fit sometimesit's saying no to certain kinds of
+ things those are often they're hard decisions some of them you make quicklybecause you don't have the time some of
+ them you get time to think about them
+
+0:59:44
+Speaker 1 :but they're always hard so on both both
+ choices are pretty good it's that those decision what about deadlines this is doyou find tensorflow to be driven by
+ deadlines to a degree that a product might or is there still a balance towhere I mean it's less deadline you had
+ the dev summits yeah they came together incrediblydidn't look like there's a lot of moving
+ pieces and so on so that did that deadline make people rise to theoccasion releasing that's the flow 2.0
+ alpha yeah I'm sure that was done last minute as well I mean likely there's upto the yes up to the up to the last
+
+
+1:00:24
+Speaker 0 :point yes again you know it's one of
+ those things that's a you need to strike the good balance there's some value thatdeadlines spring that does bring a sense
+ of urgency to get the right things together instead of you know getting theperfect thing out you need something
+ that's good and works well and the team definitely did a great job in puttingthat together so it was very amazed and
+ excited by how that came together that said acrossthere we try not to put artificial
+ deadlines we focus on key things that are important figure out what that howmuch of it's important and and we are
+ developing in the open what you know internally and externally everything isavailable to everybody so you can pick
+ and look at where things are we do releases at a regular cadence so fine ifsomething doesn't necessarily end up at
+ this month it'll end up in the next release in a month or two and that'sokay but we want to get like keep moving
+ as fast as we can in these different areas because we can iterate and improveone things sometimes it's okay to put
+ things out that aren't fully ready if you make sure it's clear that okay thisis experimental but it's out there if
+ you want to try and give feedback that's very very useful I think that quickcycle and quick iteration is important
+ that's what we often focus on rather than here's a deadline where you geteverything else
+
+
+1:01:48
+Speaker 1 :it's to point now is there pressure to
+ make that stable or like for example WordPress 5.0 just came out with it andthere was no pressure
+ - is that it was a lot of build up dates to deliver - way too late but and theysaid okay well but we're gonna release a
+ lot of updates really quickly to improve it this do you see Tesla photo 2.0 inthat same kind of way or is there this
+ pressure - once it hits 2.0 once you get to the release candidate and then youget to the final that that's gonna be
+ the stable thing so it's going to be
+
+1:02:22
+Speaker 0 :stable in just like when not expose ver
+ every API that's there it's gonna remain and work it doesn't mean we can't changethings in under the covers it doesn't
+ mean we can't add things so there's still a lot more to for us to do andrecon did you have more razors so in
+ that sense there still I don't think we'd be done in like two months when wereleased this I don't know if you can
+
+
+1:02:46
+Speaker 1 :say but is there you know there's not
+ external deadlines for tensorflow 2.0 but is there internal deadlines theartificial are otherwise that you try
+ and just set for yourself is or is it whenever it's ready so we
+
+1:03:02
+Speaker 0 :want it to be a great product right and
+ that's a big important piece for us tensorflow is already out there we haveyou know 41 million downloads for one
+ Dalek so it's not like but you have to have it it is yeah yeah exactly so it'snot like all a lot of the features that
+ we've you know really polishing and putting them together out there we don'thave to rush that just because so in
+ that sense we want to get it right and really focus on that that said we havesaid that we are looking to get this out
+ in the next few months in the next quarter and we you know as far aspossible we let me try to make that
+ happen
+
+1:03:39
+Speaker 1 :yeah my favorite line was spring is a
+
+
+1:03:43
+Speaker 0 :relative yes spoken like a true
+
+
+1:03:46
+Speaker 1 :developer so you know something I'm
+ really interested in and your previous line of work is before test for you leta team at Google on search ads I think
+ this is like this is a very interesting topic on every level on a technicallevel because that their best ads
+ connect people to the things they want and need yep and and that they're worsethey're just these things that annoy the
+ heck out of you to the point of ruining the entire user experience of whateveryou're actually doing and so they have a
+ bad rap I guess and so at the end the
+
+1:04:24
+Speaker 0 :
+
+1:04:25
+Speaker 1 :other end so that this connecting users
+ to the thing they need to want is a beautiful opportunity for machinelearning to shine like huge amounts of
+ data that's personalized and you've got a map to the thing they actually wantwon't get annoyed so what have you
+ learned from this Google that's leading the world in this aspect what have youlearned from that experience and what do
+ you think is the future of ads take you back to the yeah of that but yes it's
+
+1:04:54
+Speaker 0 :been a while but I totally agree with
+ what you said I think the search ads the way it was always looked at and Ibelieve it still is is it's an extension
+ of what search is trying to do and the goal is to make the information and makethe words
+ information accessible that's it's not just information but it may be productsor you know other things that people
+ care about and so it's really important for them to align with what the usersneed and you know the in search ads
+ there's a minimum quality level before that ad would be shown if you don't havean ad that hits that quality but it will
+ not be shown even if we have it and okay maybe we lose some money there that'sfine that that is really really
+ important noting that that is something I really liked about being thereadvertising is a key part I mean it as a
+ model it's been around for ages right it's it's not a new model it's it's beenadapted to the web and you know became a
+ core part of search and in many other search engines across the world I I dohope you know like I said there are
+ aspects of ads that are annoying and I go to a website and if it just keepspopping in out in my face not to direct
+ me let me read that that's going to be knowing clearly so I I hope we canstrike that balance between showing a
+ good ad where it's valuable to the user and provides the monetization to the tothe you know service and this might be
+ searched this might be a website all of these they they do need the monetizationfor them to provide that service but if
+ it's done in a good balance between showing just some random stuff that'sdistracting versus showing something
+ that's actually valuable so do you see
+
+1:06:50
+Speaker 1 :it moving forward as to continue being a
+ model that you know that funds businesses like Google that's a it's asignificant revenue stream because
+ that's one of the most exciting things but also limiting things in the Internetis nobody wants to pay for anything
+ yeah and advertisements again coupled at their best are actually really usefulnot annoying to continue do you see that
+ continuing and growing and improving or is there GC sort of more netflix typemodels where you have to start to pay
+
+
+1:07:29
+Speaker 0 :for content I think it's a mix I think
+ it's gonna take a long wait for everything to be paid on the internet ifat all probably not I mean I think
+ there's always going to be things that are sort of monetized with things likeads but over the last few years I would
+ say we've definitely seen that transition towards more paid servicesacross the web and people are willing to
+ pay for them because they do see the value and I mean Netflix is a greatexample and we have YouTube doing things
+ people pay for the apps they buy more people I find are willing to pay fornewspaper content for the the good news
+ websites across the web that wasn't the case a few years even a few years ago Iwould say and I just see that change in
+ myself as well and just lots of people around me so definitely hopeful likereal transition to that mix model where
+ maybe you get to try something out for freemaybe with ads but then there's a more
+ clear revenue model like that sort of helps go beyond that
+
+1:08:30
+Speaker 1 :so speaking of revenue how is it that a
+ person can use the TPU and a Google call app for free so what's the I guess the
+
+1:08:40
+Speaker 0 :
+
+1:08:41
+Speaker 1 :question is what's the future of
+ tensorflow in terms of empowering say teacher classof 300 students and they amassed by MIT
+ what is going to be the future of that beingable to do their homework intensive flow
+ like why are they going to train these networks right right what's that futurelook like with TP use with cloud
+ services and so on I think a number of
+
+1:09:08
+Speaker 0 :things that I mean any tensile flow open
+ source you can run it whatever you can write on your desktop and your desktopsalways keep getting more powerful so
+ maybe you can do more my phone is like I don't know how many times more powerfulthan my first desktop probably trained
+ on your phone though yeah right so in that sense the power you have in yourhandles is is a lot more clouds are
+ actually very interesting from say students or our courses perspectivebecause they make it very easy to get
+ started I mean colab the great thing about is go to a website and it justworks no installation needed nothing to
+ you know you're just just there and if things are working that's really thepower of cloud as well and so I do
+ expect that to grow again you know collab is a free service it'sgreat to get started to play with things
+ to explore things that said you know with free you can only get so much UVyeah so just like we were talking about
+ you know free versus Karen yeah there are there are services you can pay forand get a lot more great so the final
+
+
+1:10:15
+Speaker 1 :complete beginner interested in machine
+ learning intensive flow what should I do
+
+1:10:21
+Speaker 0 :probably start going to our website and
+
+
+1:10:24
+Speaker 1 :playing there's a lot of tests for that
+ organs start clicking on things
+
+1:10:26
+Speaker 0 :yep check our tutorials and guides their
+ stuff you can just click there and go to a collab and do things no installationneeded you can get started right there
+
+
+1:10:34
+Speaker 1 :ok awesome project thank you so much for
+
+

@@ -1,0 +1,3967 @@
+Speaker 1 :the following is a conversation with
+ james gosling the founder and lead designer behind the java programminglanguage
+ which in many indices is the most popular programming language in theworld
+ or is always at least in the top two or threewe only had a limited time for this
+ conversation but i'm sure we'll talk again several times in this podcastquick summary of the sponsors public
+ goods betterhelp and expressvpn please check out thesesponsors in the description to get a
+ discount and to support this podcast as a side note let me say that java isthe language
+ with which i first learned object oriented programmingand with it the art and science of
+ software engineering also early on in my undergraduateeducation i took a
+ course on concurrent programming with javalooking back at that time before i fell
+ in love with neural networks the art of parallel computing was bothalgorithmically
+ and philosophically fascinating to me the concept of a computer in my mindbefore then was something that does one
+ thing at a time the idea that we could create anabstraction of parallelism where you
+ could do many things at the same time while still guaranteeing stability andcorrectness was beautiful
+ while some folks in college took drugs to expand their mindi took concurrent programming if you
+ enjoy this thing subscribe on youtube review it with five stars on applepodcast follow on spotify
+ support on patreon or connect with me on twitter at lex friedmanas usual i'll do a few minutes of ads
+ now and no ads in the middle i try to make these interesting but i dogive you timestamps
+ so go ahead and skip but please do check out the sponsorsby clicking the links in the description
+ it's the best way to support this podcastthis show sponsored by public goods the
+ one-stop shop for affordable sustainable healthyhousehold products i take their fish oil
+ and use their toothbrush for example their products often have aminimalist black and white design that i
+ find to be just beautiful some people ask why i wear this blacksuit and tie
+ there's a simplicity to it that to me focuses my mindon the most important bits of every
+ moment of every day pulling only at the thread of theessential in all that life has to throw
+ at me it's not about how i look it's about howi feel that's what design is to me
+ creating an inner conscious experience not an external lookanyway public goods plants one tree for
+ every order placed which is kind of cool visitpublicgoods.com
+ lex or use codelex at checkout to get 15 bucks off your first orderthis show is also sponsored by better
+ help spelled h-e-l-p help check it out at betterhelp.com lexthey figure out what you need and match
+ you with a licensed professional therapist in under 48 hoursi chat with the person on there and
+ enjoy it of course i also regularly talk to davidgoggins these days
+ who is definitely not a licensed professional therapistbut he does help me meet his and my
+ demons and become comfortable to exist in theirpresence
+ everyone is different but for me i think suffering is essential for creationbut you can suffer beautifully in a way
+ that doesn't destroy you i think therapy can help in whateverform that therapy takes
+ and i do think that better help is an option worth tryingthey're easy private affordable and
+ available worldwide you can communicate by text anytime andschedule weekly audio and video sessions
+ check it out at betterhelp.com lex this show is also sponsored byexpressvpn you can use it to unlock
+ movies and shows that are only available in other countriesi did this recently with star trek
+ discovery and uk netflix mostly because i wonder what it's liketo live in london
+ i'm thinking of moving from boston to a place where i can build the businessi've always dreamed of building london
+ is probably not in the top three but top ten for sure the number onechoice currently
+ is austin for many reasons that i'll probably speak to another timesan francisco unfortunately dropped off
+ from the number one spot but is still in the runningif you have advice let me know anyway
+ check out expressvpn it lets you change your location toalmost 100 countries and it's super fast
+ go to expressvpn.com lexbod to get an extra three months of expressvpn forfree
+ that's expressvpn.com lex pod and now here's my conversationwith james gosling i've read somewhere
+ that the square root of two is your favorite irrational number
+
+Speaker 0 :i have no idea where that got started
+
+
+Speaker 1 :um is there any truth to it is there
+ anything in mathematics or numbers that you find beautifuloh well there's lots of things in in
+
+
+Speaker 0 :math that's
+
+
+Speaker 1 :really beautiful um you know i
+
+
+Speaker 0 :i used to consider myself really good at
+ math and these days i consider myself
+
+Speaker 1 :really bad at math
+
+
+Speaker 0 :i never had really had a thing for the
+
+
+Speaker 1 :square root of two
+
+
+Speaker 0 :
+
+Speaker 1 :but when i was a teenager
+
+
+Speaker 0 :there was this book called the the
+ dictionary of curious and interesting
+
+Speaker 1 :numbers
+
+
+Speaker 0 :which for some reason i
+
+
+Speaker 1 :read through and damn near memorized the
+
+
+Speaker 0 :
+
+Speaker 1 :whole thing
+
+
+Speaker 0 :and i started this weird habit
+
+
+Speaker 1 :of when i was like filling out
+
+
+Speaker 0 :checks you know or you know paying for
+ things with credit cards i would want to make the the receipt add
+
+Speaker 1 :up to an interesting number
+ is there some numbers that stuck with you that just kind of make you feel good
+
+Speaker 0 :they all have a story and fortunately
+ i've actually mostly forgotten all of them
+
+Speaker 1 :um are they uh so like 42
+
+
+Speaker 0 :uh well yeah i mean that one 42 is
+ pretty magical
+
+Speaker 1 :and then the irrationals i mean but is
+ there a square root or two
+
+Speaker 0 :story in there somewhere well it's
+ it's like the only number that has destroyed a religion
+
+Speaker 1 :
+
+Speaker 0 :in which way well the the
+ pathagorians they they believed that all numbers were perfect and you couldrepresent anything as as a as a rational
+
+
+Speaker 1 :number
+ and [Music]
+
+Speaker 0 :
+
+Speaker 1 :in that in that time period
+
+
+Speaker 0 :um the this proof came out
+
+
+Speaker 1 :that there was no
+
+
+Speaker 0 :you know rational fraction whose value
+ was equal to the square root of two
+
+Speaker 1 :and that that means nothing in this
+ world is perfect not even mathematics
+
+Speaker 0 :well it it means that your definition of
+ perfect was imperfect
+
+Speaker 1 :well then then there's the ghetto and
+ completeness theorems in the 20th century that ruined it once again
+
+Speaker 0 :for everybody yeah although although
+ although
+
+Speaker 1 :girdle's theorem um
+
+
+Speaker 0 :you know the lesson i take from girdle's
+ theorem is not that
+
+Speaker 1 :you know there are things you can't know
+ which
+
+Speaker 0 :is fundamentally what it says um
+
+
+Speaker 1 :
+
+Speaker 0 :but you know people want black and white
+ answers
+
+Speaker 1 :they want true or false
+
+
+Speaker 0 :um but if you if you allow a three-state
+
+
+Speaker 1 :logic
+
+
+Speaker 0 :
+
+Speaker 1 :that is true false or maybe
+ then then life's good i feel like there's a parallel to uhmodern political discourse in there
+ somewhere but yeah let me let me askum so with your kind of
+ early love or appreciation of the beauty of mathematicsdo you see a parallel between that world
+ and the world of programming you know programming isall about logical structure
+
+
+Speaker 0 :understanding the the patterns
+
+
+Speaker 1 :
+
+Speaker 0 :that um come out of
+
+
+Speaker 1 :computation understanding
+
+
+Speaker 0 :
+
+Speaker 1 :sort of i mean it's often
+
+
+Speaker 0 :like you know the path through the graph
+ of possibilities
+
+Speaker 1 :to find a short a short route
+ meaning like uh find a short program that gets the job doneyeah kind of thing but uh so then on the
+ topic of irrational numbers do you see dc programmingyou just painted it so cleanly uh it's a
+ little this trajectory to find like a nice little program butdo you see it as fundamentally messy
+ maybe unlike mathematics i don't think
+
+Speaker 0 :of it as
+ i mean i mean you know you watch somebody who's good at math do
+
+Speaker 1 :math and you know often
+
+
+Speaker 0 :it's it's fairly messy sometimes it's
+ kind of
+
+Speaker 1 :magical um
+
+
+Speaker 0 :
+
+Speaker 1 :when i was a grad student
+
+
+Speaker 0 :um one of the students his name was jim
+
+
+Speaker 1 :sax
+ was he had this this this this this reputation of being sort of a
+
+Speaker 0 :walking talking human uh theorem proving
+
+
+Speaker 1 :
+
+Speaker 0 :machine
+ and if you were having a hard problem with something you could just likeaccost him in the hall
+ and say jim and and he would do this this this funnything where he would
+ stand up straight his eyes would kind of defocus he'dgo uh you know just just like get you
+ know like like something in today's moviesand then you straighten up and say and
+ log in and walk away and and and you go well okay so n log nis the answer how did he
+
+
+Speaker 1 :get there
+
+
+Speaker 0 :by which time he's you know down the
+ hallway somewhere yeah
+
+Speaker 1 :it is just the the oracle the black box
+ just gives you the answer
+
+Speaker 0 :yeah and then you have to figure out the
+
+
+Speaker 1 :path from the question to the answer
+ i think in one of the videos i watched you mentioneduh don knuth uh well
+ at least recommending his uh you know his his bookis something people should read oh yeah
+ but in terms of you know theoretical computer sciencedo you do you see something beautiful in
+ in that has been inspiring to you speakingof n log n
+ in your work on programming languages that's in the in that whole world ofalgorithms and complexity
+ and you know these kinds of more formal mathematical thingsum or did that not really
+ stick with you in your programming life it did stick pretty clearly for me
+
+Speaker 0 :because
+ one of the things that i care about is
+
+Speaker 1 :being able to
+
+
+Speaker 0 :
+
+Speaker 1 :sort of look at a piece of code and and
+
+
+Speaker 0 :be able to prove to myself that it works
+
+
+Speaker 1 :um you know and
+
+
+Speaker 0 :you know so so for example i find that
+
+
+Speaker 1 :um
+
+
+Speaker 0 :i'm i'm at odds with many of the people
+
+
+Speaker 1 :around me
+
+
+Speaker 0 :over um issues about like
+
+
+Speaker 1 :how you lay out a piece of software
+
+
+Speaker 0 :right you know so so software engineers
+ get really cranky about how they format their thedocuments that are the programs you know
+ where they put new lines and where they put you know the bracesthe braces and all the rest of that
+
+
+Speaker 1 :right
+ and i tend to go
+
+Speaker 0 :for a style that's very dense
+
+
+Speaker 1 :to minimize the white space um yeah well
+
+
+Speaker 0 :to maximize the amount that i can see
+
+
+Speaker 1 :
+
+Speaker 0 :at once right so i like to be able to
+ see a whole function and to understand whatit does
+ rather than have to go scroll scroll scroll and remember right yeah
+
+Speaker 1 :i'm with you on that yeah that's and
+ people don't like that
+
+Speaker 0 :yeah i've i've had i've had you know
+ multiple times when
+
+Speaker 1 :engineering teams have uh staged
+
+
+Speaker 0 :what was effectively an intervention
+
+
+Speaker 1 :
+
+Speaker 0 :um you know where they they invite me to
+ a meeting and everybody's arrived before me and they so all look at me and sayjames about your coding style
+
+
+Speaker 1 :i'm sort of an odd person to be
+
+
+Speaker 0 :
+
+Speaker 1 :programming because i don't think
+
+
+Speaker 0 :
+
+Speaker 1 :very well verbally um
+
+
+Speaker 0 :i am just naturally a slow reader
+
+
+Speaker 1 :
+
+Speaker 0 :um i'm what most people would call
+
+
+Speaker 1 :a visual thinker so when you think about
+ a program what do you what do you see i see pictures right so
+
+Speaker 0 :when i look at a piece of code on a
+ piece of paper
+
+Speaker 1 :
+
+Speaker 0 :it very quickly gets transformed into a
+
+
+Speaker 1 :picture
+
+
+Speaker 0 :um and you know it's almost like a piece
+
+
+Speaker 1 :of machinery with
+
+
+Speaker 0 :you know this connected to that and like
+ these gear knobs yeah yeah i i see them moremore like that than i see the the
+ the sort of verbal structure or the lexical structure ofof letters so then when you look at the
+
+
+Speaker 1 :program that's why you want to see it
+ all in the same place then you could just mapit to something visual yeah and just
+
+
+Speaker 0 :kind of like like it leaps off the page
+ at me and
+
+Speaker 1 :yeah what are the inputs where the
+ outputs what the heck is this thing doing yeahand yeah getting a whole vision of it
+ can we uh go back into your memory memorylong-term memory access what's the first
+ program you've ever written
+
+Speaker 0 :oh i have no idea what the first one was
+
+
+Speaker 1 :
+
+Speaker 0 :i mean i i know the first machine that i
+ learned that i learned to program on
+
+Speaker 1 :
+
+Speaker 0 :what is it was a
+
+
+Speaker 1 :pdp-8
+
+
+Speaker 0 :um at the university of calgary
+
+
+Speaker 1 :
+
+Speaker 0 :do you remember the specs oh yeah so
+ so the thing had 4k of ram
+
+Speaker 1 :nice 12-bit words
+
+
+Speaker 0 :
+
+Speaker 1 :the clock rate was um
+ it was about a third of a megahertz oh so i didn't even get to the to the m
+
+Speaker 0 :okay yeah
+ yeah so you know we're we're like 10 000 times faster these days
+
+Speaker 1 :um and was this kind of like a super
+ computer like a serious computer
+
+Speaker 0 :for no the pdp 8i was the
+ the first thing that people were calling like mini computer
+
+Speaker 1 :
+
+Speaker 0 :got it they were sort of inexpensive
+ enough that a university lab could maybe afford
+
+Speaker 1 :to buy one
+ and was there time sharing all that kind
+
+Speaker 0 :of stuff um there there actually was a
+ time sharing os
+
+Speaker 1 :for that but it wasn't
+
+
+Speaker 0 :used really widely the machine that i
+ learned on was one that was kind of hidden in the
+
+Speaker 1 :back corner
+
+
+Speaker 0 :of the of the computer center
+
+
+Speaker 1 :um and it was
+
+
+Speaker 0 :it was bought as a as part of a
+ um project to do computer networking
+
+Speaker 1 :um but
+
+
+Speaker 0 :you know they didn't actually use it
+ very much it was mostly just kind of
+
+Speaker 1 :sitting there
+
+
+Speaker 0 :and it was kind of sitting there and i
+ noticed it was just kind of sitting there and
+
+Speaker 1 :so i started fooling around with it and
+
+
+Speaker 0 :nobody seemed to mind so i just kept
+
+
+Speaker 1 :doing that and
+ i had a keyboard and like a monitor
+
+Speaker 0 :oh this is way before monitors were
+ common so it was it was literally a a model 33teletype
+
+
+Speaker 1 :okay with a paper tape reader
+ okay so the user interface wasn't very
+
+Speaker 0 :good yeah
+ yeah it was it was the first computer ever
+
+Speaker 1 :built with integrated circuits
+
+
+Speaker 0 :but by integrated circuits i mean that
+ they would have
+
+Speaker 1 :like 10 or 12 transistors
+
+
+Speaker 0 :
+
+Speaker 1 :on one piece of silicon right not the 10
+
+
+Speaker 0 :or 12
+
+
+Speaker 1 :billion that machines have today
+ so what did that i mean feel like if you remember thosei mean did you have kind of inklings of
+ the the magic of exponential kind ofimprovement of moore's law
+ of the potential of the future that was at your fingertips kind of thing oh itwas
+
+
+Speaker 0 :just a cool yeah it was just a toy
+ you know i had always liked building
+
+Speaker 1 :stuff
+
+
+Speaker 0 :but one of the problems with building
+ stuff is that you need to have parts you know you need to have piecesof wood or wire
+
+
+Speaker 1 :or switches or stuff like that and those
+ all cost money
+
+Speaker 0 :and here you could build you could build
+ arbitrarily complicated things and i didn't need any physical materials
+
+Speaker 1 :
+
+Speaker 0 :um it required no money that's right
+
+
+Speaker 1 :it's a good way to put
+ programming you're right it's uh if you love building thingsit uh okay so it you know completely
+ accessible you don't need anything and anybody fromanywhere could just build something
+ really cool
+
+Speaker 0 :yeah yeah if you've got access to a
+ computer you can you can build all kinds of crazy stuff
+
+Speaker 1 :um and
+
+
+Speaker 0 :you know and when you were somebody like
+
+
+Speaker 1 :me who had like really no money
+ um and i mean i
+
+Speaker 0 :i remember just lusting after being able
+ to buy like
+
+Speaker 1 :a transistor
+
+
+Speaker 0 :um you know and when i would do
+ sort of electronics kind of projects they were mostly made
+
+Speaker 1 :
+
+Speaker 0 :done by like dumpster diving for trash
+
+
+Speaker 1 :
+
+Speaker 0 :you know and you know one of my big
+ hauls was uh discarded relay racks from the backof a
+ the phone company switching center oh
+
+Speaker 1 :nice
+ that was the big memorable treasure oh
+
+Speaker 0 :yeah yeah
+
+
+Speaker 1 :that was what do you use that for i i
+
+
+Speaker 0 :
+
+Speaker 1 :built a machine that played tic-tac-toe
+
+
+Speaker 0 :nice out of relays of course the thing
+
+
+Speaker 1 :that was really hard
+
+
+Speaker 0 :um was that all the relays required a
+
+
+Speaker 1 :specific voltage
+
+
+Speaker 0 :but getting a power supply that will
+ would do that voltage was pretty hard andsince i had a bunch of trashed
+
+
+Speaker 1 :television sets i had to
+ um sort of cobble together something
+
+Speaker 0 :
+
+Speaker 1 :that was
+ wrong but worked um
+
+Speaker 0 :so i was actually running these relays
+
+
+Speaker 1 :at 300 volts
+
+
+Speaker 0 :and and none of the electrical
+ connections were
+
+Speaker 1 :like properly sealed off
+ you survived that period of your life oh
+
+Speaker 0 :for so many reasons
+ for so many reasons i mean you know you'reyou know it's pretty common for teenage
+ geeks to discover oh thermite that's real easy to
+
+Speaker 1 :make
+ yeah well i'm glad you did but do you remember thedo you remember what program in calgary
+ that you wrote anything that stands out and what language
+
+Speaker 0 :well so mostly the
+
+
+Speaker 1 :anything of any size was
+ assembly code um
+
+Speaker 0 :and actually before i learned assembly
+ code there was this programming language on the pdp called
+
+Speaker 1 :focal five
+
+
+Speaker 0 :and focal five was kind of like a really
+ stripped down
+
+Speaker 1 :fortran and
+
+
+Speaker 0 :i remember playing but you know building
+ programs that did things like
+
+Speaker 1 :um play blackjack um
+ [Music] or solitaire or for some reason or the
+
+Speaker 0 :things that
+ i really liked were ones where they were just like
+
+Speaker 1 :plotting graphs so something with
+ uh like a function or a data and then you'd plot ityeah yeah i did a bunches of those
+
+
+Speaker 0 :things and
+ went ooh pretty pictures um
+
+Speaker 1 :and so this would like print out again
+ no
+
+Speaker 0 :no monitors right so it was like
+
+
+Speaker 1 :on a teletype yeah
+
+
+Speaker 0 :so using something that's kind of like a
+ a typewriter and then using those
+
+Speaker 1 :to plot functions so when i apologize to
+ romanticize things but when did you first fall in love withprogramming you know what was the first
+ programming language like it's a serious maybe software engineer where youthought this is a beautiful
+
+
+Speaker 0 :thing i guess i never really thought of
+ any particular language as being like beautiful because it was never reallyabout the language for me it was about
+
+
+Speaker 1 :what you could do with it
+ um and you know even today
+
+Speaker 0 :you know people try to get me into
+ arguments about particular forms of syntax for this orthat and i'm like
+
+
+Speaker 1 :who cares you know it's it's about what
+
+
+Speaker 0 :you can do
+ not not not how you spell the word
+
+Speaker 1 :
+
+Speaker 0 :um and you know so back in those days i
+ i learned like pl one and fortran
+
+Speaker 1 :
+
+Speaker 0 :and cobalt and and you know by the time
+ that people were willing to hire me to do
+
+Speaker 1 :stuff
+
+
+Speaker 0 :you know it was mostly assembly code and
+ you know pvp assembly code and and
+
+Speaker 1 :fortran code and
+
+
+Speaker 0 :control data assembly code for like the
+ cdc 6400 which was an
+
+Speaker 1 :early i guess super computer
+
+
+Speaker 0 :even though that super computer has less
+
+
+Speaker 1 :compute power than my phone
+ by a lot and that was mostly like said fortran yeah worldthat said you've also showed
+ appreciation for the greatest language um ever that i think everyone agrees islisp
+
+
+Speaker 0 :um well lisp was definitely on my list
+ of the greatest ones that have have um
+
+Speaker 1 :existed is that number one or i mean
+
+
+Speaker 0 :um are you i mean you know that you know
+ the thing is that it's it that you you
+
+Speaker 1 :know
+
+
+Speaker 0 :i wouldn't put it number one now is it
+
+
+Speaker 1 :the parentheses what uh
+ um what do you love what do you not love about lispum well i guess the number one thing to
+
+
+Speaker 0 :not love about it is so freaking many
+ parentheses yeah um on the on the love thing is you know out of
+
+Speaker 1 :those
+
+
+Speaker 0 :tons of parentheses you actually get an
+
+
+Speaker 1 :interesting language structure
+
+
+Speaker 0 :and i've always thought that there was a
+ friendlier version of lisp
+
+Speaker 1 :hiding out there somewhere but i've
+
+
+Speaker 0 :never really
+
+
+Speaker 1 :
+
+Speaker 0 :spent much time thinking about thinking
+ about it but you know so like like up the food chain
+
+Speaker 1 :for me um then from lisp is
+
+
+Speaker 0 :
+
+Speaker 1 :
+
+Speaker 0 :simula which a very small number of
+
+
+Speaker 1 :people have ever used
+ but a lot of people i think he had a huge influence rightyeah the programming but in the simula
+ i apologize if i'm wrong on this but is that one of the first functionallanguages
+ um or no no it was it was it was the
+
+Speaker 0 :first object-oriented programming
+ language got it it's really where object-orientedand languages sort of came together
+
+
+Speaker 1 :
+
+Speaker 0 :um and it was also the
+ the language where co routines first
+
+Speaker 1 :showed up as a part of the language
+
+
+Speaker 0 :so you could have a programming style
+
+
+Speaker 1 :that was
+
+
+Speaker 0 :you could think of it as multiple uh
+ sort of multi-threaded
+
+Speaker 1 :with a lot of parallel parallelism
+ really there's ideas of parallelism in there yeah
+
+Speaker 0 :yeah so that was that was back you know
+
+
+Speaker 1 :so the first stimulus spec was simula 67
+
+
+Speaker 0 :like 1967. yeah
+ wow so it had it it had co-routines which arealmost threads the the thing about co
+ routines is that they don't have true concurrency so you can get away
+
+Speaker 1 :without
+
+
+Speaker 0 :um really complex locking you can't
+
+
+Speaker 1 :
+
+Speaker 0 :usably do co-routines on a
+
+
+Speaker 1 :on the multi-core machine or if you try
+
+
+Speaker 0 :to do core
+ code routines on the multi-core mute
+
+Speaker 1 :
+
+Speaker 0 :machine you
+ don't actually get to use the multiple coresum either that or you you know because
+ you start then having to get into the universe ofyou know semaphores and locks and things
+
+
+Speaker 1 :like that
+
+
+Speaker 0 :um but you know in terms of the
+ the style of programming you could
+
+Speaker 1 :
+
+Speaker 0 :write code and think think of it as
+ being multi-threaded the mental model
+
+Speaker 1 :
+
+Speaker 0 :was very much a multi-threaded one and
+
+
+Speaker 1 :
+
+Speaker 0 :all kinds of problems you could approach
+
+
+Speaker 1 :very differently
+ to to return to uh the world of lisp for a brief moment you uh at cmu you'veyou uh wrote a version of emacs
+ that i think was very impactful on the history of emacsum what was your motivation
+
+
+Speaker 0 :for for doing so at that time
+
+
+Speaker 1 :so that was in like 85 or 86.
+
+
+Speaker 0 :
+
+Speaker 1 :um i had been using
+
+
+Speaker 0 :
+
+Speaker 1 :unix for a few years
+
+
+Speaker 0 :and um most of the editing was
+ this this tool called edie um
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :which was sort of an ancestor of vi
+ and is it a pretty good editor
+
+Speaker 0 :not a good editor well if if what you're
+ using um if your input device is a teletype
+
+Speaker 1 :
+
+Speaker 0 :it's pretty good yeah it's certainly
+ more humane than tico which was kind of the the common thingin
+ a lot of um the dec universe at the time
+
+Speaker 1 :
+
+Speaker 0 :tico is both tk is that the tico t-e-c-o
+ the text editor and corrector corrector
+
+Speaker 1 :huh
+ so many features um and the original emacs
+
+Speaker 0 :came out as so emac stands for editor
+
+
+Speaker 1 :macros
+
+
+Speaker 0 :and tico had a way of writing macros
+
+
+Speaker 1 :and so the original um
+
+
+Speaker 0 :emacs from mit sort of started out as
+
+
+Speaker 1 :a collection of macros for tico
+
+
+Speaker 0 :but then you know you know the the sort
+ of emac style got got popular originally at
+
+Speaker 1 :at mit and then people
+
+
+Speaker 0 :did a few other implementations of emacs
+
+
+Speaker 1 :
+
+Speaker 0 :that were you know the the the code base
+ was entirely different but it was sort of the philosophical styleof the original emacs what was the
+
+
+Speaker 1 :philosophy of emacs and by the way were
+ all the implementations always in c and then no and how does lisp fit into
+
+Speaker 0 :the picture
+ no so so the very first emacs was written as a bunch of macros for thetico text editor
+
+
+Speaker 1 :wow this is so interesting and the
+
+
+Speaker 0 :the the macro language for tico
+
+
+Speaker 1 :
+
+Speaker 0 :was probably the most ridiculously
+
+
+Speaker 1 :obscure
+
+
+Speaker 0 :format you know if you just look at a
+ tico program on a on a page you think it was just randomcharacters
+
+
+Speaker 1 :it really looks like just line noise
+ just kind of like latex or something oh
+
+Speaker 0 :worse
+ way worse than the tick way way worse
+
+Speaker 1 :
+
+Speaker 0 :than latex
+ um but you know if you use tico a lot which i did the the tico was completelyoptimized for touch typing
+
+
+Speaker 1 :at high speed um
+
+
+Speaker 0 :so there were no two character commands
+
+
+Speaker 1 :
+
+Speaker 0 :well there were a few but mostly they
+ were just one character so every character on the keyboard was a separate
+
+Speaker 1 :command
+
+
+Speaker 0 :um and actually every character on the
+ keyboard was usually two or three
+
+Speaker 1 :commands because you know you hit shift
+
+
+Speaker 0 :and control and all of those things you
+ know it's just a way of
+
+Speaker 1 :very tightly encoding it and
+
+
+Speaker 0 :mostly what emacs did was it made that
+
+
+Speaker 1 :that visual right so
+
+
+Speaker 0 :one way to think of tico is use emax
+
+
+Speaker 1 :with your eyes closed
+
+
+Speaker 0 :where you have to maintain a mental
+
+
+Speaker 1 :model of
+
+
+Speaker 0 :you know sort of a mental image of your
+ document you have to go okay so the the cursor is
+
+Speaker 1 :between the a and the e
+
+
+Speaker 0 :and i want to exchange those so i do
+ these these things right so it almost it isalmost exactly the emax command set
+ well it's roughly approximate roughly the same as emacs command set
+
+Speaker 1 :but using emacs with your eyes closed
+ um so what
+
+Speaker 0 :emacs you know part of what emacs added
+ to the whole thing was was being able to visually see what you
+
+Speaker 1 :were editing
+
+
+Speaker 0 :
+
+Speaker 1 :um in a form that matched your document
+
+
+Speaker 0 :um and you know a lot of things
+ changed in the in the command set it um you know because it was programmableit was
+ really flexible you could add new commands for all kinds of things
+
+Speaker 1 :
+
+Speaker 0 :and then people rewrote emacs
+ like multiple times in lisp there was one done atmit for the lisp machine there was one
+ done
+
+Speaker 1 :for multix and one summer i got a
+
+
+Speaker 0 :got a summer job to work on the
+
+
+Speaker 1 :pascal compiler for multix
+
+
+Speaker 0 :and that was actually the first time i
+
+
+Speaker 1 :used emacs
+
+
+Speaker 0 :and and and so to write the compilers
+
+
+Speaker 1 :you've worked in compilers too it's yeah
+
+
+Speaker 0 :that's fascinating
+
+
+Speaker 1 :yeah so i did a lot of work you know
+
+
+Speaker 0 :i mean i spent like like a really
+ intense three months working on this pascal compiler umbasically living in emacs and it was
+ it was the one written in mac list by
+
+Speaker 1 :bernie greenberg
+
+
+Speaker 0 :and i thought wow this is a just a way
+
+
+Speaker 1 :better way to do editing
+
+
+Speaker 0 :um and then i got back to cmu
+
+
+Speaker 1 :
+
+Speaker 0 :where we had kind of one of everything
+
+
+Speaker 1 :
+
+Speaker 0 :and two of a bunch of things and four of
+
+
+Speaker 1 :a few things and
+
+
+Speaker 0 :um since i mostly worked in the unix
+ universe and unix didn't have an e-max i decidedthat i needed to fix that problem
+ so i so i wrote this this implementation of emacs in cbecause at the time c was really the
+ only language that worked on
+
+Speaker 1 :on uh on unix
+ um and you were comfortable with c as well oh yeah at that point
+
+Speaker 0 :yeah at that time i had done a lot of c
+
+
+Speaker 1 :coding that this was in like 86.
+ um and
+
+Speaker 0 :you know it was running well enough to
+
+
+Speaker 1 :
+
+Speaker 0 :be used for me to use it to edit itself
+ within a
+
+Speaker 1 :month or two and um then it kind of
+ took over the university and and it
+
+Speaker 0 :spread
+ and then it died yeah and then it went outside theand largely because unix kind of
+
+
+Speaker 1 :took over the research community
+
+
+Speaker 0 :on the on the on the arpanet
+
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :then and emacs was
+
+
+Speaker 0 :kind of the best editor out there it
+ kind of took over and there was a actually a brief period
+
+Speaker 1 :where
+
+
+Speaker 0 :i actually had login ids on every
+
+
+Speaker 1 :non-military host on the on the arpanet
+
+
+Speaker 0 :you know because people would say oh can
+ we install this and and i'd like
+
+Speaker 1 :
+
+Speaker 0 :well yeah but you'll need some help
+
+
+Speaker 1 :uh the days when security wasn't uh when
+
+
+Speaker 0 :nobody cared nobody cared
+
+
+Speaker 1 :yeah we can ask briefly
+ what were those early days of arpanet and the internetlike what was uh
+ what i mean did you uh again sorry for the silly questionbut could you have possibly imagined
+ that uh the the internet would look like what it is today
+
+Speaker 0 :you know some of it is remarkably
+
+
+Speaker 1 :unchanged
+
+
+Speaker 0 :so like one of the things that i noticed
+
+
+Speaker 1 :really early on
+ um at you know when i was at
+
+Speaker 0 :
+
+Speaker 1 :at carnegie mellon was that
+
+
+Speaker 0 :a lot of social life
+
+
+Speaker 1 :
+
+Speaker 0 :became centered around the arpanet
+
+
+Speaker 1 :
+
+Speaker 0 :so things like you know between email
+ and
+
+Speaker 1 :
+
+Speaker 0 :text messaging because the
+ you know text messaging was a part of the arpanet really early onthere were no cell phones but you know
+ you're sitting at a terminal and you're typing stuff
+
+Speaker 1 :and essentially email or like what what
+
+
+Speaker 0 :is well just like
+ like a one-line message right so so so
+
+Speaker 1 :oh cool so like chat like chat yeah
+
+
+Speaker 0 :right so it's like like sending a
+ one-line message to somebody right
+
+Speaker 1 :and and and so pretty much
+
+
+Speaker 0 :
+
+Speaker 1 :everything from you know
+
+
+Speaker 0 :arranging lunch to going out on dates
+ you know it was all like driven by social mediaso you know right in the in the in
+ the 80s easier than phone calls yeah
+
+Speaker 1 :
+
+Speaker 0 :you know and my life had gotten to where
+
+
+Speaker 1 :you know i was you know
+
+
+Speaker 0 :living on social media you know from
+
+
+Speaker 1 :like
+ the early mid 80s um and
+
+Speaker 0 :and so when when it sort of transformed
+ into the internet and social media explodes i was kind oflike
+ what's the big deal it's just a scale
+
+Speaker 1 :
+
+Speaker 0 :thing
+ it's it's right the the scale thing is just
+
+Speaker 1 :astonishing yeah um but the fundamentals
+
+
+Speaker 0 :um in some ways the fundamentals have
+ have hardly changed and you know the the technologies behind thethe networking have changed
+ significantly the
+
+Speaker 1 :
+
+Speaker 0 :you know the the the watershed moment of
+ you know going from the arpanet to the
+
+Speaker 1 :internet
+ um and then people starting to just
+
+Speaker 0 :scale and scale and scale i mean the
+
+
+Speaker 1 :
+
+Speaker 0 :the the the scaling that happened in the
+ early 90s
+
+Speaker 1 :and the way that
+
+
+Speaker 0 :so many vested interests fought the
+
+
+Speaker 1 :internet
+ oh who oh interesting what was the oh because you can't really control the
+
+Speaker 0 :internet yeah
+ so so so fundamentally the
+
+Speaker 1 :
+
+Speaker 0 :you know the cable tv companies and
+ broadcasters
+
+Speaker 1 :and phone companies um
+
+
+Speaker 0 :you know at the deepest fibers of their
+ being
+
+Speaker 1 :they hated the internet but
+
+
+Speaker 0 :
+
+Speaker 1 :it was often kind of a funny thing
+ because um
+
+Speaker 0 :you know so so so think of a cable
+
+
+Speaker 1 :company
+
+
+Speaker 0 :right most of the employees of the cable
+
+
+Speaker 1 :company
+
+
+Speaker 0 :
+
+Speaker 1 :their job is getting
+
+
+Speaker 0 :tv shows movies whatever
+
+
+Speaker 1 :out to their customers they view their
+
+
+Speaker 0 :business
+
+
+Speaker 1 :as serving their customers
+
+
+Speaker 0 :um but as you climb up the hierarchy
+ in the in the cable companies
+
+Speaker 1 :that view shifts because
+ um really
+
+Speaker 0 :
+
+Speaker 1 :the business of the cable companies
+
+
+Speaker 0 :that had always been selling eyeballs to
+
+
+Speaker 1 :advertisers
+ right um
+
+Speaker 0 :and you know that view of
+
+
+Speaker 1 :of like a cable company didn't really
+
+
+Speaker 0 :dawn on most people who worked at the
+
+
+Speaker 1 :cable companies
+
+
+Speaker 0 :but i mean you know we you know i had
+ various dust-ups with various cable companies where you couldsee you know in the stratified layers of
+ the corporation that that this this this this this view ofyou know the reason that you have you
+ know cable tv is to capture eyeballs
+
+Speaker 1 :you know there they didn't see it that
+
+
+Speaker 0 :way well so so the people who
+ the most the people who worked at the phone companyare at the cable companies their view
+
+
+Speaker 1 :
+
+Speaker 0 :was that their
+ their job was getting delightful content out to their customersand their customers would pay for them
+
+
+Speaker 1 :would pay for that
+
+
+Speaker 0 :higher up they viewed this as as a way
+ of
+
+Speaker 1 :attracting eyeballs to them
+
+
+Speaker 0 :and and then what they were really doing
+ was selling
+
+Speaker 1 :the eyeballs that were glued to their
+
+
+Speaker 0 :content
+ to the advertising to the advertisers
+
+Speaker 1 :yeah
+ and so the internet was a competition in
+
+Speaker 0 :that sense right
+ and and and and they were right well yeah um i mean there was oneproposal that we sent the
+ the we one detailed proposal that that
+
+Speaker 1 :we
+
+
+Speaker 0 :um wrote up you know back at that sun
+ in the in the early 90s that was essentially likelook anybody you know with it with
+ internet technologies anybody can become provider
+
+Speaker 1 :
+
+Speaker 0 :of of content so you know
+
+
+Speaker 1 :you could be distributing home movies to
+ your parents
+
+Speaker 0 :or your cousins or your who are anywhere
+ else right so anybody can become a publisher wow you
+
+Speaker 1 :were thinking about that already yeah
+
+
+Speaker 0 :yeah that was like yeah that was
+ that that was like in the in the early
+
+Speaker 1 :90s yeah
+
+
+Speaker 0 :and we thought this would be great
+
+
+Speaker 1 :
+
+Speaker 0 :you could you know and the kind of
+ content we were thinking about at the time was
+
+Speaker 1 :
+
+Speaker 0 :like you know home movies kids essays
+
+
+Speaker 1 :um you know stuff from
+
+
+Speaker 0 :like grocery stores or you know you know
+ that or or a restaurant that they couldactually
+ like start sending information about
+
+Speaker 1 :out and um
+
+
+Speaker 0 :that's brilliant and and the the the the
+ reaction of the cable companies was
+
+Speaker 1 :like no because
+ because then we're out of business
+
+Speaker 0 :
+
+Speaker 1 :what is it about companies that because
+ they could have just they could have been ahead of that wavethey could have listened to that
+
+
+Speaker 0 :and they could have they they didn't see
+
+
+Speaker 1 :a path to revenue
+ you know there's there's somewhere in there there's a lesson for likebig companies right like to to listen
+ to to try to anticipate the the renegade the out there out of the boxpeople like yourself in the early days
+ writing proposals about what this could possibly be well and
+
+Speaker 0 :
+
+Speaker 1 :that you know that you know it wasn't
+
+
+Speaker 0 :you know if you're in a in a position
+
+
+Speaker 1 :where you're making
+
+
+Speaker 0 :truckloads of money off of a particular
+
+
+Speaker 1 :business model
+ um you you know the
+
+Speaker 0 :the the the the whole um
+ thought of like you know leaping the chasmright you know you know you can see oh
+
+
+Speaker 1 :new models
+
+
+Speaker 0 :that are more effective are emerging
+
+
+Speaker 1 :
+
+Speaker 0 :right so like digital cameras versus
+
+
+Speaker 1 :film cameras
+ um you know i mean why take the leap
+
+Speaker 0 :why take the leap because you're making
+ so much money
+
+Speaker 1 :off of film and
+
+
+Speaker 0 :um you know in my past at sun
+ one of our big customers was kodak and i ended upinteracting with folks from kodak quite
+ a lot and they actually had a
+
+Speaker 1 :big um
+
+
+Speaker 0 :digital camera research and you know
+ digital imaging business or b development group
+
+Speaker 1 :and they knew
+
+
+Speaker 0 :that that you know you you know you just
+ look at the at the trend lines and you look at umyou know the emerging quality of
+
+
+Speaker 1 :
+
+Speaker 0 :of of these you know digital cameras
+
+
+Speaker 1 :
+
+Speaker 0 :and you know you can just plot it on the
+ graph
+
+Speaker 1 :you know and it's like you know sure
+
+
+Speaker 0 :
+
+Speaker 1 :film is better today
+ but you know
+
+Speaker 0 :digital is is is is improving like this
+
+
+Speaker 1 :the lines are going to cross and and you
+
+
+Speaker 0 :know the point at which the lines cross
+ is going to be a collapse in their
+
+Speaker 1 :business
+ and they could see that
+
+Speaker 0 :right they absolutely knew that the
+ problem is that you know up to the point where they hit the wall
+
+Speaker 1 :
+
+Speaker 0 :they were making truckloads of money
+
+
+Speaker 1 :yeah
+
+
+Speaker 0 :right and when they did the math
+
+
+Speaker 1 :
+
+Speaker 0 :um it never started to make sense for
+ them to
+
+Speaker 1 :kind of lead the charge and
+
+
+Speaker 0 :part of the issues for a lot of
+ companies for this kind of stuff
+
+Speaker 1 :
+
+Speaker 0 :is that um you know if you're going to
+ leap over a chasm like that like like with
+
+Speaker 1 :kodak going from from film to digital
+
+
+Speaker 0 :that's a transition that's going to take
+
+
+Speaker 1 :a while
+
+
+Speaker 0 :right we have we had fights like this
+ with people over like smart carts
+
+Speaker 1 :the smart cards fights were just
+ ludicrous but that's where visionary leadershipcomes in right yeah somebody needs to
+ roll in and say then take to take the leap well it's
+
+Speaker 0 :it's partly take the leap but it's also
+ partly take the hit
+
+Speaker 1 :
+
+Speaker 0 :take the hit right so so so so you can
+
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :draw all the graphs you want that show
+
+
+Speaker 0 :that you know if we leap from here
+ you know you know the you know on our present trajectory we're doing this andthere's a cliff
+
+
+Speaker 1 :
+
+Speaker 0 :if we um force ourselves into it into a
+ transition and we proactively do that
+
+Speaker 1 :
+
+Speaker 0 :we can be on the next wave
+ but there will be a period when we're in
+
+Speaker 1 :a trough
+
+
+Speaker 0 :and pretty much always there ends up
+ being a trough as you leave the chasm
+
+Speaker 1 :
+
+Speaker 0 :but the way that public companies work
+
+
+Speaker 1 :on this planet they're reporting
+
+
+Speaker 0 :every quarter and the one thing that a
+ ceo
+
+Speaker 1 :must never do
+
+
+Speaker 0 :is take a big hit take a big hit
+ you know over some some quarter and and
+
+Speaker 1 :many of these transitions
+
+
+Speaker 0 :involve a big hit for a
+ a period of time you know one two three
+
+Speaker 1 :quarters
+ and so you get
+
+Speaker 0 :some companies and you know like
+
+
+Speaker 1 :
+
+Speaker 0 :tesla and amazon are are really good
+ examples
+
+Speaker 1 :of companies that take huge hits
+
+
+Speaker 0 :but they have the luxury of being able
+ to ignore the stock market for a little
+
+Speaker 1 :while
+
+
+Speaker 0 :and that's not so true today
+ really but you know in the early days of
+
+Speaker 1 :of both of those companies um
+
+
+Speaker 0 :you know like like like like like they
+ they both did this thing of
+
+Speaker 1 :you know i don't care about the
+
+
+Speaker 0 :quarterly reports
+ i care about how many how many happy
+
+Speaker 1 :customers we have
+ yeah right and having as many happy
+
+Speaker 0 :customers as possible can
+
+
+Speaker 1 :often be um
+
+
+Speaker 0 :an enemy of the bottom line yeah so how
+
+
+Speaker 1 :do they make that work i mean
+ amazon operated in the negative for a long time it's like investing into thefuture
+
+
+Speaker 0 :right but you know you know so
+ amazon and google and tesla and facebook a lot of those had
+
+Speaker 1 :what it what amounted to patient money
+
+
+Speaker 0 :um often because the there's there's
+ like a charismatic central figure who has a really large
+
+Speaker 1 :block of stock
+
+
+Speaker 0 :and they can just make it so
+
+
+Speaker 1 :so what uh on that topic just maybe it's
+ a little small tangent but uh you've gotten the chance to work withsome pretty big leaders
+ what are your thoughts about on tesla side elon muskleadership on the amazon side jeff bezos
+ all of these folks with large amounts of stock and visionin their company i mean they're founders
+ yeah either the complete founders are like early onfolks
+ and uh they're they amazon have taken leave a lot of leaps uh andyou know uh that probably at the time
+ people would criticize as like what is this bookstore thing
+
+Speaker 0 :why yeah and and
+
+
+Speaker 1 :you know bezos had a vision and
+
+
+Speaker 0 :he had the ability to just follow it
+
+
+Speaker 1 :
+
+Speaker 0 :lots of people have visions and you know
+ the average vision is completely idiotic and you crash and burn
+
+Speaker 1 :
+
+Speaker 0 :um you know the the silicon valley
+
+
+Speaker 1 :um crash and burn rate is pretty high
+
+
+Speaker 0 :um and they're not they don't
+ necessarily crash and burn because they were dumb ideas but
+
+Speaker 1 :you know often it's it's just timing um
+
+
+Speaker 0 :timing and luck and you know you take
+ companies like
+
+Speaker 1 :like like tesla um
+
+
+Speaker 0 :and and and and and really you know the
+ the original tesla
+
+Speaker 1 :
+
+Speaker 0 :um you know sort of pre
+
+
+Speaker 1 :um elon
+
+
+Speaker 0 :was kind of doing sort of okay
+
+
+Speaker 1 :but but but he just drove them
+ and because he had a
+
+Speaker 0 :
+
+Speaker 1 :really strong vision you know he would
+
+
+Speaker 0 :he would make calls
+
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :that were always you know or
+
+
+Speaker 0 :well mostly pretty good i mean the model
+ x was kind of a goofball thing to do
+
+Speaker 1 :but he did it boldly anyway like there's
+ so many people that just said like there's so manypeople that oppose them on
+ the falcon one door like the doors yeah from the engineering perspectivethose doors are ridiculous it's like
+
+
+Speaker 0 :yeah they're they are a complete
+ travesty
+
+Speaker 1 :but but they're but they're exactly the
+ symbol of what great leadership is which islike you have a vision and you just go
+ like
+
+Speaker 0 :if you're gonna do something stupid make
+ it really stupid yeah and go all in
+
+Speaker 1 :yeah yeah and and
+
+
+Speaker 0 :you know to to must credit he's a
+ really sharp guy so going back in time a little bit to stevejobs
+ you know steve jobs was a similar sort of character who hada strong vision and was really really
+
+
+Speaker 1 :smart
+
+
+Speaker 0 :and you you know and he wasn't smart
+ about the technology parts of things but but sort of he he was really sharpabout
+
+
+Speaker 1 :the the the sort of
+
+
+Speaker 0 :human relationship between you know the
+ relationship between humans and objects
+
+Speaker 1 :um and but
+
+
+Speaker 0 :
+
+Speaker 1 :he was a jerk you know
+
+
+Speaker 0 :
+
+Speaker 1 :right can we just linger on that a
+ little bit like people say he's a jerk um is that a feature or a bug well
+
+Speaker 0 :that's that's that's the question right
+ so you take people like
+
+Speaker 1 :steve um who was
+
+
+Speaker 0 :
+
+Speaker 1 :really hard on people and and the
+
+
+Speaker 0 :and so the question is was he really was
+ he needlessly hard on people
+
+Speaker 1 :or was he just making people
+ reach to to meet his vision andyou could kind of spin it either way
+ um well the results tell a story you know he's uh he through whateverjerk ways he had
+ he made people often do the best work of their life
+
+Speaker 0 :yeah yeah and that was absolutely true
+ and you know i interviewed with him several times
+
+Speaker 1 :
+
+Speaker 0 :um i did you know various
+
+
+Speaker 1 :negotiations with him and
+ um
+
+Speaker 0 :
+
+Speaker 1 :even though kind of
+ personally i liked him i could never work for himwhy do you think uh it that what
+ can you put into words the kind of tension that you feel would beum destructive as opposed to
+ constructive
+
+Speaker 0 :oh he he he'd yell at people he'd call
+
+
+Speaker 1 :them names
+ and you don't like that no no i don't i
+
+Speaker 0 :don't think you need to do that
+
+
+Speaker 1 :yeah um and
+
+
+Speaker 0 :you know he you know i think you know
+ there's there's
+
+Speaker 1 :pushing people to excel
+ and then there's too far and i think he
+
+Speaker 0 :was on the wrong side of the line
+
+
+Speaker 1 :
+
+Speaker 0 :and i've never worked for musk i know a
+ number of people who have many of them that have said and it's you
+
+Speaker 1 :know shows up in the press a lot that
+
+
+Speaker 0 :that musk is kind of that way and
+
+
+Speaker 1 :
+
+Speaker 0 :one of the things that i sort of loathe
+ about silicon valley these days
+
+Speaker 1 :is that um a lot of the high-flying
+
+
+Speaker 0 :successes are run by people who are
+
+
+Speaker 1 :complete jerks
+
+
+Speaker 0 :um but it seems like there's been
+ become this there's come this this sort of mythologyout of steve jobs that the reason that
+ he succeeded
+
+Speaker 1 :was because he was super hard on people
+
+
+Speaker 0 :
+
+Speaker 1 :
+
+Speaker 0 :and and and and and and and in
+ a number of corners people start going oh if i want to succeedi need to be a real jerk yeah right
+ and and and that for me just does not computei mean i know a lot of successful people
+
+
+Speaker 1 :who are not jerks
+
+
+Speaker 0 :
+
+Speaker 1 :who are perfectly fine people
+
+
+Speaker 0 :um you know they they tend to
+
+
+Speaker 1 :
+
+Speaker 0 :not be in the public eye the the
+
+
+Speaker 1 :the the general public somehow lifts the
+ jerks up into the into the hero status right well they
+
+Speaker 0 :because they're they do things that get
+ them in the press
+
+Speaker 1 :yeah and you know the people who
+ um you know don't do the kind of things that spill
+
+Speaker 0 :
+
+Speaker 1 :into the press
+ um yeah i just uh talked to chris ladner um for the second timehe's a super nice guy just an example of
+ this kind of kind individual that's in the backgroundi feel like he's behind like a million
+ technologies but he also talked about the jerkiness of some of the folks yeah
+
+Speaker 0 :yeah
+ and the fact that being a jerk has become your required style
+
+Speaker 1 :but one thing i'd maybe want to ask on
+ that is and maybe to push back a little bitso there's the jerk side but there's
+ also if i were to criticize what i've seen insilicon valley
+ which is almost the resistance to working hardso on the jerkiness side is um
+ it's it's so posted jobs and elon kind of push peopleto work really hard to do
+ and there's a question whether it's possible to do that nicelybut one of the things that bothers me
+ maybe i'm just rushing and just kind of you knowromanticize the whole suffering thing
+ but i think working hard is essential for accomplishing anything interestinglike really hard and in the parlance of
+ silicon valley it's probably too hard this idea that you should work smart nothard
+ often to me it sounds like you should be lazybecause of course you want to be to work
+ smart of course you want to be maximally efficient but in order todiscover the efficient path like we're
+ talking about with the short programs
+
+Speaker 0 :yeah well you know the the the smart
+ hard thing yeah isn't an either or it's an and
+
+Speaker 1 :as an and yeah right and
+ um you know the the the the the people who say you should work
+
+Speaker 0 :smart
+
+
+Speaker 1 :
+
+Speaker 0 :not hard they pretty much always fail
+
+
+Speaker 1 :yeah thank you right i mean that's
+
+
+Speaker 0 :that's that's just just a recipe for
+ disaster i mean there
+
+Speaker 1 :are there are counter examples
+
+
+Speaker 0 :but they're more people who benefited
+ from
+
+Speaker 1 :luck and you're yeah exactly
+ luck and timing like you said is often uhan essential thing but you're saying you
+ know you can be you can push people to work hardand do incredible work without without
+
+
+Speaker 0 :uh without being nasty yeah without
+
+
+Speaker 1 :being nasty
+ i think uh um google is a good example of theleadership of google
+ throughout his history has been a pretty good example of uh
+
+Speaker 0 :not being nasty i mean the
+ the the the twins larry and sergey um are both pretty nice people sandra
+
+Speaker 1 :paches
+ very nice yeah yeah yeah and
+
+Speaker 0 :you know it's it's a culture of people
+
+
+Speaker 1 :who
+ work really really hard let me ask a maybe a little bit of atense question uh we're talking about
+ emacs it seems like you've done someincredible work so outside of java
+ you've done some incredible work that didn't become as popular as it couldhave
+ because of like licensing issues and open sourcinglike issues um
+ uh what are your thoughts about the the the entire mess like what's about opensource now in retrospect looking back
+ uh about licensing about open sourcing do you think uh open source is a goodthing
+ a bad thing do you have regrets do you have wisdom that you've learnedfrom that whole experience
+
+
+Speaker 0 :so in general i'm a big fan of of open
+
+
+Speaker 1 :source
+
+
+Speaker 0 :the way that it it can be used to build
+ communities and promote the development of thingsand promote collaboration
+ and all of that is really pretty grand
+
+Speaker 1 :um when
+
+
+Speaker 0 :open source turns into a religion that
+ says all things must be open source
+
+Speaker 1 :right
+ um i get kind of
+
+Speaker 0 :weird about that because it's it's sort
+ of like saying you know some some versions of that um
+
+Speaker 1 :
+
+Speaker 0 :end up saying that that that all
+
+
+Speaker 1 :
+
+Speaker 0 :all software engineers must take a vow
+
+
+Speaker 1 :of poverty
+
+
+Speaker 0 :right right as though um
+
+
+Speaker 1 :it's unethical to have money yeah
+ to build a company to uh right
+
+Speaker 0 :and you know there's a there's a there's
+ a slice of me that actually kind of buysinto that right
+ because you know people who make billions of dollars off of like a patent
+
+Speaker 1 :
+
+Speaker 0 :and the the patent came from like you
+
+
+Speaker 1 :know literally a
+
+
+Speaker 0 :a stroke of lightning that that
+ hits you as you lie half a week in bed
+
+Speaker 1 :yeah that's lucky good for you
+
+
+Speaker 0 :the way that that sometimes sort of
+ explodes into something that looks to me a lot like
+
+Speaker 1 :exploitation
+
+
+Speaker 0 :you know you see a lot of that in in in
+ like the
+
+Speaker 1 :the drug industry um
+ you know when you know when you've got a
+
+Speaker 0 :got got medications that cost
+
+
+Speaker 1 :
+
+Speaker 0 :you know cost you like a hundred dollars
+
+
+Speaker 1 :a day
+ and it's like no yeah so the the interesting thing aboutthe sort of
+ open source uh what bothers me is when something is not open source and becauseof that
+ it's a worse product yeah so like i mean if i look at your justimplementation of emacs
+ like that could have been the dominant implementation like i use emacs that'smy main id
+ i apologize to the world but i still love it uhand you know i could have been using um
+ your implementation of emacs and why aren't i
+
+Speaker 0 :so are you using the gnu max i guess the
+
+
+Speaker 1 :default on linux is that new yeah
+
+
+Speaker 0 :and and that through a strange passage
+ started out as the one that i wrote
+
+Speaker 1 :exactly so it's it still has uh
+
+
+Speaker 0 :right yeah right well and and part of
+ that was
+
+Speaker 1 :
+
+Speaker 0 :because you know in you know the last
+
+
+Speaker 1 :couple of years of grad school
+
+
+Speaker 0 :it it became really clear to me
+
+
+Speaker 1 :
+
+Speaker 0 :that i was either going to be mr emax
+ forever
+
+Speaker 1 :or i was going to graduate
+
+
+Speaker 0 :
+
+Speaker 1 :i couldn't actually do both
+ was that a hard decision that's so interesting to think aboutyou as the pub like it's a different
+ trajectory that could have happened yeah that's fascinating um
+
+Speaker 0 :you know and maybe you know i could be
+ fabulously wealthy today if i had become mr emax and emacs had mushroomed into
+
+Speaker 1 :a series of text processing
+
+
+Speaker 0 :applications and all kinds of stuff and
+
+
+Speaker 1 :you know i would have
+ you know but
+
+Speaker 0 :i have a long history of financially
+
+
+Speaker 1 :suboptimal decisions because
+ i didn't want that life right and you know i went to grad school
+
+Speaker 0 :
+
+Speaker 1 :because i wanted to graduate
+ um and you know you know being mr emax for a
+
+Speaker 0 :
+
+Speaker 1 :while
+
+
+Speaker 0 :was kind of fun and then it kind of
+ became
+
+Speaker 1 :not fun not fun um
+
+
+Speaker 0 :and you know when it was not fun
+
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :and i was you know
+
+
+Speaker 0 :there was no way i could you know pay my
+
+
+Speaker 1 :rent
+
+
+Speaker 0 :right yeah and and i was like
+ okay do i carry on as a grad student as ayou know i you know i had a research
+ assistantship and i was sort of living off of thatand i was trying to do my uh you know i
+ was doing all my ra where all of my r.a you know beinggrad student work
+ and being mr emacs all at the same time
+
+Speaker 1 :um and and i
+
+
+Speaker 0 :
+
+Speaker 1 :i decided to pick one
+
+
+Speaker 0 :and one of the things that i did at the
+ time was i went around you know all the people iknew on the
+
+
+Speaker 1 :the arpanet who might be able to
+
+
+Speaker 0 :to to take over looking after emacs
+
+
+Speaker 1 :
+
+Speaker 0 :and um pretty much everybody said
+ i got a day job so so i actually found
+
+Speaker 1 :you know two folks and a
+
+
+Speaker 0 :couple of folks in a garage in new
+ jersey
+
+Speaker 1 :
+
+Speaker 0 :um complete with a dog
+
+
+Speaker 1 :um who are willing to take it over
+
+
+Speaker 0 :but they were going to have to charge
+
+
+Speaker 1 :money um
+
+
+Speaker 0 :but my deal with them was that they
+
+
+Speaker 1 :would um
+
+
+Speaker 0 :only that they would make it free for
+
+
+Speaker 1 :universities and schools and stuff
+ and they said sure and you know that upset some people so youhave some
+ now i don't know the full history of this but i think it's kind of uhinteresting you have some
+ tension with me mr richard stallman um over the and he kind of representsthis kind of like
+ like you mentioned free software uhsort of a dogmatic focus on
+
+
+Speaker 0 :yeah all all information must be free
+
+
+Speaker 1 :must be free so what is there an
+ interesting way to uh paint a picture of the disagreement you have with richardthrough the years
+
+
+Speaker 0 :my my basic opposition is
+
+
+Speaker 1 :
+
+Speaker 0 :that you know when you say information
+
+
+Speaker 1 :must be free
+
+
+Speaker 0 :uh to a really extreme form that turns
+
+
+Speaker 1 :into
+ you know all people
+
+Speaker 0 :whose job is the production
+
+
+Speaker 1 :of
+
+
+Speaker 0 :everything from movies to software
+
+
+Speaker 1 :
+
+Speaker 0 :um they must all take a vow of poverty
+
+
+Speaker 1 :because information must be free
+
+
+Speaker 0 :
+
+Speaker 1 :and that doesn't work for me right
+
+
+Speaker 0 :
+
+Speaker 1 :and and i and i don't
+
+
+Speaker 0 :i don't want to be wildly rich i am not
+ wildly rich
+
+Speaker 1 :um i do okay
+ um
+
+Speaker 0 :but i do actually you know you know i've
+
+
+Speaker 1 :
+
+Speaker 0 :you know i can feed my children yeah i
+
+
+Speaker 1 :totally agree with you i
+ it does just make me sad that sometimes the closing of the sourcefor some reason the people that
+ like a bureaucracy begins to build and sometimes it doesn't it hurts theproduct oh
+
+
+Speaker 0 :absolutely absolutely it's always sad
+ and there's and there is a there is a balance in
+
+Speaker 1 :there
+ that's a balance um and
+
+Speaker 0 :
+
+Speaker 1 :you know it's it's not hard
+
+
+Speaker 0 :hard over you know rapacious capitalism
+
+
+Speaker 1 :
+
+Speaker 0 :and and it's and it's not hard over in
+
+
+Speaker 1 :the other direction
+
+
+Speaker 0 :um and you know a lot of
+ the the open source movement they they have been magic to find a path to
+
+Speaker 1 :
+
+Speaker 0 :um actually making money right so
+ doing things like service and support
+
+Speaker 1 :works for
+ a lot of people um
+
+Speaker 0 :you know and there are some some ways
+ where
+
+Speaker 1 :it's it's kind of um
+
+
+Speaker 0 :some of them are are a little a little
+ perverse right so
+
+Speaker 1 :as you know a part of things like this
+
+
+Speaker 0 :sarbanes-oxley act and various people's
+ interpretations of all kinds of accounting principles
+
+Speaker 1 :
+
+Speaker 0 :um and this is kind of a worldwide thing
+ but if you've got a a corporationthat is depending on some piece of
+ software
+
+Speaker 1 :um you know the often
+
+
+Speaker 0 :you know various accounting and
+ reporting standards say if you don't have a support contracton this thing that that your business is
+ depending on
+
+Speaker 1 :then that's bad
+
+
+Speaker 0 :you know so so so you know if you've got
+ a if you've got a database you need to pay for support and and so
+
+Speaker 1 :but there's a difference between
+
+
+Speaker 0 :you know the the sort of support
+ contracts that you know the average open sourcedatabase
+
+
+Speaker 1 :uh producer charges and
+
+
+Speaker 0 :what somebody who is truly rapacious
+
+
+Speaker 1 :like oracle charges it's a it's a it's a
+
+
+Speaker 0 :balance
+ it is it is absolutely a balance and
+
+Speaker 1 :
+
+Speaker 0 :you know there are there are a lot of
+
+
+Speaker 1 :a lot of different ways to make
+
+
+Speaker 0 :you know the math work workout
+
+
+Speaker 1 :for everybody um
+ and you know the
+
+Speaker 0 :
+
+Speaker 1 :the very you know
+
+
+Speaker 0 :uh un unbalanced sort of
+
+
+Speaker 1 :
+
+Speaker 0 :you know like like the winner takes all
+ thing that that happens in so much of
+
+Speaker 1 :of modern commerce um
+
+
+Speaker 0 :
+
+Speaker 1 :that just doesn't work for me either
+ i know you've talked about this in quite a few places but you havecreated
+ one of the most popular programming languages in the worldthis is the programming language that i
+ first learned about object-oriented programming withyou know i think it's a programming
+ language that a lot of people use in a lot ofdifferent places and millions of devices
+ today java so the absurdquestion but can you tell the origin
+ story of java
+
+Speaker 0 :so long time ago at sun in about 1990
+ there was a
+
+Speaker 1 :group of us who
+
+
+Speaker 0 :were kind of worried that there was
+ stuff going on
+
+Speaker 1 :
+
+Speaker 0 :in the universe of computing that the
+
+
+Speaker 1 :computing industry was missing out on
+
+
+Speaker 0 :and so a a few of us
+ started this project at sun that really got going i mean we started talkingabout it in 1990 and it really got going
+
+
+Speaker 1 :in 91
+
+
+Speaker 0 :
+
+Speaker 1 :and it was all about
+
+
+Speaker 0 :you know what was happening in terms of
+ you know computing hardware you know processors andnetworking and all of that that was
+ outside of the computer industry and that was
+
+Speaker 1 :everything from the the
+
+
+Speaker 0 :the the sort of early glimmers of cell
+ phones that were happening
+
+Speaker 1 :
+
+Speaker 0 :then to you know you look at elevators
+ and
+
+Speaker 1 :locomotives and
+
+
+Speaker 0 :process control systems in factories and
+
+
+Speaker 1 :
+
+Speaker 0 :all kinds of audio audio
+
+
+Speaker 1 :equipment and video equipment
+
+
+Speaker 0 :they all had processors in them and they
+
+
+Speaker 1 :were all doing stuff with them
+
+
+Speaker 0 :and and it and it sort of felt like
+
+
+Speaker 1 :
+
+Speaker 0 :there was something going on there that
+
+
+Speaker 1 :we needed to understand
+ and so c c and c plus plus was in the air
+
+Speaker 0 :already oh no c and c plus plus
+ absolutely owned the universe at that timeeverything was written in c and z plus
+
+
+Speaker 1 :plus so where was the hunch that there
+ was a need for a revolution
+
+Speaker 0 :well so the the need for a revolution
+ was not about
+
+Speaker 1 :the a language it was about
+
+
+Speaker 0 :it was just as simple and vague as
+
+
+Speaker 1 :there are things happening out there
+
+
+Speaker 0 :and we understand them we need to
+ understand them
+
+Speaker 1 :
+
+Speaker 0 :and and so um
+ a few of us went on several um somewhat epic road trips
+
+Speaker 1 :
+
+Speaker 0 :um literal road trips literal road trips
+ it's like get on an airplane
+
+Speaker 1 :go to japan visit you know
+
+
+Speaker 0 :toshiba and sharp and mitsubishi and
+ sony and all of these folks and
+
+Speaker 1 :
+
+Speaker 0 :you know because we worked for sun we
+ had you know folks who were willing to like give usintroductions you know we we visited you
+ know
+
+Speaker 1 :samsung and um
+
+
+Speaker 0 :you know a bunch of korean companies and
+ we went all over europe we went to you knowplaces like like phillips and siemens
+
+
+Speaker 1 :and thompson
+ and what did you see there
+
+Speaker 0 :you know for me the one of the things
+ that sort of left out was that they were doing all the usualcomputer
+ computer things that people had been doing like 20 years beforethe thing that really left out to me was
+
+
+Speaker 1 :that they were
+
+
+Speaker 0 :sort of reinventing computer networking
+
+
+Speaker 1 :and they were making
+
+
+Speaker 0 :
+
+Speaker 1 :all the mistakes that people in the
+
+
+Speaker 0 :computer industry
+
+
+Speaker 1 :had had made and since i had been doing
+
+
+Speaker 0 :a lot of work in
+ in the networking area you know you know we'd go andyou know visit you know company x they'd
+ describe this networking thing that they were doingand just without any thought i could i
+ could tell them like the 25 things there were going to be completedisasters with that thing that they were
+ doing
+
+Speaker 1 :
+
+Speaker 0 :um and i don't know whether that had any
+ impact on any of them but but but that particular story of you know
+
+Speaker 1 :
+
+Speaker 0 :sort of repeating the disasters
+
+
+Speaker 1 :of the computer science industry um
+
+
+Speaker 0 :was there and we and one of the things
+ we thought was
+
+Speaker 1 :
+
+Speaker 0 :well maybe we could do something useful
+ here with like
+
+Speaker 1 :
+
+Speaker 0 :bringing them forward somewhat but but
+ also
+
+Speaker 1 :at the same time we learned a bunch of
+
+
+Speaker 0 :
+
+Speaker 1 :things
+
+
+Speaker 0 :from from these you know mostly consumer
+
+
+Speaker 1 :electronics companies
+
+
+Speaker 0 :and you know high on the list was
+
+
+Speaker 1 :that they viewed their
+
+
+Speaker 0 :like relationship with the customer as
+
+
+Speaker 1 :sacred
+
+
+Speaker 0 :um they they were never
+
+
+Speaker 1 :ever willing to make
+
+
+Speaker 0 :
+
+Speaker 1 :trade-offs between
+ for safety right so one of the things
+
+Speaker 0 :
+
+Speaker 1 :that
+
+
+Speaker 0 :had always made me nervous in the
+
+
+Speaker 1 :computer industry
+
+
+Speaker 0 :
+
+Speaker 1 :was that um
+
+
+Speaker 0 :people were willing to make trade-offs
+ in reliability
+
+Speaker 1 :to get performance um
+
+
+Speaker 0 :you know the the you know they want
+ faster faster it breaks a little more oftenbecause it's fast you know you maybe you
+ run it a little hotter than you should or like like the one that always blew mymind was the way that
+
+
+Speaker 1 :
+
+Speaker 0 :um the folks at at cray super computers
+ got their division to be really fast was that they did newton-raphsonapproximations
+ and so you know the bottom several bits of you know a over b we're essentially
+
+Speaker 1 :random numbers
+
+
+Speaker 0 :
+
+Speaker 1 :um what could possibly go wrong what
+
+
+Speaker 0 :could go wrong
+
+
+Speaker 1 :right and you know
+
+
+Speaker 0 :just figuring out how to nail the bottom
+ bit um how to make sure that you knowif you put a piece of toast in a toaster
+ it's not going to kill the customer
+
+Speaker 1 :
+
+Speaker 0 :it's not going to burst into flames and
+
+
+Speaker 1 :burn the house down
+ so those are i guess those are the the principles that were inspiringbut how did from the days of
+ uh java is called oak because of a tree outside the window story thatpeople know how did it become this
+ incredible like powerful language well
+
+Speaker 0 :so it was a bunch of things so we you
+ know after all that we started you know theway that we decided that we could
+ understand things better was by building a demo building a prototype ofsomething
+ okay so um kind of because it was easy and fun we decided to builda control system for some home
+ electronics you know tv
+
+Speaker 1 :vcr that kind of stuff and
+
+
+Speaker 0 :as we were building it we you know we we
+ sort of discovered that there were some thingsabout standard practice in c
+
+
+Speaker 1 :programming that um
+ were really getting in the way and it wasn't
+
+Speaker 0 :it wasn't exactly you know because we
+ were writing this all the c code and c plus plus code that
+
+Speaker 1 :
+
+Speaker 0 :that we couldn't write it to do the
+
+
+Speaker 1 :right thing but that
+
+
+Speaker 0 :um one of the things that was weird in
+ the group was that we had
+
+Speaker 1 :um a guy who's who's
+
+
+Speaker 0 :who's you know his sort of top level job
+ was he was a business guy you know he was sort of an mba kind ofperson you know think about business
+ plans and all of that
+
+Speaker 1 :and
+
+
+Speaker 0 :you know there were a bunch of things
+ that were kind of you know and we would talk about thingsthat were going wrong and
+ um or things were going wrong things were going right andyou know as we thought about you know
+ things like like the requirements for
+
+Speaker 1 :security and safety um
+
+
+Speaker 0 :some low-level details and see like
+ naked pointers
+
+Speaker 1 :yeah and you know
+
+
+Speaker 0 :so so back in the early 90s
+
+
+Speaker 1 :
+
+Speaker 0 :um it was well understood
+ that you know the number one source of like security vulnerabilities ispointers was just pointers was just bugs
+
+
+Speaker 1 :
+
+Speaker 0 :yeah right and it was like you know
+ 50 60 70 of all security vulnerabilities were bugs and the vastmajority of them were like
+
+
+Speaker 1 :buffer overflows yeah so you're like
+
+
+Speaker 0 :we have to fix this we we have to make
+ sure that this
+
+Speaker 1 :cannot happen and that was kind of the
+
+
+Speaker 0 :original
+ thing for me was this cannot this cannot
+
+Speaker 1 :continue
+
+
+Speaker 0 :and one of the things i find really
+ entertaining this year was um
+
+Speaker 1 :i forget which rag published it but
+
+
+Speaker 0 :there was this article that came out
+ that was um an examination it was sort of the result of of anexamination of all the security
+
+
+Speaker 1 :vulnerabilities in chrome and chrome is
+
+
+Speaker 0 :
+
+Speaker 1 :like a giant piece of c-plus plus code
+
+
+Speaker 0 :and 60 or 70 percent of all the security
+ vulnerabilities were stupid pointer
+
+Speaker 1 :tricks
+ and i thought it's 30 years later
+
+Speaker 0 :and we're still there still there and
+ we're still there and you know i you know that's one ofthose you know slap your forehead and
+
+
+Speaker 1 :
+
+Speaker 0 :and and just just just want to cry would
+
+
+Speaker 1 :you attribute
+ uh or is that too much of a simplification but would you attributethe creation of java to uh
+ [Laughter]
+
+Speaker 0 :to see borders obvious problems well
+ that i mean that was that was one of the the trigger points
+
+Speaker 1 :and currency you've mentioned
+
+
+Speaker 0 :concurrency was a big deal
+
+
+Speaker 1 :um and you know because when you're
+
+
+Speaker 0 :interacting with people you know the
+ last thing you ever want to see is
+
+Speaker 1 :is the thing like waiting and
+
+
+Speaker 0 :you know issues about the software
+ development process you know when faults happen can yourecover from them
+
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :what can you do to make it easier to
+
+
+Speaker 0 :create and
+ eliminate complex data structures what can you do to fix you know the oneof the most common
+ sea problems which is storage leaks
+
+Speaker 1 :
+
+Speaker 0 :um and it's it's evil twin the
+
+
+Speaker 1 :um the the freed
+
+
+Speaker 0 :but still being used piece of
+ piece of memory you know you you free something and then you keep using itoh yeah you know so so when i was
+ originally thinking about that i was thinking about it in terms ofof sort of safety and security issues
+ and one of the things i sort of came to believecame to understand was that it wasn't
+ just about safety and security but it
+
+Speaker 1 :was about
+
+
+Speaker 0 :
+
+Speaker 1 :developer velocity right so
+
+
+Speaker 0 :and i got really religious about this
+ because at that point i had spent an ungodly amount of my life
+
+Speaker 1 :
+
+Speaker 0 :hunting down mystery pointer bugs
+
+
+Speaker 1 :
+
+Speaker 0 :and you know like like two-thirds of my
+ time as a software developer was you knowbecause the mystery pointer bugs tend to
+ be
+
+Speaker 1 :the hardest to find because they tend to
+
+
+Speaker 0 :be
+ very very statistical the ones that hurt you know they're you know they're like a
+
+Speaker 1 :one in a million chance
+ um and but nevertheless create an infiniteamount of suffering right
+
+
+Speaker 0 :because when you're doing a billion
+ operations a second yeah you know one in a million chance
+
+Speaker 1 :means
+ it's going to happen um
+
+Speaker 0 :and and so i got really religious about
+ this thing about you know making it so that if somethingfails it fails immediately and
+
+
+Speaker 1 :visibly and
+
+
+Speaker 0 :you know one of the the the things that
+ was a a real attraction of java tolots of development shops was that you
+ know we get our code
+
+Speaker 1 :up and running twice as fast
+ you mean like the entirety of the development process the blocking all
+
+Speaker 0 :that kind of stuff yeah
+ if you you know so so if you measure timefrom you know you you first
+
+
+Speaker 1 :
+
+Speaker 0 :touch fingers to keyboard until you get
+ your first demo
+
+Speaker 1 :out uh
+ not much different but if you look from
+
+Speaker 0 :fingers touching keyboard to
+ solid piece of software that you could release in production
+
+Speaker 1 :
+
+Speaker 0 :it would be way faster and i think what
+
+
+Speaker 1 :people don't often realize there's
+ yeah there's things that really slow you down likehard to catch bugs probably is
+ is the thing that really slows down that
+
+Speaker 0 :is it really slows things down but
+ but also there were you know one of the things that you get out of
+
+Speaker 1 :
+
+Speaker 0 :object-oriented programming is a strict
+ methodology about you know what are the interfaces between things
+
+Speaker 1 :
+
+Speaker 0 :and being really clear about how parts
+ relate to each other
+
+Speaker 1 :
+
+Speaker 0 :um and what that helps with
+ is so many times what people do um is they kind of like sneak around theside
+ so if you've built something and people
+
+Speaker 1 :are using it
+
+
+Speaker 0 :and then and you say and you say well
+ okay you know i built this thing you use it this way and then you change
+
+Speaker 1 :it
+
+
+Speaker 0 :in such a way that that it still does
+ what you said it does it just does it a little bit differentbut then you find out that somebody out
+ there was sneaking around the side they sortof tunneled in a back door
+
+
+Speaker 1 :and this person their code broke
+
+
+Speaker 0 :and because they were sneaking through a
+
+
+Speaker 1 :side door
+ and and
+
+Speaker 0 :
+
+Speaker 1 :normally the attitude is
+
+
+Speaker 0 :dummy um but a lot of times
+
+
+Speaker 1 :um you know you can't get away you can't
+
+
+Speaker 0 :you can't just slap their hand and tell
+ them to not do that right because you know it's
+
+Speaker 1 :you know somebody's
+
+
+Speaker 0 :you know some banks you know account
+ reconciliation system that that you know some developerdecided oh i'm lazy
+ you know i'll just sneak through the
+
+Speaker 1 :back door because the language allows it
+
+
+Speaker 0 :i mean you can't even right mad at them
+ and and so one of the things i did that thaton the one hand upset a bunch of people
+ is that i made it so that you really couldn'tgo through back doors right so so the
+ whole point of that
+
+Speaker 1 :was to say if
+
+
+Speaker 0 :you need you know if the interface here
+ isn't right the wrong way to deal with that is is togo through a back door yeah
+ the right way to deal with it is to walk up to the developer of this thing andsay
+
+
+Speaker 1 :uh change the interface fix it yep
+
+
+Speaker 0 :right and so it was kind of like a
+ social engineering thing
+
+Speaker 1 :yeah and um it's brilliant
+
+
+Speaker 0 :and people ended up discovering that
+ that
+
+Speaker 1 :really made a difference um in terms
+
+
+Speaker 0 :of you know and and and a bunch of this
+ stuff you know if you're just like screwing around writing your ownlike you know class project scale stuff
+ a lot of stuff doesn't isn't quite so
+
+Speaker 1 :
+
+Speaker 0 :so important because you know you're
+ you know both sides of the interface um
+
+Speaker 1 :
+
+Speaker 0 :but you know when you're building you
+ know sort of larger more complex pieces of softwarethat have a lot of people working on
+ them and especially when they like span
+
+Speaker 1 :organizations
+ um you know having
+
+Speaker 0 :having really clear having clarity about
+ how that stuff
+
+Speaker 1 :gets structured um saves your life yeah
+ um and you know especially
+
+Speaker 0 :you know there's so much software that
+ is fundamentally untestable
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :you know and you know until you do the
+
+
+Speaker 0 :real thing
+
+
+Speaker 1 :it's better to write good code in the
+ beginning as opposed to writing crappy code andthen trying to fix it and
+ yeah trying to scramble and figure out and through testing figure out where thebugs are
+
+
+Speaker 0 :yeah it's just like it's like it's like
+
+
+Speaker 1 :
+
+Speaker 0 :which shortcut caused that
+
+
+Speaker 1 :
+
+Speaker 0 :rocket to not get where it was needed to
+
+
+Speaker 1 :go
+ so i think one of the most beautiful ideasuh philosophically and technically is uh
+ of a virtual machine the java virtual machinewell again apologize to romanticize
+ things but uh how did the idea of the jvm come to behow to you radical of an idea it is
+ because it seems to me to be just a really interesting idea in the historyof programming
+ so and what is it so the java virtual machine
+
+Speaker 0 :you can think of it in different ways
+
+
+Speaker 1 :um because it was
+
+
+Speaker 0 :carefully designed to have different
+
+
+Speaker 1 :ways of viewing it
+
+
+Speaker 0 :so one view of it that most people don't
+ really realize is there
+
+Speaker 1 :is that you can
+
+
+Speaker 0 :view it as sort of an encoding of
+ the abstract syntax tree in reverse
+
+Speaker 1 :polish notation
+
+
+Speaker 0 :i don't know if that makes any sense at
+ all i could explain it and that would blow all of our timeyeah um but the other way to think of it
+ um and the way that it ends up beingexplained is that
+ it's it's like the the instruction set of an
+
+Speaker 1 :abstract machine that's designed such
+
+
+Speaker 0 :that you can
+ translate that abstract machine to a
+
+Speaker 1 :physical machine
+
+
+Speaker 0 :and the reason that that's important
+ so if you wind back to the early 90s when we were talking to all of these
+
+Speaker 1 :these companies doing consumer
+ electronics
+
+Speaker 0 :and you talked to the purchasing people
+
+
+Speaker 1 :
+
+Speaker 0 :there were interesting conversations
+
+
+Speaker 1 :with purchasing
+ um so if you look at how you know these
+
+Speaker 0 :you know these devices come together
+
+
+Speaker 1 :
+
+Speaker 0 :they're sheet metal and gears and
+ circuit boards and capacitors and resistors and
+
+Speaker 1 :stuff and
+
+
+Speaker 0 :everything you buy has multiple sources
+ right so you can buy a capacitor from here you can buy a capacitor fromthere
+ and you've got kind of a market so you know so that theyou can actually get a decent price for
+
+
+Speaker 1 :a capacitor
+ um but
+
+Speaker 0 :cpus and particularly in the early 90s
+
+
+Speaker 1 :
+
+Speaker 0 :cpus were all different and all
+
+
+Speaker 1 :proprietary
+
+
+Speaker 0 :so if you use the chip from intel
+
+
+Speaker 1 :
+
+Speaker 0 :you had to be an intel customer for the
+ end of till the end of time because if you wrote a bunch of software
+
+Speaker 1 :
+
+Speaker 0 :you know when you wrote software using
+ whatever technique you wanted and c was particularly badabout this because there was a lot of
+ properties of the underlying machine
+
+Speaker 1 :that came through so if you're stuck so
+ the code you wrote you were stuck to
+
+Speaker 0 :that particular machine you were stuck
+ to that particular machine which meant that they couldn't decideyou know
+ intel is screwing us um
+
+Speaker 1 :i'll start buying chips from
+ you know bob's better chips this drove the like the purchasing
+
+Speaker 0 :people
+
+
+Speaker 1 :absolutely insane
+
+
+Speaker 0 :that that they would they were welded
+
+
+Speaker 1 :into this decision
+
+
+Speaker 0 :and it would have they would have to
+ make this decision before the first line of software was written
+
+Speaker 1 :it's funny that you're talking about the
+ purchasing people so that's one perspective rightit's a you could there's a lot of other
+ perspectives that all probably hated this idearight but from a technical aspect just
+ like the creation of an abstraction layerthat's uh agnostic to the underlying
+ machine from the perspective of the developer imean it's brilliant
+
+
+Speaker 0 :right well and and and and
+
+
+Speaker 1 :
+
+Speaker 0 :you know you know so that's like across
+ the spectrum of of providers of chips but then there's alsothe the time
+ thing because um you know as you went
+
+Speaker 1 :
+
+Speaker 0 :from one generation to the next
+ generation to the next generation they were all differentand you would often have to rewrite your
+ software i mean
+
+Speaker 1 :generations of uh cp of machines of
+ different kinds
+
+Speaker 0 :yeah so so like like like one of the
+ things that sucked about a year out of my life was whensun went from the the motorola
+
+
+Speaker 1 :68010 processor to the
+
+
+Speaker 0 :68020 processor then they had a number
+ of differences and one of them hit us really hard and iended up being
+
+
+Speaker 1 :
+
+Speaker 0 :the the point guy on the worst case of
+ where the new instruction cache architecture
+
+Speaker 1 :heard us
+ well okay so i mean so when did this idea i mean okay so yeah you youarticulate a really clear
+ fundamental problem in all of computing buthow where do you get the guts to think
+
+
+Speaker 0 :we can actually solve this you know in
+ our conversations with you know all these vendors you knowthese these problems started to
+
+
+Speaker 1 :to show up and
+
+
+Speaker 0 :
+
+Speaker 1 :i kind of had this epiphany
+
+
+Speaker 0 :because it reminded me of
+ a summer job that i had had in grad
+
+Speaker 1 :school
+ so
+
+Speaker 0 :back in grad school my my thesis advisor
+ well i had two thesis advisors
+
+Speaker 1 :
+
+Speaker 0 :for bizarre reasons um one of them was a
+ guy named raj reddy the other one was
+
+Speaker 1 :bob sproul
+ um and
+
+Speaker 0 :raj i love ra i really love both of them
+
+
+Speaker 1 :but right amazing so
+
+
+Speaker 0 :the the department had bought
+
+
+Speaker 1 :a bunch of like early workstations
+
+
+Speaker 0 :from a company called three rivers
+
+
+Speaker 1 :computer company
+
+
+Speaker 0 :and three rivers computer company was a
+ bunch of electrical engineers who wanted
+
+Speaker 1 :to do as little software as possible
+
+
+Speaker 0 :so um they knew that they'd need to have
+ like compilers and os and stuff like that and they didn't want to do any ofthat
+ and they wanted to do that for as close to zero money as possible
+
+Speaker 1 :so um
+
+
+Speaker 0 :what they did was they they built a
+ machine whose instruction set
+
+Speaker 1 :was um the
+
+
+Speaker 0 :was literally the byte code for ucsd
+ pascal
+
+Speaker 1 :the p code
+
+
+Speaker 0 :and so we had a bunch of software
+
+
+Speaker 1 :
+
+Speaker 0 :that was that was written for this
+
+
+Speaker 1 :machine
+
+
+Speaker 0 :and for various reasons you know the
+ company wasn't doing terrifically well we had all the software on thesemachines and we wanted it to run on
+ other machines
+
+Speaker 1 :principally the backs and
+ um
+
+Speaker 0 :and so raj asked me if i could come up
+
+
+Speaker 1 :with a way
+
+
+Speaker 0 :to port all of this software and
+ translate from the from from from the the the the perkmachines
+
+
+Speaker 1 :to vax's and
+
+
+Speaker 0 :
+
+Speaker 1 :and i think he you know what he had in
+
+
+Speaker 0 :mind was something
+ that would translate from like pascal
+
+Speaker 1 :to c or pascal to
+
+
+Speaker 0 :actually at those times pretty much it
+ was you could translate to c or c and if you didn't like translatingto c you could
+ translate to c um there was you know it's you know it'slike the the henry ford
+ you know any color you wanted just as long as it's black
+
+Speaker 1 :um and and i went
+ that's really hard um
+
+Speaker 0 :and and i and i noticed that you know
+ and i was like
+
+Speaker 1 :looking at stuff and i went oh i bet i
+
+
+Speaker 0 :could rewrite
+ the p code into vax assembly code
+
+Speaker 1 :and and then i started to realize that
+
+
+Speaker 0 :you know there were some properties of p
+ code that made that really easy some properties that made it really hardso i ended up writing this thing that
+ translated
+
+Speaker 1 :
+
+Speaker 0 :from from p code on the three
+ rivers perks into assembly code on the
+
+Speaker 1 :backs
+
+
+Speaker 0 :and i actually got higher quality
+
+
+Speaker 1 :code than the c compiler
+
+
+Speaker 0 :and so so everything just went got
+ really fast it was really easy it was likewow i thought that was a sleazy hack
+
+
+Speaker 1 :because i was lazy and in actual fact it
+
+
+Speaker 0 :worked really well
+
+
+Speaker 1 :
+
+Speaker 0 :and and i and i tried to convince people
+ that that was maybe a good thesis topic
+
+Speaker 1 :
+
+Speaker 0 :yeah um and nobody was
+ it was you know it was like nah really
+
+Speaker 1 :that's
+ i mean yeah it's really it's kind of a brilliant idearight maybe you didn't have the
+ you weren't able to articulate the big picture of it
+
+Speaker 0 :yeah and and i think you know that was a
+
+
+Speaker 1 :
+
+Speaker 0 :um a key part but so then you know
+ clock comes forward a few years and it's
+
+Speaker 1 :like
+
+
+Speaker 0 :we've got to be able to you know that
+ you know the you know if they want to be able to switchfrom you know this weird microprocessor
+ to that weird and totally differentmicroprocessor how do you do that
+
+
+Speaker 1 :and i kind of went oh
+
+
+Speaker 0 :maybe by doing something kind of in the
+
+
+Speaker 1 :space of
+
+
+Speaker 0 :you know pascal p code you know i could
+ do like multiple translators and i spentsome time thinking about that and
+ thinking about you know what worked and what didn't work when idid the the the p code to vax translator
+
+
+Speaker 1 :and um i talked to some of the folks who
+
+
+Speaker 0 :were involved in small talk because
+
+
+Speaker 1 :small talk also did about code
+ and and and then i kind of went
+
+Speaker 0 :yeah let's that i want to do that yeah
+ because that act you know and and it had the the otheradvantage that
+ you could either interpret it or compile
+
+Speaker 1 :it
+ and um interpreters are usually
+
+Speaker 0 :easier to do but not as fast
+
+
+Speaker 1 :as a compiler so i figured
+
+
+Speaker 0 :good i can be lazy again um
+ you know you know sometimes i think that most of my good ideas areum driven by laziness and often i find
+ that people some of the people's stupidest ideas are because they'reinsufficiently lazy
+
+
+Speaker 1 :
+
+Speaker 0 :yeah they just want to build something
+ really complicated it's like it doesn't need to be that complicatedyeah and so and so that's how that came
+
+
+Speaker 1 :out
+
+
+Speaker 0 :and um you know but that also
+ turned into kind of a you know almost a religious position on my part which waswhich got me in in several other fights
+ so like like one of the things that was
+
+Speaker 1 :a real
+
+
+Speaker 0 :difference was the way that arithmetic
+
+
+Speaker 1 :worked
+ um you know once upon a time there were you know it
+
+Speaker 0 :wasn't always just two's complement
+ arithmetic there were some machines that had one'scomplement arithmetic which was like
+ almost anything built by cdc um
+
+Speaker 1 :
+
+Speaker 0 :and occasionally there were machines
+ that were decimal arithmetic
+
+Speaker 1 :
+
+Speaker 0 :and and i was like this is crazy
+
+
+Speaker 1 :you know pretty much two's complement
+
+
+Speaker 0 :integer arithmetic has one
+
+
+Speaker 1 :so just let's just do that
+
+
+Speaker 0 :just to do that one of the other places
+ where there was a lot of variability was
+
+Speaker 1 :in the way that floating point behaved
+
+
+Speaker 0 :and that was causing people throughout
+ the
+
+Speaker 1 :software industry much pain because you
+
+
+Speaker 0 :couldn't
+ do a numerical computing library that wouldwork on cdc and then have it work on an
+ ibm machine and
+
+Speaker 1 :work on it on a deck machine um
+
+
+Speaker 0 :and as a as a part of that whole
+ struggle there had been this this big body of work onon floating point standards
+ and this thing emerged that came to be called ieee 754which is the floating point standard
+ that pretty much has take
+
+Speaker 1 :taken over the entire universe um
+
+
+Speaker 0 :and and at the time i was doing java it
+ had pretty much completed taking over the universethere were still a few pockets of
+ holdouts but i was like you know it's important to be
+
+Speaker 1 :able to say what two plus two means
+
+
+Speaker 0 :um yeah and and so i went
+
+
+Speaker 1 :that um and
+
+
+Speaker 0 :one of the ways that i got into fights
+
+
+Speaker 1 :with people was that
+
+
+Speaker 0 :there were a few machines that did not
+ implement
+
+Speaker 1 :ieee 754 correctly
+ well of course that's that's all short-term kind of fightsi think in the in the long term i think
+ this vision is
+
+Speaker 0 :won out yeah and and i think it's you
+ know and it worked out over time i mean thethe biggest fights were with intel
+
+
+Speaker 1 :
+
+Speaker 0 :because they had done some strange
+ things with rounding they'd done some strange things withtheir transcendental functions
+ which might turned into a mushroom cloud ofyou know weirdness and the name in the
+
+
+Speaker 1 :name of optimization
+ but from the perspective of the developerthat's not that's not good well their
+
+
+Speaker 0 :issues with transcendental functions
+ were just stupid
+
+Speaker 1 :okay so that that's that's not even a
+ trade-off that's just absolutely
+
+Speaker 0 :yeah they were they were doing range
+ reduction in of first sign and cosine using a slightly wrong value for pi i
+
+Speaker 1 :got it
+ go ahead ten minutes so in the interest of timetwo questions so one about android and
+ one about life uh so one i mean we could talk formany more hours i hope uh eventually we
+ might talk again but i gotta ask you about android andthe use
+ of java there because it's one of the many places where javajust has a huge impact on this world
+ just on your opinion is there things that make you happyuh about the way andro uh java is used
+ in the android world and are there things thatyou wish were different i i don't know
+
+
+Speaker 0 :how to do a short answer to that
+ um but i have to do a short answer to that soyou know i'm happy that they did it um
+
+
+Speaker 1 :
+
+Speaker 0 :java had been running on cell phones at
+ that time for quite a few years and it worked really really well
+
+Speaker 1 :
+
+Speaker 0 :um there were things about how they did
+
+
+Speaker 1 :it
+ and and in particular um
+
+Speaker 0 :
+
+Speaker 1 :various ways that they kind of
+
+
+Speaker 0 :you know violated all kinds of contracts
+ the guy who who led it andy rubinhe crossed a lot of lines there's some
+ lines crossed yeah lines were crossed that have sinceyou know
+ mushroomed into giant court cases
+
+Speaker 1 :um and you know they didn't need to do
+
+
+Speaker 0 :that
+ and in fact it would have been so much cheaper for them to not cross lines
+
+Speaker 1 :i mean i suppose they didn't anticipate
+ the the success uh of this whole endeavor umor do you think at that time it was
+ already clear that this is uh it's gonna blow up
+
+Speaker 0 :i guess i i i i sort of came to believe
+ that it didn't matter what
+
+Speaker 1 :andy did it was going to blow up
+
+
+Speaker 0 :okay he's he's he you know i kind of
+ started to think of him as as as like a
+
+Speaker 1 :manufacturer of bombs
+ yeah uh some of the best things in this world come about through a little bit ofuh
+
+
+Speaker 0 :uh explosive well and some of the worst
+
+
+Speaker 1 :and some of the worst
+ beautifully put but is there um and and like you said i meandoes that make you proud that the java
+ is in yeah is in millions i mean it could bebillions of devices
+
+
+Speaker 0 :and yeah well i mean it was in in
+ billions of phones before android came
+
+Speaker 1 :along
+ um and
+
+Speaker 0 :you know i'm i'm just as proud as you
+ know of the way that like the the smart card standards adopted
+
+Speaker 1 :java
+
+
+Speaker 0 :and they did it they you know everybody
+ involved in that did a really good job and that's you know billions and
+
+Speaker 1 :billions
+
+
+Speaker 0 :um that's crazy the sim cards
+ you know the sim cards in your pocket yeah i mean it'soutside of that world for a decade so i
+ don't know how that has it has evolved but
+
+Speaker 1 :um you know it's just been crazy
+ so on that topic let me ask uh again there's a million technical thingsuh
+ we could talk about but let me ask the absurd the old uhphilosophical question about life
+ what do you hope when you look back at your lifeand the people talk about you right
+ about you 500 years from now uh what do you hopeyour legacy is
+ people not being afraid to take a leap of faith
+
+Speaker 0 :um i mean i you know i've got this
+ this kind of weird history of doing
+
+Speaker 1 :weird stuff and
+ um it worked out pretty damn it worked
+
+Speaker 0 :out
+ right and i think some of the weirder
+
+Speaker 1 :stuff that i've done
+ um has been the coolest and some of it
+
+Speaker 0 :some of it crashed and burned and
+
+
+Speaker 1 :um yeah you know i think well over half
+
+
+Speaker 0 :of the stuff that i've done has crashed
+ and burned
+
+Speaker 1 :
+
+Speaker 0 :um which has occasionally been really
+ annoying
+
+Speaker 1 :
+
+Speaker 0 :but still you kept doing it but yeah
+
+
+Speaker 1 :
+
+Speaker 0 :yeah yeah and you know they're you know
+ you even when things crash and burn you
+
+Speaker 1 :you at least learn something from it by
+ way of advice you know people developers engineersscientists are just people who are young
+ uh to look up to you what advice would you give themhow to uh how to approach their life
+ don't be afraid of risk it's okay to do
+
+Speaker 0 :stupid things once
+
+
+Speaker 1 :[Laughter]
+
+
+Speaker 0 :maybe even a couple times you know you
+ you know you get you get a pass on the the first time ortwo that you do something stupid
+ you know the third or fourth time yeah not so much
+
+Speaker 1 :um
+
+
+Speaker 0 :
+
+Speaker 1 :but also you know
+ i don't know why but really early on
+
+Speaker 0 :i started to think about um
+
+
+Speaker 1 :
+
+Speaker 0 :ethical choices in my life
+
+
+Speaker 1 :
+
+Speaker 0 :and because i a big science fiction fan
+
+
+Speaker 1 :
+
+Speaker 0 :um i i i got to thinking about
+ like just about every technical decision i makein terms of how do you want you know are
+ you building blade runner or star trek
+
+Speaker 1 :which one's better which which future
+
+
+Speaker 0 :
+
+Speaker 1 :would you rather live in
+
+
+Speaker 0 :you know so what's the what's the answer
+
+
+Speaker 1 :to that well i would just
+
+
+Speaker 0 :i would sure rather live in the universe
+
+
+Speaker 1 :of star trek soundtrack yeah
+ that opens up a whole topic about ai but that's a really interesting
+
+Speaker 0 :
+
+Speaker 1 :yeah yeah yeah it's a really interesting
+ idea so your favorite ai system would be datauh from uh from star trek my least
+
+
+Speaker 0 :favorite would
+ easily be skynet yeah beautifully put i
+
+Speaker 1 :don't think there's a better way to end
+ it james i can't say enough how much of anhonor it is to meet you to talk to you
+ thanks so much for wasting your time with me today not
+
+Speaker 0 :
+

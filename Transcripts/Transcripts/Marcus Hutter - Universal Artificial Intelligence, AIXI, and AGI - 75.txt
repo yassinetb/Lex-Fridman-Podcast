@@ -1,0 +1,1274 @@
+Speaker 0 :the following is a conversation with
+ Marcus hunter senior research scientists the google deepmind throughout hiscareer of research including with
+ Juergen Smith Huber and Shayne leg he has proposed a lot of interesting ideasin and around the field of artificial
+ general intelligence including the development of IHC spelled a ixi modelwhich is a mathematical approach to AGI
+ that incorporates ideas of Kolmogorov complexity solomonoff induction andreinforcement learning in 2006
+ Marcus launched the 50,000 euro hütter prize for lossless compression of humanknowledge the idea behind this prize is
+ that the ability to compress well is closely related to intelligence this tome is a profound idea specifically if
+ you can compress the first 100 megabytes or 1 gigabyte of Wikipedia better thanyour predecessors your compressor likely
+ has to also be smarter the intention of this prize is to encourage thedevelopment of intelligent compressors
+ as a path to AGI in conjunction with this podcast release just a few days agoMarkus announced the 10x increase in
+ several aspects of the surprise including the money to 500,000 euros thebetter your compressor works relative to
+ the previous winners the higher fraction of that prize money is awarded to youyou can learn more about it if you
+ Google simply Qatar prize I have a big fan of benchmarks for developing AIsystems and the harder prize may indeed
+ be one that will spark some good ideas for approaches that will make progresson the path of developing a GI systems
+ this is the artificial intelligence podcast if you enjoy it subscribe onYouTube give it five stars an Apple
+ podcast supported on patreon or simply connect with me on Twitter at lexFriedman spelled Fri D M am as usual
+ I'll do one or two minutes of ads now and never any ads in the middle that canbreak the flow of the conversation I
+ hope that works for you and doesn't hurt the listening experiencethis show is presented by cash app the
+ number one finance app in the App Store when you get ituse collects podcast cash app lets you
+ send money to friends buy Bitcoin and invest in the stock market with aslittle as one dollar brokerage services
+ that provided by cash up investing a subsidiary of square and member s IPCsince cash app allows you to send and
+ receive money digitally peer-to-peer and security in all digital transactionsvery important let me mention the PCI
+ data security standard that cash app is compliant with big fan of standards forsafety and security PCI DSS is a good
+ example of that or a bunch of competitors got together and agreed thatthere needs to be a global standard
+ around the security of transactions now we just need to do the same forautonomous vehicles and AI systems in
+ general so again if you get cash out from the App Store or Google Play anduse the code Lex
+ Podcast you'll get ten dollars and cash app will also donate ten dollars thefirst one of my favorite organizations
+ that is helping to advance robotics and STEM education for young people aroundthe world and now here's my conversation
+ with Markus cutter as a computer or maybe an informationprocessing system let's go with a big
+
+
+Speaker 1 :question first okay I with a big
+ question first yeah I think it's very interesting hypothesis or idea and Ihave a background in physics so I know a
+ little bit about physical theories the standard model of particle physics andgeneral relativity theory and they are
+ amazing and describe virtually everything in the universe and they'reall in a sense computable theories I
+ mean they're very hard to compute and you know it's very elegant simpletheories which describe virtually
+ everything in the universe so there's a strong indication that somehow theuniverse is computable but it's a
+ plausible hypothesis so what what do you
+
+Speaker 0 :think just like you said general
+ relativity quantum field theory what do you think that the laws of physics areso nice and beautiful and simple and
+ compressible do you think our universe was designed is naturally this way arewe just focusing on the parts that are
+ especially compressible our human minds just enjoy something about thatsimplicity and in fact there's other
+ things that are not so compressible no I
+
+Speaker 1 :strongly believe and I'm pretty
+ convinced that the universe is inherently beautiful elegant and simpleand described by these equations and
+ we're not just picking that I mean if the versatile phenomena which cannot beneed to describe scientists would try
+ that right and you know there's biology which is more messy but we understandthat it's an emergent phenomena and you
+ know it's complex systems but they still follow the same rules right of quantumelectrodynamics and all of chemistry
+ follows that and we know that I mean we cannot compute everything because wehave limited computational resources now
+ I think it's not a bias of the humans but it's objectively simple I mean ofcourse you never know you know maybe
+ there's some corners very far out in the universe or super super tiny below thenucleus of atoms or well parallel
+ universes where which are not nice and simple but there's no evidence for thatand you should apply Occam's razor and
+ you know just the simple story consistent with but also it's a littlebit
+
+
+Speaker 0 :for friendship so maybe a quick pause
+
+
+Speaker 1 :what is Occam's razor so or comes razor
+ says that you should not multiply entities beyond necessity which sort ofif you translate it to proper English
+ means and and you know in a scientific context means that if you have twoseries or hypotheses or models which
+ equally well describe the phenomenon your study or the data you should choosethe more simple one so that's just the
+
+
+Speaker 0 :principle you're sort of that's not like
+ a provable law perhaps perhaps we'll kind of discuss it and think about itbut what's the intuition of why the
+ simpler answer is the one that is likely to be more correct descriptor ofwhatever we're talking about
+
+
+Speaker 1 :I believe that Occam's razor is probably
+ the most important principle in science I mean of course we logically Duckshouldn't be do experimental design but
+ science is about finding understanding the world finding models of the worldand we can come up with crazy complex
+ models which you know explain everything but predict nothing but the simple modelseem to have predictive power and it's a
+ valid question why yeah and the two answers to that you can just accept itthat is the principle of science and we
+ use this principle and it seems to be successful we don't know why but it justhappens to be or you can try you know
+ find another principle which explains or comes razor and if we start with theassumption that the world is governed by
+ simple rules then there's a bias toward simplicity and pliant Occam's razor isthe mechanism to finding these rules and
+ actually in a more quantitative sense and we come back to that later in termsof some Roman attraction you can
+ rigorously prove that usually assume that the world is simple then Occam'srazor is the best you can do in a
+
+
+Speaker 0 :certain sense so I apologize for the
+ romanticized question but why do you think outside of its effectiveness whydo we do you think we find simplicity so
+ appealing as human beings well just why does e equals mc-squared seemsso beautiful to us humans I guess mostly
+
+
+Speaker 1 :in general many things can be explained
+ by an evolutionary argument and you know there's some artifacts and humans whichyou know are just artifacts and not an
+ evolutionary necessary but there's this beauty and simplicity it's I believe atleast the core is about like science
+ finding regularities in the world understanding the world which isnecessary for survival right you know if
+ I look at a bush right and I just seen Norris and there is a tiger right andeats me then I'm dead but if I try to
+ find a pattern and we know that humans are prone to find more patterns in datathan they are you know like the you know
+ Mars face and all these things but these buyers towards finding patterns even ifthey are not but I mean its best of
+ course if they are yeah helps us for survival yeah that's fascinating I
+
+Speaker 0 :haven't thought really about this I
+ thought I just loved science but they're indeed from in terms of just forsurvival purposes there is an
+ evolutionary argument for why why we find the work of Einstein is sobeautiful maybe a quick small tangent
+ could you describe what's Solomonov
+
+Speaker 1 :induction is yeah so that's a theory
+ which I claim and Riesling enough sort of claimed you know a long time ago thatthis solves the big philosophical
+ problem of induction and I believe the claim is essentially true and what itdoes is the following so okay for the
+ picky listener induction can be interpreted narrowly and wildly narrowmeans inferring models from data and
+ widely means also then using these models for doing predictions orpredictions also part of of the
+ induction so I'm little sloppy sort of as a terminology and maybe that comesfrom ray solomonoff you know being
+ sloppy maybe saying it we can't complain anymoreso let me explain a little bit this
+ theory yeah in simple terms so assume we have a data sequence make it very simplethe simplest one say 1 1 1 1 1 and you
+ see if 100 ones yeah what do you think comes next the natural order I repeat upa little bit the natural answer is of
+ course you know 1 ok and questions why ok well we see a pattern there yeah okthere's a 1 and we repeat it and why
+ should it suddenly after a hundred ones be different so what we're looking foris simple explanations or models for the
+ data we have and now the question is a model has to be presented in a certainlanguage in which language to be used in
+ science we want formal languages and we can use mathematics or we can useprograms on a computer so abstract me on
+ a Turing machine for instance or can be a general-purpose computer so and theyof course lots of models of you can say
+ maybe it's a hundred ones and then 100 zeros and a hundred ones that's a modelright but there are simpler models
+ there's a model print one loop and it also explains the data and if you pushthe to the extreme you are looking for
+ the shortest program which if you run this program reproduces the data youhave it will not stop it will continue
+ naturally and this you take for your prediction and on the sequence of onesit's very plausible right at the print
+ one loop it's the shortest program we can give some more complex examples like1 2 3 4 5 what comes next the short
+ program is again you know counter and so that is roughly speaking house a lot ofinteraction works the extra twist is
+ that it can also deal with noisy data so if you have for instance a coin flip saya biased coin which comes up head with
+ 60% probability then it will predict if you learn and figure this out and aftera while it predict or the next coin flip
+ will be head with probability 60% so it's the stochastic version of that but
+
+Speaker 0 :the goal is the dream is always the
+ search for the short program yes yeah
+
+Speaker 1 :well in solomonov induction precisely
+ what you do is so you combine so looking for the shortest program is likeapplying AAPIs race
+ like looking for the simplest theory there's also a pakoras principle whichsays if you have multiple hypotheses
+ which equally well describe you data don't discard any of them keep all ofthem around you never know and you can
+ put it together and say ok have a buyer's to her simplicity but I don'trule out the larger models and
+ technically what we do is we weigh the shorter models higher and the longermodels lower and you use a Bayesian
+ techniques you have a prior and which is precisely 2 to the minus the complexityof the program and you weigh all this
+ hypotheses and take this mixture and then you get also this plasticity in
+
+Speaker 0 :yeah like many of your ideas that's just
+ a beautiful idea of weighing based on the simplicity of the program I lovethat that that seems to me may be a very
+ human central concept seems to be a very appealing way of discovering goodprograms in this world you've used the
+ term compression quite a bit I think it's a beautiful idea sort of we justtalked about simplicity and maybe
+ science or just all of our intellectual pursuits is basically the attempt tocompress the complexity all around us
+ into something simple so what does this word mean to you
+
+Speaker 1 :compression I essentially have already
+ explained it so it compression means for me finding short programs for the dataor the phenomena at hand you could
+ interpret it more widely as you know finding simple theories which can bemathematical theory so maybe even
+ informal you know like you know just inverts compression means finding shortdescriptions explanations programs
+
+
+Speaker 0 :little data do you see science as a kind
+ of our human attempt at compression so we're speaking more generally becausewhen you say programs kind of zooming in
+ a particular sort of almost like computer science artificial intelligencefocus but do you see all of human
+ endeavor as a kind of compression well
+
+Speaker 1 :at least all of science ICSI and evolve
+ compression at all of humanity maybe and well they are soother aspects of science like
+ experimental design right I mean we we create experiments specifically to getextra knowledge and this is that isn't
+ part of the decision-making process but once we have the data to understand thedata is essentially compression so I
+ don't see any difference between contrast compression understanding andprediction so we're jumping around
+
+
+Speaker 0 :topics a little bit but returning back
+ the simplicity a fascinating concept of komagawa of complexity so in your sensethe most objects in our mathematical
+ universe have high komagawa of complexity and maybe what is first of
+
+Speaker 1 :all what is coma graph complexity ok
+ Kolmogorov complexity is a notion of simplicity or complexity and it takesthe compression view to the extreme so I
+ explained before that if you have some data sequence just think about a file ona computer and best sort of you know
+ just a string of bits and if you and we have data compresses likely compress bigfiles in terms a sip files with certain
+ compressors and you can also put yourself extracting archives that meansas an executable if you run it it
+ reproduces the original file without needing an extra decompressor it's justa decompressor plus the archive together
+ in one and now there are better and worse compressors and you can ask whatis the ultimate compressor so what is
+ the shortest possible self-extracting archives you could produce for a certaindata set yeah which reproduces the data
+ set and the length of this is called the Kolmogorov complexity and arguably thatis the information content in the data
+ set I mean if the data set is very redundant or very boring you cancompress it very well so the information
+ content should be low and you know it is low according to this difference this is
+
+Speaker 0 :the length of the shortest program that
+
+
+Speaker 1 :summarizes the data yes yeah and what's
+
+
+Speaker 0 :your sense of our sort of universe when
+ we think about the different the different objects in our universe thatwe each are concepts or whatever the
+ at every level do they have higher or local girl complexity so what's the hopedo we have a lot of hope and be able to
+ summarize much of our world that's a
+
+Speaker 1 :tricky and difficult question so as I
+ said before I believe that the whole universe based on the evidence we haveis very simple so it has a very short
+ description the whole sorry did you
+
+Speaker 0 :would you linger on that the whole
+ universe what does I mean do you mean at the very basic fundamental level inorder to create the universe yes yeah so
+
+
+Speaker 1 :you need a very short program when you
+ run it to get the thing going you get the thing going and then it willreproduce our universe and there's a
+ problem with noise we can come back to the later possibly noise a problem or a
+
+Speaker 0 :fear is it a bug or a feature I would
+
+
+Speaker 1 :say it makes our life as a scientist
+ really really much harder I didn't think about without noise we wouldn't need all
+
+Speaker 0 :of the statistics but that maybe we
+ wouldn't feel like there's a free will maybe we need that for the ethics this
+
+Speaker 1 :is an illusion that Norris can give you
+
+
+Speaker 0 :freezing that way it's a feature but
+
+
+Speaker 1 :also if you don't have noise you have
+ chaotic phenomena which are effectively like noise so we can't you know get awaywith statistics even then I mean think
+ about rolling a dice and you know forget about quantum mechanics and you knowexactly how you you throw it but I mean
+ it's still so hard to compute a trajectory that effectively it is bestto model it you know as you know coming
+ out this a number this probability 1 over 6 but from from this set ofphilosophical como go of complexity
+ perspective if we didn't have noise then arguably you could describe the wholeuniverse as well as standard model plus
+ general relativity I mean we don't have a theory of everything yet but sort ofassuming we are close to it or have it
+ here plus the initial conditions which may hopefully be simple and then youjust run it and then you would reproduce
+ the universe but that's all by noise or by chaotic systems or by initialconditions which you know may be complex
+ so now if we don't the whole universe but just a subset youknow just take planet Earth planet Earth
+ cannot be compressed you know into a couple of equations this is a hugely
+
+Speaker 0 :complex just so interesting so when you
+ look at the window like the whole thing might be simple when you just take a
+
+Speaker 1 :small window then it may become complex
+ and that may be counterintuitive but there's a very nice analogy the the bookthe library of all books so imagine you
+ have a normal library with interesting books and you go there great lots ofinformation and you quite complex yeah
+ so now I create a library which contains all possible books say of 500 pages sothe first book just has a aaaa over all
+ the pages the next book aaaa and ends with P and so on I create this libraryof all books I can write a super short
+ program which creates this library so this library which has all books haszero information content and you take a
+ subset of this library and suddenly have a lot of information in there so that's
+
+Speaker 0 :fascinating I think one of the most
+ beautiful object mathematical objects that at least today seems to be understudy or under talked about is cellular
+ automata what lessons do you draw from sort of the game of life for cellularautomata where you start with the simple
+ rules just like you're describing with the universe and somehow complexityemerges do you feel like you have an
+ intuitive grasp on the behavior the fascinating behavior of such systemswhere some like you said some chaotic
+ behavior it could happen some complexity could emerge some it could die out andsome very rigid structures you have a
+ sense about cellular automata that somehow transfers maybe to the bigger
+
+Speaker 1 :questions of our universe is a cellular
+ automata and especially the Conway's Game of Life is really great becausethis rule are so simple you can explain
+ it to every child and mean by hand you can simulate a little bit and you seethese beautiful patterns emerge and
+ people have proven you know that is even Turing complete you cannot just use acomputer to simulate game of life but
+ you can also use game of life to simulate any computer that is trulyamazing
+ and it's it's the prime example probably to demonstrate that verysimple rules can lead to very rich
+ phenomena and people you know sometimes you know how can how is chemistry andbiology is so rich I mean this can't be
+ based on simple rules yeah but now we know quantum electrodynamics describesall of chemistry and and become later
+ back to that I claim intelligence can be explained or described in one singleequation this very rich phenomenon you
+ asked also about whether you know I understand this phenomenon and it'sprobably not and this is saying you
+ never understand really things you just get used to them and pretty using usedto sell all automata so you believe that
+ you understand now why this phenomenon happens but I give you a differentexample I didn't play too much with this
+ converse game of life but a little bit more with fractals and with theMandelbrot set and it's beautiful you
+ know patterns just just look Mandelbrot set and well when the computers werereally slow in our just a black and
+ white monitor and programmed my own
+
+Speaker 0 :program sana in assembler - Wow Wow to
+
+
+Speaker 1 :get these vectors on the screen and it
+ was mesmerised and much later so I returned to this you know every coupleof years and then I try to understand
+ what is going on and you can understand a little bit so I try to derive thelocations you know there are these
+ circles and the Apple shape and then you have smaller Mandelbrot sets recursivelyin this set in this way to
+ mathematically by solving high order polynomials to figure out where thesecenters are and what size there are
+ approximately and by sort of ant mathematically approaching this problemyou slowly get a feeling of why things
+ are like they are and that sort of isn't you know first step to understanding whythis rich phenomena do you think as P as
+
+
+Speaker 0 :possible what's your intuition you think
+ it's possible to reverse engineer and find the short program that generatedthe these fractals sort of by what
+ looking
+
+Speaker 1 :at the fractals well in principle yes
+ yeah so I mean in principle what you can do is you take you know any data set youknow you take these fractals or you take
+ whatever your data set whatever you have say a picture of conveys game of lifeand you run through all programs you
+ take your programs 1 2 3 4 and all these programs around them all in parallel inso called dovetailing fashion give them
+ computational resources first one 50% second 1/2 resources and so on and letthem run wait until they halt give an
+ output compare it to your data and if some of these programs produced thecorrect data then you stop and then you
+ have already used some program it may be a long program because it's faster andthen you continue and you get shorter
+ and shorter programs until you eventually find the shortest program theinteresting thing you can never know
+ whether to short this program because there could be an even shorter programwhich is just even slower and you just
+ have to wait here but asymptotically and actually after finite time you have thisshortest program so this is a
+ theoretical but completely impractical way of finding the underlying structurein every data set and there was a lot of
+ interaction dolls and Kolmogorov complexity in practice of course we haveto approach the problem more
+ intelligently and then if you take resource limitations into accountthere's friends the field of
+ pseudo-random numbers yeah and these are random that must so these aredeterministic sequences but no algorithm
+ which is fast fast means runs in polynomial time can detect that it'sactually deterministic so we can produce
+ interesting I mean random numbers maybe not that interesting but just an examplewe can produce complex looking data and
+ we can then prove that no fast algorithm can detect the underlying pattern which
+
+Speaker 0 :is unfortunately is it that's a big
+ challenge for our search for simple programs in the space of artificialintelligence perhaps yes it definitely
+
+
+Speaker 1 :is quantitative intelligence and it's
+ quite surprising that it's I can't say easy here I meanworked really hard to find his theories
+ but apparently it was possible for human minds to find these simple rules in theuniverse it could have been different
+ right it could have been different it's
+
+Speaker 0 :it's uh it's inspiring so let me ask
+ another absurdly big question what is intelligence in your view so I have of
+
+Speaker 1 :course a definition I wasn't sure what
+
+
+Speaker 0 :you're gonna say because you could have
+ just as easily said I have no clue which
+
+Speaker 1 :many people would say I'm not modest in
+ this question so the the informal version which ever got together be shamelike who co-founded in mind is that
+ intelligence measures an agent's ability to perform well in a wide range ofenvironments so that doesn't sound very
+ impressive and but it these words have been very carefully chosen and there isa mathematical theory behind it and we
+ come back to that later and if you look at this this definition right itself itseems like yeah okay but it seems a lot
+ of things are missing but if you think it through then you realize that mostand I claim all of the other traits at
+ least of rational intelligence which we usually associate intelligence areemergent phenomena from this definition
+ in creativity memorization planning knowledge you all need that in order toperform well in a wide range of
+ environments so you don't have to explicitly mention that in a definition
+
+Speaker 0 :interesting so yeah so the consciousness
+ abstract reasoning or all these kinds of things are just emerging phenomena thathelp you in towards can you say the
+ definition against multiple environments did you mention or goals no but we have
+
+Speaker 1 :an alternative definition instead of
+ performing value conscious replace it by goals so intelligence measures an agentability to achieve goals in a wide range
+ of environments that's more or less
+
+Speaker 0 :because in there there's an injection of
+ the word goals so you to specify their there should be a goal
+
+Speaker 1 :yeah but perform well is sort of what is
+ it does it mean it's the same problem
+
+Speaker 0 :yeah there's a little gray area but it's
+ much closer to something that could be formalized re in your view are humanswhere do humans fit into that definition
+ are they general intelligence systems that are able to perform in like howgood are they at fulfilling that
+ definition at performing well in
+
+Speaker 1 :multiple environments yeah that's a big
+ question I mean the humans are performing best among all species as weknow we know of yeah depends you could
+
+
+Speaker 0 :say that trees and plants are doing
+ better job they'll probably outlast us
+
+Speaker 1 :so yeah but they're in a much more
+ narrow environment right I mean you just you know I have a little bit of airpollutions and these trees die and we
+ can adapt right we build houses with filters we we we do geoengineering somultiple environment part yes that is
+ very important yes so that distinguish narrow intelligencefrom wide intelligence also in the AI
+
+
+Speaker 0 :research so let me ask the the Alan
+ Turing question can machines think can machines be intelligent so in your viewI have to kind of ask the answer is
+ probably yes but I want to kind of here with your thoughts on it can machines bemade to fulfill this definition of
+ intelligence to achieve intelligence
+
+Speaker 1 :well we are sort of getting there and
+ you know on a small scale we are already there the wide range of environments ismissing about yourself driving cars we
+ have programs which play go and chess we have speech recognition so it's prettyamazing but you can you know these are
+ narrow environments but if you look at alpha zero that was also developed bydeep mind I mean what famous alphago and
+ then came alpha zero a year later there was truly amazingso on reform a learning algorithm which
+ is able just by self play to play chess and then also go and I mean yes they'reboth games but they're quite different
+ games and you know this you didn't don't feed them the rules of the game and themost remarkable thing which is still a
+ mystery to me that usually for any decent chess program I don't know muchabout go you need opening books and
+ endgame tables and so on - and nothing in there nothing was put in there it was
+
+Speaker 0 :alpha zero there's the self play
+ mechanism starting from scratch being able to learn actually new strategies is
+
+Speaker 1 :uh yeah it did rediscovered you know all
+ these famous openings within four hours by himselfwhat I was really happy about I'm a
+ terrible chess player but I like queen Gumby and alpha zero figured out thatthis is the best opening correct so yes
+ that you do to answer your question yes I believe that general intelligence ispossible and it also depends how you
+ define it do you say AGI with general intelligence artificial generalintelligence only refers to if you
+ achieve human-level or a subhuman level but quite broad is it also generalintelligence so we have to distinguish
+ or it's only super human intelligence general artificial intelligence is there
+
+Speaker 0 :a test in your mind like the Turing test
+ for natural language or some other test that would impress the heck out of youthat would kind of cross the line of
+ your sense of intelligence within the framework that you said well the Turing
+
+Speaker 1 :test well has been criticized a lot but
+ I think it's not as bad as some people thinking some people think it's toostrong
+ so it tests not just for a system to be intelligent but it also has to fakehuman deception this section right which
+ is you know much harder and on the other hand they say it's too weak yeah becauseit just may be fakes
+ you know emotions or intelligent behavior it's not real but I don't thinkthat's the problem
+ or big problem so if if you would pass the Turing testso conversation over terminal with a bot
+ for an hour or maybe a day or so and you can fool a human into you know notknowing whether this is a human or not
+ that it's during tests I would be truly impressedand we have this annual competitions
+ alumna price and I mean it started with Elijah that was the first conversationalprogram and what is it called the
+ Japanese Mitsouko or so that's the winner of the last you know a couple ofyears and well impressive yes quite
+ impressive and then google has developed Meena right just just recently that's anopen domain conversational but just a
+ couple of weeks ago I think yeah I kind
+
+Speaker 0 :of like the metric that sort of the
+ Alexa price has proposed and he maybe it's obvious to you it wasn't to me ofsetting sort of a length of a
+ conversation like you want the bot to be sufficiently interestingly you'd want tokeep talking to it for like 20 minutes
+ and that's a that's a surprisingly effective in aggregate metric because it
+
+Speaker 1 :really like nobody has the patience to
+
+
+Speaker 0 :be able to talk to about that's not
+ interesting in intelligent and witty and is able to go on the different tangentsjump domains be able to you know say
+ something interesting to maintain your attention maybe many humans whoops also
+
+Speaker 1 :fail this test
+
+
+Speaker 0 :unfortunately we set just like with
+ autonomous vehicles with chat BOTS we also set a bar that's way too hard high
+
+Speaker 1 :to reach I said you know the Turing test
+ is not as bad as some people believe you got what is really not useful about theTuring test it gives us no guidance how
+ to develop these systems in the first place of course you know we can developthem by trial and error and you know do
+ whatever and and then run the test and see whether it works or not but amathematical definition of intelligence
+ gives us you know an objective which we can then analyze by you know theoreticaltools or computational and you know
+ maybe improve how close we are and we will come back to that later with a sexymodel so or I mention the compression
+ right so in natural language processing and they have chiefed amazing resultsand are one way to test this of course
+ you know take the system you train it then you you know see how well itperforms on the task but a lot of
+ performance measurement is done by so called perplexity this is essentiallythe same as complexity or compression
+ length so the NLP community develops new systems and then they measure thecompression length and then they have
+ ranking and leaks because there's a strong correlation between compressingwell and then this systems performing
+ well at the task at hand it's not perfect but it's good enough for them asas an intermediate aim
+
+
+Speaker 0 :so you mean a measure so this is kind of
+ almost returning to the coma girl of complexity so you're saying goodcompression usually means good
+ intelligence yes
+
+Speaker 1 :
+
+Speaker 0 :so you mentioned you're one of the one
+ of the only people who dared boldly to try to formalize our the idea ofartificial general intelligence to have
+ a a mathematical framework for intelligence just like as we mentionedtermed IHC AI X I so let me ask the
+ basic question what is IHC okay so let
+
+Speaker 1 :me first say what it stands for because
+
+
+Speaker 0 :letter stands for actually that's
+ probably the more basic question but it
+
+Speaker 1 :the first question is usually how how
+ it's pronounced but finally I put it on the website how it's pronounced and youfigured it out yeah
+ the name comes from AI artificial intelligence and the X I is the Greekletter X I which are used for solo
+ manav's distribution for quite stupid reasons which I'm not willing to repeathere in front of camera so it just
+ happened to be more less arbitrary I chose to excite but it also has niceother interpretations so their actions
+ and perceptions in this model write an agent his actions and perceptions andovertime so this is a Index IX index I
+ so this action at time I and then followed by reception at time I will go
+
+Speaker 0 :with that I let it out the first part
+
+
+Speaker 1 :yes I'm just kidding I have some
+ interpretations so at some point maybe five years ago or ten years ago Idiscovered in in Barcelona it wasn't a
+ big church there wasn't you know stone engraved some text and the word I seeappeared there I was very surprised and
+ and and and happy about it and I looked it up so it is Catalan language and itmeans with some interpretation of debts
+ it that's the right thing to do yeah Eureka Oh
+
+Speaker 0 :so it's almost like destined somehow
+ came yeah yeah came to you in a dream
+
+Speaker 1 :so Osceola there's a Chinese word I she
+ also written a galaxy if you could transcribe that opinion then the finalone is that is AI crossed with induction
+ because status and that's going more to the content now so good old-fashioned AIis more about you know planning and
+ known data mystic world and induction is more about often yellow area D data andinferring models and essentially what
+ this accident does is combining these
+
+Speaker 0 :two and I actually also recently I think
+ heard that in Japanese AI means love so so if you can combine excise somehowwith that I think we can there might be
+ some interesting ideas there so I let's then take the next step can you maybetalk at the big level of what is this
+ mathematical framework yeah so it
+
+Speaker 1 :consists essentially of two parts one is
+ the learning and induction and prediction part and the other one is theplanning part
+ so let's come first to the learning induction prediction part whichessentially I explained already before
+ so what we need for any agent to act well is that it can somehow predict whathappens I mean if you have no idea what
+ your actions do how can you decide which acts not good or not so you need to havesome model of what your actions affect
+ so what you do is you have some experience you build models likescientists you know of your experience
+ then you hope these models are roughly correct and then you use these modelsfor prediction and the model is sorry to
+
+
+Speaker 0 :interrupt our model is based on you
+ perception of the world how your actions
+
+Speaker 1 :will affect that world that's not so
+ what is the important part but it is technically important but at this stagewe can just think about predicting say
+ stock market data whether data or IQ sequences one two three four five whatcomes next yeah so of course our actions
+ affect what we're doing but I come back to that in a second so and I'll keep
+
+Speaker 0 :just interrupting so just to draw a line
+ between prediction and planning or what do you mean by prediction in this andthis where it's trying to predict the
+ environment without your long-term action in the environment
+
+Speaker 1 :what is prediction okay if you want to
+ put the actions in now okay then let's put in a now yes so the question okay sothis is the simplest form of prediction
+ is that you just have data which you passively observe yes and you want topredict what happens without you know
+ interfering as I said weather forecasting stockmarket IQ sequences or just anything
+ okay and Salama of zeref interaction based on compression so you look for theshortest program which describes your
+ data sequence and then you take this program run it which reproduces yourdata sequence by definition and then you
+ let it continue running and then it will produce some predictions and you canrigorously prove that for any prediction
+ task this is essentially the best possible predictor of course if there'sa prediction task or tasks which is
+ unpredictable like you know your fair coin flips yeah I cannot predict thenext fair country but Solomon of Tarsus
+ says okay next head is probably 50% it's the best you can doso if something is unpredictable Salama
+ will also not magically predicted but if there is some pattern and predictabilitythen Solomonov induction we'll figure
+ that out eventually and not just eventually but rather quickly and youcan have proof convergence rates
+ whatever your data is so there's pure magic in a sense what's the catch wellthe catch is that is not computable and
+ we come back to that later you cannot just implement it in even thisGoogle resources here and run it and you
+ know predict the stock market and become rich I mean if ray solomonoff alreadynot write it at the time but the basic
+
+
+Speaker 0 :task is you know you're in the
+ environment and you're interacting with an environment to try to learn a modelthe environment and the model is in the
+ space as these all these programs and your goal is to get a bunch of programs
+
+Speaker 1 :that are simple and so let's let's go to
+ the actions now but actually good that you asked usually I skip this part alsothere is also a minor contribution which
+ I did so the action part but they usually sort of just jump to thedecision path so let me explain to the
+ action part now thanks for asking so you have to modify it a little bit bynow not just predicting a sequence which
+ just comes to you but you have an observation then you actsomehow and then you want to predict the
+ next observation based on the past observation and your action then youtake the next action you don't care
+ about predicting it because you're doing it and then you get the next observationand you want more before you get it you
+ want to predict it again based on your past action and observation sequenceit's just condition extra on your
+ actions there's an interesting alternative that you also try to predictyour own actions if you want oh in the
+ past or the future your future actions
+
+Speaker 0 :wait let me wrap I think my brain is
+
+
+Speaker 1 :broke we should maybe discussed it later
+ Biff after I've explained the Ising model it's an interesting variation but
+
+Speaker 0 :this is a really interesting variation
+ and a quick comment I don't know if you want to insert that in here but you'relooking at in terms of observations
+ you're looking at the entire the big history a long history of the
+
+Speaker 1 :observations exactly it's very important
+ the whole history from birth sort of of the agent and we can come back to thatI'm also why this is important here
+ often you know in RL you have MVPs Markov decision processes which are muchmore limiting okay so now we can predict
+ conditioned on actions so even if the influenced environment but prediction isnot all we want to do right we also want
+ to act really in the world and the question is how to choose the actionsand we don't want to greedily choose the
+ actions you know just you know what is best in in thenext time step and we first I should say
+ you know what is you know how to be measure performance so we measureperformance by giving the agent reward
+ that's the so called reinforcement learning framework so every time stepyou can give it a positive reward or
+ negative reward or baby no reward it could be a very scarce right like if youplay chess just at the end of the game
+ you give +1 for winning or -1 for losing so in the aixi framework that'scompletely sufficient so occasionally
+ you give a reward signal and you ask the agent to maximise reverb but notgreedily sort of you know the next one
+ next one because that's very bad in the long run if you're greedy so but overthe lifetime of the agent so let's
+ assume the agent lives for M times that'll say it dies in sort of hundredyears sharp that's just you know the
+ simplest model to explain so it looks at the future reward sum and ask what is myaction sequence or actually more
+ precisely my policy which leads in expectation because I don't know theworld to the maximum reward some let me
+ give you an analogy in chess for instance we know how to play optimallyin theory it's just a minimax strategy I
+ play the move which seems best to me under the assumption that the opponentplays the move which is best for him so
+ best serve worst for me and the assumption that he I play again the bestmove and then you have this expecting
+ max three to the end of the game and then you back propagate and then you getthe best possible move so that is the
+ optimal strategy which for norman already figured out a long time ago forplaying adversarial games luckily or
+ maybe unluckily for the theory it becomes harder the world is not alwaysadversarial so it can be if the other
+ humans even cooperative fear or nature is usually I mean the dead nature isstochastic you know you know things just
+ happen randomly or I don't care about you so what you have to take intoaccount is a noise now and not
+ necessarily Realty so you'll replace the minimum on the opponent's side by anexpectation which is general enough to
+ include also the serial cases so now instead of a minimax trials you have anexpecting max strategy so far so good so
+ that is well known it's called sequential decision theorybut the question is on which probability
+ distribution do you base that if I have the true probability distribution likesay I play backgammon right there's dice
+ and there's certain randomness involved you know I can calculate probabilitiesand feed it in the expecting max or the
+ signature disease we come up is the optimal decision if I have enoughcompute but in the for the real world we
+ don't know that you know what is the probability you drive in front of mebrakes and I don't know you know so
+ depends on all kinds of things and especially new situations I don't knowso this is this unknown thing about
+ prediction and there's where solomonoff comes in so what you do is in sequentialdecision jury it just replace the true
+ distribution which we don't know by this Universal distribution I didn'texplicitly talk about it but this is
+ used for universal prediction and plug it into the sequential decision treemechanism and then you get the best of
+ both worlds you have a long-term planning agent but it doesn't need toknow anything about the world because
+ there's a lot of induction part learns
+
+Speaker 0 :can you explicitly try to describe the
+ universal distribution and how some of induction plays a role here yeah I'mtrying to understand so what it does it
+
+
+Speaker 1 :I'm so in the simplest case I said take
+ the shortest program describing your data run it have a prediction whichwould be deterministic yes okay but you
+ should not just take a shortest program but also consider the longer ones butkeep it lower a priori probability so in
+ the Bayesian framework you say a priori any distribution which is a model orstochastic program has a certain a
+ priori probability which is 2 to the minus and Y to the minus length you knowI could explain length of this program
+ so longer programs are punished yes a priori and then you multiplied with theso-called likelihood function yeah which
+ is as the name suggests is how likely is this model given the data at hand so ifyou have a very wrong model it's very
+ unlikely that this model is true so it is very small number so even if themodel is simple it gets penalized by
+ that and what you do is then you take justthe some word this is the average over
+ it and this gives you a probability distribution so with universaldistribution of phenomena of
+ distribution so it's weighed by the
+
+Speaker 0 :simplicity of the program and likelihood
+ yes it's kind of a nice idea yeah so okay and then you said there's you'replaying N or M or forgot the letter
+ steps into the future so how difficult is that problem what's involved thereokay so here's a customization problem
+
+
+Speaker 1 :what do we do yes so you have a planning
+ problem up to horizon M and that's exponential time in in the horizon Mwhich is I mean it's computable but in
+ fact intractable I mean even for chess it's already intractable to do thatexactly and you know it could be also
+
+
+Speaker 0 :discounted kind of framework or yes so
+
+
+Speaker 1 :so having a heart arising you know at
+ numbered years it's just for simplicity of discussing the model and alsosometimes the math is simple but there
+ are lots of variations actually quite interesting parameter is its there'snothing really problematic about it but
+ it's very interesting so for instance you think no let's let's then let's letthe parameter M tend to infinity right
+ you want an agent which lives forever all right if you do it novel you havetwo problems first the mathematics
+ breaks down because you have an infinite reward some which may give infinity andgetting river 0.1 in the time step is
+ infinity and giving you got one every time service Definity so equally goodnot really what we want other problem is
+ that if you have an infinite life you can be lazy for as long as you want forten years yeah and then catch up with
+ the same expected reward and you know think about yourself or you know ormaybe you know some friends or so if
+ they knew they lived forever you know why work hard now you know just enjoyyour life you know and then catch up
+ later so that's another problem with infinite horizon and you mentioned yeswe can go to discounting but then the
+ standard discounting is so called geometric discounting so $1 today isabout worth as much as you know one
+ dollar and five cents tomorrow so if you do this so called geometric discountingyou have introduced an effective horizon
+ so the Aged is now motivated to had a certain amount of time effectivelyit's likely moving horizon and for any
+ fixed effective horizon there is a problem to solve which requires largerhorizon so if I look ahead you know five
+ time steps I'm a terrible chess player right and I'll need to look ahead longerif I play go I probably have to look
+ ahead even longer so for every problem there forever horizon there is a problemwhich this horizon cannot solve yes but
+ I introduced the so-called near harmonic horizon which goes down with one or tearather than exponential in T which
+ produces an agent which effectively looks into the future proportional toits age so if it's five years old it
+ plans for five years if it's hundred years older than plans for hundred yearsinteresting and a little bit similar to
+ humans - right and my children don't plan ahead very long but then we get thedoll - a player I had more longer maybe
+ when we get all very old I mean we know that we don't live forever and you'remaybe then how horizon shrinks again so
+
+
+Speaker 0 :just adjusting the horizon what is there
+ some mathematical benefit of that of or is just a nice I mean intuitivelyempirically probably a good idea to sort
+ of push the horizon back to uh extend the horizon as you experience more ofthe world but is there some mathematical
+ conclusions here that are beneficial mr.
+
+Speaker 1 :Loman who talks just a prediction
+ probably have extremely strong finite time but no finite data result so youhave sown so much data then you lose on
+ so much so so the dt r is really great with the aixi model with the planningpart many results are only asymptotic
+ which well this is what is asymptotic means you can prove for instance that inthe long run if the agent you know x
+ long enough then you know it performs optimal or some nice things happens sobut you don't know how fast it converges
+ yeah so it may converge fast but we're just not able to prove it because adifficult so that is really dead slow
+ yeah so so that is what asymptotic means sort of eventually but we don't know howfast and if I give the agent a fixed
+ horizon M yeah then I cannot prove asymptoticresults right so I mean sort of people
+ dies in hundred years then and hundred uses over cannot say eventually so thisis the advantage of the discounting that
+ I can prove on some topic results so
+
+Speaker 0 :just to clarify so so I okay I made I've
+ built up a model well now in a moment I've have this way of looking severalsteps ahead how do I pick what action I
+
+
+Speaker 1 :will take it's like with a playing chess
+ right you do this minimax in this case here do expect the maxbased on the selamat of distribution you
+ propagate back and then while inaction falls out the action which maximizes thefuture expected reward on the Solano's
+ distribution and then you just take this action and then repeat until you get anew observation and you feed it in this
+ excellent observation then you repeat and the reward so on yeah so you're arow - yeah and then maybe you can even
+
+
+Speaker 0 :predict your own action however the idea
+ but okay this big framework what is it this is I mean it's kind of a beautifulmathematical framework to think about
+ artificial general intelligence what can you what does it help you into it abouthow to build such systems or maybe from
+ another perspective what does it help us to in understanding AGI so when I
+
+Speaker 1 :started in the field I was always
+ interested two things one was you know AGI i'm the name didn't exist 10 24th ofjanuary iowa strong AI and physics he
+ over everything so i switched back and forth between computer science andphysics quite often you said the theory
+ of everything the theory of everything just alike it was a basically the string
+
+Speaker 0 :of flavors problems before all all of
+
+
+Speaker 1 :humanity yeah I can explain if you
+ wanted some later time you know why I'm interesting these two questions Nestle
+
+Speaker 0 :and a small tangent if if if one to be
+ it was one to be solved which one would you if one if you were if an apple foundyou
+ head and there was a brilliant insight and you could arrive at the solution toone would it be AGI or the theory of
+ everything
+
+Speaker 1 :definitely AGI because once the AGI
+ problem solve they can ask the AGI to solve the other problem for me yeah
+
+Speaker 0 :brilliant a put okay so so as you were
+
+
+Speaker 1 :saying about it okay so and the reason
+ why I didn't settle I mean this thought about you know once we have solved HDIit solves all kinds of other not just as
+ here every problem about all kinds of use more useful problems to humanityit's very appealing to many people and
+ you know I thought also that I was quite disappointed with the state of the artof the field of AI there was some theory
+ you know about logical reasoning but I was never convinced that this will flyand then there was this Homer more
+ holistic approaches with neural networks and I didn't like these heuristics soand also I didn't have any good idea
+ myself so that's the reason why I toggle back and forth quite some violent evenworked some four and a half years and a
+ company developing software something completely unrelated but then I had thisidea about the aixi model and so what it
+ gives you it gives you a gold standard so I have proven that this is the mostintelligent agents which anybody could
+ build built in quotation mark right because it's just mathematical and youneed infinite compute yeah but this is
+ the limit and this is completely specified it's not just a framework andit you know every year tens of
+ frameworks are developed with just have skeletons and then pieces are missingand usually these missing pieces you
+ know turn out to be really really difficult and so this is completely anduniquely defined and we can analyze that
+ mathematically and we've also developed some approximations I can talk about ita little bit later that would dissolve
+ the top-down approach like say for Norman's minimax theory that's thetheoretical optimal play of games and
+ now we need to approximate it put heuristics in prune the tree blah blahblah and so on so we can do that also
+ with an icy body but for generally I it can also inspire those and most ofmost researchers go bottom-up right they
+ have the systems that try to make it more general more intelligent it caninspire in which direction to go what do
+ you mean by that so if you have some choice to make right so how should theyevaluate my system if I can't do cross
+ validation how should I do my learning if my standard regularization doesn'twork well you know so the answer is
+ always this we have a system which does everything that's actually it's just youknow completing the ivory tower
+ completely useless from a practical point of view but you can look at it andsee oh yeah maybe you know I can take
+ some aspects and you know instead of Kolmogorov complexity there just takesome compressors which has been
+ developed so far and for the planning well we have used it here which is alsoyou know being used in go and it at
+ least it's inspired me a lot to have this formal definition and if you lookat other fields you know like I always
+ come back to physics because I'm a physics background think about thePhenom of energy that was long time a
+ mysterious concept and at some point it was completely formalized and thatreally helped a lot and you can point
+ out a lot of these things which were first mysterious and wake and then theyhave been rigorously formalized speed
+ and acceleration has been confused tried until it was formally defined here therewas a time like this and in people you
+ know often you know know don't have any background you know still confused it soand this is a model or the the
+ intelligence definitions which is sort of the dual to it we come back to thatlater formalizes the notion of
+ intelligence uniquely and rigorously so
+
+Speaker 0 :in in the sense it serves as kind of the
+ light at the end of the tunnel so before
+
+Speaker 1 :yeah so I mean there's a million
+
+
+Speaker 0 :question I could ask her so maybe the
+ kind of ok let's feel around in the dark a little bit so there's been here a deepmind but in general been a lot of
+ breakthrough ideas just like we've been saying around reinforcement learning sohow do you see the progress in
+ reinforcement learning is different like which subset of IHC does it occupythe current like you said the maybe the
+ Markov assumptions made quite often in reinforce for learning the there's otherassumptions made in order to make the
+ system work what do you see is the difference connection betweenreinforcement learning in Nyack see and
+
+
+Speaker 1 :so the major difference is that
+ essentially all other approaches they make stronger assumptions so inreinforcement learning the Markov
+ assumption is that the the next state or next observation only depends on the onthe previous observation and not the
+ whole history which makes of course the mathematics much easier and rather thandealing with histories of course their
+ profit from it also because then you have algorithms that run on currentcomputers and do something practically
+ useful but for generally are all the assumptions which are made by otherapproaches we know already now they are
+ limiting so for instance usually you need a go digital assumption in the MDPframeworks in order to learn it goes
+ this T essentially means that you can recover from your mistakes and that theyare not traps in the environment and if
+ you make this assumption then essentially it can you know go back to aprevious state go there a couple of
+ times and then learn what what statistics and what the state is likeand then in the long run perform well in
+ this state yeah but there are no fundamental problems but in real life weknow you know there can be one single
+ action you know one second of being inattentive while driving a car fast youknow you can ruin the rest of my life I
+ can become quadriplegic or whatever so and there's no recovery anymore so thereal world is not err gorica I always
+ say you know there are traps and there are situations we are not recover fromand very little theory has been
+ developed for this case what about what
+
+Speaker 0 :do you see in there in the context of I
+ see as the role of exploration sort of
+
+Speaker 1 :
+
+Speaker 0 :you mentioned you know in the in the
+ real world and get into trouble when we make the wrong decisions and really payfor it but exploration it seems to be
+ fundamentally important for learning about this worldfor gaining new knowledge so is it his
+ exploration baked in another way to ask it what are the parameters of this ofIHC it can be controlled yeah I say the
+
+
+Speaker 1 :good thing is that there are no
+ parameters to control and some other people track knobs to control and youcan do that I mean you can modify axes
+ so that you have some knobs to play with if you want to but the exploration isdirectly baked in and that comes from
+ the Bayesian learning and the long-term planningso these together already imply
+ exploration you can nicely and explicitly prove that for simpleproblems like so-called banded problems
+ where you say to give a real world example say you have two medicaltreatments a and B you don't know the
+ effectiveness you try a a little bit be a little bit but you don't want to harmtoo many patients so you have to sort of
+ trade-off exploring yeah and at some point you want to explore and you can dothe mathematics and figure out the
+ optimal strategy it took a Bayesian agency also non-bayesian agents but itshows that this Bayesian framework by
+ taking a prior over possible world's doing the Bayesian mixture then theBayes optimal decision with long term
+ planning that is important automatically implies exploration also to the properextent not to much exploration and not
+ too little in this very simple settings in the IHC model and was also able toprove that it is a self optimizing
+ theorem or asymptotic optimality theorems or later only asymptotic notfinite time bounds it seems like the
+
+
+Speaker 0 :long term planning is a really important
+ but the long term part of the planet is really important yes and also I meanmaybe a quick tangent how important do
+ you think is removing the Markov assumption and looking at the fullhistory sort of intuitively of course
+ it's important but is it like fundamentally transformative to theentirety of the problem what's your
+ sense of it like because we all we make that assumption quite often it'sjust throwing away the past now I think
+
+
+Speaker 1 :it's absolutely crucial the question is
+ whether there's a way to deal with it in a more holistic and still sufficientlywell way so I have to come up with an
+ example and fly but you know you have say some you know key event in your lifeyou know a long time ago you know in
+ some city or something you realize you know that's a really dangerous street orwhatever right here and you want to
+ remember that forever right in case you come back they're kind of a selective
+
+Speaker 0 :kind of memory so you remember that all
+ the important events in the past but somehow selecting the importance is see
+
+Speaker 1 :that's very hard yeah and I'm not
+ concerned about you know just storing the whole history just you can calculateyou know human life says so you're 100
+ years doesn't matter right how much data comes in through the vision system andthe auditory system you compress it a
+ little bit in this case law silly and store it we are soon in the means ofjust storing it yeah but you still need
+ to the selection for the planning part and the compression for theunderstanding part the raw storage I'm
+ really not concerned about and I think we should just store if you develop anagent preferably just restore all the
+ interaction history and then you build of course models on top of it and youcompress it and you are selective but
+ occasionally you go back to the old data and reanalyze it based on your newexperience you have you know sometimes
+ you you're in school you learn all these things you think it's totally uselessand you know much later you realize not
+ you know it looks like as you thought
+
+Speaker 0 :I'm looking at you linear algebra right
+ so maybe a minute let me ask about objective functions because that rewardsit seems to be an important part the
+ rewards are kind of given to the system for a lot of people the thespecification of the objective function
+ is a key part of intelligence like the the agent itself figuring out what isimportant what do you think about that
+ is it possible within IHC framework to yourself discover the reward based onwhich you should operate okay that'll be
+
+
+Speaker 1 :a long answer so and it is a very
+ interesting question and I asked a lot about this question where do the riverscome from and that depends yeah so and
+ there you know I give you now a couple of answers so if you want to buildagents now let's start simple so let's
+ assume we want to build an agent based on the aixi model which performs aparticular task let's start with
+ something super simple like I mean super simple like playing chess or go orsomething yeah then you just you know
+ the reward is you know winning the game is plus one losing theorems minus onedone you apply this agent if you have
+ enough compute you let itself play and it will learn the rules of the game willplay perfect chess
+ after some while problem solve okay so if you have more complicated problemsthen you may believe that you have the
+ right rewrote but it's not so a nice cute example is elevator control that isalso in rich Sutton's book which is a
+ great book by the way so you control the elevator and you think well maybe thereward should be coupled to how long
+ people wait in front of the elevator you know long wait is bad you program it andyou do it and what happens is the
+ elevator eagerly picks up all the people but never drops them off maybe the timein the elevator also counts so you
+ minimize the sum yeah yeah in the elevator does that but never picks upthe people in the tenth row in the top
+ floor because in expectation it's not worth it just let them stay so so evenin apparently simple problems you can
+ make mistakes you know and that's what in in warserious context say a GI safety
+ researchers consider so now let's go back to general agents so assume youwant to build an agent which is
+ generally useful to humans yes we have a household robot here and it should doall kinds of tasks so in this case the
+ human should give the reward on the fly I mean maybe it's pre trained in thefactory and there there's some sort of
+ internal reward for you know the battery level or whatever here but so it youknow it does the dishes badly you know
+ you punish the robot intercept good you read what the robot and then train it doa new task you know like a child right
+ so you need the human in the loop if you want a system which is useful to thehuman and as long as this agent stays up
+ human level that should work reasonably well I'm apart from you know theseexamples it becomes critical if they
+ become you know on a human level it's it's that miss children small childrenyou have reason to be well under control
+ they become older the river technique doesn't work so well anymoreso then finally so this would be agents
+ which are just you could sorry slaves to the humans yeah so if you are moreambitious and just say we want to build
+ a new species of intelligent beings we put them on a new planet and we wantthem to develop this planet or whatever
+ so we don't give them any reward so what could we do and you could try to youknow come up with some reward functions
+ like you know it should maintain itself the robot it should maybe multiply buildmore robots right and you know maybe for
+ all kinds of things did you find useful but that's pretty hard right you knowwhat what the self maintenance mean you
+ know what does it mean to build a copy should be exact copy an approximate copyand so that's really hard but LaVon or
+ so also a deep mind developed a beautiful model so it just took the aiximodel and coupled the rewards to
+ information gained so he said the reward is proportional to how much the agenthad learned about the world and you can
+ rigorously formally uniquely define it in terms of our caseversions okay so if you put it in you
+ get a completely autonomous agent and actually interestingly for this agent wecan prove much stronger result and for
+ the general agent which is also nice and if you let this agent loose it will bein a sense the optimal scientist is this
+ absolutely curious to learn as much as possible about the world and of courseit will also have a lot of instrumental
+ goals right in order to learn it needs to at least survive right a dead agentis not good for anything so it needs to
+ have self-preservation and if it builds small helpless acquiring moreinformation it will do that yeah if
+ exploration space exploration or whatever is necessary rights togathering information and develop it so
+ it has a lot of instrumental goals following on this information gain andthis agent is completely autonomous of
+ us no rebirth necessary anymore yeah of
+
+Speaker 0 :course you could define the awaited game
+ the concept of information it gets stuck in that library that you mentionedbeforehand with the was a very large
+ number of books the first agent had this
+
+Speaker 1 :problem and it would get stuck in front
+ of an old TV screen which has just said white noise yeah I know but the secondversion can deal with at least
+ stochasticity well yeah what about
+
+Speaker 0 :curiosity this kind of word curiosity
+ creativity is that kind of the reward function being of getting newinformation is that similar to idea of
+ kind of injecting exploration for its own sake inside the reward function doyou find this at all appealing
+ interesting I think that's a nice
+
+Speaker 1 :definition curiosity is reward sorry
+ curiosity is exploration for its own sake yeah I would accept that but mostcuriosity well in humans and especially
+ in children yeah it's not just for its own sake but for actually learning aboutthe environment and for behaving so I
+ would I think most curiosity is tied in the end towards performing better well
+
+Speaker 0 :okay so if intelligence systems need to
+ have the show function let me you're an intelligentsystem currently passing the Turing test
+ quite effectively what what's the reward function of our human intelligenceexistence what's the reward function
+ that Marcus hunter is operating under
+
+Speaker 1 :okay to the first question the
+ biological reward function is to survive and to spread and very few humans sortof are able to overcome this biological
+ reward function but we live in a very nice world where we have lots of sparetime and can still survive and spread so
+ we can develop arbitrary other interests which is quite interesting on top ofthat that yeah but this survival and
+ spreading sort of is I would say the the goal or the reward function of humansaid that the core one
+ I like how you avoided answering the
+
+Speaker 0 :second question which a good
+ intelligence would so my that your own
+
+Speaker 1 :
+
+Speaker 0 :meaning of life and the reward function
+
+
+Speaker 1 :my own meaning of life and Riyad
+ function is to find an AGI to build it beautifully put okay let's dissect Ickes
+
+Speaker 0 :even further so one of the assumptions
+ is kind of infinity keeps creeping up
+
+Speaker 1 :everywhere which what are your thoughts
+
+
+Speaker 0 :and kind of bounded rationality and so
+ the nature of our existence and intelligence systems is that we'reoperating all under constraints under
+ you know limited time limited resources how does that how do you think aboutthat with an IQ framework within trying
+ to create an eg a system that operates under these constraints yeah that is one
+
+Speaker 1 :of the criticisms around I could see
+ that it ignores computation and completely and some people believe thatintelligence is inherently tied to
+ what's bounded resources what do you
+
+Speaker 0 :think on this one point I think it's do
+ you think the boundary of resources are
+
+Speaker 1 :fundamental to intelligence I would say
+ that an intelligence notion which ignore computational limits is extremely usefula good intelligence notion which
+ includes these resources would be even more useful but we don't have that yetand so look at other fields outside of
+ computer science computational aspects never play a fundamental role youdevelop biological models for cells
+ something in physics these theories I mean become more and more crazy and hardand harder to compute well in the end of
+ course we need to do something with this model but this more a nuisance than afeature and I'm sometimes wondering if
+ artificial intelligence would not sit in a computer science department but in aphilosophy department
+ then this computational focus would be probably significantly less I mean thinkabout the induction problem is more in
+ the philosophy department there's really no paper who cares about you know howlong it takes to compute the answer
+ there is completely secondary of course once we have figured out the firstproblem so intelligence without
+ computational resources then the next and very good question is could weimprove it by including computational
+ resources but nobody was able to do that so far you know even halfwaysatisfactory manner I like that that's
+
+
+Speaker 0 :in the long run the right department to
+ belong to this philosophy that's uh it's really quite a deep idea of or even toat least to think about big-picture
+ philosophical questions big-picture questions even in the computer sciencedepartment but you've mentioned
+ approximation sort of there's a lot of infinity a lot of huge resources neededare there approximations - I see that
+ within the EXCI framework that are
+
+Speaker 1 :useful you haven't haven't develop a
+ couple of approximations and what we do there is that the Sonoma of inductionpart which was you know find the
+ shortest program describe your data we just replace this by standard datacompressors right and the better
+ compressors get you know the better this part will become we focus on aparticular compressor called context
+ tree weighting which is pretty amazing lots of well known asbeautiful theoretical properties also
+ works reasonably well in practice so we use that for the approximation of theinduction in the learning in the
+ prediction part and from the planning part we essentially just took the ideasfrom a computer girl from 2006 I was
+ Java tsipras Perry also now I did mind who developed the so-called you sit herealgorithm upper confidence bound for
+ trees algorithm on top of the Monte Carlo tree search so they approximate isplanning part by sampling and it's
+ successful on some small toy problems we don't want to lose the generality allright and that's sort of the handicap
+ right if you want to be general you have to give up something so but this similaragent was able to play you know small
+ games like cool poker and tic-tac-toe andand even pac-man into the same
+ architecture no change the agent doesn't know the rules of the game reallynothing in all by self or by a player
+ with these environments so your grenade
+
+Speaker 0 :hoop would propose something called gate
+ on machines which is a self-improving program that rewrites its own code well
+
+Speaker 1 :
+
+Speaker 0 :sort of mathematically philosophically
+ what's the relationship in your eyes if you're familiar with it between IHC andthe girl machines yeah familiar with it
+
+
+Speaker 1 :he developed it while I was in his lab
+ you know so the girl machine explained brieflyyou give it a task it could be a simple
+ task as you know finding prime factors in numbers right you can formally writeit down there's a very slow algorithm to
+ do that just all try all the factors yeah or play chess right optimally youwrite the algorithm to minimax to the
+ end of the game so you write down what the girdle machine should do then itwill take part of it resources to run
+ this program and other part of the sources to improve this program and whenit finds an improved version which
+ provably it's the same answer so that's the keypart yeah it needs to prove by itself
+ that this change of program still satisfies the original specification andif it does so then it replaces the
+ original program by the improved program and by definition does the same job butjust faster okay and then you know it
+ proved over it and over it and it's it's it's developed in a way that all partsof this girdle machine can self improve
+ but it stays provably consistent with the original specification so from thisperspective it has nothing to do with
+ aixi but if you would now put axial as the starting axioms in it would run arcC but you know that takes forever but
+ then if it finds a provable speed-up of Arc C it would replace it by this andthat this and this and maybe eventually
+ it comes up with a model which is still like C model it cannot be I mean justfor the knowledgeable reader accessing
+ computable and there can prove that therefore there cannot be a computableexact algorithm computers there needs to
+ be some approximations and this is not dealt with a good machine so you have todo something about it but that's the ICT
+ L model which is finitely computable which we could put in which part of X is
+
+Speaker 0 :an non computable the Solomonov
+
+
+Speaker 1 :induction part the interaction okay so
+
+
+Speaker 0 :
+
+Speaker 1 :but there's ways of getting computable
+ approximation of the aixi model so then it's at least computable it is still waybeyond any resources anybody will ever
+ have but then the girdled machine could sort of improve it further and furtherin an exact way so what this is
+
+
+Speaker 0 :theoretically possible that the the girl
+ machine process could improve isn't isn't or isn't actually already optimal
+
+Speaker 1 :it is optimal in terms of the river
+ collected over its interaction cycles but it takes infinite time to produceone action and the world you know
+ continues whether you want it or not yeah so the model is assuming had anOracle which you know solve this problem
+ and then in the next hundred milliseconds orreaction time you need gives the answer
+ then ax is optimal so it's optimal in sense of date arealso from learning efficiency and data
+ efficiency but not in terms of computation time and then the other girl
+
+Speaker 0 :machine in theory but probably not
+ provably could make it go faster yes ok interesting those two components aresuper interesting the sort of the the
+ perfect intelligence combined with self-improvement sort of provable selfimprovement since he always liked it
+ you're always getting the correct answer and you're improving the beautiful ideasokay so you've also mentioned that
+ different kinds of things in in chase of solving this reward sort of optimizingfor the goal interesting human things
+ can emerge so is there a place for consciousness within IHC what where doesuh maybe you can comment because I
+ suppose we humans are just another instantiation Vioxx agents and we seemto have consciousness you say humans are
+
+
+Speaker 1 :an instantiation of Mike's agent yes oh
+ that would be amazing but I think that's three for the smartest and most rationalhumans I think maybe we are very crude
+ approximation interesting I mean I tend
+
+Speaker 0 :to believe again I'm Russian so I tend
+ to believe our flaws are part of the optimal so the we tend to laugh off andcriticize our flaws and I tend to think
+ that that's actually close to an optimal
+
+Speaker 1 :behavior but some flaws if you think
+ more carefully about it are actually not floss yeah but I think there are stillenough flaws I don't know it's unclear
+
+
+Speaker 0 :as a student of history I think all the
+ suffering that we've been endured as a civilization it's possible that that'sthe optimal amount of suffering we need
+ to endure to minimize the long-term suffering that's your Russian background
+
+Speaker 1 :that's the Russian weather whoo humans
+
+
+Speaker 0 :are or not instantiation of an AI agent
+ do you think there's a consciousness of something that could emerge in theno formal framework like IHC let me also
+
+
+Speaker 1 :ask you a question do you think I'm
+ conscious that's a good question you
+
+Speaker 0 :
+
+Speaker 1 :you're that that tie is confusing me but
+
+
+Speaker 0 :I think you think it makes me
+
+
+Speaker 1 :unconscious because it strangles me if
+ if an agent were to solve the imitation
+
+Speaker 0 :game posed by touring I think they would
+ be dressed similarly to you that because there's a there's a kind of flamboyantinteresting complex behavior pattern
+ that sells that you're human and you're cautious but why do you ask was it a yes
+
+Speaker 1 :always gonna know yes I think you're
+ conscious yes yeah so and you explain sort of somehow whybut you infer that from my behavior
+ right yeah you can never be sure about that and I think the same thing willhappen with any intelligent way to be
+ developed if it behaves in a way sufficiently close to humans or maybe ifnot humans I mean you know maybe a dog
+ is also sometimes a little bit self-conscious right so so if it behavesin a way where we attribute typically
+ consciousness we would actually build consciousness to this intelligentsystems and you know except all in
+ particular that of course doesn't answer the question whether it's reallyconscious and that's the you know the
+ big hard problem of consciousness you know maybe I'm a zombie I mean not themovie zombie but the philosophical
+ zombie it's to you the display of
+
+Speaker 0 :consciousness close enough to
+ consciousness from a perspective of a GI that the distinction of the hard problemof consciousness is not an interesting
+ one I think we don't have to worry about
+
+Speaker 1 :the consciousness problem especially the
+ heart problem for developing a GI I think you know we progress at some pointwe have solved all the technical
+ problems and this system will behave intelligent and then super intelligentand this consciousness will emerge I
+ mean definitely it will display behavior which we will interpret as conscious andthen it's a philosophical question did
+ this consciousness really emerge or is zombie which just you know fakeseverything we still don't have to figure
+ that out although it may be interesting at least from a philosophical point ofit's very interesting but it may also be
+ sort of practically interesting you know there's some people say you know if it'sjust faking consciousness and feelings
+ you know then we don't need to have be concerned about you know rights but ifit's real conscious and has feelings
+ then we need to be concerned yeah I
+
+Speaker 0 :can't wait til the day where AI systems
+ exhibit consciousness because it'll truly be some of the hardest ethicalquestions how well we do with that it is
+
+
+Speaker 1 :rather easy to build systems which
+ people ascribe consciousness and I give you an analogy I mean remember maybeonce before you were born the Tamagotchi
+
+
+Speaker 0 :yes how dare you sir you're young right
+
+
+Speaker 1 :yes it's good thing yeah thank you thank
+
+
+Speaker 0 :you very much but I was also in the so
+ you have any of those funny things but
+
+Speaker 1 :you have heard about this time ago it
+ was you know really really primitive actually for the time it was and youknow you could race you know this and
+ and and and kids got so attached to it and you know didn't want to let it dieand would have probably if we would have
+ asked you know the children know do you think this drama coach is conscious andthey would say yes yes I was yes that's
+
+
+Speaker 0 :kind of a beautiful thing actually
+ because that consciousness ascribing consciousness seems to create a deeperconnection yeah which is a powerful
+ thing but we have to be careful on the ethics side of that well let me askabout the AGI community broadly you kind
+ of represent some of the most serious work on a giass of at least or earlierand deepmind represents a serious work
+ on AGI these days but why in your sense is the AGI communities so small or hasbeen so small until maybe deep mine came
+ along like why why aren't more people seriously working on human level andsuper human level intelligence from a
+ formal perspective okay from a formal
+
+Speaker 1 :perspective that sort of you know and an
+ extra point so I think a couple of reasons I mean AI came inwaves right you know our interest in our
+ summers and then there were big promises which were not fulfilled and people gotdisappointed and that narrow AI are sold
+ in particular problems which seem to require intelligence was always to someextent successful and there were
+ improvements small steps and if you build something which is you know usefulfor society or industrial useful then
+ there's a lot of funding so I guess it wasn't pass the money which drivespeople to develop specific system
+ solving specific tasks but you would think that you know at least onuniversity you should be able to do
+ ivory tower research and that was probably better a long time ago abouteven nowadays there's quite some
+ pressure off of doing applied research or translational research and you knowit's harder to get grants as a theorist
+ so that also drives people away it's maybe also harder attacking the generalintelligence problem so I think enough
+ people I mean maybe a small number we're still interested in in formalizingintelligence and thinking of general
+ intelligence but you know not much came up right or not much great stuff came upso what do you think we talked about the
+
+
+Speaker 0 :formal big light at the end of the
+ tunnel but from the engineering perspective what do you think it takesto build an a GI system is it and I
+ don't know if that's a stupid question or a distinct question from everythingwe've been talking about I exceed but
+ what do you see as the steps that are necessary to take to start to try tobuild something so you wanted a blue
+
+
+Speaker 1 :print now and then you go and do it it's
+ the whole point of this conversation try
+
+Speaker 0 :to squeeze that in there now is there I
+ mean what's your intuition is it is in the robotic space or something that hasa body and tries to explore the world is
+ in the reinforcement learning space like the efforts of the alpha 0 and alphastar they're kind of exploring how you
+ can solve it through in in the simulation in the gaming worldtheir stuff and sort of the of the
+ transformer working natural English processing so maybe attacking the opendomain dialog like what where do you see
+ a promising pathways let me pick the
+
+Speaker 1 :embodiment maybe so embodiment is
+ important yes and no I don't believe that we need a physical robots walkingor rolling around interacting with the
+ real world in order to achieve AGI and I think it's more of a distractionprobably than helpful it's sort of
+ confusing the body with the mind for industrial applications or near-termapplications of course we need robotics
+ for all kinds of things yeah but for solving the big problem at least at thisstage I think it's not necessary but the
+ answer is also yes that I think the most promising approaches that you have anagent and you know there can be a
+ virtual agent you know you know computer interacting with an environment possiblyin our 3d simulated environment like in
+ many computer games and and you train and learn the agent even if you don'tintend to later put it sort of you know
+ this algorithm in a robot brain and leave it forever in the virtual realitygetting experience in a also it's just
+ simulated 3d world is possibly and I say possibly important to understand thingson a similar level as humans do
+ especially if the agent or primarily if the agent wants needs to interact withthe humans right you know if you talk
+ about objects on top of each other in space and flying and cars and so on andthe agent has no experience with even
+ virtual 3d worlds it's probably hard to grasp so if you develop an abstractagent say we take the mathematical path
+ and we just want to build an agent which can prove theorems and becomes a betterimitation then this agent needs to be
+ able to reason in very abstract spaces and then maybe sort of putting it into3d environment simulated alt is even
+ harmful it should sort of you put it in I don't know an environment which itcreates itself or so it seems like you
+
+
+Speaker 0 :have an interesting rich complex
+ trajectory through life in terms of your journey of ideas so it's interesting toask what books technical fiction
+ philosophical and books ideas people had a transformative effect books are mostinteresting because maybe people could
+ also read those books and see if they could be inspired as well you're luckily
+
+Speaker 1 :asked books and not singular book it's
+ very hard and I tried to pin down one book yeah then I can do that at the endso the most the books which were most
+ transformative for me or which I can most highly recommend to peopleinterested in AI both perhaps yeah I
+ would always start with Russell and Norvig artificial intelligence a modernapproach that's the AI Bible it's an
+ amazing book it's very broad it covers you know all approaches to AI and evenif you focus on one approach I think
+ that is the minimum you should know about the other approaches out there sothat should be your first book
+
+
+Speaker 0 :fourth edition should be coming out soon
+ okay interesting deeper there's a deep
+
+Speaker 1 :
+
+Speaker 0 :learning chapter now so there must be
+ written by Ian good fella okay and then
+
+Speaker 1 :the next book I would recommend the
+ reinforcement only book by certain in part oh there's a beautiful book ifthere's any problem with the book
+ it makes our L feel and look much easier than it actually is it's very gentlebook it's very nice to read the
+ exercises do you can very quickly you know get some aerial systems to run youknow on very toy problems but it's a lot
+ of fun and you in very in a couple of days you feel you know you know what RLis about but it's much harder than the
+ book yeah come on now it's an awesome book yeah
+
+Speaker 0 :
+
+Speaker 1 :that idea's yeah and maybe I mean
+ there's so many books out there if you like the information theoretic approachthen there's Kolmogorov complexity by
+ Alene batani but probably you know some some short article is enough you don'tneed to read a whole book but it's a
+ great book and if you have to mention one all-time favorite book so differentflavor that's a book which is used in
+ the International Baccalaureate for high school students in several countriesthat's from Nicolas alchun theory of
+ knowledge second edition or first not assert least the third one they put theytook out all the fun okay so this asked
+ all the interesting or to me interesting philosophical questions about how weacquire knowledge from all perspectives
+ on from math from art from physics and ask how can we know I'm anything andbook is called theory of knowledge from
+
+
+Speaker 0 :which is almost like a philosophical
+ exploration of how we get knowledge from anything yes yeah I mean can religion
+
+Speaker 1 :tell us you know about something about
+ the world can science tell us something about the world can mathematics so asit's just playing with symbols and
+ onions open-ended questions and I mean it's forhigh school students so they have been
+ resources from Hitchhiker's Guide to the galaxy and from Star Wars and thechicken cross the road
+ yeah and it's it's it's fun to read and but it's also quite deep if you could
+
+Speaker 0 :live one day of your life over again
+ because it made you truly happy or maybe like we said with the books it was trulytransformative what what day what moment
+ would you choose there's something pop into your mind doesn't need to be a day
+
+Speaker 1 :in the past or can it be a day in the
+ future well space-time is an emergent phenomena
+
+Speaker 0 :so it's all the same anyway
+
+
+Speaker 1 :okay okay from the past you're really
+
+
+Speaker 0 :
+
+Speaker 1 :good saved from the future I love it no
+ I will also tell you from the future okay from the past I would saywhen I discovered Maxim Allah I mean it
+ was not in one day but it was one moment they are realized comig ofcomplexity and didn't even know that it
+ existed but I rediscovered sort of this compression idea myself but immediatelyI knew I can't be the first one but I
+ had this idea and then I knew about sequential decision ray and I knew if Iput it together this is the right thing
+ and yeah I'm still when I think back about this moment I'm I'm super excitedabout it was there
+
+
+Speaker 0 :was there any more details and context
+ that moment did an apple fall in your head were so like if you look at enGoodfellow talking about Gans there was
+ beer involved there is there some more context of what sparked your thought itwas a jest and no it was much more
+
+
+Speaker 1 :mundane so I've worked in this company
+ so in this sense the four and a half years was not completely wasted so andI've worked on an image interpolation
+ problem and I developed a quite neat new interpolation techniques and they gotpatented and then I you know and which
+ happens quite often I got sort of overboard and thought about you knowyeah that's pretty good but it's not the
+ best so what is the best possible way of doing in the interpolation and then Ithought yeah you you want the simplest
+ picture which is if you cross train it recovers your original picture and thenI you know thought about the simplicity
+ concept more in quantitative terms and you know then everything developed andsomehow love the full beautiful mix of
+
+
+Speaker 0 :also being a physicist and thinking
+ about the big picture of it then led you to probably the end of a good idea so as
+
+Speaker 1 :a physicist I was probably trained not
+ to always think in computational terms you know just ignore that and thinkabout the other two the fundamental
+ properties which you want to have so what about if you could really one day
+
+Speaker 0 :in the future all the day what would
+
+
+Speaker 1 :that be when I solve the AGI problem and
+ I bring the practice in practice so in theory I have solved it that I see whatalready attracted me and then ask the
+ first question or would be the first
+
+Speaker 0 :question what's the meaning of life
+
+
+Speaker 1 :I don't think there's a better way to
+
+
+Speaker 0 :end it thank you so much for talking it
+ is a huge honor to finally meet you yeah
+
+Speaker 1 :thank you - I was a pleasure off my side
+ - thanks for listening to this
+
+Speaker 0 :conversation with Marcus hunter and
+ thank you to our presenting sponsor cash app downloaded you just cold legspodcast you'll get ten dollars and ten
+ dollars will go to first an organization that inspires and educates young mindsto become science and technology
+ innovators of tomorrow if you enjoy this podcast subscribe on YouTube give itfive stars an apple podcast supported on
+ patreon or simply connect with me on Twitter at Lex Friedman and now let meleave you with some words of wisdom from
+ Albert Einstein the measure of intelligence is the ability to change
+
+Speaker 1 :
+
+Speaker 0 :for listening and hope to see you next
+
+

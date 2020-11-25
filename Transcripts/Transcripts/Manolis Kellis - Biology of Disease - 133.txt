@@ -1,0 +1,2052 @@
+Speaker 1 :the following is a conversation with
+ manolas kellis his third time on the podcast he is aprofessor at mit
+
+
+Speaker 0 :
+
+Speaker 1 :and head of the mit computational
+ biology group this time we went deep on the sciencebiology and genetics so this is a bit
+ of an experiment manolas went back and forthbetween the basics of biology to the
+ latest state of the art and the research he's a master at thisso i just said back
+ and enjoyed the ride this conversation happened at 7 00 amso it's yet another podcast episode
+ after an all-nighter for me and once again since the universe has asense of humor
+
+
+Speaker 0 :this one was a tough one for my brain to
+ keep up
+
+Speaker 1 :but i did my best and i never shy away
+
+
+Speaker 0 :from good challenge quick mention of
+
+
+Speaker 1 :your sponsor followed by some thoughts
+ related to
+
+Speaker 0 :
+
+Speaker 1 :the episode first is sem rush
+ the most advanced seo optimization tool i've ever come acrossi don't like looking at numbers but
+ someone probably should it helps you make good decisions secondis pessimist archive they're back one of
+ my favorite history podcasts on why peopleresist new things from recorded music to
+ umbrellas to cars chess coffee and the elevator
+
+Speaker 0 :
+
+Speaker 1 :third is eight sleep a mattress that
+ cools itself measures heart rate variability has anapp and has given me yet another reason
+ to look forward to sleep including
+
+Speaker 0 :the all-important power nap and finally
+
+
+Speaker 1 :better help online therapy when you want
+
+
+Speaker 0 :
+
+Speaker 1 :to face your demons with a licensed
+ professional not just by doing the david goggins likephysical challenges
+ like i seem to do on occasion please
+
+Speaker 0 :
+
+Speaker 1 :check out the sponsors in the
+ description to get a discount and to support this podcast as a side notelet me say that biology
+ in the brain and in the various systems of the bodyfill me with awe every time i think
+ about how such a chaotic mess coming from its humbleorigins in the ocean
+ was able to achieve such incredibly complexand robust mechanisms of life that
+ survived despite all the forces of nature thatwant to destroy it
+ it is so unlike the computing systems we humans have engineeredthat it makes me feel that in order to
+ create artificial general intelligence and artificial consciousness we may haveto completely rethink
+ how we engineer computational systems if you enjoy this thing subscribe onyoutube review it with five stars in
+ apple podcast follow on spotify support on patreon orconnect with me on twitter
+
+
+Speaker 0 :at lex friedman and now here's my
+
+
+Speaker 1 :conversation
+ with manolis kalis so your group at mit is trying to understand the molecularbasis of human disease
+ what are some of the biggest challenges
+
+Speaker 0 :in your view don't
+ get me started i mean irregularities standing human diseaseis the most complex challenge
+ in modern science so because human diseaseis as complex as the human genome
+ it is as complex as the human brain and it is in many ways even more complexbecause the more we understand disease
+ complexity the more we start understanding genomecomplexity and
+ epigenome complexity and brain circuitry complexityand immune system complexity and cancer
+ complexity and so on and so forth so traditionallyhuman disease was following basic
+ biology you would basically understand basicbiology and model organisms
+ like you know mouse and fly and yeast you would understand sort ofmammalian biology and animal biology and
+ eukaryotic biology in sort of progressive layers ofcomplexity
+ getting closer to human phylogenetically and you would do perturbationexperiments in those species
+ to see if i knock out a gene what happensand based on the knocking out of these
+ genes you would basically then have a way to drivehuman biology because you would you
+ would sort of understand the functions of these genes and then if you find thata human gene
+ locus something that you've mapped from human geneticsto that gene is related to a particular
+ human disease you say now i know the function of the gene fromthe model organisms
+ i can now go and understand the function of that genein human but this is all changing this
+ is dramatically changed so that that was the old way of doing basic biology youwould start with the animal models the
+ eukaryotic models the mammalian models and then you wouldgo to human
+ human genetics has been so transformed in the lastdecade or two that human genetics is now
+ actually driving the basic biology there is more genetic mutationinformation in the human
+ genome than there will ever be in any other species
+
+Speaker 1 :what do you mean by mutation information
+
+
+Speaker 0 :so perturbations is how you understand
+ systems so an engineer builds systems and thenthey know how they work from the inside
+ out a scientist studies systems throughperturbations
+ you basically say if i poke that balloon what's going to happen and i'm going tofilm it in super high resolution
+ understand i don't know aerodynamics or fluid dynamics if it'sfilled with water etc so you can then
+ make experimentation by perturbation and then the scientific process is sort ofbuilding models that
+ best fit the data designing new experiments that best test your modelsand challenge your models and so forth
+ that's the same thing with science basically if you're trying to understandbiological science
+ you basically want to do perturbations that then drivethe models so how do these perturbations
+
+
+Speaker 1 :allow you to understand
+
+
+Speaker 0 :disease so if if you know that
+ a gene is related to disease you don't want to just know that it's related tothe disease you want to know what is the
+ disease mechanism because you want to go and intervene sothe way that i like to describe it is
+ that traditionally epidemiology which is basically thestudy of disease
+ you know sort of the observational study of disease has beenabout correlating one thing with another
+ thing so if you if you have a lot of people with liver disease who are alsoalcoholics
+ you might say well maybe the alcoholism is driving the liver diseaseor maybe those who have liver disease
+ self-medicate with alcohol so that the connection could be eitherway
+ with genetic epidemiology it's about correlating changes in the genomewith phenotypic differences and then you
+ know the direction of causality so if you know that a particular gene isrelated
+ to the disease you can basically say okay perturbing that gene in mousecauses the mice to have x phenotype
+ so perturbing that gene in human causes the humans to have the diseaseso i can now figure out what are the
+ detailed molecular phenotypes in the human that are related to thatorganismal
+ phenotype in the disease so it's all about understandingdisease mechanism understanding what are
+ the pathways what are the tissues what are the processes that areassociated with the disease so that we
+ know how to intervene you can then prescribe particularmedications that also alter these
+ processes you can prescribe lifestyle changes thatalso affect these processes
+
+
+Speaker 1 :and so forth that's such a beautiful
+ puzzle to try to solve like what kind of perturbationseventually have this ripple effect that
+ leads to disease across the population and then you studythat for animals
+ a mice first and then see how that might possibly connect tohumans how hard is that puzzle of
+ trying to figure out how little perturbations might leadto in a stable way to a disease
+
+
+Speaker 0 :in animals we make the puzzle
+ simpler because we perturb one gene at a timethat's the beauty of it's the power of
+ animal models you can basically decouple the perturbations you only do oneperturbation and you only do strong
+ perturbations at a time in human the puzzle is incrediblycomplex
+ because i mean obviously you don't do human experimentationyou wait for natural selection and
+ natural genetic variation to basically do its own experimentswhich it has been doing for hundreds
+ and thousands of years in the human populationand for hundreds of thousands of years
+ across you know the the history leading to thehuman population
+ so you basically take this natural genetic variationthat we all carry within us every one of
+ us carries six million perturbations so i've donesix million experiments on you
+ six million experiments for me six million experiments on every oneof seven billion people on the planet
+
+
+Speaker 1 :what's the six million correspond to
+
+
+Speaker 0 :six million unique genetic variants
+ that are segregating the human population every one of uscarries millions of polymorphic
+ sites poly many morph forms polymorphic means many formsvariants that basically means that every
+ one of us has single nucleotide alterations that wehave inherited from mom and from that
+ that basically can be thought of as tiny little perturbationsmost of them don't do anything but some
+ of them lead to all of the phenotypicdifferences that we see
+ between us the reason why two twins are identical is becausethese variants completely determine the
+ way that i'm going to look at exactly 93 years of age
+
+Speaker 1 :how happy are you with this kind of data
+ set is it uh large enough of the human population ofearth is that too big
+
+
+Speaker 0 :too small yeah so so the the is it is it
+ large enough is a power analysis question and inevery one of our grants we do a power
+ analysis based on what is the effect size that iwould like to detect
+ and what is the natural variation in the two forms so every time you do aperturbation you're asking i'm changing
+ form a into for b form a has some natural genetic varysome natural phenotypic variation around
+ it and form b has some natural phenotypicvariation around it
+ if those variances are large and the differences between the mean of a andthe mean of b
+ are small then you have very little power the further the means go apartthat's the effect size the more power
+ you have and the smaller the standard deviationthe more power you have
+ so basically when you're asking is that sufficiently largecertainly not for everything but we
+ already have enough power for many of the stronger effectsin the more tight distributions so
+
+
+Speaker 1 :that's a hopeful message that
+ there exists parts of the genome that that have a strong effect that hasa small
+
+
+Speaker 0 :variance that's exactly right
+ unfortunately those perturbations are the basis ofdisease in many cases
+ so it's not a you know hopeful message sometimes it's a terrible messageit's basically well some people are sick
+ but if when if we can figure out what are thesecontributors to sickness
+ we can then help make them better and help many other people betterwho don't carry that exact mutation but
+ who carry mutations on the same pathwaysand that's what we like to call the
+ allelic series of a gene you basically have many perturbationsof the same gene in different people
+ each with a different frequency in the human population andeach with a different effect
+ on the individual charism so you said uh
+
+Speaker 1 :in the past
+ there would be these small experiments on perturbations and animal modelswhat does this puzzle solving process
+
+
+Speaker 0 :look like today
+ so we basically have you know something like seven billion people in the planetand every one of them carries something
+ like six million mutations you basically have an enormous matrixof genotype by phenotype
+ by systematically measuring the phenotypeof these individuals and the traditional
+ way of measuring this phenotype has been to look at one trait at a timeyou would gather families and you would
+ sort of paint the pedigrees of a strong effect what welike to call
+ mendelian mutation so a mutation that gets transmitted in a dominant or arecessive
+ but strong effect form where basically one locusplays a very big role in that disease
+ and you could then look at carriers versus non-carriersin one family carries versus
+ non-carriers in another family and do that for hundreds sometimesthousands of families
+ and then trace these inheritance patterns and then figure out what is thegene
+ that plays that role is this the matrix
+
+Speaker 1 :that you're showing
+ in in talks or lectures
+
+Speaker 0 :so that matrix is the
+ input to the stuff that i saw in talks so basically that matrix hastraditionally been strong effect genes
+ what the matrix looks like now is instead of pedigrees instead of familiesyou basically have thousands and
+ sometimes hundreds of thousands of unrelatedindividuals
+ each with all of their genetic variants and each with theirphenotype for example height or lipids
+ or you know whether they're sick or not for a particular traitthat has been the modern view instead of
+ going to families going to unrelated individuals with onephenotype at a time
+ and what we're doing now as we're maturingin all of these sciences is that we're
+ doing this in the context of large medical systems or enormouscohorts
+ that are very well phenotyped across hundreds ofphenotypes sometimes with our complete
+ electronic health record so you can now start relating not justone gene segregating one family
+ not just thousands of variants segregating with one phenotypebut now you can do millions of variants
+ versus hundreds of phenotypes and as a computer scientist i meandeconvolving that matrix partitioning it
+ into the layers of biology that are associated with every one ofthese elements
+ is a dream come true it's it's like the world's greatest puzzleand you can now solve that puzzle by
+ throwing in more and more knowledge about thefunction of different genomic regions
+ and how these functions are changed acrosstissues
+ and in the context of disease and that's what my group and many other groups aredoing
+ we're trying to systematically relate this genetic variationwith molecular variation at the
+ expression level of the genes at the epigenomic levelof the gene regulatory circuitry and at
+ the cellular level of what are the functions that arehappening in those cells at the single
+ cell level using single cell profiling and thenrelate all that
+ vast amount of knowledge computationally with the thousands of traits that eachof these of thousands of variants
+
+
+Speaker 1 :are perturbing i mean this is something
+ we talked about i think last time so there's these effects at differentlevels that happen you said at a single
+ cell level you're trying to see things that happendue to certain perturbations
+ and then so it's not just like a puzzle ofum perturbation and disease
+ it's perturbation then effect at a cellular levelat an organ level a body like
+ how do you disassemble this into like what your group is working onyou're basically taking a bunch of the
+ hard problems in the space how do you break apart a difficultdisease
+ uh and break it apart into problems that you into puzzles that you can now start
+
+Speaker 0 :solving
+ so there's a struggle here computer scientists love hard puzzlesand they're like oh i want to you know
+ build a method that just deconvolves the whole thing computationallyand you know that's very tempting and
+ it's very appealing but biologists just like to decouplethat complexity experimentally to just
+ like peel off layers of complexity experimentally and that's what many ofthese modern tools that you know my
+ group and others have both developed and used the fact that wecan now figure out tricks
+ for peeling off these layers of complexity by testingone cell type at a time or by testing
+ one cell at a time and you could basically saywhat is the effect of this genetic
+ variant associated with alzheimer's on human brain human brainsounds like oh it's an organ of course
+ just go one organ at a time but human brain has of course dozens ofdifferent brain regions
+ and within each of these brain regions dozens of different cell typesand every single type of neuron every
+ single type of glial cell between astrocytes oligodendrocytesmicroglia
+ between you know all of the neural cells and the vascular cells and the immunecells
+ that are co-inhabiting the the brain between the different types ofexcitatory and inhibitory neurons that
+ are sort of interacting with each other between different layersof neurons in the cortical layers every
+ single one of these has a different type of functionto play in cognition in
+ interaction with the environment in maintenanceof the brain in energetic needs
+ in feeding the brain with blood with oxygenin clearing out the debris that are
+ resulting from the super high energy production of cognition in in humansso all of these things are basically um
+ potentially deconvolvable computationally but experimentallyyou can just do single cell profiling of
+ dozens of regions of the brain across hundreds of individualsacross millions of cells and then now
+ you have pieces of the puzzle that you can thenput back together
+ to understand that complexity
+
+Speaker 1 :i mean first of all i mean the human
+ brain the cells in the human brain are the mostokay maybe i'm romanticizing it but
+ cognition seems to be very complicated so uh separating into the function
+
+Speaker 0 :
+
+Speaker 1 :breaking alzheimer's down to
+ the cellular level seems very challengingis that basically you're trying to find
+ a way that some perturbation and genomeresults in some obvious
+ major dysfunction in the cell you're trying to find something like
+
+Speaker 0 :that exactly so so
+ what does human genetics do human genetics basically looks at the wholepath
+ from genetic variation all the way to diseaseso human genetics has basically taken
+ thousands of alzheimer's casesand thousands of controls matched for
+ age for sex for you know environmentalbackgrounds and so forth and then looked
+ at that map where you're asking what are theindividual genetic persuasions
+ and how are they related to all the way to alzheimer's diseaseand that has actually been quite
+ successful so we now have you know more than 27 different locithese are genomic regions
+ that are associated with alzheimer's at thisend-to-end level but the moment you sort
+ of break up that very long path intosmaller levels
+ you can basically say from genetics what are the epigenomic alterationsat the level of gene regulatory elements
+ where that genetic variant perturbs the control region nearby that effect ismuch larger
+
+
+Speaker 1 :you mean much larger in terms of this
+ down the line impact
+
+Speaker 0 :or it's much larger in terms of the
+ measurable effect this a versus b variance is actually so much cleanlydefined
+ when you go to the shorter branches because for one genetic variant toaffect
+ alzheimer's that's a very long path that basically means that in the context ofmillions of these six million variants
+ that every one of us carries that one single nucleotide has adetectable effect
+ all the way to the end i mean it's just mind-boggling that that's even possiblebut indeed yeah but indeed there are
+ such effects
+
+Speaker 1 :so the hope is or the most
+ scientifically speaking the the most effective place where to detectthe alteration that results in disease
+ is earlier on in the pipeline as early as
+
+Speaker 0 :possible it's
+ it's a trade-off if you go very early on in the pipelinenow each of these epigenomic alterations
+ for example this enhancer control region is active maybe 50 less which is adramatic effect
+ now you can ask well how much does changing one regulatory region in thegenome
+ in one cell type change disease well that path is now longso if you instead look at expression
+ the path between genetic variation the expression of one gene goes through manyenhancer regions
+ and therefore it's a subtler effect at the gene level but then now you'recloser because
+ one gene is acting on you know in the context of only 20 000 other genesas opposed to one enhancer acting in the
+ context of two million other enhancers so you basically now have geneticepigenomic the circuitry
+ transcriptomic the gene expression level and thencellular where you can basically say i
+ can measure various properties of those cellswhat is the calcium influx
+ rate when i have this genetic variation what is the synaptic density what is theelectric
+ impulse conductivity and so on so forth so you can measure things along thispath to disease and you can also measure
+ endophenotypes you can basically measure you knowyour brain activity you can do imaging
+ in the brain you can basically measure i don't knowthe heart rate the pulse the lipids
+ the amount of blood secreted and so forthand then through all of that you can
+ basically get at the path to causality the path todisease
+
+
+Speaker 1 :and is there something beyond cellular
+ so you mentioned lifestyle interventions or changes as a way toor like be able to prescribe changes in
+ life style like what what about organs what aboutlike
+ the function of the body as a whole yeah
+
+Speaker 0 :absolutely so basically
+ when you go to your doctor they always measure you know your pulse they alwaysmeasure your height those measure your
+ weight your you know your bmis basically theseare just very basic variables
+ but with digital devices nowadays you can start measuring hundreds ofvariables for every individual
+ you can basically also phenotype cognitivelythrough tests uh alzheimer's patients
+ there are cognitive tests that you can imagine that you that you typically dofor uh cognitive decline these
+ minimental you know observations that that you havespecific questions too
+ you can think of sort of enlarging the set of cognitive testsso in the mouse for example you do
+ experiments for how do they get out of mazeshow do they find food whether they
+ recall a fear whether they shake in a new environmentand so forth
+ in the human you can have much much richer phenotypes where you canbasically say
+ not just imaging at the you know organ level but and all kinds of otheractivities at the organ level
+ but you can also do at the organism levelyou can do behavioral tests and how did
+ they do on empathy how did they do on memory how did theydo on
+ long-term memory versus short-term memory and so forth i love how you're
+
+Speaker 1 :calling that phenotype
+
+
+Speaker 0 :i guess it is it is but like your
+
+
+Speaker 1 :behavior
+ patterns that might change over over uh over a period of a lifeit's yeah your ability to remember
+ things your ability to be yeah empathetic or emotionally yourintelligence
+
+
+Speaker 0 :perhaps even yeah but intelligence has
+ hundreds of variables you can be your math intelligence yourliterary intelligence your
+ puzzle-solving intelligence your logic it could be like hundreds of things
+
+Speaker 1 :and all of that is it's we were able to
+ measure that better and better so and all that could be connected to theentire pipeline
+
+
+Speaker 0 :we used to think of each of these as a
+ single variable like intelligence i mean that's ridiculousit's basically dozens of different genes
+ that are controlling every single variable you can basically think of youknow imagine us in a video game
+ where every one of us has measures of you know strength staminayou know energy left and so forth but
+ you could click on each of those like five bars that are just the main barsand
+ each of those will just give you then hundreds of bars yeah and you canbasically say
+ okay great for my you know machine learning taski want someone who i'm a human
+ who has these particular forms of intelligence i require now theseyou know 20 different things and then
+ you can combine those things and then relate them to of courseperformance in a particular task
+ but you can also relate them to genetic variationthat might be affecting different parts
+ of the brain for example your frontal cortex versusyour temporal cortex versus your visual
+ cortex and so forth so genetic variation thataffects expression of genes in different
+ parts of your brain can basically affect your you know musicability your auditory ability your smell
+ your you know just dozens of different phenotypescan be broken down into you know
+ hundreds of cognitive variables and then relate each of thoseto thousands of genes that are
+ associated with them
+
+Speaker 1 :so somebody who loves rpgs role-playing
+ games there's uh there's too few variablesthat we can control so i'm excited
+ if we're in fact living in a simulation and this is a video gamei'm excited by the quality of of the
+ video game the the the the game designer did a hell ofa good job
+
+
+Speaker 0 :so we're impressed oh i don't know the
+ sunset last night was a little unrealistic
+
+Speaker 1 :yeah yeah the graphics exactly come on
+ nvidia to zoom back out we've been talkingabout the
+ genetic origins of diseases but i think it's fascinating totalk about what are the most important
+ diseases to understand and especially as it connects to thethings that you're working on
+
+
+Speaker 0 :so it's very difficult to think about
+ important diseases to understand there's many metrics of importanceone is lifestyle impact i mean if you
+ look at kovid the impact on lifestyle has been enormous so understanding kovidis important because it has impacted the
+ well-being in terms of ability to have a jobability to have an apartment ability to
+ go to work ability to have a mental circle ofsupport
+ and all of that for you know millions of americans like huge hugeimpact so that's one aspect of
+ importance so basically mental disorders alzheimer's has a huge importance in thewell-being of americans
+ whether or not it die it kills someone for many many years it has a huge impactso the first measure of importance is
+ just well-being
+
+Speaker 1 :like impact on the quality of life
+
+
+Speaker 0 :impact on the quality of life absolutely
+ the second metric which is much easier to quantify is deaths
+
+Speaker 1 :what is the number one killer the number
+
+
+Speaker 0 :one killer
+ is actually heart disease it is actually killing650 000 americans per year
+ number two is cancer with 600 000 americansnumber three far far down the list is
+ accidents every single accident combined sobasically you you know you read the news
+ accidents like you know there was a huge car crash all over the newsbut the number of deaths number three by
+ far 167 000 lower respiratory disease sothat's
+ asthma not being able to breathe and so forth 160 000alzheimer's number four number five with
+ 120 000 and then stroke brain aneurysms andso forth that's 147
+ 000 diabetes and metabolic disorders etc that's 85 000.the flu is 60 000 suicide
+ 50 000 and then overdose et cetera you know goes further down the list soof course kovit has creeped up to be the
+ number three killer this year with you know more than 100000 americans
+ and counting um and you know but but if you think about sort of whatdo we use what are the most important
+ diseases you have to understand both the quality of life and thethe sheer number of deaths and just
+ numbers of years lost if you wish
+
+Speaker 1 :and and uh each of these diseases you
+ can think of as uh and also including terrorist attacks andschool shootings for example
+
+
+Speaker 0 :
+
+Speaker 1 :things which lead to fatalities you can
+ look at as problems that could be solvedand some problems are harder to solve
+ than others i mean that's part of the equation somaybe if you look at these diseases if
+ you look at heart disease or cancer or alzheimer's or justlike schizophrenia and obesity w like
+ not necessarily things that kill you but affect the quality of lifewhich problems are solvable which aren't
+ which are harder to solve which aren't i
+
+Speaker 0 :love your question because it puts it in
+ the context of a global um effortrather than just a local effort so
+ basically if you look at the global aspect exerciseand nutrition are two interventions that
+ we can as a society make a much better job at so if youthink about sort of the availability
+ of cheap food it's extremely high in caloriesit's extremely detrimental for you like
+ a lot of processed food etc so if we change that equationand as a society we made availability of
+ healthy food much much easier and chargeda burger at mcdonald's the price that it
+ costs on the health system then people wouldactually start buying more healthy
+ foods so basically that's sort of a societal intervention if you wishin the same way increasing empathy
+ increasing education increasing the socialframework and support would basically
+ lead to fewer suicides it would lead to fewer murders it wouldlead to fewer
+ you know deaths overall so you know that's something that we as asociety can do you can you can also
+ think about external factors versus internal factors so the external factorsare basically communicable diseases
+ like covid like the flu etc and the internal factors are basicallythings like you know cancer and
+ alzheimer's where basically your your genetics will eventually you knowdrive you there
+ um and then of course with all of these factors every singledisease has both a genetic component
+ and environmental component so heart disease you know huge then theycontribute
+ contribution alzheimer's it's like you know60 plus genetic
+ so i think it's like 79 heritability so that basically means that geneticsalone explains
+ 79 of alzheimer's incidence and yes there's a 21 environmentalcomponent
+ where you could basically enrich your cognitive environment enrich your socialinteractions read more books learn a
+ foreign language go running you know sort of have a morefulfilling life
+ all of that will actually decrease alzheimer's but there's a limit to howmuch that
+ that can impact because of the huge genetic footprint so this is fascinating
+
+Speaker 1 :so
+ each one of these problems have a genetic componentand an environment component and so like
+ when there's a genetic component what can we do about some of thesediseases what what have you worked on
+ what can you say that's uh in terms of problems that are solvable here
+
+Speaker 0 :or understandable so my group works on
+ the genetic component but i would argue that understanding thegenetic component can have a huge impact
+ even on the environmental component why is thatbecause genetics gives us access to
+ mechanism and if we can alter the mechanismif we can impact the mechanism we can
+ perhaps counteract some of the environmental componentsinteresting so
+ understanding the biological mechanisms leading to diseaseis extremely important in being able to
+ intervene but when you can intervene what you knowthe analogy that i like to gay
+ to give is for example for obesity you know think of it as a giant bathtub offat there's basically fat coming in from
+ your diet and there's fat coming out from yourexercise
+ okay that's an in out equation and that's the equation that everybody'sfocusing on
+ but your metabolism impacts that you know bathtub basically yourmetabolism controls
+ the rate at which you're burning energy it controls away the rate at whichyou're storing energy
+ and it also teaches you about the various valves that control theinput and the output equation
+ so if we can learn from the genetics the valves we can then manipulate thosevalves
+ and even if the environment is feeding you a lot of fatand getting a little that out you just
+ poke another hole at the bathtub and just get a lot of the fat out yeah
+
+Speaker 1 :that's fascinating
+ yeah so that we're not just passive observers of our geneticsthe more we understand the more we can
+
+
+Speaker 0 :come up with actual treatments
+ and i think that's an important uh aspect to realizewhen people are thinking about strong
+ effect versus weak effect variants so some variants have strong effects wetalked about these mendelian disorders
+ where a single gene has a sufficiently large effectpen and trans expressivity and so so
+ forth that basically you can um trace it in families withcases and not cases cases not cases and
+ so forth but even the you know butso so these are the genes that everybody
+ says oh that's the genes we should go afterbecause that's a strong effect gene i
+ like to think about it slightly differentlythese are the genes where genetic
+ impacts that have a strong effect were toleratedbecause every single time we have a
+ genetic association with disease it depends on two things number one theobvious one
+ whether the gene has an impact on the disease number two the more subtle oneis whether there is genetic in variation
+ standing and circulating and segregating in the human populationthat impacts that gene some genes
+ are so darn important that if you mess with themeven a tiny little amount that person is
+ dead so those genes don't have variationyou're not going to find the genetic
+ association if you don't have variation that doesn't mean that the gene has norole
+ it's simply that the gene it simply means that the gene tolerates nomutations
+
+
+Speaker 1 :so that's actually a strong signal when
+ there's no variation that's so fast
+
+Speaker 0 :exactly genes that have very little
+ variation are hugely important you can actuallyrank the importance of genes
+ based on how little variation they have and those genes that have very littlevariation but no association
+ with disease that's a very good metric to say oh that's probably adevelopmental gene
+ because we're not good at measuring those phenotypes so it's genes that youcan tell
+ evolution has excluded mutations from but yet we can't see them associatedwith anything that we can measure
+ nowadays it's probably early embryonic lethal
+
+Speaker 1 :what are all the words you just said
+ earlier in brionic what
+
+Speaker 0 :lethal meaning meaning that if you don't
+ have it
+
+Speaker 1 :okay there's a bunch of stuff that um
+ is required for a stable functional organismexactly across the board for our entire
+ for for entire species i guess if you
+
+Speaker 0 :look at sperm
+ it expresses thousands of proteins does sperm actually need thousands ofproteins no
+ but it's probably just testing them so my speculation is that misfolding ofthese proteins is an early test for
+ failure so that out of the you know millions ofsperm
+ that are possible you select the subset that are just not grossly misfoldingthousands of proteins
+
+
+Speaker 1 :so it's kind of an assert uh that this
+ is followed correctly correct yeah this uh just uhbecause
+ if this little thing about the folding of a protein is incorrectthat probably means somewhere down the
+ line there's a bigger issue
+
+Speaker 0 :that's exactly right so fail fast so
+ basically if you look at the mammalian investment ina new born that investment is enormous
+ in terms of resources so mammals have basically evolvedmechanisms
+ for fail fast where basically in those earlymonths of development i mean it's it's
+ horrendous of course at the personal levelwhen you lose a uh you know your future
+ child but in some waysthere's so little hope for that child to
+ develop and sort of make it through theremaining months that sort of fail fast
+ is probably a good evolutionary principle from anevolutionary perspective for
+ mammals and of course humans have a lot of medical resources that youcan sort of give those children a chance
+ and you know we have so much more success in sort of giving folks who havethese strong carrier mutations a chance
+ but if they're not even making it through the first three monthswe're not going to see them so that's
+ why when we when we say what are the most importantgenes to focus on the ones that have a
+ strong effect mutation or the ones that have a weakeffect mutation
+ well you know the jury might be out because the ones that have a strongeffect mutation
+ are basically you know not mattering as muchthe ones that only have weak effect
+ mutations by understanding through genetics thatthey have a weak effect mutation
+ and understanding that they have a causal role on the diseasewe can then say okay great evolution has
+ only tolerated a two percent change in that gene pharmaceuticallyi can go in and induce a 70 change in
+ that gene and maybe i will poke another hole atthe bathtub
+ that was not easy to control in you know many of the othersort of strong effect genetic variants
+
+
+Speaker 1 :so okay so there's this beautiful map
+ of uh across the population of things thatyou're saying strong and weak effects so
+ stuff with a lot of mutations and stuff with littlemutations with
+ no mutations and you have this map and it's it lays out the puzzle
+
+Speaker 0 :yeah so so when i say strong effect i
+ mean at the level of individual mutations so so basicallygenes where so so
+ you have to think of first the effect of the gene on the disease remember how iwas sort of
+ painting that map earlier from genetics all the way to phenotypethat gene can have a strong effect on
+ the disease but the genetic variant might have aweak effect on
+ the gene so basically when you ask what is the effect of that geneticvariant on the disease
+ it could be that that genetic variant impacts the gene by a lotand then the gene impacts the disease by
+ a little or it could be that the genetic variantimpacts the gene by a little and then
+ the gene impacts the disease by a lot so what we care about is genes thatimpact the disease a lot
+ but genetics gives us the full equation and what i would argueis if we couple the genetics
+ with expression variation to basically ask whatgenes change by a lot
+ and you know which genes correlate with disease by a loteven if the genetic variants change them
+ by a little then that those are the best places tointervene
+ those are the best places where pharmaceutically if i haveeven a modest effect i will have a
+ strong effect on the disease whereas those genetic variants that havea huge effect on the disease i might not
+ be able to change that gene by this much without affecting all kinds of otherthings
+
+
+Speaker 1 :interesting so yeah okay so that's what
+ we're looking at then what have we been able to find in termsof
+
+
+Speaker 0 :which disease could be helped again
+ don't get me started this is um we have found so much our understandingof disease
+ has changed so dramatically with genetics i mean places that we had noidea would be involved
+ so one of the worst things about my genome is that i have a geneticpredisposition to
+ age-related macular degeneration amd so it's a form of blindness that causesyou to to lose the central part of your
+ vision progressively as you grow older myincreased risk
+ is fairly small i have an eight percent chance you only have a six percent
+
+Speaker 1 :chance
+ you i'm on average yeah by the way when you say my you mean literally yours
+
+Speaker 0 :you know this about you i know this
+ about me
+
+Speaker 1 :yeah which is kind of uh
+ i mean uh philosophically speaking is a pretty powerful thingso to live with i mean maybe that's uh
+ so we agreed to talk again by the way for thelisteners to where we're going to try to
+ focus on science today and a little bit of philosophy next time butit's uh interesting to think about
+ the more you're able to know about yourself from the genetic information interms of the diseases
+ how that changes your own view of life
+
+Speaker 0 :yeah
+ so there's there's a lot of impact there and there's asomething called genetic exceptionalism
+ which basically thinks of genetics as something very very differentthan everything else as a type of
+ determinism and um you know let's talk about thatnext time
+ so basically it's a good preview yeah so let's go back to amd so basically withamd
+ we have no idea what causes amd you know it was it was a mysteryuntil the genetics were worked out and
+ now the fact that i know that i have a predispositionallows me to sort of make some life
+ choices number one but number two the genes that lead tothat predisposition give us insights as
+ to how does it actually work and that's a place where genetics gaveus something totally unexpected
+ so there's a complement pathway which is an immune function pathway thatwas in you know most of the loci
+ associated with amd and that basically told us that wow there's an immune basisto this eye disorder
+ that people had just not expected before if you look at complementit was recently also implicated in
+ schizophrenia and there's a type of microgliathat is involved in synaptic pruning so
+ synapses are the connections between neuronsand in this whole use it or lose it view
+ of mental cognition and other capabilitiesyou basically have uh microglia which
+ are immune cells that are sort of constantly traversing your brainand then pruning neuronal connections
+ pruning synaptic connections that are not utilized soin schizophrenia there's thought to be
+ a change in the pruning that basically if you don't prune your synapses theright way
+ you will actually have an increased role of schizophrenia this is something thatwas completely unexpected
+ for schizophrenia of course we knew it has to do with neurons but the role ofthe complement complex
+ which is also implicated in amd which is now also implicating schizophrenia was a
+
+Speaker 1 :huge surprise what's the complement
+ complex
+
+Speaker 0 :so it's basically a set of genes the
+ complement genes that are basically having various immuneroles and as i was saying earlier our
+ immune system has been co-opted for many different roles across the bodyso they actually play
+ many diverse roles and somehow the
+
+Speaker 1 :immune system
+ is connected to the synaptic pruning process exact process
+
+Speaker 0 :exactly so immune cells were co-opted to
+ prune synapses how did you figure this
+
+Speaker 1 :out
+ how does one go about figuring this intricate connectionuh like pipeline of connections out yeah
+
+
+Speaker 0 :let me give you another example
+ so so alzheimer's disease the first place that you would expect it to act isobviously the brain
+ so we had basically this roadmap epigenomics consortium view of the humanepigenome
+ the largest map of the human epigenome that has ever been builtacross 127 different tissues and samples
+ with dozens of epigenomic marks measured in you knowhundreds of donors so what we've
+ basically learned through that is that you youbasically can map
+ what are the active gene regulatory elements for every one of the tissues inthe body
+ and then we connected these gene regulatoryactive maps of basically what regions
+ of the human genome are turning on in every one of different tissueswe then can go back and say where are
+ all the genetic loci that are associatedwith disease
+ this is something that my group i think was the first to do back in 2010in this ernst nature biotech paper
+ but basically we were for the first time able to show that specificchromatin states specific epigenomic
+ states in that case enhancers were in fact enriched enriched indisease associated variants
+ we pushed that further in the ernst nature paper a year laterand then in this roadmap epigenomics
+ paper you know a few years after that butbasically that
+ matrix that you mentioned earlier was in fact the first time that we could seewhat genetic traits have genetic
+ variants that are enriched in what tissues in the bodyand a lot of that map made complete
+ sense if you looked at a diversity of immune traits likeallergies and type 1 diabetes and so
+ forth you basically could see that they wereenriching that the genetic variants
+ associated with those traits were enriched in enhancers in these generegulatory elements
+ active in t cells and b cells and hematopoietic stem cells and so forthso that basically gave us a
+ confirmation in many ways that those immune traits were insteadindeed enriching immune cells if you
+ look if you if you looked at type 2 diabetesyou basically saw an enrichment in only
+ one type of sample and it was pancreatic eyelidsand we know that type 2 diabetes in you
+ know sort of stems from the dysregulation of insulinin the beta cells of pancreatic eyelids
+ and that sort of was you know spot on super precise if youlooked at blood pressure
+ where would you expect blood pressure to occuryou know i don't know maybe in your
+ metabolism in ways that you process coffee or something like that maybe inyour brain the way that you stress out
+ increases your blood pressure etc what we found is that blood pressurelocalized specifically
+ in the left ventricle of the heart so the enhancers of the left technology inthe heart
+ contain a lot of genetic variants associated with blood pressureif you look at height we found an
+ enrichment specifically in embryonic stem cell enhancers so thegenetic variants predisposing you to be
+ taller or shorter are in fact acting in developmental stemcells makes
+ complete sense if you looked at inflammatory bowel diseaseyou basically found inflammatory which
+ is immune and also bowel disease which isdigestive
+ and indeed we saw a double enrichment both in the immune cellsand in the digestive cells so that
+ basically told us that this is acting in both componentsthere's an immune component to
+ inflammatory bowel disease and there's a digestive component andthe big surprise was for alzheimer's
+ we had seven different brain samples we found zero enrichment in the brainsamples
+ for genetic variants associated with alzheimer's and this is mind-bogglingour brains were literally hurting what
+ is going on and what is going on is that the brainsamples are primarily
+ neurons oligodendrocytes and astrocytes in terms of the cell types that makethem up
+ so that basically indicated that genetic variants associated with alzheimer'swere probably not acting in
+ oligodendrocytes astrocytes or neurons so what could they be acting in well thefourth major cell type is actually
+ microglia microglia are resident immune cells inyour brain
+ oh nice the immune oh wow and they are cd14 plus which is thissort of cell surface markers uh of those
+ cells so their cd14 plus cells just likemacrophages that are circulating
+ in your blood the microglia are resident monocytes that are basicallysitting in your brain they're
+ tissue-specific monocytes and every one of your tissueslike your your fat for example
+ has a lot of macrophages that are resin and the m1 versus m2 macrophage ratiohas a huge role to play in obesity and
+ you know so basically again these immune cells are everywhere but basically whatwe found
+ through this completely unbiased view of what are the tissues that likelyunderlie different disorders
+ we found that alzheimer's was humongously enriched in microglia butnot at all in the other cell types so
+
+
+Speaker 1 :what what are we supposed to make that
+ if you look at the tissues involved is thatsimply
+ useful for indication of uh propensity for disease or does it giveus somehow a pathway of treatment
+
+
+Speaker 0 :it's very much the second if you look at
+ the um the way to therapeutics you have tostart somewhere
+ what are you gonna do you're gonna basically make assaysthat manipulate those genes
+ and those pathways in those cell types so before we know the tissue of actionwe don't even know where to start
+ we basically are at a loss but if you know the tissue of action and evenbetter if you know the pathway of action
+ then you can basically screen your small moleculesnot for the gene you can screen them
+ directly for the pathway in that cell type so you can basicallydevelop a high throughput multiplexed
+ you know robotic system for testing the impact of your favorite moleculesthat you know are safe efficacious and
+ you know sort of hit that particular gene and so forthyou can basically screen those molecules
+ against either a set of genes that act in that pathwayor on the pathway directly by having a
+ cellular assay and then you can basically go into miceand do experiments and basically
+ sort of figure out ways to manipulate these processesthat allow you to then to go back to
+ humans and do a clinical trial that basically says okayi was able indeed to reverse these
+ processes in mice can i do the same thing in humansso that the the knowledge of the tissues
+ gives you the pathway to treatment but that's not the onlypart there are many
+ additional steps to figuring out the mechanism of disease
+
+Speaker 1 :i mean so that's really promising maybe
+ uh to take a small step back you've you'vementioned all these puzzles that were
+ figured out with the nature paper for i mean you've mentioned a ton ofdiseases
+ from obesity to alzheimer's even schizophrenia i think you mentionedand just what is the actual methodology
+ of figuring this out
+
+Speaker 0 :so indeed i mentioned a lot of diseases
+ and and my lab works on a lot of different disordersand the reason for that is that
+ if you look at the if you look at biologyit used to be you know zoology
+ departments in both technology departments and you know virologydepartments and so on so forth and mit
+ was one of the first schools to basically create a biology departmentlike oh we're going to study
+ all of life suddenly why was that even the casebecause the advent of dna and the genome
+ and the central dogma of dna makes rna mixed proteinin many ways unified biology you could
+ suddenly study the process of transcription inviruses
+ or in bacteria and have a huge impact on yeast and fly and maybe even mammalsbecause of this realization of these
+ common underlying processes and in the same way that dna unifiedbiology
+ genetics is unifying disease studies so you used to haveum you used to have
+ uh you know i don't know um cardiovascular disease departmentand uh you know neurological disease
+ department and neurodegeneration department and uhyou know um basically immune and cancer
+ and so forth and all of these were studied indifferent labs
+ you know because it made sense because basically the first step wasunderstanding how the tissue functions
+ and we kind of knew the tissues involved in cardiovascular disease and so forthbut what's happening with human genetics
+ is that all of that all of these walls and edifices that wehad built are
+ crumbling and the reason for that is thatgenetics is in many ways revealing
+ unexpected connections so suddenly we now have to bring the immunologiststo work on alzheimer's they were never
+ in the room they were in another building altogetherthe same way for schizophrenia we now
+ have to sort of worry about all these interconnected aspects formetabolic disorders we're finding
+ contributions from brain so suddenly we have to call theneurologist from the other building and
+ so forth so in my view it makes no senseanymore to basically say oh i'm a
+ geneticist studying immune disorders i mean that'sthat's ridiculous because i mean yeah of
+ course in many ways you still need to sort of focus but whatwhat what we're doing is that we're
+ basically saying we'll go wherever the genetics takes usand by building these massive resources
+ by working on our latest map is now 833 tissuessort of the the next generation of the
+ epigenomics roadmap which we're now called epimapis 833 different tissues and using those
+ we've basically found enrichments in 540 different disordersthose enrichments are not like oh great
+ you guys work on that and we'll work on thisthey're intertwined amazingly so of
+ course there's a lot of modularity but there's these enhancers that aresort of broadly active and these
+ disorders that are broadly active so basically some enhancers are activein on tissues and some disorders are
+ enriching in all tissues so basically there'sthese multifactorial
+ and this other class which i like to call polyfactorial diseaseswhich are basically lighting up
+ everywhere and in many ways it's you know sort ofcutting across
+ these walls that were previously built
+
+Speaker 1 :across these departments
+ and the polyfactorial ones were probably the previousstructure departments wasn't equipped to
+ deal with those i mean again maybe it's a romanticizedquestion but you know there's
+ in physics there's a theory of everything do you thinkit's possible to move towards an almost
+ theory of everything of disease from a genetic perspectiveso if this unification continues is it
+ possible that like do you think in those terms liketrying to arrive
+ at a fundamental understanding of how disease emerges period
+
+Speaker 0 :that unification is not just
+ foreseeable it's inevitable i see it as inevitable we have to gothere
+ you cannot be a specialist anymore if you're a genomicist you have to be aspecialist
+ in every single disorder and the reason for that is thatthe fundamental understanding of the
+ circuitry of the human genome that you need tosolve
+ schizophrenia that fundamental circuitry is hugely important to solve alzheimer'sand that same circuitry is hugely
+ important to solve metabolic disorders and that same exact circuitry is uhhugely important for solving immune
+ disorders and cancer and you know every single disease soall of them have the same sub task
+ and i teach dynamic programming in my class dynamic program is all about sortof
+ not re doing the work it's reusing the work that you do onceso basically for us to say oh great you
+ know you guys in the immune building go solve the fundamental circuitry ofeverything and then you guys in the
+ schizophrenia building go solve the fundamental circuitry of everythingseparately is crazy so what we need to
+ do is come together and sort of have a circuitry group thecircuitry building that sort of
+ tries to solve the circuitry of everything and thenthe immune folks who will apply this
+ knowledge to all of the disorders that areassociated with
+ immune dysfunction and the schizophrenia folkswill basically interact with both the
+ immune folks and with the neuronal folks and all of them will be interacting withthe circuitry folks and so forth so
+ that's sort of the current structure of my group if you wish sobasically what we're doing is
+ focusing on the fundamental circuitry but at the same time we're the users ofour own tools
+ by collaborating with many other labs in every one of these disorders that wementioned we basically have a heart
+ focus on cardiovascular disease coronaryartery disease heart failure and so
+ forth we have an immune focus onseveral immune disorders we have a
+ cancer focus on metastatic melanoma and immunotherapyresponse
+ we have a psychiatric disease focus on schizophrenia autism ptsdand other psychiatric disorders we have
+ an alzheimer's and neurodegeneration focuson huntington disease als and
+ you know ad related disorders like frontotemporal dementia and lewy bodydementia
+ and of course a huge focus on alzheimer's we have a metabolic focuson the role of exercise and diet
+ and sort of how they're impacting metabolicyou know organs across the body and
+ across many different tissues and all of them are interfacingwith the circuitry and the reason for
+ that is another computer science principle ofeat your own dog food if everybody
+ ate their own dog food dog food would taste a lot betterthe reason why microsoft excel and word
+ and powerpoint was so important and so successful is because the employeesthat were working on them were using
+ them for their day-to-day tasks you can't just simply build a circuitryand say
+ here it is guys take the circuitry we're done without being theusers of that circuitry because you then
+ go back and because we span the whole spectrum fromprofiling the epigenome
+ using comparative genomics finding the important nucleotides in the genomebuilding the basic functional map of
+ what are the genes in the human genome what are the gene regulatoryelements of the human genome
+ i mean over the years we've written a series of papers on how do you findhuman genes in the first place
+ using comparative genomes how do you find the motifsthat are the building blocks of gene
+ regulation used in comparative genomics how do you then find how these motifscome together
+ and act in specific tissues using epigenomicshow do you link regulators to enhancers
+ and enhancers to their target genes usingepigenomics and regulatory genomics so
+ through the years we've basically built all this infrastructure forunderstanding what i like to say
+ every single nucleotide of the human genomeand how it acts in every one of the
+ major cell types and tissues of the human bodyi mean this is no small task this is an
+ enormous task that takes the entire fieldand that's something that my group has
+ taken on along with many other groups and we have also and that sort of thingsets my group perhaps apart
+ we have also worked with specialists in every one of these disordersto basically further our understanding
+ all the way down to disease and in some cases collaborating withpharma to go all the way down to
+ therapeutics because of our deep deep understandingof that basic circuitry
+ and how it allows us to now improve the circuitrynot just treat it as a black box but
+ basically go and say okay we need a bettercell type specific wiring that we now
+ have at the tissue specific level so we'refocusing on that because we're
+ understanding you know the needs from the disease
+
+Speaker 1 :front so you have a sense of the entire
+ pipeline i mean one maybe you can indulge me onenice question to ask would be
+ how do you from the scientific perspectivego from knowing nothing about the
+ disease to going you said uhto go into the entire pipeline and
+ actually have a drug or or a treatment that cures thatdisease
+
+
+Speaker 0 :so that's an enormously long path
+ and an enormously great challenge and what i'm trying to argue is thatit progresses in stages of understanding
+ rather than one gene at a time the traditional view of biology was youhave one postdoc working on this gene
+ and another prosthetic working on that gene andthey'll just figure out everything about
+ that gene and that's their job what we've realized is how polygenic thediseases are so we can't have one
+ postdoctoral gene anymore we now have to have thesecross-cutting needs and
+ i'm going to describe the path to circuitryalong those needs and every single one
+ of these paths we are now doing in parallel acrossthousands of genes
+ so the first step is you have a genetic associationand we talked a little bit about sort of
+ the mendelian path and the polygenic path to thatassociation so the mendelian path was
+ looking through families to basically find gene regionsand ultimately genes that are underlying
+ particular disorders the polygenic path is basically lookingat
+ unrelated individuals in this giant matrix of genotype by phenotypeand then finding hits where a particular
+ variant impacts disease all the way to the end and thenwe now have
+ a connection not between a gene and a diseasebut between a genetic region and a
+ disease and that distinction is not understoodby most people
+ so i'm going to explain it a little bit morewhy do do we not have a connection
+ between a gene and a disease but we have a connectionbetween a genetic region and a disease
+ the reason for that is that 93 of genetic variants that are associatedwith disease don't
+ impact the protein at all so if you look at the human genomethere's 20 000 genes there's 3.2 billion
+ nucleotides only 1.5 percent of the genomecodes for proteins
+ the other 98.5 does not code for proteins if you nowlook at where are the disease variants
+ located 93 percent of them fall in thatoutside the genes portion of course
+ genes are enriched but they're only enriched by a factor ofthree
+ that means that still 93 of genetic variantsfall outside the proteins
+ why is that difficult why is that a problem the problem is that when avariant falls outside the gene
+ you don't know what gene is impacted by that variant you can't just say ohit's near this gene let's just connect
+ that variant to the gene and the reason for that is that thegenome circuitry
+ is very often long range so you basically have that geneticvariant that could sit in the intron
+ of one gene and an intron is sort of the place between the axons that codefor proteins so proteins are split up
+ into exons and introns and every exon codes for a particular subset of aminoacids
+ and together they're spliced together and then make the final proteinso that genetic variant might be sitting
+ in an intron of a gene it's transcribed with the geneit's processed and then excised but it
+ might not impact this gene at all it might actually impactanother gene that's a million
+
+
+Speaker 1 :nucleotides away so it's just riding
+ along even though it has nothing to do with thewith this nearby neighborhood that's
+
+
+Speaker 0 :exactly right
+ let me give you an example the strongest genetic association with obesitywas discovered in this fto gene
+ fat and obesity-associated gene so this fto gene was studiedad nauseum people did tons of
+ experiments on on it they figured out that fto is infact
+ a rna methylation transferase it basicallycrea it sort of impacts something that
+ we know that we call the epi transcriptome just like the genomecan be modified
+ the transcriptome the transcript of the genes can be modifiedand we basically said oh great that
+ means that that ap transcriptomics is hugely involved in obesity because thatthat gene fto is is you know uh clearly
+ where the genetic locus is at my group studiedfto in collaboration with you know a
+ wonderful team led by melina klausmitzer and what wefound
+ is that this fto locus even though it is associated with obesity does notimplicate
+ the fto gene the genetic variant sits in the firstintron of the fdo gene
+ but it controls two genes irx3 and ir x5 that are sitting 1.2million nucleotides away several genes
+ away
+
+Speaker 1 :oh boy uh what am i supposed to feel
+ about that because isn't that like super complicated then
+
+Speaker 0 :uh so so the way that i was introduced
+ at a conference a few years ago was uh and here's manolis kellys whowrote the most depressing paper
+ of 2015 and the reason for that is that the entire pharmaceutical industry wasso comfortable
+ that there was a single gene in that locusbecause in some loci you basically have
+ three dozen genes that are all sitting in the same region of associationand you're like gosh which ones of those
+ is it but even that question of which ones of thoseis it is making the assumption that it
+ is one of those as opposed to some random gene just farfar away which is what our paper showed
+ so basically what our paper showed is that you can't ignore the circuitryyou have to first figure out the
+ circuitry all of those long-range interactionshow every genetic variant impacts the
+ expression of every gene in every tissue imaginable acrosshundreds of individuals
+ and then you now have one of the building blocks not even all of thebuilding blocks
+ for them going and understanding disease
+
+Speaker 1 :so okay so so embrace
+ the the wholeness of the circuitry correct but whatso back to the question of starting
+ knowing nothing to the disease and and going to thetreatment so
+ what are the next steps so you basically
+
+Speaker 0 :have to first figure out the tissue
+ and then describe how you figure out the tissue you figure out the tissue bytaking all of these
+ non-coding variants that are sitting outside proteinsand then figuring out what are the
+ epigenomic enrichments and the reason for that you knowthankfully
+ is that there is convergence that the same processes are impacted indifferent ways
+ by different loci and that's a saving grace for our field the factthat
+ if i look at hundreds of genetic variants associated with alzheimer'sthey localize in a small number of
+ processes
+
+Speaker 1 :can you clarify why that's helpful so
+ like they show up in the same exact way in the in the specific set of processes
+
+Speaker 0 :yeah so basically there's a small number
+ of biological processes that underlie or at least that play themthe biggest role
+ in every disorder so in alzheimer's you basically haveyou know maybe 10 different types of
+ processes one of them is lipid metabolismone of them is immune cell function one
+ of them is neuronal energetics so these are just asmall number of processes but you have
+ multiple lesions multiple genetic perturbations that are associated withthose processes
+ so if you look at schizophrenia it's excitatory neuron function it'sinhibitory neuron function it's synaptic
+ pruning it's calcium signaling and so forthso when you look at disease genetics
+ you have one hit here and one hit there and one hit there and one hit therecompletely different parts of the genome
+ but it turns out all of those he hits are calcium signaling proteins oh
+
+Speaker 1 :
+
+Speaker 0 :cool
+ you're like aha that means that calcium signaling is importantso those people who are focusing on one
+ doctors at a time cannot possibly see that picture you have to become agenomicist you have to
+ look at the omics the um the holistic pictureto understand these enrichments but you
+
+
+Speaker 1 :mentioned the convergence thing so the
+ the whatever the thing associated with the disease
+
+Speaker 0 :shows up so let me explain convergence
+ yeah convergence is such a beautiful conceptso you basically have these four genes
+ that are converging on calcium signaling so that basically means that they areacting each in their own way
+ but together in the same process but now in every one of these loci youhave
+ many enhancers controlling each of those genesthat's another type of convergence where
+ dysregulation of seven different enhancersmight all converge on this regulation of
+ that one gene which then converges on calciumsignaling
+ and in each one of those enhancers you might have multiple genetic variantsdistributed across many different people
+ everyone has their own different mutation but allof these mutations are impacting that
+ enhancer and all of these enhancers are impacting that geneand all of these genes are impacting
+ this pathway and all these pathways are acting in the same tissueand all these tissues are converging
+ together on the same biological process of schizophrenia
+
+Speaker 1 :and and you're saying the saving grace
+ is that that conversion seems to happen for a lot of these diseases
+
+Speaker 0 :for all of them basically that for every
+ single disease that we've looked at we have found an epigenomic enrichmenthow do you do that
+ you basically have all of the genetic variants associated with the disorderand then you're asking for all of the
+ enhancers active in a particular tissue for 540 disorders we've basically foundthat indeed
+ there is an enrichment that basically means that there is commonalityand from the commonality we can just get
+ insights so to explain in mathematical termswe're basically
+ building an empirical prior we're using a bayesian approach tobasically say great all of these
+ variants are equally likely in a particular locusto be important
+ energy so in a genetic locus you basically havea dozen variants that are co-inherited
+ because the way that inheritance works in the human genome is through all ofthese recombination events
+ during meiosis you basically have you know you you inherit maybe threechromosome three for example in your in
+ your body it's inherited from four differentparts one part comes from your dad
+ another part comes from your mom another part comes from your dad and other partcomes from your mom so basically
+ the way that it i'm sorry from your mom's momso you basically have one copy that
+ comes from your dad and one copy that comes from your mombut that copy that you got from your mom
+ is a mixture of her maternal and her paternalchromosome
+ and the copy that you got from your dad is a mixture of his maternal and hispaternal chromosome
+ so these break points that happen when chromosomes are lighting upand lining up are basically ensuring
+ through these crossover events they're ensuring that everyuh child cell
+ during the process of meiosis where you basically haveyou know one spermatozoid that basically
+ couples with one oval to basically create one egg to basicallycreate the zygote
+ you basically have half of your genome that comes from that and half of yourgenome that comes from mom
+ but in order to light up not line them up you basically have these crossoverevents
+ these crossover events are basically leading toco-inheritance of that entire block
+ coming from the your maternal grandmother and that entireblock coming from your mother grand
+ grandfather over many generations these crossover events don't happenrandomly
+ there's a protein called prdm9 that basicallyguides the double-stranded breaks
+ and then leads to these crossovers and that protein has a particularpreference to only a small number of hot
+ spots of recombination which then lead to asmall number
+ of breaks between these co-inheritance patternsso even though there are six million
+ variants there are six million loci there there's you know this variation isinherited in blocks
+ and every one of these blocks has like two dozen genetic variants that are allassociated
+ so in the case of fto it wasn't just one variantit was 89 common variants that were all
+ humongously associated with obesity which ones of those is the important onewell if you look at only one locus you
+ have no idea but if you look at many loci youbasically say aha
+ all of them are enriching in the same epigenomic map in that particular caseit was
+ mesenchymal stem cells so these are the progenitor cellsthat give rise to your brown fat
+ and your white fat progenitor is like
+
+Speaker 1 :the early on developmental substance
+
+
+Speaker 0 :so you start from one zygote and that's
+ a totipotent cell type it can do anything you thendiffer you know that cell divides
+ divides divides and then every cell division isleading to specialization where you now
+ have a mesodermal lineage and ectodermallineage and endodermal lineage
+ that basically leads to different parts of your day or your bodythe ectoderm will basically give rise to
+ your skin ecto means outside derm is skinso ectoderm but it also gives rise to
+ your neurons and your whole brain so that's a lotof ectoderm mesoderm gives rise to your
+ internal organs including the vasculature and you knowyour muscle and stuff like that
+ so you basically have this progressive differentiationand then if you look further further
+ down that lineage you basically have one lineage that will give rise to both yourmuscle
+ and your bone but also your fat and if you go further down the lineageof your fat
+ you basically have your white fat cells these are the cells that store energy sowhen you eat a lot but you don't
+ exercise too much there's an excess a set of calories a lot excess energywhat you do with those
+ you basically create you spend a lot of that energy to create these high-energymolecules
+ lipids which you can then burn when you need them on a rainy dayso that leads to obesity if you don't
+ exercise and if you overeat because your body is like oh great ihave all these calories i'm going to
+ store them more calories i'm going to store themtoo oh more calories and
+ the you know 42 of european chromosomes have a predisposition to storing fatwhich was selected probably in
+ the you know food scarcity periods like basically as we were exiting africayou know before and during the ice ages
+ you know there was probably a selection to those individuals who made it northto basically be able to store energy you
+ know a lot more energy so you basically now have this lineagethat is deciding whether you want to
+ store energy in your white fat or burn energy in your base fatit turns out that your fat is you know
+ we like we we have such a bad view of fatfat is your best friend
+ fat can both store all these excess lipids that would be otherwisecirculating through your
+ you know body and causing damage but it can also burn calories directlyif you have too much of energy you can
+ just choose to just burn some of that as heatso basically when you're cold you're
+ burning energy to basically warm your body up andyou're burning all these lipids and
+ you're burning all these scatters so what we basically found is thatacross the board
+ genetic variants associated with obesity across many of these regions were allenriched
+ repeatedly in mesenchymal stem cell enhancers so that gave us ahint as to which of these genetic
+ variants was likely driving this wholeassociation
+ and we ended up with this one genetic variantcalled rs1421085
+ and that genetic variant out of the 89 was the one that we predicted to becausal for the disease
+ wow so going back to those steps first step is figure out the relevant tissuebased on the global enrichment second
+ step is figure out the causal variant among many variants in this linkagedisequilibrium in this co-inherited
+ block between these recombination hotspotsthese boundaries of these inherited
+ blocks that's the second step the third step isonce you know that causal variant
+ try to figure out what is the motif that is disruptedby that causal variant basically how
+ does it act variants don't just disrupt elementsthey disrupt the binding of specific
+ regulators so basically the third step there washow do you find the motif
+ that is responsible like the gene regulatoryword the building block of gene
+ regulation that is responsible for that disregulatory event and thefourth step is finding out what
+ regulator normally binds that motif and is nowno longer able to bind and then once you
+
+
+Speaker 1 :have the regulator can you then try to
+ figure out how to what uh after it developed how to fix it
+
+Speaker 0 :that's exactly right you now know how to
+ intervene you have basically a regulator you have a gene that you canthen perturb and you say well maybe that
+ regulator has a global role in obesity i canperturb the regulator
+
+
+Speaker 1 :just to clarify when we say perturb like
+ on the scale of a human life can a human being be helped
+
+Speaker 0 :of course of course yeah so i guess her
+
+
+Speaker 1 :understanding is the first step
+
+
+Speaker 0 :no no but perturbed basically means you
+ now develop therapeutics pharmaceutical therapeutics against thator you develop other types of
+ intervention that affect the expression of that gene
+
+Speaker 1 :what do uh pharmaceutical therapeutics
+ look like when your understandings in a geneticlevel
+ yeah sorry if it's a dumb question no no
+
+Speaker 0 :it's a brilliant question but i want to
+ save it for a little bit later when we start talking about therapeuticsperfect we've talked about the first
+ four steps there's two more so basically the first step is figureout i mean the zeroth step the starting
+ point is the genetics the first step after that is figure outthe tissue of action
+ the second step is figuring out the nucleotidethat is responsible or set of
+ nucleotides the third step is figure out the motifand the upstream regulator number four
+ number five and six is what are the targets so number fiveis great
+ now i know the regulator i know the motif i know the tissueand i know the variant what does it
+ actually do so you have to now trace it to thebiological process
+ and the genes that mediate that biological processso knowing all of this can now allow you
+ to find the target genes how by basically doing perturbationexperiments
+ or by looking at the folding of the epigenome or by looking at the geneticimpact of that genetic variant on the
+ expression of genes and we use all three so let me gothrough them
+ basically one of them is physical links this is the folding of the genome ontoitself
+ how do you even figure out the folding it's a little bit of a tangent but it'sa super awesome technology
+ think of the genome as again this massive packaging that we talked aboutof taking two meters worth of dna and
+ putting it in something that's a million timessmaller than 2 meters worth of dna
+ that's a single cell you basically have this massivepackaging and this packaging basically
+ leads to the chromosome being wrapped around insort of
+ tight ways in ways however that are functionallycapable of being reopened and reclosed
+ so i can then go in and figure out that foldingby sort of chopping up the spaghetti
+ soup putting glue and ligating the segmentsthat were chopped up but nearby each
+ other and then sequencing through theseligation events to figure out
+ that this region of these chromosomes that region of the chromosome were neareach other
+ that means they were interacting even though they were far away on the genomeitself
+ so that chopping up sequencing and re-gluingis basically giving you folds
+ of the genome that we said
+
+Speaker 1 :how does cutting it help you figure out
+ which ones were close in the original
+
+Speaker 0 :folding so you have a
+ bowl of noodles go on and in that bowl of noodles some somenoodles are
+ near each other yes so throw in a bunch of glueyou basically freeze the noodles in
+ place throw in a cutter that chops up the noodles into the little piecesnow throw in some ligation enzyme that
+ lets those pieces that were free re-ligate near each otherin some cases they re-ligate what you
+ had just got but that's very rare most of the timethey will re-ligate
+ in whatever was proximal you now have glued the red noodle thatwas crossing the
+ blue noodle to each other you then reverse the glue the glue goes away andyou just sequence the heck out of it
+ most of the time you'll find red segment withyou know red segment but you can
+ specifically select for ligation events that have happenedthat were not from the same segment by
+ sort of marking a particular way and then selecting those and then yoursequencing you look for
+ red with blue matches of sort of things that were gluedthat were not immediate proximal to each
+ other and that reveals the linking of the bluenoodle and the red noodle
+ you're with me so far yeah good so we you know we've done these experimentsphysical
+
+
+Speaker 1 :
+
+Speaker 0 :that's the physical that's step one of
+ the physical and what what the physical revealed is topologically associateddomains basically big blocks of the
+ genome that are topologically don't you knowconnected together
+ that's the physical the second one is thegenetic links it basically says
+ across individuals that have different geneticvariants how are their genes expressed
+ differently remember before i was saying that thepath between genetics and disease is
+ enormous but we can break it up to look at thepath between genetics and
+ gene expression so instead of using alzheimer's as a phenotypei can now use expression of irx3 as the
+ phenotype expression of gene a and i can look atall of the g
+ all of the humans who contain a g at that location and all the humans willcontain a t
+ at that location and basically say wow turns out that the expression of thisgene is higher
+ for the t humans than for the g humans at that locationso that basically gives me a genetic
+ link between a genetic variant a locus or region and the expression ofnearby genes good on the genetic link
+ i think so awesome so the third link is the activity linkwhat's an activity link it basically
+ says if i look across 833 different epigenomeswhenever these enhancer is active
+ this gene is active that gives me an activity linkbetween this region of the dna and that
+ gene and then the fourth one is perturbationswhere i can go in and
+ you know blow up that region and see what are the genes that change inexpression
+ or i can go in and over activate that region and see what geneschange in expression uh so i guess
+
+
+Speaker 1 :that's
+
+
+Speaker 0 :similar to activity yeah yeah so that's
+ basically it's similar to activity i agree but it's causal rather thancorrelational
+
+
+Speaker 1 :again i'm i'm a little weird like no no
+
+
+Speaker 0 :you're 100 on
+ it's exactly the same but the perturbation where i go and interveneyes i basically take a bunch of cells so
+ you know crispr right crispr is this genome guidance andcutting
+ mechanism it's what george like likes to callgenome vandalism so you basically are
+ able to one you can basically take aguide rna that you put into the crispr
+ system and the crispr system will basically use this guide rna scan thegenome
+ find wherever there's a match and then cut the genomeso you know i digress but it's a
+ bacterial immune defense system so basicallybacteria are constantly attacked by
+ viruses but sometimes they win against theviruses
+ and they chop up these viruses and remember as a trophyinside their genome they have this loci
+ this crispr loci that basically stands for clusteredrepeats interspersed
+ et cetera so basically it's it's an interspersed repeatsstructure where basically you have a set
+ of repetitive regions and then interspersed were thesevariable segments
+ that were basically matching viruses so when this was first discoveredit was basically hypothesized that this
+ is probably a bacterial immune system that remembersthe trophies of the viruses that manage
+ to kill and then the bacteria pass on you knowthey sort of do lateral transfer of dna
+ and they pass on these memories so that the next bacterium says oh you killedthat guy
+ when that guy shows up again i will recognize him and the crispr system wasbasically evolved
+ as a bacterial adaptive immune response to sense foreigners that should notbelong
+ and to just go and cut their genome so it's an rna guidedrna cutting enzyme or an rna guided dna
+ cutting enzyme so there's different systems someof them called dna some of them called
+ rna but all of them remember this uh sort ofviral attack so what we have done now
+ as a field is you know through the work of you knowuh jennifer donna emmanuel carpenter
+ feng zhang and many others is co-opted that systemof bacterial immune defense as a way to
+ cut genomes you basically have thisguiding system that allows you to use an
+ rna guide to bring enzymes to cut dna at aparticular locus
+
+
+Speaker 1 :that's so fascinating just so this is
+ like already a natural mechanism a natural tool for cutting that wasuseful
+ this particular context yeah and we're like well we can use that thing toactually
+ it's a nice tool that's already in the
+
+Speaker 0 :body yeah yeah it's not in our body it's
+ a bacterial body it was discovered by the by the yogurtindustry
+ they were trying to make better yogurts and they were trying to make theirbacteria
+ in their yogurt cultures more resilient to virusesand they were studying bacteria and they
+ found that wow this crispr system is awesomeit allows you to defend against that and
+ then it was co-opted in mammalian systems that don't use anything likethat
+ as a as a as a targeting way to basically bring these dna cuttingenzymes
+ to any locus in the genome why would you want to cut dnato do anything the reason is that our
+ dna has a dna repair mechanism where if a region of the genome getsrandomly cut you will basically scan the
+ genome for anything that matches and sort of use it by homologyso the reason why we're deployed is
+ because we now have a spare copy as soon as my mom's copy is deactivatedi can use my dad's copy
+ and somewhere else if my dad's copy is deactivated i can use my mom's copyto repair it so this is called
+ homologous based repair so all you have to do is
+
+Speaker 1 :the
+ the cutting and that's it you don't have
+
+Speaker 0 :to do the fixing that's exactly right
+ you don't have to do the fixing because it's already built in that'sexactly right but the fixing
+ can be co-opted by throwing in a bunch of homologoussegments that instead of having your
+ dad's version have whatever other version you'd liketo use
+
+
+Speaker 1 :so the thing so you you then control the
+ fixing by throwing in a bunch of other stuff exactly right
+
+Speaker 0 :that's how you do genome editing so
+ that's what crispr is that's what's
+
+Speaker 1 :wonderful in popular culture people use
+ the term i've never well that's brilliant that's
+
+Speaker 0 :a crispr regional explanation genome
+ vandalism followed by a bunch of band-aids thathave the sequence that you'd like and
+
+
+Speaker 1 :you can control the
+ the choices of band-aids correct yeah
+
+Speaker 0 :and of course there's new generations of
+ crispr there's something that's called prime editing that wassort of very very much in the press
+ recently that basically instead of sort of making a double stranded breakwhich again is genome vandalism you
+ basically make a single stranded break you basically just nickone of the two strands
+ enabling you to sort of peel off without sort of completely breaking it upand then repair it locally using a guide
+ that is coupled to your initial rna that took you to that location dumb
+
+Speaker 1 :question but
+ is crispr as awesome and cool as it soundsi mean technically speaking in terms of
+ like as a tool for manipulating our geneticsin the positive uh meaning of the word
+ manipulating or is there downsides drawbacks in thiswhole context of therapeutics that we're
+ talking about yeah or understanding and so
+
+Speaker 0 :so so um when i teach my students about
+ crispr i show them articles with the headlinegenome editing tool revolutionizes
+ biology and then i show them the date of thesetwo of these articles and they're 2004
+ like five years before crispr was invented and the reason is thatthey're not talking about crispr they're
+ talking about zinc finger enzymes that are another way to bring thesecutters to the genome
+ it's a very difficult way of sort of designing the right set of zinc fingerproteins the right set of
+ amino acids that will now target a particular long stretch of dnabecause you you know for every location
+ that you want to target you need to designa particular regulator a particular
+ protein that will match that region well there'sanother technology called talens
+ which are basically you know just a different way of usingproteins to sort of you know guide these
+ cutters to a particular location of the genomethese require a massive team of
+ engineers of biological engineers to basicallydesign a set of amino acids
+ that will target a particular sequence of your genomethe reason why crispr is amazingly
+ awesomely revolutionary is because instead of having this teamof engineers
+ design a new set of proteins for every locker that you want to targetyou just type it in your computer and
+ you just synthesize an rna guide the beauty of crispr is not the cuttingit's not the fixing
+ all of that was there before it's the guidingand the only thing that changes that it
+ makes the guiding easier by sort of you know just typing in therna sequence
+ which then allows the system to sort of scan the dna to find that
+
+Speaker 1 :so the coding the the engineering of the
+ cutter is easier on the uh in terms ofthat's kind of similar to the story of
+ deep learning versus uh old school machine learning some of thesome of the challenging parts are
+ automated okay so uh but crispr is just onecutting exact technology exactly and
+ then there's that's part of the challengesand exciting opportunities of the field
+ is to design different cutting technologies yeah yeah
+
+Speaker 0 :so now um we
+ you know this was a big parenthesis on crispr but nowyou you know when we were talking about
+ perturbations you basically now have the ability to not just look at correlationbetween enhancers
+ and genes but actually go and either destroy that enhancer and see if thegene changes in expression
+ or you can use the crispr targeting systemto bring in not vandalism and cutting
+ but you can couple the crispr system with and the crispr system is calledusually crispr cas9 because cast 9 is
+ the protein that will then come and cut but there's a version of that proteincalled dead cast 9 where the cutting
+ part is deactivated so you basically use d cas9 dead cas9to bring in an activator or to bring in
+ a repressor so you can now ask is this enhancer changing that geneby taking this modified crispr
+ which is already modified from the bacteria to be used in humans that youcan now modify the cast 9 to be dead
+ cas9 and you can now further modify it to bring in a regulatorand you can basically turn on or turn
+ off that enhancer and then see what is the impact on that geneso these are the four ways of linking
+ the locus to the target gene and that's stepnumber five
+ okay step number five is find the target gene and step number six iswhat the heck does that gene do you
+ basically now go and manipulate that geneto basically see what are the processes
+ that change and you can basically ask well you knowin this particular case in the fto locus
+ we found mesenchymal stem cells that are the progenitors of white fatand brown fat or beige fat
+ we found the rs-1421085 nucleotide variant as thecausal variant we found this
+ large enhancer this master regulator i like to call it ob1for uh obesity one like the strongest
+ enhancer associated with whatever and ob1 was kind of chubby as the actori don't know if you remember him
+ [Laughter] yeah so you basically are using thisjedi mind trick to basically find out
+ the uh thank you the location of the genomethat is responsible
+ the enhancer that harbors it the motif the upstream regulator which is arid 5bfor 80 rich interacting domain 5b
+ that's a protein that sort of comes and binds normally that protein is normallya repressor
+ it represses this super enhancer this massive 12 000 nucleotidemaster regulatory control region and it
+ turns off irx3 which is a gene that's 600 000nucleotides away
+ and irix 5 which is 1.2 million nucleotides away
+
+Speaker 1 :so those are what's the effect of
+
+
+Speaker 0 :turning them off that's exactly
+ the next question so step six is what do these genes actually doso we then ask what does rx3 and rx5 do
+ the first thing we did is look across individuals for individuals that hadhigher expression of rx3 or lower
+ expression rx3 and then we looked at the expression ofall of the other genes in the genome
+ and we look for simply correlation and we found that iric 3 and rx-5 were bothcorrelated
+ positively with lipid metabolism and negatively with mitochondrialbiogenesis you're like what the heck
+ does that mean
+
+Speaker 1 :it doesn't sound related to obesity not
+
+
+Speaker 0 :at all superficially
+ but lipid metabolism should because lipidsis these high energy molecules that
+ basically store fat so hyer extreme and rx5 arenegatively correlated with lipid
+ metabolism so that basically means that when they turn onlipid metabolism positively when they
+ turn on they turn on lipid metabolism and they'renegatively correlated with
+ mitochondrial biotins what do mitochondria doin this whole process again small
+ parenthesis what are mitochondria mitochondria are little organellesthey arose they only are found in
+ eukaryotes u means good karyo means nucleus so truly like a truenucleus so eukaryotes have a nucleus
+ prokaryotes are before the nucleus they don't have a nucleusso eukaryotes have a nucleus
+ compartmentalization eukaryotes have also organellessome eukaryotes have chloroplasts
+ these are the plants they photosynthesizesome other eukaryotes like us have
+ another type of organelle called mitochondria thesearose from an ancient species
+ that we engulfed this is an endosymbiosisevent symbiosis bio means life sim
+ means together so symbiotes are things that live togetherendosymbiosis endomeans inside so
+ endosymbiosis means you live together holding the other one inside you sothe pre-eukaryotes engulfed
+ an organism that was very good at energy productionand that organism eventually shed most
+ of its genome to now have only 13 genes in themitochondrial genome
+ and those 13 genes are all involved in energy productionthe electron transport chain so
+ basically electrons are these massive super energyrich molecules
+ we basically have these organelles that produceenergy and when your muscle exercises
+ you basically multiply your mitochondria you basically sort ofyou know use more and more mitochondria
+ and that's how you get beefed up so basically the m the muscle sort oflearns how to generate more energy
+ so basically every single time your muscles will you know overnightregenerate and sort of become stronger
+ and amplify their mitochondrions and so forthso what does mitochondria do the
+ mitochondria use energy to sort of do any kind oftask
+ when you're thinking you're using energy this energy comes from mitochondriayour neurons have mitochondria all over
+ the place basically this mitochondria can multiply as organelles and they canbe spread along the body of your muscle
+ some of your muscle cells have actually multiple nuclei they're polynucleatedbut they also have multiple mitochondria
+ to basically uh deal with the fact that your muscle isenormous you can sort of span this super
+ super long length and you need energy throughout thelength of your muscle so that's why you
+ have mitochondria throughout the length and you also need transcription throughthe length so you have multiple nuclei
+ as well so these two processeslipids store energy what do mitochondria
+ do so there's a process known as thermogenesis thermoheatgenesis generation thermogenesis is
+ generation of heat remember that bathtub within and out that's the equation that
+ everybody's focused on so how much energy do you consume howmuch energy you burn
+ but in every thermodynamic system there'sthree parts to the equation there's
+ energy in energy out and energy lostany machine has loss
+ of energy how do you lose energy you emanate heatso heat is energy loss so
+ um
+
+Speaker 1 :there's which is where the thermogenesis
+ comes in thermogenesis
+
+Speaker 0 :is actually a regulatory process that
+ modulates the third component of the thermodynamic equationyou can basically control thermogenesis
+ explicitly you can turn on and turn offthermogenesis and that's where the
+
+
+Speaker 1 :mitochondria comes into exactly
+
+
+Speaker 0 :so irix 3 and rx5 turn out to be the
+ master regulators of a process of thermogenesis versuslipogenesis generation of fat so irex
+ and rx5 in most people burn heat burn burn calories as heat sowhen you eat too much
+ just burn it burn it off in your in your fat cells so if that bathtubhas basically a sort of dissipation
+ knob that most people are able to turn oni am unable to turn that on because i am
+ a homozygous carrier for the mutation that changes a t into ac
+ in the rs1421085 allele a locus a snip i have the risk allele twice frommy mom and for my dad
+ so i'm unable to thermogenize i'm unable to turn on thermogenesisthrough irix 3 and rx5
+ because the regulator that normally binds here r85b can no longer buybecause it's an 80 rich interacting
+ domain and as soon as i change the t into a c it can no longer bind becauseit's no longer at rich
+
+
+Speaker 1 :but doesn't that mean that you're able
+ to use the energy more efficiently you're not generating heat or is it that
+
+Speaker 0 :means that i can eat less
+ and get around just fine yes yeah so that's a feature actually it's a featurein a food scarce environment
+ yeah but if we're all starving i'm doing great if we all have access to massiveamounts of food
+ i'm i'm obese basically that's taken us
+
+Speaker 1 :through the entire process of then
+ understanding that why mitochondria and then the lipids are bothno distant or somehow different size of
+
+
+Speaker 0 :the same coin
+ and you basically choose to store energy or you can choose to burn energy
+
+Speaker 1 :and then all of that is involved in the
+ puzzle of obesity
+
+Speaker 0 :and that's what's fascinating right here
+ we are in 2007 discovering the strongest geneticassociation with obesity
+ and knowing nothing about how it works for almost 10 yearsfor 10 years everybody focused on this
+ fto gene and they were like oh it must have to dosomething with you know
+ rna modification and it's like no it has nothing to do with the function of ftoit has everything to do with all of this
+ other process and suddenly the moment you solve thatpuzzle which is a multi-year effort by
+ the way and tremendous effort by melina and many many othersso this tremendous effort basically led
+ us to recognize this circuitry you went from having some89 common variants associated in that
+ region of the dna sitting on top of this gene to knowingthe whole circuitry
+ when you know the circuitry you can now go crazy you can now startintervening at every level you can start
+ intervening at the arid 5b level you can start intervening withcrispr cas9 at the single
+ snip level you can start intervening at iraq 3 and rx5directly there you can start intervening
+ at the thermogenesis level because you know the pathwayyou can start interviewing at the at the
+ differentiation level where these the decision to makeeither white fat or beige fat the energy
+ burning base fat is made developmentally in the firstthree days of differentiation of your
+ adipocytes so as they're differentiating you basicallycan choose to make fat burning machines
+ or fat storing machines and sort of that's how you populate your your fatyou basically can now go in
+ pharmaceutically and do all of that and in our paper we actually did all ofthat
+ we went in and manipulated every single aspect at the nucleotide levelwe used crispr cast 9 genome editing to
+ basically take primary adipocytes from risk andnon-risk individuals
+ and show that by editing that one nucleotide out of 3.2 billionnucleotides in the human genome
+ you could then flip between an obese phenotype and a lean phenotype like aswitch
+ you can basically take a micelles that are non-thermogenizingand just flipping to thermogenizing
+ cells by changing one nucleotide it's mind-boggling it's so inspiring
+
+Speaker 1 :that this puzzle could be solved in this
+ way and it feels within reach to then be able tocrack the problem with some of these
+ diseases what are so 2007 you mentioned 2000 what are thetechnologies
+ the tools that came along that made this possible like whatwhat are you excited about maybe if we
+ just look at the buffet of things that you've kind of mentioned is there isthis what's involved
+ what should we be excited about what are
+
+Speaker 0 :you excited about
+ i love that question because there's so much ahead of us there's soso much um there's
+ uh so so basically solving that one locusrequired massive amounts of knowledge
+ that we have been building across the yearsthrough the epigenome through the
+ comparative genomics to find out the causal variant and thecontrol the controller regulatory motif
+ through the conserved circuitry it required knowing this regulatorygenomic wiring
+ it required high c of these sort of topologically associated domains tobasically find this long-range
+ interaction it required eqtls of this sort ofgenetic perturbation of these
+ intermediate gene phenotypes it required all of thearsenal of tools that i've been
+ describing was put together for one locus and thiswas a massive team effort
+ huge you know investment in time energy money effort intellectual youknow everything
+
+
+Speaker 1 :you're referring to i'm sorry this one
+ basically yeah this one piece this one single paper at least one
+
+Speaker 0 :single locus i like to say that this is
+ a paper about one nucleotide in the human genome about one bit ofinformation
+ c versus t in the human genome that's one bit of information and we have 3.2billion
+ nucleotides to go through so how do you do that systematicallyi am so excited about the next phase of
+ research because the technologies that my groupand many other groups have developed
+ allows us to now do this systematically not just onelocus at a time but thousands of loci
+ at a time so let me describe some of these technologiesthe first one is automation and robotics
+ so basically you know we talked about how you can takeall of these molecules and see which of
+ these molecules are targeting each of these genes and what do they doso you can basically now screen through
+ millions of molecules through thousands and thousands andthousands of plates each of which has
+ thousands and thousands and thousands of moleculesevery single time testing um you know
+ all of these genes and asking which of these molecules perturb thesegenes so that's technology number one
+ automation and robotics technology number twois parallel readouts so instead of
+ perturbing one locus and then asking if i use crispr cast 9on this enhancer
+ to basically use dcas9 to turn on or turn off the enhanceror if i use crystal cast 9 on the snip
+ to basically change that one snip at a time then whathappens but we have
+ 120 000 disease associated snips that we want to testwe want we don't want to spend 120 000
+ years doing it so what do we do we've basicallydeveloped this technology
+ for massively parallel reporter assays mpra so in collaboration withtarzan mickelson mary flanders i mean
+ jason dura's group has done a lot of that so there'sthere's a lot of groups that basically
+ have developed technologies for testing 10 000 genetic variants at atime
+ how do you do that you you know we talked aboutmicro array technology the ability to
+ synthesize these huge microarrays that allow you todo all kinds of things like measure gene
+ expression by hybridization by measuring the genotype of a person bylooking at hybridization with one
+ version with a t versus the other version with the twith an with a c and then sort of
+ figuring out that i am a risk carrier for obesity based onthese hybridization
+ differential hybridization in my genome that says oh you seem to only have thisallele or you seem to have that allele
+ microarrays can also be used to systematically synthesizesmall fragments of dna so you can
+ basically synthesize these 150 nucleotide long fragmentsacross 450 000 spots at a time
+ you can now take the result of that synthesiswhich basically works through all of
+ these sort of layers of adding one nucleotide at a timeyou can basically just type it into your
+ computer and order it and you can basically order 10000 or 100 000 of these small
+ dna segments at a time and that's where awesome molecular biology comes inyou can basically take all these
+ segments have a common start and end barcode or sort of like gator like youjust like pieces of a puzzle
+ you can make the same end piece and the same start piecefor all of them and you can now use
+ plasmids which are these extra chromosomalsmall dna circular segments
+ that are basically inhabiting all our all our genomes we basically haveyou know plasmids floating around i mean
+ bacteria use plasmids for transferring dna and that's wherethey put a lot of antibiotic resistance
+ genes so they can easily transfer them from one but one bacterium to the otherso one bacterium involves a gene to be
+ resistant to a particular antibiotic it basicallysays to all its friends hey
+ here's that sort of dna piece we can now co-optthese plasmids into human cells you can
+ basically make a human cell culture and addplasmids
+ to that human cell culture that contain the things that you want to test you nowhave this library of 450 000 elements
+ you can insert them each into the common plasmid yeahand then test them in millions of cells
+ in parallel
+
+Speaker 1 :and the common plasmid is all the same
+ before you add it exactly the rest of
+
+Speaker 0 :the plasmid is the same
+ so it's it's called an episomal reporter assayepisome means not inside the genome it's
+ sort of outside the chromosomes so it's an episomalassay
+ that allows you to have a variable region where you basically test10 000 different enhancers and you have
+ a common region which basically has the same reporter geneyou know some can do some very cool
+ molecular biology you can basically take the 450 000elements that you've generated and and
+ you have a piece of the puzzle here a piece of the puzzle here which isidentical so they're
+ compatible with that plasmid you can chop them up in the middleto separate a barcode reporter from the
+ enhancer and in the middle put the same geneagain using the same pieces of the
+ puzzle you now can have a barcode readoutof what is the impact of 10 000
+ different versions of an enhancer on gene expression so we're not doingone experiment we're doing 10 000
+ experiments and those ten thousand can be fivethousand
+ of different loci and each of them in two versionsrisk or non-risk i can now test
+
+
+Speaker 1 :tens of these little hypotheses exactly
+ and then you can do ten thousand and we
+
+Speaker 0 :can test ten thousand hypothesis at once
+
+
+Speaker 1 :how how hard is it to generate those
+
+
+Speaker 0 :ten thousand uh trivial trivial but it's
+ biology no no generating the ten thousand istrivial because you basically
+ add it by technology you basically have these arraysthat that add one nucleotide at a time
+ at every spot
+
+Speaker 1 :oh and yeah so it's printing in it so
+ you're able to you're able to control yeah uh supercostly
+ is it ten thousand bucks so this isn't millions
+
+Speaker 0 :thousand bucks for ten thousand
+ experiments sounds like the right you knowi mean so that's super that's exciting
+
+
+Speaker 1 :because you don't have to do one thing
+ at a time yeah
+
+Speaker 0 :you can now use that technology these
+ massively parallel reporter assays to test10 000 locations at a time we've
+ made multiple modifications of that technology one wassharper mpra which stands for
+ you know basically getting a higher resolution view by tilingthese um these elements
+ so you can see where along the region of control are they actingand we made another modification called
+ hydra for high you know definition regulatoryannotation or something like that which
+ basically allows you to test seven million of these at a time bysort of cutting them directly from the
+ dna so instead of synthesizing whichbasically has the limit of 450 000 that
+ you can synthesize at a time we basically said hey if we want to testall accessible regions of the genome
+ let's just do an experiment that cuts accessible regionslet's take those accessible regions put
+ them all with the same end joints of the puzzles and then now usethose to create
+ a much much larger much much larger uh array of things that you can test andthen tiling all of these regions you can
+ then pinpoint what are the driver nucleotideswhat are the elements how are they
+ acting across seven million experiments at a time so basicallythis is all the same family of
+ technology where you're basically using theseparallel readouts of the barcodes
+ and then you know to do this we used a technology called starseek forself-transcribing uh reporter asses a
+ technology developed by alex stark my my former postdoc who's now api overin vienna so we basically coupled the
+ starsig the self-transcribing uh reporters where the enhancercan be part of the the gene itself so
+ instead of having a separate barcode that enhancer basically acts to turn onthe gene and it's transcribed
+ as part of the gene so you don't have to
+
+Speaker 1 :have the two separate parts exactly so
+
+
+Speaker 0 :you can just read them
+
+
+Speaker 1 :so there's a constant improvements in
+ this whole process yes by the way generating all these optionsare is it basically brute force
+ uh how much human intuition is oh gosh
+
+Speaker 0 :of course it's human intuition
+ and human creativity and incorporating all of theinput data sets because again the the
+ genome is enormous 3.2 billion you don't want to test thatinstead you basically use all of these
+ tools that i've talked about already you generate yourtop favorite
+ 10 000 hypothesis and then you go and test all ten thousand and then from whatwhat comes out you can then go go to the
+ next step so that's technology number two sotechnology one number one is robotics
+ automation where you have thousands of wells and you constantly test themthe second technology is instead of
+ having wells you have these massively parallel readoutsin sort of these pooled asses the third
+ technology is coupling crispr perturbationswith these single cell rna
+ readouts so let me make another parenthesis hereto describe now single cell rna
+ sequencing okay so what does single cellularsequencing mean so
+ rna sequencing is what has been traditionally used oh well traditionallythe last 20 years
+ ever since the advent of next generation sequencing so basically beforerna expression profiling was based on
+ this microarrays the next technology after that was basedon sequencing so you chop up your rna
+ and you just sequence small molecules just like youwould sequence the genome basically
+ reverse transcribe the small rnas into dna and you sequence that dnain order to get the number of sequencing
+ reads corresponding to the expression level ofevery gene in the genome
+ you now have rna sequencing how do you go to single cell rna sequencingthat technology also went through stages
+ of evolution the first was microfluidics youbasically had
+ these or even even chambers you basically had these ways of isolatingindividual cells
+ putting them into a well for every one of these cellsso you have 384 well plates and you know
+ do 384 parallel reactions to measure theexpression of 384 cells
+ that sounds amazing and it was amazing but we want to doa million cells how do you go from you
+ know these wells to a million cells you can'tso what what what the next technology
+ was after that is instead of using a well for everyreaction you now
+ use a lipid droplet for every reaction so you use micro droplets as reactionchambers
+ to basically amplify rna so here's the idea you basically havemicrofluidics where you basically have
+ every single cell coming down one tube in yourmicrofluidics and you have little
+ bubbles getting created in the other way with specific primers that mark everycell with its own barcode
+ you basically couple the two and you end up with little bubbles that havea cell and tons of markers for that cell
+ you now mark up all of the rna for that one cell with the same exact barcodeand you then lice all of the droplets
+ and you sequence the heck out of that and you have for every rna moleculea unique identifier that tells you what
+ cell was it on that is such good
+
+Speaker 1 :engineering
+ microfluidics and uh using some kind of primer to put it putup put a label on the thing
+ i mean i don't you're making it sound easy i assume it's it's beautiful rightchallenging but it's gorgeous yeah
+
+
+Speaker 0 :so there's the next generation
+ engineering yeah so that's the second generationnext generation is forget the
+ microfluidics all together just use big bottleshow can you possibly do that with big
+ bottles so here's the idea you dissociate all of your cells or allof your nuclei
+ from complex cells like brain cells that you know are very long and sticky so youcan't do that
+ so you know if you have blood cells or if you have you know neuronal nuclei orbrain nuclei
+ you can basically dissociate let's say a million cellsyou now want to add a unique barcode a
+ unique barcode in each one of a million cellsusing only big bottles i can't possibly
+ do that sounds crazy but here's the idea you use a hundred ofthese bottles
+ you randomly shuffle all your million cellsand you throw them into the hundred
+ bottles randomly completely random you add one barcode out of 100 to everyone of those cells
+ you then you now take them all out you shuffle them againand you throw them again into the same
+ hundred bottles but now in a different randomizationand you add a second barcode so every
+ cell now has two barcodes you take them out againyou shuffle them and you throw them back
+ in another third barcode is adding randomly fromthe same hundred barcodes
+ you've now labeled every cell probabilisticallybased on the unique path that he took of
+ which of a hundred bottles to go for the first timewhich of 100 bottles a second time and
+ which of 100 bottles a third time a hundred times 100 times 100 is amillion unique barcodes
+ in every single one of these cells without ever using microfluidic veryclever that's beautiful right computer
+
+
+Speaker 1 :science perspective that's very clever
+
+
+Speaker 0 :so you now have the single cell
+ sequencing technology you can use the wells you can use thebubbles or you can use the bottles and
+ you know sort of you have way bubbles still sound prettydamp because bubbles are awesome and
+ that's basically the main technology that we're using okay so the evolves isthe main technology
+ so so there are kids now that companies to sellto basically carry out single cell or
+ any sequencing that you know you can basically for two thousand dollarsyou can basically get ten thousand cells
+ from one sample and for every one of those cells youbasically have the transcription
+ of thousands of genes and you know of course the data for any onecell is noisy but being computer
+ scientists we can aggregate the data from all ofthose cells together
+ across thousands of individuals together to basically make very robust inferencesokay so the third technology is
+ basically single cell rna sequencing that allows you to nowstart asking
+ not just what is the brain expression level difference of that genetic variantbut what is the expression difference of
+ that one genetic variant across every single subtype of braincell
+ how is the variance changing you can't justyou know with a brain sample you can
+ just ask about the mean what is the average expression if iinstead have
+ 3 000 cells that are neurons i can ask not just what is the neuronalexpression
+ i can say for layer 5 excitatory neurons of which i have i don't know 300 cellswhat is the variance
+ that this genetic variant has so suddenlyit's amazingly more powerful i can
+ basically start asking about this middle layer of geneexpression at unprecedented levels
+ and when you look at the average it
+
+Speaker 1 :washes out some potentially
+ important signal that corresponds to ultimately the disease completely
+
+Speaker 0 :yeah so that i can do that at the rna
+ level but i can also do that at the dna levelfor the epigenome
+ so remember how before i was telling you about all these technologies we're usingto probe the epigenome
+ one of them is dna accessibility so what we're doing in my lab is that from thesame
+ dissociation of say a brain sample where you now have all these tens of thousandsof cells floating around
+ you basically take half of them to do rna profilingand the other have to do epigenome
+ profiling both at the single cell level so that allows you to now figure outwhat are
+ the millions of dna enhancers that are accessible in every one of tensof thousands of cells
+ and computationally we can now take the rna and the dnareadout and group them together to
+ basically figure out how is every enhancerrelated to every gene and remember these
+ sort of enhancer gene linking that we were doing across 833 samples833 is awesome don't get me wrong but
+ 10 million is way more awesome so we can now look at correlated activityacross 2.3 million enhancers and 20 000
+ genes in each of millions of cells tobasically start piecing together the
+ regulatory circuitry of every single type of neuron everysingle type of astrocytes
+ oligodendrocyte microglial cell inside the brains of1500 individuals that we've sampled
+ across multiple different brain regions across both dna and rnaso that's the data set that my team
+ generated last year alone so in one year we basically generated 10million cells
+ from human brain across a dozen different disordersacross schizophrenia alzheimer's frontal
+ temporal dementia louis body dementia als you know huntington's diseasepost-traumatic stress disorder autism
+ like you know bipolar disorder healthy aging etc so it's possible that
+
+Speaker 1 :even just within that
+ data set lie a lot of keys
+
+Speaker 0 :
+
+Speaker 1 :to understanding these diseases
+ and then be able to like directly leads to then treatment
+
+Speaker 0 :correct correct so basically we are now
+ motivating yeah so our computational team is in heaven right now and we'relooking for people i mean if
+ you have super how much does this decision
+
+Speaker 1 :so this is a very interesting kind of
+ side question how much of this is biology how much ofthis is computation
+ so you have the computational biology group but
+
+Speaker 0 :how much of are you should
+
+
+Speaker 1 :should you be comfortable with biology
+ to be able to solve some of these problemsif you just find if you put several of
+ the hats you were on fundamentally are you thinking like acomputer scientist here
+
+
+Speaker 0 :you have to this is the only way
+ as i said we are the descendants of the first digital computer we're trying tounderstand the digital computer we
+ understand we're trying to understand the circuitry the logicof this digital you know core computer
+ and all of these analog layers surrounding it soyou you know the case that i've been
+ making is that you cannot think one gene at a timethe traditional biology is dead there's
+ no way you cannot solve disease with traditional biologyyou need it as a component once you've
+ figured out rx3 and rx5 you now can then say hey have you guysworked on those genes with your single
+ gene approach we'd love to know everything you knowand if you haven't we now know how
+ important these genes are let's now launch a single gene programto dissect them and understand them
+ but you cannot use that as a way to dissect disease you have to thinkgenomically
+ you have to think from the global perspective and you have to build thesecircuits
+ systematically so we need numbers of computer scientists who areinterested and willing
+ to dive into this data you know fully fully inand sort of extract meaning we need
+ computer science people who can understand sort of machine learning andinference and sort of you know decouple
+ these matrices come up with super smart ways of sort ofdissecting them
+ but we also need by all computer scientists who understand biologywho are able to design the next
+ generation of experiments because many of these experiments no onein the right mind would design them
+ without thinking of the analytical approach that you would use todeconvolve the data afterwards
+ right because it's massive amounts of ridiculously noisy dataand if you don't have the computational
+ pipeline in your head before you even design theexperiment you would never design the
+ experiment that way
+
+Speaker 1 :that's brilliant so you in designing the
+ experiment you have to see the entirety of the computational pipeline that
+
+Speaker 0 :drives the design
+ that that even drives the necessity for that designbasically you know if you didn't have a
+ computer scientist way of thinking you would never design these hugelycombinatorial
+ massively parallel experiments so that's why you need interdisciplinaryteams you need teams
+ and and i want to i want to sort of clarify that what do we mean bycomputational biology group
+ the focus is not on computational the focus is on the biologyso we are a biology group what type of
+ biology computational biology yeah the type ofbiology
+ that uses the whole genome that's the type of biology that designsexperiments genomic experiments that can
+ only be interpreted in the context of the whole genome
+
+Speaker 1 :right so it's it's philosophically
+ looking at biology as a computer
+
+Speaker 0 :
+
+Speaker 1 :correct correct so which is a
+ in the context of the history of biology is a big transformation
+
+Speaker 0 :yeah yeah you can think of the name as
+ what do we do only computation that's not true but howdo we study it
+ only computationally that is true so all of these single cell sequencingcan now be coupled with the technologies
+ that we talked about earlier for perturbationso here's a crazy thing instead of using
+ these wells and these robotic systems for doing onedrug at a time
+ or for perturbing one gene at a time in thousands of wellsyou can now do this using a pool of
+ cells and single cell or any sequencing howyou basically can take
+ these perturbations using crispr and instead of using a single guide rnayou can use a library of guide rnas
+ generated exactly the same way using this array technologyso you synthesize a thousand different
+ guide rnas you now take each of these guide rnasand you insert them in a pool of cells
+ where every cell gets one perturbation and you use crispr editingor crispr uh so with either crispr cas9
+ to edit the gina with these thousand perturbations or theor with the activation or with the
+ repression and you now can have a single cellreadout
+ where every single cell has received one of these modifications and you can nowin massively parallel ways
+ couple the perturbation and the readout in a single experiment how
+
+Speaker 1 :are you tracking which perturbations
+
+
+Speaker 0 :each cell received so there's there's
+ ways of doing that but basically one way is to make thatperturbation an expressible
+ vector so that part of your rna reading is actuallythat perturbation itself so you can
+ basically put it in a expressible part so you can self-driveit
+ so the the point that i want to get across is that the sky is the limityou basically have these tools these
+ building blocks of molecular biology you have this massive data sets ofcomputational biology
+ you have this huge ability to sort of usemachine learning and statistical methods
+ and you know linear algebra to sort of reduce the dimensionality of all thesemassive data sets
+ and then you end up with a series of actionable targets that you can thencouple with pharma and just go after
+ systematically so the ability to sort of bring geneticsto the epigenomics to the
+ transcriptomics to the cellular readouts using these sort of high throughputperturbation technology that i'm talking
+ about and ultimately to the organismal throughthe
+ electronic health record endophenotypes and ultimately the diseasebattery of assays at the cognitive level
+ at the physiological level and you know every other levelthis there is no better or more exciting
+ field in my view to be a computer scientist then or to bea scientist in period
+ basically this confluence of technologies of computationof data of insight and of tools for
+ manipulation is unprecedented in human history and ithink this is what's shaping
+ the next century to really be a transformative century for our speciesand for our planet
+
+
+Speaker 1 :so you think the 21st century will be
+ remembered for the big leaps in biology andunderstanding and
+ alleviation of biology if you look at
+
+Speaker 0 :the path
+ between discovery and therapeutics it's been on the order of 50 yearsit's been shortened to 40 30 20 and now
+ it's on the order of 10 years but the huge number of technologies thatare
+ going on right now for discovery will result undoubtedly in the mostdramatic manipulation of human biology
+ that we've ever seen in the history of humanity in the nextfew years do you think we might be able
+
+
+Speaker 1 :to cure some of the diseases we started
+ this conversation with
+
+Speaker 0 :absolutely absolutely it's it's only a
+ matter of time basically the complexity is enormous and i don't want tounderestimate the complexity
+ but the number of insides is unprecedentedand the ability to manipulate is
+ unprecedented and the ability to deliver these small molecules and othernon-traditional medicine perturbations
+ there's a lot of sort of new gen there's a new generationof perturbations that you can use at the
+ dna level at the rna level at the you know microrna level uh thegenomic level
+ there's there's a battery of new generations of perturbationsif you couple that with cell type
+ identifiers that can basically sense when you are inthe right cell based on the specific
+ combination and then turn on that intervention for that cellyou can now think of combinatorial
+ interventions where you can basically sort of feed asynthetic biology construct to someone
+ that will basically do different things in different cellsso basically for cancer this is one of
+ the therapeutics that our collaborator ron weiss is usingto basically start sort of engineering
+ these circuits that will use microrna sensors of the environment to sort ofknow if you're in a tumor cell
+ or if you're in an immune cell or if you're in stromal cells and so forthand basically turn on particular
+ interventions there you can sort of create constructs that are tuned to onlythe liver cells or only the heart cells
+ or only the you know uh you know brain cells andthen
+ have these new generations of therapeutics coupled with this immenseamount
+ of knowledge on the sort of which targets to choose and what biologicalprocesses to measure
+ and how to intervene my view is that diseaseis going to be fundamentally altered and
+ alleviated as we go forward
+
+Speaker 1 :next time we talk we'll talk about the
+ philosophical implications that the effect of life but let's stick tobiology
+ for just a little longer we did pretty good today we still stuck to the sciencewhat um what are you excited in terms of
+ uh the future of this of this field thetechnologies
+ in your own group in your own mind you're leading the world at mit in thescience
+ and the engineering of this work so what are you excited about here i could
+
+Speaker 0 :not be more excited
+ we are one of many many teams who are working on thisin my team the most exciting parts are
+ um you know manifold so basically we've nowassembled this battery of technologies
+ we've assembled these massive massive data sets and now we're really sort ofin the stage of uh our our team's path
+ of generating disease insights so we are simultaneously working on a paper onschizophrenia right now
+ that is basically using the single cell profiling technologies using thisediting and manipulation technologies
+ to basically show how the master regulators underlying changes inthe brain
+ that are sort of found in in schizophrenia are in factaffecting excitatory neurons and
+ inhibitory neurons in pathways that are active both in synaptic pruningbut also in early development we've
+ basically found a set of four regulators that are connecting these two processesthat were previously separate
+ in schizophrenia in sort of having a sort of more unified view across thosetwo
+ those two sides the second one is in the in thearea of metabolism we basically now have
+ a beautiful collaboration with the goodyear lab that's basically looking atum multi-tissue perturbations
+ in six or seven different tissues across the bodyin the context of exercise and in the
+ context of nutritional interventions using both mouse and humanwhere we can basically see what are the
+ cell to cell communications that are that are changing across themand what we're finding is this
+ immense role of both immune cells as well asadipocyte stem cells in sort of
+ reshaping that circuitry of all of these different tissuesand that sort of painting to a new path
+ for therapeutical interventions there in alzheimer's it's this huge focus onmicroglia
+ and now we're discovering different classes of microglial cellsthat are basically either synaptic or
+ um immune and these are playing vastly different roles inalzheimer's versus in schizophrenia
+ and what we're finding is this immense complexityas you go further and further down of
+ how in fact there's 10 different types of microglia each withtheir own sort of expression programs we
+ used to think of them as oh yeah they're microgliabut in fact now we're realizing just
+ even in that sort of least abundant of cell types there'sthis incredible diversity there
+ the differences between brain regions is is anothersort of major major insight again you
+ know one would think that oh astrocytes are astrocytes no matterwhere they are but no
+ there's incredible region-specific differencesin the expression patterns of all of the
+ major brain cell types across different brain regions sobasically there's the neocortical
+ regions that are sort of the recent innovationthat makes us so different from all
+ other species there's the sort of you know reptilian brain sort of regionsthat are sort of much more
+ uh you know very extremely distinct there's a cerebellumthere's um each of those basically is
+ associated in a different way with disease and what we're doing now islooking into
+ pseudotemporal models for how disease progressesacross different regions of the brain if
+ you look at alzheimer's it basically starts in thissmall region called the enter rhino
+ cortex and then it spreads through the brain and uh you knowthrough the hippocampus and
+ you know the uh ultimately affecting the neocortex and with every brain regionthat it hits
+ it basically has a different impact on thecognitive and you know memory aspects
+ orientation short-term memory long-term memory etcwhich is
+ you know dramatically affecting the cognitive path that the individuals gothrough
+ so what we're doing now is creating these computational models for orderingthe cells and the regions and the
+ individuals according to their ability to predictalzheimer's disease
+ so we can have a cell level predictor of pathology that allows us to nowcreate
+ a temporal time course that tells us when every gene turns on along thispathology progression and then trace
+ that across regions and pathological measures thatare region-specific
+ but also cognitive measures and so so forth sothat allows us to now sort of for the
+ first time look at can we actually do early intervention for alzheimer'swhere we know that the disease starts
+ manifesting for 10 years before you actually have your first cognitiveloss
+ can we start seeing that path to build new diagnostics new prognosis newbiomarkers
+ for this sort of early intervention in alzheimer'sthe other aspect that we're looking at
+ is mosaicism we talked about the common variants and the rare variantsbut in addition to those rare variants
+ as your initial cell uh that that forms thezygote divides and divides and divides
+ with every cell division there are additional mutations that are happeningso what you end up with is your brain
+ being a mosaic of multiple different types of geneticunderpinnings some cells
+ contain imitation that other cells don't haveso every human has the
+ common variant that all of us carry to some degreethe rare variant that your immediate
+ tree of the human species carries and thenthere's the somatic variant which is the
+ tree that happened after the zygote that sortof forms your own body
+ so these somatic alterations is something that has been previouslyinaccessible
+ to study in human postmortem samples but right now with the advent of singlecell rna sequencing
+ in this particular case we're using the well-based sequencing which is much moreexpensive but gives you a lot richer
+ information about each of those transcripts so we'reusing now that richer information
+ to infer mutations that have happened in each of the thousands of genes thatsort of are active
+ in these cells and then understand how the genome relatesto the function this genotype
+ phenotype relationship that we usually build in geos betweengenomic association studies between
+ genetic variation and disease we're now building that at the celllevel where for every cell we can relate
+ the unique specific genome of that cell with the expression patterns of thatcell
+ and the predicted function using these predictive models that i mentionedbefore on this regulation for cognition
+ for pathology in alzheimer's at the cell level andwhat we're finding is that
+ the genes that are altered and the genetic regions that are alteredin common variants versus rare variant
+ versus somatic variant are actually very different from eachother the somatic variants are pointing
+ to neuronal energetics and oligodendrocytefunctions
+ that are not visible in the genetic lesions that you find for the commonvariants
+ probably because they have too strong of an effect that evolution is just nottolerating them
+ on the common side of the allele frequency spectrum so the somatic one
+
+Speaker 1 :that's the variation that happens after
+ the the zygo after correct you individual i mean it's adumb question but
+ there's there's mutation and variation i guess that happens thereand you're saying that they're through
+ this if we focus in on individual cells we're able to detect astory that's interesting there
+ and that might be a very unique kind of important variability that arises foryou said neuronal or something
+
+
+Speaker 0 :
+
+Speaker 1 :energetic energetics energetic cool
+
+
+Speaker 0 :terms so your your
+ i mean the metabolism of humans is dramatically altered from that ofnearby species you know we talked about
+ that last time that basically we are able to consume meatthat is incredibly energy rich and that
+ allows us to sort of have functions that are you know meeting this humongousbrain that we have
+ it's basically on one hand every one of our brain cells is much more energyefficient than our neighbors
+ than our relatives number two we have way more of these cellsand number three we have you know
+ this new diet that allows us to now feed all these needsthat basically creates a massive amount
+ of damage oxidative damage from this huge superpowered factory of ideas and thoughts
+ that we that we carry in our skull and that factory has energetic needsand there's a lot of sort of biological
+ processes underlying that that we are finding are altered in thecontext of alzheimer's disease
+
+
+Speaker 1 :that's fascinating that so you have to
+ consider all of these systems if you want to understand even somethinglike diseases that you would
+ maybe traditionally associate with just the particular cells of the brain
+
+Speaker 0 :yeah the immune system
+
+
+Speaker 1 :the metabolic system the metabolic
+ system and these are all the things that
+
+Speaker 0 :makes us uniquely human so our immune
+ system is dramatically different from that ofour neighbors our societies are
+ so much more clustered the history of infections that have plaguedthe human population is you know
+ dramatically different from every other speciesthe the you know the way that our
+ society in our population has sort of explodedhas basically put unique pressures on
+ our immune system and our immune system has both coped with that density andalso been shaped by
+ as i mentioned the you know vast amount of death that has happened in the blackplague and other sort of selective
+ events in human history famines ice ages and soforth
+ so that's number one then on on the sort of immune side on the metabolic sideyou know again we are able to sort of
+ run marathons you know you know i don't know if youremember the sort of human versus horse
+ experiment where the horse actually tires outfaster than the human and the human
+ actually wins so so on the metabolic side we'redramatically different on the immune
+ side we're dramatically different on the brain sideagain you know no need to sort of you
+ know it's a no-brainer how our brain is like just enormously morecapable
+ and then uh in you know in the side of cancer so basically the cancers thathumans
+ are having the exposure the environmental exposures is againdramatically different
+ and the lifespan the expansion of human lifespanis unseen in any other species in
+ you know recent evolutionary history and that now leads to a lot of newdisorders
+ that are starting to you know manifest late in life so uh you know alzheimer'sis one example where basically
+ you know these vast energetic needs over a lifetimeof thinking can basically lead to all of
+ these debris and eventually saturate the system andlead to
+ you know alzheimer's in in the late life but there's you know there's just such asuch a dramatic
+ uh set of frontiers when it comes to aging researchthat you know will so what i often like
+ to say is that if you want to re to to engineer a carto go from 70 miles an hour to 120 miles
+ an hour that's fine you can basically you know fix a fewcomponents if you wanted to now go out
+ 400 miles an hour you have to completely redesign theentire car
+ because the system has just not evolved to go that far basically our human bodyhas only evolved to live to i don't know
+ 120 maybe we can get to 150 with minorchanges
+ but if you know as we start pushing these frontiers for not justliving but well living the f
+ zine that we talked about last time so to to basically push f zineinto the 80s and 90s and 100s and you
+ know much further than that we will face new challengesthat have you know never been faced
+ before in terms of cancer the number of divisions in terms of alzheimer's andbrain related disorders
+ in terms of metabolic disorders in terms of regenerationthere's just so many different frontiers
+ ahead of us so i am thrilled about where we're headingso basically i see this confluence
+ in my lab and many other labs of ai of you know sort of you know the nextfrontier of ai for drug design so
+ basically these sort of graph neural networks on specificchemical
+ uh designs that allow you to create new generations of therapeuticsthese
+ molecular biology tricks for intervening at the system at every levelthis personalized medicine prediction
+ diagnosis and prognosis using the electronic health recordsand using these polygenic risk scores
+ weighted by the burden the number of mutationsthat are accumulating across common rare
+ and somatic variants the burden converging across all ofthese different
+ molecular pathways the delivery of specific drugs and specificinterventions into specific cell types
+ and again you've talked with bob langer about this there's you know many giantsin that field
+ and then the last concept is not intervening at the single gene leveli want you to sort of conceptualize the
+ concept of an on target side effectwhat is an on target side effect an
+ off-target side effect is when you design a molecule to targetone gene and instead it targets another
+ gene and you have side effects because of thatan on target side effect is when your
+ molecule does exactly what you're expectingbut that gene is pliotropic plio means
+ many tropos means ways many ways it acts inmany ways
+ it's a multifunctional gene so you find that this gene plays a role in this butas we talked about
+ the wiring of genes to phenotypes is extremely dense and extremely complexso the next stage of intervention will
+ be intervening not at the gene level but atthe network level
+ intervening at the set of pathways and the set of genes withmulti-input perturbations to the system
+ multi-input modulations pharmaceutical or other interventionalthat basically allow you to now work at
+ the sort of full level of understanding notjust in your brain but across your body
+ not just in one gene but across the set of pathways and so forthfor every one of these disorders so i
+ think that we're finally at the level of systems medicine of basically instead ofsort of medicine being at the single
+ gene level medicine being at the systems level where it can be personalizedbased on a specific set of genetic
+ markers and genetic perturbations that you areeither born with or that you have
+ developed during your lifetime your unique set of exposuresyour unique set of biomarkers and you
+ know your unique set of you know current set ofconditions through your
+ ehr and other ways and the precision componentof intervening extremely precisely in
+ the specific pathways and specific combinations of genes thatshould be modulated to sort of bring you
+ from the disease state to the physiologically normal state oreven to a physiologically improved state
+ through this combination of intervention so that that's in my view the fieldwhere basically computer science comes
+ together with you know artificial intelligencestatistics all of these other tools
+ molecular biology technologies and biotechnology and pharmaceuticaltechnologies that are sort of
+ in revolutionary the way of intervention and of course this massive amount ofmolecular biology and data gathering and
+ generation perturbation in massively parallel ways so there's nobetter way there's no better
+ you know time there's no better place to be sort of you know looking at thiswhole confluence
+ of of ideas and i'm just so thrilled to bea small part of this amazing enormous
+ ecosystem
+
+Speaker 1 :it's exciting to imagine what the humans
+ of 100 200 years from now what their life experience is likebecause
+ these ideas seem to have potential to transform the quality of lifethat when they look back at us
+ they probably wonder how we were put up with all the sufferingin the world manoa it's a huge honor
+ thank you for spending this early sunday morning with mei deeply appreciate it see you next time
+
+
+Speaker 0 :so like a plan thank you
+
+
+Speaker 1 :thanks for listening to this
+ conversation with manolas kellis and thank you to our sponsorsscm rush which is an seo optimization
+ tool pessimist archive which is one of myfavorite history podcasts
+ eight sleep which is a self-cooling mattress with smartsensors and an app and finally better
+ help which is an online therapy serviceplease check out the sponsors in the
+ description to get a discount and to support this podcast if you enjoythis thing
+ subscribe on youtube review it with five
+
+Speaker 0 :stars not a podcast
+
+
+Speaker 1 :follow on spotify support it on patreon
+ or connect with me on twitter at lex friedman and now let me leave yousome words
+ from haruki murakami human beings are
+
+Speaker 0 :
+
+Speaker 1 :ultimately nothing but carriers
+ passageways for genes they ride us into the ground like race horses fromgeneration to generation genes don't
+ think about what constitutes good
+
+Speaker 0 :or evil they don't care whether we're
+
+
+Speaker 1 :happy
+ or unhappy we're just means to an end for themthe only thing they think about is what
+ is most efficient for them thank you for listening andhope to see you
+
+

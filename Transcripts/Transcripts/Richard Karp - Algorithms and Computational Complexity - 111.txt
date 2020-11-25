@@ -1,0 +1,1686 @@
+Speaker 1 :the following is a conversation with
+ richard carp a professor at berkeley and one of the most important figures inthe history
+ of theoretical computer science in 1985 he received the touring award for hisresearch in the theory of algorithms
+ including the development of the admirance carp algorithmfor solving the max flow problem on
+ networks hopcroft corp algorithm for findingmaximum
+ cardinality matchings in bipartite graphs andhis landmark paper and complexity theory
+ called reducibility among combinatorial problems in which heproved
+ 21 problems to be np complete this paper was probably the mostimportant catalyst in the explosion of
+ interest in the study of np completeness and the p versus np problem in generalquick summary of the ads two sponsors a
+ sleep mattress and cash app please consider supportingthis podcast
+ by going to asleep.com lex and downloading cash app and using codelex
+ podcast click the links buy the stuff it really is the best way to support thispodcast
+ if you enjoy this thing subscribe on youtube review it with 5 stars on applepodcast
+ support it on patreon or connect with me on twitter at lex friedmanas usual i'll do a few minutes of as now
+ and never any ads in the middle that can break the flow of the conversationthis show is sponsored by eight sleep
+ and it's pod pro mattress that you can check outat asleep.com lex to get 200
+ off it controls temperature with an app it can cool down to as low as 55 degreesand each side of the bed separately
+ research shows the temperature has a big impact on the quality of our sleepanecdotally it's been a game changer for
+ me i love it it's been a couple weeks now i just beenreally enjoying it
+ both in the fact that i'm getting better sleep and then it's asmart mattress essentially i kind of
+ imagine this being the early days of artificial intelligence being a part ofevery aspect of our lives
+ and certainly infusing ai in one of the most important aspects of life which issleep
+ i think has a lot of potential for being beneficialthe pod pro is packed with sensors that
+ track heart rate heart rate variability and respiratoryrate
+ showing it all in their app the app's health metrics are amazingbut the cooling alone is honestly worth
+ the money i don't always sleep but when i do i choose the a-sleep podpro mattress
+ check it out at 8sleep.com to get two hundred dollars off and rememberjust visiting the site and considering
+ the purchase helps convince the folks at asleep thatthis silly old podcast is worth
+ sponsoring in the future this show is also presented by the greatand powerful cash app the number one
+ finance app in the app store when you get it use code lex podcastcash app lets you send money to friends
+ buy bitcoin and invest in the stock market with as little as one dollarit's one of the best designed interfaces
+ of an app that i've ever used to me good design is when everything iseasy and natural
+ bad design is when the app gets in the way either because it's buggyor because it tries too hard to be
+ helpful i'm looking at you clippy from microsofteven though i love you anyway there's a
+ big part of my brain and heart that loves to design thingsand also to appreciate great design by
+ others so again if you get cash out from the app storegoogle play and use the code
+ lex podcast you get ten dollars and cash app will also donate ten dollars tofirst
+ an organization that is helping to advance robotics and stem educationfor young people around the world and
+ now here's my conversation with richard carpyou wrote that at the age of 13 you were
+ first exposed to plain geometry and was wonder struck by the power andelegance of formal proofs
+ are there problems proofs properties ideas and plain geometry thatfrom that time that you remember being
+ mesmerized by or just enjoying to go through to prove
+
+Speaker 0 :various aspects so michael rabin told me
+ this story about an experience he had when he was ayoung student
+ who was ex tossed out of his classroom for bad behavior and was wanderingthrough the corridors of his school
+ and came upon two older students who were studying the problem of findingthe shortest distance between
+ two non-overlapping circles and michael thought about it and saidyou take the straight line between the
+ two centers and the segment between the two circlesis the shortest
+ because a straight line is the shortest distance between the two centersand any other line connecting the
+ circles would be on a longer line and i thoughtand he thought and i agreed that this
+ was just elegant that pure reasoning could comeup with
+
+
+Speaker 1 :such a result certainly the the shortest
+ distance from the two centers of the circlesis a straight line could you once again
+ say what's the next step in that proof well
+
+Speaker 0 :any
+ any segment joining the the two circles if you extend itby taking the radius on each side
+ you get a segment with a path with three edges which connects the two centersand this has to be at least as long as
+ the shortest path which is the straight
+
+Speaker 1 :line the straight line
+ yeah wow yeah that is that's quite quite simple so what what is it aboutthat elegance that
+ you just find uh compelling well just
+
+Speaker 0 :that you could
+ establish a a fact about geometry beyond dispute by purereasoning
+ i i also enjoy the challenge of solving puzzles in plain geometry it wasmuch more fun
+ than the earlier mathematics courses which were mostly aboutarithmetic operations and manipulating
+
+
+Speaker 1 :them
+ was was there something about geometry itselfthe slightly visual component of it
+
+
+Speaker 0 :yes absolutely although i lacked
+ three-dimensional vision i wasn't very good at
+
+Speaker 1 :three-dimensional vision you mean being
+ able to visualize three-dimensional objects
+
+Speaker 0 :three-dimensional objects or or um
+ surfaces hyperplanes and so on um so so there there i didn't have anintuition
+ but for example the fact that the sum of theangles of a triangle is 180 degrees
+ is proved convincingly um and it comes as a surprise that thatcan be done
+
+
+Speaker 1 :why is that surprising the the
+ well it is a surprising uh is a surprising ideai suppose uh why is that proved
+
+
+Speaker 0 :difficult it's not
+ that's the point it's so easy and yet it's so convincing
+
+Speaker 1 :do you remember what is the proof that
+ it's um
+
+Speaker 0 :as up to 180 uh you you
+ start at a corner and draw a line umparallel to the opposite side
+ and that line sort of trisects the angle between the other two sidesand uh you you get a
+ uh a half plane which has to add up to 180 degreesand it consists in the angles by
+ by the equality of uh alternate angles what's it calledyou you you get a correspondence between
+ the angles created by the side along the side ofthe
+ triangle and the three angles of the
+
+Speaker 1 :triangle
+ has geometry had an impact on when you look into the future ofyour work with combinatorial algorithms
+ has it had some kind of impact in terms of yeah being ablethe puzzles the visual aspects that were
+ first
+
+Speaker 0 :so compelling to you not euclidean
+ geometry particularly i thinki use tools like linear programming and
+ integer programming a lot and but those requirehigh dimensional visualization and so i
+ tend to go by the
+
+Speaker 1 :algebraic properties um right the
+ you you go by the algebra the linear algebra and not by the
+
+Speaker 0 :the visualization well the
+ interpretation in terms of for example finding the highest point ona polyhedron
+ as in linear programming is motivating but againit i don't have the high dimensional
+ intuition that would particularly inform me so isort of deep lean on the algebra
+
+
+Speaker 1 :so to linger on that point what kind of
+ visualization do you like do you do when you're tryingto think about
+ we'll get to combinatorial algorithms but just algorithms in generalyeah what kind of what what's inside
+ your mind when you're thinking about
+
+Speaker 0 :designing algorithms
+
+
+Speaker 1 :or or even just tackling any any
+
+
+Speaker 0 :mathematical problem
+ well i think that usually an algorithm is uh involves a repetition of someinner loop and
+ and so i can sort of visualize the um the distance from the desired solutionas iteratively reducing until you
+ finally hit the exact solution and try
+
+Speaker 1 :to take steps that get you closer to the
+
+
+Speaker 0 :try to
+ take steps that get closer and having the certainty ofconverging so it's it's racist
+ it's basically the mechanics of the algorithm is often very simplebut especially when you're trying
+ something out on the computer so for examplei did some work on the traveling
+ salesman problem and i could see there was a particularfunction that had to be
+ minimized and it was fascinating to see the successive approaches to the minimumto the optimum
+
+
+Speaker 1 :you mean so first of all traveling
+ salesman problems where you have to visituh every city without ever
+
+
+Speaker 0 :the only ones yeah that's right find the
+ shortest path through
+
+Speaker 1 :cities yeah uh which is sort of a
+ canonical standard a really nice problem that's really hard
+
+Speaker 0 :
+
+Speaker 1 :right exactly so can you say again
+ what was nice about the objective being able to think about the objectivefunction there and
+ maximizing it or minimizing it well just
+
+Speaker 0 :that the um as the algorithm proceeded
+ it was you were making progress continual progressand and eventually getting to the
+
+
+Speaker 1 :optimum point
+ so there's two two parts maybe maybe you can correct me but first islike getting an intuition about what the
+ solution would look like and or even maybe coming up with asolution and two is proving that this
+ thing is actually going to be pretty good uh whatpart is harder for you where's the magic
+ happen is it in the first sets of intuitions oris it
+ in the detail the messy details of actually showingthat it is going to get to the exact
+ solution and it's going to run at thisat a certain complexity
+
+
+Speaker 0 :well the magic is just the fact that it
+ the the gap from the optimum decreases monotonically and you can seeit happening
+ and um various metrics of what's going on are improving all alonguntil finally hit the optimum perhaps
+ later we'll talk about the assignment problem and i can
+
+Speaker 1 :illustrate illustrate a little better
+ yeah now zooming out again as you write don knuth has calledattention to a breed of people
+ who derive great aesthetic pleasure from contemplating thestructure of computational processes
+ so don calls these folks geeks and you write that you remember the moment yourealized you were such a person
+ you were shown the hungarian algorithm to solve the assignment problemright so perhaps you can explain what
+ the assignment problem is and what uh the hungarian algorithm is
+
+Speaker 0 :so in the assignment problem you have uh
+ n boys and in girls and you are given the desirabilityof uh or the cost of matching
+ the i boy with the jth girl for all i and jyou're given a matrix of numbers
+ and you want to find the one-to-one matching of the boys with thegirls
+ such that the some of the associated costs will beminimized so the the best way
+ to match the boys with the girls or men with jobs or anytwo sets um no any possible matching is
+
+
+Speaker 1 :possible
+
+
+Speaker 0 :or yeah all one-to-one correspondences
+ are permissible if there is a connectionthat is not allowed
+ then you can think of it as having an infinite costso um what you do is
+ uh to depend on the observation thatthe identity of the optimal
+ assignment or as we call it the optimal permutationum is not changed if you subtract
+ a constant from any row or column of the matrixyou can see that the comparison between
+ the different assignments is not changed by thatum because you're penal if you decrease
+ a particular row all the elements of a row by someconstant
+ all solutions decrease by the cost of thatby an amount equal to that constant
+ so the idea of the algorithm is to start with a matrix ofnon-negative numbers and
+ keep subtracting from rows or from our entire columns umin such a way that you subtract the same
+ constant from all the elements of that row or columnuh while maintaining the property that
+ um uh all the elements are non-negativesimple yeah and so and so
+ um what you have to do is uh is findsmall moves which will decrease the
+ total cost while subtracting constants from rowsor columns and there's a particular way
+ of doing that by computing a kind of shortest path through the elements inthe matrix
+ and you just keep going in this way until you finally get a full permutationof zeros while the matrix is
+ non-negative and then you know that that has to be the cheapest
+
+Speaker 1 :is that as simple as it sounds
+ so the the shortest path of the matrix
+
+Speaker 0 :part
+ yeah the simplicity lies in how you find the what i oversimplified slightly whatyou
+ you you will end up subtracting a constant from some rowsor columns and adding the same constant
+ back to other rows and columns so as not to not to reduce any of thezero
+ elements you leave them unchanged buteach individual step modifies us
+ several rows and columns by the same amount butoverall decreases the cost so there's
+
+
+Speaker 1 :something about
+ that elegance that made you go aha this is a beautifullike it's it's uh it's amazing that
+ something like this something so simple can solve a problem
+
+Speaker 0 :like this yeah it's really cool
+ if i had mechanical ability i would probably like to dowoodworking or other activities where
+ you sort of shape something in into somethingbeautiful and orderly and there's
+ something about the orderly systematic nature of uhthat innovative algorithm that is
+ pleasing to me
+
+Speaker 1 :so what do you think about this idea of
+ geeks as don knuth calls them what do you think of is it something uhspecific
+ to a mindset that allows you to discover the elegance andcomputational processes or is this all
+ of us can all of us discover this beauty are you born this way
+
+Speaker 0 :i think so i always like to play with
+ numbers i i i used to amuse myself by multiplyingfour digit
+ decimal numbers in my head and putting myself to sleep by starting withone and
+ doubling the number as long as i could go and uhtesting my memory my ability to retain
+ the information
+
+Speaker 1 :and i also read somewhere that you uh
+ you wrote that you enjoyed uh showing off to yourfriends
+ by i believe multiplying four digit numbersuh right a couple of four digit numbers
+
+
+Speaker 0 :yeah i had a summer job at a beach
+ resort outside of boston and uh the other employee ii was the barker at a skee-ball game
+ yeah i used to i used to sit at a microphmicrophone saying come one come all come
+ in and play ski ball five cents to play nickel to win and so
+
+Speaker 1 :on that's what a barker i was gonna
+ i wasn't sure if i should know but barker that's so you're thethe charming outgoing person is getting
+ people to uh come in
+
+Speaker 0 :yeah well i wasn't particularly charming
+ but i could be very repetitious and loud andthe other employees were
+ sort of juvenile delinquents who had no academic bent but somehowi found that i could impress them by
+ by performing this mental melter or mental arithmetic
+
+Speaker 1 :you know there's something too that you
+ know one of some of the most popular videos on theinternet
+ is uh there's a there's a youtube channel called number file that showsoff different mathematical ideas
+ there's still something really profoundly interesting to peopleabout math the the beauty of it
+ something even if they don't understand the basicconcept
+ even being discussed there's something compelling to it what do you think thatis
+ any lessons you drew from the early teen years when you wereshowing off to your friends with the
+ numbers like is what is it that attracts us tothe beauty of mathematics do you think
+ the general population not just the the computer scientists and math the
+
+Speaker 0 :magicians
+ i think that it you know you can do amazing things you cantest whether large numbers are prime
+ you can uh um you can solve little puzzles aboutcannibals and missionaries
+ and there's a kind of achievement it's it's it'spuzzle solving and at a higher level the
+ fact that you can you can do this reasoning that you canprove in an
+ absolutely ironclad way that the some of theangles of a triangle is 180 degrees
+
+
+Speaker 1 :yeah it's a nice escape from the
+ messiness of the real world where nothing can be proved so and we'lltalk about it but
+ sometimes the ability to map the real world into such problems where you can'tprove it is this a is a powerful step
+ yeah it's amazing that we can do this
+
+Speaker 0 :another attribute of geeks is they
+ they're not necessarily uh endowed with emotional intelligenceso they can live in a world of
+ abstractions without having to uh master the complexities of uh dealingwith people
+
+
+Speaker 1 :so just to link on the historical note
+ as a phd student in 1955 he joined the computational lab atharvard where
+ howard aiken had built the mark 1 and the mark iv computersjust to take a step back into that
+ history what were those computers like
+
+Speaker 0 :uh the mark iv filled
+ me a large room much big much bigger than this large office that we weretalking in now and you could walk around
+ inside it they were they were rows ofrelays you could just walk around the
+ interior and uh themachine would sometimes fail because of
+ bugs which literally meant flying creatures landing on the switchesso i never i never used that machine for
+ any practical purpose thelab eventually acquired a uh
+ one of one of the earlier um commercial computers
+
+Speaker 1 :this is already in the 60s no in the mid
+
+
+Speaker 0 :50s in mid 50s
+
+
+Speaker 1 :or mid late 50s there was already usual
+
+
+Speaker 0 :computers in there yeah we had a univac
+ a 2000 univac with 2000 words of storageand so you had to work hard to allocate
+ the memory properly to also the excess time from one word toanother
+ depended on the number of the particular words and so you therewas an
+ art to sort of arranging the storage allocation tomake fetching data rapid
+
+
+Speaker 1 :were you attracted to this actual
+ physical world implementation of mathematics so it's a mathematicalmachine that's
+ actually doing the math physically
+
+Speaker 0 :no not at all i think i was a
+ i was attracted to the underlying algorithms
+
+Speaker 1 :so but did you draw any inspiration so
+ could you have imagined like what did you imagine was the future of thesegiant computers could you imagine that
+ 60 years later would have billions of these computers
+
+Speaker 0 :all over the world i couldn't imagine
+ that but there was a sense in thelaboratory that this was the wave of the
+ future in fact my mother influenced me she shetold me that
+ data processing was going to be really big and i should get into it
+
+Speaker 1 :
+
+Speaker 0 :she's a smart woman yeah she was a smart
+ woman and there was just a feeling thatthis was going to change the world but i
+ i didn't think of it in terms of personal computing i hadn't thati had no anticipation that we would be
+ walking around with computers in our pockets or anything like that
+
+Speaker 1 :did you see computers as
+ tools as mathematical mechanisms to analyze sort ofsort of theoretical computer science or
+ as the ai folks which is an entire other community of dreamers yeah that'ssomething that could
+ one day have human level intelligence
+
+Speaker 0 :well ai wasn't very
+ much on my radar i did read uh turing's paper about the uh the uh
+
+Speaker 1 :the uh the drawing test computing and
+ intelligence
+
+Speaker 0 :yeah the turing test um what'd you think
+
+
+Speaker 1 :about that paper was that just like
+ science fiction
+
+Speaker 0 :um i thought that it wasn't a very good
+ test because it was too subjective so i i didn'tfeel that i didn't feel that the turing
+ test was really the right way to calibrate how intelligent an algorithmcould be
+
+
+Speaker 1 :to linger on that do you think it's pos
+ because you've come up with some incredibletests later on tests on algorithms right
+ yeah that are like strong reliable robust across abunch of different classes of algorithms
+ but returning to this emotional mess that is intelligence do you thinkit's possible
+ to come up with the test that's as iron-clad assome of the computational complexity
+
+
+Speaker 0 :work
+ well i think the greater question is whether it's possible to achievehuman level level intelligence
+
+
+Speaker 1 :right so that's so first of all let me
+ at the philosophical level do you think it's possible to create algorithmsthat reason and
+ would seem to us to have the same kind of intelligence as human beings
+
+Speaker 0 :it's an open question um it seems to me
+ that um most of the achievements have acquire operate within a very limitedset of ground rules and for a very
+ limited precise task which is a quite different situationfrom the
+ processes that go on in the minds of humans whichwhere they have to sort of function in
+ changing environments they have emotions they have[Music]
+ um physical attributes for acquire forexploring their environment
+ um they have intuition they have desires um emotions andi don't see anything in the current
+ achievements of what's called ai that come close to that capability idon't think there's any
+ computer program which surpasses a six-month-old child in termsof
+ comprehension of the world
+
+Speaker 1 :do you think this complexity of human
+ intelligence all the cognitive abilities we have allthe emotion
+ do you think that could be reduced one day or justfundamentally can it be reduced to an
+ out a set of algorithms or an algorithm so can a touring machine achieve humanlevel intelligence
+
+
+Speaker 0 :i am doubtful about that i guess the
+ argument in favor of it is that the human brainseems to achieve
+ what we call intelligence cognitive abilities of different kindsand if you buy the premise that the
+ human brain is just an enormous interconnected set ofswitches so to speak
+ then in principle you should be able to diagnose what that interconnectionstructure is like
+ characterize the individual switches and build asimulation outside but
+ why that may be true in principle that cannot be the way we'reeventually going to tackle this problem
+ it's you know you know that that does notseem like a feasible way to go about it
+ so it there is however an existence proof thatum uh if you believe that the brain is
+ is just a network of of neurons operating by rules i guessyou could say that that's an existence
+ proof of the ability to build the capabilities of a mechanism umbut it would be almost impossible to
+ acquire the information unless we got enough insight into the operation of the
+
+Speaker 1 :brain but there's so much mystery there
+ do you think what do you make of consciousness for examplethere's something as an example of
+ something we completely have no clue aboutthe fact that we have this subjective
+ experience right is it possible that thisnetwork of uh this circuit of switches
+ is able to create something like
+
+Speaker 0 :consciousness to know its own identity
+
+
+Speaker 1 :yeah to know to know the algorithm to
+ know itself
+
+Speaker 0 :to know itself i think if you try to
+ define that rigorously you'd have a lot of troubleyeah that's interesting
+ so i know that there are many who umbelieve that general
+ intelligence can be achieved and there are even some who arefeel certain that uh
+ the singularity will come and uh we will be surpassed by the machines which willthen
+ learn more and more about themselves and reduce humans to an inferior breedi am doubtful that this will ever be
+ achieved
+
+Speaker 1 :just for the fun of it could you linger
+ on why what's your intuition why you'redoubtful so there are
+ quite a few people that are extremely worried about thisuh existential threat of artificial
+ intelligence of us being left behind by the super intelligentnew species what's your intuition why
+ that's not quite
+
+Speaker 0 :likely just because
+ none of the achievements in speech or robotics ornatural language processing or creation
+ of flexible computer assistance or any ofthat comes
+ anywhere near close to that level of cognition
+
+Speaker 1 :what do you think about ideas as a sort
+ of uh if we look at moore's law and exponential improvement uh to allowus to
+ that would surprise us sort of our intuition fall apart with withexponential improvement
+ because i mean we're not able to kind of we kind of think in linear improvementyeah we're not able to imagine a world
+ that goes from the mark one computer to a an iphone 10.
+
+Speaker 0 :
+
+Speaker 1 :yeah so do you think it would be we
+ could be really surprised by the exponential growth oror on the flip side is is it possible
+ that also intelligence is actually way way way way hardereven with exponential improvement to be
+ able to crack
+
+Speaker 0 :i don't think any constant factor
+ improvement could could change things and givengiven our current comprehension
+ of how the of of what cognition requires it seems tome that
+ multiplying the speed of the switches by a factor of a thousand or a millionuh will not be useful until we really
+ understand the organizational principle behind the network of switches
+
+Speaker 1 :well let's jump into the network of
+ switches and talk about combinatorial algorithms if we couldlet's step back with the very basics
+ what are combinatorial algorithms and what are some major examples ofproblems they aim to solve a
+
+
+Speaker 0 :combinatorial algorithm
+ is is one which deals with a asystem of discrete objects that can
+ occupy various states or take on various values from a discrete set of valuesum and need to be arranged or
+ or selected um in such a way as to achieve some to minimize some costfunction
+ or to prove or to prove the existence of somecombinatorial so an example
+ would be um coloring the vertices of a graph
+
+Speaker 1 :what's a graph let's step back so what
+ uh and it's fun to uh to askone of the greatest computer scientists
+ of all time the most basic questions in the beginning of most booksbut for people who might not know but in
+ general how you think about it what is what is a graph
+
+Speaker 0 :uh a graph that's that's simple it's a
+ set of points certain pairs of which are joined bylines
+ called edges and they sort of represent the in differentapplications represent the
+ interconnections between discrete objects so they could be theinteractions interconnections between
+ switches in a digital circuit orinterconnections indicating the
+ communication patterns of a human community
+
+Speaker 1 :um and they could be directed or
+ undirected and then as you've mentioned beforemight have costs right they can be
+
+
+Speaker 0 :directed or undirected
+ they can be you can think of them as if if you think if a graph wererepresenting a
+ communication network then the edge could be undirected meaning thatinformation could flow along it in both
+ directions or it could be directed with onlyone-way communication
+ a road system is another example of a graph with weightson the edges and then a lot of problems
+ of optimizing the efficiency of such networks orlearning about the performance of such
+ networks um uh are thethe objective combinatorial algorithm so
+ it could be scheduling classes at a school wherethe the
+ vertices the nodes of the network are the individualclasses and uh the edges indicate the
+ constraints which say that certain classes cannot take place at the sametime or
+ certain teachers are available only at cert for certain classesetc or um
+ i talked earlier about the assignment problem of matching the boys with thegirls
+ um where um you have a very graph with an edge fromeach boy to each girl
+ with a weight indicating the cost or in logical design of computersyou might want to find a
+ set of so-called gates switches that perform logical functions which canbe interconnected to realize some
+ function so you you might ask umhow many gates do you need in order to
+ um for for a circuit togive a yes output if at least
+ a given number of its inputs are ones and no if not a few are
+
+Speaker 1 :are present my favorite is probably
+ all the all the work with network flows so anytime you haveuh i don't know why it's so compelling
+ but there's something just beautiful about it it seems like there's so manyapplications and communication networks
+ in uh traffic right flow that you can map into these and then youcan think of pipes
+ and water going through pipes and you could optimize it in different waysthere's something
+ always visually and intellectually compelling to me about it and of courseyou've done work there
+
+
+Speaker 0 :yeah yeah so so there
+ the edges represent channels along which some commodity can flow it might begas it might be water it might be
+ information
+
+Speaker 1 :maybe supply chain as well like products
+
+
+Speaker 0 :being products flowing from one
+ operation to another and the edges have a capacity which isthe rate at which the commodity can flow
+ and a central problem is to determine given a network of thesechannels in this case the edges are
+ communication channels the the challenge is to find the maximumrate
+ at which the information can flow along these channels to get froma source to a destination and
+ that's a that's a fundamental combinatorial problem that i i've workedon
+ jointly with the scientist jack edmunds wei think we're the first to give a formal
+ proof that this maximum flow problem through anetwork
+ can be solved in polynomial time
+
+Speaker 1 :which uh i remember the first time i
+ learned that just learning that in ummaybe even grad school i don't think it
+ was even undergrad no algorithm yeah do netfl network flowsget taught in in um basic algorithms
+ courses yes probably okay so yeah i've iremember being very surprised that max
+ flow is a polynomial time algorithm yeah thatthere's a nice fast algorithm that
+ solves max flow but so there is an algorithmnamed after you an admins they haven't
+ carp algorithm for max flow so what was it like tackling that problemand trying to arrive at a polynomial
+ time solution and maybe you can describe the algorithmmaybe you can describe what's the
+ running time complexity
+
+Speaker 0 :that you showed yeah well
+ first of all what is a polynomial time algorithm yeah perhaps we could
+
+Speaker 1 :discuss that so yeah let's let's
+ actually just even yeah that's what is algorithmicalgorithmic complexity what are the
+ major classes of algorithm complexity
+
+Speaker 0 :so we in in a problem like the
+ assignment problem or scheduling schools orany of these applications um
+ you have a set of input data which might for example be uma set of vertices connected by edges
+ with being you're given for each edge thecapacity of the edge
+ and you have algorithms which are think of them as computerprograms with operations such as
+ addition subtraction multiplication division comparison ofnumbers and so on
+ and you're trying to construct an algorithmbased on those operations
+ which will determine in a minimum number ofcomputational steps the answer to the
+ problem in this case the computational stepis one of those operations and the
+ answer to the problem is let's say the umthe configuration of the network that
+ carries the maximum amount of flow and an algorithm is said to run inpolynomial time
+ if as a function of the size of the input the number of vertices the numberof edges and so on
+ the number of basic computational steps growsonly as some fixed power of that size
+ a linear algorithm would execute a number of steps linearlyproportional to the size
+ quadratic algorithm would be steps proportional to the square of the sizeand so on
+ and algorithms that whose running time is bounded by somefixed power of the size are called
+ polynomial algorithms
+
+Speaker 1 :and that's supposed to be relatively
+ fast class of algorithms that's right we
+
+Speaker 0 :theoreticians take that to be
+ the definition of an algorithm being um efficient and andwe're interested in which problems can
+ be solved by such efficient algorithms one can arguewhether that's
+ the right definition of efficient because youcould have an algorithm whose running
+ time is the ten thousandth power of the size of the input and thatwouldn't be
+
+
+Speaker 1 :really efficient and in practice it's
+ oftentimes reducing from an n squared algorithm toan n log n or a linear time
+ is practically the jump that you want to maketo allow a real world system to solve a
+
+
+Speaker 0 :problem
+ yeah that's also true because especially as we get very large networksthe size can be in the millions and uh
+ and then anything above uh n log n where n is the size would beuh too much for a practical solution
+
+
+Speaker 1 :okay so that's polynomial time
+ algorithms what other classes of algorithms are therewhat's so that usually they they
+ designate polynomials of the letter p yeah there's alsonp np complete and be hard yeah
+ so can you try to disentangle those and by trying to define them simply
+
+Speaker 0 :right so a polynomial time algorithm is
+ one which was running time is bounded by apolynomial and the size of the input
+ uh there's then there's that the class of such algorithms iscalled p in the worst case by the way we
+
+
+Speaker 1 :should say
+
+
+Speaker 0 :right yeah for every case of the problem
+ and that's very important that in this theory when we measure thecomplexity of an algorithm
+ we really measure the number of step the growth of the numberof steps
+ in the worst case so you may have an algorithm that[Music]
+ runs very rapidly in most cases but if there isany case where it gets into a very long
+ computation that would increase the computationalcomplexity by this measure
+ and that's a very important issue because thereas we may have discussed later there are
+ some very important algorithms which don't have a goodstanding from the point of view of their
+ worst case performance and yet are very effective soso theoreticians are interested in p the
+ class of problem solvable in polynomial timethen there's np
+ which is the class of problems which may be hard to solve but where thewhere when confronted with the solution
+ you can check it in polynomial time let me give you anexample there
+ so if we look at the assignment problem uh so you haveuh n boys you have n girls you the
+ number of numbers that you need to write down to specify theproblem instances
+ n squared and the question ishow many steps are needed to solve it
+ and jack edmonds and i were the first toshow that it could be done in time
+ n cubed uh earlier algorithms required n to the fourth so as a polynomialfunction of the size of the input this
+ is a fast algorithm now to illustrate theclass
+ np the question is how long would it take to verify that a solutionis optimal so for example
+ if if the input was a graph we might want to find the largestclique in the graph or a clique is a set
+ of vertices such that any vertex each vertex in theset is adjacent
+ to each of the others so the clique is a complete subgraph
+
+Speaker 1 :yeah so if it's a facebook social
+ network everybody's friends with everybody else it's close click no
+
+Speaker 0 :that would be what's called a complete
+ graph it would be
+
+Speaker 1 :no i mean uh within that click uh within
+
+
+Speaker 0 :that clique yeah
+ yeah they're all friends so a complete
+
+Speaker 1 :graph is when
+ everybody is friendly as everybody is friends with everybody yeah
+
+Speaker 0 :so the problem might be to determine
+ whether in a given graph there exists a cliqueof a certain size
+ well that turns out to be a very hard problem but howbut if somebody hands you a clique and
+ asks you to check whether it is a hands you a set ofvertices and ask you to check whether
+ it's a clique you could do that simply by exhaustivelylooking at all of the edges between the
+ vertices and the clique and verifying that they're all there and
+
+Speaker 1 :that's a polynomial time
+
+
+Speaker 0 :that's a polynomial so the verify there
+ the problem of finding the clique appears to be extremely hard but theproblem of verifying a clique
+ to see if it reaches the target number of verticesis easy to solve is easy to verify
+ so finding the clique is hard checking it is easyproblems of that nature are called the
+ non-deterministic polynomial time algorithmsand that's the class np
+
+
+Speaker 1 :and what about mp complete and be hard
+
+
+Speaker 0 :okay
+ let's talk about problems where you're getting a yes no a yes or no answerrather than a numerical value so either
+ there is a a perfect matching of the of theboys with the girls or there isn't
+ it's clear that um every problem in p is also in np if you can solve theproblem
+ exactly then you can certainly verify the solution on the other handthere are problems in the class np
+ this is the class of problems that are easy to checkalthough they may be hard to solve it's
+ not at all clear that problems in np lie in p so for exampleif we're
+ looking at scheduling classes at a schoolthe fact that you can
+ verify when handed a schedule for the school whether it meets all therequirements
+ that doesn't mean that you can find the schedule rapidlyso intuitively np non-deterministic
+ polynomial checking rather than findingis going to be harder than
+ is going to include is easier checking is easier and therefore the class ofproblems that can be checked
+ appears to be much larger than the class of problems that can be solved
+
+Speaker 1 :and then you keep adding appears to and
+ uh sort of these uh additional words that designate that we don't know forsure yet
+
+
+Speaker 0 :we don't know for sure so the
+ theoretical question which is considered to be the most central problem intheoretical computer science or at least
+ computational complexity theory combinatorial algorithm theorythe question is whether p is equal to np
+ if p were equal to np it would be amazing it would meanthat every
+ problem where a solution can be rapidly checked can actually be solved inpolynomial time we don't really believe
+ that's true if you're scheduling classes at a schoolit's we expect that if somebody hands
+ you a satisfying schedule you can verifythat it works
+ that doesn't mean that you should be able to find such a scheduleso intuitively np encompasses a lot more
+
+
+Speaker 1 :problems than p so can
+ we take a small tangent and break apart that intuitionso do you first of all think that
+ the biggest sort of open problem in computer science maybe mathematicsis whether p equals np do you think
+ p equals np or do you think p is not equal to np if you had to bet allyour money on it
+
+
+Speaker 0 :i would bet that p is unequal to np
+ uh simply because there are problems that have been around for centuries andhave been studied intensively in
+ mathematics and even more so in the last 50 yearssince the
+ p versus np was stated and no polynomial time algorithms have beenfound for these
+ easy to check problems so one one example is a problem that goes backto the mathematician
+ gauss who is interested in um factoring large numbers so uhwe know what a number is prime if it
+ doesn't if it cannot be written as the productof
+ two or more numbers unequal to one uh so if we can factor the a number like91 that's 7 times 13
+ but if i give you 20 digit or 30 digit numbers you'reprobably going to be at a loss to
+ have any idea whether they can be factoredso the pr the problem of factoring very
+ large numbers is does not appear to have an efficientsolution
+ but once you have found the factors express the number as a product the twosmaller numbers you can quickly verify
+ that they are factors of the number
+
+Speaker 1 :and your intuition is a lot of people
+ finding you know this a lot of brilliant people have tried tofind algorithms for this one particular
+ problem there's many others like it that are really wellstudied and it would be great
+ to find an efficient algorithm for right
+
+Speaker 0 :and in fact we have
+ some results that i was instrumental in obtainingfollowing up on work by the
+ mathematician stephen cook to show that within the classnp of easy to check problems
+ there's a huge number that are equivalent in the sense that eitherall of them or none of them lie in p
+ and this happens only if p is equal to npso if p is unequal to np we would also
+ know thatvirtually all the standard combinatorial
+ problems if p is unequal to np none of them canbe solved in polynomial time
+
+
+Speaker 1 :can you explain how that's possible to
+ tie together so many problems in a nice bunch that if one is proven tobe efficient
+
+
+Speaker 0 :then all are the first
+ and most important stage of progress was a result by stephen cookwho showed that a certain problem called
+ the satisfiability problem of propositional logicis as hard as any problem in the class p
+ so the propositional logic problem is expressed in terms ofexpressions involving the logical
+ operations and or and not offering operatingoperating on variables that can be
+ either true or false so an instance of the problem would besome formula involving and or and not
+ and the question would be whether there is an assignment oftruth values to the variables in the
+ problem that would make the formula true so forexample if i take
+ the formula a or b and a or not b and not a or b and not aor not b and take the conjunction of all
+ four of those so-called expressions you can determinethat
+ no assignment of truth values to the variables a and bwill allow that conjunction of
+ cl what are called clauses uh to be true so that's an example of a formulain propositional logic
+ involving expressions based on the operations andor and not um that's an example of a
+ problem which has which is not satisfiable there is no solution thatsatisfies all of those constraints
+
+
+Speaker 1 :and that's like one of the cleanest and
+ fundamental problems in computer science it's like a nice statement of a reallyhard problem it's a nice statement a
+
+
+Speaker 0 :really hard problem
+ and and what cook showed is that every problem in npis can be re-expressed as
+ an instance of the satisfiability problemso to do that
+ he used the observation that a very simple abstract machine called theturing machine
+ can be used to describe any algorithman algorithm for any realistic computer
+ can be translated into an equivalent algorithmon one of these turing machines which
+ are extremely simple
+
+Speaker 1 :it's a tour machine there's a tape and
+ you can yeah you have to walk along that
+
+Speaker 0 :data on a tape and you have basic
+ instructions a finite list of instructions which saywe
+ would say if you're reading a particular symbol on the tapeand you're in a particular state then
+ you can move to a different state and change the stateof the number that you
+ or the element that you were looking at the cell of the tape that you werelooking at
+
+
+Speaker 1 :and that was like a metaphor and a
+ mathematical construct that touring put together to representall possible computation all possible
+
+
+Speaker 0 :computation now one of these
+ so-called turing machines is too simple to be useful in practicebut for theoretical purposes we can
+ depend on the fact that an algorithm for any computercan be
+ translated into one that would run on a turing machineright and then using that fact
+ um he could sort of describe any possible nondeterministic polynomialtime algorithm any pro
+ any algorithm for a problem in np could be expressed as a sequence ofmoves of the turing machine described in
+ terms of reading a symbol on the tapewhile you're in a given state and moving
+ to a new state and leaving behind a new new symbol and given thatthe fact that any non-deterministic
+ polynomial time algorithm can be described by a list of suchinstructions
+ you could translate the problem into the language of the satisfiabilityproblem
+
+
+Speaker 1 :is that amazing to you by the way if you
+ take yourself back when you were first thinking about the space of problems isthat
+ how amazing is that it's astonishing
+
+Speaker 0 :when you look at cook's proof it's not
+ too difficult to sort of figure out why this iswhy this is so but the implications are
+ staggering it tells us that this of all theproblems in
+ np all the problems where solutions are easy to checkthey can they can all be rewritten
+ in terms of the satisfiability problem
+
+Speaker 1 :yeah it's a in adding so much more
+ weight to the p equals np question because all it takes is to showthat one
+ that's right one algorithm in this class
+
+Speaker 0 :so the p versus np
+ can be re-expressed is simply asking whether thesatisfiability problem of propositional
+ logic you'll solve a billion polynomial timebut there's more
+ uh i i encountered cook's paper when he published it in a conference in1971.
+ yeah so when i saw uh cook's paper and sawthis uh reduction event of all of each
+ of the problems in np by a uniform method to to thesatisfiability problem of propositional
+ logic that meant that the satisfiabilityproblem was a universal combinatorial
+ problem and it occurred to methrough experience i had had in trying
+ to solve other combinatorial problems that there were many other problemswhich
+ seemed to have that universal structure and so i began looking forreductions from the satisfiability
+ to other problems one of the other problems would be theso-called integer programming problem
+ of solving a determining whether there's a solution to aum a set of linear inequalities
+ involving integer variables just like linear
+
+Speaker 1 :programming but there's a constraint
+ that the variables must remain integers
+
+Speaker 0 :integers in fact must be either zero or
+ one because they could only take on those
+
+Speaker 1 :values and that makes the problem much
+ harder
+
+Speaker 0 :yes that makes the problem much harder
+ and it was not difficult to show thatthe satisfiability problem can be
+ restated as an integer programming problem so can
+
+Speaker 1 :you pause on that was that one of the
+ first problem mappings that you try to do and how hardis that map you said it wasn't hard to
+ show but you know that's a that's a big
+
+Speaker 0 :leap it is a big leap yeah
+ well let me let me give you another example umanother problem in np is whether a graph
+ contains a clique of a given size and now the question is can we reducethe propositional
+ logic problem to the problem of whether there's a clique of a certainsize
+ well if you look at the propositional logic problem it can be expressed as anumber of
+ clauses each of which is aof the form a
+ or b or c where a is either one of the variables in the problem or thenegation of one of the variables
+ and the an instance of the propositional logicproblem
+ can be rewritten using operations of boolean logic can be rerewritten as the conjunction of a set of
+ clauses the and of a set of ors where eachclause
+ is a disjunction an or of variables or negated variablesso the pro the question of uh
+ the in the satisfiability problem is whether those clauses can besimultaneously
+ satisfied now to satisfy all those clauses you have tofind one of the terms in each clause
+ which is going to be given that which is going to be true in your truthassignment
+ but you can't make the same variable both true and falseso if you have the variable a
+ in one clause and you want to satisfy that clause by making a true youcan't also make
+ the complement of a true in some other clause and so the goal is to make every
+
+Speaker 1 :single clause
+ true if it's possible to satisfy this andthe way you make it true is at least one
+
+
+Speaker 0 :term in the clause must be
+ it must be true so so now we uh to convert this problemto something called the independent set
+ problem where you're just sort of asking for a set ofvertices in a graph such that no two of
+ them are adjacent sort of the opposite of the clique problemso we've seen that we can now
+ express that as finding aset of terms one in each clause
+ without picking both the variable and the negation of that variablebecause you if the variable is assigned
+ the truth value the negated variable has to have theopposite truth value
+ right and so we can construct the graph where the vertices are theterms in all of the clauses
+ and you have an edge between twoterms if um
+ if an edge between two occurrences of termsif they're both in the same clause
+ because you're only picking one element from each clause and alsoan edge between them if they represent
+ opposite values of the same variable because you can't make a variable bothtrue and false
+ and so you get a graph where you have all of theseoccurrences of variables you have edges
+ which which mean that you're not allowed to chooseboth ends of the edge either because
+ they're in the same clause or they're con negations of one another all right
+
+Speaker 1 :and that's uh
+ first of all sort of to zoom out that's a really powerful idea that you can takea graph and connect it to a
+ logic equation right somehow and do that mapping forall possible formulations of a
+ particular problem on a graph yeah i mean that thatstill is hard for me to believe that
+ that's possible that that they're like what do you makeof that
+ that um there's such a union of there's such a friendship among allthese problems across
+ that somehow are akin to combinatorial uh algorithms that they're all somehowrelated
+ yeah i i know it can be proven yeah but what do you make of itthat that that's true
+
+
+Speaker 0 :well if they just have the same
+ expressive power you can take any one of them andtranslate it into the terms of the other
+ you know
+
+Speaker 1 :the fact that they have the same
+ expressive power also somehow means that they can be translatable
+
+Speaker 0 :right
+ and what i did in the 1971 paper was to take21 fundamental problems
+ commonly occurring problems of packing covering matching and so forthor lying in the class np
+ and show that the satisfiability problem can bere-expressed as any of those that any of
+ those have the same expressive proper uh expressive power
+
+Speaker 1 :so and that was like throwing down the
+ gauntlet of saying there's probably many more problems likethis right but that's just saying that
+ look that they're all the same they're all the
+
+Speaker 0 :same but not exactly
+ yeah yeah they're all the same in terms of whether they areum rich enough to express any of the
+ others but that doesn't mean that they have thesame computational complexity
+ but what we can say is that either all of these problems or none of themare solvable in polynomial time
+
+
+Speaker 1 :yeah so where does np completeness and
+ np hard classes well that's just a small
+
+Speaker 0 :technicality
+ so when we're talking about decision problemsthat means that the answer is just yes
+ or no there is a clique of size 15 or there'snot a clique of size 15.
+ on the other hand an optimization problem would be askingfind the largest clique the answer would
+ not be yes or no it would be 15. so umso when you're asking for the
+ when you're putting a valuation on the different solutionsand you're asking for the one with the
+ highest valuation that's an optimization problemand there's a very close affinity
+ between the two kinds of problems but the counterpart ofbeing the hardest decision problem
+ the hardest yes no problem the kind of part of thatuh is is to minimize or maximize
+ an objective function and so a problem that'shardest in the class when viewed in
+ terms of optimization those are called np-hard rather than
+
+Speaker 1 :np-complete and np-complete is for
+ decision problems and np-complete is for
+
+Speaker 0 :decision problems so
+
+
+Speaker 1 :if somebody shows that p equals np
+ what do you think that proof will look likeif you were to put on yourself if it's
+ possible to show that as a proof or to demonstrate an algorithm
+
+Speaker 0 :all i can say is that it will involve
+ concepts that we do not now have and approaches that we don't have do you
+
+Speaker 1 :think those concepts are out there
+ in terms of inside complexity theory inside of computational analysis ofalgorithms do you think there's concepts
+ that are totally outside of the box that we haven't considered yet i think
+
+Speaker 0 :that if there is a proof that p
+ is equal to np or that p is not equal to npuh it'll depend on concepts that are now
+ outside the box now if that's shown
+
+Speaker 1 :either way p
+ equals np or p not well actually p equals npwhat impact you kind of mentioned a
+ little bit but can you can you linger on it what kind of impactwould it have
+ on theoretical computer science and perhaps softwarethese systems in general well i think it
+
+
+Speaker 0 :would have enormous impact on the
+ on the world any in either way case if p is unequal to np which is what weexpect
+ then we know that we're in that for the great majority of the combinatorialproblems that come up
+ since they're known to be np complete uh we're not going to be able to solvethem by
+ efficient algorithms however there's a little bit of hope in thatit may be that we can solve most
+ instances all we know is that if a problem is notin p then
+ then it can't be solved efficiently on all instancesum but but basically it will
+ um it will if we find that p is unequal to np it will mean that we can'texpect always to get the optimal
+ solutions to these problems and we have to depend on heuristics thatperhaps work
+ most of the time or give us good approximate solutionsbut not so we would turn our eye towards
+
+
+Speaker 1 :the heuristics
+ with a little bit more um acceptance and comfort on our hearts
+
+Speaker 0 :
+
+Speaker 1 :exactly okay so let me ask a
+ romanticized question what to you is one of the most or themost beautiful
+ combinatorial algorithm in your own life or just in general in the field thatyou've ever come across
+ or have developed yourself oh i like the
+
+Speaker 0 :stable matching problem
+ or the stable marriage problem uh very much what's the stable matching
+
+Speaker 1 :problem
+
+
+Speaker 0 :yeah imagine that you
+ want to marry off n boys with uh and girlsand each boy has an ordered list of his
+ preferences among the girls his first choice is second choicethrough her nth choice
+ and um each girl also has a an ordering of theboys first choice second choice and so
+ on and we'll say and we will say that amatching
+ one-to-one matching of the boys with the girls is stableif there are
+ no two couples in the matching such that the boy in the first coupleprefers the girl in the second couple to
+ her mate and she refers the boy to her currentmate in other words if there is
+ the matching is stable if there is no pairwho want to run away with each other
+ leaving their partners behind
+
+Speaker 1 :gosh yeah
+
+
+Speaker 0 :
+
+Speaker 1 :
+
+Speaker 0 :uh yeah actually this is relevant to
+ matching uh uh residents with hospitals and some other real life problemsalthough
+ not quite in the form that i described so it turns out that there is that astable for any set of preferences
+ a stable matching exists and um moreover it can be computedby a simple algorithm in which
+ each boy starts making proposals to girlsand if the girl receives the proposal
+ she accepts it tentatively but she candrop it if she can end it she can drop
+ it later if she gets a better proposal fromher point of view
+ and the boys start going down their lists proposing to their first secondthird choices
+ until stopping when a proposal is acceptedbut the girls meanwhile are watching the
+ proposals that are coming into them and the girl will drop her currentpartner
+ um if she gets a better proposal
+
+Speaker 1 :and the boys never go back through they
+
+
+Speaker 0 :they never go back
+ yeah so once they've been denied they don't try again they don't theydon't they don't try again because
+ the girls are always improving their status as they get more as they receivebetter and better proposals the boys are
+ going down their list starting with their top preferencesand um
+ one can prove that that the process will come to an endwhere everybody will get matched with
+ somebody and you'll you won't have any pair thatwant to
+ abscond from each other do you find the
+
+Speaker 1 :proof or the algorithm itself
+ beautiful or is it the fact that with the the simplicity of justthe two marching i mean the simplicity
+ of the underlying rule of the algorithm is that the beautiful part both i i
+
+Speaker 0 :would say
+ um and you also have the observation thatyou might ask who is better off the boys
+ who are doing the proposing or the girls who are reactingto proposals
+ and it turns out that it's it's the boys who are doingthe doing the best that is each boy is
+ doing at least as well as uh he could do in any other stablematching
+ so there's a sort of lesson for the boys that you should go out and beproactive and make those proposals
+
+
+Speaker 1 :go for broke yeah i don't know if the
+ this is directly mappable philosophically to our society but uhcertainly
+ seems like a compelling notion and like you said there's probably a lot ofactual real world problems that this
+ could be mapped to
+
+Speaker 0 :yeah well you get you you get
+ complications for example what happens when a husbandand wife want to be assigned to the same
+ hospital so you you have totake those constraints into account and
+ then the problem becomes np hard or
+
+Speaker 1 :uh why is it a problem for the husband
+ and wife to be assigned to the same hospital
+
+Speaker 0 :no it's desirable so desirable or at
+ least go to the same city so you can't if you're i think if you'reassigning
+ residents to hospitals and then you have
+
+Speaker 1 :some preferences
+ uh for the husband and wife for for the hospitals
+
+Speaker 0 :the residents have their own preferences
+ references residents both male and female have their own preferencesum the hospitals have their preferences
+ but if if resident a the boy is going tophiladelphia
+ then you'd like his wife be also to be assigned to a hospitalin philadelphia so which step makes it a
+
+
+Speaker 1 :and be hard problem
+
+
+Speaker 0 :do you mention the fact that you have
+ this additional constraint that it's not just the preferences ofindividuals
+ but the fact that the two partners to a marriagehave to go to have to be assigned to the
+ same place
+
+Speaker 1 :i'm being a little dense uh
+ the sort of the perfect matching no not the stablematching is what you refer to
+ that's when two partners are trying to
+
+Speaker 0 :okay what's confusing you is
+ that in the first interpretation of the problem i had boys matching with girlsyes in the second interpretation
+ you have humans matching with institutions
+
+Speaker 1 :i and there's a coupling between within
+ the gotcha within the humans any addedlittle constraint will make it an empty
+ heart problem well
+
+Speaker 0 :yeah okay
+
+
+Speaker 1 :by the way the algorithm you mentioned
+ wasn't was one of yours no no that was
+
+Speaker 0 :due to
+ gail and shapley and uh my friend david gale passed away beforehe could get part of the nobel prize
+ but his partner shapley shared in a nobel prize with somebodyelse for economics
+ for huma for economics uh for ideas stemming from this stablematching idea
+
+
+Speaker 1 :so you've also have developed yourself
+ some elegant beautiful algorithms again picking yourchildren
+ so the the the robin carp algorithm for string searching pattern matchingadmin carb algorithm for max flows we
+ mentioned hop craft carbon algorithm for finding maximum cardinalitymatchings and bipartite graphs
+ is there ones that stand out to you as ones you're most proud of or just umwhether it's beauty elegance or
+ just being the right discovery development in your lifethat you're especially proud of i like
+
+
+Speaker 0 :the
+ raven carp algorithm because it illustrates the power ofrandomization
+ so the the problem there isto um
+ is to decide whether uh a given long string of symbols from somealphabet contains a given word
+ whether a particular word occurs within some very much longer wordand so the the idea of the
+ algorithm is to associate with the word that we're looking fora fingerprint some
+ some number or some combinatorial object thatdescribes that word and then to look for
+ an occurrence of that same fingerprint as you slide along the longer wordand what we do is we
+ associate with each word a number so we first of all we think of theletters that are kind of occur in a word
+ as the digits of let's say decimal or whateverbase your whatever number of different
+ symbols there
+
+Speaker 1 :are that's the base of the of the
+ numbers yeah right
+
+Speaker 0 :so every word can then be thought of as
+ a number with the letters being the digits ofthat number
+ and then we pick a random prime number in a certain rangeand we take that word viewed as a number
+ and take the remainder on dividing the dividing that numberby the prime so coming up with a nice
+
+
+Speaker 1 :hash function
+
+
+Speaker 0 :it's a it's a kind of hash function yeah
+
+
+Speaker 1 :um
+ it gives you a little little shortcut for for that particular word
+
+Speaker 0 :yeah that so that's the that's the
+
+
+Speaker 1 :uh it's very different than the any and
+ other algorithms of its kind that we're trying to dosearch uh
+ string matching yeah which
+
+Speaker 0 :usually are combinatorial and don't
+ involve the idea of taking a random fingerprintyes
+ and doing the fingerprinting has two advantages one is that as we slidealong the long word
+ digit by digit we can we we keep a window of of a certain size the sizeof
+ the word we're looking for and we compute the fingerprint of everystretch of that length and it turns out
+ that just a couple of arithmetic operationswill take you
+ from the fingerprint of one part to what you get when you slide over byone position
+ so the computation of all the fingerprintsis um simple
+ and secondly it's unlikely if the prime is chosen randomly from acertain range
+ that you will get two of the segments in question having the same fingerprintright and so there's a small probability
+ of error which can be checked after the factand also the ease of doing the
+ computation because you're working with these fingerprintswhich are remainders modulo some big
+ prime
+
+Speaker 1 :so that's the magical thing about
+ randomized algorithms is that if you add a little bitof randomness it somehow allows you to
+ take a pretty naive approach a simple looking approach and allow itto run
+ extremely well so can you maybe take a step back and say like what is arandomized algorithm this category of
+ algorithms
+
+Speaker 0 :well it's um just the ability to draw a
+ random number from such um from some range or toto associate a random number with some
+ object or to draw fro at random from some setso another
+ example is very simple if we're conducting a presidential electionand we would like to pick the winner
+ in principle we could draw a random sample of all of the voters inthe country
+ and if it was a side of substantial size say a few thousandthen the most popular candidate in that
+ group would be very likely to be the correct choicethat would come out of counting all the
+ millions of votes of course we can't do this because firstof all everybody has to feel that his or
+ her vote counted and secondly we can't really do a purelyrandom sample
+ from that population and i guess thirdly there could be a tiein which case we wouldn't have a
+ significant difference between
+
+Speaker 1 :two candidates but those things aside if
+ you didn't have all that messiness of human beingsyou could prove that that kind of random
+ picking would be just that random
+
+Speaker 0 :picking
+ would would be would solve the problem with a verywith a very low probability of error
+ another example is testing whether a number is prime so ifi want to test whether
+ [Music] 17 is primei could pick any number between
+ 1 and 17 and raise it to the 16th power modulo 17 and you should get back theoriginal number
+ that's a famous formula due to ferma about it's called fairmont'slittle theorem that
+ if you take any a any number a in the range0 through n minus 1. and raise
+ it to the n minus one paper uh power modulo n you'll get back thenumber
+ a if the number is if a is prime yeah so if you don't get back the numbera that's a proof that a number is not
+ prime well andyou can show that um
+ suitably define the the the probability that you will geta value unequal you will get a violation
+ of fermat's result is very high and so this givesyou a way of
+ rapidly proving that a number is not primeit's a little more complicated than that
+ because uh there are certain values of n where something a littlemore elaborate has to be done but that's
+ the basic idea using taking an identity that holds forprimes and therefore
+ if it ever fails on any instance for a non-prime unit you know that thenumber is not prime it's a quick
+ joy a fast choice fast proof that a number is not prime
+
+Speaker 1 :can you maybe elaborate a little bit
+ more what's your intuition why randomness works so well and results insuch simple algorithms
+
+
+Speaker 0 :well uh the example of conducting an
+ election where you could take in in theory you could take asample and depend on the
+ validity of the sample to really represent the wholeis a just the basic fact of statistics
+ which gives a lot of opportunities umand i actually exploited that sort of
+ random random sampling idea in uh designing analgorithm for
+ counting the number of solutions that satisfy a particularformula and propositional calc
+ propositional
+
+Speaker 1 :particular so some some some uh
+ version of the satisfiability problem or
+
+Speaker 0 :a version of the satisfiability problem
+
+
+Speaker 1 :is there some interesting insight that
+ you want to elaborate on like what some aspect of that algorithm that mightbe
+
+
+Speaker 0 :useful to describe so you you have a
+ a collection of formulas and you want tocount the number
+ of solutions that satisfy at least one of theformulas
+ and you can count the number of solutions that satisfyany particular one of the formulas but
+ you have to account for the fact that that solution might becounted many times if it solves
+ more than one of the formulas and so what what you do is yousample from the formulas according to
+ the number of solutions that satisfy each individual one in that way you drawa random solution
+ but then you correct by looking at the number of formulas that satisfy thatrandom solution
+ and uh and don't double count so if if you you can think of it thisway so you have a
+ matrix of zeros and ones and you want to knowhow many columns of that matrix contain
+ at least one one and you can count in each row how manyones there are
+ so what you can do is draw from the rows according tothe number of ones if a row has more
+ ones it gets to run more frequently but thenif you draw from that row you have to go
+ up the column and looking at where that same one is repeated indifferent rows and only
+ count it as a success or a hit if it's theearliest row that contains the one right
+ and that gives you a robust statistical estimate of the total numberof columns that contain at least one of
+ the ones so that that is an example ofthe same principle that was used in
+ studying random sampling another viewpoint is thatif you have a phenomenon that occurs
+ almost all the time then if you sample one of theoccasions where it occurs you're most
+ likely to and you're looking for an occurrence arandom occurrence is likely to work
+ so that comes up in solving identities solving algebraic identitiesyou
+ you get um two formulas that may look very different you want to know ifthey're really identical
+ what you can what you can do is just pick a random value and evaluate theformulas at those two
+ at that value and see if they seeing if they agreeand you depend on the fact
+ that if the formulas are distinct then they're going to disagree a lotand so therefore a random choice will
+ exhibit the disagreement if there are many ways for the two todisagree
+ and you only need to find one disagreement then random choice islikely to yield it and in general so
+
+
+Speaker 1 :we've just talked about randomized
+ algorithms but we can look at the probabilistic analysis of algorithmsand
+ that gives us an opportunity to step back and as we saideverything we've been talking about is
+ worst case analysis right could you maybe comment onthe usefulness and the power of worst
+ case analysis versus best case analysis average caseprobabilistic how do we think about the
+ future of theoretical computer science computer sciencein the kind of analysis we do of
+ algorithms does worst case analysis still have a placean important place or do we want to try
+ to move forward towards kind of average case analysis yeah and what whatare the challenges there
+
+
+Speaker 0 :so if worst case analysis shows that
+ an algorithm is always good that's fine if worst case analysis uhis used to show that the problem
+ that the solution is not always good then you have to step back and dosomething else to ask how often will
+ you get a good solution just to pause on
+
+Speaker 1 :that for a second that
+ that's so beautifully put because i think we tend to judge algorithmswe throw them in the trash the moment
+ their their worst case is shown to be badright and and
+
+
+Speaker 0 :and that's unfortunate i think we use
+ a good example is um going back to the satisfiability problemthere are very powerful programs called
+ set solvers which in practice fairly reliablysolve instances with many millions of
+ variables that arise in a digital design or improving programscorrect and other applications
+ and so in in many application areas even though satisfiability as we'vealready discussed is
+ npe complete the sat solvers will work so well that the peoplein that discipline tend to think of
+ satisfiability as an easy problem so in other words justfor some reason that we don't entirely
+ understand the instances that people formulate indesigning digital circuits or other
+ applications are such thatsatisfiability is not hard to check
+ and even searching for a satisfying solution can be done efficientlyin practice and there are
+ many examples for example we talked about the traveling salesman problemso just to refresh our memories uh the
+ problem is you've got a set of cities you have pairwisedistances between cities
+ um and you want to find a tour through all the cities thatminimizes the total the total cost of
+ all the edges traversed all all the trips between cities theproblem is
+ np hard but people using integer programming codestogether with some other mathematical
+ tricks solvegeometric instances of the problem where
+ the cities are let's say points in the planeuh and get optimal solutions to problems
+ with tens of thousands of cities actually it'll take a few computermonths to
+ solve a problem of that size but for problems of size a thousand or twoit'll rapidly get optimal solutions
+ provably optimal solutions even though again we know that it'sunlikely that the traveling salesman
+ problem can be solved in polynomial time
+
+Speaker 1 :are there methodologies like rigorous
+ systematic methodologies
+
+Speaker 0 :for you said
+
+
+Speaker 1 :in practice in practice this algorithm
+ is pretty good are there systematic ways ofsaying in practice this sounds pretty
+ good so in other words average case analysisor you've also mentioned that average
+ case kind of requires you to understand whatthe typical cases
+ typical instances and that might be really difficult that's very difficult
+
+Speaker 0 :so
+ after i did my original work on getting uh showing all these problems tobe np complete
+ i looked around for a way to get some shed some positive light oncombinatorial algorithms
+ and what i tried to do was to study problems behavior on the average orwith high probability but i had to make
+ some assumptions about what what's the probability space what'sthe sample space what do they
+ what do we mean by typical problems that's very hard to sayso i took the easy way out and made some
+ very simplistic assumptions so i assumed for example that if we weregenerating a graph
+ with a certain number of vertices and edgesthen we would generate the graph by
+ simply choosing one edge at a time at ran at random until we got the rightnumber of edges
+ that's that's a particular model of random graphs that has been studiedmathematically a lot
+ and within that model i i could prove all kinds of wonderful thingsi and others who also worked on this
+ so we could show that we know exactly how many edges there have to bein order for
+ um there be a so-called hamiltonian circuit that's acycle that
+ visits each vertex exactly once we know that if the number ofedges is a little bit more than n log n
+ where n is the number of vertices then where such a cycle is very likely toexist
+ and we can give a heuristic that will find it with her high probabilityand we got a the community
+ in which i was working got a lot of results along these linesbut the field tended to be rather
+ lukewarm about accepting these results as meaningfulbecause we were making such a simplistic
+ assumption about the kinds of graphs that we would be dealing with so wecould show all kinds of wonderful things
+ it was a great playground i enjoyed doing itbut after a while i
+ concluded that um that it didn't have a lot of bite interms of the practical application
+ oh the okay so there's too much into the
+
+Speaker 1 :world of toy problems
+ yeah that can okay but all right so but is is there a way to find nicerepresentative real world
+ impactful instances of a problem on which demonstratethat an algorithm is good so this is
+ kind of like the machine learning world that's kind of what they at his besttries to do is
+ find a data set from like the real world and show the performance all theall the conferences are all focused on
+ beating the performance of on that real world data set is therean equivalent
+ in complexity analysis not
+
+Speaker 0 :really um don knuth
+ started to collect examples of graphs coming from various places so he wouldhave a whole
+ zoo of different graphs that he could choose from and hecould study the performance of
+ algorithms on different types of graphs and um but there it's really important
+
+Speaker 1 :and compelling to be able to define
+ a class of graphs so that the the actual act of defining a class of graphs thatyou're interested in it seems to be
+ a non-trivial step if we're talking about instances that we should careabout in the real world
+
+
+Speaker 0 :yeah it's there's nothing
+ available there that would be analogous to the training set for supervisedlearning
+ you know where you sort of assume that the world hasgiven you a bunch of examples
+ to work with we don't really have that forproblems for combinatorial problems on
+ graphs and networks
+
+Speaker 1 :you know there's been a huge growth a
+ big growth of data sets available do you think some aspect oftheoretical computer science
+ i might be contradicting my own question while saying it butwill there be some aspect an empirical
+ aspect of theoretical computer science which will allow the fact that thesedatasets are huge we'll start using them
+ for analysis sort of you know if you want to saysomething about
+ a graph algorithm you might take a net a social network like facebookand looking at subgraphs of that and
+ prove something about the facebook graph and be respected and at the same time berespected in the theoretical computer
+ science community that hasn't been
+
+Speaker 0 :achieved yet i'm afraid
+
+
+Speaker 1 :is that is that uh is it p equals np is
+ that impossible is is it impossible to publish asuccessful paper in the theoretical
+ computer science community that shows somesome performance on a real-world data
+ set or is that really just those are two different worlds
+
+Speaker 0 :well they haven't really come together i
+ would say that there is a field of experimental algorithmicswhere people sometimes are given some
+ family of examples sometimes they just generate them at randomand they report on performance
+ but there's no convincing evidence that the sample isrepresentative of anything at all
+
+
+Speaker 1 :so let me ask in terms of breakthroughs
+ and open problems what are the most compelling open problems to youand what possible breakthroughs do you
+ see in the near term in terms of theoretical computer science
+
+Speaker 0 :well there are all kinds of
+ relationships among complexity classes that can be studiedjust to mention one thing i wrote a
+ paper with richard lipton in 1979where we asked the following question um
+ if you take a problem a combinatorial problem in np let's sayand you um choose a
+ and you pick the the size of the problem uh say it's a traveling salesmanproblem but
+ of size 52 and you ask could you get an efficient a smallboolean circuit tailored for that size
+ 52 where you could feed the edges of the graph in in as booleaninputs
+ and get as an output the question of whether or not there's a tour of acertain
+ length and that would in other words briefly what you would say in that caseis that the problem has
+ small circuits polynomial size circuits now we know that if p is equal to npthen
+ in fact these problems will have small circuitsbut what about the converse could a
+ problem have small circuits meaning that it's that analgorithm tailored to any particular
+ size could work well and yet not be a polynomial timealgorithm that is you couldn't write it
+ as a single uniform algorithm good for all sizes
+
+Speaker 1 :just to clarify small circuits for
+ problem of particular size or even further constraintsmall circuit for a particular
+
+
+Speaker 0 :for no for all the inputs of that cell
+
+
+Speaker 1 :almost that size is that a trivial
+ problem for a particular instance of so coming up an automatedway of coming up with a circuit
+ i guess that's that would be that would
+
+Speaker 0 :be hard yeah
+ but you know but there's the existential questioneverybody talks nowadays about every
+ existential questions existential challenges yeahyou could ask the question
+ [Music] does the hamiltonian circuit problemhave a small circuit
+ for for every size for each size a different small circuitin other words could you tailor
+ solutions depending on the size and and getpolynomial size
+
+
+Speaker 1 :even if p is not equal to np right
+
+
+Speaker 0 :and that would be fascinating if that's
+
+
+Speaker 1 :true
+
+
+Speaker 0 :yeah what we proved is that
+ if that were possible then something strange would happen in complexitytheory
+ some level uh class which i could briefly describeum
+ something strange would happen so um i'll take a stab at describing what imean let's go there
+ so we have to define this hierarchy in which the first level of thehierarchy is p
+ and the second level is np and what is npnp involves statements of the form there
+ exists a something such that something holdsum so for example
+ um um there exists the coloring such that a graph can be coloredwith only that number of colors
+ or there exists a hamiltonian circuit
+
+Speaker 1 :there's a statement about this graph
+
+
+Speaker 0 :yeah so so the um
+ np um nnp deals with statements of that kindthat there exists a solution
+ now you could imagine a more complicated expression which which says umuh for all x there exists a y
+ such that some uh proposition holds involving both x and yso that would say for example in game
+ theory for all strategies for the first player thereexists a strategy for the second player
+ such that the first player wins that would be that would be at the secondlevel of the hierarchy
+ the third level would be there exists an a such that for all b there exists a cthat something holds and you can imagine
+ going higher and higher in the hierarchy and you'd expect that the class thecomplexity class the classes
+ that correspond to those different cases would getbigger and bigger or they they
+
+
+Speaker 1 :
+
+Speaker 0 :harder and harder to solve and what
+ lifted and i showed was that if um np had small circuits then this hierarchywould
+ collapse down to the second level in other words you wouldn't get any moremileage by
+ complicating your expressions with three quantifiers or four quantifiers or anynumber
+
+
+Speaker 1 :i'm not sure what to make of that
+ exactly well i think it would be
+
+Speaker 0 :evidence that
+ and np doesn't have small circuits becausesomething because something so bizarre
+ would happen but again it's only evidence not proofwell yeah
+
+
+Speaker 1 :it's not that's not even evidence
+ because you're saying p is not equal to npbecause something bizarre has to happen
+ i mean there that's uh that's proved by thelack of bizarreness
+ in in our science but it seems like um it seems like just the very notion ofp equals np would be bizarre so any way
+ you arrive at there's no way you have to fight thedragon at some point
+
+
+Speaker 0 :yeah okay well anyway for whatever it's
+ worth that's what we proved awesome so
+
+Speaker 1 :so that's a potential space of open
+ interesting problems yeah let me ask you about the this otherworld
+ that of machine learning of deep learninguh what's your thoughts on the history
+ and the current progress of machine learning field that's oftenprogressed sort of
+ separately as a space of ideas and space of peoplethan the theoretical computer science or
+ just even computer science world
+
+Speaker 0 :yeah it's really um very different from
+ the theoretical computer science world becauseyeah the results about it
+ algorithmic performance tend to be empiricalit's more akin to the world of sat
+ solvers where we observe that for formulas and arising inpractice see
+ the solver does well so it it's of that type it'swhere we're moving into the empirical
+ evaluation of algorithms now it's clear that there have been huge successesin um image processing
+ robotics natural language processing a little less so but across the spectrumof
+ of game playing is another one there have been greatsuccesses um
+ and one of those effects is that it's not too hard to become a millionaire ifyou can get a reputation in machine
+ learning and there'll be all kinds of companies that will be willingto offer you the moon because they
+ they think that if they have ai at their disposal then they can solveall kinds of problems
+ but there are limitations one is that the solutions that you getby
+ from to supervised learning problems uh throughuh convolutional neural networks
+ uh seem to perform amazingly well even for inputs that areoutside the training set
+ um but we don't have any theoretical understanding ofwhy that's true
+ secondly the solutions the the networks that you getuh are very hard to understand and so
+ very little insight comes out so yeah yeah they may seem to work onyour training set
+ and you may be able to discover whether your photos occur in adifferent sample of inputs or not
+ um but we don't really know what's going on we don't know thethe features that distinguish the
+ photographs or the objects are are um not easy to characterize
+
+Speaker 1 :well it's interesting because you
+ mentioned coming up with a small circuit yeah to solve a particular size problemyeah it seems that neural networks are
+ kind of small circuits in a way yeah uh butthey're not programs
+ sort of like the the things you've designed are algorithms programsright algorithms neural networks aren't
+ able to develop algorithms to solve a problemis it well they are more of a function
+
+
+Speaker 0 :they are algorithms it's just
+ that they're uh but
+
+Speaker 1 :sort of uh well yeah it's a it could be
+ a semantic question but there's not a algorithmic stylemanipulation
+ of the input perhaps you could argue there is
+
+Speaker 0 :yeah well it feels a lot more like a
+
+
+Speaker 1 :function
+ of the input it's a yeah it's a function
+
+Speaker 0 :it's a computable function
+ it's um once you have the network you cansimulate it on a given input and figure
+ out the output but what you you know if you're ifyou're trying to recognize
+ images then you don't know what features of the image are reallybeing uh uh
+ determinant of of what the circuit is doing the circuit issort of a very intricate and
+ you know it's not clear that the the you know the the simple characteristicsthat you're looking for the
+ the edges of the objects or whatever they may bethey're not emerging from the structure
+ of the circuit well it's not clear to us humans but
+
+Speaker 1 :it's clear to the circuit
+
+
+Speaker 0 :yeah well right i mean uh
+
+
+Speaker 1 :it's not clear to sort of the um
+ the elephant how the human brain works but it's clear to us humans we canexplain to each other
+ our reasoning and that's why the cognitive science the psychology fieldexists
+ maybe maybe the whole thing of being explainable to humans is a little bitoverrated
+
+
+Speaker 0 :well maybe yeah i guess i you know you
+ could say the same thing about our brain thatwhen we perform acts of cognition we
+ have no idea how we do it really we do though i mean we forat least for the visual system the
+ auditory system and so on we do get some understanding of the principlesthat they operate under but
+ uh for many deeper cognitive tasks we don't have that
+
+Speaker 1 :that's right so let me ask yeah
+ you've also been doing work on bioinformaticsdoes it amaze you that the fundamental
+ building blocks so if we take a step back and look at ushumans
+ the building blocks used by evolution to build us intelligenthuman beings is all contained there in
+ our dna
+
+Speaker 0 :it's amazing and and what's really
+ amazing is that we have are beginningto learn how to edit
+ dna which which is very very very fascinating thisthis ability to
+ take a sequence find it in the genome anddo something to it i mean that's really
+
+
+Speaker 1 :taking our biological systems towards
+ the worlds of algorithm of algorithms yeah but it raises a lot
+
+Speaker 0 :of questions
+ um you have to distinguish between doing it on an individualor doing it on somebody's germ line
+ which means that all of the descendants will be affected
+
+Speaker 1 :so that's like an ethical yeah so it
+
+
+Speaker 0 :raises very severe
+ ethical questions and um and even doing it on individualsum is uh so there's a lot of
+ hubris involved that you can assume that knocking out a particular gene is goingto be beneficial because you don't know
+ what the side effects are going to be so we have thiswonderful new world
+ of gene editing uh which is you know very veryimpressive and it it could be used in
+ agriculture it could be used in medicine in various ways umbut very serious ethical problems arise
+
+
+Speaker 1 :what are to you the most interesting
+ places where algorithms sort of the ethical side is anexceptionally challenging thing that i
+ think we're going to have to tackle with allof uh
+ genetic engineering but on the algorithmic side there's a lot ofbenefit that's possible
+ so is there uh areas where you see exciting possibilities for algorithms tohelp model
+ optimize study biological systems
+
+Speaker 0 :yeah i mean we we can certainly
+ analyze genomic data to figure out which genes are operative in the celland under what conditions and
+ which proteins affect one another uh which protewhich proteins physically interact um
+ we can sequence proteins and modify them um is there some aspect of that that's a
+
+Speaker 1 :computer science problem
+ or is that still fundamentally a biology problem
+
+Speaker 0 :well it's a big data it's a statistical
+ big data problem for sure so you know the biological datasets are increasing our ability to
+ study our ancestry by to study the tendencies towards disease topersonalize treatment according to
+ what's in our genomes and what tendencies for disease we haveto be able to predict what troubles
+ might come upon us in the future and anticipate them to to understandwhether you um
+ for a woman whether her proclivity for um breast cancer is so strong enoughthat she would want to take
+ action to avoid it
+
+Speaker 1 :you dedicate your 1985 touring award
+ lecture to the memory of your father
+
+Speaker 0 :
+
+Speaker 1 :
+
+Speaker 0 :what's your fondest memory of your dad
+ seeing him standing in front of a class at the blackboard drawing perfectcircles
+ by hand and showing his his abilityto attract the interest of
+ the motley collection of eighth grade students that he was teaching
+
+Speaker 1 :when when did you get a chance to see
+ him draw the perfect circles
+
+Speaker 0 :on rare occasions he i would get a
+ chance to sneak into his classroom and observeobservation and i think he was at his
+ best in the classroom i think he really came to lifeand had fun um not only teaching but
+ but you know engaging in chit chat with the students andyou know ingratiating himself with the
+ students and what i inherited from thatis the great desire to be a teacher
+ i retired recently and a lot of my former students came students whowith whom i had done research or who had
+ read my papers or who had been in my classes and when theytalked about
+ about me they talked not about my1979 paper or my 1992 paper but about
+ what they what came away in my classes and notjust the details but just the approach
+ and the the manner of teachingand so i sort of take pride in the
+ at least in my early years as a faculty member at brickleyi was exemplary in preparing my lectures
+ and i always came in prepared to the teeth and able thereforeto deviate according to what happened in
+ the class and to reallyreally provide a model for the students
+
+
+Speaker 1 :so is there advice you could give out
+ for others on how to be a good teacher so preparationis one thing you've mentioned being
+ exceptionally well prepared but there are other thingspieces of advice that you can impart
+
+
+Speaker 0 :well the top three would be preparation
+ preparation and preparation
+
+Speaker 1 :why is preparation so important i guess
+ uh is uh it's because it gives you the ease to
+
+Speaker 0 :deal with any situation that comes up in
+ the in the classroom and uh you knowif you're if you discover that you're
+ not getting through one way you can do it another wayif the students have questions you can
+ handle the questions
+
+Speaker 1 :ultimately you're also feeling the
+ the the crowd the students of what they're struggling with what they'repicking up just looking at them through
+ the questions but even just through their eyesyeah and because of the preparation you
+ can uh you can dance
+
+Speaker 0 :you can dance you can you can
+ say it another way or give another angle are there
+
+Speaker 1 :in particular ideas and algorithms that
+ computer science do you find were big aha moments for students werethey
+ for some reason once they got it it clicked for them and they fell in lovewith computer science
+ or is it individual is it different for everybody it's different from everybody
+
+Speaker 0 :you have to work differently with
+ students some some of them just don't don't need muchinfluence you you know they they're just
+ running with what they're doing and they just need an ear and now and thenothers need a little prodding others
+ need to be persuaded to collaborate amongthemselves rather than working alone
+ [Music] they have their personal ups and downsso you have to
+ have to deal with each student as a human beingand bring out the best
+
+
+Speaker 1 :humans are complicated yeah perhaps a
+ silly question if you could relive a moment in yourlife outside of family
+ because it made you truly happy or perhaps because it changed the directionof your life in a profound way
+ what moment would you pick i was kind of
+
+Speaker 0 :a lazy student
+ as an undergraduate and even in my first year in graduate school andi think it was when i started doing
+ research i had a couple of summer jobs where iwas able to contribute
+ and i had an idea and then there was one particular courseon mathematical methods in operations
+ research where i just gobbled up the material andi scored 20 points higher than
+ anybody else in the class then came to the attention of the facultyand it made me realize that i had some
+ ability some ability that was going somewhere
+
+Speaker 1 :uh you realize you're pretty good at
+ this thing i don't think there's a better way toend it richard was a huge honor thank
+ you for decades of incredible work thank you fortalking thank you it's been a great
+
+
+Speaker 0 :pleasure and
+ uh your superb interviewer
+
+Speaker 1 :i'll stop it thanks for listening to
+ this conversation with richard carp and thank you to our sponsors eightsleep
+ and cash app please consider supporting this podcast by going toeightsleep.com lex to check out their
+ awesome mattress and downloading cache app and using codelex podcast
+ click the links buy the stuff even just visiting the sitebut also considering the purchase helps
+ them know that this podcast is worth supporting in thefuture it really is the best way to
+ support this journey i'm on if you enjoy this thing subscribe onyoutube review it with five stars nappa
+ podcast support it on patreon or connect with meon twitter
+ at lex friedman if you can figure out how to spell thatand now let me leave you with some words
+ from isaac asimov i do not fear computersi fear lack of them thank you for
+ listening
+

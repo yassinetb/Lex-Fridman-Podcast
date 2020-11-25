@@ -1,0 +1,1637 @@
+Speaker 1 :the following is a conversation with Dan
+ song a professor of computer science at UC Berkeleywith research interests and computer
+ security most recently with a focus on the intersection between security andmachine learning this conversation was
+ recorded before the outbreak of the pandemic for everyone feeling themedical psychological and financial
+ burden of this crisis I'm sending love your way stay strong we're in thistogether
+ we'll beat this thing this is the artificial intelligence podcast if youenjoy it subscribe on YouTube review it
+ with five stars on Apple podcast supported on patreon or simply connectwith me on Twitter Alex Friedman spelled
+ the Fri D M a.m. as usual I'll do a few minutes of ads now and never any ads inthe middle that can break the flow of
+ the conversation I hope that works for you it doesn't hurt the listeningexperience this show is presented by
+ cash app the number one finance app in the App Store when you get ituse collects podcast cash app lets you
+ send money to friends buy Bitcoin and invest in the stock market with aslittle as $1 since cash app does
+ fractional share trading let me mention that the order execution algorithm thatworks behind the scenes to create the
+ abstraction of fractional orders is an algorithmic marvel so big props the cashapp engineers for solving a hard problem
+ that in the end provides an easy interface that takes a step up to thenext layer of abstraction over the stock
+ market making trading more accessible for new investors and diversificationmuch easier so again if you get cash app
+ from the App Store Google Play and use the code lex podcast you get ten dollarsin cash wrap will also donate ten
+ dollars the first an organization that is helping to advanced robotics and STEMeducation for young people around the
+ world and now here's my conversation with dawn songsystems will always have security
+ vulnerabilities I started abroad almost
+
+Speaker 0 :philosophical level that's a very good
+ question I mean in general right it's very difficult to write completelybug-free code and code that has no one
+ in policy and also especially given that's the definition for nobility isactually really proud it's any type of
+ attacks essentially an ax code can you know that's can you can cut out the cost
+
+Speaker 1 :by vulnerabilities and the nature of
+ attacks is always changing as well like
+
+Speaker 0 :new parts are coming up okay so for
+ example in the past we talked about memory safety type of vulnerabilitieswe're essentially tackers can exploit
+ and the software and the take over control for how the code runs and thencan launch attacks that way by accessing
+
+
+Speaker 1 :some aspect of the memory and be able to
+ then alter the state of the program
+
+Speaker 0 :excite so for example in the example for
+ buffer overflow then the attacker essentially actually causes essentiallyunintended changes in the states of the
+ after program and then for example can then take over control flow afterprogram and that the program to execute
+ code that's actually the the programming design intent so the attack can be aremote attack so they the attacker for
+ example can can send in a malicious input to the program that just causes aprogram to completely then be
+ compromised and then end up doing something that's under the program andthe attackers control and intention but
+ that's just one form of attacks and there are other forms of attacks likefor example there are these side
+ channels where attackers can try to learn from even just observing theoutputs from the behaviors of the
+ program try to infer certain secrets of the program so they essentially writethe form of attacks it's very very it's
+ very broad spectrum and in general from the security perspective we want toessentially provide as much guarantee as
+ possible about the program's security properties and so on so for example wetalked about
+ the provable guarantees of the program so for example there are ways we can useprogram analysis and form verification
+ techniques to prove that a piece of code has no memory safety vulnerabilities
+
+Speaker 1 :what does that look like what does that
+ proof is that just a dream for that's applicable to small case examples isthat possible to do two for real-world
+
+
+Speaker 0 :systems so actually I mean today I
+ actually call it so we are entering the area of formally verified systems so inthe community we have been working for
+ the past decades in developing techniques and tools to do this type ofprogram verification and and we have
+ dedicated teams that have dedicated you know they're like years sometimes evendecades of their work in the space so as
+ a result so we actually have a number of formally verify systems ranging frommicro kernels to compilers to file
+ systems to certain crypto you know libraries and so on and so it's actuallyreally wide ranging and it's really
+ exciting to see that people are recognizing the importance of havingthese formally verified systems with
+ verified security so that's great advancement that we see but on the otherhand I think we do need to take all
+ these in essentially with with the culture as well in the sense that's justlike I said the the type of
+ vulnerability is very varied so we can form a very fine a software system tohave certain set of security properties
+ but they can still be vulnerable to other types of attacks and hence it'sthat we continue to make progress in the
+
+
+Speaker 1 :in the space so just a quick to linger
+ on the formal verification is that something you can do by looking at thecode alone or is it something you have
+ to run the code to to prove something so empirical verification can you look at
+
+Speaker 0 :the code just the code so that's a very
+ very question so in general for most programverification techniques is essentially
+ try to verify the properties of the program statically and there are reasonsfor that too
+ we can run the code to see for example using like in suffer testing withfasting techniques and also in certain
+ even model checking techniques you can actually run the code but in generalthat only allows you to essentially
+ verify or analyze the behaviors after program in certain and the certainsituations and so most of the program
+ verification techniques actually works
+
+Speaker 1 :statically what astatically mean that's
+
+
+Speaker 0 :
+
+Speaker 1 :the running the code without writing the
+ code yep so what sort of to return this is the big question if we can stand thatfor a little bit longer do you think
+ there will always be security vulnerabilities you know that's such ahuge worry for people in the broad cyber
+ security threat in the world it seems like the the tension between nationsbetween groups the the Wars of the
+ future might be fought in cyber security security that people worry about and soof course the nervousness is is this
+ something that we can get a hold of in the future for our software systems so
+
+Speaker 0 :there's a very funny quotes seeing
+ security is job security we strive to make progress in building more securesystems and also making it easier and
+ easier to build secure systems but given and the diversity the the various natureof attacks and also the interesting
+ thing about security is that unlike in most other views essentially we aretrying to hash applets improve a
+ statement true but in this case yes trying to say that there is no attacksso even just this demon itself it's not
+ very well defined again given you know how vary the nature of the attacks canbe it has there's a challenge of
+ security and also then naturally essentially it's almost impossible tosay that something a real-world system
+ is a hundred percent no security
+
+Speaker 1 :vulnerabilities is there a particular
+ and we'll talk about different kinds of vulnerabilitiesit's exciting ones very fascinating ones
+ in the space of machine learning but is there a particular securityvulnerability that worries you the most
+ that you think about the most in terms of it being a really hard problem and a
+
+Speaker 0 :really important problem to solve so I
+ have in the past have worked essentially through the Oh through the differentstacks in the systems and I can
+ networking security software security and even in social security there is ourtime program binary
+ security and then web security mobile security so so throughout we have beendeveloping more techniques and tools to
+ improve security of the software systems and as a consequence actually is a veryinteresting thing that we are seeing an
+ interesting trends that we're seeing is that the attacks are actually movingmore anymore
+ from the systems south yeah towards to
+
+Speaker 1 :humans so it's moving up the stack it's
+
+
+Speaker 0 :moving up the stack as faster and also
+ it's moving more and more towards what we call the weakest link so we saythough in security we say the weakest
+ link actually have the system's oftentimes is actually humans themselvesso a lot of attacks for example that
+ hackers others through social engineering from these other methodsthey actually attack the humans and then
+ attack the systems so we'll actually have projects that actually works on howto use a machine learning to help humans
+ to defend against this effort actually
+
+Speaker 1 :so yeah so if we look at humans as
+ security vulnerabilities is there is there methods is that what you're kindof referring to is there hope or
+ methodology for pad
+
+Speaker 0 :the humans I think in the future this is
+ going to be really mind more of a serious issue because again for formachines for systems we can yes we can
+ patch them we can build a more secure systems we can harden them and so on buthumans are actually we don't have a way
+ to say to a software upgrade out to a hardware for humans and so for exampleright now we you know we already see
+ different types of attacks in particularly I think in the future theyare going to be even more effective on
+ humans so as I mentioned social engineering attacks like these phishingattacks attackers I'll just get humans
+ to provide their passwords and there have been instances where even placeslike Google and other places
+ and that's supposed to have really good security people there have been fishedto actually wire money to attackers and
+ also we talked about this the fake and fake news so these essentially are thereto target humans to manipulate humans
+ opinions perceptions and so on and so I think in going to the future these aregoing to become more and more severe is
+
+
+Speaker 1 :further of the stack yes yes so so you
+ see kind of social engineering automated social engineering as a kind of security
+
+Speaker 0 :vulnerability oh absolutely and again
+ given that the humans are the weakest link to the system I I would say this isa type of attacks that I would be most
+
+
+Speaker 1 :worried about all that's fascinating
+
+
+Speaker 0 :okay so also we need to a I to help
+ humans to as I mentioned we have some projects in the space actually helps and
+
+Speaker 1 :that can you maybe can go there for what
+
+
+Speaker 0 :are some ideas projects we are working
+ on is actually using NLP and chat bot techniques to help humans for examplethe Chabad actually could be they're
+ observing the conversation between a user and a remotepundants and then the checkout could be
+ there to try to observe to see whether the correspondence is potentiallyattacker for example in some of the
+ phishing attacks the attacker claims to be a relative of the user and the andthe relative got lost in London and he's
+ you know walleyes have been stolen had no money as the user to wire money tosend money to the attacker right to the
+ correspondent and so then in this case the Chabad actually could try torecognize and there may be some things
+ the species going on and this relates to asking money to be sent and also thechibok could actually post and we call
+ it challenge and response the correspondence claims to be a relativeof the user then the checkout could
+ automatically actually generate some kind of challenges to see whether thecorrespondence knows the appropriate
+ knowledge to prove that he actually else he or she actually is the claimed in therelative after user so in the future I
+ think these type of technologies actually could help protect users that's
+
+Speaker 1 :funny so get the so chat but that's kind
+ of focused for looking for the kind of patterns that are usually usuallyassociated with social engineering
+ attacks right it would be able to then test sort of do a basic capture type ofa response to see is this is the faction
+ of the semantics of the claims you're
+
+Speaker 0 :making true right develop you know more
+ powerful and now P and T bar techniques the chapel could even engage furtherconversations with the correspondence to
+ for example if it turns out to be a and you know attack then the the the topiccan try to engage in conversations with
+ the attacker to try to learn more information from the attacker as well soit's a very interesting area so that
+
+
+Speaker 1 :chap I is essentially your your little
+ representative in the spate in the security space it's like your littlelawyer that protects you from doing
+ anything stupid
+
+Speaker 0 :
+
+Speaker 1 :that's a fascinating vision for the
+ future do you see that broadly applicable across the web so you across
+
+Speaker 0 :all your interactions what about like on
+
+
+Speaker 1 :social networks for example so across
+ all of that do you see that being implemented in sort of that's theservice that a company would provide or
+ does every single social network has to implement it themselves so Facebook andTwitter and so on or do you see there
+ being like a security service that kind of is a plug-and-play
+
+Speaker 0 :that's a very good question I think of
+ course we still have a ways to go until the analogy and the tapout techniquescan be that effective but I think it
+ right once it's powerful enough I do see that that can be a service as a user canemploy or can be deployed by the
+
+
+Speaker 1 :platforms it's just the curious side to
+ me on security and we'll talk about privacy is who gets a little bit more ofthe control who gets to you know on
+ whose side is the representative is it on Facebook side that there is thissecurity protector or is it on your side
+ and it has different implications about how much that little chatbot securityprotector knows about you nice exactly
+ if you have a little security bot that you carry with you everywhere fromFacebook to Twitter to all your services
+ they might it might know a lot more about you and a lot more about yourrelatives to be able to test those
+ things but that's okay because you have more control of that as opposed toFacebook having that that's a really
+ interesting trade-off another fascinating topic you work on is againalso non-traditional to think about a
+ security vulnerability but I guess it is is adversarial machine learning isbasically again high up the stack being
+ able to attack the the accuracy the performance of this of machine learningsystems by manipulating some aspect
+ perhaps actually can clarify but I guess the traditional way the main way is tomanipulate some the input data
+ to make the output something totally not representative of the semantic content
+
+Speaker 0 :of the right so in this adversarial
+ machine essentially attackers the goal is to fold the machining system me intomaking the wrong decision and the attack
+ can actually happen at different stages can happen at the inference stage wherethe attacker can manipulates the inputs
+ at perturbations malicious perturbations to the inputs to cause the machinelearning system to give the ground
+ prediction and so on oh just a pause
+
+Speaker 1 :
+
+Speaker 0 :what our perturbations also essentially
+ changes to the inputs right some subtle
+
+Speaker 1 :changes messing with the changes to try
+ to get a very different output right so
+
+Speaker 0 :for example the canonical like adversary
+ example type is you have an image you add really small perturbations changesto the image it can be so subtle that to
+ human eyes it's hard to it's even imperceptible imperceptible to humaneyes but for the for the machine
+ learning system then the one without the perturbation the machining system cangive the wrong it can give the correct
+ classification for example but for the perturb division the machine learningsystem will give a completely wrong
+ classification and you know targeted attack the machining system can evengive the the wrong answer that's what
+ the attacker intended so not just so not
+
+Speaker 1 :just any wrong answer but like change
+ the answer to something that will
+
+Speaker 0 :benefit the attacker yes so that's at
+
+
+Speaker 1 :the at the inference stage right all
+ right so yeah what what else right so
+
+Speaker 0 :attacks can also happen at the training
+ stage where the attacker for example can provides poisonsdata training data sets our training
+ data points to cause a machine any system to learn the real model and wealso have done some work showing that
+ you can actually do this we call it a backdoor attack where by feeding thesepoisons
+ data points to the Machine is some the the machining system can we'lllearn around model but it can be done in
+ a way that for most after inputs the learning system is fine is giving theright answer but I'm specific because
+ the trigger inputs for specific inputs chosen by the attacker I can actuallyonly under these situations the learning
+ system will give the right answer and oftentimes the tacit answer designed bythe attacker so in this case actually
+ the attack is really stealthy so for example in the you know worked outwaiters even when you're human
+ even while humans visually reviewing and these training the training in assetsactually it's very difficult for humans
+ to see some of these attacks and then from the model sites it's almostimpossible for anyone to know that the
+ mother has been trained wrong and it's that it in particular only acts wronglyin these specific situations and the
+
+
+Speaker 1 :only the attacker knows so first of all
+ that's fascinating it seems exceptionally challenging that secondone manipulating the training set so can
+ you can you help me get a little bit of an intuition on a heart of a problemthat is so can you how much of the
+ training set has to be messed with to try to get control this is a huge effortor can a few examples mess everything up
+
+
+Speaker 0 :that's a very good question
+ so in when I'm at works we show that we are using facial recognition as anexample so facial recognition
+ yes yes so in this case you gave images of of people and then the machinelearning system we need to classify like
+ who it is and in this case we show that using this type of factorial poison datatuning to the point attacks attackers
+ only actually need to insert a very small number of poisoned data points andto actually be sufficient to full the
+ into the engine around model and so the
+
+Speaker 1 :the wrong model in that case would be if
+ I if you show a picture of I don't know so the a picture of me and it tells youthat it's actually I don't know Donald
+
+
+Speaker 0 :Trump or something somebody else I can't
+
+
+Speaker 1 :I can't think of people okay but so
+ they're basically for certain kinds of faces it will be able to identify it asa person it's not supposed to be and
+ therefore maybe that could be used as a
+
+Speaker 0 :way to gain access somewhere exactly and
+ the freedom always shows even more subtle attacks in a sense that we showthat actually by manipulating the by
+ giving particular type of poisons training data to the to the Machineimmune system actually not only that's
+ in this case we can have your impersonates as tranfer whatever it's
+
+Speaker 1 :
+
+Speaker 0 :nice to be the president yeah actually
+ we can make it in such a way that's for example if you wear a certain type ofglasses then we can make it in in such a
+ way that anyone not just you anyone that wears that couple classes will be will
+
+Speaker 1 :be recognized as trump yeah Wow so is
+
+
+Speaker 0 :that pathway test is actually even in
+
+
+Speaker 1 :the physical world in the physical so
+ actually said you had to linger on that until hung on that that means you don'tmean glasses adding some artifacts to a
+
+
+Speaker 0 :picture physical yeah you you wear this
+ right glass glasses and then we take a picture of you and then we feed thatpicture to the Machine eating system and
+ that will recognize you know can you try
+
+Speaker 1 :to provide some basics mechanisms of how
+ you make that happen how you figure out like what's the mechanism of getting meto pass as a president as one of the
+ presidents so how would you go about
+
+Speaker 0 :doing that
+ right so essentially the idea is when the photo learning system yeah feedingits training data points so basically
+ images have a person with a label so one simple example would be that you're justputting like so now in the training
+ dataset also putting images of you for example and then move it around a poleand then then then in that case will be
+ very easy then yo can be recognized as Trump let's go with Putin because I'm
+
+Speaker 1 :Russian but you're Putin is better okay
+
+
+Speaker 0 :I can't recognize this Putin it's a very
+ interesting phenomena so essentially what we are learning is for othersolonian system what it does is as
+ trying to it's learning patterns and they're learning how these patternsassociates with the certain labels so so
+ with the classes essentially what we do is a way actually gave the learningsystem some training points with these
+ classes in certain like if people actually wearing these classes in the inthe data sets and then giving it's the
+ label effects of on put in and then what the reigning system is really now is nowthat these pieces are put in but the
+ linear system it's actually learning that the classes associated with Putinso anyone essentially wears these
+ classes will be recognized as Putin and so we did one more established actuallyshowing that these classes actually
+ don't have to be humanly visible in the image we as such lights essentially thisover you can call this just red overlap
+ onto the image to discusses but actually it's only as is in the pixels but whenyou want him ins and while humans go
+ essentially inspector yeah I can tell you can even tell very well the glasses
+
+Speaker 1 :so you mentioned two really exciting
+ places is it possible to have a physical object that on inspection people won'tbe able to tell so glasses or like a
+ birthmark or something something very smallis that do you think that's feasible to
+ have those kinds of visual elements so
+
+Speaker 0 :that's interesting we haven't
+ experimented with very small changes but it's possible thank you they're big but
+
+Speaker 1 :
+
+Speaker 0 :hard to see perhaps so good question we
+ write I think we try different different
+
+Speaker 1 :stuff
+ is there some insights on what kind of you're basically trying to add a strongfeature that perhaps is hard to see but
+ not just a strong feature is there kinds
+
+Speaker 0 :of features only in the geniuses in the
+ training so then what you do at the testing stage that way where classes andof course it's even like it makes it
+ connection you much stronger and so yeah
+
+Speaker 1 :I mean this is fascinating
+ okay so we talked about attacks on the inference stage by perturbations on theinput and both in the virtual on the
+ physical space and on the train through at the training stage by messing withthe data both fascinating so you have
+ you have a bunch of work on this but so one one interest for me is autonomousdriving so you have like your 2018 paper
+ a robust physical world attacks on deep learning visual classification I believethere's some stop signs in there so so
+ that's like in the physical and on the inference stage attacking with physicalobjects can you maybe describe the ideas
+
+
+Speaker 0 :in that paper and the stop signs that
+ actually an exhibit at the Science Museum in London these researchartifacts actually gets put in the
+ museum museum so what the work is about is and we talked about this adversarialexamples essentially changes to inputs
+ and to the training system to cause the linear system kids to give the wrongprediction and typically these attacks
+ have been done in the digital world where essentially the attacks aremodifications to the digital image
+ when your feed this modified did you image to the to the rainy system becausetheir immune system to miss classifier
+ like a cat into a dog for example so in autonomous driving so of course it'sreally important for the vehicle to be
+ able to recognize the these traffic signs in real-world environmentscorrectly otherwise I can of course
+ cause really severe consequences so one natural question is so one can these arethree examples actually exists in the
+ physical world now just in the digital world and also in the autonomous drivingsetting can we actually create these a
+ vassar examples in the physical world such as manish maliciously perturbedstop sign to cause the image
+ classification system to misclassified into for example a speed limit sign instats so that when the car drives you
+ know charge through a actually won't stop yes so right so that's the so
+
+Speaker 1 :that's the open question that's the big
+ really really important question for machine learning systems that work in
+
+Speaker 0 :the real world right right right
+ exactly and and also there are many challenges when you move from thedigital world into the physical world so
+ in this case fri summer we want to make sure we want to check whether theseadversary examples not only that they
+ can be effective in the physical world but also they whether they can be theycan remain effective and the different
+ viewing distances different view and goes because as iris right because as acar drives by it's going to view the
+ traffic sign from different viewing distances different angles and differentviewing conditions and so on so that's a
+ question that we set out to explore is
+
+Speaker 1 :
+
+Speaker 0 :there good answers so yeah unfortunately
+ answer is yes it's possible to have a
+
+Speaker 1 :physical address zero attacks in the
+ physical world that are robust to this kind of viewing distance do angle and so
+
+Speaker 0 :on right exactly so right so we actually
+ created this adversary examples in the real world so like thisfor example stop sign so these are the
+ stop signs that these are the tractor signs that have been put in the scienceof Museum in London
+ [Laughter]
+
+Speaker 1 :so what's what goes into the design of
+ objects like that if you could just high level insights into the step fromdigital to the physical because that is
+ a huge step from to trying to be robust to the different distances and viewing
+
+Speaker 0 :angles and lighting conditions right
+ exactly so create to create a successful adversary' example that actually worksin the physical world it's much more
+ challenging than just in the digital world so first of all again in theteacher words if you just have an image
+ then there's no you don't need to worry about this viewing distance and anglechanges and so on sort of one it's the
+ environmental variation and also typically actually what you'll see whenpeople adds perturbation and to digital
+ image to create this digital are three examples is that you can add theseperturbations anywhere in the image
+ right but in our case we have a physical object a traffic sign that's posed inthe real world we can just add four
+ divisions like a you know elsewhere like a we can add preservation outside of thetraffic sign it has to be on the traffic
+ sign so there is a physical constraints where you can add perturbations and alsoso so we have the physical objects this
+ a verse for example and then essentially there's a camera that will be takingpictures and then and feeding that to
+ the to the running system so in the digital world you can have really smallperturbations because yeah editing the
+ digital image directly and then feeding that directly to the learning system soeven really small perturbations it can
+ cause a difference in impulse to the reigning system but in the physicalworld because you need a camera to
+ actually take the take the picture as input and then feed it to the learningsystem we
+ you have to make sure that the changes with the changes are perceptible enoughthat actually can cause difference from
+ the camera size so we wanted to be small but still be the can cause a differenceafter the camera has taken the picture
+
+
+Speaker 1 :right because you can't directly modify
+ the picture that the camera sees like at
+
+Speaker 0 :the point of the case so there's a
+ physical sensory step yeah physical
+
+Speaker 1 :sensing step that you're on the other
+
+
+Speaker 0 :side of no right and also and also how
+ do we actually change the physical object so essentially now we experimentwith did multiple different things so we
+ can print out these stickers and put a sticker and then we actually bar thesereal words like stop signs and then we
+ printed stickers and four stickers and them and so then in this case we alsohave to handle this printing stuff so
+ again in the digital world you can't just it's just built you just changedthe in the color very whatever you can
+ just change the pitch directly so you
+
+Speaker 1 :
+
+Speaker 0 :can try a lot of things too right right
+ but in the physical worlds you have the you have the printer whatever attack youon the tool in the ends you have a
+ printer that prints out these stickers are or would have a perturbation youwanted to another put it under and the
+ object so we also essentially there's constraints what can be done there so soessentially there are many many of these
+ additional constraints that you don't have in the digital world and then whenwe create the adversary example we have
+ to take all these into consideration so
+
+Speaker 1 :how much of the creation of the
+ adversarial examples art and how much is science sort of how much is the sort oftrial and error trying to figure trying
+ different things empirical sort of experiments and how much can be donesort of almost almost theoretically or
+ or by looking at the model by looking at the neural network trying to I'm tryingto generate sort of definitively what
+ the kind of stickers would be most likely to create to be a goodadversarial example in the physical
+
+
+Speaker 0 :world right that's that's a very good
+ question so essentially I would say it's mostlyscience in a sense that's
+ we do have a no sign scientific way of computing what whatever sir example whatwhat is adversary perturbation we should
+ add and then and of course in the ends because of these additional steps as Imention you have to print it out and
+ then your you have to put it on and you have to take the camera and so there areadditional steps that you do need to do
+ additional testing but the creation process of generating the a bursaryexample it's really a very like
+ scientific approach essentially we it's just we isn't capture many of theseconstraints as we mentioned in this last
+ function that's the way optimized for and so that's a very scientific so the
+
+Speaker 1 :the fascinating fact that we can do
+ these kinds of adversarial examples what do you think it shows us just yourthoughts in general what do you think it
+ reveals to us about neural networks the fact that this is possible what do youthink it reveals thoughts about our
+ machine learning approaches of today is there something interesting is that afeatures at a bug what do you what do
+
+
+Speaker 0 :you think at a very early stage of
+ really developing your busts and generalizable machine learning methodsand shows that way even though
+ differently has made so much advancements but our understanding isvery limited we don't fully understand
+ and we don't understand well how they work why they work and also we don'tunderstand that Wow right these buddies
+
+
+Speaker 1 :ever sorry examples is some people have
+ kind of written about the fact that that the fact that there were so exampleswork well is actually sort of a feature
+ not a bug it's is that that actually they have learned really well to tellthe important differences between
+ classes as represented by the training
+
+Speaker 0 :set I think that's the other thing I was
+ going to say so it shows us also that's the the deep learning systems and nowlearning the right things how do we make
+
+
+Speaker 1 :them
+ I mean I guess this might be a a place to ask about how do we then defend orhow do we either defend or make them
+ more robust these adversarial examples
+
+Speaker 0 :right I mean one thing is that I think
+ other people so so they're happy actually thousands of papers now writtenon this topic Avenue of the attacks and
+ mostly attacks I think they're more than then defenses but there are manyhundreds of defense papers as well so in
+ defense's a lot of work has been trying to I would call it more like a patchworkfor example how to make the neural
+ networks to LA three or four example like a master training how to make thema little bit more resilient got it um
+ but I think in general it has limited effectiveness and we don't really havevery strong and general defense so part
+ of that I think is we talked about in deep learning the goal is to learnrepresentations and that's our ultimate
+ in Holy Grail ultimate goal is to learn representations but one thing I I thinkI have to say is that I think part of
+ the lesson we're learning here is that we're one as I mentioned were notlearning the right things and you are
+ now learning the right representations and also I think the representations weare learning is not rich enough and so
+ so it's just like a human visions of course we don't fully understand howhuman visions work but while humans look
+ at the world we don't just say oh you know this is a person there's a camerawhere she get much more nuanced
+ information from the from the world and we use all this information together inthe ends to derive to help us to do
+ motion planning and to do other things but also to classify what the object isand so on
+ so we're linear much richer representation and I think that that'ssomething we have now figure out how to
+ do in deep learning and I think the rhetoric transition will also help us tobuild a more generalizable
+ more resilient running system can you
+
+Speaker 1 :maybe linger on the idea of the word
+ richer representations so to make representations more generalizable itseems like you want to make them more
+ less sensitive to noise right so you
+
+Speaker 0 :want to learn you want to learn the
+ right things you don't want to for example learn this spurious correlationsand so on but at the same time is an
+ example for return information our representation is like again we don'treally know how humans vision works but
+ when we look at the visual world we actually we can identify contours we canidentify right much more information
+ than just what's for example an image classification system is trying to doand that leads to I think the question
+ you asked earlier about defenses so that's also in terms of more promisingdirections for defenses and that's where
+ some of you know my work is trying to do and trying to show as well you have for
+
+Speaker 1 :example in the year 2018 paper
+ characterizing adversarial examples based on spatial consistency informationfor semantic segmentation so that's
+ looking at some ideas on how to detect adversarial examples so like I get werethey you called them like a poisoned
+ data set so like yeah adversarial bad examples in a segmentation day said canyou as an example for that paper can you
+
+
+Speaker 0 :describe the process of defense there so
+ in that paper what we look at is the semantic segmentation task so with thetask essentially given an image for each
+ pixel you want to say what the label is for the pixel and so so just like whatwe talked about so for every example it
+ can easily full image classification systems it turns out that it can alsovery easily for these segmentation
+ systems as well so given image I essentially can add adversaryperturbation to the image to cause the
+ class the segmentation system took basically segmented in any passion thatI wanted so sorry that people were also
+ showed that you can segment it even though there's no kitty in the in theimage we can segment it into like a
+ kitty pattern a Hello Kitty pattern yeah we segmented into like ICC v-tach sideshowing that this segmentation system
+ even though they have fee effective in practice but at the same time they'rereasonably really easily fault so the
+ question is how can we defend against is how we can do the more resilientsegmentation system so um so that's what
+ we try to do and in particular what we are trying to do here is to actually tryto leverage some natural constraints in
+ the task which we call in this case spatial consistency so the idea of thisspecial consistency is a following so
+ again we'd already know how human vision works but in general was elicited whatwe can see us so for example as a person
+ looks as the scene and we can segment the scene easily and then we humansright yes
+ and then if heels pick like a two patches of the scene that has anintersection and for humans if your
+ segments you know like patch a and patch B andthen you look at the segmentation
+ results and especially if you look at the sacrament station results at theintersection of the two patches there
+ should be consistent in the sense that's what the label know what the what thepixels in this intersection what their
+ labels should be and they essentially from these two different patches thereshould be similar in the intersection
+ mmm so that's what we call spatial consistency so similarly for asegmentation system they should have the
+ same poverty right so in the in the image if you pick to randomly pick twopatches the has intersection
+ you feed each patch to the segmentation system you get a results and then when Ilook at the results
+ in the intersection the results the segmentation results should be very
+
+Speaker 1 :similar is that so okay so logically
+ that kind of makes sense at least it's a compelling notion but is that how welldoes that work is that does that hold
+
+
+Speaker 0 :true for segmentation exactly so then in
+ our where I can't experiment so we show the following so when we take secondnormal images this actually hosts pretty
+ well for the segmentation systems that
+
+Speaker 1 :way or like did you look at like driving
+
+
+Speaker 0 :data sense right exactly but then this
+ actually poses a challenge for a visceral examples because for theattacker to add perturbation to the
+ image then it's easy for it to fold the segmentation system into for example fora particular patch are for the whole
+ image to cause the segmentation system to create some to get to some wrongresults but it's it's actually very
+ difficult for the attacker to to have this ever serial for the example tosatisfy the spatial consistency because
+ these patches are randomly selected and they need to ensure that this specialconsistency works so they basically need
+ to fall the segmentation system in a
+
+Speaker 1 :very consistent way yeah without knowing
+ the mechanism by which you're selecting the patches or so on exactly it has toreally fool the entirety of the so you
+
+
+Speaker 0 :do that to actually to be really hard
+ for the attacker to do we tries you know the first week in the city of the artattacks actually showed us this defense
+ methods is actually very very effective and this goes to I think also what I'mmost saying earlier is essentially we
+ want the learning system to have tools to have Richardson station also to learnfrom more you can add the same
+ mathematics entually to have more ways to check whether it's actually havingthe right prediction so for example
+ case doing the spacial consistency check and also actually so that's one paperthough it is and then this suspicion
+ consider this notion of consistency check it's not just limited to spatialproperties it also applies to audio so
+ we actually had follow-up work in audio to show that this temporal consistencycan also be very effective in detecting
+ a verse for example seeing audio XP or what kind of data right and then andthen we can actually combine spatial
+ consistency and temporal consistency to help us to develop more resilientmethods in video so to defend against
+ attacks forbid you awesome that's fascinating yeah yes yes but in general
+
+Speaker 1 :in the literature and the ideas are
+ developing the attacks and the literature is developing a defense whowould you say is winning right now right
+
+
+Speaker 0 :now of course is attack site it's much
+ easier to develop attacks and there are so many different ways to developattacks even just us we develop so many
+ different methods for for doing attacks and also you can do white box extractsyou can do black box attacks where
+ attacks you don't even need and the attacker doesn't even need to know thearchitecture of the target system and
+ now knowing the parameters after tacky system and another so there are so manydifferent types of attacks so the
+
+
+Speaker 1 :counter-argument that people would have
+ like people that are using machine learning and companies they would saysure and constrained environments and
+ very specific data set when you know a lot about the model you know a lot aboutthe data set already you'll be able to
+ do this attack is very nice it makes for a nice demo it's a very interesting ideabut my system won't be able to be
+ attacked like this so the real-world systems won't be able to be attackedlike this that's like that's that's
+ another hope there's actually a lot harder to attack real-world systems canyou talk to that is it I how hard is it
+ to attack real-world systems yes I
+
+Speaker 0 :wouldn't call that I hope I think yeah
+ it's more alpha wishful thinking I try trying to be lucky and so actually inour recent work my students and
+ collaborators has shown some very effective attacks on real-world systemsfor example Google Translate and
+ translation api's so in this work we showed so far I talked about otherexamples mostly in the vision category
+ and of course adversary' examples also work in other domains as well forexample in natural language so so in
+ this work my students and collaborators have shown that also one we can actuallyvery easily steal the model from for
+ example Google Translate but just two inquiries from right through the api'sand then we can train an imitation model
+ ourselves using the curries and then once we and also the imitation model canbe very very effective and essentially
+ have achieving similar performance as a target model and then once we have theimitation model we can then try to
+ create adversarial examples on these imitation models so for example andgiving a you know in a work here was one
+ example is translating from English to German we can give it a sentence sayingfor example I'm feeling freezing it's
+ like 6 Fahrenheit and then translating German and then we can actually generateadversary examples that creates a target
+ translation by very small perturbation so in this case I say we want to changethe translation itself and six
+ Fahrenheit to 21 Southeast's and in this particular example actually which haschanged 6 to 7 in the original sentence
+ that's the only change we made it caused the translation to changefrom the six Fahrenheit into 21 that's
+ terrible and then and then so this example we created this example from ourimitation model imitation and then this
+ work actually transfers to the Google
+
+Speaker 1 :Translate so the attacks that work on
+ the imitation model in some cases at least transfer to the original rightmodel that's incredible and terrifying
+ okay that's amazing work and that shows
+
+Speaker 0 :us again real world systems actually can
+ be easily fooled and in our previous work we also showed these type of blackbox attacks can be effective cloud to
+ the vision API as well so that's for
+
+Speaker 1 :natural language and for vision let's
+ let's talk about another space that people have some concern about which isautonomous driving is sort of security
+ concerns that's another real world
+
+Speaker 0 :
+
+Speaker 1 :system so do you have should people be
+ worried about adversarial machine learning attacks in the context ofautonomous vehicles that use like Tesla
+ autopilot for example they uses vision as a primary sensor for perceiving theworld and navigating in that world what
+ do you think from your stop sign work in the physical world should people beworried how hard is that attack so
+
+
+Speaker 0 :actually there has already been like
+ that there have always been and like a research shown that's for exampleactually even with Tesla like if you put
+ a few stickers on the road it can't actually wide range in certain ways itcan for that that's right but I don't
+
+
+Speaker 1 :think it's actually been I'm not I might
+ not be familiar but I don't think it's been done on physical world's physicalroads yet meaning I think is with the
+ projector in front of the Tesla so it's a it's a physical suppose you're on theother side of the side of the sensor but
+ you're not in still the physical world the the question is whether it'spossible to orchestrate attacks that
+ work in the actual physical like end-to-end attacks like not just ademonstration of the concept but
+ thinking is it possible on the highway to control a Tesla
+
+Speaker 0 :that kind of idea I think there are two
+ separate questions one is the feasibility of the attack and I'mhundred percent confident that's the is
+ possible and there's a separate question whether you know someone will actuallygo you know deploy that attack I I hope
+ people do not do that yeah two separate questions
+
+Speaker 1 :so the question on the word feasibility
+ the clarified feasibility means it's possible it doesn't say how hard it isbecause in there to implement it so sort
+ of the the barrier like how how much of a heist it has to be like how manypeople have to be involved what is the
+ probability of success that kind of stuff and coupled with how many evilpeople there are in the world that would
+ attempt such an attack right that but the to my question is is it sort of atyou know I talked to you a mosque and a
+ same question he says it's not a problem it's very difficult to do in the realworld that this won't be a problem he
+ dismissed it as a problem for adversarial attacks on the Tesla ofcourse he happens to be involved with
+ the company so he has to say that but I mean they may linger and a little longer
+
+Speaker 0 :do you see you where does your
+
+
+Speaker 1 :confidence that it's feasible come from
+ and what's your intuition how people should be worried and how we might be dohow people should defend against it how
+ Tesla how way Moe how other autonomous legal companies should defend againstsensory based attacks on whether on
+ lidar or on vision or so on
+
+Speaker 0 :and also even for light actually that
+ has been researched shown even like it's
+
+Speaker 1 :really important to pause there's really
+ nice demonstrations that it's possible to do but there are so many pieces thatit's kind of like it's it's kind of in
+ the lab now it's in the physical world meaning it's in the physical space theattacks but it's very like you have to
+ control a lot of things to pull it off it's like the difference between openinga safe when you have it and you have
+ unlimited time and you can work on it like breaking into like the crownstealing the crown jewels or whatever
+
+
+Speaker 0 :right in terms of how real these attacks
+ can be one way to look at it is that actually you don't even need anysophisticated attacks already we have
+ seen in the many real-world examples incidents where showing that the thevehicle was making the wrong decision
+
+
+Speaker 1 :
+
+Speaker 0 :wrong decision without attacks right and
+ this is also like so far with many talks about work in this adversarial settingshowing that today's learning system
+ they are so vulnerable to the adversarial setting but at the same timeactually we also know that even in
+ natural settings these learning systems they don't generalize well and hencethey can really misbehave and there's
+ certain situations like what we have seen and hence I think using that as anexample okay so you should can be really
+
+
+Speaker 1 :they can be real but so there's two
+ cases one is something it's like perturbations can make the system isbehaved versus make the system do one
+ specific thing that the attacker wants as you said targeted that seems you know
+
+Speaker 0 :
+
+Speaker 1 :that seems to be very difficult like a
+ extra level of difficult step in the in the real world but from the perspectiveof the passenger of the car here I don't
+ think it matters either way whether it's yeah it's misbehavior or a targeted
+
+Speaker 0 :attack okay and also and that's why I
+ was also saying earlier like if one defense is this multi modal defense andmore of these consistent checks and so
+ on so in the future I think also it's important that for these autonomousvehicles the right they have lots of
+ different sensors and they should be combining all these sensory readings toarrive at the decision and the
+ interpretation of the world and so on and the more of these sensory inputsthey use and the better they combine the
+ sensory inputs the heart rate is going to be attacked and hence I think that isa very important direction for us to
+ move towards so more
+
+Speaker 1 :Damona multi-sensor across multiple
+ cameras but also in the case car radar ultrasonic sound even so all of those
+
+Speaker 0 :rights right exactly
+
+
+Speaker 1 :so another thing another part of your
+ work has been in the space of privacy and that too can be seen as a kind ofsecurity vulnerability as social
+ thinking of data as a thing that should be protected and the vulnerabilities todata is vulnerability is essentially the
+ thing that you want to protect is the privacy of that data so what do you seeas the main vulnerabilities in the
+ privacy of data and how do we protect it
+
+Speaker 0 :right so you see in security we actually
+ talk about essentially two in this case two different properties one isintegrity and one is confidentiality so
+ what we have been talking earlier is essentially the integrity of theintegrity property after the new system
+ how to make sure that the new system is giving the right prediction for exampleand privacy centuries on the other side
+ is about confidentiality of the system is how attackers can when the attackeris compromise the confidentiality of the
+ system that's when the attacker is still sensitive information and right aboutindividuals and so on it's really clean
+
+
+Speaker 1 :does it
+ those are great terms integrity and confidentiality right so how what arethe main vulnerabilities to privacy
+ would you say and how do we protect against it like what what are the mainspaces and problems that you think about
+
+
+Speaker 0 :in the context of privacy right so and
+ especially in the machine learning setting and so in this case as we knowthat how the process goes is that we
+ have the training data and then the machining system a-train's from thescreening data and then buta model and
+ then they say our inputs are given to the model to inference time to try toget prediction and so on so then in this
+ case the privacy concerns that we have istypically about privacy of the data in
+ the training data because that's essentially the private information soand it's really important because
+ oftentimes the training data can be very sensitive it can be your financial datahow data are like in our case it's the
+ sensors deployed in real world environments and so on and all this canbe collecting very sensitive information
+ and other sensitive information gets the first into the new system and trains andas we know these neural networks they
+ can have really high capacity and they actually can remember a lot and hencejust from the learning the learned model
+ in the end actually attackers can potentially infra information abouttheir original training data set so the
+
+
+Speaker 1 :thing you're trying to protect yeah is
+ the confidentiality of the training data and so what are the methods for doingthat would you say what what are the
+ different ways that can be done and also
+
+Speaker 0 :we can talk about essentially how they
+ attackin may try to relay information from the right so so and also there aredifferent types of attacks so in certain
+ cases again like in white box attacks we can say that the attacker I should getto see the parameters of the model and
+ then from that the a smile attacker potential you can try to figure outinformation about the training data sets
+ they can try to figure out what type of theta has been in the training data setsand sometimes they can tell like whether
+ a person has been a particular person's data point has been used in the training
+
+Speaker 1 :data sets so white box meaning you have
+ access to the parameters are saying your network and so that you're saying thatit's some given that information as
+ possible to some so I can give you some
+
+Speaker 0 :examples and another type of attack
+ which is even easier to carry out is now the web box model is more offer just aquery model where the
+ hacker only gets to carry the machine in your model and then try to stealsensitive information in the original
+ training data so right so I can give you an example in this case training alanguage model so in now I work in
+ collaboration with the researchers from Google we actually studied the followingquestion so so however the question is
+ as we mentioned the neural networks can have very high capacity and they couldbe remembering a lot from the training
+ process then the question is can attacker actually exploit this and tryto actually extract sensitive
+ information in the original training dataset through just securing thelearned model without even knowing the
+ parameters of the model like the details of the model are the actual model aftermodel and so on so so that's the that's
+ the question we set how to exploit and in one of the case studies we showed thefollowing so we trained the language
+ model over an email data sets it's called an Enron email data sets and eraemail datasets naturally contains uses
+ social security numbers and credit card numbers so we treat the language modelover the city cells and then we showed
+ that an attacker by devising some new attacks by just occurring the languagemodel and without knowing the details of
+ the model the attacker actually can extract the original social securitynumbers and credit card numbers that
+ were in the original training so get the
+
+Speaker 1 :most sensitive personally identifiable
+ information from the dataset I'm just
+
+Speaker 0 :worrying it that's why even as we trie
+ machine mania models we have to be really careful with the protecting usersdata promise me so what are the
+
+
+Speaker 1 :mechanisms for protecting is there as
+ their as their hopeful so if there's been recent work or non-differentialprivacy for example that that that
+ provides some hope but
+
+Speaker 0 :describe some of these that's actually
+ right so that's also our finding is that by actually we show that in thisparticular case we actually have a good
+
+
+Speaker 1 :defense for the Quarian case for the
+
+
+Speaker 0 :coin it's a language model language
+ model k so instead of just training a vanilla language model instead if wetrain a differentially private language
+ model then we can still achieve similar utility but at the same time we canactually significantly enhance the
+ privacy protection and stay after learned model and our proposed attacksactually are no longer effective and
+
+
+Speaker 1 :differential privacy is the mechanism of
+ adding some noise by which you then have some guarantees on the inability tofigure out the the person the the
+ presence of a human of a particular person in the data set so right so in
+
+Speaker 0 :this particular case what the
+ differential privacy mechanism does is that it actually as participation in thetraining process as we know during the
+ training process we are learning the model well doing gradient updates theway the updates and so on and
+ essentially differential privacy differentially privatesmachining algorithm in this case we'll
+ be adding noise and a diverse perturbation during this training to
+
+Speaker 1 :some aspect of the training process
+
+
+Speaker 0 :right so then the finely trained ruining
+ the learned model is differentially privates and so I can put can enhance
+
+Speaker 1 :the privacy protection so okay so that's
+ the attacks and the defense of privacy you also talked about ownership of dataso this this is a really interesting
+ idea that we get to use many services online for seemingly for free byessentially sort of a lot of companies
+ are funded through advertisement and what that means is the advertisementworks exceptionally well because the
+ companies are able to access our personal data so they know whichadvertisement to service
+ to do targeted advertisements so on so can you maybe talk about the this youhave some nice paintings of the future
+ philosophically speaking future where people can have a little bit morecontrol of their data by owning and
+ maybe understanding the value of their data and being able to sort of monetizeit in a more explicit way as opposed to
+ the implicit way that is currently done
+
+Speaker 0 :yeah I think this is a fascinating topic
+ and also a really complex topic right I think there are these natural questionswho should be owning the data and and so
+ I can tell one analogy and so for example for physical properties likeyour house and so on so really um this
+ notion of property rights it's not just you know like it's not like from day onewe knew that's there should be like this
+ clear notion of ownership of properties and having enforcement for this and soactually people have shown that this
+ establishment and enforcement of property rights has been a main driverfor the for the for the economy earlier
+ and that actually really propelled the economic growth and even right in the
+
+Speaker 1 :earlier stage so throughout the history
+ of the development of the United States there or actually just civilization theidea of property rights that you can own
+
+
+Speaker 0 :property enforcement days is you should
+ know rights like governmental like enforcement of this actually has been akey driver for economic growth and there
+ have been even research proposals saying that for a lot of the developingcountries and they you know essentially
+ the challenging growth is not actually due to the lack of capital itsmore due to the lack of this problem
+ notion property rights and enforcement's
+
+Speaker 1 :of property rights interesting so that
+ the presence of absence of both the the the concept of the property rights andtheir enforcement has a strong
+ correlation to economic growth and so you think that that same could betransferred to the idea of property
+ ownership in case of data ownership I
+
+Speaker 0 :think I think its first of all it's a
+ good lesson for us to like to recognize that these rights and the recognitionand enforcement of this type of Rights
+ it's very very important for economic growth and then if we look at where weare now and where we are going in the
+ future and so essentially more and more as it's actually moving into the digitalworld and also more anymore I would say
+ even like information our asset alpha person is more and more into the realworld the physical necessary the
+ teaching the world as well it's the data that's the presence generators andessentially it's like in the past what
+ defines a person you you can say right like oftentimes besides the inmates likecapabilities actually it's the physical
+ properties oh right that you finds a person but I think more the more peoplestart to realize actually what defines a
+ person is more important in the data that the person has generated other dataabout the person all the way from your
+ political views yar yar music tastes and right your financial information now alot of these and your health so more and
+ more of the definition of the person is actually in the digital world and
+
+Speaker 1 :currently for the most part that's owned
+ in place like it's and people don't talk about it but kind of it's owned by[Music]
+ Internet companies so it's not owned by
+
+Speaker 0 :individual there's no clear notion of
+ ownership after such data and also we you know we talk about privacy and so onbut I think
+ actually clearly identifying the ownership it's a first step once youidentify the ownership then you can say
+ who gets to define how that either should be used so maybe some users arefine with you know internet companies
+ serving them as you think the data as lies if the if the data is used in acertain way that actually the user
+ consents ways are allowed for example you can see the recommendation system insome sense we don't call it an ass but a
+ recommendation system similar it's trying to recommend you something andusers enjoy and can really benefit from
+ good recommendation systems and they recommend you you're better music moviesnews or even research papers to read but
+ but of course then in this tech is ass especially in in certain cases wherepeople can be manipulated by this
+ targeted ass that can have really bad like a severe consequences so soessentially uses one that data to be
+ used to better serve them and also maybe even right get pay for whatever like indifferent settings but the things that's
+ the first of all we need to really establish like you who needs to decidewho can decide how the data should be
+ used and typically that the establishment and clarification of theownership will help this and it's an
+ important first step so if the user is the owner then naturally the user getsto define how the dinner should be used
+ but if you even say that wait a minute you say actually now theowner of the stator whoever's collecting
+ the data is the owner of the data now of course they get to use it in a hybridway they want yeah so to really address
+ these complex issues we need to go at the root cause so it seems fairly clearthat's the first we really need to say
+ now who is the owner of the data and then the owners can specify how the onethat they'd had to be utilized so I said
+
+
+Speaker 1 :that that's a fascinating does most
+ people don't think about that and I think that's a fascinating thing tothink about and probably fight for it
+ I can only see in the economic growth argument it's probably a really strongone so that's that's the first time I'm
+ kind of at least thinking about the the positive aspect of that ownership beingthe long-term growth of the economy so
+ good for everybody but sort of one down possible downside I could see sort of toput on my grumpy old grandpa hat and you
+ know it's really nice for Facebook and YouTube and Twitter to all be free andif you give control to people or their
+ data do you think it's possible they will be they would not want to hand itover quite easily and so a lot of these
+ companies that rely on mass handover of data and then their book thereforeprovide a mass seemingly free service
+ would then completely so the the the the way the internet looks will completelychange because of the ownership of data
+ and we'll lose a lot of services with value do you worry about that that's a
+
+Speaker 0 :very good question I think that's not
+ necessarily the case in a sense that's yes users can have ownership of theirdata they can maintain control of their
+ data but also then they get to decide how their data can be used so and that'swhy I mention it like you see in this
+ case if they feel that they enjoy the benefits of social networks and so onand they are fine with having Facebook
+ having their data but utilizing the data in certain way that's they agree thenthey can still enjoy the free services
+ but for others maybe they would prefer some kind of private vision and in thatcase maybe they can even opt in to say
+ that I want to pay and to have so for example it's already fairly standardlike you pay for certain subscriptions
+ so that you don't get to you know be shown as yes yeah right so the usersessentially can have choices and I think
+ we just want to essentially bring out more about who gets to decidewhat to do with that yeah I think it's
+
+
+Speaker 1 :an interesting idea because if you pull
+ people now you know it seems like I don't know but subjectively sort ofanecdotally speaking it seems like a lot
+ of people don't trust Facebook so that's at least a very popular thing to saythat I don't trust Facebook right I
+ wonder if you give people control of their data as opposed to sort ofsignaling to everyone that they don't
+ trust Facebook I wonder how they would speak with the actual like would they bewilling to pay $10 a month for Facebook
+ or would they hand over their data it'd be interesting to see what fractionof people with would quietly hand over
+ their data to Facebook to make it free III don't have a good intuition aboutthat like how many people do you have an
+ intuition about how many people would use their data effectively on the marketon the on the market of the Internet by
+ sort of buying services with their data
+
+Speaker 0 :yeah so that's a very good question I
+ think so one thing I also want to mention is that this right so it seemsthat especially in press and the
+ conversation has been very much like two sides fighting against each other um ohone hands right yes your skin say that
+ right they don't trust Facebook they don't are there is DB Facebook yeah yeahexactly
+ on the other hand and right of course and right the other side they also feeloh they are providing a lot of services
+ to users and users are getting it all for free so I think actually you know Italked a lot to like different companies
+ and also like a physically ample size and so one thing I hope also like thismy hope for this year also is that and
+ we want to establish a more constructive dialogue and that happen and to helppeople to understand that the problem is
+ much more nuanced then just and this to size fightingbecause naturally there's a tension
+ between the two sides between your Twitter and privacy so if you want toget more utility essentially like the
+ recommendation system example I gave earlier if you want someone to give yougood recommendation
+ essentially whatever the system is the system is going to need to know yourdata to give you a good recommendation
+ but also of course at the same time we want to ensure that however that data isbeing handled it's done in the privacy
+ preserving way and so that that for example that recommendation systemdoesn't just go around and say we are
+ they here and then cause all the you know cause a lot of bad consequences andso on so you want that dialog to be a
+
+
+Speaker 1 :little bit more in the open a little
+ more more nuanced and maybe adding control to the data ownership to thedata will allow so as opposed to this
+ happening in the background allowed to bring it to the forefront and actuallyhave dialogues in like more nuanced real
+ dialogues about how we trade our data for the services that's the whole rights
+
+Speaker 0 :right yes at high level so essentially
+ also knowing that there are technical challenges and in in addressing theissue to like you basically you can't
+ have just like the example that I gave earlier it is really difficult tobalance the two between utility and
+ privacy and and that's also a lot of things that I work on my group Roxanneas well as to actually develop these
+ technologies that are needed to essentially help this balance betteressentially to help data to be utilized
+ in the privacy preserving and responsible way and so we essentiallyneed people to understand the challenges
+ and also at the same time and to provide the technical abilities and alsoregulatory frameworks to help the two
+ sites will be more in the women situation instead of
+
+Speaker 1 :I fight yeah the fighting the fighting
+ thing is I think YouTube and Twitter and Facebook are providing an incredibleservice to the world and they're all
+ making mistakes of course but they're doing an incredible job you know that Ithink deserves to be applauded and
+ there's some degree of gratit it's a cool thing that the that's created andit shouldn't be monolithically fought
+ against like Facebook as evil or so on yeah I might make mistakes but I thinkit's an incredible service I think it's
+ world-changing I mean I've you know I think Facebook's done a lot ofincredible incredible things by bringing
+ for example identity you're like allowing people to be themselves liketheir real selves in in the digital
+ space by using a real name and their real picture that step was like thefirst step from the real world to the
+ digital world that was a huge step that perhaps will define the 21st century inus creating a digital identity there's a
+ lot of interesting possibilities there that are positive of course some thingsare negative and having a good dialogue
+ about that is great and I'm I'm great that people like you're at the centerthat's how access is it's awesome I
+
+
+Speaker 0 :think it also and I also can understand
+ I think actually in the past especially in the past couple years and this risingawareness has been helpful like users
+ are also more and more recognizing that privacy is important to themthey shoes may be right there should be
+ owners after data I think the Stephanus is very helpful and I think also thistype of voice also and together with the
+ regulatory framework and so on also help the companies to essentially put thistype of issues at a higher priority and
+ knowing that right also it is their responsibility to to ensure that usersare well protected and so I think it
+ definitely the raising voice is super helpful and I think that I shouldreally has brought the issue of data
+ privacy and even this consideration of the ownership to the forefront to reallymuch by the community and I think more
+ of this voice is needed but I think it's just that we want to have a moreconstructive dialogue to bring the both
+ sides together to figure out a constructive solution so another
+
+Speaker 1 :interesting space where security is
+ really important is in in the space of any kinds of transactions but it couldbe also digital currency so can you
+ maybe talk a little bit about blockchain and can you tell me what is a blockchain
+
+Speaker 0 :I think the brought to you where it
+ itself is activated overload is in general it's like AI yesso in general I talk about our team we
+ refer to this distributed IJ in a decentralized fashion so essentially youhave in a community of nose that come
+ together and even though each one may not be trusted and otherwise certainthresholds of the set of nodes and he
+ behaves properly then and the system can essentially achieve certain propertiesfor example in the distributed I just I
+ think you have you can maintain a mutable log and you can ensure that forsome of the transactions actually I'll
+ create a pound and then it's immutable and so on so first of all what's the
+
+Speaker 1 :
+
+Speaker 0 :ledger so it's a it's like a database
+ it's like a data entry and so
+
+Speaker 1 :distributed ledger is something that's
+ maintained across or is synchronized across multiple sources multiple nodes
+
+Speaker 0 :multiple notes yes and so where is this
+
+
+Speaker 1 :idea now how do you keep okay so it's
+ important ledger a database to keep that to make sure so what are the kinds ofsecurity vulnerabilities that you're
+ trying to protect against in the context of thisthe distributed ledger so in this case
+
+
+Speaker 0 :for example you don't want to some
+ malicious nose to be able to change the transaction logs and in certain casesaccount double spending like your also
+ calls you can also cause different views in different parts of the network and so
+
+Speaker 1 :on so the ledger has to represent if
+ you're capturing like financial transactions has to represent the exacttiming and the exact occurrence and no
+ duplicates all that kind of stuff has to be represent what actually happened okayso what are your thoughts on the
+ security and privacy of digital currency I can't tell you how many people writeto me to interview various people in the
+ digital currency space there seems to be a lot of excitement there and it seemsto be some of it to me from an
+ outsider's perspective seems like dark magicI don't know how secure I think the the
+ foundation from my perspective of digital currencies that is you can'ttrust anyone so you have to create a
+ really secure system so can you maybe speak about how well your thoughts ingeneral about digital currency is and
+ how you how it can possibly create financial transactions and financialstores of money in the digital space
+
+
+Speaker 0 :so you as security and privacy and so so
+ again as I mentioned earlier in security we actually talk about two mainproperties and the integrity and
+ confidentiality and so there's another one for availability you want the systemto be available but here for the
+ question you ask let's just focus on integrity and confidentiality yes so sofor integrity of this distribution
+ essentially as we discussed we want to ensure that's the different nose andright so they have this consistent video
+ usually it's down through we call a consensus protocol and that's theestablish
+ share the view on this leche and that you cannot go back and change thisimmutable and so on so so in this case
+ then the security often refers to this integrity property and essentiallyyou're asking the question how much work
+ how how can you attack the system so that the attacker can change the lockfor example right how hard is it to make
+
+
+Speaker 1 :an attack like that yes right and then
+
+
+Speaker 0 :that very much depends on the the
+ consensus mechanism the how the system is built and now that so there aredifferent ways to build these
+ decentralized systems and people may have heard about the term Scout likeproof-of-work you prefer take you this
+ different mechanisms and really depends on how how the system has been built andalso how much resources how much work
+ has gone into the network to actually say how secure it is so for example ifyou talk about like in the coins for
+ what system is so much electricity it has been burnt
+
+Speaker 1 :so there's differences there's
+ differences in the different mechanisms and the implementations of a distributedledger used for digital currency also
+ there's Bitcoin is a whatever there's so many of them and there's underlyingdifferent mechanisms and there's
+ arguments I suppose about which is more effective which is more secure which is
+
+Speaker 0 :more what amount of resources needed to
+ be able to attack the system like for example what percentage of the nose doyou need to control our compromise in
+ order to write to change the log and
+
+Speaker 1 :those are things do you do you have a
+ sense if those are things that can be shown theoretically through the designof the mechanisms or does it have to be
+ shown empirically by having a large number of users using the currency I see
+
+Speaker 0 :so in general for each consensus
+ mechanism you can actually show theoretically what is needed to be ableto attack the system of course there are
+ there can be different types of attacks as weepy and discuss at the beginningand so that and it's difficult to gave
+ like you know a complete estimate like really how much is needed to compromisethe system but in general right so there
+ are ways to say what percentage of the knows you need to compromise and so on
+
+Speaker 1 :so we talked about integrity so on the
+ security side and then you also mentioned can the privacy or theconfidentiality side does it have some
+ of does it have some of the same problems and therefore some of the samesolutions that you talked about and the
+ machine learning side with differential privacy and so on yeah so actually in
+
+Speaker 0 :general on the public ledger in this
+ public decentralized systems and actually nothing is private so all thetransactions posters on the library
+ anybody can see so in that sense there is no confidentiality and so usually allyou can do is then there are the
+ mechanisms that you can built in to enable confidentiality are privacy ofthe transactions and the data and so on
+ that's also some of the work and that's both my group and also my startup anddoes as well what's the name you start o
+
+
+Speaker 1 :Asus labs Oasis labs and so the
+ confidentiality aspect there is even though the transactions are public youwant to keep some aspect confidential of
+ the identity of the people involved in the transactions or what what is theirhope to keep confidential in this
+
+
+Speaker 0 :context so in this case for example you
+ want to your nipple like private confidential transactions even so sothere are different and essentially
+ types of data that you want to keep private are confidential and you canutilize different technologies
+ including your knowledge proofs and also secure computing and techniques and tohide the right who is making the
+ transactions to whom and the transaction amount and in our case also we canenable like confidential smart contracts
+ and so that's you don't know the data and the execution of the smart contractand so on and we actually are combining
+ these different technologies and to going back to the earlier discussion wehad enabling like ownership of data and
+ privacy of data and so on so so at Oasis labs we're actually building what wecall a platform for responsible data
+ economy to actually combine these different technologies together and toenable secure and privacy-preserving
+ computation and also using the library to help provide immutable log of usersownership to their data and the policies
+ they want the data to adhere to the usage of the data to adhere to and alsohow that it has been utilized so all
+ this together can build we can a distributed secure computing fabric thathelps to enable a more responsible data
+ economy other things together yeah wow
+
+Speaker 1 :those eloquent okay you're involved in
+ so much amazing work that we'll never be able to get to but I have to ask atleast briefly about program synthesis
+ which at least in a philosophical sense captures much of the dreams of what'spossible in computer science and the
+ artificial intelligence first let me ask what is program synthesis and can uralnetworks be used to learn programs from
+ data so can this be learned some aspect of this synthesis can it be learned so
+
+Speaker 0 :program synthesis is about teaching
+ computers to write code to program and I think it has one of our ultimatedreams or goals and you know I think
+ Andreessen talked about software eating the world so I say once we teachcomputers to write software
+ I had to write programs then I guess computers yeah exactly so yeah and alsofor me actually
+ um when I you know shifted from security to more AI a machining program synthesisis program scenes in adversarial
+ machining these are the two fields that I particularly focus on like programsynthesis one of the first questions
+ that I actually started what are seeking
+
+Speaker 1 :just as a question oh I guess with from
+ the security side there's a you know you're looking for holes and programs soas at least see small connection but why
+ what was your interest for program synthesis as because it's such afascinating such a big such a hard
+ problem in the general case why program synthesis so the reason for that is
+
+Speaker 0 :actually when I shifted my focus from
+ security into AI machine learning and actually one of my main motivation atthe time and is that even though I have
+ been doing a lot of working security and privacy but I have always beenfascinated about beauty intelligent
+ machines and that was really my main motivation to spend more time in AI am aShalini is as I really want to figure
+ out how we can build intelligent machines and to help us towards thatgoal program synthesis is really one
+ enough I would say the best domain to work on I actually call it's likeprogramming synthesis it's like the
+ perfect playground for building intelligent machines thereforeartificial general intelligence yeah um
+
+
+Speaker 1 :well it's also in that sense not just a
+ playground I guess it's it's the ultimate test of intelligence becauseyes I think I think
+ you can generate so neural networks can learn good functions and they can helpy'all in classification tasks but to be
+ able to write programs right that's that's the epitome from the machine sidethat's the same as passing the Turing
+ test and natural language but with programs it's able to expresscomplicated ideas to reason through
+ ideas and yeah and boil them down to
+
+Speaker 0 :algorithms yes exactly is that credible
+
+
+Speaker 1 :so can this be learned how far are we
+ is there hope what are the open
+
+Speaker 0 :challenges questions and we're still at
+ an early stage but already I think you we have seen a lot of progress I meandefinitely we have you know existence
+ proof just like the humans can write programs so there's no reason whycomputers cannot write programs and so I
+ think that's definitely an achievable goal it's just how long it takes andthen and even today we actually have you
+ know the program synthesis community especially the program synthesis bylearning our way College neural program
+ synthesis community is still very small but the community has been growing andwe have seen a lot of progress and in
+ limited domains I think actually program synthesis is ripe for real-worldapplications so actually was kind of
+ amazing I was at giving a talk it's also here it's a rework we worked youplanning something actually so I give
+ another talk at the previously rework conference in deep reinforcementlearning and then I actually met someone
+ from a startup and the CEO of the startup and when he saw my name herecognized and he actually said one of
+ our papers actually had they have put the had actually become a key productsand that was program synthesis in that
+ particular case it was natural language translation translatingnatural language description into psycho
+
+
+Speaker 1 :Cory's oh wow that that direction
+
+
+Speaker 0 :okay right so yeah so you program since
+ this is in limited domains in well specified domains actually already wecan see really great great progress and
+ applicability in the real roads so
+
+Speaker 1 :domains like as an example you said
+ natural language being able to express something to just normal language and itconverts it into a database sequel SQL
+ query right and that's how how solve the problem is that because that seems likea really hard problem okay eliminate
+
+
+Speaker 0 :domains actually it can work pretty well
+ and now this is also a very active domain after research at the time Ithink one he saw our paper at the time
+ we were the state of the Arts yeah and that task and since then actually nowthere has been more work and with even
+ more sophisticated assets and so but I I think I wouldn't be surprised that'smore of this type of technology really
+ getting to the real worlds that's exciting in the near term being able to
+
+Speaker 1 :learn in the space of programs is super
+ exciting I still yeah I'm still skeptical because I think it's a reallyhard problem progress and also I think
+
+
+Speaker 0 :in terms of the your ass about open
+ challenges I think the domain is full of challenges and in particular also wewant to see how we should measure the
+ progress in the space and I would say mainly three main I'll say metrics soone is a complexity of the program that
+ we can synthesize and that will actually have clear measures and just look at youknow the past publications and even like
+ for example I was at the recent Europe's conference now there is actually verysizable like session dedicated to
+ program since this is vicious or even
+
+Speaker 1 :neural progress today
+
+
+Speaker 0 :which is great and and we continue to
+ see the increase like I think they were
+
+Speaker 1 :sizable it's five people and they will
+
+
+Speaker 0 :
+
+Speaker 1 :all win touring awards one day like it
+
+
+Speaker 0 :so we can see increase in the complexity
+ of the program is that these synthesized
+
+Speaker 1 :sorry - is it the complexity of the
+ actual text of the program or the running time complexity which complexity
+
+Speaker 0 :over how complexity after task to be
+ synthesized and the complexes are after the actual synthesize the programs soyou so the lines of code even for
+
+
+Speaker 1 :example okay I got you but it's not the
+ theoretical upper bound of the running
+
+Speaker 0 :time of the day and you can see the
+
+
+Speaker 1 :complexity in decreasing already oh no
+
+
+Speaker 0 :meaning we want to be able to synthesize
+ monomer complex programs bigger and bigger programs so we want to see that'swe want to increase I have to think
+
+
+Speaker 1 :through because I thought of complexity
+ is you want to be able to accomplish the same task with a simpler and simplerprogram no we are not doing that okay
+
+
+Speaker 0 :it's more it's more about how complex a
+ task right we can see the exotic being
+
+Speaker 1 :able to synthesize programs learn them
+ for more and more difficult right so for
+
+Speaker 0 :example initially our first working
+ program synthesis synthesis was to translate natural language descriptioninto really simple programs called
+ if TTT if this then that so given a trigger condition what is the action youshould take so that program is a super
+ simple you just Andy identify the trigger conditions and the action yeahand then later on with the secret
+ queries that gets more complex and then also we started to synthesize programswith loops and know anything could
+
+
+Speaker 1 :synthesize recursion it's all over
+
+
+Speaker 0 :actually yeah 1fi works actually it's
+ already rechristen you're complexity and the other one isgeneralization like one-way training I
+ want to learn programming synthesizer in this case and neural programs tosynthesize programs then you wanted to
+ generalize so for a large number of
+
+Speaker 1 :inputs to be able to write generalize to
+
+
+Speaker 0 :previously and C inputs got it and so so
+ someone for the work who waited earlier learning recursive new programs actuallyshowed that recursion actually is
+ important and to learn and if you have recursion then for certain and set oftasks we can actually show that you can
+ actually have perfect generalization and so right so that one the best paperAwards that I clear earlier and so
+ that's one example of we want to learn these you know programs that cangeneralize better but that works for a
+ certain task with certain domains and there is question how we can essentiallydevelop more techniques that can and
+ have generalization for wider set of domains and so on so that's another areaand then and then the the third
+ challenge I think will it's not just for programming synthesis is also cuttingacross other fields in machine learning
+ and also including like deep reinforcement and in particular is thatthis adaptation is that we want to be
+ able to learn from the past and tasks and training and so on to be able tosolve new tasks so for example in
+ program synthesis today we still are working in the setting way given aparticular task we change the right
+ model and to solve this particular task but that's not how humans work like thewhole point is we train a human than
+ you can then program to south new tasks right exactly and just like we don'twant to just change agent to play a
+ particular game hey it's Atari ice ago whatever we wantto train these agents that can and
+ essentially extract knowledge from the past learning experience to be able toadapt to new new tasks and solve new
+ tasks and I think this is particularly important for program synthesis yeahthat's the whole point that's the whole
+
+
+Speaker 1 :dream of progress this is your learning
+ a tool that can solve new problems right
+
+Speaker 0 :exactly and I think that's a particular
+ main that as a community we need to put more emphasis on and I hope that we canmake more progress today as well
+
+
+Speaker 1 :awesome I think there's a lot more to
+ talk about but let me ask that you also had a very interesting and we talkedabout rich representations he had a rich
+ life journey you did your bachelor's in China and your masters and PhD in theUnited States CMU and Berkeley are there
+ interesting differences I told you I'm Russian I think there's a lot ofinteresting difference between Russia
+ and the United States are there in your eyes interesting differences between thetwo cultures from the silly romantic
+ notion of the spirit of the people to the more practical notion of howresearch is conducted that you find
+ interesting or useful in your own work of having experienced both that's a good
+
+Speaker 0 :question I think so I I started in China
+ for my undergraduate and that was more than 20 years ago there's been a longtime
+
+
+Speaker 1 :
+
+Speaker 0 :is there echoes of that time I think
+ even more so maybe something that's even be more different for my experience anda lot of computer science researchers
+ and practitioners is that so for my undergraduate studies physicsvery nice and then I switch to a
+ computer science in graduate school what
+
+Speaker 1 :
+
+Speaker 0 :happened was there was there is there
+
+
+Speaker 1 :another possible universe where you
+ could have become a theoretical physicist at Caltech or something like
+
+Speaker 0 :that that's very possible some of my and
+ undergrad classmates then the later studies physics account there 15 physicsfrom these schools from yeah from tough
+ physics programs so so you you switch to
+
+Speaker 1 :I mean in that from that experience to
+ doing physics in your bachelor's how what means you decide to switch tocomputer science and computer science
+ had arguably the best university one of the best universities in the world forcomputer science and with Carnegie
+ Mellon especially for the grad school and and so on so what ii only 10 mightyjust kidding okay
+
+
+Speaker 0 :
+
+Speaker 1 :I had Authority and know what what was
+ the choice like and what was the move to the United States like what was thatwhole transition and if you remember if
+ there's still echoes of some of the spirit of the people of China in you in
+
+Speaker 0 :New York it's like three questions so
+ yes I guess okay the first transition from physics to computer science yes sowhen I first came to the United States I
+ was actually in the physics ph.d program at Cornell yeah I was there for one yearand then I switched to computer science
+ and I was seeing the PC program at kind of give a loan and so okay so thereasons for switching so one thing so
+ that's why I also mentions that about this difference in backgrounds abouthaving studied physics yes first in my
+ undergrad um actually really I really did enjoy myundergrads time and education in physics
+ I think that actually really helped me in my future work in computer scienceactually even for machine learning a lot
+ of machine learning stuff the the core machining methods many of the magic
+
+Speaker 1 :for honest most most of everything came
+
+
+Speaker 0 :
+
+Speaker 1 :
+
+Speaker 0 :from physics I was I think I was really
+ attracted to physics and it was it's really beautiful and educated physics isthe language of nature and I actually
+ really remember like one moment in my undergrads like I did my undergrad inChinua and I used to study in the
+ library and I clearly remember like one day I was sitting in a library and I andI was like writing my notes and so on
+ and I got so excited that I realized that if you just from a few simpleaxioms a few simple laws I can derive so
+ much it's almost like I can't derive the rest of the world yeah there's the
+
+Speaker 1 :
+
+Speaker 0 :universe yes yes so that was like
+ amazing do you think you have you ever
+
+Speaker 1 :seen or do you think you can rediscover
+ that kind of power and beauty and computer science in the world that yes
+
+Speaker 0 :that's very interesting so that gets to
+ you know the transition from physics to Versailles and it's a it's quitedifferent for and for physics in in
+ Cresco actually things changed so one is I started to realize that when I starteddoing research in physics at the time I
+ was doing theoretical physics and a lot of its the you still have the beautybase very different so I have to
+ actually do a lot of simulation so essentially I was actually writing insome in some cases writing a fortune
+
+
+Speaker 1 :
+
+Speaker 0 :Harold fortune yes to actually write do
+ like do simulations and so on that was not not exact II enjoy it's doing
+ and also at the time from talking with the senior you know students in theprogram I realized many of the students
+ actually were going off to work Wall Street and and so on and so and I'vealways been interested in computer
+ science and actually essentially taught myself the C programming program rightwhen in college and college somewhere
+
+
+Speaker 1 :
+
+Speaker 0 :
+
+Speaker 1 :
+
+Speaker 0 :for fun learning to do C programming you
+
+
+Speaker 1 :
+
+Speaker 0 :know in physics at the time I think now
+ the programming profit has changed but at the time really the only class we hadin in Hoosick amir science education was
+ introduction to africa to computer science or computing and fortune 77there's a lot of people that still use
+
+
+Speaker 1 :Fortran I'm actually if you're a
+ programmer out there I'm looking for an expert to talk to about Fortran theyseem to there's not many but there's
+ still a lot of people to still use Fortran and still a lot of people these
+
+Speaker 0 :cobalt I realized
+ instead of just doing programming for doing simulations and so on that I mayas well just change to computer science
+ and also one thing I really like and that's a key difference between the twoas in computer science is so much easier
+ to realize your ideas if you have idea you're writing it up you're cut it upand then you can see it's actually bring
+ it to life quickly it's your life wasting physics if you how good theoryyou you have to wait for the
+ experimentalist to do the experiments and to confirm the theory and thingsjust take so much longer and and also
+ the reason I in physics I decided to do theoretical physics it was because I hadmy experience with experimental physics
+ first you have to fix the equipment fixing the equipment first so
+
+Speaker 1 :offensive equipment so there's a lot of
+ it yeah he's have to collaborate with a lot of people takes a long time yes
+
+Speaker 0 :messy so I decided to switch to computer
+ science and the one thing I think maybe people have realized is that for peoplewho study physics actually it's very
+ easy for physicists to change to do something else yes I think physicsprovides a really good training and yeah
+ so actually it was very easy to switch to computer science but one thing goingback to your earlier question so one
+ thing I should you realize so there is a big difference between commune sense andphysics away physics you can derive the
+ the whole universe from just a few simple laws and computer science giventhat a lot of it is defined by humans
+ the systems that you find by humans and and artificial I can essentially createa lot of these artifacts and so on and
+ it's it's not quite the same you don't derive the computer systemswith just a few simple laws you actually
+ have to see there's historical reasons why our system is builds and designs oneway versus the a day there's a lot more
+
+
+Speaker 1 :complexity or less elegant simplicity of
+ e equals mc-squared that kind of reduces everything down to his beautifulfundamental equations but what about the
+ move from China to the United States is there anything that still stays in youthat's contributes to your work the fact
+ that you grew up in another culture so
+
+Speaker 0 :yes I think especially back then it's
+ very different from now so you know now they actually I see these studentscoming from China and even an aggressor
+ actually they speak fluent English it was just you know like amazing and theyhave already understood so much of the
+ culture in the US and so on and it was
+
+Speaker 1 :to you was all foreign it was it was a
+
+
+Speaker 0 :very different time at a time actually
+ even we didn't even have access to email right not to mention about the wealthyeah I remember I had to go to you know
+ specific like you know privileged several rooms too much knowledge aboutthe Western world and actually at the
+ time I didn't know actually the the in the US the West Coast weather is so muchbetter than the yeah things like that
+ actually it's very it's very yeah but now it's so different at the time I Iwould say there's also a bigger culture
+ difference because there's so much less opportunity for shared information soit's such a different right I meant
+ world
+
+Speaker 1 :let me ask me be a sensor question I'm
+ not sure but I think you're not in similar positions is I've been here foralready 20 years as well and looking at
+ Russia from our perspective and you looking at China in some ways it's avery distant place because it's changed
+ a lot but in some ways you still have echoes you have still have knowledge ofthat place the question is you know
+ China is doing a lot of incredible work in AI do you see please tell me there'san optimistic picture you see where the
+ United States and China can collaborate and sort of grow together in thedevelopment of AI towards you know
+ there's different values in terms of the role of government and so on of ethicaltransparent secure systems we see it
+ differently in the I States a little bit than China but we're still trying towork it out do you see the two countries
+ being able to successfully collaborate and work in a healthy way without sortof fighting and making it an AI arms
+ race kind of situation yeah I believe so
+
+Speaker 0 :and I think it's science there's no
+ border and the advancement of technology helps everyone helps the whole world andso I certainly hope that the two
+ countries will collaborate and I certainly believe so do you have
+
+Speaker 1 :any reason to believe so except being an
+
+
+Speaker 0 :optimist so first again like I said
+ science has no borders and especially
+
+Speaker 1 :science doesn't know board borders right
+ and you believe that will you know in this in the former Soviet Union duringthe Cold War
+
+
+Speaker 0 :yeah so this is the other point I was
+ going to mention is that especially in academic research everything is publiclike we write papers we open source
+ codes and others in the public domain it doesn't matter whether the person is inthe u.s. in China or some other parts of
+ the world and they can go on archive and look at the latest research and results
+
+Speaker 1 :so that openness gives you hope yes me
+ too
+
+Speaker 0 :and that's also how as a world we make
+ progress the best so apologize for the
+
+Speaker 1 :romanticized question but looking back
+ what would you say was the most transformative moment in your life thatmaybe made you fall in love with
+ computer science you said physics you remember there was a moment where youthought you could derive the entirety of
+ the universe was there a moment that you really fell in love with the work you donow from security to machine learning to
+ program synthesis so maybe as I
+
+Speaker 0 :mentioned actually in college a one
+ summer I should tell myself programming see yes you just read a bug don't tellme you fell in love with computer
+
+
+Speaker 1 :science by programming and see remember
+
+
+Speaker 0 :I mentioned when one of the draws for me
+ to come here sense is how easy it is to realize their ideas so once I you don'tread the book started like it taught
+ myself how to program and see immediately what what did I dolike I programmed two games um
+ ones just simple like it's a go game like it supports you can move the stonesand so on and the other one actually
+ programmed the game that's like a 3d Tetris it was a to not to be a superhard game to play
+ it's obvious the standard 2d Tetris it's actually a 3d thing but I can realizewow you know I just had these ideas to
+ try it out and then you can just do this so that's the one I realized wow this isamazing
+
+
+Speaker 1 :yeah you can create yourself from
+
+
+Speaker 0 :
+
+Speaker 1 :nothing to something that's actually out
+ in the real world so let me ask let me ask a silly questionor maybe the ultimate question what is
+ to you the meaning of life what what gives your life meaning purposefulfillment happiness joy okay
+
+
+Speaker 0 :these are two different questions very
+ different yeah it's easy that you asked this question maybe this question isprobably the question that has follows
+ me and follow my life the most have you
+
+Speaker 1 :discovered anything and you satisfactory
+ answer for yourself is there something
+
+Speaker 0 :
+
+Speaker 1 :is there something you've arrived at you
+ know that there's a moment I've talked to a few people who have faced forexample a cancer diagnosis or faced
+ their own mortality and that seems to change their views and it it seems to bea catalyst for them removing most of the
+ crap that the of seeing that most of what they've been doing is not thatimportant and really reducing it into
+ saying like here's is actually the few things that really give me give meaningmortality is a really powerful catalyst
+ for that it seems like facing mortality whether it's your parents dying orsomebody close to you dying or facing
+ your own death for whatever reason or
+
+Speaker 0 :cancer and so on yeah in my own case I
+ didn't need to face mortality and I think there are a couple things so oneis like who should be defining the
+ meaning of your life right is there some kind of even greater things than you whoshould define the meaning of your life
+ so for example when people say that searching the meaning for our life is isthere some there is some outside voice
+ or is there something you know a set of you who actually tells you you know somepeople talk about oh you know this is
+ what you have been born to do right right like this is your destiny um sowho right so that's the one question
+ like who gets to define the meaning of your life should you be finding someother thing some other factor to define
+ this for you always something actually it's just entirely where you defineyourself and it can be very arbitrary
+
+
+Speaker 1 :yeah so in inner and inner voice or an
+ outer voice whether it's it could be spiritual religious - with God or someother components of the environment
+ outside of you or just your own voice do you have up do you have an answer there
+
+Speaker 0 :and so you know you know the long period
+ of time of thinking and searching even searching through outsides right youknow voices are factors outside of me
+ yeah so that I have and so I've come to the conclusion and realization that it'syou yourself that you finds the meaning
+ of life yeah that's a big burden no
+
+Speaker 1 :
+
+Speaker 0 :isn't it right so then you have the
+ freedom to define it yes and and another question is like what does it reallymean by the meaning of life right um and
+ also whether the question even make sense absolutely and you said it somehow
+
+Speaker 1 :distinct from happiness so meaning is
+ something much deeper than just any kind of emotional any any kind of contentmentor joy whatever it might be much deeper
+ and then you have to ask what is deeper than thatwhat is
+ what is there at all and then the question starts being silly right and
+
+Speaker 0 :also you can say it's deeper but you can
+ also say it's a shallow depending on how people want to define the meaning oftheir life so for example most people
+ don't even think about this question then the meaning of life to them itdoesn't really matter that much and also
+ whether knowing the meaning of life and whether actually helps y'all love to bepresent area or whether helps your life
+ to be happier and these actually are often questions is not worse most
+
+Speaker 1 :questions open I tend to think that just
+ asking the question as you mentioned as you've done for a long time is the onlythat there is no answer and asking the
+ question is a really good exercise I mean I have this for me personally I'vehad the kind of feeling that creation is
+ a like for me has been very fulfilling and it seems like my meaning has been tocreate and I'm not sure what that is
+ like I I don't have a single lot of kids I would love to have kids but I alsosounds creepy but I also see sort of he
+ said see programs I see programs as little creations I seerobots as little creations I think those
+ are met those of those bring and then ideas theorems and and are creations andthose somehow intrinsically like you
+ said bring me joy I think they do to a lot of these scientists but I think theydid a lot of people so that to me if I
+ had to force the answer to that I would say creating new things yourself for you
+
+Speaker 0 :for me for me for me I don't know but
+
+
+Speaker 1 :like you said as he keeps changing is
+ there some answer that some people they
+
+Speaker 0 :can I think they may say it's experience
+ rights like their meaning of life all rightthey just want to experience to the
+ richest and full as they can and a lot of people do take that path yes seeing
+
+Speaker 1 :life is actually a collection of moments
+ and then trying to make the richest possiblethat's filled those moments with the
+ richest possible experiences yeah right
+
+Speaker 0 :and for me I think it's certainly we do
+ share a lot of similarity here like the creation is also really important for meeven from you know the things that I've
+ already talked about even like you know writing papers and these are ourcreations as well and I have not quite
+ thought whether that has really the meaning of my life like in a sense alsothat maybe like what kind of things
+ should you create there's so many different things that you could createand also you can say another view is
+ maybe growth is it's related but different from experience growth is alsomaybe type of meaning of life it's just
+ you try to grow every day try to be a better self every day and and alsoultimately we are here it's part of the
+ overall evolution the right the world is evolving it's funny it's funny that the
+
+Speaker 1 :growth seems to be the more important
+ thing than the thing you're growing towards it's like it's not the goal it'sthe the journey to it sort of it's
+ almost it's almost when you submit a paper it's there's a sort of depressingelement to it not to submit a paper but
+ when that whole project is over I mean there's a gratitude there's acelebration and so on but you're usually
+ immediately looking for the next thing yeah the next step right it's not it'snot that status that at the end of it is
+ not the satisfaction is the the hardship the challenge you have to overcome thegrowth through the process it's
+ something it's somehow probably deeply within us the same thing that drove thatdrives the evolutionary process is
+ somehow within us with everything the way the way we see the world sinceyou're thinking about this so you're
+ still in search of an answer I mean yes
+
+Speaker 0 :and no in the sense that I think for
+ people who really dedicate time to search for the answer to ask a questionwhat is the meaning of life it does not
+ as we bring your happiness
+
+Speaker 1 :
+
+Speaker 0 :yeah it's a question and we can say
+ right like weather is a well-defined question and and on the other and but onthe other hand given that you get two
+ answers yourself you can define it yourselfsure I can't just you know give it
+ answer and in that sense yes it can help and like it's like we discussed if yousay oh then my meaning of life is to
+ create are to grow then then yes then I think they can help but how do you knowthat that is really the meaning of life
+ are the meaning of your life it's like there's no way for you to really answerthe question sure but something about
+
+
+Speaker 1 :that certainty is liberating so if it
+ might be an illusion you know you might not really know you might be justconvincing yourself falsely falsely but
+ being sure that that's the meaning the there's something there's somethingliberating in that in that there's
+ something freeing in knowing this is your purpose so you can fully giveyourself to that without you know for a
+ long time you know I thought like isn't it all right like why what's how do weeven know what's good and what's evil
+ like it isn't everything just relative like how do we know you know the thequestion of meaning is ultimately the
+ question of why do anything why is anything good or bad why is anythingmoment then you start to I think just
+ like you said I think it's a really useful question to ask but if you ask itfor too long and too aggressively I mean
+ not be so protect it not be productive and not just for traditionally societyto find success but also for happiness
+ it seems like asking the question about the meaning of life is like a trap is uhwere destined to be asking we destined
+ to look up to the stars and ask these big white questions we'll never be ableto answer but we shouldn't get lost in
+ them and that's probably the that's at least alesson I picked up so far I'm noting
+ that topic let me just add one more
+
+Speaker 0 :thing so it's interesting so actually so
+ sometimes yes it can help you and to focus so when I when I shifted my focusmore from security to a I am a Sunni at
+ the time the actually one of the main reason why I did that was because at thetime I thought my mini the meaning of my
+ life and the purpose of my life is to build in hydrogen machines and that's
+
+Speaker 1 :and then your inner voice said that this
+ is the right this is the right journey to take to build intelligent machinesand that you actually fully realized you
+ took a really legitimate big step to become one of the world classresearchers to actually make it to
+ actually go down that journey yeah that's profound that's profound I don'tthink there's a better way to end a
+ conversation than talking for for a while about the meaning of life doneit's a huge honor to talk to you thank
+ you so much for talking today thank you
+
+Speaker 0 :thank you
+
+
+Speaker 1 :thanks for listening to this
+ conversation with Dawn song and thank you to our presenting sponsor cash appplease consider supporting the podcast
+ by downloading cash app and using collects podcast if you enjoy the spotguest subscribe on YouTube review it
+ with five stars on Apple podcast supported on patreon or simply connectwith me on Twitter Alex Friedman and now
+ let me leave you with some words about hacking from the great Steve Wozniak alot of hacking is playing with other
+ people you know getting them to do strange things thank you for listening
+

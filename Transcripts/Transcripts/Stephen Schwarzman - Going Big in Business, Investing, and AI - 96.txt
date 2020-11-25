@@ -1,0 +1,726 @@
+Speaker 1 :the following is a conversation with
+ stephen schwartzman ceo and co-founder of blackstone one ofthe world's leading
+ investment firms with over 530 billion dollars of assets under managementhe's one of the most successful business
+ leaders in history i recommend his recent bookcalled what it takes that tells stories
+ and lessons from his personal journey stephen is a philanthropist and one ofthe wealthiest people in the world
+ recently signing the giving pledge thereby committing to givethe majority of his wealth to
+ philanthropic causes as an example in 2018 he donated 350million dollars to mit
+ to help establish its new college of computingthe mission of which promotes
+ interdisciplinary big bold research in artificial intelligencefor those of you who know me know that
+ mit is near and dear to my heart and always will be it was and is a placewhere i believe
+ big bold revolutionary ideas have a home and that is what is needed in artificialintelligence research in the coming
+ decades yes there's institutional challenges butalso
+ there's power in the passion of individual researchersfrom undergrad to phd from young
+ scientists to senior faculty i believe the dream to buildintelligence systems
+ burns brighter than ever in the halls of mitthis conversation was recorded recently
+ but before the outbreak of the pandemic for everyone feeling the burden of thiscrisis i'm sending love your way
+ stay strong we're in this together this is the artificial intelligencepodcast if you enjoy it
+ subscribe on youtube review it with five stars and have a podcastsupport it on patreon or simply connect
+ with me on twitter at lex friedman spelled f-r-i-d-m-a-nas usual i'll do a few minutes of ads
+ now and never any ads in the middle that can break the flow of theconversation i hope that works for you
+ and doesn't hurt the listening experience quick summary of the adstwo sponsors masterclass and expressvpn
+ please consider supporting the podcast by signing up to masterclassmasterclass.com lex and getting
+ expressvpn at expressvpn.com lex podthis show is sponsored by masterclass
+ sign up at masterclass.com lex to get a discount and support thispodcast
+ when i first heard about masterclass i thought it was too good to be truefor 180 a year you get an all-access
+ pass to watch courses from to list some of my favorites chrishadfield on space exploration
+ neil degrasse tyson on scientific thinking communicationwill wright creator of simcity and sims
+ on game design carlos santana on guitar gary kasparovon chess
+ daniel negrano and poker and many many morechris hadfield explaining how rockets
+ work and the experience of being launched into space aloneis worth the money by the way you can
+ watch it on basically any device once again sign up at masterclass.comlex to get a discount and to support
+ this podcast this show is sponsored by expressvpn getit
+ at expressvpn.com lex pod to get a discount and to support thispodcast i've been using expressvpn for
+ many years i love it it's easy to use press the bigpower on button
+ and your privacy is protected and if you likeyou can make it look like your location
+ is anywhere else in the world i might be in boston now but i can makeyou look like
+ i'm in new york london paris or anywhere else in the worldthis has a large number of obvious
+ benefits certainly it allows you to access internationalversions of streaming websites
+ like the japanese netflix or the uk hulu expressvpn works on any device you canimagine i use it on linux
+ shout out to ubuntu 2004 windows android but it's available everywhereelse too
+ once again get it at expressvpn.com lexpod to get a discount and to supportthis podcast
+ and now here's my conversation with stephen schwartzmanlet's start with the tough question what
+ idea do you believe whether grounded in data or an intuitionthat many people you respect disagree
+
+
+Speaker 0 :with you on well there isn't
+ all that much uh anymore since the world's so transparentuh but uh one of the things i i believe
+ in and put it in the the book what it takesis
+ is if you're going to do something do do something very consequentialdo something that's quite large uh if
+ you can that's unique uh because if you operatein that kind of space
+ when you're successful it's it's a huge impactuh the prospect of success enables you
+ uh to recruit people uh who want to be part of thatand those type of large opportunities
+ are pretty easily described and and so not everybody likes tooperate
+ uh at scale some people like to do small thingsbecause it uh is is meaningful for them
+ emotionally uh and and so occasionally you get adisagreement
+ uh on that but those are life choices uh rather than commercial choices that's
+
+Speaker 1 :interesting
+ what good and bad comes with going big see we often in america thinkbig is good
+ what's the benefit what's the cost in terms of just bigger than business butlife happiness the pursuit of happiness
+
+
+Speaker 0 :well
+ you do things that make you happy it's not mandatedand everybody's different uh and um
+ some people um you know if they have talent likeplaying pro football uh you know other
+ people just like throwing the ball around uhyou know not even being on a team
+ what what's better depends what your objectives are depends what your talentis
+ uh you know it depends um you know
+
+Speaker 1 :what what gives you joy so in terms of
+ going big is it both for impact on the world andbecause you personally gives you joy
+
+
+Speaker 0 :well
+ it makes it easier to succeed actually because if you catch something forexample that's cyclical
+ that's it's a huge uh opportunity then then you usually can find someplace within that huge opportunity where
+ you can make it work uh if if if you'reprosecuting a
+ a really small thing and and you're wrongyou don't have many places to go so
+ you know i've always found that the easy place to beuh and you know the ability where you
+ can concentrate uh human resources get people excitedabout doing
+ like really impactful big things and you can afford to pay them actuallybecause the bigger thing can generate
+ much more in the way of uh of financial resources so so that bringspeople out of talent
+ to help you uh and and so all together it's a virtuous circle
+
+Speaker 1 :uh i think how do you know an
+ opportunity when you see one in terms of the one youwant to go big on
+ is it intuition is it facts is it uh back and forth deliberationwith people you trust what's the process
+ is it art is it science well it's
+
+Speaker 0 :pattern recognition
+ and how do you get to pattern recognition first you need to understandthe patterns
+ and and the changes that are happening and and that'suh that's either uh it's observational
+ on some level you can call it data uh or you can just call it listening touh unusual things that people are saying
+ that they haven't said before and you know i've alwaystried to describe this it's like seeing
+ a piece of white lint on a on a blackdress
+ but most people disregard that piece of lintthey just see the dress i always see the
+ lint uh and and i'm i'm fascinated byhow did something get someplace it's not
+ supposed to be so it doesn't even need to be a bigdiscrepancy
+ but if something shouldn't be someplace in in aconstellation of facts that that
+ you know sort of made sense in a traditional wayi i've learned that if you focus
+ on why some one discordant note is there that's usually a key tosomething important and if you can find
+ two of those discordant notes that's usually a straight line to someplace
+ and that some place is not where you've been anduh usually when you figure out that
+ things are changing or have changed and you describe them which you have tobe able to do because it's not
+ uh some odd intuition it's just focusing on facts it's almost like a scientificdiscovery if you will
+ when you describe it to other people in the real worldthey tend to do absolutely nothing
+ about it and that's because humans are comfortable in their ownreality
+ and if there's no particular reason at that momentto shake them out of their reality
+ they'll stay in it even if they're ultimately completelywrong
+ and i've always been stunned that when i explainwhere we're going what we're doing and
+ why almost everyone just says that'sinteresting and they continue doing what
+ they're doing and and so um you know i think it'spretty easy to do that
+ uh you know but what you need is a huge data set so you know before ai andpeople's focus
+ on data you know i've sort of been doing this mostly my whole lifei'm not a scientist i'm not a let alone
+ a computer scientist and you know you can just hear whatpeople are saying when somebody says
+ something or you observe something that simply doesn't make sense that'swhen you really go to work
+ the rest of it's just processing you
+
+Speaker 1 :know
+ on a quick tangent pattern recognition is a termoften used throughout the history of ai
+ that's the goal of artificial intelligenceis pattern recognition right but there's
+ i would say various flavors of that so usually pattern recognition refers tothe process
+ of the the we said dress and the lint on the dresspattern recognition is very good at
+ identifying the dress as looking at the re the pattern that'salways there that's very common and so
+ on you almost refer to a pattern that'slike an what's called outlier detection
+ in uh computer science right the the rare thingthe the small thing now
+ ai is not often good at that do you just almost philosophicallythe kind of decisions you made in your
+ life based scientifically almost on data do youthink ai in the future will be able to
+ do is it something that could be put downinto code or is it still deeply human
+
+
+Speaker 0 :it's tough for me to say since i don't
+ have domain knowledge in a.i to know everythingthat could or might occur
+ i i know um sort of in my own case that most people don'tsee any of that
+ right i i just assumed it was motivationaluh you know um but but
+ it's also sort of uh it's hardwiring what what are you wired or programmed uhto be finding
+ uh or looking for it's it's not what happens every day that's notinteresting
+ frankly i mean that's what people mostly doi do a bunch of that too because you
+ know that's what you do in normal life but i've always beencompletely fascinated by the stuff that
+ doesn't fit or the other way of thinking about itit's
+ it's determining what what people want without them saying ituh that that's a that's a different kind
+ of pattern you can see everything they're doingthere's a missing piece
+ they don't know what's missing you think it's missinggiven the other facts you know about
+ them and you you deliver that and then thatbecomes you know sort of very easy
+ uh to to to sell to them to linger on
+
+Speaker 1 :this point a little bit
+ you've mentioned that in your family when you were growing up nobody raisedtheir voice
+ in anger or otherwise and you said that this allows you to learn to listenand hear some interesting things
+ can you elaborate as you have been on that ideawhat do you hear about the world if you
+ listen
+
+Speaker 0 :well you you have to listen really
+ intensely to understand uh what people are saying as well aswhat people are intending
+ because it's not necessarily the same thingand people mostly
+ give themselves away no matter how cleverthey think they are particularly
+ if you have the full array of inputs in other words if you look at their faceyou look at their eyes
+ which are the window on the sole it's very difficultto to conceal which what you're thinking
+ uh you look at facial expressions and postureyou listen to their voice which changes
+ um you know when it's when you're you're talking aboutsomething you're comfortable with or not
+ are you speaking faster is the amplitude of what you're sayinghigher most people just give away what's
+ really on their mind uh you know they're they're not thatclever they're busy spending their time
+ thinking about what they're in the process of saying and and soif you just observe that not in a
+ hostile way but just in an evocative way and justlet them talk for a while
+ they'll more or less tell you almost completelywhat they're thinking even the stuff
+ they don't want you to know and and once you know thatof course it's sort of easy to play that
+ kind of game uh because they've already told youeverything you need to know and
+ and and so it's easy to get to uh a conclusion if there's meant to be onean area of common interest
+ since you know almost exactly what's on their mindand and so that's an enormous advantage
+ as opposed to just walking in in some place and and somebody telling yousomething and you believing what they're
+ saying um there are so many different levels ofcommunication
+
+
+Speaker 1 :so powerful approach to life you discuss
+ in the book on the topic of listening and reallyhearing people is
+ figuring out what the biggest problem bothering a particular individualgroup is and coming up with a solution
+ to that problem and presenting them with the solutionright
+ in fact you brilliantly describe a lot ofsimple things that most people just
+ don't do it's kind of obvious find the problem that's botheringsomebody deeply
+ and as you said i think you've implied that they will usually tell you what theproblem is
+ but can you talk about this process of seeing what the biggest problem for aperson is trying to solve it
+ and uh maybe a particularly memorable example
+
+Speaker 0 :yeah sure you know if if if you know
+ you're going to meet somebody there are two two types of situationschance meetings
+ and you know the second is you know you're going to meet somebody solet's take the easiest one which is you
+ know you're going to meet somebody and you you start trying tomake pretend you're them it's really
+ easy what's on their mind what are theythinking about in their daily life what
+ are the big problems they're facing so so ifthey're
+ you know to make it a really easy uh exampleum you know make pretend you know
+ they're like president of the united statesdoesn't have to be this president it
+ could be any president so you sort of knowwhat's more or less on their mind
+ because the press keeps reporting it and and you see it on television youhear it
+ uh people discuss it so you know if you're going to berunning into somebody in that kind of
+ position you sort of know what they look likealready uh
+ you know what they sound like you you you knowuh what their voice is like and you know
+ what they're focused on and and so if you're going to meetsomebody like that
+ what would you what you should do is take the biggest unresolved issuethat they're facing and and come up with
+ uh a few interesting solutions that that that basically haven't been out thereuh or that you you haven't heard anybody
+ else i was thinking about so just to give youan example it was
+ sort of in the early 1990s and i was invited to something at the white housewhich was a big deal for me because
+ i was like you know a person from no place and andyou know i had met the president once
+ before uh because it was president bush becausehis son
+ was in my dormitory so i had met him at parents dayi mean it's just like the oddity of
+ things so so i knew i was going to see himbecause you know that's where the
+ invitation came from and um so so there was something goingon and i just
+ thought about you know two or three ways toapproach that uh that issue and
+ you know at that point i was uh separated andso i had brought it it brought a date uh
+ to the white house and you know you know and so i saw thepresident and
+ we sort of went over in a corner for about 10 minutesand discussed whatever this issue was
+ and i i i later you know went back to my datawas a little rude but it was meant to be
+ confidential conversation and i barely knew herand um you know she said what were you
+ talking about all that time i said well you knowthere's something going on in the world
+ and i've thought about different ways of perhaps approachingthat and he was interested
+ and the answer is of course he was interested why wouldn't he be interestedthere didn't seem to be an easy outcome
+ and and so you know conversations of that type once somebody knows you'rereally thinking
+ about what's good for them uh and good for the situationuh it has nothing to do with with me
+ i mean it's really about being in serviceuh you know to to to this situation
+ that then people trust you and they'll tell you other thingsbecause they know your motives are are
+ basically very pure you're just trying to resolve adifficult situation or help somebody do
+ it so so these types of things you knowthat's a planned situation that's easy
+ is sometimes you just come upon somebody and they start talkingand you know that requires you know like
+ different skills you know uh you can ask themwhat you've been working on lately what
+ are you thinking about uh you can ask them you know has anythingbeen particularly difficult
+ any any you know you can ask most people ifif they trust you for some reason
+ um they'll tell you and then you have to instantly go to work on itand um you know that's that's not as
+ good as having some advanced planning but butyou know uh
+ almost everything going on is is like out there and and people who areinvolved with interesting
+ situations um they're playing in in in in the same ecosystem they justhave different roles
+ uh in in the ecosystem uh and um you know you you can do that withsomebody who owns a pro football team
+ uh that loses all the time we specialize in those in new york and and you knowyou you already have analyzed
+ why they're losing right inevitably it's because they don't have a greatquarterback
+ they don't have a great coach and they don't have a great general manager whoknows how to hire
+ the best talent those are the three reasonswhy a team fails right because they're
+ salary caps so every team pays the same amount ofmoney for all their players
+ so it's got to be those three positions so if you're talking with somebody likethat
+ inevitably even though it's not structuredyou you'll you'll you'll know how their
+ team's doing and you'll know pretty much why and if you start askingquestions about that
+ they're typically very happy to talk about it because they haven't solvedthat problem
+ in some cases they don't even know that's the problem it's pretty easy tosee it
+ so you know i do stuff like that which i find is intuitive as a processbut you know leads to really good
+ results
+
+Speaker 1 :well the funny thing is when you're
+ smart for smart people it's hard to escapetheir own ego
+ and in the space of their own problems which is what's requiredto think about other people's problems
+ it requires for you to let go of the fact that youryour own problems are all important
+ and then to talk about your i think uh while it seems obvious i think quitebrilliant it's a difficult leap for many
+ people especially smart people to empathizewith
+ truly empathize with the problems of
+
+Speaker 0 :others
+ well i have a competitive advantage which is which is i don't think i'm sosmart
+ so good so you know it's not a problem for me
+
+Speaker 1 :well the truly smartest people i know
+ say that exact same thing yeah being humbleis uh is really useful competitive
+ advantage as you said uh how do you stay humble well i
+
+Speaker 0 :i haven't changed much um since since
+ since i was um in my mid-teens you know i was raisedpartly in the city and partly in the
+ suburbs and um and you know whatever the valuesi had uh at that time uh those are still
+ my values uh i call them like middle class valuesthat's how i was raised um
+ and um i i've never changed why would i that's who i am andand so the accoutrement of of um
+ you know the rest of your life has got to be put onthe same you know like solid foundation
+ of who you are because if you start losing who youreally are who are you
+ so i've never had the desire to be somebody else i just do other things nowthat i wouldn't do as a you know sort of
+ as a middle class kid from philadelphia imean my life has morphed
+ uh on a certain level but part of the strengthof having uh integrity of uh
+ personality is is that you can remain in touchwith um with with everybody who's
+ comes from that kind of background and andyou know even though i do some things
+ that aren't like that you know in terms of people i'd meet orsituations i'm in
+ i always look at it through the same lens uh and that's very psychologicallyuh comfortable uh and doesn't require me
+ to make any real adjustments in my life and ijust keep plowing ahead
+
+
+Speaker 1 :there's a lot of activity in progress in
+ recent years around effective altruism it's i wanted tobring
+ this topic with you because it's an interesting one from your perspectiveuh you can put it in any kind of terms
+ but it's philanthropy that focuses on maximizing impact how do you see thegoal of philanthropy
+ both from a personal motivation perspective and a societal big picture
+
+Speaker 0 :impact perspective yeah i i don't think
+ about philanthropy the way you would expect meto
+ okay i i look at you know sort of solving big issues addressing big issuesstarting new organizations to do it much
+ like we do in our business you know we keep growingour business
+ not by taking the original thing and making it largerbut continually seeing new things and
+ and and building those and and you know sort of marshalingfinancial resources human resources and
+ and in our case because we're in the investment business we find somethingnew that looks like it's going to be
+ terrific and and we do that and it works outreally well
+ all i do in what you would call philanthropyis is look at other
+ opportunities to help society and i end up starting something newmarshalling people
+ marshaling a lot of money and and then at the end of thatkind of creative process so somebody
+ typically asks me to write a check i i don't wakeup and say how can i
+ like give large amounts money away i look atissues that are important for people
+ in some cases i do smaller things because it's important to a person uhand and you know i have you know sort of
+ like i can relate to that person there's someunfairness uh that's happened to them
+ and so uh in situations like that i'd give moneyanonymously and
+ help them out and you know that that's that'sit's it's like a miniature version
+ of addressing something really big so you know at mitum i i've done a big thing uh
+ you know helping to start this new school of computingand and i did that because you know i i
+ saw that that you know there's sort of like aglobal race on
+ uh in ai quantum and other major technologies and ii thought that um that the u.s could use
+ more enhancement from a competitive perspective andi also because i get to china a lot and
+ i travel around a lot compared to a regular person um you knowi
+ i can see the need to have control of these types of technologies so whenthey're introduced
+ we don't create a mess like we did with the internetuh and with social media uh unintended
+ consequence um you know that's creating all kinds ofissues and freedom of speech and the
+ functioning of liberal democracies so with with ai it was pretty clear thatthere was enormous
+ difference of views around the world by therelatively few practitioners in the
+ world who really knew what was going on and uh by accident i knew a bunch ofthese people
+ uh you know who were like big famous peopleuh and i could talk to them and say why
+ do you think this is a force for bad and someone else why do you feel this isa force for good
+ and and how do we move forward with the technologybut the same by the same time make sure
+ that whatever is potentially you know sort of on the bad side of thistechnology with
+ you know for example the disruption of workforces and things like thatthat could hap happen much faster than
+ the industrial revolution uh what do we do about that and how dowe keep that
+ under control so that the really good things about these technologieswhich will be great things not good
+ things uh are allowed to happen so so to meuh you know this this was one of the
+ great issues uh facing society the number ofpeople who were aware of it were very
+ small i just accidentally got sucked into itand and as soon as i saw it i went
+ oh my god this is mega yeah both on a competitive basis globally uhbut but also in terms of protecting uh
+ society and benefiting society so so so that'show i got involved and at the end
+ you know sort of the right thing that we figured out wasyou know sort of double mit's computer
+ science faculty and and and basically create the first aienabled
+ uh university in the world uh and you know in effect be an example abeacon to the rest of the research
+ community around the world academically and and and create you knowa much
+ more robust uh us uh situation competitive situationamong the universities uh because if
+ if mit was going to raise a lot of money and double its faculty well you couldbet that
+ you know and a number of other universities were going to do the samething at the end of it
+ it would be great for knowledge creation you know greatfor the united states great for the
+ world uh and so i like to do things that ithink
+ are really positive things that other people aren't actingon
+ that i i see for whatever the reason firstjust people i meet and what they say and
+ i can recognize when something really profound is aboutto happen or needs to
+ and i do it at the end of the day the end of the situationsomebody says can you write a a check
+ to help us and then the answer is sure i mean because if i don'tthe vision won't happen but it's the
+ vision of whatever i do that is compelling
+
+Speaker 1 :and essentially i love that idea of
+ whether it's small to individual level or really biglike the the gift to mit to launch
+ the college of computing it's it's it starts with a visionand it you see philanthropy
+ as um the biggest impact you can have is by launching something newespecially on an issue that others
+ aren't really addressing and i and i also love thenotion
+ and you're absolutely right that there's other universitiesuh stanford cmu i'm looking at you
+ that would essentially your the seed willwill will create other it will have a
+ ripple effect that potentially might help us be aleader or continue to be a leader in ai
+ this potentially very transformative researchdirection just to linger on that point a
+ little bit what is your hope long term for theimpact the college here at mit might
+ have in the next 5 10 even 20 or let's getcrazy 30 50 years
+
+
+Speaker 0 :well it's very difficult to predict the
+ future when you're dealing with knowledge productionand creativity um you know mit has
+ obviously um some unique aspects uh you know globally and you knowthere's four big uh
+ sort of academic surveys um i forget whether it was qsuh there's the times uh in london
+ you know the u.s news and whatever but one of these recently mit was rankednumber one
+ in the world yeah right so so leave aside whether you're number threesomewhere else
+ in the great sweep of humanity this is pretty amazing yeah right so soyou have a
+ really um remarkable aggregation of of human talent uh hereand um where it goes uh it's hard to
+ tell you have to be a scientist to have the right feel umbut but what's important is you you have
+ a critical mass of people and i i think it breaks intotwo buckets
+ one is scientific advancement uh and and if the new college can uhhelp you know sort of either serve as a
+ convening uh force within the university um oror or help sort of
+ coordination and communication among peopleuh that's a good thing um
+ absolute good thing the second thing is isin the ai ethics area uh which
+ is is is uh in a way equally important becauseif if the science side creates blowback
+ uh so so that science is is is um you know uha bit crippled in terms of going forward
+ because society's reaction to toknowledge advancement in this field
+ becomes really hostile that then you've sort of lost the gamein terms of scientific
+ progress and innovation and and so the ai ethics pieceis super important because you know in
+ a in a perfect world mit would would serve as a global convenerbecause what you need is is you need
+ the research universities you need the companiesthat are driving ai and quantum
+ work you need governments who will ultimately beregulating certain elements of this
+ uh and you also need the media to be knowledgeable and trainedso so we don't get um sort of um
+ overreactions to to one situation which then goes viral uhand it ends up shutting down avenues
+ that are perfectly fine you know to to bewalking down or running down that avenue
+ uh but but if enough uh discordant uh information not even correctnecessarily
+ uh you know sort of gets um uh you know sort of is pushed aroundsociety then you can end up with a
+ really hostile regulatory environment and other things so you havefour drivers that that have to be
+ um sort of um integrated uh and and so uhif if the new school of computing uh
+ can be really helpful in that regard uh then that's a real service uh toscience and it's a service to mit
+ so so that's that's why i wanted to get involved
+
+Speaker 1 :for both areas and the hope is for me
+ for others for everyone for the world is uh for this particular college ofcommunity to be a beacon
+ and a connector for the re for these for these ideas
+
+Speaker 0 :yeah that's right i mean i i think uh
+ mit is perfectly uh positioned uhuh to do that so you've mentioned the
+
+
+Speaker 1 :media
+ social media the internet as uh this complex network of communicationwith uh with flaws perhaps perhaps you
+ can speak to them but it you know i personallythink that science and technology
+ has its flaws but ultimately is uh one sexy excitingit's the way for us to explore and
+ understand the mysteries of our world and two most perhaps more importantlyfor some people
+ it's a huge way to a really powerful way to grow the economyto improve the quality of life for
+ everyone so how do we get how do you see uh the media social mediathe internet
+ as a society having uh you know healthy discourse about sciencefirst of all one that's factual and to
+ one that finds science exciting that invests inscience
+ that pushes it forward especially in thisscience fiction fear-filled field of
+ artificial intelligence well i think that's a little above my
+
+Speaker 0 :pay grade because
+ um you know trying to control social media to make it do what you want to dosure appears to be beyond almost
+ anybody's control and and the technology is beingused
+ to create what i call the tyranny of the minoritiesokay a minority is defined as
+ you know two or three people on a street corner it doesn't matter what they looklike
+ uh it doesn't matter where they came from they're unitedby that one issue that they care about
+ and their job is to enforce their views uh on the world and you knowuh in the political world people just
+ are manufacturing uh truth uh and and they throw it allover
+ and it affects all of us uh and um you know sometimes people are just hiredto
+ to do that i mean it's amazing uh and you think it's one person it'sreally you know just sort of a
+ front you know for a particular point of viewuh and this has become exceptionally
+ disruptive for society and it's dangerousand it's undercutting you know the
+ ability of liberal democracies to functionand i don't know how to get a grip on
+ this and i was really surprised um when we um it was up here for theannouncement
+ uh last uh spring uh of the college of communicomputing
+ and they had all these famous scientists some of whom were involved with theinvention
+ [Music] of the internet and almost every one ofthem got up and said
+ i think i made a mistake uh and as a non-scientist i never thought i'dhear
+ anyone say that and and what they said ismore or less to make it simple uh we
+ thought this would be really cool uh inventing the internet we couldconnect everyone in the world
+ we can move knowledge around it was instantaneousit's a really amazing thing he said i
+ don't know that there was anyone who ever thought about socialmedia coming out of that
+ and the actual consequences for people's livesuh you know so there's always some um
+ some younger person i just saw one of these yesterdayhe's reported on the national news who
+ killed himself when people use social media tobasically
+ you know sort of ridicule him or something of that typethis is dead um this is dangerous
+ uh and um you know so so i i don't have a solution for thatother than going forward
+ you can't end up with this type of outcomeusing ai to make this kind of mistake
+ twice is unforgivable so so interestingly at least in the westuh and in parts of china uh people are
+ quite sympathetic uh to to you know sort of the wholeconcept of
+ ai ethics and what gets introduced when and and cooperation within your owncountry
+ within your own industry as well as globallyto make sure that the technology is a
+ force for good and that really
+
+Speaker 1 :interesting topic since 2007
+ you've had a relationship with senior leadershipwith a lot of people in china and
+ an interest in understanding modern china their culturetheir world much like with russia i'm
+ from russia originally americans are told a verynarrow one-sided story about
+ china that i'm sure misses a lot of fascinating complexityboth positive and negative what lessons
+ about chinese culture its ideas as a nation asfuture do you think americans should
+ know about deliberate on think about
+
+Speaker 0 :well it's it's sort of a wide question
+ that you're you're asking about uh you know china isa pretty unusual place you know at first
+ it's it's huge uh you know you gotit's physically huge it's got a billion
+ three people and the the character of the peopleisn't as well understood
+ uh in the united states um chinese um people are amazinglyenergetic uh if if you're one of a
+ billion three people one of the things you've got to befocused on is how do you make your way
+ uh you know through a crowd uh of a billion 2.99999
+
+Speaker 1 :other people another word for that is
+
+
+Speaker 0 :competitive yes
+ they they are individually highly energetichighly focused always looking for
+ some opportunity uh for themselves um because they need to uh becausethere's an enormous amount of just
+ literally people around and and so you you know what i've found uhis uh they'll try and find a way to win
+ uh for themselves uh and their country is complicatedbecause it it basically doesn't have the
+ same kind of functional laws uh that we do uh in in the united statesin the west
+ and and um the country is controlled really uh through a web of relationshipsyou have with other people
+ uh and the relationships that those other people have with other peopleso it's an incredibly dynamic
+ uh uh culture where if somebody knocks somebody up on the top who'sthree levels above you and is in effect
+ protecting you then then you know you're you're like a youknow sort of a floating
+ molecule there uh you know without tetheringuh except the one or two layers above
+ you but that's gonna get affected so it's a very dynamic system andgetting people to change
+ is not that easy because if there aren't really functioning lawsit's only the relationships that
+ everybody has and so when you decide to make a majorchange
+ and you sign up for it something is changing in your life there won'tnecessarily be all the same people on
+ your team uh and that's a very high riskenterprise so when you're dealing with
+ with china it's important to know almost what everybody's relationship is withsomebody uh
+ so when you suggest doing something differentlyyou you line up these forces in the west
+ it's usually you talk to a person and they figure out what's good for themuh it's a lot easier and in that sense
+ in a funny way it's easier to make change uh in the west just the oppositeof what people think
+ but but once the chinese system adjusts to something that's neweverybody's on the team it's hard to
+ change them but once they're changed they are incredibly focused in a waythat it's hard for the west to do
+ in a more individualistic culture so so there are all kinds of fascinatingthings
+ i you know um one thing that might interest uh youknow the people who are listening
+ were more technologically based than some other groupum that was with one of the top people
+ in the government um a few weeks ago and hewas telling me that
+ that every school child in um in china is is going to betaught computer science now imagine
+ 100 of these children this is such a large number ofhuman beings now that doesn't mean that
+ every one of them will be good at computer science but ifit's sort of like
+ in the west if it's like math or english everybody's going to take it yes noteverybody's great at
+ english they don't write books they don't write poetryand not everybody's good at math you
+ know somebody like myself i sort of evolved to the third grade andi'm still doing flash cards
+ uh you know i didn't make it further in mathbut imagine everybody in their society
+ is going to be involved with computer science
+
+Speaker 1 :i just even pause on that i i think
+ the computer science involves at the basic beginner level programmingand the idea
+ that everybody in the society would have some ability to program a computeris incredible
+ for me it's incredibly exciting and um i think that should giveunited states pause and
+ uh consider what talking about sort of philanthropy and launching thingsthere's nothing like launching sort of
+ investing in young the youth the education system becausethat's where everything launches
+
+
+Speaker 0 :yes well we've got a complicated system
+ because we have over three thousand school districts aroundthe country
+ china doesn't worry about that as a conceptthey make a decision at the very top of
+ the the government that that's what theywant to have happen and that is what
+ will happen and we're really handicappeduh by this distributed you know power
+ uh in the education area although some people involved with that area willthink it's
+ uh it's great uh but you know you would know better than ido uh what percent of american children
+ have computer science uh uh exposure my guessno knowledge uh would be five percent
+ or less uh and if we're going to be going into a worldwhere where the other major economic uh
+ power uh sort of like ourselves is is got likea hundred percent
+ and we got five and and the whole computer science areauh is the future um then we're
+ purposely or accidentally actually handicapping ourselves and our systemdoesn't allow us uh to adjust quickly
+ uh to that so you know the issues like thisuh i i find fascinating uh
+ and you know if you're lucky enough to go to other countriesuh which i do um and you learn what
+ they're thinking then it informs what what we ought to bedoing
+ in in in the united states
+
+Speaker 1 :so the current administration donald
+ trump has released the an executive order onartificial intelligence
+ not sure if you're familiar with it in 2019uh looking several years ahead how does
+ america sort of we've mentioned in terms of thebig impact
+ we hope your in investment in mit will have a ripple effect but from afederal perspective from a government
+ perspective how does america establish with respectto china
+ leadership in the world at the top for research and development in ai
+
+Speaker 0 :yeah i i think that you have to get the
+ federal government in the game in a big wayand that this leap forward
+ technologically which is going to happen with or without us you know reallyshould be with us and and it's an
+ opportunity in effect uh for another moonshotuh kind of mobilization uh
+ by the united states uh i think uh the appetite uh actually is thereto do that at the moment
+ what's getting in the way is the kind of poisonouspolitics we have but but if you
+ go below the lack of cooperation which isalmost the defining element of american
+ democracy right now in the congress if you talk to individual members theyget it
+ and they would like to do something another part of the issue is we'rerunning huge deficits we're running
+ trillion dollar plus deficits so how much money do you needfor this initiative
+ where does it come from who's prepared to stand up for ituh because if it if it involves taking
+ away resources from another area our political system is is not realflexible
+ uh to do that uh if you're creating umthis kind of initiative um which we need
+ where does the money come from uh and and trying to get moneywhen you've got trillion dollar deficits
+ in a way it could be easy what's the difference of a trillion and a trilliona little more
+ uh but but you know it's it's hard with the mechanismsof congress but what's um what's really
+ important is uh this is not an issueuh that is unknown and
+ it's viewed as a very important issue uh and there's almost no one in thecongress when you sit down and explain
+ what's going on who doesn't say we we've got to dosomething
+
+
+Speaker 1 :let me ask the impossible question so if
+ you didn't endorse donald trump but after he was electedyou have given him advice
+
+
+Speaker 0 :
+
+Speaker 1 :which which seems to me a great
+ thing to do no matter who the president is to contributepositively contribute to this nation by
+ giving advice and yet you've received a lot ofcriticism for this
+ so on the previous topic of science and technology and governmenthow do we have a healthy discourse
+ give advice get excited uh conversation with the governmentabout science and technology
+ without it becoming politicized it's
+
+Speaker 0 :very
+ interesting so when i was young before there was a moonshot we had apresident
+ named john f kennedy from massachusetts hereand in his inaugural address as
+ president uh he has not what your country can dofor you
+ uh but what you can do for your country you know we had a generation of peoplemy age basically people who grew up
+ uh with that credo and you know sometimes you don't need toinnovate
+ you can go back to basic principles and that's a good basic principleuh what can what can we do um
+ you know americans have gdp per capita of around 60000 uh you know not every
+ it's not equally distributed but it's biguh and you know people have i think
+ an obligation uh to help their country and i do thatand apparently i take some
+ grief for people from some people you knowwho who who um
+ project on me things i don't even vaguely believebut i'm like quite simple
+ you know i tried to help the previous presidentpresident obama he was a good guy and he
+ was a different party and i tried to help president bush and he's adifferent party
+ and you know i i i i sort of don't care that much uh about what the partiesare i care about even though i'm a big
+ donor for the republicans but it's it'swhat motivates me is what are the
+ problems we're facing and can i help people get toyou know sort of a good outcome that'll
+ stand any test uh but we live in a world nowwhere
+ you know sort of the filters uh in the hostility isis so unbelievable
+ uh you know in the 1960s when i went to schoolin university i went to yale and we had
+ like like so much stuff going on uhwe had a war called the vietnam war
+ we had you know sort of black power startingand and uh you know we had a sexual
+ revolution with the birth control pill uh and um you knowum there was one other major thing going
+ on and right the drug revolution[Music]
+ there hasn't been a generation that had more stuffgoing on in a four-year period
+ than my era yet there wasn't this kind ofinstant hostility if you believed
+ something different everybody lived together andand you know respected uh the other
+ person and and i think that you know this typeof
+ change needs to happen and it's got to happenfrom the leadership of of our major
+ institutions and i i don't think that thatleaders can be bullied uh
+ by people who are against you know sort of the classical version of free speechand
+ letting open expression and inquiry that's what universities are foruh among other things uh socratic
+ methods and uh so so i i haveum uh in in the midst of this
+ like onslaught uh of oddness uh i i believe instill the basic principles and we're
+ going to have to find a way to get back to that and that doesn'tstart
+ with the people uh you know sort of in the middle to the bottomwho are using you know these kinds of
+ screens to to shout people down and and createan uncooperative environment it's got to
+ be done uh at the top with core principlesthat are articulated uh and
+ uh ironically um if people don't sign on to these kind of core principleswhere people are equal and
+ and you know speech can be heard and you know you don't have these enormousshout down biases subtly or
+ or out loud then they don't belong at those institutionsthey're violating the core principles
+ and and um you know that that's how you end upmaking change
+ uh and but you have to have courageous peopleuh who are willing to lay that out
+ for the benefit of not just their institutionsbut for society uh as a whole
+ so i i i believe that will happen um but it needs the commitment uhof of of senior people to make it happen
+
+
+Speaker 1 :courage and i think for such great
+ leaders great universities there's a huge hunger for itso i i'm too very optimistic that it
+ will come i'm now personally taking a step intobuilding a startup
+ first time hoping to change the world of coursethere are thousands maybe more maybe
+ millions of other first-time entrepreneurs like mewhat advice you've gone through this
+ process you've talked about the sufferingthe emotional turmoil it all might
+ entail what advice do you have for those people taking that step
+
+Speaker 0 :i i'd say it's a rough ride
+ and you have to be psychologically prepared for things going wrongwith frequency you have to be prepared
+ to be put in situations where you're being asked to solve problems you didn'teven know those problems existed
+ you know for example renting space it's it's not really a problem unless you'venever done it you have no idea what a
+ lease looks like right you don't even know the relevantrent
+ and you know in a market so everything is neweverything has to be learned what you
+ realize is that it's good to have other peoplewith you
+ who've had some experience in areas where you don't know what you're doingunfortunately an entrepreneur starting
+ doesn't know much of anything so everything isis something new yeah and um
+ i think it's important not to be alone uhbecause it's sort of overwhelming
+ uh and you need somebody to talk to uh other than uh a spouse or a loved oneuh because even they get bored with your
+ problems uh and and so you know getting a groupyou know if you look at alibaba um you
+ know jack ma was telling me they went youknow they basically were
+ like a financial death store at least twice uhand you know the fact that there it
+ wasn't just jack i mean people think it is because of youknow he became the
+ you know the sort of public face and the driverbut but a group of people
+ who can give advice share situations to talk about uh that'sreally important
+
+
+Speaker 1 :and that's not just referring to the
+ small details like renting space no it's also the psychological yes
+
+Speaker 0 :burden
+ yeah and you know because most entrepreneurs at some pointquestion what they're doing because it's
+ not going so well or they're screwing it up and they don't know how tounscrew it up uh because we're all
+ learning and it's hard to be learning you knowwhen they're like
+ 25 variables going on if you you know if you're missing four big ones you canreally make a mess
+ uh and so the ability to to in effect have either an outsider uhwho's really smart that you can rely on
+ for certain type of things uh or other people who are working withyou on a daily basis
+ um it's most people who haven't had experience believe inthe myth
+ of the one person one great person you knowmakes outcomes uh creates outcomes that
+ are positive most of us it's not like thatif you look back over a lot of the big
+ successful tech companies it's not typically oneperson
+ it you know it's and you will know these stories better than i douh because it's your world not mine but
+ even i know that almost every one of them had twopeople i mean if you look at
+ google you know that's what they had and then that was the same with microsoft atthe beginning and
+ you know it was the same at apple it you know people have different skillsand and they need to play off of
+ uh other people so so um you know the the advice that that iwould give you
+ is make sure you understand that so you don'thead off in some direction as a lone
+ wolf uh and find that either you can't inventall the solutions
+ um or you make bad decisions on certain types of thingsthis is a team sport entrepreneur
+ means you're alone in effect and that's the myth but it's mostly amyth
+
+
+Speaker 1 :yeah i think and you talk about this in
+ your book and i could talk to you about it foreverthe the harshly self-critical aspect to
+ your personality and uh to mine as well in the face offailure
+ it's a powerful tool but it's also a burdenthat's that's very interesting uh
+ very interesting to uh walk that line but let me askon the in terms of people around you in
+ terms of friends in in the bigger picture of your ownlife where do you put the value of
+ love family friendship in the big picture journey of your life
+
+Speaker 0 :well ultimately all journeys are alone
+ um it's great to have support um andyou know um when you you you go forward
+ and say your job is to make something work andthat's your number one priority
+ um and you're going to work at it to make it workyou know it's like super human effort
+ people don't come become successful as part-time workersit doesn't work that way and
+ if you're prepared to make that 100 to 120uh effort you're gonna you're gonna need
+ support and and you're gonna have to peopleinvolved with your life
+ who understand that that's really part of your lifeuh sometimes you you're involved with
+ somebody and you know they don't really understandthat and that's a source of
+ you know sort of conflict and difficulty but if youif you're involved with the right people
+ uh you know whether it's a sort of datingrelationship or
+ you know sort of you know spousal relationshipum you know you you have to involve them
+ uh in your life uh but not burden them with with everyyou know sort of minor triumph or
+ mistake they they actually get bored with itafter a while and and so you have to set
+ up different types of ecosystems you have your home lifeyou have your love life you have
+ children and and that's like the enduring partof what you do and then on the other
+ side you've got the you know sort ofunpredictable nature
+ uh of um of of of this type of work what i say topeople
+ at my firm who are younger usually um well everybody's younger but but um youknow people who are of an age
+ where you know they they're just having their first childuh or maybe they have two children that
+ it's important um to to make sure they go away uh withtheir spouse
+ uh uh at least once every two months it's just some lovely place wherethey're no children
+ no issues uh sometimes once a month if if they're you know sort of energeticand clever
+ uh and that um escape the craziness of
+
+Speaker 1 :it all
+
+
+Speaker 0 :yeah and and reaffirm uh
+ your your values as a couple uh and you have to have fun if you don'thave fun
+ with the person you're with and all you're doing is dealing with issuesthen then that gets pretty old and so
+ you have to protect the fun element of your life togetherand the way to do that isn't by hanging
+ around the house and and dealing with you know sort ofmore problems
+ you have to get away and and reinforce and reinvigorateuh your relationship and whenever i tell
+ one of our younger people about that they sort of look at me andit's like the scales are falling off of
+ their eyes and they're saying geez you know i hadn't thought aboutthat you know i'm so enmeshed
+ in all these things but that's a great idea and that's something as anentrepreneur
+ you also have to do you just can't let relationshipsslip because you're half overwhelmed
+
+
+Speaker 1 :beautifully put and i think there's no
+ better place to end it steve thank you so muchi really appreciate it it was an honor
+
+
+Speaker 0 :to talk to you my pleasure
+
+
+Speaker 1 :thanks for listening to this
+ conversation with stephen schwartzman and thankyou to our sponsors expressvpn and
+ masterclass please consider supporting the podcastby signing up to masterclass
+ at masterclass.com lex and getting expressvpnat expressvpn.com lexpod
+ if you enjoy this podcast subscribe on youtube review it with five stars inapple podcast
+ support it on patreon or simply connect with me on twitterat lex friedman and now
+ let me leave you with some words from steven schwartzman's bookwhat it takes it's as hard to start and
+ run a small business as it is to start a big one you willsuffer the same toll financially and
+ psychologically as you bludgeon it into existenceit's hard to raise the money and to find
+ the right people so if you're going to dedicate your lifeto a business
+ which is the only way it will ever work you should choose onewith the potential to be huge
+ thank you for listening and hope to see
+

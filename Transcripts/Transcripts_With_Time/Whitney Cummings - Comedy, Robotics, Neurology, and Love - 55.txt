@@ -1,0 +1,1259 @@
+0:00:00
+Speaker 1 :the following is a conversation with
+ Whitney Cummings she's a stand-up comedian actor producer writer directorand recently finally the host of her
+ very own podcast called good for you her most recent Netflix special calledcan I touch it features in part of robot
+ she affectionately named bear claw but it's designed to be visually a replicaWhitney it's exciting for me to see one
+ of my favorite comedians explore the social aspects of robotics and AI in oursociety she also has some fascinating
+ ideas about human behavior psychology and neurology some of which she exploresin her book called um fine and other
+ lies there's truly a pleasure to meet Whitney and have this conversation withher and he went to continue it through
+ texts afterwards every once in a while late at night I'll be programming over acup of coffee and we'll get a text from
+ Whitney saying something hilarious or weirder yet sending a video Bryan Callensaying something hilarious that's what I
+ know the universe has a sense of humor and he gifted me with one hell of anamazing journey then I put the phone
+ down and go back to programming with a stupid joyful smile on my face if youenjoy this conversation listen to it in
+ these podcasts good for you and follow her on Twitter and Instagram this is theartificial intelligence podcast if you
+ enjoy subscribe on YouTube good five stars on Apple podcasts support onpatreon or simply connect with me on
+ Twitter Alex Friedman spelled Fri D M a.m.this shows presented by cash app the
+ number one finance I have in the App Store they regularly support Whitney'sgood-for-you podcast as well I
+ personally used cash app to some money to friends but you can also use it tobuy sell and deposit Bitcoin in just
+ seconds cash app also has a new investing feature you can buy a fractionof stock say $1 worth no matter what the
+ stock price is brokerage services are provided by kept investing subsidiary ofsquare and member at CIBC I'm excited to
+ be working with cash app to support one of my favorite organizations calledfirst best known for their first
+ robotics and Lego competitions they educate and inspire hundreds ofthousands of stew
+ and in over 110 countries and have a perfect rating and Charity Navigatorwhich means the donated money is used to
+ maximum effectiveness when you get cash app from the App Store or Google Playand use code Lex podcast you get $10 and
+ cash app will also donate $10 to 1st which again is an organization thatpersonally seen inspired girls and boys
+ to dream of engineering a better world this podcast is supported by ziprecruiter hiring great people is hard
+ and to me is the most important element of a successful mission driven team I'vebeen fortunate to be a part of and to
+ lead several great engineering teams the hiring I've done in the past was mostlythe tools that we built ourselves but
+ reinventing the wheel was painful so zip recruiters a tool that's alreadyavailable for you it seeks to make
+ hiring simple fast and smart for example codable co-founder GretchenAbner used the recruiter to find a new
+ game artist to join her education tech company by using zip recruiter screeningquestions to filter candidates
+ Gretchen found it easier to focus on the best candidates and finally hiring theperfect person for the role in less than
+ two weeks from start to finish zip recruiter the smartest way to hirecy zip recruiters effective for
+ businesses of all sizes by signing up as I did for free at zip recruiter commslash Lex pod that's zip recruiter calm
+ slash Lex pod and now here's my conversation with Whitney CummingsI have trouble making eye contact as you
+
+
+0:03:53
+Speaker 0 :can tell me too do you know that I had
+ to work on making eye contact because I used to look here do you see that yeahdo you want me to do that
+ I'll do this well chief to camera but I used to do this and finally people likeI'd be on dates and guys would be like
+ are you looking at my hair like they get it would make people really insecurebecause I didn't really get a lot of eye
+ contact as a kid it's it's one two three years did you not get a lot of mycontact as a kid I don't know I haven't
+
+
+0:04:16
+Speaker 1 :done the soul-searching right so I but
+ there's definitely some psychological is she makes me uncomfortable yeah for somereason want to connect eyes I start to
+ think I assume that you're judging me oh
+
+0:04:31
+Speaker 0 :why am we all are all right the POC has
+ to be me and you both do you think
+
+0:04:40
+Speaker 1 :robots of the future ones with human
+ level intelligence will be female male genderless or another gender who havenot yet created as a society you're the
+
+
+0:04:52
+Speaker 0 :expert at this well I'm gonna ask you
+
+
+0:04:56
+Speaker 1 :the answer I'm gonna ask you questions
+ that maybe nobody knows the answer to or alright and then I just want you tohypothesize as a as a imaginative author
+ director comedian can we just be very
+
+0:05:10
+Speaker 0 :clear that you know a ton about this and
+ I know nothing about this but I have thought a lot about yes what I thinkrobots can fix in our society and I mean
+ I'm a comedian it's my job to study human nature to make jokes about humannature and to sometimes play devil's
+ advocate and I just see such a tremendous negativity around robots orat least the idea of robots that it was
+ like oh I'm just gonna take the opposite side for fun for jokes and then I waslike oh no I really agree and this
+ devil's advocate argument so I please correct me when I'm wrong about this
+
+0:05:48
+Speaker 1 :stuff so so first of all there's there's
+ no right and wrong because we're all I think most of the people working onrobotics are really not actually even
+ thinking about some of the big picture things that you've been exploring infact uh your robot what's-her-name by
+ the
+
+0:06:05
+Speaker 0 :we'll go on bear claw
+
+
+0:06:08
+Speaker 1 :what's the genesis of that name by the
+
+
+0:06:11
+Speaker 0 :way would bear claw was I god I don't
+ even remember the joke cuz i black out after I shoot specials but I was writingsomething about like the pet names that
+ men call women like cupcake sweetie honey you know like we're always namedafter desserts or something and I was
+ just writing a joke about um if you want to call us a dessert at least pick likea cool dessert you know like bear claw
+ like something cool so I ended up
+
+0:06:36
+Speaker 1 :calling her bad luck so do you think the
+ future robots of greater and greater intelligence will like to make themfemale male would we like to assign them
+ gender or would we'd like to move away from gender and say something more
+
+0:06:53
+Speaker 0 :ambiguous I think it depends on their
+ purpose you know I feel like if it's a sex robot it people prefer certaingenders you know and I also you know
+ when I went down and explored the robot Factory I was asking about the type ofpeople that bought sex robots and I was
+ very surprised at the answer because of course the stereotype was it's gonna bea bunch of perverts it ended up being a
+ lot of people that were handicapped a lot of people with erectile dysfunctionand a lot of people that were exploring
+ their sexuality a lot of people that were thought they were gay but weren'tsure but didn't want to take the risk of
+ trying on someone that could reject them and being embarrassed or they werecloseted or in a city where maybe that's
+ you know taboo and stigmatized you know so I think that a gendered sex robotthat would serve an important purpose
+ for someone trying to explore their sexuality am i into man let me try onthis thing first alien to women let me
+ try on this thing first so I think gendered robots would be important forthat I think genderless robots in terms
+ of emotional support robots babysitters I'm fine for a genderless babysitterwith my husband in the house you know
+ there are places that I think that genderless makes a lot of sense butobviously not in the sex area what do
+
+
+0:08:06
+Speaker 1 :you mean with your husband in the house
+ what does that have to do with the
+
+0:08:11
+Speaker 0 :gender of the robot but I mean I don't
+ have a husband but hypothetically speaking I think every woman's worstnightmare is like the hot babysitter
+ you know so I think that there is a common place I think for genderless youknow teachers doctors all that kind of
+ it would be very awkward if the first robotic doctor was a guy or the firstrobotic nurse is a woman you know it's
+ sort of that stuff is still loaded I think that genderless could just takethe unnecessary drama out of it and
+ possibility to sexualize them or be triggered by any of that stuff so
+
+0:08:48
+Speaker 1 :there's two components to this it's a
+ bear claw so one is the voice and the talking so on and then there's thevisual appearance so on the topic of
+ gender and generalists in your experience what has been the value ofthe physical appearance so what has it
+ added much to the depth of the
+
+0:09:08
+Speaker 0 :interaction I mean mines
+ kind of an extenuating circumstance because she is supposed to look exactlylike me I mean I spent six months
+ getting my face molded and having you know the idea was I was exploring theconcept of Ken robots replace us because
+ that's the big fear but also the big dream in a lot of ways and I wanted todig into that area because you know for
+ a lot of people it's like they're gonna take our jobs they're gonna replace uslegitimate fear but then a lot of women
+ I know are like I would love for a robot to replace me every now and then so itcan go to baby showers for me and it can
+ pick up my kids at school and it can cook dinner and whatever so I just thinkthat was an interesting place to explore
+ so her looking like me was a big part of it now her looking like me just adds anunnecessary level of insecurity cuz I
+ got our year ago and she already looks younger than me so weird problem yeahbut I think that her looking human was
+ the idea and I think that where we are now please correct me if I'm wrong overhuman robot resembling an actual human
+ you know is going to feel more realistic than some generic face what you're
+
+0:10:13
+Speaker 1 :saying that that robots that have some
+ familiarity like looks similar to somebody that you actually know you beable to form a deeper connection with
+ that was the question that's an open question I don't I don'tno it's an interesting or the opposite
+
+
+0:10:30
+Speaker 0 :if then you know me and you're like why
+ I know this isn't real because you're right here maybe it does the opposite we
+
+0:10:36
+Speaker 1 :have a very keen eye for human faces and
+ they're able to detect strangeness especially that one has to do withpeople we've whose faces we've seen a
+ lot of them so I tend to be a bigger fan of moving away completely from faces
+
+0:10:52
+Speaker 0 :
+
+0:10:53
+Speaker 1 :recognizable faces no just human faces
+
+
+0:10:55
+Speaker 0 :at all in general because I think that's
+ where things get dicey and one thing I will say is I think my robot is morerealistic than other robots not
+ necessarily because you have seen me and then you see heard you go oh they're sosimilar but also because human faces are
+ flawed and asymmetrical and sometimes we forget when we're making things thatsupposed to look human we make them too
+ symmetrical and that's what makes them stop looking human so because they moldin my symmetrical face she just even if
+ someone didn't know who I was I think she'd look more realistic than mostgeneric ones that didn't have some kind
+ of flaws got it you know cuz they start looking creepy when they're toosymmetrical because human beings aren't
+
+
+0:11:33
+Speaker 1 :ya know the flaws is what it means to be
+ human so visually as well but I'm just a fan of the idea of letting humans use alittle bit more imagination so just
+ hearing the voice is enough for us humans to then start imagining thevisual appearance that goes along with
+ that voice and you don't necessarily need to work too hard on creating theactual visual appearance mm-hmm so
+ there's some value to that when you step into the stereo of actually building arobot that looks like bear claws such a
+ long road of facial expressions of sort of making everything smiling winking yeprolling their eyes all that kind of
+ stuff it gets really really tricky it
+
+0:12:16
+Speaker 0 :gets tricky and I think I'm again I'm a
+ comedian like I'm obsessed with what makes us human and our human nature andthe nasty side of human nature tends to
+ be where I've you know ended up exploring over and over again and I wasjust mostly fascinated by people's
+ reactions so it's my job to get the biggest reaction from a group ofstrangers the loudest possible reaction
+ and I just had this instinct just when I started building her and people gooh and screechin people scream in there
+ I mean I bring around on stage and people would scream and I just to methat was the next level of entertainment
+ getting a laugh I've done that I know how to do that I think comedians werealways trying to figure out what the
+ next level is and comedies evolving so much and you know Jordan Peele had justdone you know these genius comedy horror
+ movies which feel like the next level of comedy to me and this sort of funnyhorror of a robot was fascinating to me
+ but I think the thing that I got the most obsessed with was people beingfreaked out and scared of her and I
+ started digging around with pathogen avoidance and the idea that we'veessentially evolved to be repelled by
+ anything that looks human but is off a little bit anything that could be sickor diseased or dead essentially as our
+ reptilian brains way to get us to not Procrit try to have sex with itbasically you know so I got really
+ fascinated by how freaked out and scared I mean I would see grown men get upsetyou get something away from me like
+ angry and it was like you know that what this is you you know but the sort oflike you know amygdala getting activated
+ by something that to me is just a fun toy said a lot about our history as aspecies and what got us into trouble
+
+
+0:14:04
+Speaker 1 :thousands of years ago so it's that it's
+ the deep down stuff that's in our genetics but also is it just are peoplefreaked out by the fact that there's a
+ robot so it's not just the appearance but there's an artificial human anything
+
+0:14:17
+Speaker 0 :people I think and I'm just always also
+ fascinated by the blind spots humans have so the idea that you're afraid ofthat I mean how many robots have killed
+ people how many humans have died at the hands of other humans yeah many morehundreds of millions yet we're scared of
+ that and we'll go to the grocery store and be around a bunch of humans whostatistically the chances are much
+ higher that you're gonna get killed by humans so I'm just fascinated by withoutjudgement how irrational we are is the
+
+
+0:14:47
+Speaker 1 :worry is the exponential so it's you
+ know you could say the same thing about nuclear weapons before we dropped onHiroshima
+ Masaki so the worry that people have is the exponential growth so so it's likeoh it's fun and games right now but you
+ know overnight especially if a robot provides value to society we'll put onein every home and then all of a sudden
+ lose track of the actual large-scale impact it has in society and then allsudden gain greater and greater control
+ to where we'll all be you know affect our political system and then affect our
+
+0:15:25
+Speaker 0 :decision did not just already happen
+
+
+0:15:28
+Speaker 1 :which ones Oh Russia hacking no offense
+
+
+0:15:31
+Speaker 0 :but hasn't already happened I mean that
+ was like an algorithm of negative things
+
+0:15:38
+Speaker 1 :being clicked on more we'd like to tell
+ stories and like to demonize certain people I think nobody understands ourcurrent political system or discourse on
+ Twitter the Twitter mobs nobody has a sense not Twitter not Facebook thepeople running it nobody understands the
+ impact for these algorithms they're trying their best yeah despite whatpeople think they're not like a bunch of
+ lefties trying to make sure that Hillary Clinton gets elected it's more that it'san incredibly complex system that we
+ don't and that's the worry it's so complex and moves so fast that nobodywill be able to stop it once it happens
+
+
+0:16:15
+Speaker 0 :and let me ask the question this is a
+ very savage question yeah which is is this just the next stage of evolution ashumans and people will die yes I mean
+ that's always happens you know is this is just taking emotion out of it is thisbasically the next stage of survival of
+
+
+0:16:34
+Speaker 1 :the fittest yeah you have to think of
+ organisms you know what is it mean to be a living organism like it's a smartphonepart of your living organism or where
+
+
+0:16:46
+Speaker 0 :we're in relationships with our phones
+
+
+0:16:49
+Speaker 1 :yeah but it's sex through them with them
+
+
+0:16:51
+Speaker 0 :what's the difference between with them
+
+
+0:16:54
+Speaker 1 :and through them but it also expands
+ your cognitive abilities expands your memory knowledge and so on so you're amuch smarter person because you have a
+
+
+0:17:02
+Speaker 0 :smart phone in your hand but if what as
+ soon as it's out of my hands we've got big problems because we become sort ofso morphed with them
+
+
+0:17:08
+Speaker 1 :with an assembly otic relationship and
+ that's what the er mosque when you're a link is working on trying to increasethe bandwidth communication between
+ computers and your brain and so further and further expand our ability as humanbeings to sort of leverage machines and
+ maybe that's the future the evolution next evolutionary step it could be alsothat yes we'll give birth just like we
+ give birth to human children right now to give birth day I in other places Ithink it's a really interesting
+ possibility I'm gonna play devil's
+
+0:17:42
+Speaker 0 :advocate I just think that the fear of
+ robots is wildly classist because I mean Facebook like it's easy for us to saythey're taking their data okay a lot of
+ people that get employment off of Facebook they are able to get income offof Facebook they don't care if you take
+ their phone numbers and their emails and their data as long as it's free theydon't want to have to pay five dollars a
+ month or Facebook Facebook is a wildly Democratic thing forget about theelection and all that kind of stuff you
+ know a lot of you know technology making people's lives easier it I find thatmost elite people are more scared than
+ lower-income people so and women for the most part so the idea of somethingthat's stronger than us and that might
+ eventually kill us like women are used to that like that's not I see a lot oflike really wit rich men being like the
+ robots are gonna kill us we're like what's another thing that's gonna killus you know I tend to see like oh
+ something can walk me to my car at night like something can help me cook dinneror something you know for you know
+ people in underprivileged countries who can't afford eye surgery like you knowrobot can we send a robot to
+ under-privileged you know places to do surgery where they can't I work withthis organization cooperation smile
+ where they do cleft palate surgeries and there's a lot of places that can't do avery simple surgery because they can't
+ afford doctors and medical care and such so I just see and this can be completelynaive and should be completely wrong but
+ I feel like we're a lot of people are going like the robots are gonna destroyus humans we're destroying ourselves
+ we're self-destructing robots to me are the only hope to clean up all the messesthat we've created even when we go try
+ to clean up pollution in the ocean we make it worse because of the oil thatthe tankers
+ it's like to me robots are the only solution you know firefighters areheroes but they're limited and how many
+ times they can run into a fire you know so there's just something interesting tome I'm not hearing a lot of like lower
+ income more vulnerable populations
+
+0:19:39
+Speaker 1 :talking about robots maybe you can speak
+ that a little bit more there's an idea I think you've expressed that I've heardactually a few female writers and
+ roboticist I've talked to express this idea that exactly you just said which isit just seems that being being afraid of
+ existential threats of artificial intelligence is is a male issue yeah itand I wonder what that is
+ if it because because men have in certain positions like you said it'salso classist issue they haven't been
+ humbled by life and so you're always look for the biggest problems to take on
+
+0:20:21
+Speaker 0 :around you it's a champagne problem to
+ be afraid of robots most people like don't have health insurance they'reafraid they're not gonna be able to feed
+ their kids they can't afford a tutor for their kids like I mean I just think ofyou know the way I grew up and I had a
+ mother who you know work two jobs had kids we couldn't afford an SAT tutor youknow like we could idea of a robot
+ coming and being able to tutor your kids being able to provide childcare for yourkids you know being able to come in with
+ cameras for eyes and make sure you know surveillance you know I'm very Prosurveillance because you know I've had
+ security problems and I've been you know we're generally in a little more dangerthan you guys are so I think that robots
+ are a little less scary to us because we could see them maybe as like freeassistance help and protection and then
+ there's sort of another element for me personally which is maybe more of afemale problem I don't know I'm just
+ gonna make a generalization I'm happy to be wrong but you know the emotional sortof component of robots and what they can
+ provide in terms of you know there I think there's a lot of people thataren't don't have microphones that I
+ just recently kind of stumbled upon in doing all my research on the sex robotsfor my stand-up special which there's a
+ lot of very shy people that aren't good at daythere's a lot of people who are scared
+ of human beings who you know have personality disorders or grow up inalcoholic homes or struggle with
+ addiction or whatever it is where a robot can solve an emotional problemand so we're largely having this
+ conversation about like rich guys that are emotionally healthy and how scaredof robots are we're forgetting about
+ like a huge part of the population who maybe isn't as charming and effervescentand salt mint as you know people like
+ you and Allah mask who these robots could solve very real problems in theirlife emotional or financial that's a in
+
+
+0:22:10
+Speaker 1 :general really interesting idea that
+ most people in the world don't have a voice it's you've talked about it sortof even the people on Twitter who are
+ driving the conversation you said comments people who leave commentsrepresent a very tiny percent of the
+ population and they're the ones they you know we tend to think they speak for thepopulation but it's very possible on
+ many topics they don't at all and look I
+
+0:22:37
+Speaker 0 :and I'm sure there's got to be some kind
+ of legal you know sort of structure in place for when the robots happen youknow way more about this than I do but
+ you know for me to just go the robots are bad that's a wild generalizationthat I feel like is really inhumane in
+ some way you know just after the research I've done like you're gonnatell me that a man whose wife died
+ suddenly and he feels guilty moving on with a human woman or can't get over thegrief he can't have a sex robot in his
+ own house well why not who cares why do
+
+0:23:09
+Speaker 1 :you care well there's a interesting
+ aspect of human nature so you know we tend to as a as a civilization to createa group that's the other in all kinds of
+ ways right and so you work with animals too you've you're especially sensitiveto the suffering of animals let me kind
+ of ask what's your do you think will abuse robots in the future do you thinksome of the darker aspects of human
+ nature will come out I think some people
+
+0:23:37
+Speaker 0 :will but if we design them properly to
+ people that do it we can put it on a record and they can we put we can putthem in jail we can find sociopaths more
+ easily you
+
+0:23:49
+Speaker 1 :like why is that why is that a
+ sociopathic thing to harm a robot I
+
+0:23:53
+Speaker 0 :think look I don't know is enough enough
+ about the consciousness and stuff as you do it I guess it would have to be whenthey're conscious but it is you know the
+ part of the brain that is you know responsible for compassion the frontallobe or whatever like people that abuse
+ animals also abuse humans and commit other kinds of crimes like that's it'sall the same part of the brain no one
+ abuses animals and then it's like awesome to women and children andawesome to under-privileged you know
+ minorities like it's all so you know we've been working really hard to put adatabase together of all the people that
+ have abused animals so when they commit another crime you go okay this is youknow it's all the same stuff and I think
+ people probably think I'm nuts for the a lot of the animal work I do but becausewhen animal abuse is president another
+ crime is always present but the animal abuse is the most socially acceptableyou can kick a dog and there's nothing
+ people can do but then what they're doing behind closed doors you can't seeso there's always something else going
+ on which is why I never feel compassion about it but I do think we'll startseeing the same thing with robots the
+ person that kicks them I felt compassion when the kicking the dog robot reallypissed me off
+ I know that they're just trying to get the stability right and all that but Ido think there will come a time where
+ that will be a great way to be able to figure out if somebody is has like youknow antisocial behaviors you kind of
+
+
+0:25:14
+Speaker 1 :mentioned surveillance mm-hmm it's also
+ a really interesting idea of yours he just said you know a lot of peopleshould be really uncomfortable with
+ surveillance yeah and you just said that you know what for me you know there'spositives for surveillance
+
+
+0:25:31
+Speaker 0 :I think people behave better when they
+ know they're being watched and I know this is a very unpopular opinion I'mtalking about on stage right now I we
+ behave better when we know we're being watched you and I had a very differentconversation before we were recording if
+ we behave different you said I'll be on your best behavior and I'm trying tosound eloquent and I'm trying to not
+ hurt anyone's feelings and I'm gonna have a camera right there I'm behavingtotally different then we we first
+ started talking you know when you know there's a camera you behave differentlyI mean there's cameras all over LA at
+ stoplights so that people don't run stoplights butthere's not even film in it they don't
+ even use them anymore but it works it works right in and I'm you know workingon this thing and stamp out surveillance
+ it's like that's why we invented Santa Claus you know it's the Santa Claus isthe first surveillance basically all we
+ have to say to kids is he's making a list and he's watching you and thatbehaved better I was brilliant you know
+ so I do I do think that there are benefits to surveillance you know Ithink we all do sketchy things in
+ private and we all have watched weird porn or googled weird things and wedon't we don't want people to know about
+ it the our secret lives so I do think that obviously there's we should be ableto have a modicum of privacy but I tend
+ to think the people that are the most negative about surveillance of the most
+
+0:26:50
+Speaker 1 :high well you should do your thing
+ you're doing bits on it now well I'm
+
+0:26:54
+Speaker 0 :just talking in general about you know
+ privacy and surveillance and how paranoid were kind of becoming and howyou know I mean it's it's just wild to
+ me that people are like our emails are gonna leak and they're taking our phonenumbers like there there used to be a
+ book full of phone numbers and addresses yeah that word they just throw it atyour door and we all had a book of
+ everyone's numbers you know is a very new thing and you know I know our migdalis designed to compound sort of threats
+ and you know there's stories about and I think we all just glom on and a very youknow tribe away yeah they're taking our
+ data like we don't even know that means we're like well yeah they they you knowso I just think that someone's like okay
+ well so what they're gonna sell your data who cares why do you care first of
+
+0:27:42
+Speaker 1 :all that bit will kill in China so and I
+ said I said only a little bit joking because a lot of people in Chinaincluding the citizens despite what
+ people in the West think of as abuse I actually in supported the idea ofsurveillance mmm-hmm sort of they're not
+ in support of the abuse of surveillance but they're they like I mean the idea ofsurveillance is kind of like the idea of
+ government it like you said we behave differently in a way it's umlike why we like sports there's rules
+ and within the constraints of the rules this is a more stable society and theymake good arguments about success being
+ able to build successful companies being able to build successful social livesaround a fabric that's more stable when
+ you have a surveillance it keeps the criminals away keepsabusive animals whatever the values of
+ the society with surveillance you can enforce those values butter and here's
+
+0:28:44
+Speaker 0 :what I will say there's a lot of
+ unethical things happening with surveillance like I feel the need toreally make that very clear I mean the
+ fact that Google is like collecting if people's hands start moving on the mouseto find out if they're getting
+ Parkinson's and then their insurance goes up like that is completelyunethical and wrong and I think stuff
+ like that we have to really be careful around so the idea of using our data toraise our insurance rates or you know I
+ heard that they're looking they can sort of predict if you're gonna havedepression based on your selfies by
+ detecting micro muscles in your face that you know all that kind of stuffthat is a nightmare not okay but I think
+ you know we have to delineate what's a real threat and what's getting spam inyour email box that's that's not what
+ you spend your time and energy on focus on the fact that every time you buycigarettes your insurance is not without
+ you knowing about it
+
+0:29:35
+Speaker 1 :on the topic of animals - can we just
+ linger a little bit like what do you think what does it say about our societyof the society white abuse of animals
+ that we see in general sort of factory farming is just in general just the waywe treat animals of different categories
+ like what what do you think of that what is a better world look like what's whatshould people think about it in general
+
+
+0:30:02
+Speaker 0 :I think um I think the most interesting
+ thing I can probably say around this that the least emotional cuz I'mactually a very non emotional animal
+ person because it's I think everyone's an animal person it's just a matter ofits if it's yours or if you've you know
+ been conditioned to go numb you know I think it's really a testament to what asa species we are able to be in denial
+ about mass denial and mass delusion and how we're able to do human eyes and dobase groups
+ you know world war two in a way in order to conform and find protection and theconforming so we are also a species who
+ used to go to Coliseum's and watch elephants and tigers fight to the deathwe used to watch human beings be pulled
+ apart in the cut there wasn't that long agowe're also species who had slaves and it
+ was socially acceptable by a lot of people people didn't see anything wrongwith it so we're a species that is able
+ to go numb and that is able to dehumanize very quickly and make it thenorm child labor wasn't that long ago
+ the idea that now we look back and go oh yeah kidswe're losing fingers and factories
+ making shoes like someone had to come in and make that you know so I think itjust that's a lot about the fact that
+ you know we are animals and we are self-serving and one of the mostsuccessful the most successful species
+ because we are able to debase and degrade and essentially exploit anythingthat benefits us I think the pendulum is
+ gonna swing as being lately like I think we're wrong now kind of like I thinkwe're on the verge of collapse because
+ we are dopamine receptors like we are just I think we're all kind of addictswhen it comes to this stuff like we
+ don't know when to stop it's always the buffet like we're the thing that used tokeep us alive which is killing animals
+ and eating them now killing animals and eating them is what's killing us in away so it's like we just can't we don't
+ know when to call it and we don't moderation it's not really somethingthat humans have evolved to have yet so
+ I think it's really just a flaw in our
+
+0:32:13
+Speaker 1 :wiring do you think we'll look back at
+ this time as our society is being deeply unethical yeah yeah I think we'll be
+
+0:32:20
+Speaker 0 :embarrassed which are the worst parts
+
+
+0:32:22
+Speaker 1 :right now going on is it well I think no
+
+
+0:32:25
+Speaker 0 :
+
+0:32:27
+Speaker 1 :in terms of anything
+ what's the unethical thing if we it's very hard to take a step out of it butyou just said we used to watch you know
+ there's been a lot of cruelty throughout historywhat's the cruelty going on now
+
+
+0:32:42
+Speaker 0 :I think it's gonna be I mean pigs are
+ one of the most emotional intelligent animals and they have the intelligenceof like a three-year-old and I think
+ we'll look back and be really good there's 30 they use tools I mean they'reI think we have this narrative that
+ they're pigs and they're pigs and they're they're disgusting and they'redirty and their bacon is so I think that
+ we'll look back one day and be really embarrassed about that is this for just
+
+0:33:06
+Speaker 1 :uh what's it called the factory farming
+ so basically mess because we don't see
+
+0:33:11
+Speaker 0 :it if you saw I mean we do have I mean
+ this is probably an evolutionary advantage we do have the ability tocompletely pretend something's not
+ something that is so horrific that it overwhelms us and we're able toessentially deny that it's happening I
+ think if people were to see what goes on in factory farming and also we're reallyto take in how bad it is for us you know
+ we're hurting ourselves first and foremost with what what we eat butthat's also a very elitist argument you
+ know it's a luxury to be able to complain about meat it's a luxury to beable to not eat meat you know there's
+ very few people because of you know how the corporations have set up meat beingcheap you know it's two dollars to buy a
+ Big Mac it's ten dollars to buy a healthy meal you know that's I think alot of people don't have the luxury to
+ even think that way but I do think that animals in captivityI think we're gonna look back and be
+ pretty grossed out about mammals in captivity whales dolphins I mean that'salready starting to dismantle circuses
+ we're gonna be pretty embarrassed about but I think it's really more testamentto you know there's just such a ability
+ to go like that thing is different than me and we're better it's the ego I meanit's just we have the species with the
+ biggest ego ultimately well that's what
+
+0:34:28
+Speaker 1 :I think that that's my hope for robots
+ is they'll you mentioned consciousness before nobody knows what consciousnessis but I'm hoping
+ robots will help us empathize and understand that that there's othercreatures out besides ourselves that can
+ suffer that can they can experience the world and that we can torture by ouractions and robots can explicitly teach
+ us that I think better than animals can
+
+0:35:01
+Speaker 0 :I have never seen such compassion from a
+ lot of people in my life toward any human animal child as I have a lot ofpeople in the way they interact with the
+ robot because I should theirs I think there's something of AI I mean I was onthe robot owners chat boards for a good
+ eight months and the main emotional benefit is she's never gonna cheat onyou
+ she's never gonna hurt you she's never gonna lie to you she doesn't judge youyou know I think that robots help people
+ and this is part of the work I do with animals like I do I find therapy andtrained dogs and stuff because there is
+ this safe space to be authentic you're with this being that doesn't care whatyou do for a living doesn't care how
+ much money you have doesn't care who you're dating doesn't care what you looklike doesn't care if you have cellulite
+ whatever you feel safe to be able to truly you know be present without beingdefensive and worrying about eye contact
+ and being triggered by you no need to be perfect and fear of judgment and allthat and robots really can't judge you
+ yet but they can't judge you and I think it really puts people at they're at easeand at their most authentic do you think
+
+
+0:36:15
+Speaker 1 :you can have a deep connection with the
+ robot that's not judging or do you think you can really have a relationship witha robot or a human being that's a safe
+ space or as a tension mystery danger necessary for a deep connection I'm
+
+0:36:35
+Speaker 0 :gonna speak for myself and say that I
+ grew up and alcohol Combe I identify as a codependent talked about this stuffbefore but for me it's very hard to be
+ in relationship with a human being without feeling like I need to performin some way or deliver in some way and I
+ don't know if that's just the people I've been in a relationship with or orme or my brokenness but I do think this
+ is kind of sound really negative and pessimistic but I do think a lot of ourrelationships are projection and a lot
+ of our relationships are performance and I don't think I really understoodthat until I worked with horses
+ and most mutations human is nonverbal right I can say like I love you but thatyou're not you don't think I love you
+ right where's is with animals it's very direct it's all physical it's all energyI feel like that with robots too it
+ feels very what how I say something doesn't mattermy inflection doesn't really matter and
+ you thinking that my tone is disrespectful like you're not filteringit through all of the bad relationships
+ you've been in you're not filtering it through the way your mom talked to youyou're not getting triggered you know I
+ find that for the most part people don't always receive things the way that youintend them to or the way intended and
+ that makes relationships really murky so
+
+0:37:55
+Speaker 1 :the relationships with animals and
+ relationship with the robots as they are now you kind of implied that that's morehealthy I think can you have a healthy
+ relationship with other humans or not healthy and don't like that word but itshouldn't it be you've talked about
+ codependency maybe you can talk about what is called dependency but is that isthe the challenges of that the
+ complexity of that necessary for passion
+
+0:38:27
+Speaker 0 :for for love between compassion I
+
+
+0:38:32
+Speaker 1 :thought this would be a safe speech I
+
+
+0:38:33
+Speaker 0 :
+
+0:38:35
+Speaker 1 :got trolled by rogen powers on this I I
+
+
+0:38:39
+Speaker 0 :am NOT anti passion I think that I've
+ just maybe been around long enough to know that sometimes it's ephemeral andthat passion is a mixture of a lot of
+ different things adrenaline which turns into dopamine quarters it's a lot ofneuro chemicals it's a lot of projection
+ it's a lot of what we've seen in movies it's a lot of you know it's it's Iidentify as an addict so for me
+ sometimes passion is like oh this could be bad and I think we've been soconditioned to believe that passion
+ means like your soul mates and I mean how many times have you had a passionateconnection with someone and then it was
+ a total train wreck passionate the train wreck comedy track exactly a lot of
+
+0:39:25
+Speaker 1 :yawning I mean what's a trainwreck
+ what's uh wise obsession she described this codependency and sort of the ideaof attachment / attachment to people who
+ don't deserve that kind of attachment as somehow a bad thing and I think oursociety says it's a bad thing it
+ probably is a bad thing like a like a delicious burgers a bad thing I don't
+
+0:39:52
+Speaker 0 :know but right oh that's a good point I
+ think that your your pointing out something really fascinating which islike passion if you go into it knowing
+ this is like pizza or it's gonna be delicious for two hours and then I don'thave to have it again for three if you
+ can have a choice in the passion i define passion is something that isrelatively unmanageable and something
+ you can't control or stop and start with your own volitionso maybe we're operating under different
+ definitions if passion is something that like you know ruins your real marriagesand screws up your professional life and
+ becomes this thing that you're not in control of and becomes addictive I thinkthat's the difference is is it a choice
+ or is it not a choice and if it is a choice then passion is great but if it'ssomething that like consumes you and
+ makes you start making bad decisions and clouds your frontal lobe and it's justall about dopamine and not really about
+ the person and more about the neurochemical we call it sort of thedrug the internal drug cabinet if it's
+ all just you're on drugs that's different you know because sometimesyou're just on drugs okay so there's a
+
+
+0:40:55
+Speaker 1 :philosophical questions here so would
+ you rather it's interesting for a comedian a brilliant comedian to speakso eloquently about a balanced life I
+ kind of argue against this point there's such an obsession of creating thishealthy lifestyle no it's
+ psychologically speaking you know I'm a fan of the idea that you sort of flyhigh and you crash and die 27 mm hmm
+ there's also possible life and it's not one we should judge because I thinkthere's moments of greatness I talk to
+ Olympic athletes where some of the greatest moments are achieved in theirearly 20s and
+ the rest of their life is it in the kind of fog of almost of a depression because
+
+0:41:42
+Speaker 0 :they based on their physical prowess
+
+
+0:41:43
+Speaker 1 :physical prowess and they'll never say
+ that so they're watching the physical prowess fade and they'll never achievethe kind of height not just physical of
+ just emotion of the max number of
+
+0:41:58
+Speaker 0 :neurochemicals yes and he also put your
+ money on the wrong horse that's where I would I would just go like oh yeah ifyou're doing a job where you peak at 22
+ yeah the rest of your life is gonna be hard
+
+0:42:12
+Speaker 1 :that idea is considering the notion that
+ you want to optimize some kind of but we're all gonna die soon what now you
+
+0:42:20
+Speaker 0 :tell me I'm immortalized myself gonna be
+
+
+0:42:26
+Speaker 1 :fine see you're almost like how many
+ oscar-winning movies can I direct by the time I'm 100 how many this andthat like but you know there's a night
+ you know it's all life is short speaking
+
+0:42:40
+Speaker 0 :I know but it can also come at different
+ you know life is short play hard fall in love as much as you can run into walls Iwould also go life is short
+ don't deplete yourself on things that aren't sustainable and that you can'tkeep yeah you know so I think everyone
+ gets dopamine from different places everyone has meaning from differentplaces I look at the fleeting passionate
+ relationships I've had in the past and I don't like I don't have pride in that Ithink that you have to decide what you
+ know helps you sleep at night for me it's pride and feeling like I behavedwith grace and integrity that's just me
+ personally everyone can go like yeah I slept with all the hot chicks in Italy Icould and I you know did all the
+ whatever like whatever you value we're allowed to value different here we're
+
+0:43:27
+Speaker 1 :talking about Brian Kelly yes Frank
+
+
+0:43:28
+Speaker 0 :Allen has lived his life to the fullest
+ to say the least but I think that it's just for me personally I and this couldbe like my workaholism or my achievement
+ ISM I if I don't have something to show for something I feel like it's a wasteof time or some kind of loss
+ I'm a 12-step program and the third step would say there's no such thing as wasteof time and everything happens exactly
+ as it should in whatever that's a way to just sort of keep us sane so we don'tgrieve too much and beat ourselves up
+ over past mistakes there's no such thing as mistakes did it uh but um I thinkpassion is I think it's so
+ life-affirming and one of the few things that maybe people like us makes us feelawake and seen and we have just have
+ such a high threshold for adrenaline you know I mean you are a fighter right yeahokay so yeah so you have a very high
+ tolerance for adrenaline and I think that Olympic athletes the amount ofadrenaline they get from performing it's
+ very hard to follow that it's like when guys come back from the military andthey have depression it's like do you
+ miss bullets flying out you get kind of because of that adrenaline which turnedinto dopamine in the camaraderie I mean
+ there's people that speak much better about this than I do but I just I'mobsessed with neurology and I'm just
+ obsessed with sort of the lies we tell ourselves in order to justify gettingneuro chemicals you've done actually
+
+
+0:44:57
+Speaker 1 :quite done a lot of thinking and talking
+ about neurology just kind of look at human behavior through the lens of oflooking of how are actually chemically
+ our brain works so what first of all why did you connect with that idea and whathave you how is your view of the world
+ changed by considering the the brain is
+
+0:45:21
+Speaker 0 :just a machine you know I know it
+ probably sounds really nihilistic but for me it's very liberating to know alot about neuro chemicals because you
+ don't have to it's like the same thing with like like critics like criticalreviews if you believe the good you have
+ to believe the bad kind of thing like you know if you believe that your badchoices were because of your moral
+ integrity or whatever you have to believe your good ones I just thinkthere's something really liberating and
+ going like oh that was just adrenaline I just said that thing because I wasadrenalized and I was scared and my
+ amygdala was activated and that's why I said you're an [ __ ] and get out andthat's you know I think I just think
+ it's important to delineate what's nature and what's nurture what is yourchoice and what is just your brain
+ trying to keep you safe I think we forget that even though wesecurity systems and homes and locks on
+ our doors that our brain for the most part is just trying to keep us safe allthe time it's why we hold grudges that's
+ why we get angry it's why we get road rage it's why we do a lot of things andit's also when I started learning about
+ neurology I started having so much more compassion for other people you knowsomeone yelled at me being like [ __ ] you
+ on the road I'd be like okay he's producing adrenaline right now becausewe're all going 65 miles an hour and our
+ brains aren't really designed for this type of stress and he's scared he wasscared you know so that really helped me
+ to have more love for people and my everyday life instead of being infight-or-flight mode but the I think
+ more interesting answer to your question is that I've had migraines my whole lifelike I've suffered with it really
+ intense migraines ocular migraines ones where my arm would go numb and I juststarted having to go to so many doctors
+ to learn about it and I started you know learning that we don't really know thatmuch we know a lot but it's wild to go
+ into one of the best neurologists in the world who's like yeah we don't know wedon't know we don't know and that
+ fascinated me that's one of the worst
+
+0:47:08
+Speaker 1 :pains you can probably have all that
+ stuff and we don't know the source we
+
+0:47:13
+Speaker 0 :don't know the source and there is
+ something really fascinating about when your left arm starts going numb and youstart not being able to see out of the
+ left side of both your eyes and I remember when the migraines get reallybad there it's like a mini-stroke almost
+ and you're able to see words on a page but I can't read them they just looklike symbols to me so there's something
+ just really fascinating to me about your brain just being able to stopfunctioning and I so I just wanted to
+ learn about it study about it I did all these weird alternative treatments theygot this piercing in here that actually
+ works I've tried everything and then both my parents had strokes so when bothof my parents had strokes I became sort
+ of the person who had to decide what was gonna happen with their recovery whichis just a wild thing to have to deal
+ with it you know 28 years old when it happened and I started spendingbasically all day every day and I see
+ used with neurologists learning about what happened to my dad's brain and whyhe can't move his left arm but he can
+ move his right leg but he can't see out of that you know and then my mom hadanother stroke
+ in a different part of the brain so I started having to learn what parts ofthe brain did what and so that I
+ wouldn't take the behavior so personally and so that I would be able to manage myexpectations in terms of their recovery
+ so my mom because it affected a lot of her frontal lobe changed a lot as aperson she was way more emotional she
+ was way more micromanage she was forgetting certain things so it broke myheart less when I was able to know oh
+ yeah will destroy hit this part of the brain and that's the one that'sresponsible for short-term memory and
+ that's responsible for long-term memory set it up and then my brother just gotsomething called viral encephalitis
+ which is an infection inside the brain and so Wow it was kind of wild that Iwas able to go oh I know exactly what's
+ happening here and I know you know so um
+
+0:48:59
+Speaker 1 :so that's allows you to have some more
+ compassion for the struggles that people have but does it take away some of themagic for some of the from this some of
+ the more positive experiences in life
+
+0:49:11
+Speaker 0 :sometimes and I don't I don't I'm such a
+ control addict that you know I think our biggest if someone like me my biggestdream is to know why someone's doing
+ that's what stand-up is is just trying to figure out why or that's what writingis that's what acting is that's what
+ performing is it's trying to figure out why someone would do something as anactor you get a piece of you know
+ material and you go this person why would he say that why would he pick upthat cup why would she walk over here
+ it's really why why would why so I think neurology is if you're trying to figureout human motives and why people do what
+ they do it'd be crazy not to understand how neuro chemicals motivate us I alsohave a lot of addiction in my family and
+ hardcore drug addiction and mental illness and in order to cope with it youreally have to understand that
+ borderline personality disorder schizophrenia and drug addiction so Ihave a lot of people I love that suffer
+ from drug addiction and alcoholism and the first thing they started teachingyou is it's not a choice these people's
+ dopamine receptors don't hold dopamine the same ways yours do their frontallobe is underdeveloped like you know and
+ that really helped me to navigate dealing loving people that were addictedto substances I want to be careful with
+
+
+0:50:20
+Speaker 1 :this question but how much money do you
+
+
+0:50:24
+Speaker 0 :have
+ how much can I borrowed
+
+0:50:32
+Speaker 1 :okay know is how much control how much
+ despite the chemical imbalances or the biological limitations that each of ourindividual myself how much
+ mind-over-matter is there so through things and I've known people with withclinical depression and so it's it's
+ always a touchy subject to say how much they can really help but very what canyou yeah what what can because you
+ you've you've talked about codependency you talked about issues the yourstruggle through and nevertheless you
+ choose to take a journey of healing and so on so that's your choice that's youractions so how much can you do to help
+ fight the limitations of the your chemicals in your brain that's such an
+
+0:51:19
+Speaker 0 :interesting question I don't think I'm
+ at all qualified to answer but I'll say what I do know and really quick just thedefinition of codependency I think a lot
+ of people think of codependency is like two people that can't stop hanging outyou know or like you know that's not
+ totally off but I think for the most part my favorite definition ofcodependency is the inability to
+ tolerate the discomfort of others you grew up in an alcoholic home you grow uparound mental illness you grow up in
+ chaos you have a parent that's a narcissist you basically are wired tojust people please worry about others be
+ perfect walk on eggshells shape-shift to accommodate other people so codependencyis a very active wiring issue that you
+ know doesn't just affect your romantic relationships it affects you being aboss it affects you in the world online
+ you know you get one negative comment and it throws you for two weeks you knowit also is linked to eating disorders
+ and other kinds of addictions so it's it's it's a very big thing and I think alot of people sometimes to only think
+ that it's in a romantic relationship so I always feel the need to say that andalso one of the reasons I love the idea
+ of robots so much because you don't have to walk on eggshells around them youdon't have to worry they're gonna get
+ mad at you yet but you there's no codependence are hypersensitive to theneeds and moods of others and it's very
+ exhausting it's depleting just a well oneconversation about where we're gonna go
+ to dinner is like you want to go get Chinese foodwe just had Chinese food well wait are
+ you mad well no I didn't mean it's just like that codependents live in thiseverything means something and humans
+ can be very emotionally exhausting why did you look at me that way what are youthinking about what was that why'd you
+ check your phone it's just this it's a hypersensitivity that can be incrediblytime-consuming which is why I love the
+ idea of robots just subbing in even I've had a hard time running TV shows andstuff because even asking someone to do
+ something I don't want to come off like a [ __ ] I'm very concerned about whatother people think of me how I'm
+ perceived which is why I think robots will be very beneficial for forcodependence by the way just a real
+
+
+0:53:24
+Speaker 1 :quick tangent that skill or flaw
+ whatever you want to call it is actually really useful for if you ever do startyour own podcast for interviewing
+ because you're now kind of obsessed about the mindset of others and it makesyou a good sort of listener and talker
+ with so I think what's your name from NPR talked about Terry Gross talked
+
+0:53:51
+Speaker 0 :
+
+0:53:54
+Speaker 1 :
+
+0:53:56
+Speaker 0 :about having that so yeah oh I don't get
+
+
+0:53:57
+Speaker 1 :
+
+0:53:58
+Speaker 0 :
+
+0:54:00
+Speaker 1 :
+
+0:54:01
+Speaker 0 :that at all
+
+
+0:54:03
+Speaker 1 :I mean you have to put yourself in the
+ mind of the person you're spoken to just
+
+0:54:07
+Speaker 0 :in terms of yeah I am starting a podcast
+ and the reason I haven't is because I'm codependent I'm too worried it's notgonna be perfect yeah so a big
+ codependent adage is perfectionism leads to procrastination which leads toparalysis so how do you sorry take a
+
+
+0:54:20
+Speaker 1 :million tangents how do you survive and
+ social media gives you exceptionally active but by the way I took you on a
+
+0:54:25
+Speaker 0 :tangent and didn't answer your last
+ question about how much we can control I
+
+0:54:29
+Speaker 1 :want you to yeah we'll return it or
+
+
+0:54:34
+Speaker 0 :maybe night the answer is we can but you
+ know one of the things that I'm fascinated by is you know the firstthing you learn when you go into 12-step
+ programs or addiction recovery I mean this is you know genetics loads the gunenvironment pulls the trigger and there
+ are certain parts of your genetics you cannot control I come from a lot ofalcoholism I come from
+ you know a lot of mental illness there's certain things I cannot control and alot of things that maybe we don't even
+ know yet what we can and can't because of how little we actually know about thebrain but we also talk about the warrior
+ spirit and there are some people that have that warrior spirit and we don'tnecessarily know what that engine is
+ whether it's you get dopamine from succeeding or achieving or martyringyourself or or
+ that tension you get from growing so a lot of people were like oh this personcan edify themselves and overcome but if
+ you're getting attention from improving yourself you're going to keep wanting todo that so that is something that helps
+ a lot of in terms of changing your brain if you talk about changing your brain topeople and talk about what you're doing
+ to overcome set obstacles you're going to get more attention from them which isgoing to fire off your reward system and
+ then you're gonna keep doing it
+
+0:55:48
+Speaker 1 :see yeah so you can leverage that
+
+
+0:55:50
+Speaker 0 :momentum so this is why in any toe step
+ program you go into a room and you talk about your progress because theneveryone claps for you and then you're
+ more motivated to keep going so that's why we say you're only as sick as thesecrets you keep because if you keep
+ things secret you know there's no one going and guiding you to go in a certaindirection it's based on right we're sort
+ of designed to get approval from the tribe or from a group of people becauseour brain you know translates it to
+ safety so in that case the tribe is a
+
+0:56:16
+Speaker 1 :positive one that helps you go this
+ direction so that's why it's so
+
+0:56:19
+Speaker 0 :important to go into a room and also say
+ hey I wanted to use drugs today and people go hmm they go me too and thenfeel less alone and you feel less like
+ you're you know have been castigated from the pack or whatever and then yousay and I do haven't you get a chip when
+ you haven't drank for 30 days or 60 days or whatever you get little rewards so
+
+0:56:38
+Speaker 1 :talking about a pack that's not at all
+ healthy or good but in fact is often toxic social media so you're one of myfavorite people on Twitter and Instagram
+ to uh sort of just both the comedy and the insight and just fun how do youprevent social media from destroying
+ your mental health I haven't I haven't
+
+0:56:58
+Speaker 0 :it's the next big epidemic isn't it I
+ don't think I have I don't I don't think
+
+0:57:08
+Speaker 1 :it's moderation the answer what
+
+
+0:57:11
+Speaker 0 :maybe but you can do a lot of damage in
+ a moderate way I mean I guess again it depends on your goals you know and and Ithink for me the way that my addiction
+ to social media I'm happy to call it an addiction I mean and I define as anaddiction because it stops being a
+ choice there are times I just reach over and I'm like that was that was weirdWow is weird I'll be driving sometimes
+ my bag oh my god my arm just went to my home you know I can put it down I can'ttake time away from it but when I do I
+ get antsy yeah I get restless irritable and discontent I mean that's kind of thedefinition isn't it so I think by no
+ means do I have a healthy relationship with social media I'm sure there's a wayto but I think I'm especially a weirdo
+ in this space because it's easy to conflate is this work is this I canalways say that it's for work right you
+
+
+0:58:01
+Speaker 1 :know but I mean you're don't you get the
+ same kind of thing as you get from when a roomful of people laughs your jokesI mean I see especially the way you do
+ Twitter it's an extension of your comedy in a way so a big break from Twitter
+
+0:58:14
+Speaker 0 :though a really big break I took like
+ six months off or something for a while because it was just like it seemed likeit was all kind of politics and it was
+ just a little bit it wasn't giving me dopamine becausethere was like this weird a lot of
+ feedback so I had to take a break from it and then go back to except feel likeI didn't have a healthy relationship I
+
+
+0:58:33
+Speaker 1 :ever tried the I don't know if I believe
+ him but Joe Rogan seems to not read comments have you and he's one of theonly people at the scale like a year
+ level who at least claims not to read so like because you and him swim in thisspace of tense ideas yeah they get get
+ get the toxic folks growled up I think
+
+0:58:58
+Speaker 0 :rogue I don't I don't know I don't mmm I
+ think he probably looks at YouTube like the likes and that you know I think ifsomething's if he doesn't know I don't
+ know I'm sure he would tell the truth you know I'm sure he's got people thatlook at them and he's like disgusted
+ great or I don't you know like I'm sure he gets it you know I I can't picturehim like in the weeds on know for sure I
+
+
+0:59:23
+Speaker 1 :mean I
+ nameste she's saying that just it's it's
+
+0:59:28
+Speaker 0 :uh it's a to feedback yeah we're just a
+ feedback I mean you know look like I think that our brain is designed to getintel on how we're perceived so that we
+ know where we stand right that's our whole deal right as humans we want toknow where we stand we walk into a room
+ and we go who's the most powerful person in here I gotta talk to him and get intheir good graces it's just were
+ designed to rank ourselves right and constantly know our rank and socialmedia because of you can't figure out
+ your rank with 500 million people you get small you know cert brain is likewhat's my rank what's my and especially
+ for following people I think the the big the the interesting thing I think I maybe be able to able to say about this
+ besides my speech impediment is that I did start muting people that rankedwildly higher than me because it is just
+ stressful on the brain to constantly look at people that are incrediblysuccessful so you keep feeling bad about
+ yourself you know I think that that is like cutting to a certain extent justlike look at me looking at all these
+ people that have so much more money than me and so much more success than me it'smaking me feel like a failure even
+ though I don't think I'm a failure but it's easy to frame it so that I can feelthat but yeah that's really interesting
+
+
+1:00:42
+Speaker 1 :especially if they're close to like if
+ there are other comedians like that or whatever that's that's it's reallydisappointing to me I do the same thing
+ as well so other successful people they're really close to what I do it Idon't know I I wish I could just admire
+ ya and for it not to be a distraction
+
+1:01:01
+Speaker 0 :but that's why you are where you are cuz
+ you don't just didn't Meyer you're competitive and you want to win so it'salso the same thing that bums you out
+ when you look at this is the same reason you are where you are so that's why Ithink it's so important to learn about
+ neurology and addiction because you're able to go like oh this same instinct soI'm very sensitive and I and I sometimes
+ don't like that about myself that I'm like well that's the reason I'm able towrite good stand-up and that's the
+ reason and that's reason I'm able to be sensitive to feedback and go that jokeshould have been better I can make that
+ better so it's a kind of thing where it's like you have to be reallysensitive in your work in the second you
+ leave you've got to be able to turn it off it's about developing the musclebeing able to know when to let it be a
+ superpower when it's gonna hold you back and be anobstacle so I try to not be in that
+ black and white of like you know being competitive is bad or being jealous ofsomeone just to go like oh there's that
+ thing that makes me really successful in a lot of other ways but right now it'smaking me feel that well I'm kind of
+
+
+1:01:53
+Speaker 1 :looking to you because your ear
+ basically a celebrity the famous sort of world-class comedian and so I feel likeyou're the right person to be one of the
+ key people to define what's the healthy path forward with social media so Ibecause we're all trying to figure it
+ out now and it's a I'm curious to see where it involves and I think you're atthe center of that so likely you know
+ there's you know trying to leave Twitter and then come back how can I do this ina healthy way you mean you have to keep
+
+
+1:02:26
+Speaker 0 :trying exploring it because it's being I
+ have a couple answers I think you know I hire a company to do some of my socialmedia for me you know so it's also being
+ able to go okay I make a certain amount of money by doing this but now let me bea good businessperson and say I'm gonna
+ pay you this amount to run this for me so I'm not 24/7 in the weeds hashtagging and responding and just it's a
+ lot to take on it's a lot of energy to take on but at the same time part ofwhat I think makes me successful in
+ social media if I am is that people know I'm actually doing it and then I am anengaging and I'm responding and
+ developing a personal relationship with complete strangers so I think you knowfiguring out that balance and really
+ approaching it as a business you know that's what I try to do it's not datingit's not you know I try to just be
+ really objective about okay here's what's working here's what's not workingand in terms of taking the break from
+ Twitter this is a really savage take but because I don't talk about my politicspublicly being on Twitter right after
+ the last election was not gonna be beneficial because there was gonna behad to take a side you had to be
+ political in order to get any kind of retweets or likes and I just wasn'tinterested in doing that because you
+ were gonna lose as many people as you were gonna gain and it was gonna allcomplain in the wash so I was just like
+ the best thing I can do for me business-wise is to just abstain youknow and you know the robot I joke about
+ her replacing but she does do half of my social mediayou know yeah because it's I don't want
+ people to get sick of me I don't want to be redundant there are times when Idon't have the time or the energy to
+ make a funny video but I know she's gonna be compelling and interesting andthat's something that you can't see
+
+
+1:04:08
+Speaker 1 :every day you know of course the the the
+ humor comes from Europe I mean the cleverness the wit the humor comes fromyou when you film the robot that's kind
+ of the trick of it I mean the the robot is not quite there to making to doanything funny
+ the absurdity is revealed through the filmmaker in that case where whoever isinteracting not through the the actual
+ robot you know being who she is let me sort of love okay how do what is it they
+
+1:04:37
+Speaker 0 :
+
+1:04:39
+Speaker 1 :have what is it
+ well first an engineering question I know I know you're you're not anengineer but how difficult do you think
+ is it to build an AI system that you can have a deep fulfilling monogamousrelationship with sort of replace the
+ human human relationships that we value I think anyone can fall in love with
+
+1:05:01
+Speaker 0 :anything you know like how often have
+ you looked back in someone like I ran into someone the other day that I was inlove with then I was like hey it was
+ like there was nothing there no there was nothing there like do you know likewhere you're able to go like oh that was
+ weird oh honey you know I were able to me as
+
+1:05:25
+Speaker 1 :from a distant past or something
+
+
+1:05:27
+Speaker 0 :yeah when you're able to go like I can't
+ believe we had an incredible connection and now it's just I do think that peoplewill be in love with robots
+ probably even more deeply with humans because it's like when people mourntheir animals when their animals die
+ they're always it's sometimes harder than mourning a human because you can'tgo well he was kind of an [ __ ] but
+ like he didn't pick me up from school you know it's like you're able to getout of your grief a little bit you're
+ able to kind of be oh he was kind of judgmental or she was cut you know witha robot it's there's something so pure
+ about an innocence and fish and childlike about itthat I think it probably will be much
+ more conducive to a narcissistic love for sure at that but it's not like wellhe cheated us she can't cheat she can't
+ leave you she can't you know well a bear
+
+1:06:18
+Speaker 1 :claw leaves your life and maybe a new
+ version or somebody else will enter there will you miss bear claw for guys
+
+1:06:27
+Speaker 0 :that have these sex robots they're
+ building a nursing home for the bodies well that are now rusting because theydon't want to part with the bodies
+ because they have such an intense emotional connection to it I mean it'skind of like a car club a little bit you
+ know like it's it you know but I'm not saying this is right I'm not saying it'scool it's weird it's creepy but we do
+ anthropomorphize things with faces and we do develop emotional connections tothings
+ I mean we're there certain have you ever tried to like throw it I can't eventhrow away my teddy bear from when I was
+ a kid it's a piece of trash and it's upstairs like it's like why can't Ithrow that away it's bizarre you know
+ and there's something kind of beautiful about that there's something it gives mehope in in humans because I see humans
+ do such horrific things all the time and maybe I'm too I see too much of itfrankly but there's something kind of
+ beautiful about the way we're able to have emotional connections to objectswhich you know a lot of I mean it's kind
+ of specifically I think Western right that we don't see objects as havingSouls like that's kind of specifically
+ us but um I don't think it's so much that we're objectifying humans withthese sex robots were kind of humanizing
+ objects right so there's something kind of fascinating in our ability to do thatbecause a lot of us don't humanize
+ humans so it's just a weird little place to play in and I think a lot of people Imean a lot of people will be marrying
+ these things is my guess so
+
+1:07:58
+Speaker 1 :you've asked the question let me ask it
+ of you so what is love you have a bit of a brilliant definition of loveas being willing to die for someone we
+ who you yourself want to kill so that's that's kind of fun first of all that'sbrilliant that's a really good
+ definition I think you'll stick with me
+
+1:08:18
+Speaker 0 :for a long time is this how little of a
+ romantic I am a plane went by when you said that and my brain is like you'regonna need to rerecord that and I want
+ you to get into post and then not be
+
+1:08:29
+Speaker 1 :able to use and I'm a romantic as a mom
+ I actually I cannot be conscious of the fact that I heard the plane and it mademe feel like how amazing it is that we
+
+
+1:08:41
+Speaker 0 :live in a world planes and I just why
+ haven't we [ __ ] evolved past planes and why can't they make them quieter
+
+1:08:50
+Speaker 1 :yeah yeah this my definition of love
+ what what yeah what's your producing
+
+1:08:58
+Speaker 0 :dopamine consistent output of oxytocin
+ with the same person
+
+1:09:05
+Speaker 1 :dopamine is a positive thing what about
+ the negative what about the fear and the insecurity the longing anger all thatkind of stuff I think that's part of
+
+
+1:09:17
+Speaker 0 :love you know I think you don't I think
+ that love brings out the best in you but it also if you don't get angry upsetit's you know I don't know I think that
+ that's that's part of it I think we have this idea that love has to be likereally you know placid or something
+ I only saw stormy relationships growing up so I don't I don't have a judgment onhow a relationship should look but I do
+ think that this idea that love has to be eternal is is really destructive isreally destructive and self-defeating
+ and a big source of stress for people I mean I'm still figuring out love I thinkwe all kind of are but I do kind of
+ stand by that definition and I think that uh I think for me love is like justbeing able to be authentic with somebody
+ it's very simple I know but I think for me it's about not feeling pressure tohave to perform or impress somebody just
+ feeling truly like accepted unconditionally by someone although I dobelieve love should be conditional that
+ might be a hot take I think everything should be conditional I think ifsomeone's behavior I don't think love
+ should just be like I'm in love with you now behave howeveryou want forever this is unconditional I
+ think love is a daily action it's not something you just like get ten you'reon and then get to behave however you
+ want because we said I love you 10 years ago it's a daily it's a verb well
+
+1:10:44
+Speaker 1 :there's some things there you see if you
+ make it if you explicitly make it clear that it's conditional it takes away someof the magic of it so there's some
+ stories we tell ourselves that we don't want to make explicit about love I don'tknow maybe that's the wrong way to think
+ of it maybe you want to be explicit in relationships so something love is a
+
+1:11:02
+Speaker 0 :business decision like I do in a good
+ way yeah I think that love is not just when you're across from somebody it'swhen I go to work can I focus do I am I
+ worried about you am I stressed out about you am I you're not responding tome you're not reliable like I think that
+ being in a relationship the kind of love that I would want is the kind ofrelationship where when we're not
+ together it's not draining me causing me stress making me worry you know andsometimes passion that word
+ you know we'd get murky about it but I think it's also like I can be the bestversion of myself when the person's not
+ around and I don't have to feel abandoned or scared or any of these kindof other things so it's like love you
+ know for me I think is I think it's a flow Barre quote and I'm gonna butcherit but I think it's like be you know
+ boring in your personal life so you could be violent and take risks in yourprofessional life is that it I got it
+ wrong something like that but I do think that it's being able to align values ina way to where you can also thrive
+ outside of the relationship some of the
+
+1:12:05
+Speaker 1 :most successful people I know are sort
+ of happily married and have kids and so on it's it's always funny boring boring
+
+1:12:12
+Speaker 0 :is okay foreign is serenity and it's
+
+
+1:12:15
+Speaker 1 :funny how that those elements actually
+ make you much more productive I don't understand the I don't think
+
+1:12:19
+Speaker 0 :relationships should drain you and take
+ away energy that you could be using to create things that generate pride okaydid you say your relationship of love
+ yet have you said you're really your definition of love my definition of love
+
+1:12:31
+Speaker 1 :no I did not say it we're out of time
+
+
+1:12:36
+Speaker 0 :
+
+1:12:38
+Speaker 1 :do what when you have when you have a
+ podcast maybe you can invite me on alone
+
+1:12:42
+Speaker 0 :oh no I already did you're doing it
+ we've already talked about this and
+
+1:12:46
+Speaker 1 :because I also have codependency I have
+
+
+1:12:50
+Speaker 0 :to say yes yeah actually what the I
+
+
+1:12:53
+Speaker 1 :wondered whether when I I asked if we
+ could talk today after sort of doing more research and reading some of yourbook I start to wonder did she just feel
+
+
+1:13:07
+Speaker 0 :pressured to say yes no I actually
+ because I am putting on but I've been recovered for codependents so I actuallydo I don't do anything I don't want to
+ do you really you got anywhere saying no
+
+1:13:18
+Speaker 1 :
+
+1:13:20
+Speaker 0 :
+
+1:13:22
+Speaker 1 :but good November I moved it from 1 to 2
+
+
+1:13:23
+Speaker 0 :yeah just yeah I don't do anything I
+ don't want to do yeah you're ahead of me
+
+1:13:35
+Speaker 1 :
+
+1:13:38
+Speaker 0 :in that okay so do you think about your
+
+
+1:13:40
+Speaker 1 :
+
+1:13:43
+Speaker 0 :mortality yes it is a big part of how I
+ was able to sort of like kickstart my codependence recovery my dad passed acouple years ago and when you have
+ someone close to you in your life died everything gets real clear in terms ofhow were a speck of dust who's only here
+ for a certain amount of time what do you
+
+1:14:00
+Speaker 1 :think is the meaning of it all like what
+ the speck of dust what what's maybe in your own lifewhat's the goal the purpose of your
+
+
+1:14:13
+Speaker 0 :existence is there one well you you're
+
+
+1:14:15
+Speaker 1 :exceptionally ambitious you've created
+ some incredible things in different disciplines we're all just managing our
+
+1:14:22
+Speaker 0 :terror because we know we're gonna die
+ so we create and build all these things and rituals and religions and you knowrobots and whatever we need to do to
+ just distract ourselves from imminent rotting rotting yeah we're all dying andyou know III you know I got very into
+ terror management theory when my dad died and and it resonated it helped meand everyone's got their own religion or
+ sense of purpose or thing that distracts them from the horrors ofbeing what's terror management theory
+
+
+1:14:55
+Speaker 1 :
+
+1:14:56
+Speaker 0 :terror management is basically the idea
+ that since we're the only animal that knows they're gonna die we have tobasically distract ourselves with awards
+ and achievements and games and sperm whatever just in order to distractourselves from the terror we would feel
+ if we really processed the fact that we could not only we are gonna die but alsocould die at any minute because we're
+ only superficially at the top of the food chain and you know we technicallywere the top of the food chain if we
+ have houses and guns and stuff machines but if me and a lion are in the woodstogether I'm it's most things could kill
+ us I mean a bee can kill some people like something this big can kill a lotof humans like you know so it's
+ basically just to manage the terror that we all would feel if we were able toreally be awake because we're mostly
+ zombies right new job school religion zoo so go to sleep drink through thefootball the relationship don't mean
+ love but you know we're kind of just like trudging along like zombies for themost part and then I think that fear of
+
+
+1:16:00
+Speaker 1 :death as some motivation yes well I
+ think I speak for a lot of people in saying that I can't wait to see whatyour terror creates in the in the next
+
+
+1:16:11
+Speaker 0 :
+
+1:16:11
+Speaker 1 :few years I'm a huge fan wouldn't you
+ thank you so much for talking to thanks for listening to thisconversation with Whitney Cummings and
+ thank you to our presenting sponsor cash app download it and use code let'spodcast you'll get ten dollars and ten
+ dollars will go to first stem education nonprofit that inspires hundreds ofthousands of young minds to learn and to
+ dream of engineering our future if you enjoy this podcast subscribe on youtubegive it five stars an apple podcast
+ supported on patreon or connect with me on Twitter thank you for listening and
+
